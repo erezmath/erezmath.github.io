@@ -15,15 +15,17 @@ math_website/
     main.js
     images/
   data/
-    class_1.json      # Nested JSON for class 1 (topics, lessons, files)
+    class_1.json      # Nested JSON for class 1 (topics, lessons, files and folders)
     class_2.json      # Nested JSON for class 2
     ...
-  dist/
-    index.html
-    class-1.html
-    class-2.html
+  docs/
+    index.html        # home page
+    class-1.html      # class 1 page
+    class-2.html      # class 2 page
     ...
-  build_site.py
+  build_site.py             #creates html and docs dir from json data folder.
+  drive_to_class_json.py    #crawls google drive folders, creates json file in data folder.
+  logger.py                 #logs key places to build.log
   requirements.txt
   README.md
 ```
@@ -76,20 +78,35 @@ Each class has a JSON file (e.g., `class_1.json`) with the following structure:
    pip install -r requirements.txt
    ```
 
-2. Place your class JSON files in the `data/` directory.
+2. Review class_info in drive_to_class_json, and create JSON files into `data/` directory.
 
 3. Edit templates in `templates/` as needed.
 
 4. Build the site:
    ```
-   python build_site.py
+   #with flag to --regen-data, omit if JSON files were already created.
+   python build_site.py --regen-data
    ```
-   This will generate static HTML files in the `dist/` directory and copy static assets.
+   This will generate static HTML files in the `docs/` directory and copy static assets.
 
 ## Customization
 - Edit `templates/` for layout and design.
 - Edit `data/` for your content.
 - Edit `static/` for CSS, JS, and images.
+- Edit 'class_info'
 
 ## Deployment
-- Upload the contents of `dist/` to your static hosting provider (e.g., GitHub Pages, Cloudflare Pages). 
+- Upload the contents of `docs/` to your static hosting provider (e.g., GitHub Pages, Cloudflare Pages). 
+
+## git actions before commiting
+git status
+git add .
+git commit -m "my message"
+git push -u origin main
+git remote set-url origin https://github.com/<USER_NAME>/<USERNAME.github.io.git>
+
+# deployment to github pages and github page actions:
+if you want to auto build project using gitactions, add secret to github actions, read .github\workflows\readme.md.
+
+# logging
+logs are written to build.log

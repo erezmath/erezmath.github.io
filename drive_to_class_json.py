@@ -8,6 +8,12 @@ from google.auth.transport.requests import Request
 import pickle
 from natsort import natsorted
 import shutil
+from logger import log_event
+from datetime import datetime
+import pytz
+
+
+log_event('Drive-to-class JSON generation started')
 
 # If modifying these SCOPES, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
@@ -32,6 +38,7 @@ class_info = [
 ]
 
 def get_drive_service():
+    """Authenticate and return a Google Drive service client."""
     creds = None
     if os.path.exists(TOKEN_PATH):
         with open(TOKEN_PATH, 'rb') as token:
@@ -47,16 +54,19 @@ def get_drive_service():
     return build('drive', 'v3', credentials=creds)
 
 def extract_folder_id(url):
+    """Extract the folder ID from a Google Drive URL."""
     match = re.search(r'/folders/([a-zA-Z0-9_-]+)', url)
     return match.group(1) if match else url
 
 def list_folder_contents(service, folder_id):
+    """List all files and folders in a Google Drive folder."""
     query = f"'{folder_id}' in parents and trashed = false"
     results = service.files().list(q=query, fields="files(id, name, mimeType)", pageSize=1000).execute()
     files = results.get('files', [])
     return natsorted(files, key=lambda x: x['name'])
 
 def crawl_lesson_content(service, folder_id):
+    """Recursively crawl the contents of a lesson folder."""
     items = list_folder_contents(service, folder_id)
     content = []
     for item in items:
@@ -77,6 +87,7 @@ def crawl_lesson_content(service, folder_id):
     return content
 
 def crawl_class(service, class_name, folder_id, banner_url, url_name):
+    """Crawl all topics and lessons for a class."""
     topics = []
     topic_folders = [f for f in list_folder_contents(service, folder_id) if f['mimeType'] == 'application/vnd.google-apps.folder']
     for topic in topic_folders:
@@ -105,6 +116,9 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name):
     }
 
 def main():
+    """Main process: cleans data dir, crawls all classes, writes JSON."""
+    log_event('Main process started')
+    print('Main process started!')
     # Clean data directory before generating new JSON files
     if os.path.exists(DATA_DIR):
         shutil.rmtree(DATA_DIR)
@@ -116,13 +130,16 @@ def main():
         folder_url = cls['google_drive_url']
         banner_url = cls.get('banner_url', '')
         folder_id = extract_folder_id(folder_url)
-        print(f'Crawling class: {class_name} (folder ID: {folder_id})')
+        log_event(f'Crawling url_name: {url_name} (folder_url: {folder_url})')
         class_json = crawl_class(service, class_name, folder_id, banner_url, url_name)
         # Use url_name for output filename
         out_path = os.path.join(DATA_DIR, f'class-{url_name}.json')
         with open(out_path, 'w', encoding='utf-8') as f:
             json.dump(class_json, f, ensure_ascii=False, indent=2)
+        log_event(f'Wrote {out_path}')
         print(f'Wrote {out_path}')
+    log_event('All classes processed. JSON generation complete.')
+    print('All classes processed. JSON generation complete.')
 
 if __name__ == '__main__':
     main() 

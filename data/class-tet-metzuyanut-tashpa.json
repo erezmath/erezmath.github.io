@@ -1801,7 +1801,7 @@
           ]
         },
         {
-          "name": "7. בוחן לדוגמא דצמבר - אלגברה מילולי ומלבן",
+          "name": "7. בוחן לדוגמא דצמבר - בעיות מילוליות גאומטריות, ומלבן",
           "desc": "",
           "content": [
             {
@@ -1812,7 +1812,7 @@
           ]
         },
         {
-          "name": "8. בוחן לדוגמא דצמבר- חקירת פרבולה מלאה בהצגות שונים",
+          "name": "8. בוחן לדוגמא דצמבר - חקירת פרבולה מלאה בהצגות שונים",
           "desc": "",
           "content": [
             {
@@ -1905,8 +1905,13 @@
           "desc": "",
           "content": [
             {
+              "type": "file",
+              "name": "1. חומר למבחן מרץ",
+              "url": "https://drive.google.com/file/d/1F2NTKT8go80tigafMX3Q-ubARIqH3GHE/view"
+            },
+            {
               "type": "folder",
-              "name": "בעיות מילוליות ויקיצון",
+              "name": "2. בעיות מילוליות וקיצון",
               "content": [
                 {
                   "type": "file",
@@ -1951,13 +1956,55 @@
               ]
             },
             {
-              "type": "file",
-              "name": "חומר למבחן מרץ",
-              "url": "https://drive.google.com/file/d/1F2NTKT8go80tigafMX3Q-ubARIqH3GHE/view"
+              "type": "folder",
+              "name": "3. תרגול פרבולות למבחן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "פרבולות - ניתן בעבר כש.ב",
+                  "url": "https://drive.google.com/file/d/1m80ujQGQ2CyM1fmqa26NhD9Br3TKNTvM/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פרובלות מהספר",
+                  "url": "https://drive.google.com/file/d/13Nh18NYX4iXcyonfpbpzcGDAowYRkzdH/view"
+                }
+              ]
             },
             {
               "type": "folder",
-              "name": "מבחן אמיתי",
+              "name": "4. מבחנים לדוגמא",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "דף תרגול 1",
+                  "url": "https://drive.google.com/file/d/12TAH7kLPwXGTITWEVUX0HKm_2qgOHYFP/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דף תרגול 2",
+                  "url": "https://drive.google.com/file/d/1jQsH-3clV8LWtLgqLf1_D9h0cB--WY59/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דף תרגול 3",
+                  "url": "https://drive.google.com/file/d/1t80lgNyxcZ7YskaOHcBbKhqtOTVEv8gW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פתרון דף עבודה 2",
+                  "url": "https://drive.google.com/file/d/1GF0rk33nkbISeu2KYpXnqOqJTn4yt0Pd/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פתרון דף עבודה 3",
+                  "url": "https://drive.google.com/file/d/1VtKm55KKBGj-Biw-098CY9qtewPUOKi2/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "5. מבחן אמיתי",
               "content": [
                 {
                   "type": "folder",
@@ -1995,53 +2042,6 @@
                       "url": "https://drive.google.com/file/d/11F7BWaUrjcfLjMv4Hpy7p7DHriNHq3KU/view"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "מבחנים לדוגמא",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "דף תרגול 1",
-                  "url": "https://drive.google.com/file/d/12TAH7kLPwXGTITWEVUX0HKm_2qgOHYFP/view"
-                },
-                {
-                  "type": "file",
-                  "name": "דף תרגול 2",
-                  "url": "https://drive.google.com/file/d/1jQsH-3clV8LWtLgqLf1_D9h0cB--WY59/view"
-                },
-                {
-                  "type": "file",
-                  "name": "דף תרגול 3",
-                  "url": "https://drive.google.com/file/d/1t80lgNyxcZ7YskaOHcBbKhqtOTVEv8gW/view"
-                },
-                {
-                  "type": "file",
-                  "name": "פתרון דף עבודה 2",
-                  "url": "https://drive.google.com/file/d/1GF0rk33nkbISeu2KYpXnqOqJTn4yt0Pd/view"
-                },
-                {
-                  "type": "file",
-                  "name": "פתרון דף עבודה 3",
-                  "url": "https://drive.google.com/file/d/1VtKm55KKBGj-Biw-098CY9qtewPUOKi2/view"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "עוד פרבולות",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "פרבולות - ניתן בעבר כש.ב",
-                  "url": "https://drive.google.com/file/d/1m80ujQGQ2CyM1fmqa26NhD9Br3TKNTvM/view"
-                },
-                {
-                  "type": "file",
-                  "name": "פרובלות מהספר",
-                  "url": "https://drive.google.com/file/d/13Nh18NYX4iXcyonfpbpzcGDAowYRkzdH/view"
                 }
               ]
             }

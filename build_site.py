@@ -4,6 +4,10 @@ import json
 import subprocess
 import argparse
 from jinja2 import Environment, FileSystemLoader
+import logging
+from datetime import datetime
+import pytz
+from logger import log_event
 
 # Paths
 TEMPLATES_DIR = 'templates'
@@ -22,7 +26,9 @@ parser.add_argument('--regen-data', action='store_true', help='Regenerate class 
 args = parser.parse_args()
 
 if args.regen_data:
+    log_event('Regenerating data with drive_to_class_json.py')
     subprocess.run(['python', 'drive_to_class_json.py'], check=True)
+    log_event('Data regeneration complete')
 
 # Ensure dist exists before any file operations
 if not os.path.exists(DIST_DIR):
@@ -32,6 +38,7 @@ if not os.path.exists(DIST_DIR):
 env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
 
 def load_class_jsons():
+    """Load all class JSON files from the data directory."""
     class_files = [f for f in os.listdir(DATA_DIR) if f.endswith('.json')]
     classes = []
     for filename in class_files:
@@ -40,9 +47,11 @@ def load_class_jsons():
             # Use url_name from JSON
             class_data['id'] = class_data.get('url_name', os.path.splitext(filename)[0].replace('class-', '').replace('class_', ''))
             classes.append(class_data)
+    log_event(f'Loaded {len(classes)} class JSON files')
     return classes
 
 def render_index(classes):
+    """Render the main index.html page from class summaries."""
     template = env.get_template('index.html')
     # For index, pass only summary info for each class
     class_summaries = [
@@ -61,8 +70,10 @@ def render_index(classes):
     html = template.render(classes=class_summaries)
     with open(os.path.join(DIST_DIR, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html)
+    log_event('Rendered index.html')
 
 def render_class_pages(classes):
+    """Render an HTML page for each class."""
     template = env.get_template('class.html')
     for c in classes:
         url_name = c.get('url_name', '') or c.get('name', '').replace(' ', '_')
@@ -70,8 +81,10 @@ def render_class_pages(classes):
         filename = f'class-{url_name}.html'
         with open(os.path.join(DIST_DIR, filename), 'w', encoding='utf-8') as f:
             f.write(html)
+    log_event('Rendered all class pages')
 
 def copy_static():
+    """Copy static assets to the output directory."""
     static_dist = os.path.join(DIST_DIR, 'static')
     if os.path.exists(static_dist):
         shutil.rmtree(static_dist)
@@ -79,8 +92,10 @@ def copy_static():
         shutil.copytree(STATIC_DIR, static_dist)
     else:
         print('Warning: static/ directory does not exist. No static assets copied.')
+    log_event('Copied static assets')
 
 def copy_images():
+    """Copy images to the output directory."""
     images_dist = os.path.join(DIST_DIR, 'images')
     if os.path.exists(images_dist):
         shutil.rmtree(images_dist)
@@ -88,8 +103,12 @@ def copy_images():
         shutil.copytree('images', images_dist)
     else:
         print('Warning: images/ directory does not exist. No images copied.')
+    log_event('Copied images')
 
 def main():
+    """Main build process: cleans output, loads data, renders pages, copies assets."""
+    log_event('Main build process started')
+    print('Main build process started!')
     # Clean dist directory before building
     if os.path.exists(DIST_DIR):
         shutil.rmtree(DIST_DIR)
@@ -100,7 +119,8 @@ def main():
     render_class_pages(classes)
     copy_static()
     copy_images()
-    print('Site built successfully!')
+    log_event('Site built successfully!')
+    print('site built successfully!')
 
 if __name__ == '__main__':
     main() 
