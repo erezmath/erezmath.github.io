@@ -53,7 +53,7 @@
           ]
         },
         {
-          "name": "2. חוק הפילוג המורחב ומשוואות",
+          "name": "2. חוק הפילוג המורחב, פתרון משוואות עם חוק הפילוג המורחב",
           "desc": "",
           "content": [
             {
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "name": "3. חוק הפילוג ש.ב וחזרה על משוואת ישר",
+          "name": "3. חוק הפילוג המורחב - המשך - משוואות ושאלות מילוליות",
           "desc": "",
           "content": [
             {
@@ -80,7 +80,7 @@
           ]
         },
         {
-          "name": "4. נוסחת הכפל הראשונה",
+          "name": "4. נוסחת הכפל המקוצר הראשונה",
           "desc": "",
           "content": [
             {
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "name": "5. שתי נוסחאות הכפל הנוספות",
+          "name": "5. שתי נוסחאות הכפל המקוצר הנוספות",
           "desc": "",
           "content": [
             {
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "name": "6. פרוק לגורמים - מספר איקס או ביטוי",
+          "name": "6. פרוק לגורמים - הוצאת גורם משותף",
           "desc": "",
           "content": [
             {
@@ -128,7 +128,7 @@
           ]
         },
         {
-          "name": "7. בוחן לדוגמא משוואות נוסחאות כפל מקוצר",
+          "name": "7. בוחן לדוגמא ספטמבר - משוואות נוסחאות כפל מקוצר",
           "desc": "",
           "content": [
             {
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "name": "8. פירוק לגורמים - נוסחאות הכפל משולב",
+          "name": "8. פירוק לגורמים - בשילוב כל נוסחאות הכפל המקוצר",
           "desc": "",
           "content": [
             {
@@ -176,7 +176,7 @@
           ]
         },
         {
-          "name": "10. פירוק טרינום",
+          "name": "10. פירוק לגורמים באמצעות טרינום",
           "desc": "",
           "content": [
             {
@@ -208,7 +208,7 @@
           "content": []
         },
         {
-          "name": "12. צמצום שברים אלגבריים",
+          "name": "12. צמצום שברים אלגבריים, חור על קצה המזלג",
           "desc": "",
           "content": [
             {
@@ -256,7 +256,7 @@
           ]
         },
         {
-          "name": "15. כפל וחילוק שברים - חור, משוואה, נעלם",
+          "name": "15. כפל וחילוק שברים אלגבריים - שרטוט, חור, משוואות",
           "desc": "",
           "content": [
             {
@@ -277,7 +277,7 @@
           ]
         },
         {
-          "name": "16. משוואות עם מכנים",
+          "name": "16. משוואות עם מכנים, כולל בעיות מילוליות",
           "desc": "",
           "content": [
             {
@@ -314,7 +314,7 @@
           ]
         },
         {
-          "name": "18. הכנה למבחן - חלק אלגברה - משוואות צמצום ומילולית",
+          "name": "18. הכנה למבחן נובמבר - חלק אלגברה - משוואות צמצום ובעיות מילולית",
           "desc": "",
           "content": [
             {
@@ -325,18 +325,33 @@
           ]
         },
         {
-          "name": "19. פרבולות - מבוא",
+          "name": "19. פרבולות - מבוא, הפרבולה x^2, טבלת ערכים, פרבולה צרה ורחבה ax^2, הזזה אנכית ax^2+c",
           "desc": "",
           "content": [
             {
               "type": "file",
-              "name": "ש.ב",
+              "name": "1. פרבולות - מבוא, טבלת ערכים, השפעת המקדם a",
+              "url": "https://drive.google.com/file/d/18NORDQiGWg0J7Iu3ag7OQ61n6Y7kVqxa/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פרבולות - הזזה אנכית + חיתוך צירים",
+              "url": "https://drive.google.com/file/d/1vpsl8PGBYDOoIbn5bhQ9Ay_fQhRyZtpW/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב",
               "url": "https://drive.google.com/file/d/1XNzc2nXM1H4OEVVgEEwYKkQykV05xIWJ/view"
+            },
+            {
+              "type": "file",
+              "name": "4. פתרון חקירת פרבולה לדוגמא",
+              "url": "https://drive.google.com/file/d/1oGkWwkKBue-EJah7QPiPMCjJd7LE_ON7/view"
             }
           ]
         },
         {
-          "name": "20. פרבולות - חזרה, חקירה, עלייה וירידה, פתרון גרפי ואלגברי",
+          "name": "20. פרבולות - חזרה, חקירה מלאה, תחומי עלייה וירידה",
           "desc": "",
           "content": [
             {
@@ -357,13 +372,13 @@
             },
             {
               "type": "file",
-              "name": "2. נוסחת השורשים עם דוגמאות פתורות",
+              "name": "2. נוסחת השורשים - דוגמאות פתורות נוספות",
               "url": "https://drive.google.com/file/d/1_N0hSIocPRnRU9LsZMpMqQXCgrvTLv2B/view"
             }
           ]
         },
         {
-          "name": "22. פרבולות - חקירה בהצגה סטנדרטית",
+          "name": "22. פרבולות - חקירה בהצגה סטנדרטית ax^2+bx+c , כולל פרמטר ומציאתו",
           "desc": "",
           "content": [
             {
@@ -374,7 +389,7 @@
           ]
         },
         {
-          "name": "23. פרבולות - הצגה קודקודית",
+          "name": "23. פרבולות - הצגה קודקודית a(x-p)^2 + k",
           "desc": "",
           "content": [
             {
@@ -395,7 +410,7 @@
           ]
         },
         {
-          "name": "24. פרבולה - הצגה קודקודית",
+          "name": "24. פרבולה - הצגת מכפלה",
           "desc": "",
           "content": [
             {
@@ -406,7 +421,7 @@
           ]
         },
         {
-          "name": "25. השלמה לריבוע והוכחת נוסחת השורשים",
+          "name": "25. השלמה לריבוע, פתרון עם פרמטרים, והוכחה בשלבים של נוסחת השורשים",
           "desc": "",
           "content": [
             {
@@ -417,7 +432,7 @@
           ]
         },
         {
-          "name": "26. פרבולות עם פרמטרים אסינכרונית",
+          "name": "26. פרבולות עם פרמטרים - משימה אסינכרונית",
           "desc": "",
           "content": [
             {
@@ -428,7 +443,18 @@
           ]
         },
         {
-          "name": "27. פרבולות עם פרמטרים",
+          "name": "27.5. עבודת חנוכה",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "עבודת חנוכה באלגברה",
+              "url": "https://drive.google.com/file/d/1yJ2IfRbiw8clZRjPtl-976LNOZCmx4yQ/view"
+            }
+          ]
+        },
+        {
+          "name": "27. פרבולות  עם פרמטרים ומציאתם על פי רמזים",
           "desc": "",
           "content": [
             {
@@ -444,7 +470,7 @@
           ]
         },
         {
-          "name": "28. חיוביות ושליליות",
+          "name": "28. פרבולות - תחומי חיוביות ושליליות",
           "desc": "",
           "content": [
             {
@@ -455,7 +481,7 @@
           ]
         },
         {
-          "name": "29. שתי משוואות בשני נעלמים",
+          "name": "29. שתי משוואות בשני נעלמים - שיטת הצבה ושיטת השוואת מקדמים",
           "desc": "",
           "content": [
             {
@@ -508,7 +534,7 @@
           ]
         },
         {
-          "name": "32. תרגול נוסף למבחן",
+          "name": "32. תרגול נוסף למבחן ינואר - משוואות, חקירת פרבולות, פרבולות עם מציאת פרמטרים",
           "desc": "",
           "content": [
             {
@@ -519,7 +545,7 @@
           ]
         },
         {
-          "name": "33. תרגול נוסף למבחן",
+          "name": "33. תרגול נוסף למבחן ינואר - משוואות וחקירת פרבולה",
           "desc": "",
           "content": [
             {
@@ -563,7 +589,7 @@
           ]
         },
         {
-          "name": "38. פרבולות כיפת ברזל",
+          "name": "38. חיתוך 2 פרבולות וישר - שאלות סיכום ושאלת פרבולה ויירוט טיל כיפת ברזל",
           "desc": "",
           "content": [
             {
@@ -574,7 +600,7 @@
           ]
         },
         {
-          "name": "39. אי שוויון ריבועי אלגברי",
+          "name": "39. אי שוויון ריבועי - פתרון אלגברי",
           "desc": "",
           "content": [
             {
@@ -611,7 +637,7 @@
           ]
         },
         {
-          "name": "41. בעית קיצון קניה מכירה",
+          "name": "41. בעיות מילוליות קנייה ומכירה - התחלת בעיות קיצון",
           "desc": "",
           "content": [
             {
@@ -861,7 +887,7 @@
           ]
         },
         {
-          "name": "56. פישוט - חיבור וחיסור שברים",
+          "name": "56. פישוט - חיבור וחיסור שברים אלגבריים",
           "desc": "",
           "content": [
             {
@@ -882,7 +908,7 @@
           ]
         },
         {
-          "name": "57. פישוט - מוד53 וכפל",
+          "name": "57. פישוט - חיבור וחיסור שברים אלגבריים עם שימוש במחשבון ומוד53. שילוב גם עם כפל וחילוק",
           "desc": "",
           "content": [
             {
@@ -1490,7 +1516,7 @@
           ]
         },
         {
-          "name": "2. בוחן לדוגמא דלתון",
+          "name": "2. בוחן לדוגמא ספטמבר -  דלתון",
           "desc": "",
           "content": [
             {
@@ -1506,7 +1532,7 @@
           ]
         },
         {
-          "name": "3. בוחן לדוגמא משוואות נוסחאות כפל מקוצר",
+          "name": "3. בוחן לדוגמא סוף ספטמבר - משוואות נוסחאות כפל מקוצר",
           "desc": "",
           "content": [
             {
@@ -1522,7 +1548,23 @@
           ]
         },
         {
-          "name": "4. בוחן לדוגמא טרפז",
+          "name": "4.5 עבודת סוכות",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת חופש - אלגברה",
+              "url": "https://drive.google.com/file/d/1N6nD_-y3d-kz4tXVRfrJOQ-wjQmqCQg8/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון שאלה מילולית מספר 141 מהעבודה",
+              "url": "https://drive.google.com/file/d/13lAfqUBokgSIEUDPigUPYr05htYXc5NI/view"
+            }
+          ]
+        },
+        {
+          "name": "4. בוחן לדוגמא סוף ספטמבר - טרפז",
           "desc": "",
           "content": [
             {
@@ -1533,9 +1575,44 @@
           ]
         },
         {
-          "name": "5. בוחן סוכות",
+          "name": "5. בוחן סוכות - 90 דקות - משוואות, נוסחאות הכפל המקוצר, פירוק לגורמים, דלתון, טרפז",
           "desc": "",
           "content": [
+            {
+              "type": "file",
+              "name": "1. חומר לבוחן ומבנה הבוחן",
+              "url": "https://drive.google.com/file/d/1AWfe6vbmZWGsQoJ2aeu7N-LlbA2LUqb3/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בוחן לדוגמא",
+              "url": "https://drive.google.com/file/d/1zD_mug1itVf-qLtitvQnznmKKA6F7vdC/view"
+            },
+            {
+              "type": "file",
+              "name": "3. בוחן לדוגמא - עם פתרונות",
+              "url": "https://drive.google.com/file/d/1DcjNrjJecOJ7hBt900ECZwV60KHFoycw/view"
+            },
+            {
+              "type": "file",
+              "name": "4. בוחן ט מצוינות סוכות - טור א",
+              "url": "https://drive.google.com/file/d/1F_QGb_iy84dBctX-XwdPY3fJQ1x-hjJB/view"
+            },
+            {
+              "type": "file",
+              "name": "5. בוחן ט מצוינות סוכות - טור א - פתרון",
+              "url": "https://drive.google.com/file/d/1FOhofsD8chTXyILHIw4ymY0jhcvNRbTV/view"
+            },
+            {
+              "type": "file",
+              "name": "6. בוחן ט מצוינות סוכות - טור ב",
+              "url": "https://drive.google.com/file/d/1Fc_9gijEh46_o0ZSGd-6mXM4Zfcl1Nj8/view"
+            },
+            {
+              "type": "file",
+              "name": "7. בוחן ט מצוינות סוכות - טור ב - פתרון",
+              "url": "https://drive.google.com/file/d/1FWbavb4gaRE7U8eXYMTJItqv1BqBbhn8/view"
+            },
             {
               "type": "folder",
               "name": "אלגברה",
@@ -1568,31 +1645,6 @@
               ]
             },
             {
-              "type": "file",
-              "name": "בוחן ט מצוינות סוכות - טור א - פתרון",
-              "url": "https://drive.google.com/file/d/1FOhofsD8chTXyILHIw4ymY0jhcvNRbTV/view"
-            },
-            {
-              "type": "file",
-              "name": "בוחן ט מצוינות סוכות - טור א",
-              "url": "https://drive.google.com/file/d/1F_QGb_iy84dBctX-XwdPY3fJQ1x-hjJB/view"
-            },
-            {
-              "type": "file",
-              "name": "בוחן ט מצוינות סוכות - טור ב - פתרון",
-              "url": "https://drive.google.com/file/d/1FWbavb4gaRE7U8eXYMTJItqv1BqBbhn8/view"
-            },
-            {
-              "type": "file",
-              "name": "בוחן ט מצוינות סוכות - טור ב",
-              "url": "https://drive.google.com/file/d/1Fc_9gijEh46_o0ZSGd-6mXM4Zfcl1Nj8/view"
-            },
-            {
-              "type": "file",
-              "name": "בוחן לדוגמא",
-              "url": "https://drive.google.com/file/d/1DcjNrjJecOJ7hBt900ECZwV60KHFoycw/view"
-            },
-            {
               "type": "folder",
               "name": "גאומטריה",
               "content": [
@@ -1617,23 +1669,28 @@
                   "url": "https://drive.google.com/file/d/1AMel5EJCZbRFEKY76tu0byQ9FxVgOUgw/view"
                 }
               ]
-            },
-            {
-              "type": "file",
-              "name": "חומר לבוחן ומבנה הבוחן.docx",
-              "url": "https://drive.google.com/file/d/1AQcGT6Kn1jBud6FPTyCEQqEFxFgSUxFM/view"
-            },
-            {
-              "type": "file",
-              "name": "חומר לבוחן ומבנה הבוחן",
-              "url": "https://drive.google.com/file/d/1AWfe6vbmZWGsQoJ2aeu7N-LlbA2LUqb3/view"
             }
           ]
         },
         {
-          "name": "6. מבחן נובמבר",
+          "name": "6. מבחן נובמבר - משוואות עם שברים, צמצום שברים, בעיות מילוליות, גאומטריה מקבילית",
           "desc": "",
           "content": [
+            {
+              "type": "file",
+              "name": "1. חומר למבחן נובמבר",
+              "url": "https://drive.google.com/file/d/1NCQFq1G2scPzW_yzJYAfOjZLIaNjDrO0/view"
+            },
+            {
+              "type": "file",
+              "name": "2. מבחן סימולציה - כולל פתרון",
+              "url": "https://drive.google.com/file/d/1OPV70NyCf9S_ecaPzxA4rQdPpUl7l6zb/view"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן נובמבר - כולל פתרון",
+              "url": "https://drive.google.com/file/d/1ZR-HbkIzqhCdn36RtfeA19ctxyYMLzow/view"
+            },
             {
               "type": "folder",
               "name": "חומר למבחן",
@@ -1740,42 +1797,27 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "file",
-              "name": "חומר למבחן נובמבר",
-              "url": "https://drive.google.com/file/d/1NCQFq1G2scPzW_yzJYAfOjZLIaNjDrO0/view"
-            },
-            {
-              "type": "file",
-              "name": "מבחן נובמבר - כולל פתרון",
-              "url": "https://drive.google.com/file/d/1ZR-HbkIzqhCdn36RtfeA19ctxyYMLzow/view"
-            },
-            {
-              "type": "file",
-              "name": "מבחן סימולציה - כולל פתרון",
-              "url": "https://drive.google.com/file/d/1OPV70NyCf9S_ecaPzxA4rQdPpUl7l6zb/view"
             }
           ]
         },
         {
-          "name": "7. בוחן לדוגמא אלגברה מילולי ומלבן",
+          "name": "7. בוחן לדוגמא דצמבר - אלגברה מילולי ומלבן",
           "desc": "",
           "content": [
             {
               "type": "file",
-              "name": "בוחן לדוגמא דצמבר ופתרון",
+              "name": "1. בוחן לדוגמא דצמבר ופתרון",
               "url": "https://drive.google.com/file/d/1ZQwIlbppEa_NT0PnFLY6CEFviKuThuUr/view"
             }
           ]
         },
         {
-          "name": "8. בוחן לדוגמא- פרבולות וייצוגים",
+          "name": "8. בוחן לדוגמא דצמבר- חקירת פרבולה מלאה בהצגות שונים",
           "desc": "",
           "content": [
             {
               "type": "file",
-              "name": "בוחן פרבולות",
+              "name": "1. בוחן פרבולות",
               "url": "https://drive.google.com/file/d/1ejYoA-y814Z2mLMafgrjzdApm2L8zGkV/view"
             }
           ]
@@ -1792,53 +1834,53 @@
           ]
         },
         {
-          "name": "10. מבחן ינואר",
+          "name": "10. מבחן ינואר - שתי משוואות עם שני נעלמים, חקירת פרבולה עם פרמטרים, מלבן, תיכון ליתר, משולש 30-60-90",
           "desc": "",
           "content": [
             {
               "type": "file",
-              "name": "הכנה למבחן",
-              "url": "https://drive.google.com/file/d/1lcR6_qVWU_zIY5A--7v-eLCqQjtiF300/view"
-            },
-            {
-              "type": "file",
-              "name": "חומר למבחן ינואר",
+              "name": "1. חומר למבחן ינואר",
               "url": "https://drive.google.com/file/d/1kxHyk7Qy2JWvjXogodZTqXOTFEKPoLuw/view"
             },
             {
               "type": "file",
-              "name": "מבחן ט מצוינות - ינואר - טור א - פתרון",
-              "url": "https://drive.google.com/file/d/1nHWgKk8YMM_F6mkbAD9-h-E6F1hhnfP_/view"
+              "name": "2. הכנה למבחן",
+              "url": "https://drive.google.com/file/d/1lcR6_qVWU_zIY5A--7v-eLCqQjtiF300/view"
             },
             {
               "type": "file",
-              "name": "מבחן ט מצוינות - ינואר - טור א",
-              "url": "https://drive.google.com/file/d/1nDFl8hJQatPg5Agj_abHuGLsVzjn7H3b/view"
+              "name": "3. מבחן לדוגמא",
+              "url": "https://drive.google.com/file/d/1kxj2YawIN04o_1CyocTLZgRPxN0Q76_Z/view"
             },
             {
               "type": "file",
-              "name": "מבחן ט מצוינות - ינואר - טור ב - פתרון",
-              "url": "https://drive.google.com/file/d/1n8-rP6d1vnJ1ayxsl1pPHg5sY6Fil2MY/view"
-            },
-            {
-              "type": "file",
-              "name": "מבחן ט מצוינות - ינואר - טור ב",
-              "url": "https://drive.google.com/file/d/1nIWtek7kfq2b1xA1BoVYmLi5DZFxMbSY/view"
-            },
-            {
-              "type": "file",
-              "name": "מבחן לדוגמא 1 - פתרונות מקוצרים",
+              "name": "4. מבחן לדוגמא - פתרונות מקוצרים",
               "url": "https://drive.google.com/file/d/1lVcQRYjsSm64PBHb85VCTWhbAvBoESGz/view"
             },
             {
               "type": "file",
-              "name": "מבחן לדוגמא 1",
-              "url": "https://drive.google.com/file/d/1kxj2YawIN04o_1CyocTLZgRPxN0Q76_Z/view"
+              "name": "5. מבחן ט מצוינות - ינואר - טור א",
+              "url": "https://drive.google.com/file/d/1nDFl8hJQatPg5Agj_abHuGLsVzjn7H3b/view"
+            },
+            {
+              "type": "file",
+              "name": "6. מבחן ט מצוינות - ינואר - טור א - פתרון",
+              "url": "https://drive.google.com/file/d/1nHWgKk8YMM_F6mkbAD9-h-E6F1hhnfP_/view"
+            },
+            {
+              "type": "file",
+              "name": "7. מבחן ט מצוינות - ינואר - טור ב",
+              "url": "https://drive.google.com/file/d/1nIWtek7kfq2b1xA1BoVYmLi5DZFxMbSY/view"
+            },
+            {
+              "type": "file",
+              "name": "8. מבחן ט מצוינות - ינואר - טור ב - פתרון",
+              "url": "https://drive.google.com/file/d/1n8-rP6d1vnJ1ayxsl1pPHg5sY6Fil2MY/view"
             }
           ]
         },
         {
-          "name": "11. מבחן מועד ב",
+          "name": "11. מבחן ינואר מועד ב - משוואות עם שברים, חקירת פרבולה עם פרמטרים, מלבן, תיכון ליתר, משולש 30-60-90",
           "desc": "",
           "content": [
             {

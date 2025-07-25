@@ -1,0 +1,56 @@
+name: Daily Build and Deploy
+
+# 1. Trigger: Schedule the workflow to run every day at 3am Israel Standard Time (UTC+2 or UTC+3 with DST)
+on:
+  schedule:
+    # Israel Standard Time is UTC+2, but during daylight saving (summer) it's UTC+3.
+    # GitHub Actions uses UTC, so 3am IST = 1am UTC (winter), 0am UTC (summer).
+    # To always run at 3am IST, use 0:00 UTC (which is 3am in Israel during DST, 2am in winter).
+    # You may want to adjust this if you need strict 3am year-round.
+    - cron: '0 0 * * *'  # Runs at 00:00 UTC every day
+
+  workflow_dispatch:  # Allow manual trigger from the GitHub UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 2. Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 3. Set up Python (adjust version as needed)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 4. Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 5. Set up Google credentials (if needed)
+      #    You must add your Google API credentials as a GitHub Actions secret (e.g., GOOGLE_CREDENTIALS_JSON)
+      - name: Set up Google credentials
+        run: |
+          mkdir -p secrets
+          echo "${{ secrets.GOOGLE_CREDENTIALS_JSON }}" > secrets/credentials.json
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+
+      # 6. Run the build (regenerate data and site)
+      - name: Build site (regenerate data)
+        run: python build_site.py --regen-data
+
+      # 7. Commit and push changes to docs/
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git commit -m "Automated build: $(date -u '+%Y-%m-%d %H:%M:%S')"
+          git push
+        # If there are no changes, git commit will fail; that's OK.
