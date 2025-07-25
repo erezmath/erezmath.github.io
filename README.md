@@ -102,8 +102,9 @@ Each class has a JSON file (e.g., `class_1.json`) with the following structure:
 git status
 git add .
 git commit -m "my message"
+git remote set-url origin https://github.com/<USER_NAME>/<USERNAME.github.io.git>     (if not already set)
 git push -u origin main
-git remote set-url origin https://github.com/<USER_NAME>/<USERNAME.github.io.git>
+
 
 # deployment to github pages and github page actions:
 if you want to auto build project using gitactions, add secret to github actions, read .github\workflows\readme.md.

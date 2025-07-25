@@ -44,8 +44,7 @@ def load_class_jsons():
     for filename in class_files:
         with open(os.path.join(DATA_DIR, filename), encoding='utf-8') as f:
             class_data = json.load(f)
-            # Use url_name from JSON
-            class_data['id'] = class_data.get('url_name', os.path.splitext(filename)[0].replace('class-', '').replace('class_', ''))
+            # Keep the id as is (unique numeric ID from JSON)
             classes.append(class_data)
     log_event(f'Loaded {len(classes)} class JSON files')
     return classes
@@ -56,7 +55,9 @@ def render_index(classes):
     # For index, pass only summary info for each class
     class_summaries = [
         {
-            'id': c.get('url_name', ''),
+            'id': c.get('id', ''),  # Use the hardcoded id from JSON
+            'url_name': c.get('url_name', ''),
+            'active': c.get('active', False),
             'name': c.get('name', ''),
             'desc': c.get('desc', ''),
             'banner_url': c.get('banner_url', ''),

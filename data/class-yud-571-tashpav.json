@@ -1,0 +1,94 @@
+{
+  "id": 3,
+  "name": "כיתה י 571 תשפו",
+  "url_name": "yud-571-tashpav",
+  "banner_url": "images/banner3.png",
+  "desc": "",
+  "tags": [
+    "גאומטריה",
+    "עבודת קיץ"
+  ],
+  "topics": [
+    {
+      "name": "גאומטריה",
+      "id": "גאומטריה",
+      "lessons": [
+        {
+          "name": "0. רשימת משפטים בגאומטריה",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. משפטים בגאומטריה בכיתה ט",
+              "url": "https://drive.google.com/file/d/15OA6JUPUTbU12UHW4MNpAKBHT39haZuE/view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "עבודת קיץ",
+      "id": "עבודת-קיץ",
+      "lessons": [
+        {
+          "name": "1. עבודת קיץ",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת קיץ לעולים ל 5 יחל",
+              "url": "https://drive.google.com/file/d/1x-wbk01ISvvBjQTYqWDSCMJtNKxYfUoA/view"
+            },
+            {
+              "type": "file",
+              "name": "2. עבודת קיץ לעולים ל 4 יחל",
+              "url": "https://drive.google.com/file/d/1VLu_--wDEnA34kZ_-geTNGFudxTi7Oqa/view"
+            }
+          ]
+        },
+        {
+          "name": "2. אימון למבחן תחילת שנה",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. גול",
+              "url": "https://drive.google.com/file/d/1ouvLI41dwxHHT3CXNEmxVUDx1LD_uH5V/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ארכימדס",
+              "url": "https://drive.google.com/file/d/1DvQe9DISx0kKyzRZftGqJrB9oaz7dQND/view"
+            },
+            {
+              "type": "file",
+              "name": "3. עמט",
+              "url": "https://drive.google.com/file/d/1uHpjPt54F0tRLq4DuR_q3V-w1hL4oZtN/view"
+            },
+            {
+              "type": "file",
+              "name": "4. עוזרי",
+              "url": "https://drive.google.com/file/d/1KoVFBv9lbRL4I2OKntn9tw-1iwvOLeYZ/view"
+            },
+            {
+              "type": "file",
+              "name": "5. יואל גבע",
+              "url": "https://drive.google.com/file/d/1MLzFqTlWRjbU7FsIB0iqhhQDtgz--nQI/view"
+            },
+            {
+              "type": "file",
+              "name": "6. מבחנים לדוגמא - לא שלי",
+              "url": "https://drive.google.com/file/d/1OQHk6KWok2PPif_BAMLNhxdsO7mpDI5M/view"
+            },
+            {
+              "type": "file",
+              "name": "7. עבודת קיץ של מחוז מרכז",
+              "url": "https://drive.google.com/file/d/16SyEvnzbzJDMC-k9WPi4VAT69ZAsZeA-/view"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "active": true
+}

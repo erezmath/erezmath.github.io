@@ -1,4 +1,5 @@
 {
+  "id": 2,
   "name": "כיתה י 571 תשפה",
   "url_name": "yud-571-tashpa",
   "banner_url": "images/banner2.jpg",
@@ -1657,7 +1658,41 @@
     {
       "name": "עבודת קיץ",
       "id": "עבודת-קיץ",
-      "lessons": []
+      "lessons": [
+        {
+          "name": "1. עבודת קיץ",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת קיץ לעולים ל יא 5 יחל",
+              "url": "https://drive.google.com/file/d/1jihx_WQU2Iunn3Xwvt2UGJh8SpsfKcb9/view"
+            },
+            {
+              "type": "file",
+              "name": "2. עבודת קיץ לעולים ל יא 4 יחל",
+              "url": "https://drive.google.com/file/d/1V932_YB0mb0IwkTgtaTbjqafHQz_VSBJ/view"
+            }
+          ]
+        },
+        {
+          "name": "2. דף נוסחאות ומשפטים בגאומטריה",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. משפטים בגאומטריה לבגרות",
+              "url": "https://drive.google.com/file/d/11NRLIquVogLuVN52HeN81ZsbZeGWMPi8/view"
+            },
+            {
+              "type": "file",
+              "name": "2. דף נוסחאות 5 יחל תוכנית חדשה",
+              "url": "https://drive.google.com/file/d/17llfFKpNf1eYimqYARGGD3YF7QF8UBnH/view"
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "active": false
 }

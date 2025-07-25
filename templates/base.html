@@ -19,20 +19,29 @@
     </div>
     <div class="site-header-right">
       <button class="nav-btn {% if not current_class_id %}active{% endif %}" onclick="window.location='index.html'">
-        <span class="icon-home"></span> בית
+        <span class="icon-home"></span>
       </button>
       <div class="dropdown">
         <button class="dropdown-btn">
           {% if current_class_id %}
-            {{ classes | selectattr('id', 'equalto', current_class_id) | first | attr('name') }}
+            {% for c in classes %}
+              {% if c.id == current_class_id %}
+                {{ c.name }}
+              {% endif %}
+            {% endfor %}
           {% else %}
             בחר כיתה
           {% endif %}
           <svg width="18" height="18" fill="none" stroke="#1e293b" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="dropdown-content">
-          {% for cls in classes %}
-            <a href="class-{{ cls.id }}.html" {% if cls.id == current_class_id %}class="active"{% endif %}>{{ cls.name }}</a>
+          <span class="dropdown-group-title">כיתות השנה:</span>
+          {% for c in classes if c.active %}
+            <a href="class-{{ c.url_name }}.html" {% if current_class_id == c.id %}class="active"{% endif %}>{{ c.name }}</a>
+          {% endfor %}
+          <span class="dropdown-group-title past">כיתות עבר:</span>
+          {% for c in classes if not c.active %}
+            <a href="class-{{ c.url_name }}.html" {% if current_class_id == c.id %}class="active"{% endif %}>{{ c.name }}</a>
           {% endfor %}
         </div>
       </div>

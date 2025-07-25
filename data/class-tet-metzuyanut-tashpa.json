@@ -1,4 +1,5 @@
 {
+  "id": 1,
   "name": "כיתה ט מצוינות תשפה",
   "url_name": "tet-metzuyanut-tashpa",
   "banner_url": "images/banner1.png",
@@ -2424,7 +2425,23 @@
       "id": "עבודת-קיץ",
       "lessons": [
         {
-          "name": "אימון נוסף למבחן",
+          "name": "1. עבודת קיץ",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת קיץ לעולים ל 5 יחל",
+              "url": "https://drive.google.com/file/d/1joyUbgbosFqfWI1P2zHg-ED68dDwf8O0/view"
+            },
+            {
+              "type": "file",
+              "name": "2. עבודת קיץ לעולים ל 4 יחל",
+              "url": "https://drive.google.com/file/d/1ve-fi0NnoA_DvMxh8ephdnHaL8pbfJ6-/view"
+            }
+          ]
+        },
+        {
+          "name": "2. אימון למבחן תחילת שנה",
           "desc": "",
           "content": [
             {
@@ -2471,5 +2488,6 @@
       "id": "שיעור-מיוחד",
       "lessons": []
     }
-  ]
+  ],
+  "active": false
 }

@@ -1,0 +1,51 @@
+{
+  "id": 4,
+  "name": "כיתה יא 571 תשפו",
+  "url_name": "yud-aleph-571-tashpav",
+  "banner_url": "images/banner4.png",
+  "desc": "",
+  "tags": [
+    "עבודת קיץ"
+  ],
+  "topics": [
+    {
+      "name": "עבודת קיץ",
+      "id": "עבודת-קיץ",
+      "lessons": [
+        {
+          "name": "1. עבודת קיץ",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת קיץ לעולים ל יא 5 יחל",
+              "url": "https://drive.google.com/file/d/1paIq2_Nzb7iQD0I6Fx2QAu-AaOAPie8P/view"
+            },
+            {
+              "type": "file",
+              "name": "2. עבודת קיץ לעולים ל יא 4 יחל",
+              "url": "https://drive.google.com/file/d/16dVt3H5dMfEtRDazgw-MJTqyvdhiTDAj/view"
+            }
+          ]
+        },
+        {
+          "name": "2. דף נוסחאות ומשפטים בגאומטריה",
+          "desc": "",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. משפטים בגאומטריה לבגרות",
+              "url": "https://drive.google.com/file/d/1MOeXCTV4q5R05a9CKydVfLmybvEVOVHY/view"
+            },
+            {
+              "type": "file",
+              "name": "2. דף נוסחאות 5 יחל תוכנית חדשה",
+              "url": "https://drive.google.com/file/d/199yF15zLRW8E8RfP8oa158iBmTJkRb6A/view"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "active": true
+}

@@ -8,27 +8,56 @@
     <h1 class="welcome-title">ברוכים הבאים לשיעורי המתמטיקה</h1>
     <p class="welcome-desc">כאן תוכלו למצוא את כל החומרים והשיעורים שלמדנו</p>
   </div>
-  <div class="class-cards">
-    {% for cls in classes %}
-    <a class="class-card" href="class-{{ cls.id }}.html">
-      <div class="class-card-banner" style="background-image:url('{{ cls.banner_url }}');"></div>
-      <div class="class-card-content">
-        <div class="class-card-title-row">
-          <h2 class="class-card-title">{{ cls.name }}</h2>
-          <span class="class-card-desc">{{ cls.desc }}</span>
+  {% set active_classes = classes | selectattr('active', 'equalto', True) | list %}
+  {% set past_classes = classes | selectattr('active', 'equalto', False) | list %}
+
+  <div class="class-groups">
+    <h2 class="class-group-title">כיתות השנה:</h2>
+    <div class="class-cards">
+      {% for c in active_classes %}
+      <a class="class-card" href="class-{{ c.url_name }}.html">
+        <div class="class-card-banner" style="background-image:url('{{ c.banner_url }}');"></div>
+        <div class="class-card-content">
+          <div class="class-card-title-row">
+            <h2 class="class-card-title">{{ c.name }}</h2>
+            <span class="class-card-desc">{{ c.desc }}</span>
+          </div>
+          <div class="class-card-tags">
+            {% for tag in c.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <div class="class-card-meta">
+            <span>{{ c.num_topics }} נושאים</span>
+            <span>{{ c.num_lessons }} שיעורים</span>
+          </div>
         </div>
-        <div class="class-card-tags">
-          {% for tag in cls.tags %}
-          <span class="tag">{{ tag }}</span>
-          {% endfor %}
+      </a>
+      {% endfor %}
+    </div>
+    <h2 class="class-group-title past">כיתות עבר:</h2>
+    <div class="class-cards past">
+      {% for c in past_classes %}
+      <a class="class-card" href="class-{{ c.url_name }}.html">
+        <div class="class-card-banner" style="background-image:url('{{ c.banner_url }}');"></div>
+        <div class="class-card-content">
+          <div class="class-card-title-row">
+            <h2 class="class-card-title">{{ c.name }}</h2>
+            <span class="class-card-desc">{{ c.desc }}</span>
+          </div>
+          <div class="class-card-tags">
+            {% for tag in c.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <div class="class-card-meta">
+            <span>{{ c.num_topics }} נושאים</span>
+            <span>{{ c.num_lessons }} שיעורים</span>
+          </div>
         </div>
-        <div class="class-card-meta">
-          <span>{{ cls.num_topics }} נושאים</span>
-          <span>{{ cls.num_lessons }} שיעורים</span>
-        </div>
-      </div>
-    </a>
-    {% endfor %}
+      </a>
+      {% endfor %}
+    </div>
   </div>
 </main>
 {% endblock %} 

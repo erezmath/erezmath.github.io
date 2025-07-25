@@ -534,3 +534,43 @@ body {
 .icon-folder-closed, .icon-folder-open {
   vertical-align: middle;
 } 
+
+.class-groups {
+  /* Ensure the group container uses the same padding as the cards container */
+  padding-right: 0;
+}
+
+.class-group-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 32px 0 12px 0;
+  letter-spacing: 0.5px;
+  /* Add this: */
+  padding-right: 24px; /* Match the .class-cards or .class-card margin/padding */
+  /* Or use the same value as .class-cards { padding-right: ... } */
+}
+
+@media (max-width: 700px) {
+  .class-group-title {
+    padding-right: 0;
+  }
+}
+.class-group-title.past {
+  color: #8a8f98;
+  font-weight: 600;
+}
+.dropdown-group-title {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #8a8f98;
+  margin: 8px 0 2px 0;
+  padding: 0 24px;
+  cursor: default;
+  pointer-events: none;
+  user-select: none;
+}
+.dropdown-group-title.past {
+  margin-top: 16px;
+} 
