@@ -1,0 +1,128 @@
+import os
+import json
+import re
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
+import pickle
+from natsort import natsorted
+import shutil
+
+# If modifying these SCOPES, delete the file token.pickle.
+SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+CREDENTIALS_PATH = 'secrets/credentials.json'
+TOKEN_PATH = 'secrets/token.pickle'
+DATA_DIR = 'data'
+
+class_info = [
+    {
+        'name': 'כיתה ט מצוינות תשפה',
+        'url_name': 'tet-metzuyanut-tashpa',
+        'google_drive_url': 'https://drive.google.com/drive/folders/11epRetDJViW9EWdomonlYWn6GUk55kC4',
+        'banner_url': 'images/banner1.png'
+    },
+    {
+        'name': 'כיתה י 571 תשפה',
+        'url_name': 'yud-571-tashpa',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/18phQyja-bSXMpptBOYsg5ceGl0Y_WCC7',
+        'banner_url': 'images/banner2.jpg'
+    }
+]
+
+def get_drive_service():
+    creds = None
+    if os.path.exists(TOKEN_PATH):
+        with open(TOKEN_PATH, 'rb') as token:
+            creds = pickle.load(token)
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS_PATH, SCOPES)
+            creds = flow.run_local_server(port=0)
+        with open(TOKEN_PATH, 'wb') as token:
+            pickle.dump(creds, token)
+    return build('drive', 'v3', credentials=creds)
+
+def extract_folder_id(url):
+    match = re.search(r'/folders/([a-zA-Z0-9_-]+)', url)
+    return match.group(1) if match else url
+
+def list_folder_contents(service, folder_id):
+    query = f"'{folder_id}' in parents and trashed = false"
+    results = service.files().list(q=query, fields="files(id, name, mimeType)", pageSize=1000).execute()
+    files = results.get('files', [])
+    return natsorted(files, key=lambda x: x['name'])
+
+def crawl_lesson_content(service, folder_id):
+    items = list_folder_contents(service, folder_id)
+    content = []
+    for item in items:
+        if item['mimeType'] == 'application/vnd.google-apps.folder':
+            content.append({
+                'type': 'folder',
+                'name': item['name'],
+                'content': crawl_lesson_content(service, item['id'])
+            })
+        else:
+            # Remove .pdf extension for display, but keep original name for download
+            name = re.sub(r'\.pdf$', '', item['name'], flags=re.IGNORECASE)
+            content.append({
+                'type': 'file',
+                'name': name,
+                'url': f'https://drive.google.com/file/d/{item["id"]}/view'
+            })
+    return content
+
+def crawl_class(service, class_name, folder_id, banner_url, url_name):
+    topics = []
+    topic_folders = [f for f in list_folder_contents(service, folder_id) if f['mimeType'] == 'application/vnd.google-apps.folder']
+    for topic in topic_folders:
+        topic_obj = {
+            'name': topic['name'],
+            'id': topic['name'].replace(' ', '-').replace('.', '').replace('/', '-').lower(),
+            'lessons': []
+        }
+        lesson_folders = [f for f in list_folder_contents(service, topic['id']) if f['mimeType'] == 'application/vnd.google-apps.folder']
+        for lesson in lesson_folders:
+            lesson_obj = {
+                'name': lesson['name'],
+                'desc': '',
+                'content': crawl_lesson_content(service, lesson['id'])
+            }
+            topic_obj['lessons'].append(lesson_obj)
+        topics.append(topic_obj)
+    tags = [t['name'] for t in topics]
+    return {
+        'name': class_name,
+        'url_name': url_name,
+        'banner_url': banner_url,
+        'desc': '',
+        'tags': tags,
+        'topics': topics
+    }
+
+def main():
+    # Clean data directory before generating new JSON files
+    if os.path.exists(DATA_DIR):
+        shutil.rmtree(DATA_DIR)
+    os.makedirs(DATA_DIR, exist_ok=True)
+    service = get_drive_service()
+    for cls in class_info:
+        class_name = cls['name']
+        url_name = cls['url_name']
+        folder_url = cls['google_drive_url']
+        banner_url = cls.get('banner_url', '')
+        folder_id = extract_folder_id(folder_url)
+        print(f'Crawling class: {class_name} (folder ID: {folder_id})')
+        class_json = crawl_class(service, class_name, folder_id, banner_url, url_name)
+        # Use url_name for output filename
+        out_path = os.path.join(DATA_DIR, f'class-{url_name}.json')
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(class_json, f, ensure_ascii=False, indent=2)
+        print(f'Wrote {out_path}')
+
+if __name__ == '__main__':
+    main() 

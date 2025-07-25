@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}שיעורי מתמטיקה{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="static/main.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  {% macro render_navbar(classes, current_class_id=None) %}
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-header-left">
+      <span class="site-header-icon">
+        <svg width="28" height="28" fill="none" stroke="#1e293b" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="7" y="7" width="10" height="3" rx="1"/><rect x="7" y="12" width="3" height="3" rx="1"/><rect x="14" y="12" width="3" height="3" rx="1"/></svg>
+      </span>
+    </div>
+    <div class="site-header-right">
+      <button class="nav-btn {% if not current_class_id %}active{% endif %}" onclick="window.location='index.html'">
+        <span class="icon-home"></span> בית
+      </button>
+      <div class="dropdown">
+        <button class="dropdown-btn">
+          {% if current_class_id %}
+            {{ classes | selectattr('id', 'equalto', current_class_id) | first | attr('name') }}
+          {% else %}
+            בחר כיתה
+          {% endif %}
+          <svg width="18" height="18" fill="none" stroke="#1e293b" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="dropdown-content">
+          {% for cls in classes %}
+            <a href="class-{{ cls.id }}.html" {% if cls.id == current_class_id %}class="active"{% endif %}>{{ cls.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+{% endmacro %}
+  {% block content %}{% endblock %}
+  <script src="static/main.js"></script>
+</body>
+</html> 

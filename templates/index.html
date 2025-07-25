@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% from 'base.html' import render_navbar %}
+{% block title %}דף הבית - שיעורי מתמטיקה{% endblock %}
+{% block content %}
+{{ render_navbar(classes) }}
+<main class="site-main">
+  <div class="welcome-block">
+    <h1 class="welcome-title">ברוכים הבאים לשיעורי המתמטיקה</h1>
+    <p class="welcome-desc">כאן תוכלו למצוא את כל החומרים והשיעורים שלמדנו</p>
+  </div>
+  <div class="class-cards">
+    {% for cls in classes %}
+    <a class="class-card" href="class-{{ cls.id }}.html">
+      <div class="class-card-banner" style="background-image:url('{{ cls.banner_url }}');"></div>
+      <div class="class-card-content">
+        <div class="class-card-title-row">
+          <h2 class="class-card-title">{{ cls.name }}</h2>
+          <span class="class-card-desc">{{ cls.desc }}</span>
+        </div>
+        <div class="class-card-tags">
+          {% for tag in cls.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        <div class="class-card-meta">
+          <span>{{ cls.num_topics }} נושאים</span>
+          <span>{{ cls.num_lessons }} שיעורים</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</main>
+{% endblock %} 
