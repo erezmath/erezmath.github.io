@@ -1,4 +1,7 @@
 /* Reset and base styles */
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling for hash navigation */
+}
 body {
     font-family: 'Heebo', 'Segoe UI', Arial, sans-serif;
     background: #fff;
@@ -339,11 +342,18 @@ body {
     width: 100%;
     box-sizing: border-box;
     color: #111;
+    scroll-margin-top: 128px; /* Increased for combined sticky header + topics-nav */
   }
   .lesson:hover {
     box-shadow: 0 6px 20px rgba(1,186,239,0.13);
     border: 2px solid rgb(1,186,239);
     transform: translateY(-2px);
+  }
+  .lesson-pop {
+    box-shadow: 0 6px 20px rgba(1,186,239,0.13);
+    border: 2px solid rgb(1,186,239);
+    transform: translateY(-2px);
+    transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
   }
   .lesson-header {
     font-size: 1.1rem;
@@ -491,6 +501,9 @@ body {
     flex: 0 0 auto;
     margin-left: 8px;
     margin-right: 0;
+  }
+  .lesson {
+    scroll-margin-top: 96px; /* Adjust for mobile sticky area */
   }
 } 
 

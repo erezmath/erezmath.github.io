@@ -112,17 +112,18 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
     """Crawl all topics and lessons for a class."""
     topics = []
     topic_folders = [f for f in list_folder_contents(service, folder_id) if f['mimeType'] == 'application/vnd.google-apps.folder']
-    for topic in topic_folders:
+    for topic_index, topic in enumerate(topic_folders, 1):
         topic_obj = {
             'name': topic['name'],
             'id': topic['name'].replace(' ', '-').replace('.', '').replace('/', '-').lower(),
             'lessons': []
         }
         lesson_folders = [f for f in list_folder_contents(service, topic['id']) if f['mimeType'] == 'application/vnd.google-apps.folder']
-        for lesson in lesson_folders:
+        for lesson_index, lesson in enumerate(lesson_folders, 1):
             lesson_obj = {
                 'name': lesson['name'],
                 'desc': '',
+                'id': f"{topic_index}-{lesson_index}",  # Add lesson ID in format "topic-lesson"
                 'content': crawl_lesson_content(service, lesson['id'])
             }
             topic_obj['lessons'].append(lesson_obj)

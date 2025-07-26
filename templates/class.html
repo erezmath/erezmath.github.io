@@ -22,7 +22,7 @@
       <h2>{{ topic.name }}</h2>
       <div class="accordion">
         {% for lesson in topic.lessons %}
-        <div class="lesson">
+        <div class="lesson" id="{{ lesson.id }}">
           <div class="lesson-header" tabindex="0">
             {{ lesson.name }}
           </div>

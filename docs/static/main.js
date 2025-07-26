@@ -112,9 +112,41 @@ function setupLessonFolders() {
   });
 }
   
+  // Enhanced hash navigation for lesson IDs
+  function scrollToHashTarget() {
+    if (window.location.hash) {
+      const el = document.getElementById(window.location.hash.substring(1));
+      if (el) {
+        // Get total sticky offset
+        const header = document.querySelector('.site-header');
+        const topicsNav = document.querySelector('.topics-nav');
+        let offset = 0;
+        if (header) offset += header.offsetHeight;
+        if (topicsNav && getComputedStyle(topicsNav).position === 'sticky') offset += topicsNav.offsetHeight;
+        const rect = el.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        window.scrollTo({
+          top: rect.top + scrollTop - offset - 8, // -8 for extra gap
+          behavior: 'smooth'
+        });
+        // Pop effect: add a class that mimics .lesson:hover
+        el.classList.add('lesson-pop');
+        setTimeout(() => {
+          el.classList.remove('lesson-pop');
+        }, 1200); // Duration in ms
+      }
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     setupLessonExpand();
     setupTopicsNav();
     setupTopicsScrollSpy();
     setupLessonFolders();
-  }); 
+    
+    // Handle hash navigation on page load
+    scrollToHashTarget();
+  });
+
+  // Handle hash changes (e.g., when user clicks a hash link)
+  window.addEventListener('hashchange', scrollToHashTarget); 
