@@ -12,8 +12,16 @@ function setupLessonExpand() {
             [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
               if (lesson) lesson.classList.toggle('expanded');
             });
+            // If expanding, update hash to the first lesson in the row
+            if (lessons[rowStart] && lessons[rowStart].classList.contains('expanded')) {
+              history.replaceState(null, '', '#' + lessons[rowStart].id);
+            }
           } else {
             lessons[idx].classList.toggle('expanded');
+            // If expanding, update hash to this lesson
+            if (lessons[idx].classList.contains('expanded')) {
+              history.replaceState(null, '', '#' + lessons[idx].id);
+            }
           }
         });
         header.addEventListener('keydown', function(e) {
@@ -25,8 +33,14 @@ function setupLessonExpand() {
               [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
                 if (lesson) lesson.classList.toggle('expanded');
               });
+              if (lessons[rowStart] && lessons[rowStart].classList.contains('expanded')) {
+                history.replaceState(null, '', '#' + lessons[rowStart].id);
+              }
             } else {
               lessons[idx].classList.toggle('expanded');
+              if (lessons[idx].classList.contains('expanded')) {
+                history.replaceState(null, '', '#' + lessons[idx].id);
+              }
             }
             e.preventDefault();
           }
@@ -133,7 +147,7 @@ function setupLessonFolders() {
         el.classList.add('lesson-pop');
         setTimeout(() => {
           el.classList.remove('lesson-pop');
-        }, 1200); // Duration in ms for the pop effect
+        }, 2000); // Duration in ms for the pop effect
       }
     }
   }
@@ -144,8 +158,10 @@ function setupLessonFolders() {
     setupTopicsScrollSpy();
     setupLessonFolders();
     
-    // Handle hash navigation on page load
-    scrollToHashTarget();
+    // Handle hash navigation on page load with a small delay to ensure everything is rendered
+    setTimeout(() => {
+      scrollToHashTarget();
+    }, 100); // Small delay to ensure sticky elements are fully rendered
   });
 
   // Handle hash changes (e.g., when user clicks a hash link)
