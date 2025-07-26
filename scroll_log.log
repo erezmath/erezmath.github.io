@@ -1,0 +1,18 @@
+=== Topics Visibility Check ===
+main.js:135 Nav width: 396
+main.js:136 Nav left: 8
+main.js:137 Nav right: 404
+main.js:138 First button left: 319.95001220703125
+main.js:139 Last button right: -331.1875
+main.js:144 All topics visible: true
+main.js:150 Any button scrolled out: false
+main.js:151 Final result (all topics visible): true
+main.js:242 === Hash Navigation ===
+main.js:243 Current hash: #6-10
+main.js:247 Target element: <div class=​"lesson lesson-pop" id=​"6-10">​…​</div>​
+main.js:256 Header height: 65
+main.js:257 Topics nav height: 65
+main.js:258 Total offset: 130
+main.js:264 Element rect: DOMRect {x: 32.79999923706055, y: 10581.2001953125, width: 346.3999938964844, height: 64, top: 10581.2001953125, …}
+main.js:265 Current scroll: 0
+main.js:266 Target scroll: 10443.2001953125

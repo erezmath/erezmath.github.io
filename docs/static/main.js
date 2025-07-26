@@ -124,25 +124,88 @@ function setupLessonExpand() {
     const btns = Array.from(nav.querySelectorAll('.topic-btn'));
     const ids = btns.map(btn => btn.getAttribute('onclick')?.match(/'(.*?)'/)?.[1]).filter(Boolean);
     const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
-  
+
+    // Check if all topics are visible in the navigation - run once since screen width doesn't change
+    function checkTopicsVisibility() {
+      const navRect = nav.getBoundingClientRect();
+      const lastBtnRect = btns[btns.length - 1].getBoundingClientRect();
+      const firstBtnRect = btns[0].getBoundingClientRect();
+      
+      console.log('=== Topics Visibility Check ===');
+      console.log('Nav width:', navRect.width);
+      console.log('Nav left:', navRect.left);
+      console.log('Nav right:', navRect.right);
+      console.log('First button left:', firstBtnRect.left);
+      console.log('Last button right:', lastBtnRect.right);
+      
+      // Check if all buttons are visible within the nav's viewport
+      // A button is visible if its entire width is within the nav's bounds
+      const firstButtonVisible = firstBtnRect.left >= navRect.left && firstBtnRect.right <= navRect.right;
+      const lastButtonVisible = lastBtnRect.left >= navRect.left && lastBtnRect.right <= navRect.right;
+      
+      console.log('First button visible:', firstButtonVisible);
+      console.log('Last button visible:', lastButtonVisible);
+      
+      // If both first and last buttons are visible, all buttons in between are also visible
+      const allTopicsVisible = firstButtonVisible && lastButtonVisible;
+      
+      console.log('All topics visible:', allTopicsVisible);
+      
+      return allTopicsVisible;
+    }
+    
+    // Store the result since screen width doesn't change
+    const allTopicsVisible = checkTopicsVisibility();
+
     function onScroll() {
       // Always remove .active from all buttons first
       btns.forEach(b => b.classList.remove('active'));
       let found = false;
-      for (let i = 0; i < sections.length; i++) {
-        const rect = sections[i].getBoundingClientRect();
-        if (rect.top <= 120 && rect.bottom > 120) {
-          btns[i].classList.add('active');
-          btns[i].scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i];
+        const rect = section.getBoundingClientRect();
+        
+        // Check if section is in view (accounting for sticky header)
+        if (rect.top <= 150) { // Adjusted threshold for sticky header
           found = true;
+          btns[i].classList.add('active');
+          
+          // Only scroll the topics nav if not all topics are visible
+          if (!allTopicsVisible) {
+            console.log('Scrolling topics nav to show active topic');
+            btns[i].scrollIntoView({ 
+              behavior: "smooth", 
+              inline: "center", 
+              block: "nearest" 
+            });
+          }
+          
           break;
         }
       }
-      // If no section is in view, no button is active
+      
+      // If we're at the very top of the page, activate first button
+      if (!found && window.scrollY < 100) {
+        btns[0].classList.add('active');
+      }
     }
-    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // Throttle scroll events
+    let ticking = false;
+    document.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          onScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+
+    // Initial check
     onScroll();
-  }
+}
   
   // Scroll to topic section
   function scrollToTopic(id) {
@@ -177,8 +240,12 @@ function setupLessonFolders() {
   
   // Enhanced hash navigation for lesson IDs
   function scrollToHashTarget() {
+    console.log('=== Hash Navigation ===');
+    console.log('Current hash:', window.location.hash);
+    
     if (window.location.hash) {
       const el = document.getElementById(window.location.hash.substring(1));
+      console.log('Target element:', el);
       if (el) {
         // Get total sticky offset
         const header = document.querySelector('.site-header');
@@ -186,18 +253,33 @@ function setupLessonFolders() {
         let offset = 0;
         if (header) offset += header.offsetHeight;
         if (topicsNav && getComputedStyle(topicsNav).position === 'sticky') offset += topicsNav.offsetHeight;
+        
+        console.log('Header height:', header?.offsetHeight);
+        console.log('Topics nav height:', topicsNav?.offsetHeight);
+        console.log('Total offset:', offset);
+        
         const rect = el.getBoundingClientRect();
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const targetScroll = rect.top + scrollTop - offset - 8;
+        
+        console.log('Element rect:', rect);
+        console.log('Current scroll:', scrollTop);
+        console.log('Target scroll:', targetScroll);
+        
         window.scrollTo({
-          top: rect.top + scrollTop - offset - 8, // -8 for extra gap
+          top: targetScroll,
           behavior: 'smooth'
         });
         // Pop effect: add a class that mimics .lesson:hover
         el.classList.add('lesson-pop');
         setTimeout(() => {
           el.classList.remove('lesson-pop');
-        }, 2000); // Duration in ms for the pop effect
+        }, 1500); // Duration in ms for the pop effect
+      } else {
+        console.log('Target element not found');
       }
+    } else {
+      console.log('No hash in URL');
     }
   }
 
