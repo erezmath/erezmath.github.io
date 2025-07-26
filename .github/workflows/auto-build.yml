@@ -38,9 +38,9 @@ jobs:
       - name: Set up Google credentials
         run: |
           mkdir -p secrets
-          echo "${{ secrets.GOOGLE_CREDENTIALS_JSON }}" > secrets/credentials.json
+          python -c "import os,base64; open('secrets/credentials.json','wb').write(base64.b64decode(os.environ['GOOGLE_CREDENTIALS_B64']))"
         env:
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_CREDENTIALS_B64: ${{ secrets.GOOGLE_CREDENTIALS_B64 }}
 
       # 6. Run the build (regenerate data and site)
       - name: Build site (regenerate data)
