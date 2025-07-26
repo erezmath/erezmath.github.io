@@ -9,18 +9,42 @@ function setupLessonExpand() {
           let rowStart;
           if (columns === 2) {
             rowStart = idx % 2 === 0 ? idx : idx - 1;
-            [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
-              if (lesson) lesson.classList.toggle('expanded');
-            });
-            // If expanding, update hash to the first lesson in the row
-            if (lessons[rowStart] && lessons[rowStart].classList.contains('expanded')) {
-              history.replaceState(null, '', '#' + lessons[rowStart].id);
+            const targetLesson = lessons[rowStart];
+            const clickedLesson = lessons[idx]; // The actual lesson that was clicked
+            const isRowExpanded = targetLesson.classList.contains('expanded');
+            const currentHash = window.location.hash.substring(1);
+            const isClickingCurrentHash = clickedLesson.id === currentHash;
+            
+            if (isRowExpanded && isClickingCurrentHash) {
+              // Row is expanded and clicking on the lesson that's currently in hash - collapse
+              lessons.forEach(lesson => lesson.classList.remove('expanded'));
+              history.replaceState(null, '', window.location.pathname);
+            } else if (isRowExpanded && !isClickingCurrentHash) {
+              // Row is expanded but clicking on the other lesson - switch focus
+              history.replaceState(null, '', '#' + clickedLesson.id);
+            } else {
+              // Row is not expanded - expand and focus on clicked lesson
+              lessons.forEach(lesson => lesson.classList.remove('expanded'));
+              [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
+                if (lesson) lesson.classList.add('expanded');
+              });
+              history.replaceState(null, '', '#' + clickedLesson.id);
             }
           } else {
-            lessons[idx].classList.toggle('expanded');
-            // If expanding, update hash to this lesson
-            if (lessons[idx].classList.contains('expanded')) {
+            const targetLesson = lessons[idx];
+            const isExpanding = !targetLesson.classList.contains('expanded');
+            
+            // Close all lessons first
+            lessons.forEach(lesson => lesson.classList.remove('expanded'));
+            
+            // If we were expanding, expand the target lesson
+            if (isExpanding) {
+              lessons[idx].classList.add('expanded');
+              // Update hash to this lesson
               history.replaceState(null, '', '#' + lessons[idx].id);
+            } else {
+              // If we were collapsing, remove hash from URL
+              history.replaceState(null, '', window.location.pathname);
             }
           }
         });
@@ -30,16 +54,41 @@ function setupLessonExpand() {
             let rowStart;
             if (columns === 2) {
               rowStart = idx % 2 === 0 ? idx : idx - 1;
-              [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
-                if (lesson) lesson.classList.toggle('expanded');
-              });
-              if (lessons[rowStart] && lessons[rowStart].classList.contains('expanded')) {
-                history.replaceState(null, '', '#' + lessons[rowStart].id);
+              const targetLesson = lessons[rowStart];
+              const clickedLesson = lessons[idx]; // The actual lesson that was clicked
+              const isRowExpanded = targetLesson.classList.contains('expanded');
+              const currentHash = window.location.hash.substring(1);
+              const isClickingCurrentHash = clickedLesson.id === currentHash;
+              
+              if (isRowExpanded && isClickingCurrentHash) {
+                // Row is expanded and clicking on the lesson that's currently in hash - collapse
+                lessons.forEach(lesson => lesson.classList.remove('expanded'));
+                history.replaceState(null, '', window.location.pathname);
+              } else if (isRowExpanded && !isClickingCurrentHash) {
+                // Row is expanded but clicking on the other lesson - switch focus
+                history.replaceState(null, '', '#' + clickedLesson.id);
+              } else {
+                // Row is not expanded - expand and focus on clicked lesson
+                lessons.forEach(lesson => lesson.classList.remove('expanded'));
+                [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
+                  if (lesson) lesson.classList.add('expanded');
+                });
+                history.replaceState(null, '', '#' + clickedLesson.id);
               }
             } else {
-              lessons[idx].classList.toggle('expanded');
-              if (lessons[idx].classList.contains('expanded')) {
+              const targetLesson = lessons[idx];
+              const isExpanding = !targetLesson.classList.contains('expanded');
+              
+              // Close all lessons first
+              lessons.forEach(lesson => lesson.classList.remove('expanded'));
+              
+              // If we were expanding, expand the target lesson
+              if (isExpanding) {
+                lessons[idx].classList.add('expanded');
                 history.replaceState(null, '', '#' + lessons[idx].id);
+              } else {
+                // If we were collapsing, remove hash from URL
+                history.replaceState(null, '', window.location.pathname);
               }
             }
             e.preventDefault();
