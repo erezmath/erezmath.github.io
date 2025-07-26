@@ -131,27 +131,12 @@ function setupLessonExpand() {
       const lastBtnRect = btns[btns.length - 1].getBoundingClientRect();
       const firstBtnRect = btns[0].getBoundingClientRect();
       
-      console.log('=== Topics Visibility Check ===');
-      console.log('Nav width:', navRect.width);
-      console.log('Nav left:', navRect.left);
-      console.log('Nav right:', navRect.right);
-      console.log('First button left:', firstBtnRect.left);
-      console.log('Last button right:', lastBtnRect.right);
-      
-      // Check if all buttons are visible within the nav's viewport
       // A button is visible if its entire width is within the nav's bounds
       const firstButtonVisible = firstBtnRect.left >= navRect.left && firstBtnRect.right <= navRect.right;
       const lastButtonVisible = lastBtnRect.left >= navRect.left && lastBtnRect.right <= navRect.right;
       
-      console.log('First button visible:', firstButtonVisible);
-      console.log('Last button visible:', lastButtonVisible);
-      
       // If both first and last buttons are visible, all buttons in between are also visible
-      const allTopicsVisible = firstButtonVisible && lastButtonVisible;
-      
-      console.log('All topics visible:', allTopicsVisible);
-      
-      return allTopicsVisible;
+      return firstButtonVisible && lastButtonVisible;
     }
     
     // Store the result since screen width doesn't change
@@ -173,7 +158,6 @@ function setupLessonExpand() {
           
           // Only scroll the topics nav if not all topics are visible
           if (!allTopicsVisible) {
-            console.log('Scrolling topics nav to show active topic');
             btns[i].scrollIntoView({ 
               behavior: "smooth", 
               inline: "center", 
@@ -240,12 +224,9 @@ function setupLessonFolders() {
   
   // Enhanced hash navigation for lesson IDs
   function scrollToHashTarget() {
-    console.log('=== Hash Navigation ===');
-    console.log('Current hash:', window.location.hash);
     
     if (window.location.hash) {
       const el = document.getElementById(window.location.hash.substring(1));
-      console.log('Target element:', el);
       if (el) {
         // Get total sticky offset
         const header = document.querySelector('.site-header');
@@ -254,17 +235,9 @@ function setupLessonFolders() {
         if (header) offset += header.offsetHeight;
         if (topicsNav && getComputedStyle(topicsNav).position === 'sticky') offset += topicsNav.offsetHeight;
         
-        console.log('Header height:', header?.offsetHeight);
-        console.log('Topics nav height:', topicsNav?.offsetHeight);
-        console.log('Total offset:', offset);
-        
         const rect = el.getBoundingClientRect();
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         const targetScroll = rect.top + scrollTop - offset - 8;
-        
-        console.log('Element rect:', rect);
-        console.log('Current scroll:', scrollTop);
-        console.log('Target scroll:', targetScroll);
         
         window.scrollTo({
           top: targetScroll,
@@ -275,11 +248,7 @@ function setupLessonFolders() {
         setTimeout(() => {
           el.classList.remove('lesson-pop');
         }, 1500); // Duration in ms for the pop effect
-      } else {
-        console.log('Target element not found');
       }
-    } else {
-      console.log('No hash in URL');
     }
   }
 
