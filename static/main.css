@@ -63,8 +63,7 @@ body {
     font-weight: 700;
     gap: 6px;
   }
-  .nav-btn.active, .nav-btn:hover {
-    background: #1e40af;
+  .nav-btn:hover {
     color: #fff;
     border-color: #1e40af;
   }
