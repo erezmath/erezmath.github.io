@@ -21,10 +21,20 @@
   </div>
   <div class="topics-list">
     {% if class_info.assignments %}
-    <section class="topic-section" id="assignments">
+    <section class="topic-section" id="assignments" data-full-text="{{ class_info.assignments | replace('\n', '\\n') | replace('"', '\\"') }}">
       <h2>משימות</h2>
       <div class="assignments-content">
-        <pre>{{ class_info.assignments }}</pre>
+        <div class="assignments-text" id="assignments-text">
+          <!-- Initial content will be set by JavaScript -->
+        </div>
+        <div class="assignments-controls">
+          <button class="assignments-btn" id="load-more-btn" onclick="loadMoreAssignments()" style="display: none;">
+            טען עוד משימות
+          </button>
+          <a href="https://drive.google.com/file/d/{{ class_info.assignments_file_id }}/view" target="_blank" class="assignments-link" id="view-full-link" style="display: none;">
+            צפה בקובץ המלא
+          </a>
+        </div>
       </div>
     </section>
     {% endif %}

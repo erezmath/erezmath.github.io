@@ -153,7 +153,7 @@ def read_readme_file(service, folder_id):
         return ""
 
 def read_assignments_file(service, folder_id):
-    """Read assignments.txt file from a Google Drive folder and return its content."""
+    """Read assignments.txt file from a Google Drive folder and return its content and file ID."""
     try:
         # Look for assignments.txt file in the folder
         query = f"'{folder_id}' in parents and name = '{ASSIGNMENTS_FILENAME}' and trashed = false"
@@ -161,7 +161,7 @@ def read_assignments_file(service, folder_id):
         files = results.get('files', [])
         
         if not files:
-            return ""
+            return "", ""
         
         # Get the first assignments.txt file found
         assignments_file_id = files[0]['id']
@@ -172,11 +172,11 @@ def read_assignments_file(service, folder_id):
         # Decode the content (assuming UTF-8 encoding)
         assignments_text = file_content.decode('utf-8')
         
-        return assignments_text
+        return assignments_text, assignments_file_id
         
     except Exception as e:
         log_event(f"Error reading {ASSIGNMENTS_FILENAME} from folder {folder_id}: {str(e)}")
-        return ""
+        return "", ""
 
 def list_folder_contents(service, folder_id):
     """List all files and folders in a Google Drive folder."""
@@ -214,7 +214,7 @@ def crawl_lesson_content(service, folder_id):
 def crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id):
     """Crawl all topics and lessons for a class."""
     # Read assignments.txt file first
-    assignments_content = read_assignments_file(service, folder_id)
+    assignments_content, assignments_file_id = read_assignments_file(service, folder_id)
     
     topics = []
     topic_folders = [f for f in list_folder_contents(service, folder_id) if f['mimeType'] == 'application/vnd.google-apps.folder']
@@ -247,6 +247,7 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
         'tags': tags,
         'topics': topics,
         'assignments': assignments_content,
+        'assignments_file_id': assignments_file_id,
         'active': active
     }
 

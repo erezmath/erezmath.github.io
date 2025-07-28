@@ -263,6 +263,7 @@ function setupLessonFolders() {
     setupTopicsNav();
     setupTopicsScrollSpy();
     setupLessonFolders();
+    setupAssignments();
     
     // Handle hash navigation on page load with a small delay to ensure everything is rendered
     setTimeout(() => {
@@ -271,4 +272,55 @@ function setupLessonFolders() {
   });
 
   // Handle hash changes (e.g., when user clicks a hash link)
-  window.addEventListener('hashchange', scrollToHashTarget); 
+  window.addEventListener('hashchange', scrollToHashTarget);
+  
+  // Assignments progressive loading
+  let assignmentsData = null;
+  let currentRows = 10;
+  const maxRows = 30;
+  
+  function loadMoreAssignments() {
+    if (!assignmentsData) {
+      // Get the full assignments text from the page
+      const assignmentsSection = document.getElementById('assignments');
+      if (assignmentsSection) {
+        // Store the full text in a data attribute or get it from the server
+        // For now, we'll need to pass the full text via a data attribute
+        const fullText = assignmentsSection.getAttribute('data-full-text');
+        if (fullText) {
+          assignmentsData = fullText.split('\n');
+        }
+      }
+    }
+    
+    if (assignmentsData) {
+      currentRows += 10;
+      const displayText = assignmentsData.slice(0, currentRows).join('\n');
+      document.getElementById('assignments-text').textContent = displayText;
+      
+      const loadMoreBtn = document.getElementById('load-more-btn');
+      const viewFullLink = document.getElementById('view-full-link');
+      
+      if (currentRows >= maxRows) {
+        loadMoreBtn.style.display = 'none';
+        viewFullLink.style.display = 'inline-block';
+      }
+    }
+  }
+  
+  function setupAssignments() {
+    const assignmentsSection = document.getElementById('assignments');
+    if (assignmentsSection) {
+      const fullText = assignmentsSection.getAttribute('data-full-text');
+      if (fullText) {
+        assignmentsData = fullText.split('\n');
+        const initialText = assignmentsData.slice(0, 10).join('\n');
+        document.getElementById('assignments-text').textContent = initialText;
+        
+        // Show load more button if there are more than 10 rows
+        if (assignmentsData.length > 10) {
+          document.getElementById('load-more-btn').style.display = 'inline-block';
+        }
+      }
+    }
+  } 
