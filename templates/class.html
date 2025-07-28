@@ -12,11 +12,22 @@
     </div>
   </div>
   <div class="topics-nav">
+    {% if class_info.assignments %}
+      <button class="topic-btn active" onclick="scrollToTopic('assignments')">משימות</button>
+    {% endif %}
     {% for topic in class_info.topics %}
-      <button class="topic-btn{% if loop.first %} active{% endif %}" onclick="scrollToTopic('{{ topic.id }}')">{{ topic.name }}</button>
+      <button class="topic-btn{% if not class_info.assignments and loop.first %} active{% endif %}" onclick="scrollToTopic('{{ topic.id }}')">{{ topic.name }}</button>
     {% endfor %}
   </div>
   <div class="topics-list">
+    {% if class_info.assignments %}
+    <section class="topic-section" id="assignments">
+      <h2>משימות</h2>
+      <div class="assignments-content">
+        <pre>{{ class_info.assignments }}</pre>
+      </div>
+    </section>
+    {% endif %}
     {% for topic in class_info.topics %}
     <section class="topic-section" id="{{ topic.id }}">
       <h2>{{ topic.name }}</h2>

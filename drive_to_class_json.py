@@ -23,6 +23,9 @@ CREDENTIALS_PATH = 'secrets/credentials.json'
 TOKEN_PATH = 'secrets/token.pickle'
 DATA_DIR = 'data'
 
+# Assignments filename (can be changed easily)
+ASSIGNMENTS_FILENAME = 'assignments.txt'
+
 # List of filenames to ignore during crawling (case-insensitive)
 IGNORED_FILENAMES = [
     'desktop.ini',          # Windows hidden files
@@ -149,6 +152,32 @@ def read_readme_file(service, folder_id):
         log_event(f"Error reading README.md from folder {folder_id}: {str(e)}")
         return ""
 
+def read_assignments_file(service, folder_id):
+    """Read assignments.txt file from a Google Drive folder and return its content."""
+    try:
+        # Look for assignments.txt file in the folder
+        query = f"'{folder_id}' in parents and name = '{ASSIGNMENTS_FILENAME}' and trashed = false"
+        results = service.files().list(q=query, fields="files(id, name)").execute()
+        files = results.get('files', [])
+        
+        if not files:
+            return ""
+        
+        # Get the first assignments.txt file found
+        assignments_file_id = files[0]['id']
+        
+        # Download the file content
+        file_content = service.files().get_media(fileId=assignments_file_id).execute()
+        
+        # Decode the content (assuming UTF-8 encoding)
+        assignments_text = file_content.decode('utf-8')
+        
+        return assignments_text
+        
+    except Exception as e:
+        log_event(f"Error reading {ASSIGNMENTS_FILENAME} from folder {folder_id}: {str(e)}")
+        return ""
+
 def list_folder_contents(service, folder_id):
     """List all files and folders in a Google Drive folder."""
     query = f"'{folder_id}' in parents and trashed = false"
@@ -184,6 +213,9 @@ def crawl_lesson_content(service, folder_id):
 
 def crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id):
     """Crawl all topics and lessons for a class."""
+    # Read assignments.txt file first
+    assignments_content = read_assignments_file(service, folder_id)
+    
     topics = []
     topic_folders = [f for f in list_folder_contents(service, folder_id) if f['mimeType'] == 'application/vnd.google-apps.folder']
     for topic_index, topic in enumerate(topic_folders, 1):
@@ -214,6 +246,7 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
         'desc': '',
         'tags': tags,
         'topics': topics,
+        'assignments': assignments_content,
         'active': active
     }
 
