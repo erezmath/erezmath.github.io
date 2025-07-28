@@ -399,6 +399,20 @@ body {
     gap: 0;
     justify-content: space-between;
   }
+  
+  .lesson-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .lesson-description p {
+    margin: 0;
+  }
   .chevron {
     display: inline-block;
     transition: transform 0.2s;

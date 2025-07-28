@@ -1,59 +1,7 @@
-2025-07-28 22:07:59,625 [2025-07-28 22:07:59 IST] Drive-to-class JSON generation started
-2025-07-28 22:07:59,626 [2025-07-28 22:07:59 IST] Main process started
-2025-07-28 22:16:25,745 [2025-07-28 22:16:25 IST] Drive-to-class JSON generation started
-2025-07-28 22:16:25,745 [2025-07-28 22:16:25 IST] Main process started
-2025-07-28 22:28:18,620 [2025-07-28 22:28:18 IST] Drive-to-class JSON generation started
-2025-07-28 22:28:18,621 [2025-07-28 22:28:18 IST] Main process started
-2025-07-28 22:43:36,297 [2025-07-28 22:43:36 IST] Drive-to-class JSON generation started
-2025-07-28 22:43:36,298 [2025-07-28 22:43:36 IST] Main process started
-2025-07-28 22:43:47,127 "GET /?state=WznClbKtYrpkDcMufjl7E4na1QRUsx&code=4/0AVMBsJh8BdsyPkpFg3M8If4ZTIO0WR1grWITm6p0SPOJYB60hlwHcnaY2FNHy-Eqb6rksA&scope=https://www.googleapis.com/auth/drive.readonly HTTP/1.1" 200 65
-2025-07-28 22:43:47,368 file_cache is only supported with oauth2client<4.0.0
-2025-07-28 22:43:47,382 [2025-07-28 22:43:47 IST] Created secrets\credentials.b64 for GitHub Actions
-2025-07-28 22:43:47,382 [2025-07-28 22:43:47 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
-2025-07-28 22:44:14,348 [2025-07-28 22:44:14 IST] Drive-to-class JSON generation started
-2025-07-28 22:44:14,348 [2025-07-28 22:44:14 IST] Main process started
-2025-07-28 22:44:14,358 file_cache is only supported with oauth2client<4.0.0
-2025-07-28 22:44:14,360 [2025-07-28 22:44:14 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
-2025-07-28 22:44:57,443 [2025-07-28 22:44:57 IST] Wrote data\class-tet-metzuyanut-tashpa.json
-2025-07-28 22:44:57,443 [2025-07-28 22:44:57 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
-2025-07-28 22:45:29,897 [2025-07-28 22:45:29 IST] Wrote data\class-yud-571-tashpa.json
-2025-07-28 22:45:29,898 [2025-07-28 22:45:29 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1tKiopu97rtKIrS08k7ye4cYBhWMdilVK)
-2025-07-28 22:45:31,594 [2025-07-28 22:45:31 IST] Wrote data\class-yud-571-tashpav.json
-2025-07-28 22:45:31,594 [2025-07-28 22:45:31 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1AlDviHsoPnyfxxdUx6E46gBH1JrON4-k)
-2025-07-28 22:45:32,731 [2025-07-28 22:45:32 IST] Wrote data\class-yud-aleph-571-tashpav.json
-2025-07-28 22:45:32,731 [2025-07-28 22:45:32 IST] All classes processed. JSON generation complete.
-2025-07-28 22:45:53,091 [2025-07-28 22:45:53 IST] Main build process started
-2025-07-28 22:45:53,119 [2025-07-28 22:45:53 IST] Loaded 4 class JSON files
-2025-07-28 22:45:53,131 [2025-07-28 22:45:53 IST] Rendered index.html
-2025-07-28 22:45:53,148 [2025-07-28 22:45:53 IST] Rendered all class pages
-2025-07-28 22:45:53,149 [2025-07-28 22:45:53 IST] Copied static assets
-2025-07-28 22:45:53,155 [2025-07-28 22:45:53 IST] Copied images
-2025-07-28 22:45:53,155 [2025-07-28 22:45:53 IST] Site built successfully!
-2025-07-28 23:41:21,080 [2025-07-28 23:41:21 IST] Regenerating data with drive_to_class_json.py
-2025-07-28 23:41:21,945 [2025-07-28 23:41:21 IST] Drive-to-class JSON generation started
-2025-07-28 23:41:21,945 [2025-07-28 23:41:21 IST] Main process started
-2025-07-28 23:41:22,178 file_cache is only supported with oauth2client<4.0.0
-2025-07-28 23:41:22,180 [2025-07-28 23:41:22 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
-2025-07-28 23:42:03,821 [2025-07-28 23:42:03 IST] Wrote data\class-tet-metzuyanut-tashpa.json
-2025-07-28 23:42:03,821 [2025-07-28 23:42:03 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
-2025-07-28 23:42:34,841 [2025-07-28 23:42:34 IST] Wrote data\class-yud-571-tashpa.json
-2025-07-28 23:42:34,842 [2025-07-28 23:42:34 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1tKiopu97rtKIrS08k7ye4cYBhWMdilVK)
-2025-07-28 23:42:36,357 [2025-07-28 23:42:36 IST] Wrote data\class-yud-571-tashpav.json
-2025-07-28 23:42:36,357 [2025-07-28 23:42:36 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1AlDviHsoPnyfxxdUx6E46gBH1JrON4-k)
-2025-07-28 23:42:37,501 [2025-07-28 23:42:37 IST] Wrote data\class-yud-aleph-571-tashpav.json
-2025-07-28 23:42:37,502 [2025-07-28 23:42:37 IST] All classes processed. JSON generation complete.
-2025-07-28 23:42:37,575 [2025-07-28 23:42:37 IST] Data regeneration complete
-2025-07-28 23:42:37,575 [2025-07-28 23:42:37 IST] Main build process started
-2025-07-28 23:42:37,616 [2025-07-28 23:42:37 IST] Loaded 4 class JSON files
-2025-07-28 23:42:37,628 [2025-07-28 23:42:37 IST] Rendered index.html
-2025-07-28 23:42:37,644 [2025-07-28 23:42:37 IST] Rendered all class pages
-2025-07-28 23:42:37,646 [2025-07-28 23:42:37 IST] Copied static assets
-2025-07-28 23:42:37,653 [2025-07-28 23:42:37 IST] Copied images
-2025-07-28 23:42:37,653 [2025-07-28 23:42:37 IST] Site built successfully!
-2025-07-28 23:55:19,123 [2025-07-28 23:55:19 IST] Main build process started
-2025-07-28 23:55:19,127 [2025-07-28 23:55:19 IST] Loaded 4 class JSON files
-2025-07-28 23:55:19,139 [2025-07-28 23:55:19 IST] Rendered index.html
-2025-07-28 23:55:19,157 [2025-07-28 23:55:19 IST] Rendered all class pages
-2025-07-28 23:55:19,159 [2025-07-28 23:55:19 IST] Copied static assets
-2025-07-28 23:55:19,166 [2025-07-28 23:55:19 IST] Copied images
-2025-07-28 23:55:19,166 [2025-07-28 23:55:19 IST] Site built successfully!
+2025-07-29 00:59:11,019 [2025-07-29 00:59:11 IST] Main build process started
+2025-07-29 00:59:11,024 [2025-07-29 00:59:11 IST] Loaded 4 class JSON files
+2025-07-29 00:59:11,037 [2025-07-29 00:59:11 IST] Rendered index.html
+2025-07-29 00:59:11,055 [2025-07-29 00:59:11 IST] Rendered all class pages
+2025-07-29 00:59:11,057 [2025-07-29 00:59:11 IST] Copied static assets
+2025-07-29 00:59:11,063 [2025-07-29 00:59:11 IST] Copied images
+2025-07-29 00:59:11,063 [2025-07-29 00:59:11 IST] Site built successfully!

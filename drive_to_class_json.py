@@ -11,6 +11,8 @@ import shutil
 from logger import log_event
 from datetime import datetime
 import pytz
+import markdown
+import base64
 
 
 log_event('Drive-to-class JSON generation started')
@@ -96,7 +98,6 @@ def create_base64_credentials():
     # Only create if the base64 file doesn't exist
     if not os.path.exists(base64_path):
         if os.path.exists(CREDENTIALS_PATH):
-            import base64
             # Read the credentials file
             with open(CREDENTIALS_PATH, 'rb') as f:
                 credentials_content = f.read()
@@ -118,6 +119,35 @@ def extract_folder_id(url):
     """Extract the folder ID from a Google Drive URL."""
     match = re.search(r'/folders/([a-zA-Z0-9_-]+)', url)
     return match.group(1) if match else url
+
+def read_readme_file(service, folder_id):
+    """Read README.md file from a Google Drive folder and return its HTML content."""
+    try:
+        # Look for README.md file in the folder
+        query = f"'{folder_id}' in parents and name = 'README.md' and trashed = false"
+        results = service.files().list(q=query, fields="files(id, name)").execute()
+        files = results.get('files', [])
+        
+        if not files:
+            return ""
+        
+        # Get the first README.md file found
+        readme_file_id = files[0]['id']
+        
+        # Download the file content
+        file_content = service.files().get_media(fileId=readme_file_id).execute()
+        
+        # Decode the content (assuming UTF-8 encoding)
+        markdown_text = file_content.decode('utf-8')
+        
+        # Convert markdown to HTML
+        html_content = markdown.markdown(markdown_text)
+        
+        return html_content
+        
+    except Exception as e:
+        log_event(f"Error reading README.md from folder {folder_id}: {str(e)}")
+        return ""
 
 def list_folder_contents(service, folder_id):
     """List all files and folders in a Google Drive folder."""
@@ -164,9 +194,12 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
         }
         lesson_folders = [f for f in list_folder_contents(service, topic['id']) if f['mimeType'] == 'application/vnd.google-apps.folder']
         for lesson_index, lesson in enumerate(lesson_folders, 1):
+            # Read README.md file for lesson description
+            lesson_description = read_readme_file(service, lesson['id'])
+            
             lesson_obj = {
                 'name': lesson['name'],
-                'desc': '',
+                'desc': lesson_description,
                 'id': f"{topic_index}-{lesson_index}",  # Add lesson ID in format "topic-lesson"
                 'content': crawl_lesson_content(service, lesson['id'])
             }

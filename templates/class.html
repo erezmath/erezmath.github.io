@@ -27,6 +27,9 @@
             {{ lesson.name }}
           </div>
           <div class="lesson-content">
+            {% if lesson.desc %}
+            <div class="lesson-description">{{ lesson.desc | safe }}</div>
+            {% endif %}
             {% macro render_content(items) %}
               <ul class="lesson-list">
                 {% for item in items %}
