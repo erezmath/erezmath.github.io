@@ -111,3 +111,17 @@ if you want to auto build project using gitactions, add secret to github actions
 
 # logging
 logs are written to build.log
+
+# allowing google drive api
+1. Go to Google Cloud Console, Sign in with your Google account
+2. In the top navigation bar, click on the project dropdown, Either select an existing project or click "New Project"
+If creating new: Give it a name like "Math Website Drive API" and click "Create"
+3. In the left sidebar, click "APIs & Services" → "Library", Search for "Google Drive API", Click on "Google Drive API" from the results, Click "Enable" button
+4. Go to "APIs & Services" → "Credentials", Click "Create Credentials" button, Select "OAuth 2.0 Client IDs"
+5. (if first time) You'll be prompted to configure the OAuth consent screen, Choose "External" user type, Fill in required fields:
+App name: "Math Website Drive Crawler"
+User support email: Your email
+Developer contact information: Your email
+Click "Save and Continue", Skip "Scopes" section, click "Save and Continue", Add your email as a test user, click "Save and Continue", Click "Back to Dashboard"
+6. Back in "Credentials", click "Create Credentials" → "OAuth 2.0 Client IDs", For Application type, select "Desktop application", Give it a name like "Math Website Drive Crawler", Click "Create"
+7. After creation, you'll see a popup with your client ID and client secret, Click "Download JSON" button, This downloads a file named something like client_secret_123456789-abcdefghijklmnop.apps.googleusercontent.com.json, Rename the downloaded file to credentials.json, Place it in your secrets/ folder

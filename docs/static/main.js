@@ -247,7 +247,7 @@ function setupLessonFolders() {
         el.classList.add('lesson-pop');
         setTimeout(() => {
           el.classList.remove('lesson-pop');
-        }, 1500); // Duration in ms for the pop effect
+        }, 1500); // Duration in ms for the pop effect, remember that it takes time to reach the target
       }
     }
   }

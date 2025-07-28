@@ -21,12 +21,26 @@ CREDENTIALS_PATH = 'secrets/credentials.json'
 TOKEN_PATH = 'secrets/token.pickle'
 DATA_DIR = 'data'
 
+# List of filenames to ignore during crawling (case-insensitive)
+IGNORED_FILENAMES = [
+    'desktop.ini',          # Windows hidden files
+    'readme.md',            # readme files
+    'readme.txt',           # readme files
+    'thumbs.db',            # Windows hidden files
+    '.ds_store',            # Mac hidden files
+    'autorun.inf',          # Windows hidden files
+    'folder.jpg',           # folder images
+    'albumart.jpg',          # folder images
+    'folder.gif',           # folder images
+    'albumart.gif'          # folder images
+]
+
 class_info = [
     {
         'id': 1,
         'name': 'כיתה ט מצוינות תשפה',
         'url_name': 'tet-metzuyanut-tashpa',
-        'google_drive_url': 'https://drive.google.com/drive/folders/11epRetDJViW9EWdomonlYWn6GUk55kC4',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV',
         'banner_url': 'images/banner1.png',
         'active': False
     },
@@ -35,7 +49,7 @@ class_info = [
         'name': 'כיתה י 571 תשפה',
         'url_name': 'yud-571-tashpa',
         #'url_name': '271',
-        'google_drive_url': 'https://drive.google.com/drive/folders/18phQyja-bSXMpptBOYsg5ceGl0Y_WCC7',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa',
         'banner_url': 'images/banner2.jpg',
         'active': False
     },
@@ -44,7 +58,7 @@ class_info = [
         'name': 'כיתה י 571 תשפו',
         'url_name': 'yud-571-tashpav',
         #'url_name': '271',
-        'google_drive_url': 'https://drive.google.com/drive/folders/1ntCk-M-LEXwF9evLkLkmW8IWlCTRyXVu',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1tKiopu97rtKIrS08k7ye4cYBhWMdilVK',
         'banner_url': 'images/banner3.png',
         'active': True
     },
@@ -53,14 +67,14 @@ class_info = [
         'name': 'כיתה יא 571 תשפו',
         'url_name': 'yud-aleph-571-tashpav',
         #'url_name': '271',
-        'google_drive_url': 'https://drive.google.com/drive/folders/12g3Vabxfnlt8MXBgF_vBiY0aMnCeofcT',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1AlDviHsoPnyfxxdUx6E46gBH1JrON4-k',
         'banner_url': 'images/banner4.png',
         'active': True
     }
 ]
 
 def get_drive_service():
-    """Authenticate and return a Google Drive service client."""
+    """Authenticate and return a Google Drive service client. if changing credentials, delete token.pickle"""
     creds = None
     if os.path.exists(TOKEN_PATH):
         with open(TOKEN_PATH, 'rb') as token:
@@ -74,6 +88,31 @@ def get_drive_service():
         with open(TOKEN_PATH, 'wb') as token:
             pickle.dump(creds, token)
     return build('drive', 'v3', credentials=creds)
+
+def create_base64_credentials():
+    """Create base64-encoded credentials file for GitHub Actions if it doesn't exist."""
+    base64_path = os.path.join('secrets', 'credentials.b64')
+    
+    # Only create if the base64 file doesn't exist
+    if not os.path.exists(base64_path):
+        if os.path.exists(CREDENTIALS_PATH):
+            import base64
+            # Read the credentials file
+            with open(CREDENTIALS_PATH, 'rb') as f:
+                credentials_content = f.read()
+            
+            # Encode to base64
+            base64_content = base64.b64encode(credentials_content).decode('utf-8')
+            
+            # Write the base64 file
+            with open(base64_path, 'w') as f:
+                f.write(base64_content)
+            
+            print(f"Created {base64_path} for GitHub Actions")
+            log_event(f"Created {base64_path} for GitHub Actions")
+        else:
+            print(f"Warning: {CREDENTIALS_PATH} not found, cannot create base64 credentials")
+            log_event(f"Warning: {CREDENTIALS_PATH} not found, cannot create base64 credentials")
 
 def extract_folder_id(url):
     """Extract the folder ID from a Google Drive URL."""
@@ -99,6 +138,11 @@ def crawl_lesson_content(service, folder_id):
                 'content': crawl_lesson_content(service, item['id'])
             })
         else:
+            # Check if the file should be ignored
+            filename = item['name'].lower()
+            if filename in [ignored.lower() for ignored in IGNORED_FILENAMES]:
+                continue  # Skip this file
+            
             # Remove .pdf extension for display, but keep original name for download
             name = re.sub(r'\.pdf$', '', item['name'], flags=re.IGNORECASE)
             content.append({
@@ -149,6 +193,9 @@ def main():
         shutil.rmtree(DATA_DIR)
     os.makedirs(DATA_DIR, exist_ok=True)
     service = get_drive_service()
+    
+    # Create base64 credentials for GitHub Actions if needed
+    create_base64_credentials()
     
     # Use hardcoded ids from class_info
     for cls in class_info:
