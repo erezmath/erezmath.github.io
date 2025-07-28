@@ -4,6 +4,9 @@ function setupLessonExpand() {
       const lessons = Array.from(accordion.querySelectorAll('.lesson'));
       accordion.querySelectorAll('.lesson-header').forEach((header, idx) => {
         header.addEventListener('click', function() {
+          // Get ALL lessons on the page, not just in this accordion
+          const allLessons = Array.from(document.querySelectorAll('.lesson'));
+          
           // Determine columns: 2 on desktop, 1 on mobile
           const columns = window.matchMedia('(min-width: 700px)').matches ? 2 : 1;
           let rowStart;
@@ -17,14 +20,14 @@ function setupLessonExpand() {
             
             if (isRowExpanded && isClickingCurrentHash) {
               // Row is expanded and clicking on the lesson that's currently in hash - collapse
-              lessons.forEach(lesson => lesson.classList.remove('expanded'));
+              allLessons.forEach(lesson => lesson.classList.remove('expanded'));
               history.replaceState(null, '', window.location.pathname);
             } else if (isRowExpanded && !isClickingCurrentHash) {
               // Row is expanded but clicking on the other lesson - switch focus
               history.replaceState(null, '', '#' + clickedLesson.id);
             } else {
               // Row is not expanded - expand and focus on clicked lesson
-              lessons.forEach(lesson => lesson.classList.remove('expanded'));
+              allLessons.forEach(lesson => lesson.classList.remove('expanded'));
               [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
                 if (lesson) lesson.classList.add('expanded');
               });
@@ -34,8 +37,8 @@ function setupLessonExpand() {
             const targetLesson = lessons[idx];
             const isExpanding = !targetLesson.classList.contains('expanded');
             
-            // Close all lessons first
-            lessons.forEach(lesson => lesson.classList.remove('expanded'));
+            // Close all lessons first (across all topics)
+            allLessons.forEach(lesson => lesson.classList.remove('expanded'));
             
             // If we were expanding, expand the target lesson
             if (isExpanding) {
@@ -50,6 +53,9 @@ function setupLessonExpand() {
         });
         header.addEventListener('keydown', function(e) {
           if (e.key === 'Enter' || e.key === ' ') {
+            // Get ALL lessons on the page, not just in this accordion
+            const allLessons = Array.from(document.querySelectorAll('.lesson'));
+            
             const columns = window.matchMedia('(min-width: 700px)').matches ? 2 : 1;
             let rowStart;
             if (columns === 2) {
@@ -62,14 +68,14 @@ function setupLessonExpand() {
               
               if (isRowExpanded && isClickingCurrentHash) {
                 // Row is expanded and clicking on the lesson that's currently in hash - collapse
-                lessons.forEach(lesson => lesson.classList.remove('expanded'));
+                allLessons.forEach(lesson => lesson.classList.remove('expanded'));
                 history.replaceState(null, '', window.location.pathname);
               } else if (isRowExpanded && !isClickingCurrentHash) {
                 // Row is expanded but clicking on the other lesson - switch focus
                 history.replaceState(null, '', '#' + clickedLesson.id);
               } else {
                 // Row is not expanded - expand and focus on clicked lesson
-                lessons.forEach(lesson => lesson.classList.remove('expanded'));
+                allLessons.forEach(lesson => lesson.classList.remove('expanded'));
                 [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
                   if (lesson) lesson.classList.add('expanded');
                 });
@@ -79,8 +85,8 @@ function setupLessonExpand() {
               const targetLesson = lessons[idx];
               const isExpanding = !targetLesson.classList.contains('expanded');
               
-              // Close all lessons first
-              lessons.forEach(lesson => lesson.classList.remove('expanded'));
+              // Close all lessons first (across all topics)
+              allLessons.forEach(lesson => lesson.classList.remove('expanded'));
               
               // If we were expanding, expand the target lesson
               if (isExpanding) {
