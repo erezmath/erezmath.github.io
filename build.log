@@ -248,3 +248,68 @@
 2025-07-29 11:16:46,732 [2025-07-29 11:16:46 IST] Copied static assets
 2025-07-29 11:16:46,740 [2025-07-29 11:16:46 IST] Copied images
 2025-07-29 11:16:46,740 [2025-07-29 11:16:46 IST] Site built successfully!
+2025-07-29 13:23:29,845 [2025-07-29 13:23:29 IST] Main build process started
+2025-07-29 13:23:29,882 [2025-07-29 13:23:29 IST] Loaded 4 class JSON files
+2025-07-29 13:23:29,916 [2025-07-29 13:23:29 IST] Rendered index.html
+2025-07-29 13:23:29,944 [2025-07-29 13:23:29 IST] Rendered all class pages
+2025-07-29 13:23:29,946 [2025-07-29 13:23:29 IST] Copied static assets
+2025-07-29 13:23:29,953 [2025-07-29 13:23:29 IST] Copied images
+2025-07-29 13:23:29,953 [2025-07-29 13:23:29 IST] Site built successfully!
+2025-07-29 13:35:28,944 [2025-07-29 13:35:28 IST] Main build process started
+2025-07-29 13:35:28,948 [2025-07-29 13:35:28 IST] Loaded 4 class JSON files
+2025-07-29 13:35:28,960 [2025-07-29 13:35:28 IST] Rendered index.html
+2025-07-29 13:35:28,978 [2025-07-29 13:35:28 IST] Rendered all class pages
+2025-07-29 13:35:28,980 [2025-07-29 13:35:28 IST] Copied static assets
+2025-07-29 13:35:28,986 [2025-07-29 13:35:28 IST] Copied images
+2025-07-29 13:35:28,986 [2025-07-29 13:35:28 IST] Site built successfully!
+2025-07-29 13:37:42,837 [2025-07-29 13:37:42 IST] Main build process started
+2025-07-29 13:37:42,842 [2025-07-29 13:37:42 IST] Loaded 4 class JSON files
+2025-07-29 13:37:42,854 [2025-07-29 13:37:42 IST] Rendered index.html
+2025-07-29 13:37:42,872 [2025-07-29 13:37:42 IST] Rendered all class pages
+2025-07-29 13:37:42,874 [2025-07-29 13:37:42 IST] Copied static assets
+2025-07-29 13:37:42,879 [2025-07-29 13:37:42 IST] Copied images
+2025-07-29 13:37:42,879 [2025-07-29 13:37:42 IST] Site built successfully!
+2025-07-29 13:55:00,405 [2025-07-29 13:55:00 IST] Regenerating data with drive_to_class_json.py
+2025-07-29 13:56:56,665 [2025-07-29 13:56:56 IST] Regenerating data with drive_to_class_json.py
+2025-07-29 13:58:04,272 [2025-07-29 13:58:04 IST] Regenerating data with drive_to_class_json.py
+2025-07-29 13:58:05,214 [2025-07-29 13:58:05 IST] Drive-to-class JSON generation started
+2025-07-29 13:58:05,215 [2025-07-29 13:58:05 IST] Main process started
+2025-07-29 13:58:05,439 file_cache is only supported with oauth2client<4.0.0
+2025-07-29 13:58:05,454 [2025-07-29 13:58:05 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2025-07-29 13:59:16,657 [2025-07-29 13:59:16 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2025-07-29 13:59:16,658 [2025-07-29 13:59:16 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2025-07-29 14:00:15,759 [2025-07-29 14:00:15 IST] Wrote data\class-yud-571-tashpa.json
+2025-07-29 14:00:15,759 [2025-07-29 14:00:15 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1tKiopu97rtKIrS08k7ye4cYBhWMdilVK)
+2025-07-29 14:00:20,139 [2025-07-29 14:00:20 IST] Wrote data\class-yud-571-tashpav.json
+2025-07-29 14:00:20,139 [2025-07-29 14:00:20 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1AlDviHsoPnyfxxdUx6E46gBH1JrON4-k)
+2025-07-29 14:00:22,405 [2025-07-29 14:00:22 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-07-29 14:00:22,405 [2025-07-29 14:00:22 IST] All classes processed. JSON generation complete.
+2025-07-29 14:00:22,493 [2025-07-29 14:00:22 IST] Data regeneration complete
+2025-07-29 14:00:22,494 [2025-07-29 14:00:22 IST] Main build process started
+2025-07-29 14:00:22,528 [2025-07-29 14:00:22 IST] Loaded 4 class JSON files
+2025-07-29 14:00:22,542 [2025-07-29 14:00:22 IST] Rendered index.html
+2025-07-29 14:00:22,570 [2025-07-29 14:00:22 IST] Rendered all class pages
+2025-07-29 14:00:22,573 [2025-07-29 14:00:22 IST] Copied static assets
+2025-07-29 14:00:22,579 [2025-07-29 14:00:22 IST] Copied images
+2025-07-29 14:00:22,579 [2025-07-29 14:00:22 IST] Site built successfully!
+2025-07-29 14:00:56,382 [2025-07-29 14:00:56 IST] Regenerating data with drive_to_class_json.py
+2025-07-29 14:00:57,303 [2025-07-29 14:00:57 IST] Drive-to-class JSON generation started
+2025-07-29 14:00:57,303 [2025-07-29 14:00:57 IST] Main process started
+2025-07-29 14:00:57,313 file_cache is only supported with oauth2client<4.0.0
+2025-07-29 14:00:57,315 [2025-07-29 14:00:57 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2025-07-29 14:02:10,882 [2025-07-29 14:02:10 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2025-07-29 14:02:10,882 [2025-07-29 14:02:10 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2025-07-29 14:03:09,743 [2025-07-29 14:03:09 IST] Wrote data\class-yud-571-tashpa.json
+2025-07-29 14:03:09,743 [2025-07-29 14:03:09 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1tKiopu97rtKIrS08k7ye4cYBhWMdilVK)
+2025-07-29 14:03:13,349 [2025-07-29 14:03:13 IST] Wrote data\class-yud-571-tashpav.json
+2025-07-29 14:03:13,349 [2025-07-29 14:03:13 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1AlDviHsoPnyfxxdUx6E46gBH1JrON4-k)
+2025-07-29 14:03:15,404 [2025-07-29 14:03:15 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-07-29 14:03:15,404 [2025-07-29 14:03:15 IST] All classes processed. JSON generation complete.
+2025-07-29 14:03:15,453 [2025-07-29 14:03:15 IST] Data regeneration complete
+2025-07-29 14:03:15,453 [2025-07-29 14:03:15 IST] Main build process started
+2025-07-29 14:03:15,478 [2025-07-29 14:03:15 IST] Loaded 4 class JSON files
+2025-07-29 14:03:15,492 [2025-07-29 14:03:15 IST] Rendered index.html
+2025-07-29 14:03:15,510 [2025-07-29 14:03:15 IST] Rendered all class pages
+2025-07-29 14:03:15,512 [2025-07-29 14:03:15 IST] Copied static assets
+2025-07-29 14:03:15,517 [2025-07-29 14:03:15 IST] Copied images
+2025-07-29 14:03:15,517 [2025-07-29 14:03:15 IST] Site built successfully!

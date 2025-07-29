@@ -125,3 +125,7 @@ Developer contact information: Your email
 Click "Save and Continue", Skip "Scopes" section, click "Save and Continue", Add your email as a test user, click "Save and Continue", Click "Back to Dashboard"
 6. Back in "Credentials", click "Create Credentials" → "OAuth 2.0 Client IDs", For Application type, select "Desktop application", Give it a name like "Math Website Drive Crawler", Click "Create"
 7. After creation, you'll see a popup with your client ID and client secret, Click "Download JSON" button, This downloads a file named something like client_secret_123456789-abcdefghijklmnop.apps.googleusercontent.com.json, Rename the downloaded file to credentials.json, Place it in your secrets/ folder
+
+# assignments.md
+weekly assignments are stored in assignments.md per class.
+a <hr> seperation line is needed between the weekly assignments, both for visual que for the user, and for the code.

@@ -13,6 +13,7 @@ from datetime import datetime
 import pytz
 import markdown
 import base64
+from bs4 import BeautifulSoup
 
 
 log_event('Drive-to-class JSON generation started')
@@ -153,7 +154,12 @@ def read_readme_file(service, folder_id):
         return ""
 
 def read_assignments_file(service, folder_id):
-    """Read assignments.md file from a Google Drive folder and return its HTML content and file ID."""
+    """
+    Read assignments.md file from a Google Drive folder and return its HTML content and file ID.
+    Only the content up to and including the 4th <hr> tag is kept in the HTML for performance.
+    NOTE: If you change the number of blocks here, you must also update the JS logic in static/main.js
+    to keep the frontend and backend in sync.
+    """
     try:
         # Look for assignments.md file in the folder
         query = f"'{folder_id}' in parents and name = '{ASSIGNMENTS_FILENAME}' and trashed = false"
@@ -185,7 +191,26 @@ def read_assignments_file(service, folder_id):
         # Convert markdown to HTML with better options for Hebrew text
         html_content = markdown.markdown(markdown_text, extensions=['extra', 'codehilite'])
         
-        return html_content, assignments_file_id
+        # Truncate to only the content up to and including the 4th <hr> tag
+        # If you change this, update static/main.js accordingly!
+        N = 4
+        hr_count = 0
+        last_index = len(html_content)
+        search_start = 0
+        while hr_count < N:
+            idx = html_content.find('<hr', search_start)
+            if idx == -1:
+                break
+            hr_count += 1
+            # Find the closing > of this <hr ...>
+            close_idx = html_content.find('>', idx)
+            if close_idx == -1:
+                break
+            last_index = close_idx + 1
+            search_start = close_idx + 1
+        truncated_html = html_content[:last_index]
+        
+        return truncated_html, assignments_file_id
         
     except Exception as e:
         log_event(f"Error reading {ASSIGNMENTS_FILENAME} from folder {folder_id}: {str(e)}")

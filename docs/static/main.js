@@ -275,9 +275,12 @@ function setupLessonFolders() {
   window.addEventListener('hashchange', scrollToHashTarget);
   
   // Assignments progressive loading (for HTML/Markdown)
+  // Now: Each assignment block is the content between <hr> tags (weekly assignment)
+  // Show first 2 blocks, then reveal one more per click, up to 2 more times, then show the link
   let assignmentsBlocks = null;
-  let assignmentsCurrentBlocks = 10;
-  const assignmentsMaxBlocks = 30;
+  let assignmentsCurrentBlocks = 2; // Start by showing 2 blocks
+  const assignmentsMaxClicks = 2;   // User can click 'see more' 2 times (so up to 4 blocks)
+  let assignmentsClicks = 0;
 
   function loadMoreAssignments() {
     if (!assignmentsBlocks) {
@@ -285,7 +288,8 @@ function setupLessonFolders() {
     }
     if (!assignmentsBlocks) return;
 
-    assignmentsCurrentBlocks += 10;
+    assignmentsClicks += 1;
+    assignmentsCurrentBlocks += 1;
     renderAssignmentsBlocks();
   }
 
@@ -297,12 +301,22 @@ function setupLessonFolders() {
         // Parse the HTML into DOM nodes
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = fullHtml;
-        // Only consider block-level elements (p, ul, ol, h1-h6, blockquote, pre, etc.)
+        // Split content into blocks by <hr>, but keep <hr> visible at the end of each block (except last)
         assignmentsBlocks = [];
+        let currentBlock = document.createElement('div');
         for (let node of tempDiv.childNodes) {
-          if (node.nodeType === Node.ELEMENT_NODE || (node.nodeType === Node.TEXT_NODE && node.textContent.trim() !== '')) {
-            assignmentsBlocks.push(node);
+          if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'HR') {
+            // Add the <hr> to the current block before pushing
+            currentBlock.appendChild(node.cloneNode(true));
+            assignmentsBlocks.push(currentBlock);
+            currentBlock = document.createElement('div');
+          } else {
+            currentBlock.appendChild(node.cloneNode(true));
           }
+        }
+        // Push the last block if it has content
+        if (currentBlock.childNodes.length > 0) {
+          assignmentsBlocks.push(currentBlock);
         }
       }
     }
@@ -321,7 +335,10 @@ function setupLessonFolders() {
     // Show/hide controls
     const loadMoreBtn = document.getElementById('load-more-btn');
     const viewFullLink = document.getElementById('view-full-link');
-    if (assignmentsCurrentBlocks >= assignmentsMaxBlocks || assignmentsCurrentBlocks >= assignmentsBlocks.length) {
+    if (
+      assignmentsClicks >= assignmentsMaxClicks ||
+      assignmentsCurrentBlocks >= assignmentsBlocks.length
+    ) {
       loadMoreBtn.style.display = 'none';
       viewFullLink.style.display = 'inline-block';
     } else {
@@ -332,7 +349,8 @@ function setupLessonFolders() {
 
   function setupAssignments() {
     assignmentsBlocks = null;
-    assignmentsCurrentBlocks = 10;
+    assignmentsCurrentBlocks = 2;
+    assignmentsClicks = 0;
     setupAssignmentsBlocks();
     renderAssignmentsBlocks();
   } 
