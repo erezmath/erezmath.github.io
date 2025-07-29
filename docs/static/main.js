@@ -274,48 +274,65 @@ function setupLessonFolders() {
   // Handle hash changes (e.g., when user clicks a hash link)
   window.addEventListener('hashchange', scrollToHashTarget);
   
-  // Assignments progressive loading
-  let assignmentsData = null;
-  let currentRows = 10;
-  const maxRows = 30;
-  
+  // Assignments progressive loading (for HTML/Markdown)
+  let assignmentsBlocks = null;
+  let assignmentsCurrentBlocks = 10;
+  const assignmentsMaxBlocks = 30;
+
   function loadMoreAssignments() {
-    if (!assignmentsData) {
-      // Get the full assignments HTML from the page
-      const assignmentsSection = document.getElementById('assignments');
-      if (assignmentsSection) {
-        const fullHtml = assignmentsSection.getAttribute('data-full-html');
-        if (fullHtml) {
-          assignmentsData = fullHtml;
-        }
-      }
+    if (!assignmentsBlocks) {
+      setupAssignmentsBlocks();
     }
-    
-    if (assignmentsData) {
-      currentRows += 10;
-      // For HTML content, we'll show all content since it's already formatted
-      document.getElementById('assignments-text').innerHTML = assignmentsData;
-      
-      const loadMoreBtn = document.getElementById('load-more-btn');
-      const viewFullLink = document.getElementById('view-full-link');
-      
-      // Hide load more button since we're showing all content
-      loadMoreBtn.style.display = 'none';
-      viewFullLink.style.display = 'inline-block';
-    }
+    if (!assignmentsBlocks) return;
+
+    assignmentsCurrentBlocks += 10;
+    renderAssignmentsBlocks();
   }
-  
-  function setupAssignments() {
+
+  function setupAssignmentsBlocks() {
     const assignmentsSection = document.getElementById('assignments');
     if (assignmentsSection) {
       const fullHtml = assignmentsSection.getAttribute('data-full-html');
       if (fullHtml) {
-        assignmentsData = fullHtml;
-        // Show all HTML content since it's already formatted
-        document.getElementById('assignments-text').innerHTML = fullHtml;
-        
-        // Hide the load more button since we're showing all content
-        document.getElementById('load-more-btn').style.display = 'none';
+        // Parse the HTML into DOM nodes
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = fullHtml;
+        // Only consider block-level elements (p, ul, ol, h1-h6, blockquote, pre, etc.)
+        assignmentsBlocks = [];
+        for (let node of tempDiv.childNodes) {
+          if (node.nodeType === Node.ELEMENT_NODE || (node.nodeType === Node.TEXT_NODE && node.textContent.trim() !== '')) {
+            assignmentsBlocks.push(node);
+          }
+        }
       }
     }
+  }
+
+  function renderAssignmentsBlocks() {
+    const assignmentsTextDiv = document.getElementById('assignments-text');
+    if (!assignmentsBlocks || !assignmentsTextDiv) return;
+
+    // Show up to assignmentsCurrentBlocks blocks
+    assignmentsTextDiv.innerHTML = '';
+    for (let i = 0; i < Math.min(assignmentsCurrentBlocks, assignmentsBlocks.length); i++) {
+      assignmentsTextDiv.appendChild(assignmentsBlocks[i].cloneNode(true));
+    }
+
+    // Show/hide controls
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const viewFullLink = document.getElementById('view-full-link');
+    if (assignmentsCurrentBlocks >= assignmentsMaxBlocks || assignmentsCurrentBlocks >= assignmentsBlocks.length) {
+      loadMoreBtn.style.display = 'none';
+      viewFullLink.style.display = 'inline-block';
+    } else {
+      loadMoreBtn.style.display = 'inline-block';
+      viewFullLink.style.display = 'none';
+    }
+  }
+
+  function setupAssignments() {
+    assignmentsBlocks = null;
+    assignmentsCurrentBlocks = 10;
+    setupAssignmentsBlocks();
+    renderAssignmentsBlocks();
   } 

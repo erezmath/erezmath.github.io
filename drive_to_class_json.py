@@ -47,7 +47,7 @@ class_info = [
         'url_name': 'tet-metzuyanut-tashpa',
         'google_drive_url': 'https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV',
         'banner_url': 'images/banner1.png',
-        'active': False
+        'active': False         # whether to show the class is tought this year, or was tought in previous years
     },
     {
         'id': 2,
