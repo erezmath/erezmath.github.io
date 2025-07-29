@@ -24,7 +24,7 @@ TOKEN_PATH = 'secrets/token.pickle'
 DATA_DIR = 'data'
 
 # Assignments filename (can be changed easily)
-ASSIGNMENTS_FILENAME = 'assignments.txt'
+ASSIGNMENTS_FILENAME = 'assignments.md'
 
 # List of filenames to ignore during crawling (case-insensitive)
 IGNORED_FILENAMES = [
@@ -143,8 +143,8 @@ def read_readme_file(service, folder_id):
         # Decode the content (assuming UTF-8 encoding)
         markdown_text = file_content.decode('utf-8')
         
-        # Convert markdown to HTML
-        html_content = markdown.markdown(markdown_text)
+        # Convert markdown to HTML with better options for Hebrew text
+        html_content = markdown.markdown(markdown_text, extensions=['extra', 'codehilite'])
         
         return html_content
         
@@ -153,9 +153,9 @@ def read_readme_file(service, folder_id):
         return ""
 
 def read_assignments_file(service, folder_id):
-    """Read assignments.txt file from a Google Drive folder and return its content and file ID."""
+    """Read assignments.md file from a Google Drive folder and return its HTML content and file ID."""
     try:
-        # Look for assignments.txt file in the folder
+        # Look for assignments.md file in the folder
         query = f"'{folder_id}' in parents and name = '{ASSIGNMENTS_FILENAME}' and trashed = false"
         results = service.files().list(q=query, fields="files(id, name)").execute()
         files = results.get('files', [])
@@ -163,16 +163,29 @@ def read_assignments_file(service, folder_id):
         if not files:
             return "", ""
         
-        # Get the first assignments.txt file found
+        # Get the first assignments.md file found
         assignments_file_id = files[0]['id']
         
         # Download the file content
         file_content = service.files().get_media(fileId=assignments_file_id).execute()
         
         # Decode the content (assuming UTF-8 encoding)
-        assignments_text = file_content.decode('utf-8')
+        markdown_text = file_content.decode('utf-8')
         
-        return assignments_text, assignments_file_id
+        # Clean up escaped characters that might interfere with markdown parsing
+        # Remove backslashes before markdown syntax characters
+        markdown_text = markdown_text.replace('\\#', '#')
+        markdown_text = markdown_text.replace('\\-', '-')
+        markdown_text = markdown_text.replace('\\*', '*')
+        markdown_text = markdown_text.replace('\\_', '_')
+        markdown_text = markdown_text.replace('\\`', '`')
+        markdown_text = markdown_text.replace('\\>', '>')
+        markdown_text = markdown_text.replace('\\|', '|')
+        
+        # Convert markdown to HTML with better options for Hebrew text
+        html_content = markdown.markdown(markdown_text, extensions=['extra', 'codehilite'])
+        
+        return html_content, assignments_file_id
         
     except Exception as e:
         log_event(f"Error reading {ASSIGNMENTS_FILENAME} from folder {folder_id}: {str(e)}")

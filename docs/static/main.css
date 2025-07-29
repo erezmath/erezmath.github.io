@@ -364,13 +364,73 @@ body {
     line-height: 1.6;
     color: #333;
     margin: 0 0 20px 0;
-    white-space: pre-wrap;
-    word-wrap: break-word;
     direction: rtl;
     background: #fff;
-    padding: 16px;
+    padding: 20px;
     border-radius: 8px;
     border: 1px solid #e5e7eb;
+  }
+  
+  .assignments-text h1,
+  .assignments-text h2,
+  .assignments-text h3,
+  .assignments-text h4,
+  .assignments-text h5,
+  .assignments-text h6 {
+    color: #1e40af;
+    margin: 1.5rem 0 0.5rem 0;
+    font-weight: 600;
+  }
+  
+  .assignments-text h1:first-child,
+  .assignments-text h2:first-child,
+  .assignments-text h3:first-child,
+  .assignments-text h4:first-child,
+  .assignments-text h5:first-child,
+  .assignments-text h6:first-child {
+    margin-top: 0;
+  }
+  
+  .assignments-text p {
+    margin: 0.5rem 0;
+  }
+  
+  .assignments-text ul,
+  .assignments-text ol {
+    margin: 0.5rem 0;
+    padding-right: 1.5rem;
+  }
+  
+  .assignments-text li {
+    margin: 0.25rem 0;
+  }
+  
+  .assignments-text strong,
+  .assignments-text b {
+    color: #1e40af;
+    font-weight: 600;
+  }
+  
+  .assignments-text em,
+  .assignments-text i {
+    color: #666;
+  }
+  
+  .assignments-text code {
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+  }
+  
+  .assignments-text blockquote {
+    border-right: 4px solid #1e40af;
+    padding-right: 1rem;
+    margin: 1rem 0;
+    background: #f8fafc;
+    padding: 1rem;
+    border-radius: 4px;
   }
   
   .assignments-controls {

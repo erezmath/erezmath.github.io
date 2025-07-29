@@ -281,46 +281,41 @@ function setupLessonFolders() {
   
   function loadMoreAssignments() {
     if (!assignmentsData) {
-      // Get the full assignments text from the page
+      // Get the full assignments HTML from the page
       const assignmentsSection = document.getElementById('assignments');
       if (assignmentsSection) {
-        // Store the full text in a data attribute or get it from the server
-        // For now, we'll need to pass the full text via a data attribute
-        const fullText = assignmentsSection.getAttribute('data-full-text');
-        if (fullText) {
-          assignmentsData = fullText.split('\n');
+        const fullHtml = assignmentsSection.getAttribute('data-full-html');
+        if (fullHtml) {
+          assignmentsData = fullHtml;
         }
       }
     }
     
     if (assignmentsData) {
       currentRows += 10;
-      const displayText = assignmentsData.slice(0, currentRows).join('\n');
-      document.getElementById('assignments-text').textContent = displayText;
+      // For HTML content, we'll show all content since it's already formatted
+      document.getElementById('assignments-text').innerHTML = assignmentsData;
       
       const loadMoreBtn = document.getElementById('load-more-btn');
       const viewFullLink = document.getElementById('view-full-link');
       
-      if (currentRows >= maxRows) {
-        loadMoreBtn.style.display = 'none';
-        viewFullLink.style.display = 'inline-block';
-      }
+      // Hide load more button since we're showing all content
+      loadMoreBtn.style.display = 'none';
+      viewFullLink.style.display = 'inline-block';
     }
   }
   
   function setupAssignments() {
     const assignmentsSection = document.getElementById('assignments');
     if (assignmentsSection) {
-      const fullText = assignmentsSection.getAttribute('data-full-text');
-      if (fullText) {
-        assignmentsData = fullText.split('\n');
-        const initialText = assignmentsData.slice(0, 10).join('\n');
-        document.getElementById('assignments-text').textContent = initialText;
+      const fullHtml = assignmentsSection.getAttribute('data-full-html');
+      if (fullHtml) {
+        assignmentsData = fullHtml;
+        // Show all HTML content since it's already formatted
+        document.getElementById('assignments-text').innerHTML = fullHtml;
         
-        // Show load more button if there are more than 10 rows
-        if (assignmentsData.length > 10) {
-          document.getElementById('load-more-btn').style.display = 'inline-block';
-        }
+        // Hide the load more button since we're showing all content
+        document.getElementById('load-more-btn').style.display = 'none';
       }
     }
   } 

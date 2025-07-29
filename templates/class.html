@@ -21,7 +21,7 @@
   </div>
   <div class="topics-list">
     {% if class_info.assignments %}
-    <section class="topic-section" id="assignments" data-full-text="{{ class_info.assignments | replace('\n', '\\n') | replace('"', '\\"') }}">
+    <section class="topic-section" id="assignments" data-full-html="{{ class_info.assignments | replace('"', '\\"') }}">
       <h2>משימות</h2>
       <div class="assignments-content">
         <div class="assignments-text" id="assignments-text">
