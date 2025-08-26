@@ -6,87 +6,105 @@
   "desc": "",
   "tags": [
     "גאומטריה",
-    "עבודת קיץ"
+    "דפי נוסחאות ומשפטים",
+    "עבודות ומבחנים"
   ],
   "topics": [
     {
       "name": "גאומטריה",
       "id": "גאומטריה",
+      "lessons": []
+    },
+    {
+      "name": "דפי נוסחאות ומשפטים",
+      "id": "דפי-נוסחאות-ומשפטים",
       "lessons": [
         {
-          "name": "0. רשימת משפטים בגאומטריה",
+          "name": "1. גאומטריה",
           "desc": "",
-          "id": "1-1",
+          "id": "2-1",
           "content": [
             {
               "type": "file",
-              "name": "1. משפטים בגאומטריה בכיתה ט",
-              "url": "https://drive.google.com/file/d/10gsR8rhkSumL5glt7ue62SYIJSi-MCMC/view"
+              "name": "משפטים בגאומטריה לבגרות",
+              "url": "https://drive.google.com/file/d/1LepqjB-U8M0YR5b042SV-cooMBhL28J-/view"
+            }
+          ]
+        },
+        {
+          "name": "2. דף נוסחאות 5 יחל לבגרות",
+          "desc": "",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "דף נוסחאות 5 יחל תוכנית חדשה",
+              "url": "https://drive.google.com/file/d/1z9Oar4v5Y5byBOwLJImFjX_aMzImKhoS/view"
             }
           ]
         }
       ]
     },
     {
-      "name": "עבודת קיץ",
-      "id": "עבודת-קיץ",
+      "name": "עבודות ומבחנים",
+      "id": "עבודות-ומבחנים",
       "lessons": [
         {
-          "name": "1. עבודת קיץ",
+          "name": "1. עבודת קיץ לעולים לכיתה י",
           "desc": "",
-          "id": "2-1",
+          "id": "3-1",
           "content": [
             {
               "type": "file",
               "name": "1. עבודת קיץ לעולים ל 5 יחל",
-              "url": "https://drive.google.com/file/d/1rIAEjgXaqgaBXnDiawaMKZ5XW47V8PZ4/view"
+              "url": "https://drive.google.com/file/d/1sJXGF61mllXU7oY_7Uq-Z4qfg_Hx-IwX/view"
             },
             {
               "type": "file",
               "name": "2. עבודת קיץ לעולים ל 4 יחל",
-              "url": "https://drive.google.com/file/d/1WmirkpxXw3oABWo0BusSuLKqcTglSQHK/view"
+              "url": "https://drive.google.com/file/d/1-0NtwyaiVr1ycKyAtZGlNG3oNDzunRqW/view"
             }
           ]
         },
         {
           "name": "2. אימון למבחן תחילת שנה",
           "desc": "<p>מצורפות מספר עבודות קיץ נוספות, בנושאים השונים שיכולים להיות במבחן.</p>",
-          "id": "2-2",
+          "id": "3-2",
           "content": [
             {
               "type": "file",
               "name": "1. גול",
-              "url": "https://drive.google.com/file/d/1CUQ-kOCHrmHU1qG2HQ1610v8UbEBT3Ay/view"
+              "url": "https://drive.google.com/file/d/15GGa7x8FIvt9ks7HZ4F0CE7ErMYxmqVO/view"
             },
             {
               "type": "file",
               "name": "2. ארכימדס",
-              "url": "https://drive.google.com/file/d/1UKAFr4Jsst53ZNYdZw_YrW0S5Wy4luYQ/view"
+              "url": "https://drive.google.com/file/d/1NwuACRnZOXK4lMSmRQZ64uH3J1NJEnf9/view"
             },
             {
               "type": "file",
               "name": "3. עמט",
-              "url": "https://drive.google.com/file/d/1VYZ4I4qIj3AzQZiyaSiejSVFH16y60fL/view"
+              "url": "https://drive.google.com/file/d/1zam7B-eOG5wdzwqC44AkGdkVwzNqhbNk/view"
             },
             {
               "type": "file",
               "name": "4. עוזרי",
-              "url": "https://drive.google.com/file/d/1L_hMWzXOlv-YQEs5tifhRVHmRhgd7bZX/view"
+              "url": "https://drive.google.com/file/d/1ITgPdmDrSbGe-8CM6uGYWK5HQ-Osaok8/view"
             },
             {
               "type": "file",
               "name": "5. יואל גבע",
-              "url": "https://drive.google.com/file/d/1Fb_ERupdU_s8s604h6XDgL43cRE9Sfwo/view"
+              "url": "https://drive.google.com/file/d/12YqjvwPevp5seGzIVmNM3OTC8Cv9I0hJ/view"
             },
             {
               "type": "file",
               "name": "6. מבחנים לדוגמא - לא שלי",
-              "url": "https://drive.google.com/file/d/1rTvTjNQKjKTB5_Hn6a68hDYQZDR4_nDr/view"
+              "url": "https://drive.google.com/file/d/1hZtt3WK3mNuKXPYN1Ev31hyNfvRwuqUT/view"
             },
             {
               "type": "file",
               "name": "7. עבודת קיץ של מחוז מרכז",
-              "url": "https://drive.google.com/file/d/1OfiAGebHCrHsjSUOw53a74a7gvXDpKLK/view"
+              "url": "https://drive.google.com/file/d/1cp3alj_dXyiX8b92vS1N7uN9JsnmCJIV/view"
             }
           ]
         }

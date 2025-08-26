@@ -5,50 +5,58 @@
   "banner_url": "images/banner4.png",
   "desc": "",
   "tags": [
-    "חדוא",
-    "עבודת קיץ"
+    "דפי נוסחאות ומשפטים",
+    "עבודות ומבחנים"
   ],
   "topics": [
     {
-      "name": "חדוא",
-      "id": "חדוא",
-      "lessons": []
-    },
-    {
-      "name": "עבודת קיץ",
-      "id": "עבודת-קיץ",
+      "name": "דפי נוסחאות ומשפטים",
+      "id": "דפי-נוסחאות-ומשפטים",
       "lessons": [
         {
-          "name": "1. עבודת קיץ",
+          "name": "1. גאומטריה",
+          "desc": "",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "משפטים בגאומטריה לבגרות",
+              "url": "https://drive.google.com/file/d/1vVasn7EI7c7E54S0oJpzSwqHI32STq0X/view"
+            }
+          ]
+        },
+        {
+          "name": "2. דף נוסחאות 5 יחל לבגרות",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "דף נוסחאות 5 יחל תוכנית חדשה",
+              "url": "https://drive.google.com/file/d/1P5MaXhzoS4d7pii2jts3f4p6cV5dV95K/view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "עבודות ומבחנים",
+      "id": "עבודות-ומבחנים",
+      "lessons": [
+        {
+          "name": "1. עבודת קיץ לעולים לכיתה יא",
           "desc": "",
           "id": "2-1",
           "content": [
             {
               "type": "file",
               "name": "1. עבודת קיץ לעולים ל יא 5 יחל",
-              "url": "https://drive.google.com/file/d/1--Ci_wWO5qSRzUpxLhZB-YhFZf6_b7iF/view"
+              "url": "https://drive.google.com/file/d/1tkZ7fkZ8EcWg9UqYkLFcoYVOUrg6_cLd/view"
             },
             {
               "type": "file",
               "name": "2. עבודת קיץ לעולים ל יא 4 יחל",
-              "url": "https://drive.google.com/file/d/1OCSSClF-h8X_82clLzS7b0Q-ZKWMFaHv/view"
-            }
-          ]
-        },
-        {
-          "name": "2. דף נוסחאות ומשפטים בגאומטריה",
-          "desc": "",
-          "id": "2-2",
-          "content": [
-            {
-              "type": "file",
-              "name": "1. משפטים בגאומטריה לבגרות",
-              "url": "https://drive.google.com/file/d/1wjhhIERYHMaoQTD_NkuEafv7ouoPe116/view"
-            },
-            {
-              "type": "file",
-              "name": "2. דף נוסחאות 5 יחל תוכנית חדשה",
-              "url": "https://drive.google.com/file/d/1a7jnbLMfMKsV5nTy6rycMXcE9lswnNMq/view"
+              "url": "https://drive.google.com/file/d/1XRnuQf4d2pryBbm2q_3ZzPYSu-47ZNe8/view"
             }
           ]
         }

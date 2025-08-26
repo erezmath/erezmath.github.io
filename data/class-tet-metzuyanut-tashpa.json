@@ -5,17 +5,16 @@
   "banner_url": "images/banner1.png",
   "desc": "",
   "tags": [
-    "אלגברה",
-    "גאומטריה",
-    "גאומטריה אנליטית",
-    "מבחנים ועבודות",
-    "עבודת קיץ",
-    "שיעור מיוחד"
+    "1. אלגברה",
+    "2. גאומטריה",
+    "3. גאומטריה אנליטית",
+    "4. מבחנים ועבודות",
+    "5. שאלות סיכום בכל הנושאים"
   ],
   "topics": [
     {
-      "name": "אלגברה",
-      "id": "אלגברה",
+      "name": "1. אלגברה",
+      "id": "1-אלגברה",
       "lessons": [
         {
           "name": "1. משוואת קו ישר - חזרה",
@@ -985,8 +984,8 @@
       ]
     },
     {
-      "name": "גאומטריה",
-      "id": "גאומטריה",
+      "name": "2. גאומטריה",
+      "id": "2-גאומטריה",
       "lessons": [
         {
           "name": "0. טעויות נפוצות בגאומטריה",
@@ -1467,8 +1466,8 @@
       ]
     },
     {
-      "name": "גאומטריה אנליטית",
-      "id": "גאומטריה-אנליטית",
+      "name": "3. גאומטריה אנליטית",
+      "id": "3-גאומטריה-אנליטית",
       "lessons": [
         {
           "name": "1. שיעור פתיחה",
@@ -1541,13 +1540,25 @@
       ]
     },
     {
-      "name": "מבחנים ועבודות",
-      "id": "מבחנים-ועבודות",
+      "name": "4. מבחנים ועבודות",
+      "id": "4-מבחנים-ועבודות",
       "lessons": [
+        {
+          "name": "0. עבודת הקיץ לעולים לכיתה ט",
+          "desc": "",
+          "id": "4-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת קיץ",
+              "url": "https://drive.google.com/file/d/1k-sabARjb8YXX29OGUkDxDLvqk772zuC/view"
+            }
+          ]
+        },
         {
           "name": "1. מבחן תחילת שנה",
           "desc": "",
-          "id": "4-1",
+          "id": "4-2",
           "content": [
             {
               "type": "file",
@@ -1610,7 +1621,7 @@
         {
           "name": "2. בוחן לדוגמא ספטמבר -  דלתון",
           "desc": "",
-          "id": "4-2",
+          "id": "4-3",
           "content": [
             {
               "type": "file",
@@ -1627,7 +1638,7 @@
         {
           "name": "3. בוחן לדוגמא סוף ספטמבר - משוואות נוסחאות כפל מקוצר",
           "desc": "",
-          "id": "4-3",
+          "id": "4-4",
           "content": [
             {
               "type": "file",
@@ -1644,7 +1655,7 @@
         {
           "name": "4.5 עבודת סוכות",
           "desc": "",
-          "id": "4-4",
+          "id": "4-5",
           "content": [
             {
               "type": "file",
@@ -1661,7 +1672,7 @@
         {
           "name": "4. בוחן לדוגמא סוף ספטמבר - טרפז",
           "desc": "",
-          "id": "4-5",
+          "id": "4-6",
           "content": [
             {
               "type": "file",
@@ -1673,7 +1684,7 @@
         {
           "name": "5. בוחן סוכות - 90 דקות - משוואות, נוסחאות הכפל המקוצר, פירוק לגורמים, דלתון, טרפז",
           "desc": "",
-          "id": "4-6",
+          "id": "4-7",
           "content": [
             {
               "type": "file",
@@ -1772,7 +1783,7 @@
         {
           "name": "6. מבחן נובמבר - משוואות עם שברים, צמצום שברים, בעיות מילוליות, גאומטריה מקבילית",
           "desc": "",
-          "id": "4-7",
+          "id": "4-8",
           "content": [
             {
               "type": "file",
@@ -1901,7 +1912,7 @@
         {
           "name": "7. בוחן לדוגמא דצמבר - בעיות מילוליות גאומטריות, ומלבן",
           "desc": "",
-          "id": "4-8",
+          "id": "4-9",
           "content": [
             {
               "type": "file",
@@ -1913,7 +1924,7 @@
         {
           "name": "8. בוחן לדוגמא דצמבר - חקירת פרבולה מלאה בהצגות שונים",
           "desc": "",
-          "id": "4-9",
+          "id": "4-10",
           "content": [
             {
               "type": "file",
@@ -1925,7 +1936,7 @@
         {
           "name": "9. עבודת חנוכה",
           "desc": "",
-          "id": "4-10",
+          "id": "4-11",
           "content": [
             {
               "type": "file",
@@ -1937,7 +1948,7 @@
         {
           "name": "10. מבחן ינואר - שתי משוואות עם שני נעלמים, חקירת פרבולה עם פרמטרים, מלבן, תיכון ליתר, משולש 30-60-90",
           "desc": "",
-          "id": "4-11",
+          "id": "4-12",
           "content": [
             {
               "type": "file",
@@ -1984,7 +1995,7 @@
         {
           "name": "11. מבחן ינואר מועד ב - משוואות עם שברים, חקירת פרבולה עם פרמטרים, מלבן, תיכון ליתר, משולש 30-60-90",
           "desc": "",
-          "id": "4-12",
+          "id": "4-13",
           "content": [
             {
               "type": "file",
@@ -2006,7 +2017,7 @@
         {
           "name": "12. מבחן מרץ",
           "desc": "",
-          "id": "4-13",
+          "id": "4-14",
           "content": [
             {
               "type": "file",
@@ -2154,7 +2165,7 @@
         {
           "name": "13. עבודת פסח",
           "desc": "",
-          "id": "4-14",
+          "id": "4-15",
           "content": [
             {
               "type": "folder",
@@ -2273,7 +2284,7 @@
         {
           "name": "14. בוחן אפריל",
           "desc": "",
-          "id": "4-15",
+          "id": "4-16",
           "content": [
             {
               "type": "file",
@@ -2342,7 +2353,7 @@
         {
           "name": "15. מבחן מאי",
           "desc": "",
-          "id": "4-16",
+          "id": "4-17",
           "content": [
             {
               "type": "folder",
@@ -2523,17 +2534,11 @@
               "url": "https://drive.google.com/file/d/1HrzT9AuwzqwXx9TfY5mFLZ_ljRvGWMfK/view"
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "עבודת קיץ",
-      "id": "עבודת-קיץ",
-      "lessons": [
+        },
         {
-          "name": "1. עבודת קיץ",
+          "name": "16. עבודת קיץ לעולים לכיתה י",
           "desc": "",
-          "id": "5-1",
+          "id": "4-18",
           "content": [
             {
               "type": "file",
@@ -2546,11 +2551,117 @@
               "url": "https://drive.google.com/file/d/1hmDEOgTe0lhGi1Rf-xADCD69ssd5w0jJ/view"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "5. שאלות סיכום בכל הנושאים",
+      "id": "5-שאלות-סיכום-בכל-הנושאים",
+      "lessons": [
+        {
+          "name": "1. משוואות עם מכנים",
+          "desc": "",
+          "id": "5-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות עם פתרונות",
+              "url": "https://drive.google.com/file/d/1jdp46E-I269aTF3NnqVM8dp0Oa-O8Qrn/view"
+            },
+            {
+              "type": "file",
+              "name": "2. דף עבודה בסיסי",
+              "url": "https://drive.google.com/file/d/1Fr5rOU0kJrvZVnOQ68YfoEWGRuhYP1Eu/view"
+            },
+            {
+              "type": "file",
+              "name": "3. דף עבודה - ארכימדס",
+              "url": "https://drive.google.com/file/d/1Qo0joFlVMYQDHIgShsM65q3QIf9e8a1X/view"
+            }
+          ]
         },
         {
-          "name": "2. אימון למבחן תחילת שנה",
+          "name": "2. שתי משוואות בשני נעלמים",
           "desc": "",
           "id": "5-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1EKY4NJME1kuGneZOT_pfMU5YtdreDX7Y/view"
+            },
+            {
+              "type": "file",
+              "name": "2. שאלות ופתרונות - בני גורן",
+              "url": "https://drive.google.com/file/d/1V5V89wAAmw7MGZwRDyu58V1fyIjNVD-n/view"
+            },
+            {
+              "type": "file",
+              "name": "3. שאלות - ארכימדס",
+              "url": "https://drive.google.com/file/d/1m9lTBZN5qB8Ejv-7dD4pNSmKGr0j1M_r/view"
+            }
+          ]
+        },
+        {
+          "name": "3. משוואות עם שורשים",
+          "desc": "",
+          "id": "5-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/10GxX9It3M9pdW_rAPW37x3PtZPFKeIao/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים",
+              "url": "https://drive.google.com/file/d/1GHTEc1RxMZRo0KWd8MDA0B_v76Fm8pd_/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות שאלות 1-8",
+              "url": "https://drive.google.com/file/d/1K1k0InIAgEEcfWBjB_0f4GRbsrpIZFnc/view"
+            }
+          ]
+        },
+        {
+          "name": "4. פרבולות",
+          "desc": "",
+          "id": "5-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. פרבולות - ארכימדס",
+              "url": "https://drive.google.com/file/d/1eNE7VesLMI2Ir2b2rAAui8oTxp3LO9tl/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פרבולות - שאלות סיכום עם פרמטרים - דיה",
+              "url": "https://drive.google.com/file/d/1b2vSwaNbhH9rxB0_jA_0zCzY7sZOnQVu/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פרבולות - שאלות קצרות עם פרמטרים",
+              "url": "https://drive.google.com/file/d/1mj1X4o4fv1N2AaaPK7W-fbPP02Sz_U0C/view"
+            }
+          ]
+        },
+        {
+          "name": "5. גאומטריה אנליטית",
+          "desc": "",
+          "id": "5-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות עם פתרונות",
+              "url": "https://drive.google.com/file/d/1oa24MnWtMEBC3XbA3D2A5u5P6beLslcD/view"
+            }
+          ]
+        },
+        {
+          "name": "6. אימון למבחן תחילת כיתה י",
+          "desc": "<p>עבודות קיץ עם תרגילי סיכום כיתה ט בכל הנושאים</p>",
+          "id": "5-6",
           "content": [
             {
               "type": "file",
@@ -2579,7 +2690,7 @@
             },
             {
               "type": "file",
-              "name": "6. מבחנים לדוגמא - לא שלי",
+              "name": "6. מבחנים לדוגמא",
               "url": "https://drive.google.com/file/d/1eK48ECRxqZ4wKfjyI2p9AnfuU24YIUc1/view"
             },
             {
@@ -2590,14 +2701,9 @@
           ]
         }
       ]
-    },
-    {
-      "name": "שיעור מיוחד",
-      "id": "שיעור-מיוחד",
-      "lessons": []
     }
   ],
-  "assignments": "<h3>שבוע 2 (8.9.2025 - 15.9.2025)</h3>\n<ul>\n<li>ראשון - למדנו אלגברה 13, ש.ב לראשון הבא.</li>\n<li>שני: למדנו גאומטריה 17, ש.ב לשני הבא.</li>\n<li>רביעי: למדנו חדוא 5, ש.ב לרביעי הבא. </li>\n</ul>\n<hr />\n<h3>שבוע 1 (8.9.2025 - 15.9.2025)</h3>\n<ul>\n<li>ראשון - למדנו אלגברה 13, ש.ב לראשון הבא.</li>\n<li>שני: למדנו גאומטריה 17, ש.ב לשני הבא.</li>\n<li>רבעי: למדנו חדוא 5, ש.ב לרביעי הבא.</li>\n</ul>\n<hr />\n<h3>שבוע 8.9.2025 - 15.9.2025</h3>\n<ul>\n<li>ראשון - למדנו אלגברה 13, ש.ב לראשון הבא.</li>\n<li>שני: למדנו גאומטריה 17, ש.ב לשני הבא.</li>\n<li>רבעי: למדנו חדוא 5, ש.ב לרביעי הבא.</li>\n</ul>\n<hr />\n<h3>שבוע 8.9.2025 - 15.9.2025</h3>\n<ul>\n<li>ראשון - למדנו אלגברה 13, ש.ב לראשון הבא.</li>\n<li>שני: למדנו גאומטריה 17, ש.ב לשני הבא.</li>\n<li>רבעי: למדנו חדוא 5, ש.ב לרביעי הבא.</li>\n</ul>\n<hr />",
-  "assignments_file_id": "1breEULouGA-_lx5gzyw5yIIiY3fsPIXf",
+  "assignments": "",
+  "assignments_file_id": "",
   "active": false
 }
