@@ -48,7 +48,8 @@ class_info = [
         'url_name': 'tet-metzuyanut-tashpa',
         'google_drive_url': 'https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV',
         'banner_url': 'images/banner1.png',
-        'active': False         # whether to show the class is tought this year, or was tought in previous years
+        'active': False,         # whether to show the class is tought this year, or was tought in previous years
+        'regenerate': False      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
     },
     {
         'id': 2,
@@ -57,7 +58,8 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa',
         'banner_url': 'images/banner2.jpg',
-        'active': False
+        'active': False,
+        'regenerate': False
     },
     {
         'id': 3,
@@ -66,7 +68,8 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ',
         'banner_url': 'images/banner3.png',
-        'active': True
+        'active': True,
+        'regenerate': True
     },
     {
         'id': 4,
@@ -75,7 +78,8 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link',
         'banner_url': 'images/banner4.png',
-        'active': True
+        'active': True,
+        'regenerate': True
     }
 ]
 
@@ -290,13 +294,13 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
     }
 
 def main():
-    """Main process: cleans data dir, crawls all classes, writes JSON."""
+    """Main process: selectively crawls classes based on regenerate flag, writes JSON only for classes that need updating."""
     log_event('Main process started')
     print('Main process started!')
-    # Clean data directory before generating new JSON files
-    if os.path.exists(DATA_DIR):
-        shutil.rmtree(DATA_DIR)
+    
+    # Create data directory if it doesn't exist
     os.makedirs(DATA_DIR, exist_ok=True)
+    
     service = get_drive_service()
     
     # Create base64 credentials for GitHub Actions if needed
@@ -310,6 +314,14 @@ def main():
         folder_url = cls['google_drive_url']
         banner_url = cls.get('banner_url', '')
         active = cls.get('active', False)
+        regenerate = cls.get('regenerate', True)  # Default to True for backward compatibility
+        
+        # Check if we should regenerate this class
+        if not regenerate:
+            log_event(f'Skipping {url_name} - regenerate=False, keeping existing JSON file')
+            print(f'Skipping {url_name} - regenerate=False, keeping existing JSON file')
+            continue
+            
         folder_id = extract_folder_id(folder_url)
         log_event(f'Crawling url_name: {url_name} (folder_url: {folder_url})')
         class_json = crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id)

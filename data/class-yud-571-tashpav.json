@@ -5,24 +5,18 @@
   "banner_url": "images/banner3.png",
   "desc": "",
   "tags": [
-    "גאומטריה",
     "דפי נוסחאות ומשפטים",
     "עבודות ומבחנים"
   ],
   "topics": [
     {
-      "name": "גאומטריה",
-      "id": "גאומטריה",
-      "lessons": []
-    },
-    {
       "name": "דפי נוסחאות ומשפטים",
       "id": "דפי-נוסחאות-ומשפטים",
       "lessons": [
         {
-          "name": "1. גאומטריה",
+          "name": "1. גאומטריה - משפטים",
           "desc": "",
-          "id": "2-1",
+          "id": "1-1",
           "content": [
             {
               "type": "file",
@@ -34,7 +28,7 @@
         {
           "name": "2. דף נוסחאות 5 יחל לבגרות",
           "desc": "",
-          "id": "2-2",
+          "id": "1-2",
           "content": [
             {
               "type": "file",
@@ -52,7 +46,7 @@
         {
           "name": "1. עבודת קיץ לעולים לכיתה י",
           "desc": "",
-          "id": "3-1",
+          "id": "2-1",
           "content": [
             {
               "type": "file",
@@ -67,9 +61,9 @@
           ]
         },
         {
-          "name": "2. אימון למבחן תחילת שנה",
+          "name": "2. אימון למבחן תחילת שנה - עבודות קיץ נוספות",
           "desc": "<p>מצורפות מספר עבודות קיץ נוספות, בנושאים השונים שיכולים להיות במבחן.</p>",
-          "id": "3-2",
+          "id": "2-2",
           "content": [
             {
               "type": "file",
@@ -107,11 +101,142 @@
               "url": "https://drive.google.com/file/d/1cp3alj_dXyiX8b92vS1N7uN9JsnmCJIV/view"
             }
           ]
+        },
+        {
+          "name": "3. חזרה למבחן תחילת שנה - אלגברה",
+          "desc": "<p>חזרה על משוואות עם שורשים, משוואות עם שורשים, ומערכת של 2 משוואות ב 2 נעלמים </p>",
+          "id": "2-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. דף חזרה אלגברה",
+              "url": "https://drive.google.com/file/d/1X8o_3z9kLzVqL4Hih2l9PSP7QYE2zRwK/view"
+            },
+            {
+              "type": "folder",
+              "name": "2. משוואות עם מכנים",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. שאלות עם פתרונות",
+                  "url": "https://drive.google.com/file/d/1-msspxbanitlRWsNYGRd52XpKJQx1Ha9/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. דף עבודה - רמה בסיסית",
+                  "url": "https://drive.google.com/file/d/1w4pUKJaBZ-V7q7AlDhxwP_7efZ7ncDCW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. דף עבודה - ארכימדס - רמת מבחן",
+                  "url": "https://drive.google.com/file/d/1ZftVRG9bUm8qxwkyhCnsSLirxjj86oTQ/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "3. משוואות עם שורשים",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. סיכום שיעור",
+                  "url": "https://drive.google.com/file/d/1j1ISygc3SyvcURafiNO3hA-79rNmwSfa/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. תרגילים",
+                  "url": "https://drive.google.com/file/d/1QvJGxHij6OWAH4B5txMJa51qyltaACbz/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. פתרונות שאלות 1-8",
+                  "url": "https://drive.google.com/file/d/1qJUh5nXmLaTTlFwyGoMxtY2Ik3WRiKEj/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "4. שתי משוואות בשני נעלמים",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. סיכום שיעור",
+                  "url": "https://drive.google.com/file/d/16bXeu1IA7ULL52DKPkCHHVNfKDU0arPz/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. שאלות ופתרונות - בני גורן",
+                  "url": "https://drive.google.com/file/d/1MYTsOQPov6vdfDxfKgXYLlxgthKv41Ui/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. שאלות - ארכימדס",
+                  "url": "https://drive.google.com/file/d/1KVco53n9O-9QoXi2ueEDYA1saVoZjW83/view"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. חזרה למבחן תחילת שנה - פרבולות",
+          "desc": "",
+          "id": "2-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלת חזרה על פרבולות - למבחן",
+              "url": "https://drive.google.com/file/d/1_MeAC-obpWR-PKdju69rKR2W4ArITba-/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פרבולות - ארכימדס",
+              "url": "https://drive.google.com/file/d/1QG1JuRpEE_xW96QpFyXvnJ0E-6cyXW1b/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פרבולות - שאלות רמה גבוהה עם פרמטרים - דיה זגורי",
+              "url": "https://drive.google.com/file/d/136KsEkPpdn0GnuTUR0EJAFPNPTOOo7KZ/view"
+            }
+          ]
+        },
+        {
+          "name": "5. חזרה למבחן תחילת שנה - גאומטריה",
+          "desc": "<p>חזרה על כל המרובעים, קטע אמצעים במשולש, וקטע אמצעים בטרפז</p>",
+          "id": "2-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגול פיצוח בלבד בכיתה",
+              "url": "https://drive.google.com/file/d/11k5qQ0dCPT_omowV6FueBM-1fizGxynt/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1CQ5Y4EDxtEhxoP0FxcQEnFmBCmeHbKNe/view"
+            },
+            {
+              "type": "file",
+              "name": "3. קטע אמצעים במשולש ובטרפז - בני גורן - תרגילים נוספים",
+              "url": "https://drive.google.com/file/d/1ApTk0-g2lfxBNiEwfxrxwdAiGQdwKiV0/view"
+            }
+          ]
+        },
+        {
+          "name": "6. נושאים למבחן תחילת שנה",
+          "desc": "",
+          "id": "2-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "נושאים למבחן",
+              "url": "https://drive.google.com/file/d/1AT1exV6aW7motmE_MFk7dk2laA3mAuhI/view"
+            }
+          ]
         }
       ]
     }
   ],
-  "assignments": "",
-  "assignments_file_id": "",
+  "assignments": "<h3>שבוע 2 (13.9.2025 - 7.9.2025)</h3>\n<ul>\n<li>ראשון - מבחן.</li>\n<li>אחר כך: נראה....</li>\n</ul>\n<hr />\n<h3>שבוע 1 (1.9.2025 - 6.9.2025)</h3>\n<ul>\n<li>עבודת קיץ להגשה בשיעור ה1 שלנו</li>\n<li>מבחן ביום ראשון 7.9.2025, השבוע חזרה</li>\n<li>שלישי: מבחנים 3, חזרה אלגברה.</li>\n<li>רביעי: מבחנים 4, חזרה פרבולות.</li>\n<li>חמישי: מבחנים 5, חזרה גאומטריה. </li>\n</ul>\n<hr />",
+  "assignments_file_id": "14HPOjG7nwQJOWGoS3vEpQ6de0bTblJs4",
   "active": true
 }

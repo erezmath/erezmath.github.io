@@ -69,8 +69,8 @@
   </div>
   <div class="topics-nav">
     
+      <button class="topic-btn active" onclick="scrollToTopic('assignments')">משימות</button>
     
-      <button class="topic-btn active" onclick="scrollToTopic('גאומטריה')">גאומטריה</button>
     
       <button class="topic-btn" onclick="scrollToTopic('דפי-נוסחאות-ומשפטים')">דפי נוסחאות ומשפטים</button>
     
@@ -79,21 +79,45 @@
   </div>
   <div class="topics-list">
     
-    
-    <section class="topic-section" id="גאומטריה">
-      <h2>גאומטריה</h2>
-      <div class="accordion">
-        
+    <section class="topic-section" id="assignments" data-full-html="&lt;h3&gt;שבוע 2 (13.9.2025 - 7.9.2025)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ראשון - מבחן.&lt;/li&gt;
+&lt;li&gt;אחר כך: נראה....&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;שבוע 1 (1.9.2025 - 6.9.2025)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;עבודת קיץ להגשה בשיעור ה1 שלנו&lt;/li&gt;
+&lt;li&gt;מבחן ביום ראשון 7.9.2025, השבוע חזרה&lt;/li&gt;
+&lt;li&gt;שלישי: מבחנים 3, חזרה אלגברה.&lt;/li&gt;
+&lt;li&gt;רביעי: מבחנים 4, חזרה פרבולות.&lt;/li&gt;
+&lt;li&gt;חמישי: מבחנים 5, חזרה גאומטריה. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;">
+      <h2>משימות</h2>
+      <div class="assignments-content">
+        <div class="assignments-text" id="assignments-text">
+          <!-- Initial content will be set by JavaScript -->
+        </div>
+        <div class="assignments-controls">
+          <button class="assignments-btn" id="load-more-btn" onclick="loadMoreAssignments()" style="display: none;">
+            טען עוד משימות
+          </button>
+          <a href="https://drive.google.com/file/d/14HPOjG7nwQJOWGoS3vEpQ6de0bTblJs4/view" target="_blank" class="assignments-link" id="view-full-link" style="display: none;">
+            צפה בקובץ המלא
+          </a>
+        </div>
       </div>
     </section>
+    
     
     <section class="topic-section" id="דפי-נוסחאות-ומשפטים">
       <h2>דפי נוסחאות ומשפטים</h2>
       <div class="accordion">
         
-        <div class="lesson" id="2-1"><a href="#2-1"></a>
+        <div class="lesson" id="1-1"><a href="#1-1"></a>
           <div class="lesson-header" tabindex="0">
-            1. גאומטריה
+            1. גאומטריה - משפטים
           </div>
           <div class="lesson-content">
             
@@ -110,7 +134,7 @@
           </div>
         </div>
         
-        <div class="lesson" id="2-2"><a href="#2-2"></a>
+        <div class="lesson" id="1-2"><a href="#1-2"></a>
           <div class="lesson-header" tabindex="0">
             2. דף נוסחאות 5 יחל לבגרות
           </div>
@@ -136,7 +160,7 @@
       <h2>עבודות ומבחנים</h2>
       <div class="accordion">
         
-        <div class="lesson" id="3-1"><a href="#3-1"></a>
+        <div class="lesson" id="2-1"><a href="#2-1"></a>
           <div class="lesson-header" tabindex="0">
             1. עבודת קיץ לעולים לכיתה י
           </div>
@@ -159,9 +183,9 @@
           </div>
         </div>
         
-        <div class="lesson" id="3-2"><a href="#3-2"></a>
+        <div class="lesson" id="2-2"><a href="#2-2"></a>
           <div class="lesson-header" tabindex="0">
-            2. אימון למבחן תחילת שנה
+            2. אימון למבחן תחילת שנה - עבודות קיץ נוספות
           </div>
           <div class="lesson-content">
             
@@ -197,6 +221,216 @@
                 
                   
                     <li><a href="https://drive.google.com/file/d/1cp3alj_dXyiX8b92vS1N7uN9JsnmCJIV/view" target="_blank" rel="noopener">7. עבודת קיץ של מחוז מרכז</a></li>
+                  
+                
+              </ul>
+            
+          </div>
+        </div>
+        
+        <div class="lesson" id="2-3"><a href="#2-3"></a>
+          <div class="lesson-header" tabindex="0">
+            3. חזרה למבחן תחילת שנה - אלגברה
+          </div>
+          <div class="lesson-content">
+            
+            <div class="lesson-description"><p>חזרה על משוואות עם שורשים, משוואות עם שורשים, ומערכת של 2 משוואות ב 2 נעלמים </p></div>
+            
+            
+            
+              <ul class="lesson-list">
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1X8o_3z9kLzVqL4Hih2l9PSP7QYE2zRwK/view" target="_blank" rel="noopener">1. דף חזרה אלגברה</a></li>
+                  
+                
+                  
+                    <li class="lesson-folder">
+                      <div class="folder-row" tabindex="0">
+                        <span class="folder-icon" data-state="closed">
+                          <!-- Closed folder SVG (pure outline) -->
+                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <!-- Open folder SVG (pure outline) -->
+                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                          </svg>
+                        </span>
+                        <strong class="folder-name">2. משוואות עם מכנים</strong>
+                      </div>
+                      <ul class="folder-content" style="display: none;">
+                        
+              <ul class="lesson-list">
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1-msspxbanitlRWsNYGRd52XpKJQx1Ha9/view" target="_blank" rel="noopener">1. שאלות עם פתרונות</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1w4pUKJaBZ-V7q7AlDhxwP_7efZ7ncDCW/view" target="_blank" rel="noopener">2. דף עבודה - רמה בסיסית</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1ZftVRG9bUm8qxwkyhCnsSLirxjj86oTQ/view" target="_blank" rel="noopener">3. דף עבודה - ארכימדס - רמת מבחן</a></li>
+                  
+                
+              </ul>
+            
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="lesson-folder">
+                      <div class="folder-row" tabindex="0">
+                        <span class="folder-icon" data-state="closed">
+                          <!-- Closed folder SVG (pure outline) -->
+                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <!-- Open folder SVG (pure outline) -->
+                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                          </svg>
+                        </span>
+                        <strong class="folder-name">3. משוואות עם שורשים</strong>
+                      </div>
+                      <ul class="folder-content" style="display: none;">
+                        
+              <ul class="lesson-list">
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1j1ISygc3SyvcURafiNO3hA-79rNmwSfa/view" target="_blank" rel="noopener">1. סיכום שיעור</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1QvJGxHij6OWAH4B5txMJa51qyltaACbz/view" target="_blank" rel="noopener">2. תרגילים</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1qJUh5nXmLaTTlFwyGoMxtY2Ik3WRiKEj/view" target="_blank" rel="noopener">3. פתרונות שאלות 1-8</a></li>
+                  
+                
+              </ul>
+            
+                      </ul>
+                    </li>
+                  
+                
+                  
+                    <li class="lesson-folder">
+                      <div class="folder-row" tabindex="0">
+                        <span class="folder-icon" data-state="closed">
+                          <!-- Closed folder SVG (pure outline) -->
+                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <!-- Open folder SVG (pure outline) -->
+                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                          </svg>
+                        </span>
+                        <strong class="folder-name">4. שתי משוואות בשני נעלמים</strong>
+                      </div>
+                      <ul class="folder-content" style="display: none;">
+                        
+              <ul class="lesson-list">
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/16bXeu1IA7ULL52DKPkCHHVNfKDU0arPz/view" target="_blank" rel="noopener">1. סיכום שיעור</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1MYTsOQPov6vdfDxfKgXYLlxgthKv41Ui/view" target="_blank" rel="noopener">2. שאלות ופתרונות - בני גורן</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1KVco53n9O-9QoXi2ueEDYA1saVoZjW83/view" target="_blank" rel="noopener">3. שאלות - ארכימדס</a></li>
+                  
+                
+              </ul>
+            
+                      </ul>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        </div>
+        
+        <div class="lesson" id="2-4"><a href="#2-4"></a>
+          <div class="lesson-header" tabindex="0">
+            4. חזרה למבחן תחילת שנה - פרבולות
+          </div>
+          <div class="lesson-content">
+            
+            
+            
+              <ul class="lesson-list">
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1_MeAC-obpWR-PKdju69rKR2W4ArITba-/view" target="_blank" rel="noopener">1. שאלת חזרה על פרבולות - למבחן</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1QG1JuRpEE_xW96QpFyXvnJ0E-6cyXW1b/view" target="_blank" rel="noopener">2. פרבולות - ארכימדס</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/136KsEkPpdn0GnuTUR0EJAFPNPTOOo7KZ/view" target="_blank" rel="noopener">3. פרבולות - שאלות רמה גבוהה עם פרמטרים - דיה זגורי</a></li>
+                  
+                
+              </ul>
+            
+          </div>
+        </div>
+        
+        <div class="lesson" id="2-5"><a href="#2-5"></a>
+          <div class="lesson-header" tabindex="0">
+            5. חזרה למבחן תחילת שנה - גאומטריה
+          </div>
+          <div class="lesson-content">
+            
+            <div class="lesson-description"><p>חזרה על כל המרובעים, קטע אמצעים במשולש, וקטע אמצעים בטרפז</p></div>
+            
+            
+            
+              <ul class="lesson-list">
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/11k5qQ0dCPT_omowV6FueBM-1fizGxynt/view" target="_blank" rel="noopener">1. תרגול פיצוח בלבד בכיתה</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1CQ5Y4EDxtEhxoP0FxcQEnFmBCmeHbKNe/view" target="_blank" rel="noopener">2. ש.ב</a></li>
+                  
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1ApTk0-g2lfxBNiEwfxrxwdAiGQdwKiV0/view" target="_blank" rel="noopener">3. קטע אמצעים במשולש ובטרפז - בני גורן - תרגילים נוספים</a></li>
+                  
+                
+              </ul>
+            
+          </div>
+        </div>
+        
+        <div class="lesson" id="2-6"><a href="#2-6"></a>
+          <div class="lesson-header" tabindex="0">
+            6. נושאים למבחן תחילת שנה
+          </div>
+          <div class="lesson-content">
+            
+            
+            
+              <ul class="lesson-list">
+                
+                  
+                    <li><a href="https://drive.google.com/file/d/1AT1exV6aW7motmE_MFk7dk2laA3mAuhI/view" target="_blank" rel="noopener">נושאים למבחן</a></li>
                   
                 
               </ul>
