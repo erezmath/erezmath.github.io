@@ -303,8 +303,9 @@ def main():
     
     service = get_drive_service()
     
+    # removed for now because we're not using it currently
     # Create base64 credentials for GitHub Actions if needed
-    create_base64_credentials()
+    #create_base64_credentials()
     
     # Use hardcoded ids from class_info
     for cls in class_info:

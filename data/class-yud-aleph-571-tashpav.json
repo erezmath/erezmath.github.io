@@ -25,8 +25,13 @@
           "content": [
             {
               "type": "file",
-              "name": "דף עבודה גאומטריה - לפני מבחן תחילת שנה",
+              "name": "1. דף עבודה גאומטריה - לפני מבחן תחילת שנה",
               "url": "https://drive.google.com/file/d/1_uGbGFtASw_IaFQut2gnIM-8qLqZAzRD/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פיצוח השאלות בכיתה",
+              "url": "https://drive.google.com/file/d/17ux1q23ICxj3eLBRzS_O6yOjquZijr9n/view"
             }
           ]
         }
