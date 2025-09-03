@@ -93,7 +93,25 @@
     {
       "name": "8. בעיות קיצון",
       "id": "8-בעיות-קיצון",
-      "lessons": []
+      "lessons": [
+        {
+          "name": "1. בעיות קיצון גאומטריות - חזרה למבחן",
+          "desc": "",
+          "id": "4-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בעיות קיצון גאומטריות - חזרה למבחן וש.ב",
+              "url": "https://drive.google.com/file/d/1N1I7s_ePVFeL9UWLygnNTrFMfMQGFa0c/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון שאלות בכיתה",
+              "url": "https://drive.google.com/file/d/1LRXuErSjOMcwPkwi1aTmXH7jJ2LvWk9H/view"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "9. דפי נוסחאות ומשפטים",
@@ -183,8 +201,13 @@
           "content": [
             {
               "type": "file",
-              "name": "נושאים למבחן",
-              "url": "https://drive.google.com/file/d/1hIzFH69BaOkeouE49_-TjnIrA9yoKFPU/view"
+              "name": "1. נושאים למבחן",
+              "url": "https://drive.google.com/file/d/1ssArh3NtnBTTjswohO_Kxa1O3TQa0OgT/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים מומלצים להתכונן למבחן",
+              "url": "https://drive.google.com/file/d/1WhXMi5WDlnLHFZRvN4gDIz09WL3MAn1d/view"
             }
           ]
         }
