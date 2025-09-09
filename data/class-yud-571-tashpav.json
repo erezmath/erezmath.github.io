@@ -68,6 +68,28 @@
               "url": "https://drive.google.com/file/d/1qDc4RCuaY61_FEdE1UMbZD9dKR4Q0f2j/view"
             }
           ]
+        },
+        {
+          "name": "2. מפגש התיכונים",
+          "desc": "",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/18IQmdGDiJB1KewqIhOtOdqIEB5iLOisj/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1WlvCWz2Uyfy3Tk0s3b_sjK9ENIfTEi91/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פיצוח תרגילים",
+              "url": "https://drive.google.com/file/d/1MG0_PIZ1PGEeK-7so35dYmtHTK8myJuP/view"
+            }
+          ]
         }
       ]
     },

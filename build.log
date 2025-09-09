@@ -131,3 +131,22 @@
 2025-09-09 15:22:56,397 [2025-09-09 15:22:56 IST] Copied static assets
 2025-09-09 15:22:56,401 [2025-09-09 15:22:56 IST] Copied images
 2025-09-09 15:22:56,402 [2025-09-09 15:22:56 IST] Site built successfully!
+2025-09-09 22:25:57,494 [2025-09-09 22:25:57 IST] Regenerating data with drive_to_class_json.py
+2025-09-09 22:25:58,669 [2025-09-09 22:25:58 IST] Drive-to-class JSON generation started
+2025-09-09 22:25:58,670 [2025-09-09 22:25:58 IST] Main process started
+2025-09-09 22:25:58,928 file_cache is only supported with oauth2client<4.0.0
+2025-09-09 22:25:58,943 [2025-09-09 22:25:58 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-09-09 22:25:58,943 [2025-09-09 22:25:58 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-09-09 22:25:58,943 [2025-09-09 22:25:58 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-09-09 22:26:13,476 [2025-09-09 22:26:13 IST] Wrote data\class-yud-571-tashpav.json
+2025-09-09 22:26:13,476 [2025-09-09 22:26:13 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-09-09 22:26:27,266 [2025-09-09 22:26:27 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-09-09 22:26:27,266 [2025-09-09 22:26:27 IST] All classes processed. JSON generation complete.
+2025-09-09 22:26:27,320 [2025-09-09 22:26:27 IST] Data regeneration complete
+2025-09-09 22:26:27,320 [2025-09-09 22:26:27 IST] Main build process started
+2025-09-09 22:26:27,340 [2025-09-09 22:26:27 IST] Loaded 4 class JSON files
+2025-09-09 22:26:27,353 [2025-09-09 22:26:27 IST] Rendered index.html
+2025-09-09 22:26:27,372 [2025-09-09 22:26:27 IST] Rendered all class pages
+2025-09-09 22:26:27,374 [2025-09-09 22:26:27 IST] Copied static assets
+2025-09-09 22:26:27,381 [2025-09-09 22:26:27 IST] Copied images
+2025-09-09 22:26:27,381 [2025-09-09 22:26:27 IST] Site built successfully!
