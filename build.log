@@ -150,3 +150,64 @@
 2025-09-09 22:26:27,374 [2025-09-09 22:26:27 IST] Copied static assets
 2025-09-09 22:26:27,381 [2025-09-09 22:26:27 IST] Copied images
 2025-09-09 22:26:27,381 [2025-09-09 22:26:27 IST] Site built successfully!
+2025-09-10 21:41:25,243 [2025-09-10 21:41:25 IST] Regenerating data with drive_to_class_json.py
+2025-09-10 21:41:26,699 [2025-09-10 21:41:26 IST] Drive-to-class JSON generation started
+2025-09-10 21:41:26,699 [2025-09-10 21:41:26 IST] Main process started
+2025-09-10 21:41:51,681 [2025-09-10 21:41:51 IST] Regenerating data with drive_to_class_json.py
+2025-09-10 21:41:52,564 [2025-09-10 21:41:52 IST] Drive-to-class JSON generation started
+2025-09-10 21:41:52,564 [2025-09-10 21:41:52 IST] Main process started
+2025-09-10 21:42:05,560 "GET /?state=vGqInEkgzNDUhcCJp4u2olUrSBpcD0&code=4/0AVMBsJjV-S7R3MAhPrky-NHd7qT9LFAKs3UV-NZQw_VnWFUyH4TCpWWIl956_-VYC1F_jQ&scope=https://www.googleapis.com/auth/drive.readonly HTTP/1.1" 200 65
+2025-09-10 21:42:05,818 file_cache is only supported with oauth2client<4.0.0
+2025-09-10 21:42:05,843 [2025-09-10 21:42:05 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-09-10 21:42:05,844 [2025-09-10 21:42:05 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-09-10 21:42:05,844 [2025-09-10 21:42:05 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-09-10 21:42:21,972 [2025-09-10 21:42:21 IST] Wrote data\class-yud-571-tashpav.json
+2025-09-10 21:42:21,972 [2025-09-10 21:42:21 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-09-10 21:42:37,410 [2025-09-10 21:42:37 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-09-10 21:42:37,410 [2025-09-10 21:42:37 IST] All classes processed. JSON generation complete.
+2025-09-10 21:42:37,467 [2025-09-10 21:42:37 IST] Data regeneration complete
+2025-09-10 21:42:37,467 [2025-09-10 21:42:37 IST] Main build process started
+2025-09-10 21:42:37,498 [2025-09-10 21:42:37 IST] Loaded 4 class JSON files
+2025-09-10 21:42:37,511 [2025-09-10 21:42:37 IST] Rendered index.html
+2025-09-10 21:42:37,529 [2025-09-10 21:42:37 IST] Rendered all class pages
+2025-09-10 21:42:37,531 [2025-09-10 21:42:37 IST] Copied static assets
+2025-09-10 21:42:37,542 [2025-09-10 21:42:37 IST] Copied images
+2025-09-10 21:42:37,542 [2025-09-10 21:42:37 IST] Site built successfully!
+2025-09-10 21:47:30,127 [2025-09-10 21:47:30 IST] Regenerating data with drive_to_class_json.py
+2025-09-10 21:47:31,150 [2025-09-10 21:47:31 IST] Drive-to-class JSON generation started
+2025-09-10 21:47:31,150 [2025-09-10 21:47:31 IST] Main process started
+2025-09-10 21:47:31,153 file_cache is only supported with oauth2client<4.0.0
+2025-09-10 21:47:31,154 [2025-09-10 21:47:31 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-09-10 21:47:31,155 [2025-09-10 21:47:31 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-09-10 21:47:31,155 [2025-09-10 21:47:31 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-09-10 21:47:47,044 [2025-09-10 21:47:47 IST] Wrote data\class-yud-571-tashpav.json
+2025-09-10 21:47:47,045 [2025-09-10 21:47:47 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-09-10 21:48:02,531 [2025-09-10 21:48:02 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-09-10 21:48:02,532 [2025-09-10 21:48:02 IST] All classes processed. JSON generation complete.
+2025-09-10 21:48:02,586 [2025-09-10 21:48:02 IST] Data regeneration complete
+2025-09-10 21:48:02,586 [2025-09-10 21:48:02 IST] Main build process started
+2025-09-10 21:48:02,616 [2025-09-10 21:48:02 IST] Loaded 4 class JSON files
+2025-09-10 21:48:02,631 [2025-09-10 21:48:02 IST] Rendered index.html
+2025-09-10 21:48:02,650 [2025-09-10 21:48:02 IST] Rendered all class pages
+2025-09-10 21:48:02,652 [2025-09-10 21:48:02 IST] Copied static assets
+2025-09-10 21:48:02,658 [2025-09-10 21:48:02 IST] Copied images
+2025-09-10 21:48:02,658 [2025-09-10 21:48:02 IST] Site built successfully!
+2025-09-10 21:50:03,124 [2025-09-10 21:50:03 IST] Regenerating data with drive_to_class_json.py
+2025-09-10 21:50:04,058 [2025-09-10 21:50:04 IST] Drive-to-class JSON generation started
+2025-09-10 21:50:04,058 [2025-09-10 21:50:04 IST] Main process started
+2025-09-10 21:50:04,060 file_cache is only supported with oauth2client<4.0.0
+2025-09-10 21:50:04,062 [2025-09-10 21:50:04 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-09-10 21:50:04,062 [2025-09-10 21:50:04 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-09-10 21:50:04,062 [2025-09-10 21:50:04 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-09-10 21:50:19,425 [2025-09-10 21:50:19 IST] Wrote data\class-yud-571-tashpav.json
+2025-09-10 21:50:19,426 [2025-09-10 21:50:19 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-09-10 21:50:33,611 [2025-09-10 21:50:33 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-09-10 21:50:33,611 [2025-09-10 21:50:33 IST] All classes processed. JSON generation complete.
+2025-09-10 21:50:33,661 [2025-09-10 21:50:33 IST] Data regeneration complete
+2025-09-10 21:50:33,661 [2025-09-10 21:50:33 IST] Main build process started
+2025-09-10 21:50:33,682 [2025-09-10 21:50:33 IST] Loaded 4 class JSON files
+2025-09-10 21:50:33,693 [2025-09-10 21:50:33 IST] Rendered index.html
+2025-09-10 21:50:33,712 [2025-09-10 21:50:33 IST] Rendered all class pages
+2025-09-10 21:50:33,715 [2025-09-10 21:50:33 IST] Copied static assets
+2025-09-10 21:50:33,720 [2025-09-10 21:50:33 IST] Copied images
+2025-09-10 21:50:33,721 [2025-09-10 21:50:33 IST] Site built successfully!
