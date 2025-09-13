@@ -90,6 +90,33 @@
               "url": "https://drive.google.com/file/d/1MG0_PIZ1PGEeK-7so35dYmtHTK8myJuP/view"
             }
           ]
+        },
+        {
+          "name": "3. תאלס",
+          "desc": "",
+          "id": "3-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1omR8DAXu_GiYHLi9DRcNVccuPNjijqn4/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב תאלס חישובי",
+              "url": "https://drive.google.com/file/d/10eOw7z0VRlHeQjwgyBw3vEbE1rNSHqcz/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב תאלס טענה נימוק",
+              "url": "https://drive.google.com/file/d/1_SMDUH6O6P-wLwWHbJY_KtSr2y3OINgf/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מצגת.pptx",
+              "url": "https://drive.google.com/file/d/1mTdEtfOT0zUWXp0Ic3uv2XXu50itw-uA/view"
+            }
+          ]
         }
       ]
     },

@@ -113,18 +113,38 @@
               "type": "file",
               "name": "2. דף עבודה טריגו - פתרונות לחלק מהשאלות",
               "url": "https://drive.google.com/file/d/1s4UDTN-yHFwhlr4ldNjRQXiqUiTo6bf4/view"
+            },
+            {
+              "type": "file",
+              "name": "3. תרגול רשות- מבגרויות 481",
+              "url": "https://drive.google.com/file/d/1Up81RaWCwEAAQLrekcm7A6bhZSC0s-dx/view"
             }
           ]
         },
         {
-          "name": "2. טריגו - תרגול נוסף מבגרויות 481",
-          "desc": "<p>שימו לב שאלה בגרויות 4 יחידות, לכן חלקן קלות יותר ממה שאתם רגילים, וחלקן ללא פרמטרים. ועדיין, הם נותנים תרגול נוסף למי שצריך. </p>",
+          "name": "2. טריגו במעגל",
+          "desc": "",
           "id": "3-3",
           "content": [
             {
               "type": "file",
-              "name": "תרגול טריגו - מבגרויות 481",
-              "url": "https://drive.google.com/file/d/12qwFA8i3XnqbqwdthzkyOfg-8B3U7z2N/view"
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1tlBL907wvun9iIv0mguSpppS_9VAya5s/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגיל בכיתה",
+              "url": "https://drive.google.com/file/d/1HF18uprEuS2JfyACIG4wmUNrYBg0Asc3/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב",
+              "url": "https://drive.google.com/file/d/1vAoyWa42DSXfapk4hgcWiUXj_MMxWWC6/view"
+            },
+            {
+              "type": "file",
+              "name": "4. ש.ב - רמזים ופתרונות",
+              "url": "https://drive.google.com/file/d/1i8x8bqVVGtZv8RPlub0RFl5XDXjVgVq8/view"
             }
           ]
         }
