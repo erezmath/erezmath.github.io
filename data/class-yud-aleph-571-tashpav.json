@@ -45,6 +45,28 @@
               "url": "https://drive.google.com/file/d/1S72k4uLydRSsP7EaeVkJbXjc_Pi0D1zl/view"
             }
           ]
+        },
+        {
+          "name": "2. סכום סדרה הנדסית",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1sYzdRZTixiEUVVWz_j7GvkrkwWJNNJV-/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים בכיתה",
+              "url": "https://drive.google.com/file/d/1V7ISJLMwPqIflOnFBF_G6x5K_PqD31MF/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב לחמישי",
+              "url": "https://drive.google.com/file/d/1q1nlj4KDdbQfMK_ZSb2XqaY77AGDVVXf/view"
+            }
+          ]
         }
       ]
     },
@@ -145,6 +167,18 @@
               "type": "file",
               "name": "4. ש.ב - רמזים ופתרונות",
               "url": "https://drive.google.com/file/d/1i8x8bqVVGtZv8RPlub0RFl5XDXjVgVq8/view"
+            }
+          ]
+        },
+        {
+          "name": "3.  משימה אסינכרונית - טריגו במעגל עם פרמטרים",
+          "desc": "",
+          "id": "3-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב אסינכרוני לראשון",
+              "url": "https://drive.google.com/file/d/1Fcwt9ffS8HhsC8PqdCKLsfvOjMI-xmHr/view"
             }
           ]
         }

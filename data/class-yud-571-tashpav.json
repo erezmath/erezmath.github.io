@@ -145,6 +145,23 @@
               "url": "https://drive.google.com/file/d/19gKZOK6bmRBsj2h0M_SjDvl9Fs8NAM25/view"
             }
           ]
+        },
+        {
+          "name": "2. נגזרת - הגדרה וחוקי נגזרות",
+          "desc": "",
+          "id": "5-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1R9dk3lruub8V75q0cu3nOPBDANkQo-75/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגול נגזרות",
+              "url": "https://drive.google.com/file/d/1mOpxCk14uxTR4dKRSojULgcCUvUPINqN/view"
+            }
+          ]
         }
       ]
     },
