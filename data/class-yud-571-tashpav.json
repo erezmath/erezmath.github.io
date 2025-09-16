@@ -162,6 +162,23 @@
               "url": "https://drive.google.com/file/d/1mOpxCk14uxTR4dKRSojULgcCUvUPINqN/view"
             }
           ]
+        },
+        {
+          "name": "3. משוואת המשיק",
+          "desc": "",
+          "id": "5-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/115ZyJrgcxw7U2tSlgE_8f7_kzKDbSSwv/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב למחר",
+              "url": "https://drive.google.com/file/d/1OVhXwhbCUFSCU7m0f4AN6R7P-AMcIXR0/view"
+            }
+          ]
         }
       ]
     },
