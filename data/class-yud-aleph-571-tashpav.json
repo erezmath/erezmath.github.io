@@ -67,6 +67,23 @@
               "url": "https://drive.google.com/file/d/1q1nlj4KDdbQfMK_ZSb2XqaY77AGDVVXf/view"
             }
           ]
+        },
+        {
+          "name": "3. סכום סדרה הנדסית - תרגול נוסף",
+          "desc": "",
+          "id": "1-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגילים נוספים",
+              "url": "https://drive.google.com/file/d/12Dv2H2ZB7uLSrDLAPNUa7XYdrafVL4my/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/18V45bD1yUlUllfSl3itJWu5HI_lckpBJ/view"
+            }
+          ]
         }
       ]
     },
