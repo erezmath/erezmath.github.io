@@ -263,6 +263,52 @@
               "url": "https://drive.google.com/file/d/1iNHKfTmsPBoO3VV0pqcRVwu8A8RaP3SD/view"
             }
           ]
+        },
+        {
+          "name": "3. אסימפטוטות אופקיות - תרגול מתקדם",
+          "desc": "",
+          "id": "4-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגילים",
+              "url": "https://drive.google.com/file/d/1WQMeiCqZ06pRFQI-R7FuUKkGFVi4bLjG/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1ksicAn5W4TLM1k-c1GQ3-0AjE8UgPG9o/view"
+            }
+          ]
+        },
+        {
+          "name": "4. בטע באמצעות - שיטה חשובה - איך למלא טבלה בלי הצבות",
+          "desc": "",
+          "id": "4-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב מבגרויות",
+              "url": "https://drive.google.com/file/d/1SqcYZ_BJ4ds91qw1CgRrLN-pyLi5CwJu/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1p4ZiDvy2NX4EefYNQ7KlJJD0-6cBybar/view"
+            }
+          ]
+        },
+        {
+          "name": "5. פיתול - קעירות כלפי מעלה ומטה",
+          "desc": "",
+          "id": "4-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "סיכום שיעור - פיתול קעירות מעלה מטה",
+              "url": "https://drive.google.com/file/d/151O4vGPA7EI7TsrE-tycUBkRiGTEAoGR/view"
+            }
+          ]
         }
       ]
     },

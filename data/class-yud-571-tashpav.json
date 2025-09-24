@@ -228,6 +228,28 @@
               "url": "https://drive.google.com/file/d/1h2vA-BI4j_d6-XJelLqnOhbTTlVlE17V/view"
             }
           ]
+        },
+        {
+          "name": "5. חקירת פונקציית פולינום",
+          "desc": "",
+          "id": "5-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1vqCh_25AnTiik9O9DoTdC_LLMMbxu2s2/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/17i_zPy-R6OB8r3ldhk8AvpIHk_ZGMWxg/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/10NQnKzcpJe6thgpsalF2VCU5De9l0lXr/view"
+            }
+          ]
         }
       ]
     },
