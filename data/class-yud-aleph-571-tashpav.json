@@ -218,6 +218,28 @@
               "url": "https://drive.google.com/file/d/1EcLfdLq7bXe4FWEfWUoPyZixW6_n2MFe/view"
             }
           ]
+        },
+        {
+          "name": "4. תרגול מבגרויות",
+          "desc": "",
+          "id": "3-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב ליום שלישי",
+              "url": "https://drive.google.com/file/d/1wfe44kXoXRCgLDJCpl0jpmtTZdeUwqrB/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון - טריגו בגרות חורף נבצרים 2022",
+              "url": "https://drive.google.com/file/d/1RpoQD3LVC35I4s0JhkWc5BuadfdDIWSy/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרון - טריגו בגרות קיץ מועד א 2022",
+              "url": "https://drive.google.com/file/d/1NHoC8QK7oC0fxBK0w5DqlK7gu1N77v6n/view"
+            }
+          ]
         }
       ]
     },
