@@ -99,6 +99,28 @@
               "url": "https://drive.google.com/file/d/1f6ed9OxjqzVAQMIkgWKFAA2NKZkwGqTS/view"
             }
           ]
+        },
+        {
+          "name": "4. סדרה הנדסית אינסופית",
+          "desc": "",
+          "id": "1-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/14xvPJwdk3eiKg4mqEPP5IgQJWc3faz_k/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגול עצמי בכיתה",
+              "url": "https://drive.google.com/file/d/1WCZiLcuWM52lh8PHeY7qooX_MOmcgHgd/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות תרגול עצמי",
+              "url": "https://drive.google.com/file/d/1jBe_tnsxtb4KXW28NiVCRu8b8dBW5CKh/view"
+            }
+          ]
         }
       ]
     },
@@ -327,8 +349,18 @@
           "content": [
             {
               "type": "file",
-              "name": "סיכום שיעור - פיתול קעירות מעלה מטה",
-              "url": "https://drive.google.com/file/d/151O4vGPA7EI7TsrE-tycUBkRiGTEAoGR/view"
+              "name": "1. סיכום שיעור - פיתול קעירות מעלה מטה",
+              "url": "https://drive.google.com/file/d/1gCoZQUCFipVR33bJpEAw4USwAcC91c8l/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים בכיתה - בני גורן",
+              "url": "https://drive.google.com/file/d/1koNJqAMdxPG48fk0I2dVk0gLWJUWxwW2/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1XgoU0Ne6RRhesGsl3c8oiwtYe-FWQvaj/view"
             }
           ]
         }
