@@ -56,3 +56,22 @@
 2025-09-30 14:52:33,486 [2025-09-30 14:52:33 IST] Copied static assets
 2025-09-30 14:52:33,493 [2025-09-30 14:52:33 IST] Copied images
 2025-09-30 14:52:33,493 [2025-09-30 14:52:33 IST] Site built successfully!
+2025-09-30 16:31:37,197 [2025-09-30 16:31:37 IST] Regenerating data with drive_to_class_json.py
+2025-09-30 16:31:38,120 [2025-09-30 16:31:38 IST] Drive-to-class JSON generation started
+2025-09-30 16:31:38,121 [2025-09-30 16:31:38 IST] Main process started
+2025-09-30 16:31:38,368 file_cache is only supported with oauth2client<4.0.0
+2025-09-30 16:31:38,370 [2025-09-30 16:31:38 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-09-30 16:31:38,370 [2025-09-30 16:31:38 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-09-30 16:31:38,370 [2025-09-30 16:31:38 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-09-30 16:31:59,633 [2025-09-30 16:31:59 IST] Wrote data\class-yud-571-tashpav.json
+2025-09-30 16:31:59,633 [2025-09-30 16:31:59 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-09-30 16:32:18,399 [2025-09-30 16:32:18 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-09-30 16:32:18,400 [2025-09-30 16:32:18 IST] All classes processed. JSON generation complete.
+2025-09-30 16:32:18,455 [2025-09-30 16:32:18 IST] Data regeneration complete
+2025-09-30 16:32:18,455 [2025-09-30 16:32:18 IST] Main build process started
+2025-09-30 16:32:18,475 [2025-09-30 16:32:18 IST] Loaded 4 class JSON files
+2025-09-30 16:32:18,487 [2025-09-30 16:32:18 IST] Rendered index.html
+2025-09-30 16:32:18,507 [2025-09-30 16:32:18 IST] Rendered all class pages
+2025-09-30 16:32:18,510 [2025-09-30 16:32:18 IST] Copied static assets
+2025-09-30 16:32:18,516 [2025-09-30 16:32:18 IST] Copied images
+2025-09-30 16:32:18,516 [2025-09-30 16:32:18 IST] Site built successfully!
