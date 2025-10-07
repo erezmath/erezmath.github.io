@@ -75,3 +75,26 @@
 2025-09-30 16:32:18,510 [2025-09-30 16:32:18 IST] Copied static assets
 2025-09-30 16:32:18,516 [2025-09-30 16:32:18 IST] Copied images
 2025-09-30 16:32:18,516 [2025-09-30 16:32:18 IST] Site built successfully!
+2025-10-07 18:44:43,521 [2025-10-07 18:44:43 IST] Regenerating data with drive_to_class_json.py
+2025-10-07 18:44:44,971 [2025-10-07 18:44:44 IST] Drive-to-class JSON generation started
+2025-10-07 18:44:44,972 [2025-10-07 18:44:44 IST] Main process started
+2025-10-07 18:44:56,867 [2025-10-07 18:44:56 IST] Regenerating data with drive_to_class_json.py
+2025-10-07 18:44:58,090 [2025-10-07 18:44:58 IST] Drive-to-class JSON generation started
+2025-10-07 18:44:58,091 [2025-10-07 18:44:58 IST] Main process started
+2025-10-07 18:45:09,433 "GET /?state=9mzlNgHB0vClJCmv8pGwOdI95bEgaS&code=4/0AVGzR1BSwpk_TKjHG-Cg4EZtUI9Rdkjw0uqIxsr6ZH0io87GvM2F1EJO3yF2qJ5dUgudxg&scope=https://www.googleapis.com/auth/drive.readonly HTTP/1.1" 200 65
+2025-10-07 18:45:09,659 file_cache is only supported with oauth2client<4.0.0
+2025-10-07 18:45:09,672 [2025-10-07 18:45:09 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-10-07 18:45:09,672 [2025-10-07 18:45:09 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-10-07 18:45:09,672 [2025-10-07 18:45:09 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-10-07 18:45:31,151 [2025-10-07 18:45:31 IST] Wrote data\class-yud-571-tashpav.json
+2025-10-07 18:45:31,151 [2025-10-07 18:45:31 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-10-07 18:45:50,502 [2025-10-07 18:45:50 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-10-07 18:45:50,502 [2025-10-07 18:45:50 IST] All classes processed. JSON generation complete.
+2025-10-07 18:45:50,652 [2025-10-07 18:45:50 IST] Data regeneration complete
+2025-10-07 18:45:50,652 [2025-10-07 18:45:50 IST] Main build process started
+2025-10-07 18:45:50,672 [2025-10-07 18:45:50 IST] Loaded 4 class JSON files
+2025-10-07 18:45:50,684 [2025-10-07 18:45:50 IST] Rendered index.html
+2025-10-07 18:45:50,702 [2025-10-07 18:45:50 IST] Rendered all class pages
+2025-10-07 18:45:50,705 [2025-10-07 18:45:50 IST] Copied static assets
+2025-10-07 18:45:50,714 [2025-10-07 18:45:50 IST] Copied images
+2025-10-07 18:45:50,714 [2025-10-07 18:45:50 IST] Site built successfully!
