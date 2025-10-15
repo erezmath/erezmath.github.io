@@ -163,6 +163,33 @@
               "url": "https://drive.google.com/file/d/1xELQsTbXOLIJ5Dlc1L43J9QCpOdRWHHU/view"
             }
           ]
+        },
+        {
+          "name": "7. משפט חוצה זוית",
+          "desc": "",
+          "id": "3-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1LlUohKuROGbCU4_-kPkWDoXEWCQbE5wo/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - בלי רמזים",
+              "url": "https://drive.google.com/file/d/11wFDCPjfNd_Z73EPx3ICP8OH7dTgAsUf/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב - עם רמזים",
+              "url": "https://drive.google.com/file/d/1iKJyFDfKDaht0326wk3pcCVrR7R-V6yj/view"
+            },
+            {
+              "type": "file",
+              "name": "4. פתרונות",
+              "url": "https://drive.google.com/file/d/1icbu3rMgJ95--I6wxzOLmtt4cZMbXb3n/view"
+            }
+          ]
         }
       ]
     },
