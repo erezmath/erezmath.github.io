@@ -121,6 +121,38 @@
               "url": "https://drive.google.com/file/d/1jBe_tnsxtb4KXW28NiVCRu8b8dBW5CKh/view"
             }
           ]
+        },
+        {
+          "name": "5. סדרה הנדסית - אי שוויון ובגרויות",
+          "desc": "",
+          "id": "1-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת כיתה וש.ב",
+              "url": "https://drive.google.com/file/d/1WGPWfNcSX4LHycgmR8zryzTTrn6lHc6R/view"
+            },
+            {
+              "type": "file",
+              "name": "2. סדרה הנדסית עם אי שוויון - ארכימדס 149",
+              "url": "https://drive.google.com/file/d/1sPl1LmNpfUIcibSrk8Ws1jZFsxeWVEd-/view"
+            },
+            {
+              "type": "file",
+              "name": "3. סדרה הנדסית - 581 - בגרות 2020 - קיץ מועד ב",
+              "url": "https://drive.google.com/file/d/1OK833qqoYsWGu_JnuSsqKQL82L7asGZo/view"
+            },
+            {
+              "type": "file",
+              "name": "4. סדרה הנדסית - 581 - בגרות 2023 - מועד חורף",
+              "url": "https://drive.google.com/file/d/1BSPDqZJCpeimsQd8Kdcue1ELgpxer0vD/view"
+            },
+            {
+              "type": "file",
+              "name": "5. סדרה הנדסית - 581 - בגרות 2021 - קיץ מועד ב",
+              "url": "https://drive.google.com/file/d/1kNAAS2W7QnFCAZY2E9NEOChRXePQ6G2r/view"
+            }
+          ]
         }
       ]
     },
@@ -381,6 +413,11 @@
           "desc": "",
           "id": "4-7",
           "content": [
+            {
+              "type": "file",
+              "name": "פתרון שאלה אחרונה מש.ב",
+              "url": "https://drive.google.com/file/d/1tnYSRKzN_xoDJOKWj4FpObogB4gVYKxF/view"
+            },
             {
               "type": "file",
               "name": "ש.ב",
