@@ -151,6 +151,11 @@
               "type": "file",
               "name": "5. סדרה הנדסית - 581 - בגרות 2021 - קיץ מועד ב",
               "url": "https://drive.google.com/file/d/1kNAAS2W7QnFCAZY2E9NEOChRXePQ6G2r/view"
+            },
+            {
+              "type": "file",
+              "name": "6. סדרה הנדסית - 581 - בגרות 2018- קיץ מועד א",
+              "url": "https://drive.google.com/file/d/1R2nEb6QGP2c2yluXNNHsth1kOhuP3aUx/view"
             }
           ]
         }
@@ -422,6 +427,28 @@
               "type": "file",
               "name": "ש.ב",
               "url": "https://drive.google.com/file/d/1M7rOm7QA6nRQKdMulc4wfix5jM_tMt5V/view"
+            }
+          ]
+        },
+        {
+          "name": "8. פיתול קעירות - שיעור ותרגול מתקדם",
+          "desc": "",
+          "id": "4-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/16HFHHRRk-HkYY3mGVYwWkyEk1vGEfflV/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בני גורן ש.ב",
+              "url": "https://drive.google.com/file/d/1JFi3pGfBIsAlOnyJP-ag9BcLyTcBx5D2/view"
+            },
+            {
+              "type": "file",
+              "name": "3. בני גורן - פתרונות חלקיים",
+              "url": "https://drive.google.com/file/d/14a_o_CPFQpBC8dH-Sry0gOtDYw_MQVV3/view"
             }
           ]
         }
