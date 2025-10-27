@@ -37,6 +37,23 @@
               "url": "https://drive.google.com/file/d/1syjefCoorAU6bcwXH9rCnD0oYq_K-ClL/view"
             }
           ]
+        },
+        {
+          "name": "2. אינדוקציה עם חזקות וטבעי זוגי אי זוגי",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגילים",
+              "url": "https://drive.google.com/file/d/11TFcrWqqLsnVSJsq96Q2a5EM_4qGunKU/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות תרגילי כיתה",
+              "url": "https://drive.google.com/file/d/1qArIVyE4D6p1bbJg-3r7J0kd8GQ7jnbL/view"
+            }
+          ]
         }
       ]
     },
