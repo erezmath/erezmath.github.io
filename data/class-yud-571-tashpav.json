@@ -445,6 +445,23 @@
               "url": "https://drive.google.com/file/d/14mxOAkwKfBDjZCdLJj3_Adsn82Zyk7Vt/view"
             }
           ]
+        },
+        {
+          "name": "11. שרטוט פונקציה ללא ביטוי אלגברי מפורש",
+          "desc": "",
+          "id": "5-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1dzHk2TVlaHqYHRyo_R9ub_2ihLNHOjsH/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - שרטוט + חקירות",
+              "url": "https://drive.google.com/file/d/1l6wJDX3T_ezG1QpanONUwGKSolLO7vUT/view"
+            }
+          ]
         }
       ]
     },

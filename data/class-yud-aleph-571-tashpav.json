@@ -22,9 +22,21 @@
       "id": "1-אינדוקציה",
       "lessons": [
         {
-          "name": "1. שיעור פתיחה ותרגילים בסיסיים",
-          "desc": "",
+          "name": "0. חוברת יואל גבע - אינדוקציה",
+          "desc": "<p>חוברת מלאה של אינדוקציה מאת יואל גבע</p>",
           "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. אינדוקציה - יואל גבע - ספר תשפה",
+              "url": "https://drive.google.com/file/d/1xuRWZ51YTmUC5nBcBFVbUDfqHtBsNqqH/view"
+            }
+          ]
+        },
+        {
+          "name": "1. שיעור פתיחה ותרגילים בסיסיים",
+          "desc": "<p>תרגילים מחוברת אינדוקציה של יואל גבע</p>",
+          "id": "1-2",
           "content": [
             {
               "type": "file",
@@ -40,8 +52,8 @@
         },
         {
           "name": "2. אינדוקציה עם חזקות וטבעי זוגי אי זוגי",
-          "desc": "",
-          "id": "1-2",
+          "desc": "<p>תרגילים מחוברת אינדוקציה של יואל גבע</p>",
+          "id": "1-3",
           "content": [
             {
               "type": "file",
@@ -52,6 +64,18 @@
               "type": "file",
               "name": "2. פתרונות תרגילי כיתה",
               "url": "https://drive.google.com/file/d/1qArIVyE4D6p1bbJg-3r7J0kd8GQ7jnbL/view"
+            }
+          ]
+        },
+        {
+          "name": "3. סימנים מתחלפים, בלי בדיקה, הוכחות ויזואליות",
+          "desc": "<p>תרגילים מחוברת אינדוקציה של יואל גבע</p>",
+          "id": "1-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בכיתה וש.ב",
+              "url": "https://drive.google.com/file/d/15oztREWitZN-8vW-aQ3S6rSkEE12fSA8/view"
             }
           ]
         }
