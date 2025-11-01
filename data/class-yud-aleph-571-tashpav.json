@@ -545,6 +545,28 @@
               "url": "https://drive.google.com/file/d/14a_o_CPFQpBC8dH-Sry0gOtDYw_MQVV3/view"
             }
           ]
+        },
+        {
+          "name": "9. תרגול למבחן נובמבר",
+          "desc": "<p>&nbsp;שעה אחת - תרגול עצמי - מתחילים את חלק החקירה לפי הסדר</p>",
+          "id": "6-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת הגשה לקראת מבחן נובמבר",
+              "url": "https://drive.google.com/file/d/1X3OaaKJpTqWY3c5Q0z5Q61C32845lAPU/view"
+            },
+            {
+              "type": "file",
+              "name": "2. 2009 - פתרון - קיץ מועד א - שאלה 6 - קשר גרף פונקציה",
+              "url": "https://drive.google.com/file/d/1MnsC0jsrZj_3Zvu5zP4asHbinMhpi4Xk/view"
+            },
+            {
+              "type": "file",
+              "name": "3. 2009 - פתרון - קיץ מועד ב - שאלה 6 - חקירה",
+              "url": "https://drive.google.com/file/d/1tjDNlHcbxUzKJT1uXcLcnMnO3H3vDNB7/view"
+            }
+          ]
         }
       ]
     },
@@ -754,9 +776,21 @@
           ]
         },
         {
-          "name": "7. מבחן נובמבר",
+          "name": "7. עבודת הגשה לקראת מבחן נובמבר",
           "desc": "",
           "id": "10-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "עבודת הגשה לקראת מבחן נובמבר",
+              "url": "https://drive.google.com/file/d/1chD_hhXGstVumOLXB9JVwsxq3oS9b1gx/view"
+            }
+          ]
+        },
+        {
+          "name": "8. מבחן נובמבר",
+          "desc": "",
+          "id": "10-6",
           "content": [
             {
               "type": "file",
