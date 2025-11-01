@@ -467,6 +467,40 @@
               "url": "https://drive.google.com/file/d/1wcZ_Ifdip8IboQKE0aBQD7ZOfABlrgSV/view"
             }
           ]
+        },
+        {
+          "name": "12. פונקציה זוגית - אי זוגית - אגלברי וגרפי",
+          "desc": "",
+          "id": "5-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1dcq0XQbcISBQ2HhrnkPsubr4CuCs8lbn/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1uVNfVnKC2VgOB-eccoe77Zj5mJcO7ri9/view"
+            }
+          ]
+        },
+        {
+          "name": "13. הבע באמצעות",
+          "desc": "",
+          "id": "5-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1ePFpuZjYwJyEW_F_6Gf4U0_Z99om8i7Y/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/13k__3QfNPemHRCgZzjkJ20ARb23uVx4B/view"
+            }
+          ]
         }
       ]
     },
