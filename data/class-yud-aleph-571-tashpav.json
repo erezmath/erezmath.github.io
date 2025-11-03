@@ -78,6 +78,18 @@
               "url": "https://drive.google.com/file/d/15oztREWitZN-8vW-aQ3S6rSkEE12fSA8/view"
             }
           ]
+        },
+        {
+          "name": "4. אינדוקציה עם חישובי סכומים, ותרגול למבחן נובמבר",
+          "desc": "<p>תתחילו בכיתה בחמישי שעה אחת, סיימו בבית, ש.ב לשלישי</p>",
+          "id": "1-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. אינדוקציה - ש.ב לשלישי",
+              "url": "https://drive.google.com/file/d/1CWzJBADd_q5al4-rbL8NvRKWTBH_QYOh/view"
+            }
+          ]
         }
       ]
     },
@@ -285,6 +297,18 @@
               "type": "file",
               "name": "1. בגרויות גאומטריה 581 2011 עד 2023",
               "url": "https://drive.google.com/file/d/1RHTczGPymTHdbpUaS-6y55rUw1WhPKii/view"
+            }
+          ]
+        },
+        {
+          "name": "3. תרגול למבחן נובמבר",
+          "desc": "<p>תתחילו בכיתה בחמישי שעתיים תרגול עצמי, ותמשיכו בבית, ש.ב ליום שלישי</p>",
+          "id": "4-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. גאומטריה - ש.ב לשלישי",
+              "url": "https://drive.google.com/file/d/1_DOtOql7u7sJjzZ771fBKRMKTw_fKoBg/view"
             }
           ]
         }
