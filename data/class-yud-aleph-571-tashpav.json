@@ -393,6 +393,18 @@
               "url": "https://drive.google.com/file/d/1NHoC8QK7oC0fxBK0w5DqlK7gu1N77v6n/view"
             }
           ]
+        },
+        {
+          "name": "5. תרגול למבחן נובמבר",
+          "desc": "<p>תתחילו בכיתה שעתיים תרגול עצמי, ותמשיכו בבית, ש.ב לחמישי</p>",
+          "id": "5-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. טריגו - ש.ב לחמישי",
+              "url": "https://drive.google.com/file/d/1uGzywbweyhcFmiVOjfDAiR0mQbbCAPBt/view"
+            }
+          ]
         }
       ]
     },
