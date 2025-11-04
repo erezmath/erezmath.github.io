@@ -81,13 +81,13 @@
         },
         {
           "name": "4. אינדוקציה עם חישובי סכומים, ותרגול למבחן נובמבר",
-          "desc": "<p>תתחילו בכיתה בחמישי שעה אחת, סיימו בבית, ש.ב לשלישי</p>",
+          "desc": "<p>תתחילו בכיתה בחמישי שעה אחת, סיימו בבית</p>",
           "id": "1-5",
           "content": [
             {
               "type": "file",
-              "name": "1. אינדוקציה - ש.ב לשלישי",
-              "url": "https://drive.google.com/file/d/1CWzJBADd_q5al4-rbL8NvRKWTBH_QYOh/view"
+              "name": "1. אינדוקציה -שאלות סיכום יואל גבע",
+              "url": "https://drive.google.com/file/d/1vol2tW1PP5vOO4t0zuJvg5feC-rCfZNA/view"
             }
           ]
         }
@@ -302,13 +302,13 @@
         },
         {
           "name": "3. תרגול למבחן נובמבר",
-          "desc": "<p>תתחילו בכיתה בחמישי שעתיים תרגול עצמי, ותמשיכו בבית, ש.ב ליום שלישי</p>",
+          "desc": "<p>תתחילו בכיתה בראשון שעתיים תרגול עצמי, ותמשיכו בבית</p>",
           "id": "4-3",
           "content": [
             {
               "type": "file",
-              "name": "1. גאומטריה - ש.ב לשלישי",
-              "url": "https://drive.google.com/file/d/1_DOtOql7u7sJjzZ771fBKRMKTw_fKoBg/view"
+              "name": "1. גאומטריה מבגרויות",
+              "url": "https://drive.google.com/file/d/1185DWk0NM7qwLIRWiSuzduUcbZh4dyHh/view"
             }
           ]
         }
@@ -420,13 +420,28 @@
         },
         {
           "name": "5. תרגול למבחן נובמבר",
-          "desc": "<p>תתחילו בכיתה שעתיים תרגול עצמי, ותמשיכו בבית, ש.ב לחמישי</p>",
+          "desc": "<p>תתחילו בכיתה שעתיים תרגול עצמי, ותמשיכו בבית</p>",
           "id": "5-6",
           "content": [
             {
               "type": "file",
-              "name": "1. טריגו - ש.ב לחמישי",
-              "url": "https://drive.google.com/file/d/1uGzywbweyhcFmiVOjfDAiR0mQbbCAPBt/view"
+              "name": "1. טריגו מבגרויות",
+              "url": "https://drive.google.com/file/d/1N-uaQ5ilSfLqvSDjDf1S-cYXy1IPQ6KI/view"
+            },
+            {
+              "type": "file",
+              "name": "טריגו - 2013 - קיץ מועד א",
+              "url": "https://drive.google.com/file/d/1N0oeyoenuBZCYK0AG5YboGVg2p5hTMqP/view"
+            },
+            {
+              "type": "file",
+              "name": "טריגו - 2013 - קיץ מועד ב",
+              "url": "https://drive.google.com/file/d/1-23c93567ek2zYAhrDHDpeNHwg14OjAH/view"
+            },
+            {
+              "type": "file",
+              "name": "טריגו - 2014 - חורף",
+              "url": "https://drive.google.com/file/d/1mRht1NfsQRRWtIDJplt9RZ7clyol-jAg/view"
             }
           ]
         }
@@ -629,6 +644,18 @@
               "type": "file",
               "name": "2. פתרון שאלות בכיתה",
               "url": "https://drive.google.com/file/d/1LRXuErSjOMcwPkwi1aTmXH7jJ2LvWk9H/view"
+            }
+          ]
+        },
+        {
+          "name": "2. תרגול למבחן נובמבר",
+          "desc": "<p>תתחילו בכיתה שעתיים תרגול עצמי, ותמשיכו בבית</p>",
+          "id": "7-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בעיות קיצון מבגרויות",
+              "url": "https://drive.google.com/file/d/1ZsyqicJO4PzZBmy7Z8FNNAnTRy1HXvP9/view"
             }
           ]
         }
