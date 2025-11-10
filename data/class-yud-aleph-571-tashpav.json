@@ -123,6 +123,33 @@
               "url": "https://drive.google.com/file/d/1zY3ErUngyG81Qyk3GKVaGmTmCNZp8PB_/view"
             }
           ]
+        },
+        {
+          "name": "2. תרגול למבחן נובמבר",
+          "desc": "",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגול למבחן נובמבר",
+              "url": "https://drive.google.com/file/d/1hFFaxoyigzeXKYiL_e6JVGrV0Xb2K1rp/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בגרות 2020 קיץ מועד א - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/1_O-rKKG4w9vr3rd_Y1eqeqGPRVtpCWNZ/view"
+            },
+            {
+              "type": "file",
+              "name": "3. בגרות 2021 - חורף - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/1K7JtMaAgiEf1Ga3hR2jaYHaLMRFCUjNN/view"
+            },
+            {
+              "type": "file",
+              "name": "4. בגרות 2021 - קיץ מועד א - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/1DpOF8TBLZTkMBSF7p9ynpMluM8MrGEfQ/view"
+            }
+          ]
         }
       ]
     },
