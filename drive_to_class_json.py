@@ -63,6 +63,16 @@ class_info = [
     },
     {
         'id': 3,
+        'name': 'בגרויות 571 ופתרונות',
+        'url_name': 'bagruyot-571',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37?usp=drive_link',
+        'banner_url': 'images/banner2.jpg',
+        'active': False,
+        'regenerate': True
+    },
+    {
+        'id': 4,
         'name': 'כיתה י 571 תשפו',
         'url_name': 'yud-571-tashpav',
         #'url_name': '271',
@@ -72,7 +82,7 @@ class_info = [
         'regenerate': True
     },
     {
-        'id': 4,
+        'id': 5,
         'name': 'כיתה יא 571 תשפו',
         'url_name': 'yud-aleph-571-tashpav',
         #'url_name': '271',

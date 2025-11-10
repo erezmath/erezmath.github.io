@@ -1,0 +1,509 @@
+{
+  "id": 3,
+  "name": "בגרויות 571 ופתרונות",
+  "url_name": "bagruyot-571",
+  "banner_url": "images/banner2.jpg",
+  "desc": "",
+  "tags": [
+    "1. פתרונות לפי נושאים"
+  ],
+  "topics": [
+    {
+      "name": "1. פתרונות לפי נושאים",
+      "id": "1-פתרונות-לפי-נושאים",
+      "lessons": [
+        {
+          "name": "1. שאלות קצרות",
+          "desc": "",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "2020 - קיץ מועד א - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/1f57ujVAZPzg-elPOY4W3uURu2YhlY8sM/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - חורף - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/1fpwYFdvxKat1gkZ10ubJB0rCL6CH_z2t/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - קיץ מועד א - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/1HdyOvE7RYfNdUGaP-g9JfVXwkY4AKxNz/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד ב - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/15ZBPIYv_FDKdWO5VsyuhxV1CwNfhOU1W/view"
+            }
+          ]
+        },
+        {
+          "name": "2. סדרות",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "2010 - קיץ מועד ב - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/1jRdFwZyDUfITFSUKq8qiNSDfI_dRszTm/view"
+            },
+            {
+              "type": "file",
+              "name": "2012 - קיץ מועד א - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/1NA1SHdiCtTCCAj3SYQB5AB_Kbfhi1qm9/view"
+            },
+            {
+              "type": "file",
+              "name": "2014 - קיץ מועד א - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/1zqd6q9MdZAFONHa_FOby-iBwVGGrJytS/view"
+            },
+            {
+              "type": "file",
+              "name": "2014 - קיץ מועד ב - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/1bvq7rRbUUqQ0oataKtmWpDkujx3CpQQX/view"
+            },
+            {
+              "type": "file",
+              "name": "2014 - קיץ מועד ג - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/1AmMk4jVz8PTojkx26XLpAJa7s0cr03kQ/view"
+            },
+            {
+              "type": "file",
+              "name": "2016 - קיץ מועד ב - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/12-s6qAtw0RZ3ojdiui1bLx-SYkBfyBLY/view"
+            },
+            {
+              "type": "file",
+              "name": "2018 - קיץ מועד א - סדרה הנדסית, סעיפי חשיבה",
+              "url": "https://drive.google.com/file/d/1HacqNv_MIvDBWogTCXeRqKMuJolP43c_/view"
+            },
+            {
+              "type": "file",
+              "name": "2020 - קיץ מועד ב - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1mO0CfAkT8RG1yWDiU6dDkXS_Vite--IO/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - קיץ מועד ב - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1L2UrSDoRzyp4Nimxd9FgxCpYXhTANifV/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - קיץ מועד מיוחד - סדרה חשבונית - שאלה מעניינת",
+              "url": "https://drive.google.com/file/d/122LlD0n58sRG8sU3Y-fbQR2Z3sQZSP15/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - חורף - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/1-1Slb7tnPF8pSjDi93EWVw0LB4MRxtoF/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד א - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1vJc2jTP308rxrWhwbkOtiNz11MwiMcfZ/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד ב - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1V6w1LFv7KYUfG7SyYvp84Q9B8q2PQGYA/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - חורף - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1frKyKQZSC-ujg_-tBbp3pAbpgtfn3x0x/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד א - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1i-NY668QtEl52MffcuFQ8YZK0bDO239x/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד ב - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/14yeohmIUyTaAEG-9o2uP1BMVXfAivou2/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד מיוחד - סדרה חשבונית",
+              "url": "https://drive.google.com/file/d/1Lz-tNns3IxtckGgcP4emRbp3cvSY-Ft-/view"
+            }
+          ]
+        },
+        {
+          "name": "3. הסתברות",
+          "desc": "",
+          "id": "1-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "2018 - חורף - הסתברות עץ - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1pSHR6FECsbuHokaZIcfPmhpUUApoqwRE/view"
+            },
+            {
+              "type": "file",
+              "name": "2019 - חורף - הסתברות טבלה - שאלה בינונית, סעיף אחרון בלתי תלויה",
+              "url": "https://drive.google.com/file/d/1kvZHusC58a_WiAFHXhUwgQSYDw5kbJEX/view"
+            },
+            {
+              "type": "file",
+              "name": "2019 - קיץ מועד א - הסתברות - בינונית, סעיף אחרון מאתגר",
+              "url": "https://drive.google.com/file/d/1VVFFHAS94dcLkebELUZZSrBihH7sak1H/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד א - הסתברות עץ ברנולי - קלה",
+              "url": "https://drive.google.com/file/d/1WzHltS_hG1NTVQs1Ukhc_x5xkM6ksT_T/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - חורף - הסתברות עץ ברנולי - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1wi_CAEkFNeIm6-8cs1zyTLaqV4WIhOoq/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד א - הסתברות טבלה",
+              "url": "https://drive.google.com/file/d/1LThFl0TPnqx39GXvLsXEPshpx43FcniE/view"
+            }
+          ]
+        },
+        {
+          "name": "4. גאומטריה",
+          "desc": "",
+          "id": "1-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "2010 - קיץ מועד א - גאומטריה ללא מעגל",
+              "url": "https://drive.google.com/file/d/1HLGh6FYe-NdzJQhbKDDvbv_JZfR0Dafk/view"
+            },
+            {
+              "type": "file",
+              "name": "2010 - קיץ מועד ב - גאומטריה ללא מעגל",
+              "url": "https://drive.google.com/file/d/1_0YreQjtuQvACn4oXdLs-ZfPpw54-ZCO/view"
+            },
+            {
+              "type": "file",
+              "name": "2011 - קיץ מועד ב - גאומטריה",
+              "url": "https://drive.google.com/file/d/1iy2uFv5-S9nmnHNUnpZvVVgrZ3O8cMrI/view"
+            },
+            {
+              "type": "file",
+              "name": "2012 - קיץ מועד א - גאומטריה",
+              "url": "https://drive.google.com/file/d/1dcck1ArTueOmUd0RS77x5_rkKF5duU1Y/view"
+            },
+            {
+              "type": "file",
+              "name": "2014 - קיץ מועד ב - גאומטריה - שני מעגלים",
+              "url": "https://drive.google.com/file/d/1wVBDfO0e39KFkx_2hw_lFYwYsDWIv7Pk/view"
+            },
+            {
+              "type": "file",
+              "name": "2015 - קיץ מועד ב - גאומטריה - קושי בינוני פלוס",
+              "url": "https://drive.google.com/file/d/1r4Z3KkwacZ4tu71p1s14D5hmM41AuxPR/view"
+            },
+            {
+              "type": "file",
+              "name": "2015 - קיץ מועד ב - גאומטריה",
+              "url": "https://drive.google.com/file/d/1Q7Y0nj-pLIGkjhbxnI8ZqN_lQiqOM3fI/view"
+            },
+            {
+              "type": "file",
+              "name": "2017 - קיץ מועד א - גאומטריה - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1ILB0hmzAO-PWbILpP-YVSo3pyeGnXvUH/view"
+            },
+            {
+              "type": "file",
+              "name": "2019 - חורף - גאומטריה - מאתגרת כי לא אומרים לחפש דמיון",
+              "url": "https://drive.google.com/file/d/1nzsYnKQr6KTlDqnbV5FLhAuYAuULDB_Z/view"
+            },
+            {
+              "type": "file",
+              "name": "2019 - קיץ מועד א - גאומטריה - שאלה ארוכה",
+              "url": "https://drive.google.com/file/d/1BoyPUbQvDzNZsxWaj97AcgS86sQQ7UXy/view"
+            },
+            {
+              "type": "file",
+              "name": "2020 - קיץ מועד א - גאומטריה - חותך ומשיק ירד במיקוד",
+              "url": "https://drive.google.com/file/d/1UCvFBJGeM1h_DUW-IoNuMhYHsFPeOdLP/view"
+            },
+            {
+              "type": "file",
+              "name": "2020 - קיץ מועד ב - גאומטריה",
+              "url": "https://drive.google.com/file/d/17FtT47gpZ_HCtRfPwvr65NEOEEQfgxpu/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד ב - גאומטריה",
+              "url": "https://drive.google.com/file/d/1pWgrgHJll3NZZVstWgMv6qVNcATaSvwZ/view"
+            }
+          ]
+        },
+        {
+          "name": "5. טריגונומטריה",
+          "desc": "",
+          "id": "1-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "2012 - קיץ מועד א - טריגו מעגל",
+              "url": "https://drive.google.com/file/d/1Jdv_D4-S6PxRh07HJlS5I5LKsXuadM_Z/view"
+            },
+            {
+              "type": "file",
+              "name": "2013 - קיץ מועד א - טריגו מעגל",
+              "url": "https://drive.google.com/file/d/1SxiGiJPtDBd6ZrKE_b_whn5Cnu6KUHNA/view"
+            },
+            {
+              "type": "file",
+              "name": "2013 - קיץ מועד ב - טריגו מעגל",
+              "url": "https://drive.google.com/file/d/1W9-0KOc9ySjklRpJYytcsaDqje4nJ5Jy/view"
+            },
+            {
+              "type": "file",
+              "name": "2014 - חורף - טריגו מעגל",
+              "url": "https://drive.google.com/file/d/1cepSExDUShZDMBwu51394q8BEEqzupb1/view"
+            },
+            {
+              "type": "file",
+              "name": "2014 - קיץ מועד ב - טריגו מעגל",
+              "url": "https://drive.google.com/file/d/1SIJselSeYdSO-JPaLZuqJbFVBe3xM0n5/view"
+            },
+            {
+              "type": "file",
+              "name": "2014 - קיץ מועד ג - טריגו ללא מעגל",
+              "url": "https://drive.google.com/file/d/1zvzPN5_M-446B_DvnUwzFkUu_bP81x3J/view"
+            },
+            {
+              "type": "file",
+              "name": "2015 - קיץ מועד א - טריגו ללא מעגל",
+              "url": "https://drive.google.com/file/d/1h1xZJcaY7Ul7rBbk5YvWO8b0-Uwi8hNm/view"
+            },
+            {
+              "type": "file",
+              "name": "2016 - חורף - טריגו מעגל - שאלה קשה יחסית",
+              "url": "https://drive.google.com/file/d/12jAfXLNp6uU2-SvhvhkMuvPU2ij1ypbW/view"
+            },
+            {
+              "type": "file",
+              "name": "2020 - חורף - טריגו מעגל - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1E6JIpaH7_YKvdCWEEocGmwSbSWTLvDH8/view"
+            },
+            {
+              "type": "file",
+              "name": "2020 - קיץ מועד ב - טריגו מעגל",
+              "url": "https://drive.google.com/file/d/1jcZhLeibGN5req63byX31of_Ux8OvP60/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - חורף נבצרים - טריגו במעגל",
+              "url": "https://drive.google.com/file/d/1kLmLpMDSK2pbjp81HY0MkEDrvp8ZHbT3/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד א - טריגו במעגל - סעיף אחרון לא קל",
+              "url": "https://drive.google.com/file/d/13du2Yc-HUcLfKUwlzu3XSCt1OtSoaLx8/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - חורף - טריגו במעגל - שאלה קשה",
+              "url": "https://drive.google.com/file/d/1ynzio3mSlSWu_pBBzW7kZz3dwSgfFP9j/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד א - טריגו במעגל - שאלה קלה",
+              "url": "https://drive.google.com/file/d/17nVSNywrNrsh7Q2kunnGhELsO7GMPxKQ/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד ב - טריגו במעגל - שאלה קלה דמיון סינוסים קוסינוסים",
+              "url": "https://drive.google.com/file/d/1a9fDpy6-OiH6m5b6LgB_JWmpsiablFLp/view"
+            }
+          ]
+        },
+        {
+          "name": "6. חדוא",
+          "desc": "",
+          "id": "1-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "2009 - קיץ מועד א - קשר גרף פונקציה - שאלה 6",
+              "url": "https://drive.google.com/file/d/1uwTmF1wM7yCCXnRq16HTiJaWnMmP3EDl/view"
+            },
+            {
+              "type": "file",
+              "name": "2009 - קיץ מועד ב - חקירה רציונאלית, הבע באמצעות - שאלה 6",
+              "url": "https://drive.google.com/file/d/11OhKDmzK487jBaJavnjCUlCnrKGZOpjl/view"
+            },
+            {
+              "type": "file",
+              "name": "2010 - חורף - חקירה הבע באמצעות - שאלה 7",
+              "url": "https://drive.google.com/file/d/1xWtOqfYPzHVRSM5ucOCSCukrfZ7q1qpf/view"
+            },
+            {
+              "type": "file",
+              "name": "2011 - קיץ מועד ב - קשר גרף פונקציה",
+              "url": "https://drive.google.com/file/d/1sXjtutzd5MPiXxLZIriKSZJjcM6OlKlH/view"
+            },
+            {
+              "type": "file",
+              "name": "2016 - קיץ - חקירת פונקציה חזקה זוגית אי זוגית - שאלה 8",
+              "url": "https://drive.google.com/file/d/1crj8YvTyY-RPZlBCGVD3Zn7ASh9L7Zi4/view"
+            },
+            {
+              "type": "file",
+              "name": "2020 - חורף - חקירה מנה ושורש - שאלה 7",
+              "url": "https://drive.google.com/file/d/1Oca_Of_dvlVB5pk_MWsrKNNvNQ_b3huB/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - חורף נבצרים - חקירה מנה ושורש הבע באמצעות - שאלה 6",
+              "url": "https://drive.google.com/file/d/1MEMgMWX-3xHozKg-U_hO6XuEbK2nVxXu/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - קיץ מועד מיוחד - חקירה מנה ושורש - שאלה 6",
+              "url": "https://drive.google.com/file/d/1Q0qbCtQV6T7BZGGUH9Cm9u032izV3hll/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - חורף - חקירה מנה מציאת פרמטר - שאלה 6",
+              "url": "https://drive.google.com/file/d/1du5maabMOBiGybaG5b6C3pqLN5e6bnmr/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - חורף נבצרים - קשר גרף פונקציה - שאלה 6",
+              "url": "https://drive.google.com/file/d/1tKMlFZbUCypXFfq2Fcey3CNbMsmBdtn5/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד ב - חקירה הבע באמצעות - שאלה 6",
+              "url": "https://drive.google.com/file/d/1HAqqctWvxbIoAunUi8Bcay90GvjXBd10/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד א - חקירה הבע באמצעות - שאלה 6",
+              "url": "https://drive.google.com/file/d/19MaB-hNPwU2omWWmdQFYpWFU5E2LSkvw/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד ב - חקירה הבע באמצעות - שאלה 6",
+              "url": "https://drive.google.com/file/d/1lN42VH-U5mm_O3EbFaQz4QYurqQd0XYT/view"
+            }
+          ]
+        },
+        {
+          "name": "7. חדוא טריגו",
+          "desc": "",
+          "id": "1-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "2020 - קיץ מועד א - חקירה טריגונומטרית, חשיבה",
+              "url": "https://drive.google.com/file/d/10PufmqCOtglSbS8lLHNZiACfZgl99Yz1/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - חורף נבצרים - חקירה טריגונומטרית",
+              "url": "https://drive.google.com/file/d/1_F1Wo0UkVP_atma0uozp2T3aSxSCrRZB/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד א - חקירה טריגונומטרית",
+              "url": "https://drive.google.com/file/d/1QnbAZTv4T8Jj1X4cHdzKBTvh1txI0xo0/view"
+            }
+          ]
+        },
+        {
+          "name": "8. בעיות קיצון",
+          "desc": "",
+          "id": "1-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "2009 - קיץ מועד א - בעית קיצון גאומטרית, משולש - שאלה 8",
+              "url": "https://drive.google.com/file/d/1dKaye831IAIomNOG85O5RaqxWlJdPZjs/view"
+            },
+            {
+              "type": "file",
+              "name": "2009 - קיץ מועד ב - בעית קיצון גרפית, שורש, משוואת משיק - שאלה 8",
+              "url": "https://drive.google.com/file/d/1TLEKaH506rRvOLO4wNZiw9KYdQS04XNq/view"
+            },
+            {
+              "type": "file",
+              "name": "2010 - חורף - בעית קיצון גרפית, שורש - שאלה 8",
+              "url": "https://drive.google.com/file/d/1tsVYso_0UoWnRj4yyTCC0IVo7ChijCgx/view"
+            },
+            {
+              "type": "file",
+              "name": "2016 - בעית קיצון גרפית, מנה - שאלה 8",
+              "url": "https://drive.google.com/file/d/1bVuL557kzKjp_gwSHso7NS8t2J0Il65b/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - חורף - בעית קיצון גאומטרית, מנה שורש - שאלה 8 - הרחבה",
+              "url": "https://drive.google.com/file/d/1nGmSI5t-NJ10pRIcA_Dr_XTDdkNyJgKk/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - חורף - בעית קיצון גאומטרית, מנה שורש - שאלה 8",
+              "url": "https://drive.google.com/file/d/12GFK8-i4F3icrUc9ZwUkLENjRVItOEkw/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - חורף נבצרים - בעית קיצון גרפית - מנה",
+              "url": "https://drive.google.com/file/d/1G023BC2BGgY7ASSMAD5yRngCL1Gn1LKE/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - חורף נבצרים - בעית קיצון גאומטרית - שאלה 8",
+              "url": "https://drive.google.com/file/d/1Dhi4YvAN_uARjUZ0YAUzhsTAGXdkYvYt/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד א - בעית קיצון גאומטרית - שאלה 8",
+              "url": "https://drive.google.com/file/d/1tcAbwxPYPcpLutdEOouHXei6ca65pXj9/view"
+            }
+          ]
+        },
+        {
+          "name": "9. בעיות תנועה",
+          "desc": "",
+          "id": "1-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "2020 - קיץ מועד א - בעית תנועה - שאלה 1",
+              "url": "https://drive.google.com/file/d/1X0ft7ag2bvCbunICVgNTehTdwSZiT9XT/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - קיץ מועד א - בעית תנועה מיוחדת מעלית - שאלה 1",
+              "url": "https://drive.google.com/file/d/1ZL0H12C8ZXDv9EzraD3dCEw3hUfJTxTg/view"
+            },
+            {
+              "type": "file",
+              "name": "2021 - קיץ מועד ב - בעית תנועה - שאלה 1",
+              "url": "https://drive.google.com/file/d/1Uhz7IMsxtEx_LjqbJobHoIOC88DQVaGF/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד א - בעית תנועה - שאלה 1",
+              "url": "https://drive.google.com/file/d/1OEDc8-faevYEqOmL_Ee3pCB8MwbyYsmI/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - חורף - בעית תנועה - שאלה 1",
+              "url": "https://drive.google.com/file/d/1C8a_OJrNqETjP04Q6V6N4jKRG2T40GO5/view"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assignments": "",
+  "assignments_file_id": "",
+  "active": false
+}
