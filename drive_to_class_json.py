@@ -67,7 +67,7 @@ class_info = [
         'url_name': 'bagruyot-571',
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37?usp=drive_link',
-        'banner_url': 'images/banner2.jpg',
+        'banner_url': 'images/banner571.png',
         'active': False,
         'regenerate': True
     },

@@ -2,7 +2,7 @@
   "id": 3,
   "name": "בגרויות 571 ופתרונות",
   "url_name": "bagruyot-571",
-  "banner_url": "images/banner2.jpg",
+  "banner_url": "images/banner571.png",
   "desc": "",
   "tags": [
     "1. פתרונות לפי נושאים"
@@ -423,32 +423,32 @@
           "content": [
             {
               "type": "file",
-              "name": "2009 - קיץ מועד א - בעית קיצון גאומטרית, משולש - שאלה 8",
+              "name": "2009 - קיץ מועד א - בעית קיצון גאומטרית, משולש",
               "url": "https://drive.google.com/file/d/1dKaye831IAIomNOG85O5RaqxWlJdPZjs/view"
             },
             {
               "type": "file",
-              "name": "2009 - קיץ מועד ב - בעית קיצון גרפית, שורש, משוואת משיק - שאלה 8",
+              "name": "2009 - קיץ מועד ב - בעית קיצון גרפית, שורש, משוואת משיק",
               "url": "https://drive.google.com/file/d/1TLEKaH506rRvOLO4wNZiw9KYdQS04XNq/view"
             },
             {
               "type": "file",
-              "name": "2010 - חורף - בעית קיצון גרפית, שורש - שאלה 8",
+              "name": "2010 - חורף - בעית קיצון גרפית, שורש",
               "url": "https://drive.google.com/file/d/1tsVYso_0UoWnRj4yyTCC0IVo7ChijCgx/view"
             },
             {
               "type": "file",
-              "name": "2016 - בעית קיצון גרפית, מנה - שאלה 8",
+              "name": "2016 - בעית קיצון גרפית, מנה",
               "url": "https://drive.google.com/file/d/1bVuL557kzKjp_gwSHso7NS8t2J0Il65b/view"
             },
             {
               "type": "file",
-              "name": "2021 - חורף - בעית קיצון גאומטרית, מנה שורש - שאלה 8 - הרחבה",
+              "name": "2021 - חורף - בעית קיצון גאומטרית, מנה שורש - הרחבה",
               "url": "https://drive.google.com/file/d/1nGmSI5t-NJ10pRIcA_Dr_XTDdkNyJgKk/view"
             },
             {
               "type": "file",
-              "name": "2021 - חורף - בעית קיצון גאומטרית, מנה שורש - שאלה 8",
+              "name": "2021 - חורף - בעית קיצון גאומטרית, מנה שורש",
               "url": "https://drive.google.com/file/d/12GFK8-i4F3icrUc9ZwUkLENjRVItOEkw/view"
             },
             {
@@ -458,12 +458,22 @@
             },
             {
               "type": "file",
-              "name": "2022 - חורף נבצרים - בעית קיצון גאומטרית - שאלה 8",
+              "name": "2022 - חורף נבצרים - בעית קיצון גאומטרית",
               "url": "https://drive.google.com/file/d/1Dhi4YvAN_uARjUZ0YAUzhsTAGXdkYvYt/view"
             },
             {
               "type": "file",
-              "name": "2024 - קיץ מועד א - בעית קיצון גאומטרית - שאלה 8",
+              "name": "2022 - קיץ מועד א - בעית קיצון גרפית",
+              "url": "https://drive.google.com/file/d/1va7fOGzNNWoyJ2J9G3nb1FiFcGJShTsG/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד ב - בעית קיצון גרפית",
+              "url": "https://drive.google.com/file/d/1h5jd6PAnAH0b6t1bYEZHvsFSwXegBq7a/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד א - בעית קיצון גאומטרית",
               "url": "https://drive.google.com/file/d/1tcAbwxPYPcpLutdEOouHXei6ca65pXj9/view"
             }
           ]
