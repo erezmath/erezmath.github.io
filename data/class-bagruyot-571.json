@@ -46,8 +46,18 @@
           "content": [
             {
               "type": "file",
+              "name": "2009 - קיץ מועד א - סדרה הנדסית וחשבונית",
+              "url": "https://drive.google.com/file/d/1RTslXoHd7sS9tNcseZNnYy3XcA_PfU3H/view"
+            },
+            {
+              "type": "file",
               "name": "2010 - קיץ מועד ב - סדרה חשבונית",
               "url": "https://drive.google.com/file/d/1jRdFwZyDUfITFSUKq8qiNSDfI_dRszTm/view"
+            },
+            {
+              "type": "file",
+              "name": "2011 - קיץ מועד א - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1-6mnnioXq9D2epSlvnkBd2A3Wi61z8G7/view"
             },
             {
               "type": "file",
@@ -128,6 +138,11 @@
               "type": "file",
               "name": "2023 - קיץ מועד מיוחד - סדרה חשבונית",
               "url": "https://drive.google.com/file/d/1Lz-tNns3IxtckGgcP4emRbp3cvSY-Ft-/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד א  - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1GK2pn3KhbYsPwfLxZ2wIoYIjKBsrU0Td/view"
             }
           ]
         },
@@ -284,6 +299,11 @@
               "type": "file",
               "name": "2016 - חורף - טריגו מעגל - שאלה קשה יחסית",
               "url": "https://drive.google.com/file/d/12jAfXLNp6uU2-SvhvhkMuvPU2ij1ypbW/view"
+            },
+            {
+              "type": "file",
+              "name": "2017 - חורף - טריגו",
+              "url": "https://drive.google.com/file/d/1z7cKlyvn8FDiXDKR-wfJuQ_4ycM-bQbz/view"
             },
             {
               "type": "file",
