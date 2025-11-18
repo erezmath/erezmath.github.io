@@ -335,6 +335,30 @@
               "url": "https://drive.google.com/file/d/1QehTM-70ZnMtswk3M-HqjHvp_o-p3Zdw/view"
             }
           ]
+        },
+        {
+          "name": "8. תרגול נוסף בסדרות מבגרויות",
+          "desc": "",
+          "id": "3-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סדרות מבגרויות",
+              "url": "https://drive.google.com/file/d/1tYdZRqKoEJEWjIcE9bprh12CVfQLZYfF/view"
+            }
+          ]
+        },
+        {
+          "name": "9. תרגול אחרון לקראת מבחן",
+          "desc": "",
+          "id": "3-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "בגרות 2025 מועד א",
+              "url": "https://drive.google.com/file/d/1Z_q4rE0xQQbRpWbi_CTG9RoGwe8aoJFB/view"
+            }
+          ]
         }
       ]
     },
