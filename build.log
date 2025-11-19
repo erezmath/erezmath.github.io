@@ -1,0 +1,21 @@
+2025-11-19 22:19:36,489 [2025-11-19 22:19:36 IST] Regenerating data with drive_to_class_json.py
+2025-11-19 22:19:37,821 [2025-11-19 22:19:37 IST] Drive-to-class JSON generation started
+2025-11-19 22:19:37,821 [2025-11-19 22:19:37 IST] Main process started
+2025-11-19 22:19:38,077 file_cache is only supported with oauth2client<4.0.0
+2025-11-19 22:19:38,108 [2025-11-19 22:19:38 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-11-19 22:19:38,109 [2025-11-19 22:19:38 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-11-19 22:19:38,109 [2025-11-19 22:19:38 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37?usp=drive_link)
+2025-11-19 22:19:45,978 [2025-11-19 22:19:45 IST] Wrote data\class-bagruyot-571.json
+2025-11-19 22:19:45,979 [2025-11-19 22:19:45 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-11-19 22:20:19,781 [2025-11-19 22:20:19 IST] Wrote data\class-yud-571-tashpav.json
+2025-11-19 22:20:19,781 [2025-11-19 22:20:19 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-11-19 22:21:08,039 [2025-11-19 22:21:08 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-11-19 22:21:08,039 [2025-11-19 22:21:08 IST] All classes processed. JSON generation complete.
+2025-11-19 22:21:08,094 [2025-11-19 22:21:08 IST] Data regeneration complete
+2025-11-19 22:21:08,095 [2025-11-19 22:21:08 IST] Main build process started
+2025-11-19 22:21:08,129 [2025-11-19 22:21:08 IST] Loaded 5 class JSON files
+2025-11-19 22:21:08,141 [2025-11-19 22:21:08 IST] Rendered index.html
+2025-11-19 22:21:08,167 [2025-11-19 22:21:08 IST] Rendered all class pages
+2025-11-19 22:21:08,169 [2025-11-19 22:21:08 IST] Copied static assets
+2025-11-19 22:21:08,185 [2025-11-19 22:21:08 IST] Copied images
+2025-11-19 22:21:08,186 [2025-11-19 22:21:08 IST] Site built successfully!
