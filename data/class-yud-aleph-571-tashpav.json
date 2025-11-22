@@ -745,13 +745,28 @@
         },
         {
           "name": "2. חקירת פונקציות טריגונומטריות - שרטוט ונגזרות",
-          "desc": "",
+          "desc": "<p>שעתיים שיעור</p>",
           "id": "7-2",
           "content": [
             {
               "type": "file",
               "name": "1. סיכום שיעור",
               "url": "https://drive.google.com/file/d/1xh0NPNHBNXxlIuwggpQWb3qRSdoOxhqo/view"
+            },
+            {
+              "type": "file",
+              "name": "2. סיכום שיעור - תוספת - טרנספורמציות",
+              "url": "https://drive.google.com/file/d/1iDRu2n7sY2oAbg7elq_1Px3iuHE6pZRi/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב קדם אנליזה",
+              "url": "https://drive.google.com/file/d/16EII9MUA_NXF3dq_kmBAut06mLU3IotV/view"
+            },
+            {
+              "type": "file",
+              "name": "4. ש.ב נגזרות",
+              "url": "https://drive.google.com/file/d/1KEhJCmZMK16cYwifZkTWDgyRtDMIZ1zl/view"
             }
           ]
         }

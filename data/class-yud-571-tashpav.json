@@ -251,6 +251,28 @@
               "url": "https://drive.google.com/file/d/1ff-9oRmQInX37yCvZXj5lytLauOwmfwA/view"
             }
           ]
+        },
+        {
+          "name": "11. דמיון משולשים ושטחים",
+          "desc": "<p>שיעור כפול</p>",
+          "id": "3-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1ezP75cuoR4746SJt-KV5E65HuTBkLDSH/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1IIO2NT1xav6ZZNV8-ppc0GIcys2f5XUg/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות ורמזים",
+              "url": "https://drive.google.com/file/d/1Hd5kUlJUoJXMV-T7Uek6ilUa0tsds2Fe/view"
+            }
+          ]
         }
       ]
     },
@@ -538,6 +560,11 @@
               "type": "file",
               "name": "3. ש.ב",
               "url": "https://drive.google.com/file/d/1VzADxfVvvzBodFKebAcSHMs-RkR-EMZp/view"
+            },
+            {
+              "type": "file",
+              "name": "4. פתרונות",
+              "url": "https://drive.google.com/file/d/1k1TNor4xwDsSW8yOSN--RIQOBUd00cnT/view"
             }
           ]
         }
