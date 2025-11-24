@@ -769,6 +769,40 @@
               "url": "https://drive.google.com/file/d/1KEhJCmZMK16cYwifZkTWDgyRtDMIZ1zl/view"
             }
           ]
+        },
+        {
+          "name": "3. פונקציות טריגונמטריות - קדם אנליזה",
+          "desc": "<p>שעתיים שיעור. קדם אנליזה, טרנספורמציות, וסעיפי חשיבה יפים כדי לקבל תחושה</p>",
+          "id": "7-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1ONn8t9OHQaKAMInTxCuutpO4oKic2BfI/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב קדם אנליזה",
+              "url": "https://drive.google.com/file/d/1C4zAaYdngqoyS43T3oGN7QQSaiGrNuwO/view"
+            }
+          ]
+        },
+        {
+          "name": "4. פונקציות טריגונמטריות - משוואות המשיק",
+          "desc": "<p>שעתיים שיעור. בעיקר תרגול עצמי להתרגל לפני שנתחיל חקירה</p>",
+          "id": "7-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1h2d1Hvh6Uhoh05J8Zjf-FWMS89AmhaS0/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים בכיתה",
+              "url": "https://drive.google.com/file/d/1tpxrDn7i79tNOObqG84GlpBH1L6U695B/view"
+            }
+          ]
         }
       ]
     },
