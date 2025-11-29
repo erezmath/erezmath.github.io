@@ -149,3 +149,24 @@
 2025-11-26 21:30:48,678 [2025-11-26 21:30:48 IST] Copied static assets
 2025-11-26 21:30:48,696 [2025-11-26 21:30:48 IST] Copied images
 2025-11-26 21:30:48,697 [2025-11-26 21:30:48 IST] Site built successfully!
+2025-11-29 19:03:32,306 [2025-11-29 19:03:32 IST] Regenerating data with drive_to_class_json.py
+2025-11-29 19:03:33,575 [2025-11-29 19:03:33 IST] Drive-to-class JSON generation started
+2025-11-29 19:03:33,575 [2025-11-29 19:03:33 IST] Main process started
+2025-11-29 19:03:33,836 file_cache is only supported with oauth2client<4.0.0
+2025-11-29 19:03:33,865 [2025-11-29 19:03:33 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-11-29 19:03:33,865 [2025-11-29 19:03:33 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-11-29 19:03:33,865 [2025-11-29 19:03:33 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37?usp=drive_link)
+2025-11-29 19:03:41,372 [2025-11-29 19:03:41 IST] Wrote data\class-bagruyot-571.json
+2025-11-29 19:03:41,372 [2025-11-29 19:03:41 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-11-29 19:04:18,088 [2025-11-29 19:04:18 IST] Wrote data\class-yud-571-tashpav.json
+2025-11-29 19:04:18,089 [2025-11-29 19:04:18 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-11-29 19:05:08,311 [2025-11-29 19:05:08 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-11-29 19:05:08,311 [2025-11-29 19:05:08 IST] All classes processed. JSON generation complete.
+2025-11-29 19:05:08,369 [2025-11-29 19:05:08 IST] Data regeneration complete
+2025-11-29 19:05:08,369 [2025-11-29 19:05:08 IST] Main build process started
+2025-11-29 19:05:08,403 [2025-11-29 19:05:08 IST] Loaded 5 class JSON files
+2025-11-29 19:05:08,421 [2025-11-29 19:05:08 IST] Rendered index.html
+2025-11-29 19:05:08,443 [2025-11-29 19:05:08 IST] Rendered all class pages
+2025-11-29 19:05:08,447 [2025-11-29 19:05:08 IST] Copied static assets
+2025-11-29 19:05:08,460 [2025-11-29 19:05:08 IST] Copied images
+2025-11-29 19:05:08,460 [2025-11-29 19:05:08 IST] Site built successfully!
