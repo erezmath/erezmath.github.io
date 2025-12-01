@@ -874,6 +874,59 @@
               "url": "https://drive.google.com/file/d/1M0koGt8ALN2WZXfd76ZbmL8ZppthZtYn/view"
             }
           ]
+        },
+        {
+          "name": "7. חקירה עם פרמטרים - בני גורן וארכימדס",
+          "desc": "<p>שלוש שעות.</p>\n<p>עבודת כיתה + ש.ב ע\"פ הסדר הבא:</p>\n<p>בני גורן תרגיל 29.</p>\n<p>ארכימדס תרגיל 13. </p>\n<p>ארכימדס תרגילים 6, 15, 16.</p>\n<p>מי שמסיים בכיתה - להמשיך לארכימדס 14 ואז 9</p>",
+          "id": "7-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגילים מבני גורן",
+              "url": "https://drive.google.com/file/d/157fIiUumc4QoLlFyVw2ohHWeXH2Vvyuv/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים מארכימדס",
+              "url": "https://drive.google.com/file/d/1-Yao6W9GqxG-Ri6zcAoXeO7zUeret91O/view"
+            },
+            {
+              "type": "folder",
+              "name": "3. פתרונות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. בני גורן ב2 עמ 231 שאלה 29",
+                  "url": "https://drive.google.com/file/d/15pV0O1f-Jq_E7Vwby-W-8QdMU3Cf_L2X/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. ארכימדס עמ 229 שאלה 13",
+                  "url": "https://drive.google.com/file/d/1F9VeR1ux-QcsSYYMNYEo9qM5bqoEBc18/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. ארכימדס עמ 226 שאלה 6",
+                  "url": "https://drive.google.com/file/d/1F5GpIaQ2tN7IPGsyaUeKFCQULfXag1nd/view"
+                },
+                {
+                  "type": "file",
+                  "name": "4. ארכימדס עמ 230 שאלה 15",
+                  "url": "https://drive.google.com/file/d/1EjJgrV8vcngEsi6WlMgEEXjoGf-LKiE8/view"
+                },
+                {
+                  "type": "file",
+                  "name": "5. ארכימדס עמ 230 שאלה 16",
+                  "url": "https://drive.google.com/file/d/1x2a_M4Qm7Zv-yjzA8EjI1Dq5C4ZLR6Lp/view"
+                },
+                {
+                  "type": "file",
+                  "name": "6. בני גורן ב2 עמ 230 שאלה 27",
+                  "url": "https://drive.google.com/file/d/1HteBLKDXSQ-BpjN70wPiRGwsLsC6eKQO/view"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
