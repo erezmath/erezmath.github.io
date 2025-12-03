@@ -927,6 +927,39 @@
               ]
             }
           ]
+        },
+        {
+          "name": "8. חקירה מבגרויות",
+          "desc": "",
+          "id": "7-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בגרויות 2022, 2024",
+              "url": "https://drive.google.com/file/d/10aHTR8KdX7aOJFSHa3ar2mmec08AZR-h/view"
+            },
+            {
+              "type": "folder",
+              "name": "2. פתרונות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד א - חקירה טריגונומטרית",
+                  "url": "https://drive.google.com/file/d/1ztWaYazcDuci156XWoagVSrllxaiTdTv/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד ב - חקירה טריגונומטרית",
+                  "url": "https://drive.google.com/file/d/120B84qY0hNqgwyQc23M7IHRRntziJqHV/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד ב - חקירה טריגונומטרית",
+                  "url": "https://drive.google.com/file/d/1Iqe9hakXqaV4d7Co4qPibHTUHv3lZMMI/view"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
