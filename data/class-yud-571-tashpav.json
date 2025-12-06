@@ -290,6 +290,18 @@
               "url": "https://drive.google.com/file/d/1o-91PyYewgXAn8JfOtsTD9ny6zvE5tRl/view"
             }
           ]
+        },
+        {
+          "name": "13. דמיון משולשים - תרגול נוסף",
+          "desc": "<p>לשיעור של יום ראשון עם אוקסנה, להגשה לווטסאפ עד לשבת</p>",
+          "id": "3-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "תרגול נוסף במשולשים דומים",
+              "url": "https://drive.google.com/file/d/1KviOlSaaIJr6jJ5gK5VgMTWRf2CuteKh/view"
+            }
+          ]
         }
       ]
     },
@@ -655,6 +667,18 @@
               "type": "file",
               "name": "3. שאלה 19 עמוד 878",
               "url": "https://drive.google.com/file/d/1L55k3R_U4aQs5CNhjGIvImVvWy-3pkrL/view"
+            }
+          ]
+        },
+        {
+          "name": "19. שורש - פרמטרים וסעיפי חשיבה - אפי כהן",
+          "desc": "<p>לשיעור של יום שלישי עם יוליה, להגשה לווטסאפ עד לשבת</p>",
+          "id": "5-19",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב פונקצית שורש - חקירה עם פרמטרים וסעיפי חשיבה - אפי כהן",
+              "url": "https://drive.google.com/file/d/1FJa5nli9KzGQ4ibLYTn2UA-iyWI84K5b/view"
             }
           ]
         }
