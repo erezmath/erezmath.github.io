@@ -524,9 +524,28 @@ body {
     margin: 0;
     user-select: none;
     display: flex;
-    align-items: center;
-    gap: 0;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+    justify-content: flex-start;
+    text-align: right;
+  }
+
+  /* Due date row under the header */
+  .lesson-title {
+    width: 100%;
+  }
+  .lesson-due-row {
+    font-size: 0.95rem;
+    color: #94a3b8;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-top: 0.1rem;
+    width: 100%;
+  }
+  .lesson-due-row .lesson-due-date {
+    color: #94a3b8;
+    font-weight: 600;
   }
   
   .lesson-description {

@@ -27,7 +27,8 @@
               "name": "משפטים בגאומטריה לבגרות",
               "url": "https://drive.google.com/file/d/1LepqjB-U8M0YR5b042SV-cooMBhL28J-/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "2. דף נוסחאות 5 יחל לבגרות",
@@ -39,7 +40,8 @@
               "name": "דף נוסחאות 5 יחל תוכנית חדשה",
               "url": "https://drive.google.com/file/d/1z9Oar4v5Y5byBOwLJImFjX_aMzImKhoS/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -67,7 +69,8 @@
               "name": "2. רמזים לש.ב",
               "url": "https://drive.google.com/file/d/1qDc4RCuaY61_FEdE1UMbZD9dKR4Q0f2j/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "2. מפגש התיכונים",
@@ -89,7 +92,8 @@
               "name": "3. פיצוח תרגילים",
               "url": "https://drive.google.com/file/d/1MG0_PIZ1PGEeK-7so35dYmtHTK8myJuP/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "3. תאלס",
@@ -116,7 +120,8 @@
               "name": "4. מצגת.pptx",
               "url": "https://drive.google.com/file/d/1mTdEtfOT0zUWXp0Ic3uv2XXu50itw-uA/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "4. תאלס - משימה אסינכרונית",
@@ -133,7 +138,8 @@
               "name": "תאלס - משימה אסינכרונית - ליום ראשון עד שעה 17",
               "url": "https://drive.google.com/file/d/1WQQCkuBMoOkbzcgXCDaCP1YxPX5fdZqw/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "5. תאלס הפוך",
@@ -145,7 +151,8 @@
               "name": "1. תאלס הפוך - סיכום שיעור ושיעורי בית לשלישי",
               "url": "https://drive.google.com/file/d/1Yv4qybpjxodpsj36hbYSW33MU4NAJ4Bn/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "6. ש.ב תאלס לחג סוכות",
@@ -162,7 +169,8 @@
               "name": "פתרונות",
               "url": "https://drive.google.com/file/d/1xELQsTbXOLIJ5Dlc1L43J9QCpOdRWHHU/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "7. משפט חוצה זוית",
@@ -189,7 +197,8 @@
               "name": "4. פתרונות",
               "url": "https://drive.google.com/file/d/1icbu3rMgJ95--I6wxzOLmtt4cZMbXb3n/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "8. משפט חוצה זווית הפוך",
@@ -216,7 +225,8 @@
               "name": "4. פתרונות",
               "url": "https://drive.google.com/file/d/1mk99FjWyfbiBdvZjD1XgEZWWiixTDJ4a/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "9. משפט חפיפה רביעי, תאלס וחוצה זווית עם שטחים",
@@ -238,7 +248,8 @@
               "name": "3. פתרונות",
               "url": "https://drive.google.com/file/d/1O06KKbh8tZJNOGSEhtacgQwGyWrtS5lF/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "10. תרגול נוסף לקראת המבחן",
@@ -250,7 +261,8 @@
               "name": "תרגול נוסף למבחן",
               "url": "https://drive.google.com/file/d/1ff-9oRmQInX37yCvZXj5lytLauOwmfwA/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "11. דמיון משולשים ושטחים",
@@ -272,13 +284,19 @@
               "name": "3. פתרונות ורמזים",
               "url": "https://drive.google.com/file/d/1Hd5kUlJUoJXMV-T7Uek6ilUa0tsds2Fe/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "12. דמיון משולשים במרובעים",
           "desc": "<p>שיעור כפול - תרגול נוסף לצבור ביטחון בנושא, רמת קושי לא גבוהה</p>",
           "id": "3-12",
           "content": [
+            {
+              "type": "file",
+              "name": "lesson.json",
+              "url": "https://drive.google.com/file/d/1ZwzZBTHV_ClrN3XNGdsj4p2GRv0R3vxL/view"
+            },
             {
               "type": "file",
               "name": "דמיון משולשים במרובעים מבני גורן",
@@ -289,7 +307,11 @@
               "name": "פתרונות",
               "url": "https://drive.google.com/file/d/1o-91PyYewgXAn8JfOtsTD9ny6zvE5tRl/view"
             }
-          ]
+          ],
+          "lesson_json": {
+            "lesson_date": "02-12-2025",
+            "due_date": "08-12-2025"
+          }
         },
         {
           "name": "13. דמיון משולשים - תרגול נוסף",
@@ -298,10 +320,19 @@
           "content": [
             {
               "type": "file",
+              "name": "lesson.json",
+              "url": "https://drive.google.com/file/d/1DslWIgHfeggXzJUTqdF8eOwvHAb6rbUw/view"
+            },
+            {
+              "type": "file",
               "name": "תרגול נוסף במשולשים דומים",
               "url": "https://drive.google.com/file/d/1KviOlSaaIJr6jJ5gK5VgMTWRf2CuteKh/view"
             }
-          ]
+          ],
+          "lesson_json": {
+            "lesson_date": "07-12-2025",
+            "due_date": "13-12-2025"
+          }
         }
       ]
     },
@@ -329,7 +360,8 @@
               "name": "2. ש.ב לשלישי - חקירה איכותנית של פולינום",
               "url": "https://drive.google.com/file/d/19gKZOK6bmRBsj2h0M_SjDvl9Fs8NAM25/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "2. נגזרת - הגדרה וחוקי נגזרות",
@@ -346,7 +378,8 @@
               "name": "2. תרגול נגזרות",
               "url": "https://drive.google.com/file/d/1mOpxCk14uxTR4dKRSojULgcCUvUPINqN/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "3. משוואת המשיק",
@@ -363,7 +396,8 @@
               "name": "2. ש.ב למחר",
               "url": "https://drive.google.com/file/d/1OVhXwhbCUFSCU7m0f4AN6R7P-AMcIXR0/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "4. משוואת המשיק - תרגול עם פרמטרים",
@@ -395,7 +429,8 @@
               "name": "5. ש.ב לחמישי אחרי החג",
               "url": "https://drive.google.com/file/d/1h2vA-BI4j_d6-XJelLqnOhbTTlVlE17V/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "5. חקירת פונקציית פולינום",
@@ -417,7 +452,8 @@
               "name": "3. פתרונות",
               "url": "https://drive.google.com/file/d/10NQnKzcpJe6thgpsalF2VCU5De9l0lXr/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "6. חקירת פונקציית פולינום עם פרמטרים",
@@ -444,7 +480,8 @@
               "name": "4. פתרונות",
               "url": "https://drive.google.com/file/d/1xHi9VJL3fGyLrk6dAwqaqUB5yb2u9eSg/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "7. נגזרת פונקציה מורכבת ופונקצית מכפלה",
@@ -461,7 +498,8 @@
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1wkM1Tb3vn3z---h_tBQBO_-upOxUsasl/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "8. חקירה מלאה - פונקציה מורכבת ומכפלה",
@@ -473,7 +511,8 @@
               "name": "סיכום שיעור",
               "url": "https://drive.google.com/file/d/1Qi8eXq5dzgL6zLAQ0MQBnPWy5fY1P8LY/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "9. חקירה מלאה עם פרמטרים - פונקציה מורכבת ומכפלה",
@@ -490,7 +529,8 @@
               "name": "2. פתרונות",
               "url": "https://drive.google.com/file/d/1eXCm3ixTO1RI7umzJV7bDvk-JbGJfYQp/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "10. קשר גרף הפונקציה נגזרת",
@@ -507,7 +547,8 @@
               "name": "2. ש.ב בני גורן",
               "url": "https://drive.google.com/file/d/14mxOAkwKfBDjZCdLJj3_Adsn82Zyk7Vt/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "11. שרטוט פונקציה ללא ביטוי אלגברי מפורש",
@@ -529,7 +570,8 @@
               "name": "3. פתרונות",
               "url": "https://drive.google.com/file/d/1wcZ_Ifdip8IboQKE0aBQD7ZOfABlrgSV/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "12. פונקציה זוגית - אי זוגית - אגלברי וגרפי",
@@ -546,7 +588,8 @@
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1uVNfVnKC2VgOB-eccoe77Zj5mJcO7ri9/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "13. הבע באמצעות",
@@ -568,7 +611,8 @@
               "name": "3. פתרונות",
               "url": "https://drive.google.com/file/d/10W1x9CZOMJ6gGAOnDhbIZUAPfXyIDdxg/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "14. שורש - תחום הגדרה וקדם אנליזה",
@@ -595,7 +639,8 @@
               "name": "4. פתרונות",
               "url": "https://drive.google.com/file/d/1k1TNor4xwDsSW8yOSN--RIQOBUd00cnT/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "15. שורש - נגזרת ונקודות קיצון פנימיות",
@@ -612,7 +657,8 @@
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1IxEucuCLY61AT_lzHuDJqcD_0HwmM8LH/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "16. שורש - חקירה מלאה",
@@ -634,7 +680,8 @@
               "name": "3. סרטון חקירת שורש מכפלה - עובד לב ארי.url",
               "url": "https://drive.google.com/file/d/1gK6YkMdnFXB7rqQ7TtoYHRoB33aMhu2y/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "17. שורש - חקירה - תרגול נוסף וסעיפי חשיבה",
@@ -646,7 +693,8 @@
               "name": "1. ש.ב לחמישי - חקירת שורש - ארכימדס עמ 369-373",
               "url": "https://drive.google.com/file/d/1FaBjdjVGqVKYeJz2BjxNtq5m74azYokm/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "18. שורש - פרמטרים",
@@ -667,8 +715,17 @@
               "type": "file",
               "name": "3. שאלה 19 עמוד 878",
               "url": "https://drive.google.com/file/d/1L55k3R_U4aQs5CNhjGIvImVvWy-3pkrL/view"
+            },
+            {
+              "type": "file",
+              "name": "lesson.json",
+              "url": "https://drive.google.com/file/d/1W5rh_i_7nlE4CbeP0k8a_UzhzU1PJdAY/view"
             }
-          ]
+          ],
+          "lesson_json": {
+            "lesson_date": "05-12-2025",
+            "due_date": "08-12-2025"
+          }
         },
         {
           "name": "19. שורש - פרמטרים וסעיפי חשיבה - אפי כהן",
@@ -679,8 +736,17 @@
               "type": "file",
               "name": "1. ש.ב פונקצית שורש - חקירה עם פרמטרים וסעיפי חשיבה - אפי כהן",
               "url": "https://drive.google.com/file/d/1FJa5nli9KzGQ4ibLYTn2UA-iyWI84K5b/view"
+            },
+            {
+              "type": "file",
+              "name": "lesson.json",
+              "url": "https://drive.google.com/file/d/1W-ohHRmYlFIy2RgJjJCOvzhlIVJ0re-i/view"
             }
-          ]
+          ],
+          "lesson_json": {
+            "lesson_date": "09-12-2025",
+            "due_date": "13-12-2025"
+          }
         }
       ]
     },
@@ -703,7 +769,8 @@
               "name": "2. עבודת קיץ לעולים ל 4 יחל",
               "url": "https://drive.google.com/file/d/1-0NtwyaiVr1ycKyAtZGlNG3oNDzunRqW/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "2. אימון למבחן תחילת שנה - עבודות קיץ נוספות",
@@ -745,7 +812,8 @@
               "name": "7. עבודת קיץ של מחוז מרכז",
               "url": "https://drive.google.com/file/d/1cp3alj_dXyiX8b92vS1N7uN9JsnmCJIV/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "3. חזרה למבחן תחילת שנה - אלגברה",
@@ -820,7 +888,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "4. חזרה למבחן תחילת שנה - פרבולות",
@@ -847,7 +916,8 @@
               "name": "4. תרגול פרבולות - שאלות רמה גבוהה עם פרמטרים - דיה זגורי",
               "url": "https://drive.google.com/file/d/1p4t2kg9KW5yFh6VXAZ9rQIWtr9-E2-4e/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "5. חזרה למבחן תחילת שנה - גאומטריה",
@@ -874,7 +944,8 @@
               "name": "3. קטע אמצעים במשולש ובטרפז - בני גורן - תרגילים נוספים",
               "url": "https://drive.google.com/file/d/1ApTk0-g2lfxBNiEwfxrxwdAiGQdwKiV0/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "6. נושאים למבחן תחילת שנה",
@@ -886,7 +957,8 @@
               "name": "נושאים למבחן",
               "url": "https://drive.google.com/file/d/1AT1exV6aW7motmE_MFk7dk2laA3mAuhI/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "7. מבחן תחילת השנה - מבחן לדוגמא",
@@ -903,7 +975,8 @@
               "name": "2. מבחן תחילת שנה י' 571 - לדוגמא - פתרון של סוף",
               "url": "https://drive.google.com/file/d/1Ip1IHBGd-jhWrA70ZyJM-W5jKH1ldPLL/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "8. מבחן תחילת השנה - פתרון",
@@ -915,7 +988,8 @@
               "name": "מבחן תחילת שנה י' 571 - פתרון",
               "url": "https://drive.google.com/file/d/1haAVtfc5qPHGwNSXKx8mi5bv_JJVMypO/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         },
         {
           "name": "9. מבחן נובמבר",
@@ -967,7 +1041,8 @@
               "name": "7. מבחן נובמבר - י 5 יחל תשפו - פתרון",
               "url": "https://drive.google.com/file/d/1LVs4iJWcFqXWz1VB_15PLT_HWMZebMgU/view"
             }
-          ]
+          ],
+          "lesson_json": {}
         }
       ]
     }

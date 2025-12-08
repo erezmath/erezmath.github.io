@@ -66,3 +66,34 @@ requirements:
 
 the crawler in drive_to_class_json.py should read google drive urls sorted in the same order as windows displays it. i suggest the use of the package natsorted
 the crawler that crawls in 
+
+
+I want to a "due date" to lessons - so the students know at which date to sumbit the homework that appears in the lesson. 
+Some lessons won't have a due date, so the field is optional.
+
+I want you to first focus on the ui/ux of it, so I've created an example html 
+without this feature, to work as a baseline. it appears in /examples/class_bagruyot-571-example.html
+
+I'm open to suggestions, my initial thought is the following implementation:
+look at lesson-header. add a date tag, slighly colored differently, that will appear in the left of the same row as lesson-header, and will be visible without needing to exapnd the lesson-content. The date format will be day-month (for example 03-12 for 3rd of december).
+
+attaching in image i've created of how i want the date to appear. 
+
+it should have a border and a border radius, to mimic the same design of lesson, and the border color should be distinct and visible. 
+
+The text color should be slighly different than that of title, more grayish relative to the title but still readable.
+
+It should be in the first line to the left, but i want the title text on the right to overlflow it - meaning that text will continue until it, then next line, and the next lines can be below it. This is because my students use it on phones with little view space.
+
+I didn't like the design, so I first rolled back all changes you did to main.css, and created a new example file at examples/class-yud-571-tashpav-example.html.
+Attaching a screenshot of how I want the date to appear. It should be the next line after the lesson-header, and text should be a lighter shade of gray.  Please remember to again the references to css/js/images to be from docs/ directory.
+
+Please change html layout so it will be div lesson-header, inside it lesson-title and lesson-due-row. it's better in terms of design.
+Also, I want the spacing between the title and due date to be much smaller, as appears in the screenshot i provided
+
+I've added lesson.json file, it's layout that can be seen in examples/lesson.json. 
+Add implementation to read it, a lesson.json file will exist in the lesson directory (it's an optional file, can not exist as well), like README.md file that exists in the lesson directory, see read_readme_file() implementation for reference where the folder is. 
+
+the implementation is incomplete.
+the lesson.json is read properly, however the information of due_date is not extracted to the html. 
+review the changes you've made previously today for class-yud-571-tashpave-example.html, and the implenetation that was done in order for due_date to be visible (see lesson-due-row and lesson-title and the html change), and add them to the project in the appropriate locations (maybe class.html, or other related code?) 

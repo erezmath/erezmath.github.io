@@ -167,6 +167,27 @@ def read_readme_file(service, folder_id):
         log_event(f"Error reading README.md from folder {folder_id}: {str(e)}")
         return ""
 
+def read_lesson_json(service, folder_id):
+    """
+    Read lesson.json file from a Google Drive folder and return its parsed JSON object.
+    Returns an empty dict if the file does not exist or cannot be parsed.
+    """
+    try:
+        query = f"'{folder_id}' in parents and name = 'lesson.json' and trashed = false"
+        results = service.files().list(q=query, fields="files(id, name)").execute()
+        files = results.get('files', [])
+
+        if not files:
+            return {}
+
+        lesson_json_id = files[0]['id']
+        file_content = service.files().get_media(fileId=lesson_json_id).execute()
+        json_text = file_content.decode('utf-8')
+        return json.loads(json_text)
+    except Exception as e:
+        log_event(f"Error reading lesson.json from folder {folder_id}: {str(e)}")
+        return {}
+
 def read_assignments_file(service, folder_id):
     """
     Read assignments.md file from a Google Drive folder and return its HTML content and file ID.
@@ -280,12 +301,15 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
         for lesson_index, lesson in enumerate(lesson_folders, 1):
             # Read README.md file for lesson description
             lesson_description = read_readme_file(service, lesson['id'])
+            # Read lesson.json metadata if exists
+            lesson_meta = read_lesson_json(service, lesson['id'])
             
             lesson_obj = {
                 'name': lesson['name'],
                 'desc': lesson_description,
                 'id': f"{topic_index}-{lesson_index}",  # Add lesson ID in format "topic-lesson"
-                'content': crawl_lesson_content(service, lesson['id'])
+                'content': crawl_lesson_content(service, lesson['id']),
+                'lesson_json': lesson_meta
             }
             topic_obj['lessons'].append(lesson_obj)
         topics.append(topic_obj)
