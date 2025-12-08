@@ -294,11 +294,6 @@
           "content": [
             {
               "type": "file",
-              "name": "lesson.json",
-              "url": "https://drive.google.com/file/d/1ZwzZBTHV_ClrN3XNGdsj4p2GRv0R3vxL/view"
-            },
-            {
-              "type": "file",
               "name": "דמיון משולשים במרובעים מבני גורן",
               "url": "https://drive.google.com/file/d/1JDrzQ1WCkFGAOuUVH7NYKpH0SoPh5ggO/view"
             },
@@ -310,7 +305,8 @@
           ],
           "lesson_json": {
             "lesson_date": "02-12-2025",
-            "due_date": "08-12-2025"
+            "due_date": "08-12-2025",
+            "due_date_display": "שני, 08.12.2025"
           }
         },
         {
@@ -320,18 +316,14 @@
           "content": [
             {
               "type": "file",
-              "name": "lesson.json",
-              "url": "https://drive.google.com/file/d/1DslWIgHfeggXzJUTqdF8eOwvHAb6rbUw/view"
-            },
-            {
-              "type": "file",
               "name": "תרגול נוסף במשולשים דומים",
               "url": "https://drive.google.com/file/d/1KviOlSaaIJr6jJ5gK5VgMTWRf2CuteKh/view"
             }
           ],
           "lesson_json": {
             "lesson_date": "07-12-2025",
-            "due_date": "13-12-2025"
+            "due_date": "13-12-2025",
+            "due_date_display": "שבת, 13.12.2025"
           }
         }
       ]
@@ -715,16 +707,12 @@
               "type": "file",
               "name": "3. שאלה 19 עמוד 878",
               "url": "https://drive.google.com/file/d/1L55k3R_U4aQs5CNhjGIvImVvWy-3pkrL/view"
-            },
-            {
-              "type": "file",
-              "name": "lesson.json",
-              "url": "https://drive.google.com/file/d/1W5rh_i_7nlE4CbeP0k8a_UzhzU1PJdAY/view"
             }
           ],
           "lesson_json": {
             "lesson_date": "05-12-2025",
-            "due_date": "08-12-2025"
+            "due_date": "08-12-2025",
+            "due_date_display": "שני, 08.12.2025"
           }
         },
         {
@@ -736,16 +724,12 @@
               "type": "file",
               "name": "1. ש.ב פונקצית שורש - חקירה עם פרמטרים וסעיפי חשיבה - אפי כהן",
               "url": "https://drive.google.com/file/d/1FJa5nli9KzGQ4ibLYTn2UA-iyWI84K5b/view"
-            },
-            {
-              "type": "file",
-              "name": "lesson.json",
-              "url": "https://drive.google.com/file/d/1W-ohHRmYlFIy2RgJjJCOvzhlIVJ0re-i/view"
             }
           ],
           "lesson_json": {
             "lesson_date": "09-12-2025",
-            "due_date": "13-12-2025"
+            "due_date": "13-12-2025",
+            "due_date_display": "שבת, 13.12.2025"
           }
         }
       ]

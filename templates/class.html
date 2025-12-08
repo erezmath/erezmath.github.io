@@ -47,7 +47,7 @@
           <div class="lesson-header" tabindex="0">
             <div class="lesson-title">{{ lesson.name }}</div>
             {% if lesson.lesson_json and lesson.lesson_json.due_date %}
-            <div class="lesson-due-row">תאריך הגשה: <span class="lesson-due-date">{{ lesson.lesson_json.due_date }}</span></div>
+            <div class="lesson-due-row">תאריך הגשה: <span class="lesson-due-date">{{ lesson.lesson_json.due_date_display or lesson.lesson_json.due_date }}</span></div>
             {% endif %}
           </div>
           <div class="lesson-content">

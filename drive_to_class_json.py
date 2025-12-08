@@ -14,6 +14,7 @@ import pytz
 import markdown
 import base64
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 
 log_event('Drive-to-class JSON generation started')
@@ -38,7 +39,8 @@ IGNORED_FILENAMES = [
     'folder.jpg',           # folder images
     'albumart.jpg',          # folder images
     'folder.gif',           # folder images
-    'albumart.gif'          # folder images
+    'albumart.gif',          # folder images
+    'lesson.json',          # lesson json files
 ]
 
 class_info = [
@@ -188,6 +190,40 @@ def read_lesson_json(service, folder_id):
         log_event(f"Error reading lesson.json from folder {folder_id}: {str(e)}")
         return {}
 
+def _hebrew_day_name(weekday: int) -> str:
+    # Python weekday(): Monday=0 ... Sunday=6
+    # Correct Hebrew day names aligned to weekday()
+    day_names = ["שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת", "ראשון"]
+    return day_names[weekday] if 0 <= weekday < len(day_names) else ""
+
+def _format_due_date(due_str: str) -> str:
+    """
+    Parse dd-mm-yyyy or dd.mm.yyyy (2 or 4 digit year) and return
+    'יום, dd.mm.yyyy' in Hebrew. Returns empty string on failure.
+    """
+    if not due_str:
+        return ""
+    due_str = due_str.strip()
+    # allow - or .
+    parts = due_str.replace('.', '-').split('-')
+    if len(parts) != 3:
+        return ""
+    try:
+        d = int(parts[0])
+        m = int(parts[1])
+        y = int(parts[2])
+        if y < 100:
+            y += 2000
+        dt = datetime(y, m, d)
+        # weekday(): Monday=0 ... Sunday=6
+        heb_day = _hebrew_day_name(dt.weekday())
+        dd = f"{d:02d}"
+        mm = f"{m:02d}"
+        yyyy = f"{y:04d}"
+        return f"{heb_day}, {dd}.{mm}.{yyyy}"
+    except Exception:
+        return ""
+
 def read_assignments_file(service, folder_id):
     """
     Read assignments.md file from a Google Drive folder and return its HTML content and file ID.
@@ -303,6 +339,11 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
             lesson_description = read_readme_file(service, lesson['id'])
             # Read lesson.json metadata if exists
             lesson_meta = read_lesson_json(service, lesson['id'])
+            # Add formatted due date if present
+            if 'due_date' in lesson_meta:
+                display = _format_due_date(lesson_meta.get('due_date', ''))
+                if display:
+                    lesson_meta['due_date_display'] = display
             
             lesson_obj = {
                 'name': lesson['name'],
