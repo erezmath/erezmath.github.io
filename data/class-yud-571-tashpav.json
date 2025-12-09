@@ -325,6 +325,23 @@
             "due_date": "13-12-2025",
             "due_date_display": "שבת, 13.12.2025"
           }
+        },
+        {
+          "name": "14. עבודת חנוכה בגאומטריה",
+          "desc": "<p>עבודת החנוכה - חלק גאומטריה, להגשה בשיעור המתמטיקה הראשון לאחר החג - ביום שלישי\n23.12.2025</p>",
+          "id": "3-14",
+          "content": [
+            {
+              "type": "file",
+              "name": "עבודת חנוכה בגאומטריה",
+              "url": "https://drive.google.com/file/d/1uJnf5eG9638WlnuDPzQWCglQguc3jc4d/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-12-2025",
+            "due_date": "23-12-2025",
+            "due_date_display": "שלישי, 23.12.2025"
+          }
         }
       ]
     },
@@ -731,6 +748,23 @@
             "due_date": "13-12-2025",
             "due_date_display": "שבת, 13.12.2025"
           }
+        },
+        {
+          "name": "20. עבודת חנוכה בחדוא",
+          "desc": "<p>עבודת החנוכה - חלק חדוא, להגשה בשמרדף בצורה מסודרת בשיעור המתמטיקה הראשון לאחר החג - ביום שלישי\n23.12.2025</p>",
+          "id": "5-20",
+          "content": [
+            {
+              "type": "file",
+              "name": "עבודת חנוכה בחדוא",
+              "url": "https://drive.google.com/file/d/1g_osY6mDWIwPyNZgxaXiaw3BEbKtnB_m/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-12-2025",
+            "due_date": "23-12-2025",
+            "due_date_display": "שלישי, 23.12.2025"
+          }
         }
       ]
     },
@@ -1027,6 +1061,28 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "10. עבודת חנוכה בחדוא וגאומטריה",
+          "desc": "<p>עבודת החנוכה, להגשה בשמרדף בצורה מסודרת בשיעור המתמטיקה הראשון לאחר החג - ביום שלישי\n23.12.2025</p>",
+          "id": "6-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "עבודת חנוכה בגאומטריה",
+              "url": "https://drive.google.com/file/d/1nLibNuCbzNZ2b1jScC4LUdhxHg9wzORK/view"
+            },
+            {
+              "type": "file",
+              "name": "עבודת חנוכה בחדוא",
+              "url": "https://drive.google.com/file/d/1qvlk4gFtbGCH7LZ0gvfMW8WRVydrLU8k/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-12-2025",
+            "due_date": "23-12-2025",
+            "due_date_display": "שלישי, 23.12.2025"
+          }
         }
       ]
     }

@@ -264,7 +264,6 @@ function setupLessonFolders() {
     setupTopicsScrollSpy();
     setupLessonFolders();
     setupAssignments();
-    is_date_today_or_future();
     
     // Handle hash navigation on page load with a small delay to ensure everything is rendered
     setTimeout(() => {
@@ -377,7 +376,7 @@ function setupLessonFolders() {
     // Get all lesson-due-row divs
     const dueDivs = document.querySelectorAll('.lesson-due-date');
     
-    console.log(`Found ${dueDivs.length} lesson-due-date elements`); // Debug log
+    //console.log(`Found ${dueDivs.length} lesson-due-date elements`); // Debug log
     
     dueDivs.forEach(div => {
       // Extract date using regex pattern dd.mm.yyyy
@@ -385,7 +384,7 @@ function setupLessonFolders() {
       const dateMatch = text.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
       
       if (!dateMatch) {
-        console.log('No date found in:', text); // Debug log
+        //console.log('No date found in:', text); // Debug log
         return;
       }
       
@@ -403,17 +402,17 @@ function setupLessonFolders() {
         return;
       }
       
-      console.log(`Checking date: ${dateMatch[0]}, Today: ${today.toLocaleDateString()}, Tomorrow: ${tomorrow.toLocaleDateString()}`); // Debug log
+      //console.log(`Checking date: ${dateMatch[0]}, Today: ${today.toLocaleDateString()}, Tomorrow: ${tomorrow.toLocaleDateString()}`); // Debug log
       
       // Compare dates
       if (extractedDate.getTime() === today.getTime() || extractedDate.getTime() === tomorrow.getTime()) {
         div.classList.add('color-alert');
-        console.log('Added color-alert to:', dateMatch[0]); // Debug log
+        //console.log('Added color-alert to:', dateMatch[0]); // Debug log
       } else if (extractedDate > tomorrow) {
         div.classList.add('color-warning');
-        console.log('Added color-warning to:', dateMatch[0]); // Debug log
+        //console.log('Added color-warning to:', dateMatch[0]); // Debug log
       } else {
-        console.log('Date is in the past:', dateMatch[0]); // Debug log
+        //console.log('Date is in the past:', dateMatch[0]); // Debug log
       }
     });
   }
