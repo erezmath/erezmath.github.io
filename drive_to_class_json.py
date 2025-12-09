@@ -75,6 +75,16 @@ class_info = [
     },
     {
         'id': 4,
+        'name': 'בגרויות 472 ופתרונות',
+        'url_name': 'bagruyot-472',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO?usp=drive_link',
+        'banner_url': 'images/banner472.png',
+        'active': False,
+        'regenerate': False
+    },
+    {
+        'id': 5,
         'name': 'כיתה י 571 תשפו',
         'url_name': 'yud-571-tashpav',
         #'url_name': '271',
@@ -84,7 +94,7 @@ class_info = [
         'regenerate': True
     },
     {
-        'id': 5,
+        'id': 6,
         'name': 'כיתה יא 571 תשפו',
         'url_name': 'yud-aleph-571-tashpav',
         #'url_name': '271',

@@ -1,5 +1,5 @@
 {
-  "id": 5,
+  "id": 6,
   "name": "כיתה יא 571 תשפו",
   "url_name": "yud-aleph-571-tashpav",
   "banner_url": "images/banner4.png",
@@ -1328,6 +1328,38 @@
             "lesson_date": "06-12-2025",
             "due_date": "14-12-2025",
             "due_date_display": "ראשון, 14.12.2025"
+          }
+        },
+        {
+          "name": "10. עבודת חנוכה",
+          "desc": "<p>הגישו בשמרדף, ביום הראשון לאחר חופשת החג (יום שלישי).</p>\n<p>מצורפים רק שני מבחנים לדוגמא.</p>\n<p>.הגישו בצורה מסודרת - כל מבחן מהודק עם שדכן, ע\"פ סדר השאלות, שאלה חדשה בתחילת כל עמוד</p>\n<p>עליכם לענות על כל השאלות וכל הסעיפים (לדוגמא כל השאלות הקצרות) למעט שאלות בהסתברות ואינטגרלים שמחקתי באדום.</p>\n<p>ממליץ לתזמן עם סטופר ולרשום ליד כל שאלה כמה זמן לקח לכם.</p>\n<p>יש גם פתרונות (לא אני כתבתי) למי שצריך רמז</p>\n<p>העבודה לא ארוכה כדי שתנצלו את החג להתאמן על שאלות נוספות בנושאים בהם אתם חלשים, כי לאחר החג נהיה עסוקים בללמוד אינטגרלים ולא בלחזור על החומר.</p>",
+          "id": "11-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. מבחן שלישי יא 5",
+              "url": "https://drive.google.com/file/d/1ADMDAuE_mLWepx2FHWoFxGqWsv69n9ed/view"
+            },
+            {
+              "type": "file",
+              "name": "2. מתכונת 1 אוסטרובסקי",
+              "url": "https://drive.google.com/file/d/17AgEAJNZpFHdO6OHRAelwXRqydCwkFCD/view"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן שלישי יא 5 - פתרון",
+              "url": "https://drive.google.com/file/d/1vQC9JFPH0e7niRgsrifGCgnzRUT3xgjm/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מתכונת 1 אוסטרובסקי - פתרון",
+              "url": "https://drive.google.com/file/d/1102F78WuFiKyzn547gaLDYndSL5I3Lxc/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "14-12-2025",
+            "due_date": "24-12-2025",
+            "due_date_display": "רביעי, 24.12.2025"
           }
         }
       ]

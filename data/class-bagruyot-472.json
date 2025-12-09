@@ -1,0 +1,54 @@
+{
+  "id": 4,
+  "name": "בגרויות 472 ופתרונות",
+  "url_name": "bagruyot-472",
+  "banner_url": "images/banner472.png",
+  "desc": "",
+  "tags": [
+    "בגרויות לפי נושאים"
+  ],
+  "topics": [
+    {
+      "name": "בגרויות לפי נושאים",
+      "id": "בגרויות-לפי-נושאים",
+      "lessons": [
+        {
+          "name": "1. ריכוז בגרויות 2020-2025 לפי נושאים",
+          "desc": "",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 472 גדילה ודעיכה",
+              "url": "https://drive.google.com/file/d/1hpsRmb_RTV8WT3qLIzFzsynAnKB793w-/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 472 וקטורים",
+              "url": "https://drive.google.com/file/d/1qJIsY5IWvXvv5_grD0lZhq4F1_pxum0L/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 472 לוגריתמיות",
+              "url": "https://drive.google.com/file/d/1ZULsCZ_3IxbQIGJJns8bgxNRxsia60P5/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 472 מעריכיות",
+              "url": "https://drive.google.com/file/d/1xApjWGLNmnE9DL-KT2ShxEt2HaiTZZSH/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 472 סדרות",
+              "url": "https://drive.google.com/file/d/1GJBa_e8C4epJl-6JaKZ47UwYVFcU-J4C/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    }
+  ],
+  "assignments": "",
+  "assignments_file_id": "",
+  "active": false
+}
