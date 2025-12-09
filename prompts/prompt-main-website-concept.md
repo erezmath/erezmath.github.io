@@ -97,3 +97,7 @@ Add implementation to read it, a lesson.json file will exist in the lesson direc
 the implementation is incomplete.
 the lesson.json is read properly, however the information of due_date is not extracted to the html. 
 review the changes you've made previously today for class-yud-571-tashpave-example.html, and the implenetation that was done in order for due_date to be visible (see lesson-due-row and lesson-title and the html change), and add them to the project in the appropriate locations (maybe class.html, or other related code?) 
+
+I rolled back your implementation in javascript. I want you to implement in python the following:
+add to <div class="lesson-due-row">תאריך הגשה: <span class="lesson-due-date">{{ lesson.lesson_json.due_date }}</span></div> in class.html, the name of the day in hebrew - ראשון, שני, שלישי, רביעי, חמישי, שישי, שבת
+for example, it should be "תאריך הגשה: ראשון, 14.12.2025"

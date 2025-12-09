@@ -264,6 +264,7 @@ function setupLessonFolders() {
     setupTopicsScrollSpy();
     setupLessonFolders();
     setupAssignments();
+    is_date_today_or_future();
     
     // Handle hash navigation on page load with a small delay to ensure everything is rendered
     setTimeout(() => {
@@ -292,6 +293,7 @@ function setupLessonFolders() {
     assignmentsCurrentBlocks += 1;
     renderAssignmentsBlocks();
   }
+  
 
   function setupAssignmentsBlocks() {
     const assignmentsSection = document.getElementById('assignments');
@@ -354,3 +356,72 @@ function setupLessonFolders() {
     setupAssignmentsBlocks();
     renderAssignmentsBlocks();
   } 
+
+
+
+  //Gets the current date in Israel Standard Time (IST)
+  //Finds all elements with class lesson-due-date
+  //Extracts dates matching the dd.mm.yyyy pattern using regex
+  //Validates that the extracted date is legitimate
+  //Adds color-alert if the date is today, or color-warning if it's in the future
+  //Does nothing for past dates or invalid/missing dates
+  function is_date_today_or_future() {
+    // Get current date in Israel timezone
+    const now = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Jerusalem" }));
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    
+    // Calculate tomorrow's date
+    const tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    
+    // Get all lesson-due-row divs
+    const dueDivs = document.querySelectorAll('.lesson-due-date');
+    
+    console.log(`Found ${dueDivs.length} lesson-due-date elements`); // Debug log
+    
+    dueDivs.forEach(div => {
+      // Extract date using regex pattern dd.mm.yyyy
+      const text = div.textContent;
+      const dateMatch = text.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
+      
+      if (!dateMatch) {
+        console.log('No date found in:', text); // Debug log
+        return;
+      }
+      
+      // Parse the extracted date
+      const day = parseInt(dateMatch[1], 10);
+      const month = parseInt(dateMatch[2], 10) - 1; // JS months are 0-indexed
+      const year = parseInt(dateMatch[3], 10);
+      
+      // Validate date
+      const extractedDate = new Date(year, month, day);
+      if (extractedDate.getDate() !== day || 
+          extractedDate.getMonth() !== month || 
+          extractedDate.getFullYear() !== year) {
+        console.log('Invalid date:', dateMatch[0]); // Debug log
+        return;
+      }
+      
+      console.log(`Checking date: ${dateMatch[0]}, Today: ${today.toLocaleDateString()}, Tomorrow: ${tomorrow.toLocaleDateString()}`); // Debug log
+      
+      // Compare dates
+      if (extractedDate.getTime() === today.getTime() || extractedDate.getTime() === tomorrow.getTime()) {
+        div.classList.add('color-alert');
+        console.log('Added color-alert to:', dateMatch[0]); // Debug log
+      } else if (extractedDate > tomorrow) {
+        div.classList.add('color-warning');
+        console.log('Added color-warning to:', dateMatch[0]); // Debug log
+      } else {
+        console.log('Date is in the past:', dateMatch[0]); // Debug log
+      }
+    });
+  }
+
+  // Call the function when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', is_date_today_or_future);
+  } else {
+    // DOM is already loaded
+    is_date_today_or_future();
+  }

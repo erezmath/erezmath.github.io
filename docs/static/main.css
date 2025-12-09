@@ -11,6 +11,8 @@
   --color-bg-light: #f8fafc;
   --color-bg-lighter: #f0f4fa;
   --color-bg-banner: #e0e7ef;
+  --color-alert:red;
+  --color-warning:orange;
   /* Spacing & Sizing */
   --header-height: 64px;
   --topics-nav-top: 64px;
@@ -292,6 +294,15 @@ body {
     justify-content: center;
   }
   
+  .color-alert{
+    color: var(--color-alert) !important;
+  }
+  .color-warning{
+    color: var(--color-warning) !important;
+  }
+
+
+
   /* On class pages, where navbar is not sticky, stick to the very top */
   body.class-page .topics-nav {
     top: 0;

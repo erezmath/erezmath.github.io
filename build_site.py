@@ -34,8 +34,23 @@ if args.regen_data:
 if not os.path.exists(DIST_DIR):
     os.makedirs(DIST_DIR)
 
+
+########################################################
 # Jinja2 setup
 env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
+
+
+
+
+# Jinja2 custom filter for highlighting future due dates differently in the html.
+# currently disabled, not working as expected, and i prefered to implement it in javascript.
+def is_future_date(date_string):
+    return datetime.strptime(date_string, "%d.%m.%y") > datetime.now()
+
+env.tests["future_date"] = is_future_date
+
+
+########################################################
 
 def load_class_jsons():
     """Load all class JSON files from the data directory."""
