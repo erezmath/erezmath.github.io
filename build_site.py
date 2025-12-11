@@ -37,10 +37,12 @@ if not os.path.exists(DIST_DIR):
 
 ########################################################
 # Jinja2 setup
-env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
-
-
-
+env = Environment(
+    loader=FileSystemLoader(TEMPLATES_DIR), 
+    autoescape=True,
+    trim_blocks=True,      # Added this
+    lstrip_blocks=True     # Added this
+)
 
 # Jinja2 custom filter for highlighting future due dates differently in the html.
 # currently disabled, not working as expected, and i prefered to implement it in javascript.
@@ -51,6 +53,15 @@ env.tests["future_date"] = is_future_date
 
 
 ########################################################
+
+def minify_html(html_content):
+    """Remove blank lines and excessive whitespace from HTML."""
+    lines = html_content.split('\n')
+    # Remove completely blank lines and lines with only whitespace
+    non_blank_lines = [line for line in lines if line.strip()]
+    return '\n'.join(non_blank_lines)
+
+
 
 def load_class_jsons():
     """Load all class JSON files from the data directory."""
@@ -84,6 +95,7 @@ def render_index(classes):
         for c in classes
     ]
     html = template.render(classes=class_summaries)
+    html = minify_html(html)  # minify html strip for blank lines
     with open(os.path.join(DIST_DIR, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html)
     log_event('Rendered index.html')
@@ -94,6 +106,7 @@ def render_class_pages(classes):
     for c in classes:
         url_name = c.get('url_name', '') or c.get('name', '').replace(' ', '_')
         html = template.render(class_info=c, classes=classes)
+        html = minify_html(html)  # minify html strip for blank lines
         filename = f'class-{url_name}.html'
         with open(os.path.join(DIST_DIR, filename), 'w', encoding='utf-8') as f:
             f.write(html)

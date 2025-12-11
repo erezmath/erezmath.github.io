@@ -438,3 +438,39 @@
 2025-12-11 10:54:30,394 [2025-12-11 10:54:30 IST] Copied static assets
 2025-12-11 10:54:30,404 [2025-12-11 10:54:30 IST] Copied images
 2025-12-11 10:54:30,404 [2025-12-11 10:54:30 IST] Site built successfully!
+2025-12-11 11:07:25,894 [2025-12-11 11:07:25 IST] Main build process started
+2025-12-11 11:07:25,902 [2025-12-11 11:07:25 IST] Loaded 6 class JSON files
+2025-12-11 11:07:25,915 [2025-12-11 11:07:25 IST] Rendered index.html
+2025-12-11 11:07:25,941 [2025-12-11 11:07:25 IST] Rendered all class pages
+2025-12-11 11:07:25,943 [2025-12-11 11:07:25 IST] Copied static assets
+2025-12-11 11:07:25,959 [2025-12-11 11:07:25 IST] Copied images
+2025-12-11 11:07:25,959 [2025-12-11 11:07:25 IST] Site built successfully!
+2025-12-11 12:54:51,838 [2025-12-11 12:54:51 IST] Main build process started
+2025-12-11 12:54:51,855 [2025-12-11 12:54:51 IST] Loaded 6 class JSON files
+2025-12-11 12:54:51,869 [2025-12-11 12:54:51 IST] Rendered index.html
+2025-12-11 12:54:51,892 [2025-12-11 12:54:51 IST] Rendered all class pages
+2025-12-11 12:54:51,895 [2025-12-11 12:54:51 IST] Copied static assets
+2025-12-11 12:54:51,914 [2025-12-11 12:54:51 IST] Copied images
+2025-12-11 12:54:51,914 [2025-12-11 12:54:51 IST] Site built successfully!
+2025-12-11 12:56:04,183 [2025-12-11 12:56:04 IST] Regenerating data with drive_to_class_json.py
+2025-12-11 12:56:05,837 [2025-12-11 12:56:05 IST] Drive-to-class JSON generation started
+2025-12-11 12:56:05,837 [2025-12-11 12:56:05 IST] Main process started
+2025-12-11 12:56:06,060 file_cache is only supported with oauth2client<4.0.0
+2025-12-11 12:56:06,080 [2025-12-11 12:56:06 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2025-12-11 12:56:06,080 [2025-12-11 12:56:06 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2025-12-11 12:56:06,080 [2025-12-11 12:56:06 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37?usp=drive_link)
+2025-12-11 12:56:16,261 [2025-12-11 12:56:16 IST] Wrote data\class-bagruyot-571.json
+2025-12-11 12:56:16,261 [2025-12-11 12:56:16 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2025-12-11 12:56:16,262 [2025-12-11 12:56:16 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2025-12-11 12:57:23,523 [2025-12-11 12:57:23 IST] Wrote data\class-yud-571-tashpav.json
+2025-12-11 12:57:23,524 [2025-12-11 12:57:23 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2025-12-11 12:58:36,193 [2025-12-11 12:58:36 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2025-12-11 12:58:36,193 [2025-12-11 12:58:36 IST] All classes processed. JSON generation complete.
+2025-12-11 12:58:36,255 [2025-12-11 12:58:36 IST] Data regeneration complete
+2025-12-11 12:58:36,256 [2025-12-11 12:58:36 IST] Main build process started
+2025-12-11 12:58:36,290 [2025-12-11 12:58:36 IST] Loaded 6 class JSON files
+2025-12-11 12:58:36,303 [2025-12-11 12:58:36 IST] Rendered index.html
+2025-12-11 12:58:36,327 [2025-12-11 12:58:36 IST] Rendered all class pages
+2025-12-11 12:58:36,330 [2025-12-11 12:58:36 IST] Copied static assets
+2025-12-11 12:58:36,346 [2025-12-11 12:58:36 IST] Copied images
+2025-12-11 12:58:36,346 [2025-12-11 12:58:36 IST] Site built successfully!
