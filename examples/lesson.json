@@ -1,4 +1,17 @@
 {
-    "due_date": "03-12-2025",
-    "lesson_date": "01-01-2025"
-}
+    "lesson_date": "09-12-2025",
+    "due_date": "13-12-2025",
+    "external_links": [
+      {
+        "url": "https://www.youtube.com/watch?v=abc123",
+        "title": "Introduction to Trigonometric Functions"
+      },
+      {
+        "url": "https://vimeo.com/987654321"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=xyz789",
+        "title": "Solving Trigonometric Equations – Examples"
+      }
+    ]
+  }

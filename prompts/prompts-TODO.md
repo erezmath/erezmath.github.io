@@ -23,3 +23,8 @@ remove #hrefs from header, it stops the page from refershing. move functionality
 יש באג בעלייה ירידה כשעושים סקרול. זה קופץ שם ולא יודע למה בדיוק בגאואסקריפט, אבל זה משהו לקלוד לזהות
 
 fix urls to videos.
+
+lessons can have relevant videos, or external links (not links that appear as files in google drive)
+the data is stored in lesson.json files, in the lesson folder. 
+the format can be seen in examples/lesson.json.
+when you read for lesson.json data (you read it for due date), read the external_links data as well, and write it in the lesson-content html, after class="lesson-list" add "lesson-external-links" and write links to the lesson videos and titles.

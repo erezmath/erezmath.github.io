@@ -683,14 +683,16 @@
               "type": "file",
               "name": "2. פתרון שאלה 4",
               "url": "https://drive.google.com/file/d/1ug1HA_KZBHl5RUsuphTNM1fytMorRiaS/view"
-            },
-            {
-              "type": "file",
-              "name": "3. סרטון חקירת שורש מכפלה - עובד לב ארי.url",
-              "url": "https://drive.google.com/file/d/1gK6YkMdnFXB7rqQ7TtoYHRoB33aMhu2y/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=aMmIusKTZKE&list=PLejElsCmvhTCHPAKNZ_Y-6loCM-aiw229&index=12",
+                "title": "סרטון חקירת שורש מכפלה - עובד לב ארי"
+              }
+            ]
+          }
         },
         {
           "name": "17. שורש - חקירה - תרגול נוסף וסעיפי חשיבה",
