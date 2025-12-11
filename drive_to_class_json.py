@@ -297,12 +297,30 @@ def read_assignments_file(service, folder_id):
         log_event(f"Error reading {ASSIGNMENTS_FILENAME} from folder {folder_id}: {str(e)}")
         return "", ""
 
+
+def extract_lesson_number(name):
+    """Extract the leading number from a lesson name for proper sorting."""
+    match = re.match(r'^(\d+(?:\.\d+)?)', name)
+    if match:
+        return float(match.group(1))
+    return float('inf')  # Put items without numbers at the end
+
 def list_folder_contents(service, folder_id):
     """List all files and folders in a Google Drive folder."""
     query = f"'{folder_id}' in parents and trashed = false"
     results = service.files().list(q=query, fields="files(id, name, mimeType)", pageSize=1000).execute()
     files = results.get('files', [])
-    return natsorted(files, key=lambda x: x['name'])
+    # Sort by numeric prefix, then by full name for items with same prefix
+    return sorted(files, key=lambda x: (extract_lesson_number(x['name']), x['name']))
+
+
+# old implementation - had an issue with folders with the name 13.5 appearing before 13, and not after, that's why the above methods were introduced.
+#def list_folder_contents(service, folder_id):
+#    """List all files and folders in a Google Drive folder."""
+#    query = f"'{folder_id}' in parents and trashed = false"
+#    results = service.files().list(q=query, fields="files(id, name, mimeType)", pageSize=1000).execute()
+#    files = results.get('files', [])
+#    return natsorted(files, key=lambda x: x['name'])
 
 def crawl_lesson_content(service, folder_id):
     """Recursively crawl the contents of a lesson folder."""
