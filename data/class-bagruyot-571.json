@@ -5,12 +5,14 @@
   "banner_url": "images/banner571.png",
   "desc": "",
   "tags": [
-    "1. פתרונות לפי נושאים"
+    "1. פתרון בגרויות לפי נושאים",
+    "2. מתכונות מומלצות",
+    "3. תרגול מסכם לפי נושאים"
   ],
   "topics": [
     {
-      "name": "1. פתרונות לפי נושאים",
-      "id": "1-פתרונות-לפי-נושאים",
+      "name": "1. פתרון בגרויות לפי נושאים",
+      "id": "1-פתרון-בגרויות-לפי-נושאים",
       "lessons": [
         {
           "name": "1. שאלות קצרות",
@@ -326,6 +328,11 @@
             },
             {
               "type": "file",
+              "name": "2022 - חורף - טריגו במעגל",
+              "url": "https://drive.google.com/file/d/1mMsyixZ7Dv_3vuKWj12af99ttgXGRmu4/view"
+            },
+            {
+              "type": "file",
               "name": "2022 - חורף נבצרים - טריגו במעגל",
               "url": "https://drive.google.com/file/d/1kLmLpMDSK2pbjp81HY0MkEDrvp8ZHbT3/view"
             },
@@ -333,6 +340,11 @@
               "type": "file",
               "name": "2022 - קיץ מועד א - טריגו במעגל - סעיף אחרון לא קל",
               "url": "https://drive.google.com/file/d/13du2Yc-HUcLfKUwlzu3XSCt1OtSoaLx8/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד ב - טריגו במעגל",
+              "url": "https://drive.google.com/file/d/182YKqviI21xKhfqhvBexPMpHcuUpX-c0/view"
             },
             {
               "type": "file",
@@ -557,6 +569,556 @@
               "url": "https://drive.google.com/file/d/1C8a_OJrNqETjP04Q6V6N4jKRG2T40GO5/view"
             }
           ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "2. מתכונות מומלצות",
+      "id": "2-מתכונות-מומלצות",
+      "lessons": [
+        {
+          "name": "1. מריאן",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2018 ולפני",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2013",
+                  "url": "https://drive.google.com/file/d/1Zjok_0P8Xs_XUV7hay2iRa73EItkq71G/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2014",
+                  "url": "https://drive.google.com/file/d/1nQoDn9rnvcJz4YVe5nlhuaqXkvCUMTly/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2015",
+                  "url": "https://drive.google.com/file/d/1xPeMsI0uQvwEypy8e4CxfTaXRiCOaZ6q/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2016",
+                  "url": "https://drive.google.com/file/d/13pyhhzBIBAIr4T6KkFNoQ1I7Jr4roTSM/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2018",
+                  "url": "https://drive.google.com/file/d/1drK1hr_8eNPyshHvrjEXwQ_hRjPFuo6U/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2021",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "קיץ 2021 - 581 כולל פתרונות כהן ורוזנפלד",
+                  "url": "https://drive.google.com/file/d/1y2uv-AmmiNUea6mo5lh7y-chTENBX-jw/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2024",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. מריאן - 35581 - קיץ 2024 - מתכונות 1+2",
+                  "url": "https://drive.google.com/file/d/1x3FlpUfAfCi0vLFP5qU0-vQz2Ir39Gi1/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. מריאן - 35581 - קיץ 2024 - מתכונות 1+2 - פתרונות מלאים",
+                  "url": "https://drive.google.com/file/d/1saKW1DbFe7Pyi81XCSHuMLsSLZOm_k-g/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. מריאן - 35571 - קיץ 2025 - מתכונות 1+2",
+                  "url": "https://drive.google.com/file/d/18Q_I6rk9fCKeK3P3-S2lDLRilycP9LLt/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. מריאן - 35571 - קיץ 2025 - מתכונות 1+2 - פתרונות מלאים",
+                  "url": "https://drive.google.com/file/d/117uq8i-uaJwnqeHYcob6ZuGL8MT2gAnh/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2. ארכימדס",
+          "desc": "",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2021",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "פא ארכימדס מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1_UGDgkei9V1OqGFiByogv7vcOVg10jx-/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2022",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2022 - מתכונת ארכימדס 581",
+                  "url": "https://drive.google.com/file/d/1wiK8j7z5dVT99AP98gb4Fbu5L1IL1P1k/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2023 - מתכונת ארכימדס 581 - פתרונות",
+                  "url": "https://drive.google.com/file/d/17W4xy8MplIp1iLeOhNO-yEdFHsRtmi42/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - מתכונת ארכימדס 581",
+                  "url": "https://drive.google.com/file/d/1z2jOso32epnIiSN4frDh4EwjDFHgOG_3/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "3. גול",
+          "desc": "",
+          "id": "2-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "גול סודית 581 תשפג",
+              "url": "https://drive.google.com/file/d/1mMVDjwk2I3L0rAvojSXCz42rZkGkED81/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "4. תיכון בית וג'ן",
+          "desc": "",
+          "id": "2-4",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2021",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "סימולציה 001 - שאלון 581 - קיץ 2021 - סרור אסעד",
+                  "url": "https://drive.google.com/file/d/1hG3uQoJZPcGqw_Ka2ePuAJ7ueZHwKUFa/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סימולציה 002 - שאלון 581 - קיץ 2021 - סרור אסעד",
+                  "url": "https://drive.google.com/file/d/1UJITsOzj_2mZKMQ0m2Oh8Iwub86VmjGf/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סימולציה 004 - שאלון 581 - קיץ 2021 - סרור אסעד",
+                  "url": "https://drive.google.com/file/d/1tlmsn2h3qWwQ9t53Q_Ug7hRq_iIQ4mSw/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סימולציה 581 - קיץ 2020 - סרור אסעד - תיכון בית גן",
+                  "url": "https://drive.google.com/file/d/1L7w4qx0Op5dzt7nhKws2zpsd6aBEwyZq/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סימולציה_001_שאלון_581_קיץ_2021_סרור_אסעד",
+                  "url": "https://drive.google.com/file/d/1teAm7kW5qNp-BTuHCmTDp7pWSl2eyZEf/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פא סרור מתכונת 2",
+                  "url": "https://drive.google.com/file/d/10LwshOkB4JdoHBMgv2cYVjCRr66heA8A/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פא סרור מתכונת 3",
+                  "url": "https://drive.google.com/file/d/1aJaOcEjnb4rMq1MjNHX2O8LveHA3jdps/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פא סרור מתכונת 4",
+                  "url": "https://drive.google.com/file/d/11RjA1RkJsTLo9fo18jvXZ6yLtehPqxu2/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2022",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בית ג'אן - 35581 - מתכונת 1 מועד ב",
+                  "url": "https://drive.google.com/file/d/1xfMNXRJqu7IkK_ddBAyo-cKxD068d6wE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בית ג'אן - 35581 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/111ihSRYgb8VxzOTmCcdkC3EQY3FHuHEO/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בית ג'אן - 35581 - סימולציה",
+                  "url": "https://drive.google.com/file/d/1dxZq1q8xOiMknDYaBi73sDASbWxsimSR/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בית וגן-35581-מתכונת 2 מועד ב",
+                  "url": "https://drive.google.com/file/d/1q-uc0n3f76pKbAwfiJ_cnEfivTRkhQGo/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2024",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "תיכון בית וגן-35581-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1yhbIzWbGEsC4E8qu8A1ypFQW6ouZ14B3/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "תיכון בית וגן-35571-מתכונת 1 כולל תשובות",
+                  "url": "https://drive.google.com/file/d/1iCy9FvSny1Yln7qHn0YhStg2VQ5GGmDz/view"
+                },
+                {
+                  "type": "file",
+                  "name": "תיכון בית וגן-35571-מתכונת 2 כולל תשובות",
+                  "url": "https://drive.google.com/file/d/13uafC-ZDTA5TBZIgAcLcY2A7gRFcxv_r/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "10. רוני רוט",
+          "desc": "",
+          "id": "2-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "2024-רוני-רוט",
+              "url": "https://drive.google.com/file/d/18IyQuj0QdYQhXQcHjh7EmDM8Bk0Cfn69/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "11. ארכימדס אתגר",
+          "desc": "",
+          "id": "2-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "חוברת תרגילי אתגר בשאלון 581 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
+              "url": "https://drive.google.com/file/d/1M1juyDg4W5z8fBrP6ACELTD0zkvXCyfd/view"
+            },
+            {
+              "type": "file",
+              "name": "מיקודית 581 מבחני אתגר 1, 2, 3, 4 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
+              "url": "https://drive.google.com/file/d/1VidYqexkUbBETGcEcvWluaobbHb_AA0i/view"
+            },
+            {
+              "type": "file",
+              "name": "פתרונות מלאים למבחני אתגר 1-2 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
+              "url": "https://drive.google.com/file/d/1l6AZ5PERI_RUHNunxKDEsrlP80bo7Ofk/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "12. בר אילן",
+          "desc": "",
+          "id": "2-7",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2021",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "מתכונת בר אילן 1 שאלון 581 תשפא עם תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/15c4CRCG428fUEnYAkAX68Mg-33RXUaFi/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונת בר אילן 2 שאלון 581 תשפא עם תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1MXbMFjdEF6wFpY1ojqxR8_A5OdlfXx_P/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונת בר אילן 3 א שאלון 581 תשפא עם תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1qr8I4JbtcJ28ue-pC6IA-ZRcvwotkscN/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2022",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "תכנית בר אילן - 35581 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1xQvbv-9Gd51-ajQcEYfatgMJxqI6HsO_/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בר אילן-35581-מתכונת 1 פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1eKzU6mX1BCKVM5wGxshQVNDhKYOl1wkV/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35581-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/18XwjIXzCIuHi8x-osottF-NalA7HZbMw/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35581-מתכונת 2 פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1QTfZUvO46z6nwdhPrYI6A8KpcPEixC7P/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35581-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1OpOR1zKzLTZl2A-RGU2UKtxTuW4U3FCT/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35581-מתכונת 3 פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1fblf0QYel98csSJ6cJQ2inp6RKJi9W0z/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35581-מתכונת 3",
+                  "url": "https://drive.google.com/file/d/1l-0Yhvyqn9id-QKvzxgWiFSqLWnFiTSC/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2024",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35581 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1GNYircwkASRGWug2TNtM7N4vjX3WF-3D/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35581 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1uInOuZwz0WKbLHlX2Lm738hDE229zQHf/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35581 - מתכונת 3 עם תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1aiwtMwNsqAcZ52b8dfUM6ieq63YCAuby/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35581 - מתכונת 3",
+                  "url": "https://drive.google.com/file/d/1KRge64hrnJoTCD6wL3-9eFzoG9uIJo6j/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "3. תרגול מסכם לפי נושאים",
+      "id": "3-תרגול-מסכם-לפי-נושאים",
+      "lessons": [
+        {
+          "name": "1. שאלות קצרות",
+          "desc": "",
+          "id": "3-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "אוסף שאלות קצרות ממבחני בגרות",
+              "url": "https://drive.google.com/file/d/1XXP46pP7Vb9a8zXXfWbfYfjIPW9Ii5kQ/view"
+            },
+            {
+              "type": "file",
+              "name": "אוסף שאלות קצרות שהמליצו בארכימדס",
+              "url": "https://drive.google.com/file/d/1Xklm-lnrLHJx4yybmL-bQWHX4ebdAhdm/view"
+            },
+            {
+              "type": "file",
+              "name": "ארכימדס - שאלות קצרות מספר 571 - גיאומטריה, טריגונומטריה והסתברות",
+              "url": "https://drive.google.com/file/d/1QoynXE6Bljiy8bR5eWQo0NLrpR75vhEo/view"
+            },
+            {
+              "type": "file",
+              "name": "בני גורן - חוברת מלווה 5 יחל - כיתה י' - פרק רביעי - שאלות קצרות",
+              "url": "https://drive.google.com/file/d/1ZPe2lvOKhjzwFqJz8oYSyim8UymXN4_A/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
+              "url": "https://drive.google.com/file/d/1b0lUUfeMKc0M1OcBJgoWIO0hPyC0HFKH/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלות קצרות בר אילן",
+              "url": "https://drive.google.com/file/d/1qDlO-4qSNPDAGawh2NhTJ-q_jaRSvjmt/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלת הבנה קצרה בחקירת פונקציות - זוגית ואי זוגית",
+              "url": "https://drive.google.com/file/d/1lMxKlgEwHawHdKTSo2QtBqsAilKPhGk8/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2. סדרות",
+          "desc": "",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "דף עבודה מסכם 581 בסדרות",
+              "url": "https://drive.google.com/file/d/1NkkeXUI0BfnrUZ1vUuqi2-Xtfakjv3lW/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "3. הסתברות",
+          "desc": "",
+          "id": "3-3",
+          "content": [],
+          "lesson_json": {}
+        },
+        {
+          "name": "4. גאומטריה",
+          "desc": "",
+          "id": "3-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
+              "url": "https://drive.google.com/file/d/1khW8HgNnOLUPr0hd7Kz55wWVcVW8LRs9/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
+              "url": "https://drive.google.com/file/d/1FrLq8k0kMXar78UsYZChySnUwNR31q_g/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "5. טריגונומטריה",
+          "desc": "",
+          "id": "3-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "שאלה מסכמת בטריגונומטריה 581 עם סעיפי חשיבה",
+              "url": "https://drive.google.com/file/d/1TIDZKfNeESjom3roxP17GWL0wS0SoP3s/view"
+            },
+            {
+              "type": "file",
+              "name": "תרגיל מסכם טריגונומטריה לבגרות 581",
+              "url": "https://drive.google.com/file/d/1Y3E_0K6PVBjeFyfK9uBFvZ812sj_xMbS/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "6. חדוא",
+          "desc": "",
+          "id": "3-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "חקירת שורש - תרגיל מסכם 1 עם סעיפי חשיבה - 581",
+              "url": "https://drive.google.com/file/d/1ERIhxrfBY_fxklbF-84aI3ZWW3qkjRNI/view"
+            },
+            {
+              "type": "file",
+              "name": "חקירת שורש - תרגיל מסכם 2 עם סעיפי חשיבה - 581",
+              "url": "https://drive.google.com/file/d/1eHMm_PMZoxvPvu_JX1WjzEgFVNcyu1Cm/view"
+            },
+            {
+              "type": "file",
+              "name": "חקירת שורש מנה 581 עם קישור למתמטיקורס",
+              "url": "https://drive.google.com/file/d/1Wt8LeL8fGEJ4iXhCzPAvfBBhLvSYN_GM/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלה מסכמת בחקירת מנה 581 עם סעיפי חשיבה",
+              "url": "https://drive.google.com/file/d/1aHwKYadP18UTxEW_YVeZlYD-GmBLN278/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
+              "url": "https://drive.google.com/file/d/1-bKtx2sb18wKjOAXfui9v0BzvreMhluS/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "7. חדוא טריגו",
+          "desc": "",
+          "id": "3-7",
+          "content": [],
+          "lesson_json": {}
+        },
+        {
+          "name": "8. בעיות קיצון",
+          "desc": "",
+          "id": "3-8",
+          "content": [],
           "lesson_json": {}
         }
       ]
