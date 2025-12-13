@@ -719,8 +719,8 @@
           "lesson_json": {}
         },
         {
-          "name": "4. תיכון בית וג'ן",
-          "desc": "",
+          "name": "4. תיכון בית וג'ן וסרור עסאד",
+          "desc": "<p>יש פה גם מתכונות בפועל של סרור עסאד, וגם הסימולציות שלו שהם ברמה מאוד גבוהה</p>",
           "id": "2-4",
           "content": [
             {
@@ -832,9 +832,57 @@
           "lesson_json": {}
         },
         {
+          "name": "5. אוסטרובסקי ואפי כהן",
+          "desc": "<p>מבחנים עולים ברמת הקושי, כוללים גם מחוון ופתרונות מלאים</p>",
+          "id": "2-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. מבחן ראשון 5",
+              "url": "https://drive.google.com/file/d/1JgrhMrj-7l0NxodVeamW9TdxtKIg3IFz/view"
+            },
+            {
+              "type": "file",
+              "name": "1. מבחן שני יא 5",
+              "url": "https://drive.google.com/file/d/186HqyQDf_CIVjnkRHfjuxfaR1RvCthgL/view"
+            },
+            {
+              "type": "file",
+              "name": "1. פתרון ומחוון מבחן ראשון 5",
+              "url": "https://drive.google.com/file/d/12FL8r9agmUkjIByqbEJLfDDW3aj-RNq2/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון המבחן יא 5",
+              "url": "https://drive.google.com/file/d/1Sg-U_R6lzVELHijvKSrPOBgbn99iqMUk/view"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן שלישי יא 5",
+              "url": "https://drive.google.com/file/d/1tRISfKj6wkqA_AU1jN1IWvgrnk2DWY73/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרון מבחן שלישי יא 5",
+              "url": "https://drive.google.com/file/d/14zE0qcj-sd4HidoUw98q51e-x_xgzLTg/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מתכונת 1 אוסטרובסקי - פתרון",
+              "url": "https://drive.google.com/file/d/1zpH6M_mEWHbtKvJvN6nnMU7hpAeW_HLG/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מתכונת 1 אוסטרובסקי",
+              "url": "https://drive.google.com/file/d/1kZoNWuuNYmjPPfOyrEJ-bq8Qbmv9OhcK/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
           "name": "10. רוני רוט",
           "desc": "",
-          "id": "2-5",
+          "id": "2-6",
           "content": [
             {
               "type": "file",
@@ -847,7 +895,7 @@
         {
           "name": "11. ארכימדס אתגר",
           "desc": "",
-          "id": "2-6",
+          "id": "2-7",
           "content": [
             {
               "type": "file",
@@ -870,7 +918,7 @@
         {
           "name": "12. בר אילן",
           "desc": "",
-          "id": "2-7",
+          "id": "2-8",
           "content": [
             {
               "type": "folder",

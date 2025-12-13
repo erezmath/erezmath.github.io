@@ -1178,6 +1178,35 @@
             "due_date": "23-12-2025",
             "due_date_display": "שלישי, 23.12.2025"
           }
+        },
+        {
+          "name": "11. מבחן ינואר",
+          "desc": "",
+          "id": "6-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. נושאים למבחן ינואר י 571",
+              "url": "https://drive.google.com/file/d/1cjJcbQH3h9j1xvJKU6bV0BD2JTdjlmUe/view"
+            },
+            {
+              "type": "folder",
+              "name": "חומר חזרה למבחן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. חדוא - פונקציית שורש - אפי כהן",
+                  "url": "https://drive.google.com/file/d/1_KK-3x9i3qwlBsPRqLnbig22QxZX6uqq/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. גאומטריה - שאלות עם דמיון מבגרויות ישנות - חלקם מאוד קלות",
+                  "url": "https://drive.google.com/file/d/1Fp_HuS1aL2C9JkDJvzKzq4DJqQ4fnS4q/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     }
