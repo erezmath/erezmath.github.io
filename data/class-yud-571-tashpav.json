@@ -1100,7 +1100,7 @@
           "lesson_json": {}
         },
         {
-          "name": "9. מבחן נובמבר",
+          "name": "9. מבחן נובמבר - חקירת מכפלה, קשר גרף נגזרת, חוצה זווית ותאלס",
           "desc": "",
           "id": "6-9",
           "content": [
@@ -1148,6 +1148,11 @@
               "type": "file",
               "name": "7. מבחן נובמבר - י 5 יחל תשפו - פתרון",
               "url": "https://drive.google.com/file/d/1LVs4iJWcFqXWz1VB_15PLT_HWMZebMgU/view"
+            },
+            {
+              "type": "file",
+              "name": "7. מבחן נובמבר - י 5 יחל תשפו",
+              "url": "https://drive.google.com/file/d/1IwyWZGpB5cGD_ZtL5RXEWkSXEaH8Fd96/view"
             }
           ],
           "lesson_json": {}

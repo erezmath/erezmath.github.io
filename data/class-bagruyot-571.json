@@ -981,34 +981,104 @@
           "id": "3-1",
           "content": [
             {
-              "type": "file",
-              "name": "אוסף שאלות קצרות ממבחני בגרות",
-              "url": "https://drive.google.com/file/d/1XXP46pP7Vb9a8zXXfWbfYfjIPW9Ii5kQ/view"
+              "type": "folder",
+              "name": "ארכימדס",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "אוסף שאלות קצרות שהמליצו בארכימדס",
+                  "url": "https://drive.google.com/file/d/1Xklm-lnrLHJx4yybmL-bQWHX4ebdAhdm/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ארכימדס - שאלות קצרות מספר 571 - גיאומטריה, טריגונומטריה והסתברות",
+                  "url": "https://drive.google.com/file/d/1QoynXE6Bljiy8bR5eWQo0NLrpR75vhEo/view"
+                },
+                {
+                  "type": "file",
+                  "name": "שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
+                  "url": "https://drive.google.com/file/d/1b0lUUfeMKc0M1OcBJgoWIO0hPyC0HFKH/view"
+                }
+              ]
             },
             {
-              "type": "file",
-              "name": "אוסף שאלות קצרות שהמליצו בארכימדס",
-              "url": "https://drive.google.com/file/d/1Xklm-lnrLHJx4yybmL-bQWHX4ebdAhdm/view"
+              "type": "folder",
+              "name": "בגרות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "אוסף שאלות קצרות ממבחני בגרות",
+                  "url": "https://drive.google.com/file/d/1XXP46pP7Vb9a8zXXfWbfYfjIPW9Ii5kQ/view"
+                }
+              ]
             },
             {
-              "type": "file",
-              "name": "ארכימדס - שאלות קצרות מספר 571 - גיאומטריה, טריגונומטריה והסתברות",
-              "url": "https://drive.google.com/file/d/1QoynXE6Bljiy8bR5eWQo0NLrpR75vhEo/view"
+              "type": "folder",
+              "name": "בני גורן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בני גורן - חוברת מלווה 5 יחל - כיתה י' - פרק רביעי - שאלות קצרות",
+                  "url": "https://drive.google.com/file/d/1ZPe2lvOKhjzwFqJz8oYSyim8UymXN4_A/view"
+                }
+              ]
             },
             {
-              "type": "file",
-              "name": "בני גורן - חוברת מלווה 5 יחל - כיתה י' - פרק רביעי - שאלות קצרות",
-              "url": "https://drive.google.com/file/d/1ZPe2lvOKhjzwFqJz8oYSyim8UymXN4_A/view"
+              "type": "folder",
+              "name": "בר אילן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "שאלות קצרות בר אילן",
+                  "url": "https://drive.google.com/file/d/1qDlO-4qSNPDAGawh2NhTJ-q_jaRSvjmt/view"
+                }
+              ]
             },
             {
-              "type": "file",
-              "name": "שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
-              "url": "https://drive.google.com/file/d/1b0lUUfeMKc0M1OcBJgoWIO0hPyC0HFKH/view"
-            },
-            {
-              "type": "file",
-              "name": "שאלות קצרות בר אילן",
-              "url": "https://drive.google.com/file/d/1qDlO-4qSNPDAGawh2NhTJ-q_jaRSvjmt/view"
+              "type": "folder",
+              "name": "משרד החינוך",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. שאלות קצרות חדוא - פתרונות",
+                  "url": "https://drive.google.com/file/d/1al4zOcv8Eo0W6hHz26_W-qQSUMJs3nBI/view"
+                },
+                {
+                  "type": "file",
+                  "name": "1. שאלות קצרות חדוא",
+                  "url": "https://drive.google.com/file/d/1EqOsHxfWQvhNn2H3oOvn4QVFmhW4oFZN/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. שאלות קצרות - גאומטריה וטריגונומטריה - פתרונות",
+                  "url": "https://drive.google.com/file/d/1no2gWixGvIkAEx8KJab9T2GqfZWz3yup/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. שאלות קצרות - גאומטריה וטריגונומטריה",
+                  "url": "https://drive.google.com/file/d/1gS1j_Bm1-iWQlcpP5k2nNWKJef2IsnzE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. שאלות קצרות - הסתברות - פתרונות",
+                  "url": "https://drive.google.com/file/d/1dsmpF4dH6RrUuS7-JNIRzd4cKAEueQfJ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. שאלות קצרות - הסתברות",
+                  "url": "https://drive.google.com/file/d/14gGEx-qauTa36xEOts6k4_8jNmKkkjvo/view"
+                },
+                {
+                  "type": "file",
+                  "name": "4. שאלות קצרות - סדרות - פתרונות",
+                  "url": "https://drive.google.com/file/d/1oAfvthhiOfvfZgdKxKtNHcYqwGah7re7/view"
+                },
+                {
+                  "type": "file",
+                  "name": "4. שאלות קצרות - סדרות",
+                  "url": "https://drive.google.com/file/d/1cT00L0-Tz6UY-IpxJrR-1yy4VVb2w1CB/view"
+                }
+              ]
             },
             {
               "type": "file",
@@ -1024,9 +1094,15 @@
           "id": "3-2",
           "content": [
             {
-              "type": "file",
-              "name": "דף עבודה מסכם 581 בסדרות",
-              "url": "https://drive.google.com/file/d/1NkkeXUI0BfnrUZ1vUuqi2-Xtfakjv3lW/view"
+              "type": "folder",
+              "name": "ארכימדס",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "דף עבודה מסכם 581 בסדרות",
+                  "url": "https://drive.google.com/file/d/1NkkeXUI0BfnrUZ1vUuqi2-Xtfakjv3lW/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
@@ -1044,14 +1120,20 @@
           "id": "3-4",
           "content": [
             {
-              "type": "file",
-              "name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
-              "url": "https://drive.google.com/file/d/1khW8HgNnOLUPr0hd7Kz55wWVcVW8LRs9/view"
-            },
-            {
-              "type": "file",
-              "name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
-              "url": "https://drive.google.com/file/d/1FrLq8k0kMXar78UsYZChySnUwNR31q_g/view"
+              "type": "folder",
+              "name": "ארכימדס",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
+                  "url": "https://drive.google.com/file/d/1khW8HgNnOLUPr0hd7Kz55wWVcVW8LRs9/view"
+                },
+                {
+                  "type": "file",
+                  "name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
+                  "url": "https://drive.google.com/file/d/1FrLq8k0kMXar78UsYZChySnUwNR31q_g/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
@@ -1062,14 +1144,20 @@
           "id": "3-5",
           "content": [
             {
-              "type": "file",
-              "name": "שאלה מסכמת בטריגונומטריה 581 עם סעיפי חשיבה",
-              "url": "https://drive.google.com/file/d/1TIDZKfNeESjom3roxP17GWL0wS0SoP3s/view"
-            },
-            {
-              "type": "file",
-              "name": "תרגיל מסכם טריגונומטריה לבגרות 581",
-              "url": "https://drive.google.com/file/d/1Y3E_0K6PVBjeFyfK9uBFvZ812sj_xMbS/view"
+              "type": "folder",
+              "name": "ארכימדס",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "שאלה מסכמת בטריגונומטריה 581 עם סעיפי חשיבה",
+                  "url": "https://drive.google.com/file/d/1TIDZKfNeESjom3roxP17GWL0wS0SoP3s/view"
+                },
+                {
+                  "type": "file",
+                  "name": "תרגיל מסכם טריגונומטריה לבגרות 581",
+                  "url": "https://drive.google.com/file/d/1Y3E_0K6PVBjeFyfK9uBFvZ812sj_xMbS/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
@@ -1080,29 +1168,35 @@
           "id": "3-6",
           "content": [
             {
-              "type": "file",
-              "name": "חקירת שורש - תרגיל מסכם 1 עם סעיפי חשיבה - 581",
-              "url": "https://drive.google.com/file/d/1ERIhxrfBY_fxklbF-84aI3ZWW3qkjRNI/view"
-            },
-            {
-              "type": "file",
-              "name": "חקירת שורש - תרגיל מסכם 2 עם סעיפי חשיבה - 581",
-              "url": "https://drive.google.com/file/d/1eHMm_PMZoxvPvu_JX1WjzEgFVNcyu1Cm/view"
-            },
-            {
-              "type": "file",
-              "name": "חקירת שורש מנה 581 עם קישור למתמטיקורס",
-              "url": "https://drive.google.com/file/d/1Wt8LeL8fGEJ4iXhCzPAvfBBhLvSYN_GM/view"
-            },
-            {
-              "type": "file",
-              "name": "שאלה מסכמת בחקירת מנה 581 עם סעיפי חשיבה",
-              "url": "https://drive.google.com/file/d/1aHwKYadP18UTxEW_YVeZlYD-GmBLN278/view"
-            },
-            {
-              "type": "file",
-              "name": "שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
-              "url": "https://drive.google.com/file/d/1-bKtx2sb18wKjOAXfui9v0BzvreMhluS/view"
+              "type": "folder",
+              "name": "ארכימדס",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "חקירת שורש - תרגיל מסכם 1 עם סעיפי חשיבה - 581",
+                  "url": "https://drive.google.com/file/d/1ERIhxrfBY_fxklbF-84aI3ZWW3qkjRNI/view"
+                },
+                {
+                  "type": "file",
+                  "name": "חקירת שורש - תרגיל מסכם 2 עם סעיפי חשיבה - 581",
+                  "url": "https://drive.google.com/file/d/1eHMm_PMZoxvPvu_JX1WjzEgFVNcyu1Cm/view"
+                },
+                {
+                  "type": "file",
+                  "name": "חקירת שורש מנה 581 עם קישור למתמטיקורס",
+                  "url": "https://drive.google.com/file/d/1Wt8LeL8fGEJ4iXhCzPAvfBBhLvSYN_GM/view"
+                },
+                {
+                  "type": "file",
+                  "name": "שאלה מסכמת בחקירת מנה 581 עם סעיפי חשיבה",
+                  "url": "https://drive.google.com/file/d/1aHwKYadP18UTxEW_YVeZlYD-GmBLN278/view"
+                },
+                {
+                  "type": "file",
+                  "name": "שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
+                  "url": "https://drive.google.com/file/d/1-bKtx2sb18wKjOAXfui9v0BzvreMhluS/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
@@ -1111,7 +1205,13 @@
           "name": "7. חדוא טריגו",
           "desc": "",
           "id": "3-7",
-          "content": [],
+          "content": [
+            {
+              "type": "file",
+              "name": "דף משוואות בטריגונומטריה - אפי כהן",
+              "url": "https://drive.google.com/file/d/1VvdlMPeGcA-a7Ys41AZVGQYKMCxL748_/view"
+            }
+          ],
           "lesson_json": {}
         },
         {
