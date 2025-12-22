@@ -301,8 +301,6 @@ body {
     color: var(--color-warning) !important;
   }
 
-
-
   /* On class pages, where navbar is not sticky, stick to the very top */
   body.class-page .topics-nav {
     top: 0;
@@ -311,7 +309,7 @@ body {
   /* On small screens, if navbar height changes, adjust as needed */
   @media (max-width: 600px) {
     .topics-nav {
-      top: 56px;
+      top: var(--header-height); /* UPDATED: consistent variable use */
     }
     body.class-page .topics-nav {
       top: 0;
@@ -359,7 +357,6 @@ body {
     margin: 0 0 24px 0;
     color: var(--color-primary-dark);
     padding-bottom: 8px;
-    /* Remove flex, align-items, gap */
   }
   
   .assignments-content {
@@ -514,7 +511,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     color: #111;
-    scroll-margin-top: 128px; /* Increased for combined sticky header + topics-nav */
+    scroll-margin-top: 128px;
   }
   .lesson:hover {
     box-shadow: 0 6px 20px rgba(1,186,239,0.13);
@@ -753,7 +750,6 @@ body {
 } 
 
 .class-groups {
-  /* Ensure the group container uses the same padding as the cards container */
   padding-right: 0;
 }
 
@@ -763,9 +759,7 @@ body {
   color: #1e293b;
   margin: 32px 0 12px 0;
   letter-spacing: 0.5px;
-  /* Add this: */
-  padding-right: 24px; /* Match the .class-cards or .class-card margin/padding */
-  /* Or use the same value as .class-cards { padding-right: ... } */
+  padding-right: 24px; 
 }
 
 @media (max-width: 700px) {
@@ -792,31 +786,26 @@ body {
   margin-top: 16px;
 } 
 
-
-
 /* Compact, touch-friendly lesson-list improvements */
 .lesson-list {
   padding-right:20px;
 }
 
 .lesson-list a {
-  /* display: inline-block; /* Makes padding work while staying compact */
-  padding: 8px 4px; /* Minimal padding for better touch targets */
-  /* text-decoration: none; /* Removes underline */
-  /* line-height: 1.6; /* Slight breathing room */
+  padding: 8px 4px;
 }
 
 .lesson-list li {
-  margin-bottom: 4px; /* Small spacing between items */
+  margin-bottom: 4px;
 }
 
 /* Mobile touch optimization */
 @media (max-width: 768px) {
   .lesson-list a {
-    padding: 10px 6px; /* Slightly larger touch area on mobile */
+    padding: 10px 6px;
   }
   
   .lesson-list li {
-    margin-bottom: 6px; /* A bit more spacing on mobile */
+    margin-bottom: 6px; 
   }
 }
