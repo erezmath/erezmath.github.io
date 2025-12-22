@@ -855,6 +855,50 @@
               }
             ]
           }
+        },
+        {
+          "name": "1. מבוא",
+          "desc": "<p>שעת שיעור אחת, ש.ב פשוטים בעיקר של שימוש במחשבון. \nלהגשה מחר</p>",
+          "id": "5-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. מבוא - סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1XxsfvVyffrNIuPEPxSwfh5M-MkSKnNFQ/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1J4P4JblPO46xYEfQze-fxTYmqGkFJKuk/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "23-12-2025",
+            "due_date": "24-12-2025",
+            "due_date_display": "רביעי, 24.12.2025"
+          }
+        },
+        {
+          "name": "2. טריגו במשולש ישר זווית ושווה שוקיים - ללא פרמטרים",
+          "desc": "<p>שעת שיעור אחת, איך נדרשים לכתוב תשובה בטריגו - נפתור שאלה פשוטה לדוגמא.</p>",
+          "id": "5-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - איך כותבים ופתרון שאלה 5",
+              "url": "https://drive.google.com/file/d/1y07ig792_lyQe6z0yMV9eDp7St3ezOK_/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1A71QmLU-dfnfgMDLmEF9QYWmkbU0Ig4y/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "24-12-2025",
+            "due_date": "28-12-2025",
+            "due_date_display": "ראשון, 28.12.2025"
+          }
         }
       ]
     },
@@ -1202,6 +1246,11 @@
                   "type": "file",
                   "name": "2. גאומטריה - שאלות עם דמיון מבגרויות ישנות - חלקם מאוד קלות",
                   "url": "https://drive.google.com/file/d/1Fp_HuS1aL2C9JkDJvzKzq4DJqQ4fnS4q/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ארכימדס - גאומטריה - שאלה מסכמת לפני מעגל - כיתה י' 571",
+                  "url": "https://drive.google.com/file/d/1uMqar0GYjSGVfvF4-YHERr6olwEnCrFo/view"
                 }
               ]
             }
