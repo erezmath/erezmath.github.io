@@ -831,6 +831,21 @@
             "due_date": "23-12-2025",
             "due_date_display": "שלישי, 23.12.2025"
           }
+        },
+        {
+          "name": "21. שרטוט שורש מכרפלה ללא נגזרת",
+          "desc": "<p>במהלך שיעור טריגו - חזרה לקראת מבחן בשורש - אימון על שרטוט ללא נגזרת. אין ש.ב</p>",
+          "id": "4-22",
+          "content": [
+            {
+              "type": "file",
+              "name": "שרטוט ללא נגזרת",
+              "url": "https://drive.google.com/file/d/1nkGUFvxVRHkhoiF8G2PjKCMNlUD4uzAZ/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "25-12-2025"
+          }
         }
       ]
     },
@@ -896,6 +911,33 @@
           ],
           "lesson_json": {
             "lesson_date": "24-12-2025",
+            "due_date": "28-12-2025",
+            "due_date_display": "ראשון, 28.12.2025"
+          }
+        },
+        {
+          "name": "3. נוסחת שטח משולש, וטריגו במרובעים ללא פרמטרים",
+          "desc": "<p>שעתיים שיעור - נוסחת שטח משולש, וטריגו במרובעים. ש.ב לסיים את התרגילים שנתתי אתמול ואת אלה.</p>\n<p>בנוסף, בשיעור נתרגל קצת חדוא שורש מכפלה שרטוט ללא נגזרת.</p>",
+          "id": "5-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1oG6Reyjf-N78FKtz0svqoPDtYbAhBAC7/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1_wXddNoXNFWcTVLQY951kwo0xz0Lgtpn/view"
+            },
+            {
+              "type": "file",
+              "name": "3. תרגילי רשות",
+              "url": "https://drive.google.com/file/d/1rxu44Cwkk2KdTzcnxgd9l-oMT_pq17hL/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "25-12-2025",
             "due_date": "28-12-2025",
             "due_date_display": "ראשון, 28.12.2025"
           }
