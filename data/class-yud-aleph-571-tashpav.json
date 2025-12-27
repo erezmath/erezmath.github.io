@@ -837,6 +837,28 @@
             "due_date": "28-12-2025",
             "due_date_display": "ראשון, 28.12.2025"
           }
+        },
+        {
+          "name": "3. אינטגרל הצבה",
+          "desc": "<p>שעתיים - אינטגרל הצבה - מכפלה ומנה, אינטגרל לא מסוים ומסוים - תרגול וסעיפי חשיבה.</p>\n<p>כולל גם שורש שירד במיקוד, כי אין הרבה שאלות, אבל זה מעלה את רמת הקושי.</p>",
+          "id": "7-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1MSAbmdzH2duEg_eVU39GNfDzbJGi114U/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1BYkVts8jayAPzWJXg-oO9jrdF2pYk5aj/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "28-12-2025",
+            "due_date": "30-12-2025",
+            "due_date_display": "שלישי, 30.12.2025"
+          }
         }
       ]
     },

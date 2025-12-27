@@ -934,12 +934,49 @@
               "type": "file",
               "name": "3. תרגילי רשות",
               "url": "https://drive.google.com/file/d/1rxu44Cwkk2KdTzcnxgd9l-oMT_pq17hL/view"
+            },
+            {
+              "type": "file",
+              "name": "4. פתרונות",
+              "url": "https://drive.google.com/file/d/1ExHI6DAqQpiORyADHh9K7kMkLAficn8F/view"
             }
           ],
           "lesson_json": {
             "lesson_date": "25-12-2025",
             "due_date": "28-12-2025",
             "due_date_display": "ראשון, 28.12.2025"
+          }
+        },
+        {
+          "name": "4. טריגו משולשים עם פרמטרים, וקומות של שברים",
+          "desc": "<p>שעתיים שיעור - טריגו עם פרמטרים ואלגברה קומות של שברים.</p>\n<p>ש.ב: גם בטריגו, וגם באלגברה - התרגילים המסומנים.</p>",
+          "id": "5-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1ZFtK5kl9fvT5_oJPUfR3hfHGMsLmYKlw/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב טריגו",
+              "url": "https://drive.google.com/file/d/1jRER4B1Wasohi10JOXBPEb470me81w3K/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב. אלגברה - שבר בתוך שבר - מתוך בני גורן",
+              "url": "https://drive.google.com/file/d/14azq4FZEJNqAPx18BDuv2J2znTLHSX53/view"
+            },
+            {
+              "type": "file",
+              "name": "4. פתרונות חלקיים טריגו",
+              "url": "https://drive.google.com/file/d/1dftvBP90NGz1_F2yb84iUiWtQtYsz6Ly/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "28-12-2025",
+            "due_date": "31-12-2025",
+            "due_date_display": "רביעי, 31.12.2025"
           }
         }
       ]
