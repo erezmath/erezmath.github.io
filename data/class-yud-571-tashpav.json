@@ -833,18 +833,23 @@
           }
         },
         {
-          "name": "21. שרטוט שורש מכרפלה ללא נגזרת",
-          "desc": "<p>במהלך שיעור טריגו - חזרה לקראת מבחן בשורש - אימון על שרטוט ללא נגזרת. אין ש.ב</p>",
+          "name": "21. שרטוט שורש מכפלה ללא נגזרת",
+          "desc": "<p>חזרה לקראת מבחן בשורש - אימון על שרטוט ללא נגזרת במכפלה עם שורש, וחקירה מלאה של תרגיל כחזרה</p>",
           "id": "4-22",
           "content": [
             {
               "type": "file",
+              "name": "שרטוט ללא נגזרת.docx",
+              "url": "https://drive.google.com/file/d/1rlqU8RJX8ZET9WWcx6GnUsZrzQFpnyWR/view"
+            },
+            {
+              "type": "file",
               "name": "שרטוט ללא נגזרת",
-              "url": "https://drive.google.com/file/d/1nkGUFvxVRHkhoiF8G2PjKCMNlUD4uzAZ/view"
+              "url": "https://drive.google.com/file/d/1LsZRP4FfJoyPD6j-Ev6PsmdXgLC-PcOe/view"
             }
           ],
           "lesson_json": {
-            "lesson_date": "25-12-2025"
+            "lesson_date": "30-12-2025"
           }
         }
       ]

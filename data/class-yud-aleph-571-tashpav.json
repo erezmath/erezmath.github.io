@@ -1057,7 +1057,7 @@
           "lesson_json": {}
         },
         {
-          "name": "8. חקירה מבגרויות",
+          "name": "8. חקירה מבגרויות 2022 ו-2024",
           "desc": "<p>ש.ב:  4 שאלות המופיעים פה בחקירה טריגונומטרית, וגם השאלה בחדוא שלא בחרתם במבחן האחרון (הבע באמצעות או קיצון)</p>",
           "id": "8-9",
           "content": [
@@ -1092,6 +1092,33 @@
             "lesson_date": "06-12-2025",
             "due_date": "10-12-2025",
             "due_date_display": "רביעי, 10.12.2025"
+          }
+        },
+        {
+          "name": "9. חקירה מבגרויות  2015-2017,2019,2021",
+          "desc": "<p>ש.ב: שאלות חקירה טריגו חזרה למבחן עם אינטגרלים. לפתור ע\"פ הסדר הבא:\nשאלות 1,4,5,6,2,3</p>\n<p>בכוונה המעניינות יותר שכוללות אינטגרלים בהתחלה.</p>",
+          "id": "8-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב בגרויות טריגו",
+              "url": "https://drive.google.com/file/d/1jyrvvKTwqqxFv-XUEzuyL__PcABv_oVq/view"
+            },
+            {
+              "type": "file",
+              "name": "2. 2016 - חורף - חקירה טריגונומטרית",
+              "url": "https://drive.google.com/file/d/14Qgg4m7bwxyNy5spyrvt2WumHUymtCxY/view"
+            },
+            {
+              "type": "file",
+              "name": "3. 2019 - חורף - חקירה טריגונומטרית",
+              "url": "https://drive.google.com/file/d/11iv5u3Nab5aPNBTN88jVJ5y4jgIqxBHS/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "30-12-2025",
+            "due_date": "04-01-2025",
+            "due_date_display": "שבת, 04.01.2025"
           }
         }
       ]
@@ -1447,6 +1474,19 @@
             "due_date": "23-12-2025",
             "due_date_display": "שלישי, 23.12.2025"
           }
+        },
+        {
+          "name": "12. מבחן ינואר",
+          "desc": "",
+          "id": "12-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. נושאים למבחן ינואר יא 571",
+              "url": "https://drive.google.com/file/d/10mxP2SiYL_3qekrhTOXq4b36OdXRrEHS/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     }
