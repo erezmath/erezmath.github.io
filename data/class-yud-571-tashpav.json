@@ -358,6 +358,23 @@
             "due_date": "23-12-2025",
             "due_date_display": "שלישי, 23.12.2025"
           }
+        },
+        {
+          "name": "15. דמיון משולשים - תרגילים נוספים מבני גורן",
+          "desc": "<p>חזרה נוספת על דמיון למבחן.</p>\n<p>ש.ב 3 שאלות לבחירתכם. </p>\n<p>ממליץ לא לבחור את השאלות הכי קלות, כי במבחן יהיו שאלות ברמת כוכב.</p>",
+          "id": "2-16",
+          "content": [
+            {
+              "type": "file",
+              "name": "תרגילי דמיון בני גורן",
+              "url": "https://drive.google.com/file/d/1Z9Q7u_tXIcvoU_NCJ1AdtcWxviwl2Lwj/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "31-12-2025",
+            "due_date": "04-01-2026",
+            "due_date_display": "ראשון, 04.01.2026"
+          }
         }
       ]
     },
@@ -982,6 +999,28 @@
             "lesson_date": "28-12-2025",
             "due_date": "31-12-2025",
             "due_date_display": "רביעי, 31.12.2025"
+          }
+        },
+        {
+          "name": "5. טריגו מרובעים ובניות עזר",
+          "desc": "<p>טריגו עם מרובעים, בניות עזר, ופרמטרים, חזרה למבחן.</p>\n<p>סימנתי 4 שאלות לעשות.</p>\n<p>מי שלא יגיע לבית ספר יש לו משימה - לשלוח לי עד הערב, שעה 20:00</p>\n<p>מצרף גם פתרונות ורמזים למי שצריך.</p>",
+          "id": "5-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. טריגו מרובעים ובניות עזר - עם ובלי פרמטרים",
+              "url": "https://drive.google.com/file/d/1PeFTZBvr6WPf_mgGaxMXGgRMUxI9sWOC/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1nShbidSqO5g2z9oqINUx54I5EpT5jZwN/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "01-01-2026",
+            "due_date": "01-01-2026",
+            "due_date_display": "חמישי, 01.01.2026"
           }
         }
       ]
