@@ -415,6 +415,19 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "11. שאלות נוספות מבגרויות 2017-2021",
+          "desc": "",
+          "id": "3-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "סדרות מבגרויות",
+              "url": "https://drive.google.com/file/d/1fGkWkZGKzsi_TRBw9XKdWQcDx83HnMqY/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -858,6 +871,21 @@
             "lesson_date": "28-12-2025",
             "due_date": "30-12-2025",
             "due_date_display": "שלישי, 30.12.2025"
+          }
+        },
+        {
+          "name": "4. אינטגרל סעיפי חשיבה ושאלות קצרות",
+          "desc": "<p>שעה אחת - שאלות יותר חשיבה שלא פתרנו בשיעור הקודם.</p>\n<p>דוגמאות שקרובות לשאלות קצרות</p>",
+          "id": "7-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב",
+              "url": "https://drive.google.com/file/d/16v6jvvEFpSlX4VqSOM9T4g9y3a5uvRXF/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "04-01-2026"
           }
         }
       ]
