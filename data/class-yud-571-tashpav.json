@@ -909,6 +909,19 @@
           "lesson_json": {
             "lesson_date": "30-12-2025"
           }
+        },
+        {
+          "name": "22. אימון חקירת שורש וסעיפי חשיבה, ותרגול נגזרות ופרמטרים",
+          "desc": "",
+          "id": "4-23",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגול חקירה, סעיפי חשיבה, נגזרות, פרמטרים למבחן",
+              "url": "https://drive.google.com/file/d/1OIXEXd77mpqLRlwnFwQnxvRNcVIDKiq6/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -1404,7 +1417,7 @@
         },
         {
           "name": "11. מבחן ינואר",
-          "desc": "",
+          "desc": "<p>לתרגל מהספר ארכימדס ע\"פ מה שכתוב בנושאים למבחן.</p>",
           "id": "6-11",
           "content": [
             {
@@ -1422,11 +1435,6 @@
               "name": "חומר חזרה למבחן",
               "content": [
                 {
-                  "type": "file",
-                  "name": "1. חדוא - פונקציית שורש - אפי כהן",
-                  "url": "https://drive.google.com/file/d/1_KK-3x9i3qwlBsPRqLnbig22QxZX6uqq/view"
-                },
-                {
                   "type": "folder",
                   "name": "גאומטריה",
                   "content": [
@@ -1441,29 +1449,51 @@
                       "url": "https://drive.google.com/file/d/1Fp_HuS1aL2C9JkDJvzKzq4DJqQ4fnS4q/view"
                     },
                     {
+                      "type": "folder",
+                      "name": "תשובות וחומרים נוספים",
+                      "content": [
+                        {
+                          "type": "file",
+                          "name": "ארכימדס - גאומטריה - שאלה מסכמת לפני מעגל - כיתה י' 571",
+                          "url": "https://drive.google.com/file/d/1uMqar0GYjSGVfvF4-YHERr6olwEnCrFo/view"
+                        },
+                        {
+                          "type": "file",
+                          "name": "ארכימדס י 571 שאלות אתגר - דמיון משולשים",
+                          "url": "https://drive.google.com/file/d/1T_pWfmTVJyPlgyTD5T0ttUe4lTIEuWdn/view"
+                        },
+                        {
+                          "type": "file",
+                          "name": "שאלת דמיון - אפי כהן",
+                          "url": "https://drive.google.com/file/d/1I5C6x15_CyO664AWrvM1JounJPqDOWr7/view"
+                        },
+                        {
+                          "type": "file",
+                          "name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
+                          "url": "https://drive.google.com/file/d/17_YXi4ziSU1mbJGKRpfu_1lir4e3h4Ea/view"
+                        },
+                        {
+                          "type": "file",
+                          "name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
+                          "url": "https://drive.google.com/file/d/16tVYyU6cuiOL652xqCuTLuWwk7ZwdGEL/view"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "חדוא",
+                  "content": [
+                    {
                       "type": "file",
-                      "name": "ארכימדס - גאומטריה - שאלה מסכמת לפני מעגל - כיתה י' 571",
-                      "url": "https://drive.google.com/file/d/1uMqar0GYjSGVfvF4-YHERr6olwEnCrFo/view"
+                      "name": "1. תרגול חקירה, סעיפי חשיבה, נגזרות, פרמטרים למבחן",
+                      "url": "https://drive.google.com/file/d/1xt0Yz2R9gxstfK5pJsohmjsoNYGqWvZf/view"
                     },
                     {
                       "type": "file",
-                      "name": "ארכימדס י 571 שאלות אתגר - דמיון משולשים",
-                      "url": "https://drive.google.com/file/d/1T_pWfmTVJyPlgyTD5T0ttUe4lTIEuWdn/view"
-                    },
-                    {
-                      "type": "file",
-                      "name": "שאלת דמיון - אפי כהן",
-                      "url": "https://drive.google.com/file/d/1I5C6x15_CyO664AWrvM1JounJPqDOWr7/view"
-                    },
-                    {
-                      "type": "file",
-                      "name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
-                      "url": "https://drive.google.com/file/d/17_YXi4ziSU1mbJGKRpfu_1lir4e3h4Ea/view"
-                    },
-                    {
-                      "type": "file",
-                      "name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
-                      "url": "https://drive.google.com/file/d/16tVYyU6cuiOL652xqCuTLuWwk7ZwdGEL/view"
+                      "name": "2. חדוא - פונקציית שורש - אפי כהן",
+                      "url": "https://drive.google.com/file/d/1_KK-3x9i3qwlBsPRqLnbig22QxZX6uqq/view"
                     }
                   ]
                 }
