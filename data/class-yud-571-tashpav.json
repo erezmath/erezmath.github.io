@@ -1496,6 +1496,17 @@
                       "url": "https://drive.google.com/file/d/1_KK-3x9i3qwlBsPRqLnbig22QxZX6uqq/view"
                     }
                   ]
+                },
+                {
+                  "type": "folder",
+                  "name": "טריגו",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "1. טריגו תרגיל למבחן לדוגמא - אפי כהן",
+                      "url": "https://drive.google.com/file/d/14fdZdEOjnO0vzzEpF-N5oSr7XW6gmuW7/view"
+                    }
+                  ]
                 }
               ]
             }
