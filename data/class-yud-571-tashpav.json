@@ -1431,6 +1431,16 @@
               "url": "https://drive.google.com/file/d/1i4gO8l3FLHZI95DA6EHK6WCA78F1bWPw/view"
             },
             {
+              "type": "file",
+              "name": "2. מבחן לדוגמא ינואר י 571 - פתרון",
+              "url": "https://drive.google.com/file/d/101Ct1tvfHta_z_EvV5aHoXC0dtagomxH/view"
+            },
+            {
+              "type": "file",
+              "name": "4. זום חזרה למבחן ינואר",
+              "url": "https://drive.google.com/file/d/1woLMg3bRfKMRF7AQL8lNbufawQM-YgWm/view"
+            },
+            {
               "type": "folder",
               "name": "חומר חזרה למבחן",
               "content": [
@@ -1494,6 +1504,11 @@
                       "type": "file",
                       "name": "2. חדוא - פונקציית שורש - אפי כהן",
                       "url": "https://drive.google.com/file/d/1_KK-3x9i3qwlBsPRqLnbig22QxZX6uqq/view"
+                    },
+                    {
+                      "type": "file",
+                      "name": "2. פתרון מדף העבודה לסעיף פרמטר שצריך נוסחת שורשים",
+                      "url": "https://drive.google.com/file/d/1JnTCf_vsc4AniU5CjDVU-z8PK9DWpYZU/view"
                     }
                   ]
                 },
@@ -1503,8 +1518,8 @@
                   "content": [
                     {
                       "type": "file",
-                      "name": "1. טריגו תרגיל למבחן לדוגמא - אפי כהן",
-                      "url": "https://drive.google.com/file/d/14fdZdEOjnO0vzzEpF-N5oSr7XW6gmuW7/view"
+                      "name": "טריגו - תרגילים נוספים מבני גורן",
+                      "url": "https://drive.google.com/file/d/1ObJecxWgW1KENqQ1TMKriluF2uZqsuEb/view"
                     }
                   ]
                 }
