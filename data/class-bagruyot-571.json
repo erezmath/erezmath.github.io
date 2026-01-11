@@ -895,9 +895,170 @@
           "lesson_json": {}
         },
         {
-          "name": "10. רוני רוט",
+          "name": "6. מתכונות בתי ספר עם פתרונות - תשפד",
           "desc": "",
           "id": "2-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "אליאנס -  35581 - תשפד - מתכונת 1 ופתרון",
+              "url": "https://drive.google.com/file/d/1Al5DI4eDULFMqVrHthdkqzkKKaNzn30f/view"
+            },
+            {
+              "type": "file",
+              "name": "אליאנס -  35581 - תשפד - מתכונת 2 ופתרון",
+              "url": "https://drive.google.com/file/d/1iTqMLPDDFR0rhFZnJtl8x79Bhwd5AFVg/view"
+            },
+            {
+              "type": "file",
+              "name": "בית וגן - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/19jHRrL4mzLpW3Cxzq7yLUzWSxi1yGe1p/view"
+            },
+            {
+              "type": "file",
+              "name": "בן צבי קריית אונו - 35581 - מתכונת 1 עם פתרון מלא",
+              "url": "https://drive.google.com/file/d/1JaDbqLBmh9nBOCAybai9YSLM81VZEcCv/view"
+            },
+            {
+              "type": "file",
+              "name": "בן צבי קריית אונו - 35581 - מתכונת 2 עם פתרון מלא",
+              "url": "https://drive.google.com/file/d/1DS5NXxWtie_zvQ69MTLtYdBtj7MUIYJe/view"
+            },
+            {
+              "type": "file",
+              "name": "גלילי כפר סבא - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/11RC2BTFJ0sKDan9IA7U0h9qlJH0LA-qs/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה  - 35581 - מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1H2om4yg6YtLXPuDtEBLYODfCR1aBqtBs/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1jO-0YfhjPq8wBE1nGZfu8bs8YgNYjM48/view"
+            },
+            {
+              "type": "file",
+              "name": "קצרין - 35581 - מתכונת 1 פתרון מלא",
+              "url": "https://drive.google.com/file/d/1pwiaXCTHj4k47WzKLz19VvGw-RsA0Ij_/view"
+            },
+            {
+              "type": "file",
+              "name": "קצרין - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1WxGN4IVDgolFsnHE_6LENY3o5Yr22AlD/view"
+            },
+            {
+              "type": "file",
+              "name": "תיכון אוסטרובסקי רעננה - 35581 - מתכונת 1 - פתרונות",
+              "url": "https://drive.google.com/file/d/1Tnb3ZMp5UsvzXm4MRFgrdrTz4H6EEBgZ/view"
+            },
+            {
+              "type": "file",
+              "name": "תיכון אוסטרובסקי רעננה - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1XZCp7ANBGZ9aW0Tnx_b41_jTYMRqc_ju/view"
+            },
+            {
+              "type": "file",
+              "name": "תיכון בית וגן-35581-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1VoZdcLg_j8ij-8__RW4vuV7_9XjfKpF7/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "7. מתכונות בתי ספר נוספות עם פתרונות - תשפד",
+          "desc": "",
+          "id": "2-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "אביב רעננה - 35581 - מתכונת 1 - כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1mBeADEspC6d334DowIDPOFutMJdX4hdY/view"
+            },
+            {
+              "type": "file",
+              "name": "אביב רעננה - 35581 - מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1rhsN_oOy-lUXZfFbfX5Z43f0ERFoVHec/view"
+            },
+            {
+              "type": "file",
+              "name": "אולפנת צביה הרצליה - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1_CuswYuLq3nRg6xhJFlnGZwFHdsqiiHe/view"
+            },
+            {
+              "type": "file",
+              "name": "אולפנת צביה הרצליה - 35581 - מתכונת 2",
+              "url": "https://drive.google.com/file/d/1kmbsYa0ixW2-lCvv9n8pa5RRWnjDb0dQ/view"
+            },
+            {
+              "type": "file",
+              "name": "אוסטרובסקי רעננה - 35581 - מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1ySfMvXdlz8IgpfTpUnQQgiFrnmaDey5I/view"
+            },
+            {
+              "type": "file",
+              "name": "אורט יובלי אריאל - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1hBl-iCwO85O2G1g9nsogSVe2KtykFa75/view"
+            },
+            {
+              "type": "file",
+              "name": "אורט יובלי אריאל - 35581 - מתכונת 2",
+              "url": "https://drive.google.com/file/d/1dZZ2F8HW0HmEexLEm3sTt3yqsTEZ7dLB/view"
+            },
+            {
+              "type": "file",
+              "name": "בגין ראש העין - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1gWG0DQY5PnwWtf0ljgF3Icndpgcz48wg/view"
+            },
+            {
+              "type": "file",
+              "name": "בליך רמת גן - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1q0B9nWXNrnt5H1PaCI5NzliP83SE_vSg/view"
+            },
+            {
+              "type": "file",
+              "name": "בן צבי קריית אונו - 35581 - סימולציה כולל תשובות",
+              "url": "https://drive.google.com/file/d/12IIFZMqI09doBwkjFdnYZqZyDkBs_4ZE/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 1 - פתרון",
+              "url": "https://drive.google.com/file/d/1tOF3w9bgtPS4Fs4w73d6bwHdrfq1jZ5h/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1hjSjv3pwGYiOuZoyEZPeOCixuIOv_XDe/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 2 פתרון מלא",
+              "url": "https://drive.google.com/file/d/1_NDIfqKMmxSjtn8r-0zbLfpbHsJWy55e/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 2",
+              "url": "https://drive.google.com/file/d/1-MY4Vk9sydRhSA7Lold9Gl-TpibV_HR-/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת 1 יא 581 תשפד - עירוני ד",
+              "url": "https://drive.google.com/file/d/1KT6-GpJMrmd5FMCZ2l-s64xbiEdaAqpA/view"
+            },
+            {
+              "type": "file",
+              "name": "קוגל חולון - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1I4CX19dTF7mrTuaVHEr18lhRVpCR_Iak/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "10. רוני רוט",
+          "desc": "",
+          "id": "2-8",
           "content": [
             {
               "type": "file",
@@ -910,7 +1071,7 @@
         {
           "name": "11. ארכימדס אתגר",
           "desc": "",
-          "id": "2-7",
+          "id": "2-9",
           "content": [
             {
               "type": "file",
@@ -933,7 +1094,7 @@
         {
           "name": "12. בר אילן",
           "desc": "",
-          "id": "2-8",
+          "id": "2-10",
           "content": [
             {
               "type": "folder",
@@ -1166,6 +1327,22 @@
                   "url": "https://drive.google.com/file/d/1NkkeXUI0BfnrUZ1vUuqi2-Xtfakjv3lW/view"
                 }
               ]
+            },
+            {
+              "type": "folder",
+              "name": "מריאן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "סדרות הנדסיות - מריאן - מבחן 14 שאלה 2 - פתרון",
+                  "url": "https://drive.google.com/file/d/1Ru7btYvN_WCjY6E1OzhQHdZOhROenb-k/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סדרות הנדסיות - מריאן - מבחן 14 שאלה 2.docx",
+                  "url": "https://drive.google.com/file/d/1UVh8Y5Z9Iq9GHX3vuyHiWIXbBgxnEJgd/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
@@ -1221,6 +1398,16 @@
                   "url": "https://drive.google.com/file/d/1Y3E_0K6PVBjeFyfK9uBFvZ812sj_xMbS/view"
                 }
               ]
+            },
+            {
+              "type": "file",
+              "name": "טריגו - סעיף ראשון לא סטנדרטי.docx",
+              "url": "https://drive.google.com/file/d/1U9MNj36LOIpNTra7ISCA7n6xTt0rq1Y9/view"
+            },
+            {
+              "type": "file",
+              "name": "טריגו - סעיף ראשון לא סטנדרטי",
+              "url": "https://drive.google.com/file/d/1aCM2tWj73HIDmkHpaB5Oxn_dMMCtkhct/view"
             }
           ],
           "lesson_json": {}
@@ -1278,6 +1465,16 @@
               "type": "file",
               "name": "דף משוואות בטריגונומטריה - אפי כהן",
               "url": "https://drive.google.com/file/d/1VvdlMPeGcA-a7Ys41AZVGQYKMCxL748_/view"
+            },
+            {
+              "type": "file",
+              "name": "מריאן - חדוא טריגונומטרי - זיהוי לפי חיוביות שליליות - פתרון",
+              "url": "https://drive.google.com/file/d/1xfw8Y6RCT165ym9Zfd0zMgTf1kY9ttFM/view"
+            },
+            {
+              "type": "file",
+              "name": "מריאן - חדוא טריגונומטרי - זיהוי לפי חיוביות שליליות.docx",
+              "url": "https://drive.google.com/file/d/1m8TCYroPpkb5W__ggJ0AMgOBrAjKPXvU/view"
             }
           ],
           "lesson_json": {}
@@ -1286,7 +1483,29 @@
           "name": "8. בעיות קיצון",
           "desc": "",
           "id": "3-8",
-          "content": [],
+          "content": [
+            {
+              "type": "folder",
+              "name": "גאומטרית",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בעית קיצון בשילוב פיזיקה - זמן מהירות מרחק.docx",
+                  "url": "https://drive.google.com/file/d/1Y7zBGSMRoCmDLwR-uKSZlP0IJfghlh6S/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מריאן - בעית קיצון גאומטרית - טרפז - פתרון",
+                  "url": "https://drive.google.com/file/d/1LBCvG1w0CIUxwoFjw-ph94L8GaFZ3itK/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מריאן - בעית קיצון גאומטרית - טרפז.docx",
+                  "url": "https://drive.google.com/file/d/1pkMmvqgJQRDEe3WNe6gWmhnVK6Y3wde8/view"
+                }
+              ]
+            }
+          ],
           "lesson_json": {}
         }
       ]
