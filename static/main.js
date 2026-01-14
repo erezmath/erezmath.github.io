@@ -123,66 +123,61 @@ function setupTopicsNav() {
   });
 }
 
-// Scrollspy for topics nav - FIXED
+// Scrollspy for topics nav
 function setupTopicsScrollSpy() {
   const nav = document.querySelector('.topics-nav');
   if (!nav) return;
   const btns = Array.from(nav.querySelectorAll('.topic-btn'));
   const ids = btns.map(btn => btn.getAttribute('onclick')?.match(/'(.*?)'/)?.[1]).filter(Boolean);
   const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
-  
-  // Track the last active index to prevent repeated fires
-  let lastActiveIndex = -1;
 
-  // Check if all topics are visible in the navigation - run once
+  // Check if all topics are visible in the navigation - run once since screen width doesn't change
   function checkTopicsVisibility() {
     const navRect = nav.getBoundingClientRect();
     const lastBtnRect = btns[btns.length - 1].getBoundingClientRect();
     const firstBtnRect = btns[0].getBoundingClientRect();
     
     // A button is visible if its entire width is within the nav's bounds
-    return firstBtnRect.left >= navRect.left && lastBtnRect.right <= navRect.right;
+    const firstButtonVisible = firstBtnRect.left >= navRect.left && firstBtnRect.right <= navRect.right;
+    const lastButtonVisible = lastBtnRect.left >= navRect.left && lastBtnRect.right <= navRect.right;
+    
+    // If both first and last buttons are visible, all buttons in between are also visible
+    return firstButtonVisible && lastButtonVisible;
   }
   
+  // Store the result since screen width doesn't change
   const allTopicsVisible = checkTopicsVisibility();
 
   function onScroll() {
-    let currentActiveIndex = -1;
+    // Always remove .active from all buttons first
+    btns.forEach(b => b.classList.remove('active'));
+    let found = false;
     
-    // Find which section is currently active
     for (let i = sections.length - 1; i >= 0; i--) {
       const section = sections[i];
       const rect = section.getBoundingClientRect();
       
       // Check if section is in view (accounting for sticky header)
-      if (rect.top <= 150) { 
-        currentActiveIndex = i;
-        break;
-      }
-    }
-    
-    // If we are at the very top, activate first button
-    if (currentActiveIndex === -1 && window.scrollY < 100) {
-      currentActiveIndex = 0;
-    }
-
-    // BUGFIX: Only update DOM if the active index CHANGED
-    if (currentActiveIndex !== lastActiveIndex) {
-      btns.forEach(b => b.classList.remove('active'));
-      
-      if (currentActiveIndex !== -1 && btns[currentActiveIndex]) {
-        btns[currentActiveIndex].classList.add('active');
+      if (rect.top <= 150) { // Adjusted threshold for sticky header
+        found = true;
+        btns[i].classList.add('active');
         
         // Only scroll the topics nav if not all topics are visible
         if (!allTopicsVisible) {
-          btns[currentActiveIndex].scrollIntoView({ 
+          btns[i].scrollIntoView({ 
             behavior: "smooth", 
             inline: "center", 
             block: "nearest" 
           });
         }
+        
+        break;
       }
-      lastActiveIndex = currentActiveIndex;
+    }
+    
+    // If we're at the very top of the page, activate first button
+    if (!found && window.scrollY < 100) {
+      btns[0].classList.add('active');
     }
   }
 
@@ -211,26 +206,26 @@ function scrollToTopic(id) {
 }
 
 function setupLessonFolders() {
-  document.querySelectorAll('.lesson-folder .folder-row').forEach(row => {
-    row.addEventListener('click', function() {
-      const li = this.closest('.lesson-folder');
-      const content = li.querySelector('.folder-content');
-      const icon = this.querySelector('.folder-icon');
-      const closedSvg = icon.querySelector('.icon-folder-closed');
-      const openSvg = icon.querySelector('.icon-folder-open');
-      const expanded = li.classList.toggle('expanded');
-      content.style.display = expanded ? 'block' : 'none';
-      icon.setAttribute('data-state', expanded ? 'open' : 'closed');
-      closedSvg.style.display = expanded ? 'none' : '';
-      openSvg.style.display = expanded ? '' : 'none';
-    });
-    row.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        this.click();
-        e.preventDefault();
-      }
-    });
+document.querySelectorAll('.lesson-folder .folder-row').forEach(row => {
+  row.addEventListener('click', function() {
+    const li = this.closest('.lesson-folder');
+    const content = li.querySelector('.folder-content');
+    const icon = this.querySelector('.folder-icon');
+    const closedSvg = icon.querySelector('.icon-folder-closed');
+    const openSvg = icon.querySelector('.icon-folder-open');
+    const expanded = li.classList.toggle('expanded');
+    content.style.display = expanded ? 'block' : 'none';
+    icon.setAttribute('data-state', expanded ? 'open' : 'closed');
+    closedSvg.style.display = expanded ? 'none' : '';
+    openSvg.style.display = expanded ? '' : 'none';
   });
+  row.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      this.click();
+      e.preventDefault();
+    }
+  });
+});
 }
 
 // Enhanced hash navigation for lesson IDs
@@ -361,6 +356,8 @@ function setupAssignments() {
   renderAssignmentsBlocks();
 } 
 
+
+
 //Gets the current date in Israel Standard Time (IST)
 //Finds all elements with class lesson-due-date
 //Extracts dates matching the dd.mm.yyyy pattern using regex
@@ -379,12 +376,15 @@ function is_date_today_or_future() {
   // Get all lesson-due-row divs
   const dueDivs = document.querySelectorAll('.lesson-due-date');
   
+  //console.log(`Found ${dueDivs.length} lesson-due-date elements`); // Debug log
+  
   dueDivs.forEach(div => {
     // Extract date using regex pattern dd.mm.yyyy
     const text = div.textContent;
     const dateMatch = text.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
     
     if (!dateMatch) {
+      //console.log('No date found in:', text); // Debug log
       return;
     }
     
@@ -402,13 +402,17 @@ function is_date_today_or_future() {
       return;
     }
     
+    //console.log(`Checking date: ${dateMatch[0]}, Today: ${today.toLocaleDateString()}, Tomorrow: ${tomorrow.toLocaleDateString()}`); // Debug log
+    
     // Compare dates
     if (extractedDate.getTime() === today.getTime() || extractedDate.getTime() === tomorrow.getTime()) {
       div.classList.add('color-alert');
+      //console.log('Added color-alert to:', dateMatch[0]); // Debug log
     } else if (extractedDate > tomorrow) {
       div.classList.add('color-warning');
+      //console.log('Added color-warning to:', dateMatch[0]); // Debug log
     } else {
-      // Date is in the past
+      //console.log('Date is in the past:', dateMatch[0]); // Debug log
     }
   });
 }
