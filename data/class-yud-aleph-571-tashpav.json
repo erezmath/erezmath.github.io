@@ -478,6 +478,23 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "4. חזרה מבגרויות אחרי מבחן ינואר",
+          "desc": "<p>שלוש שעות - תרגול עצמי בגאומטריה לאחר מבחן ינואר.</p>",
+          "id": "4-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "גאומטריה מבגרויות",
+              "url": "https://drive.google.com/file/d/10YKxBmHU56BcnrVjhJXwsFaXoPRrv6Wc/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "15-01-2026",
+            "due_date": "18-01-2026",
+            "due_date_display": "ראשון, 18.01.2026"
+          }
         }
       ]
     },
@@ -1284,9 +1301,27 @@
       "id": "10-חוברת-בגרויות",
       "lessons": [
         {
+          "name": "0. צ'קליסט בגרויות שעשינו",
+          "desc": "<p>קובץ שיתופי - של כל הבגרויות שעשינו בכיתה.</p>\n<p>בנוסף, קובץ לשימוש אישי.</p>\n<p>סמנו לעצמכם איזה בגרויות עשיתם, סמנו סעיפים שהתקשיתם או סעיפים חשובים, כדי שתחזרו עליהם בעתיד לקראת הבגרות.</p>",
+          "id": "11-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. צ'קליסט בגרויות שעשינו - 2026",
+              "url": "https://drive.google.com/file/d/1-Vc43PQRzGoM3lyUn3Iqrk8613mxC05n/view"
+            },
+            {
+              "type": "file",
+              "name": "2. צ'קליסט בגרויות - 2026- בלי סימונים",
+              "url": "https://drive.google.com/file/d/1Qjr8CNTTLYps_hdUDGPi50AgZnOk1sYl/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
           "name": "1. חוברת בגרויות 571 תכל חדשה",
           "desc": "",
-          "id": "11-1",
+          "id": "11-2",
           "content": [
             {
               "type": "file",
@@ -1304,12 +1339,23 @@
               "url": "https://drive.google.com/file/d/1enSaLQddQHwGUwO13faaTo9VOUKhG6le/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "external_links": [
+              {
+                "url": "https://www.canva.com/design/DAG-ZjaoL8M/YUkDuBhic3YywRCAM6zBTg/view?utm_content=DAG-ZjaoL8M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfb28d8d81d",
+                "title": "טיפים של משרד החינוך למבחן הבגרות 571-572"
+              },
+              {
+                "url": "https://www.canva.com/design/DAG-ZtFvAwo/txswTZCTn4E9ax-1NocUUg/view?utm_content=DAG-ZtFvAwo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h90f86dc7fd#20",
+                "title": "טיפים של משרד החינוך למבחן הבגרות 471-472"
+              }
+            ]
+          }
         },
         {
           "name": "2. חוברת בגרויות 581 תכל ישנה",
           "desc": "",
-          "id": "11-2",
+          "id": "11-3",
           "content": [
             {
               "type": "file",
