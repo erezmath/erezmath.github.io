@@ -436,6 +436,24 @@
               }
             ]
           }
+        },
+        {
+          "name": "1. מעגל - הגדרות, שאלות בסיסיות",
+          "desc": "",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. מעגל - סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1aeopO5nbGr7i4O1aXjA9WwCZSNtdxKkr/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב מעגל - תרגילים בסיסיים",
+              "url": "https://drive.google.com/file/d/1vtF7rd8mqQxj8UXa-3yJlLzfiPNaJJmw/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
