@@ -439,7 +439,7 @@
         },
         {
           "name": "1. מעגל - הגדרות, שאלות בסיסיות",
-          "desc": "",
+          "desc": "<p>שיעור כפול - מבוא למעגל ותרגילים פשוטים.</p>\n<p>שיעור קל בכווונה כי יש מבחן מועד ב, אחרת הייתי ממשיך לזוויות מרכזיות.</p>",
           "id": "3-2",
           "content": [
             {
@@ -453,7 +453,11 @@
               "url": "https://drive.google.com/file/d/1vtF7rd8mqQxj8UXa-3yJlLzfiPNaJJmw/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "18-01-2026",
+            "due_date": "25-01-2026",
+            "due_date_display": "ראשון, 25.01.2026"
+          }
         }
       ]
     },
@@ -1135,6 +1139,28 @@
             "lesson_date": "13-01-2026",
             "due_date": "20-01-2026",
             "due_date_display": "שלישי, 20.01.2026"
+          }
+        },
+        {
+          "name": "8. משפט הסינוסים עם פרמטרים (משולשים בלבד)",
+          "desc": "<p>שיעור אחד - פרמטרים במקום מספרים, להגשה בשבוע הבא.</p>\n<p>אתם נדרשים להגיע לתשובות של הספר - העזרו בזהויות.</p>",
+          "id": "5-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/11EBZv-Kra7Q12pbgXNvtpTXxdFfQevlj/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1hcFBWTAEYFtgUfpwD-r2Rn5IiVFfxum-/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "20-01-2026",
+            "due_date": "27-01-2026",
+            "due_date_display": "שלישי, 27.01.2026"
           }
         }
       ]

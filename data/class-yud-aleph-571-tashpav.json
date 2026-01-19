@@ -438,7 +438,7 @@
       "lessons": [
         {
           "name": "1. מבוא, שאלות פשוטות לפני עץ",
-          "desc": "",
+          "desc": "<p>שיעור כפול - שעה מבוא קצר וקובץ תרגילים ראשון, אח\"כ שני.\nאין חובה לקובץ השני, אפשר ישר לעבור לעץ אם הכיתה מוכנה.</p>\n<p>אין שיעורי בית</p>",
           "id": "4-1",
           "content": [
             {
@@ -450,9 +450,16 @@
               "type": "file",
               "name": "2. שאלות מהספר",
               "url": "https://drive.google.com/file/d/1HUm1XI9t99VQajHwdSYqjRQPAx9cLpho/view"
+            },
+            {
+              "type": "file",
+              "name": "3. שאלות מהספר לשעה השנייה",
+              "url": "https://drive.google.com/file/d/1jam1fzImp1QYp_X42g8lJDOBqbGQWekH/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "18-01-2026"
+          }
         }
       ]
     },
@@ -1683,6 +1690,19 @@
                   "url": "https://drive.google.com/file/d/1l3m9TCJcvLmScNH4ybmi6XKFV-abll4B/view"
                 }
               ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "13. ארבע שאלות מתכונת לדוגמא - חורים, חזקה זוגית, גאומטריה שטחים",
+          "desc": "",
+          "id": "13-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "שאלות רמת בגרות",
+              "url": "https://drive.google.com/file/d/1mO-SXS7f_ANVbn2FdjUudT8jFopSySHE/view"
             }
           ],
           "lesson_json": {}
