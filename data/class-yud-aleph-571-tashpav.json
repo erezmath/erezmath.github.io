@@ -437,9 +437,23 @@
       "id": "3-הסתברות",
       "lessons": [
         {
+          "name": "0. סרטונים - קורס הסתברות",
+          "desc": "<p>סרטונים מעולים של עידו מרבך - קורס שלם שבו הוא פותר שאלות מרמה בסיסית עד לרמת הבגרות.</p>",
+          "id": "4-1",
+          "content": [],
+          "lesson_json": {
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=79hb8UwvX7Q",
+                "title": "קורס הסתברות מהבסיס עד לרמת בגרות של עידו מרבך. סרטונים א עד ו"
+              }
+            ]
+          }
+        },
+        {
           "name": "1. מבוא, שאלות פשוטות לפני עץ",
           "desc": "<p>שיעור כפול - שעה מבוא קצר וקובץ תרגילים ראשון, אח\"כ שני.\nאין חובה לקובץ השני, אפשר ישר לעבור לעץ אם הכיתה מוכנה.</p>\n<p>אין שיעורי בית</p>",
-          "id": "4-1",
+          "id": "4-2",
           "content": [
             {
               "type": "file",
@@ -460,6 +474,44 @@
           "lesson_json": {
             "lesson_date": "18-01-2026"
           }
+        },
+        {
+          "name": "2. דיאגרמת עץ בלי פרמטרים - מאורעות בלתי תלויים, כפל וחיבור הסתברויות",
+          "desc": "<p>שלוש שעות שיעור - דיאגרמת עץ, נתחיל בלי פרמטרים, נתקדם לעם פרמטרים.</p>\n<p>ש.ב בהסתברות רשות.</p>",
+          "id": "4-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1i0u67Ay1VLNk1SuMbeNSt4hlOvqQBVSt/view"
+            },
+            {
+              "type": "file",
+              "name": "תרגילים לשעה הראשונה",
+              "url": "https://drive.google.com/file/d/1MbsLupT8JVkR05iBPm35ADl0kZ5xOna9/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-01-2026"
+          }
+        },
+        {
+          "name": "3. דיאגרמת עץ עם פרמטרים",
+          "desc": "",
+          "id": "4-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור עם פתרונות",
+              "url": "https://drive.google.com/file/d/1UpyXdhVm0-ZiVVtaUjCEWt3lZroTXaKY/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים",
+              "url": "https://drive.google.com/file/d/1l21dtrLXWNCTl6wfXf5cxEvaZD7qO9IQ/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -1706,6 +1758,28 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "14. מבחן ינואר מועד ב",
+          "desc": "<p>מי שלא עשה מועד ב, ומי שעשה ולא הצליח:</p>\n<p>להגשה ליום ראשון בדפים מסודרים. לא אקבל הגשה באיחור.</p>\n<p>לפתור כמו במבחן אמיתי באותו לחץ זמן, אותו מספר שאלות, אחרת לא אפקטיבי.</p>\n<p>כשנגמר הזמן, תשווו פתרונות, תנו לעצמכם ניקוד.</p>\n<p>אח\"כ תמשיכו לפתור בלי לחץ זמן ולהגיש הכל (גם גאומטריה וגם טריגו).</p>\n<p>שתיים מהשאלות שהיו במועד ב (סדרות + חקירה טריגו) היו בדיוק או מאוד דומה בש.ב במהלך השנה.</p>",
+          "id": "13-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. מבחן ינואר - מועד ב - עם פתרונות.docx",
+              "url": "https://drive.google.com/file/d/1S5J64iVKqQNb2M9DIGMzROEBkpLxB5dN/view"
+            },
+            {
+              "type": "file",
+              "name": "1. מבחן ינואר - מועד ב - עם פתרונות",
+              "url": "https://drive.google.com/file/d/1KwZtvAuXzdrhm7cyi2RYwzfMVWVoOXhl/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "20-01-2026",
+            "due_date": "25-01-2026",
+            "due_date_display": "ראשון, 25.01.2026"
+          }
         }
       ]
     }

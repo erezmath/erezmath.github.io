@@ -944,6 +944,28 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "23. מנה - מבוא, תחום הגדרה, אסימפטוטות אנכיות וחורים, פרמטרים",
+          "desc": "<p>פונקצית מנה - תחום הגדרה, אסימפטוטות אנכיות, חורים.</p>\n<p>ש.ב לשבוע הבא, התרגילים שמסומנים באדום.</p>",
+          "id": "4-24",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1-bR8ixBQgnpXQ4rrv6X2vKDvJUCKSr_C/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - בני גורן ושלי",
+              "url": "https://drive.google.com/file/d/13A-pknGTlc2M0QUVtdK0P5luxt-szXDJ/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-01-2026",
+            "due_date": "29-01-2026",
+            "due_date_display": "חמישי, 29.01.2026"
+          }
         }
       ]
     },
@@ -1615,6 +1637,19 @@
                   ]
                 }
               ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "12. מבחן ינואר - מועד ב - חקירה מכפלה שורש, טריגו ישר זווית, גאומטריה דמיון ושטחים",
+          "desc": "",
+          "id": "6-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "5. מבחן י - ינואר 5 יחל מועד ב - עם פתרונות",
+              "url": "https://drive.google.com/file/d/1KthPAl3Zlw0NDKbfIRKVI_S7SaMReggR/view"
             }
           ],
           "lesson_json": {}
