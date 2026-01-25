@@ -458,6 +458,28 @@
             "due_date": "25-01-2026",
             "due_date_display": "ראשון, 25.01.2026"
           }
+        },
+        {
+          "name": "2. מעגל - זוויות מרכזיות",
+          "desc": "<p>שיעור כפול - זוויות מרכזיות קשתות ומיתרים. שאלות פשוטות, חשוב להתמקד בטענה/נימוק כדי להתרגל למשפטים החדשים.</p>\n<p>יש חיבור/חיסור קשתות שזה טריק חשוב וחוזר.</p>",
+          "id": "3-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "מעגל - סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1UElWqlxyUwdL-C77p4lwxrdpR2YWJr4g/view"
+            },
+            {
+              "type": "file",
+              "name": "ש.ב",
+              "url": "https://drive.google.com/file/d/1-X6aIfcmlFvSSzkSOO2yyFfaFPegHdFJ/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "25-01-2026",
+            "due_date": "01-02-2026",
+            "due_date_display": "ראשון, 01.02.2026"
+          }
         }
       ]
     },
