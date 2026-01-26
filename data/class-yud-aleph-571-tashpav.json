@@ -512,6 +512,31 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "4. טבלת הסתברות מותנה",
+          "desc": "<p>חלק שני, משלוש שעות שיעור הסתברות עץ, זה חלק הפרמטרים</p>",
+          "id": "4-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - הסתברות מותנית עם טבלה",
+              "url": "https://drive.google.com/file/d/1YNp16YVUkRkmKWmnNI3JEroDynx4GaJt/view"
+            },
+            {
+              "type": "file",
+              "name": "2. עבודת כיתה",
+              "url": "https://drive.google.com/file/d/1ZvAhY4JE0jmksHYiCodSduGKv0r6wZeN/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1zwQEuMGlkij3_tMpJ4O-r1NipDik2t2T/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-01-2026"
+          }
         }
       ]
     },
@@ -993,6 +1018,39 @@
           "lesson_json": {
             "lesson_date": "04-01-2026"
           }
+        },
+        {
+          "name": "5. אינטגרל מצטבר - משתנה למעלה",
+          "desc": "",
+          "id": "8-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - דוגמא",
+              "url": "https://drive.google.com/file/d/1zO3fogtxbPYq5O7l3ZzrtpkzeAY3LgYQ/view"
+            },
+            {
+              "type": "file",
+              "name": "2. שאלות תרגול עצמי - אתר מתמטיקס",
+              "url": "https://drive.google.com/file/d/1noFoCoB_YA8WMPjVFQKxiPGTBUrQox3C/view"
+            },
+            {
+              "type": "file",
+              "name": "3. שאלות בכיתה - ארכימדס",
+              "url": "https://drive.google.com/file/d/1ho7lnMkSYVARzoBI7IDK9U0NvzlY7s28/view"
+            },
+            {
+              "type": "file",
+              "name": "4. פונקציה אינטגרל מצטבר - תרגול נוסף",
+              "url": "https://drive.google.com/file/d/1SllysAJgvMJ9XQ9nCwdvItIKU_8iZekF/view"
+            },
+            {
+              "type": "file",
+              "name": "5. סיכום",
+              "url": "https://drive.google.com/file/d/1vBN9XKLn4w4LCisNqcFOgOc_VwVzbhJT/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -1780,6 +1838,24 @@
             "due_date": "25-01-2026",
             "due_date_display": "ראשון, 25.01.2026"
           }
+        },
+        {
+          "name": "15. הגשות לקראת מבחן פברואר",
+          "desc": "",
+          "id": "13-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודות הגשה לקראת מבחן פברואר",
+              "url": "https://drive.google.com/file/d/1h1rusbMvdjUNxW3IFqIsnh_I7zMcaEDI/view"
+            },
+            {
+              "type": "file",
+              "name": "2. צ'קליסט בגרויות - 2026- סימונים לדוגמא",
+              "url": "https://drive.google.com/file/d/1IQowGtqhMPZdUPAhmZd4p1OLRWECqiIb/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     }

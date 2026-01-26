@@ -1206,6 +1206,28 @@
             "due_date": "27-01-2026",
             "due_date_display": "שלישי, 27.01.2026"
           }
+        },
+        {
+          "name": "9. משפט הסינוסים במרובעים - בלי ועם פרמטרים",
+          "desc": "<p>שיעור אחד או כפול - משפט הסינוסים במרובעים עם ובלי פרמטרים. רמת קושי לא גבוהה, תרגול נוסף כדי להרגיש נוח עם החומר.</p>",
+          "id": "5-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "ש.ב - בלי רמזים",
+              "url": "https://drive.google.com/file/d/10jIJZBxFK_hCm-Ic3xEBh69lDYKy5wVr/view"
+            },
+            {
+              "type": "file",
+              "name": "ש.ב - עם רמזים",
+              "url": "https://drive.google.com/file/d/1eXo8DJ2O0VAbcO7VUwsqVLtCaTgqkWHN/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "27-01-2026",
+            "due_date": "03-02-2026",
+            "due_date_display": "שלישי, 03.02.2026"
+          }
         }
       ]
     },
