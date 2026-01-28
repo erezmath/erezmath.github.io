@@ -991,7 +991,7 @@
         },
         {
           "name": "24. מנה - אסימפטוטות אופקיות",
-          "desc": "",
+          "desc": "<p>פונקצית מנה - אסימפטוטות אופקיות ושרטוט מקדים</p>",
           "id": "4-25",
           "content": [
             {
@@ -1001,11 +1001,20 @@
             },
             {
               "type": "file",
-              "name": "2. דף תרגול",
-              "url": "https://drive.google.com/file/d/13VFHKsOUve3dqWUUxIUhCwXj0mAcgamR/view"
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1nwaemRZAWxAir0w1gjEp32kmGBjszxrV/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות סקיצה מקדימה",
+              "url": "https://drive.google.com/file/d/1rq_0x3fPau3KIGXPTMW4Jq0o1FSjxPCa/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "29-01-2026",
+            "due_date": "04-02-2026",
+            "due_date_display": "רביעי, 04.02.2026"
+          }
         }
       ]
     },
