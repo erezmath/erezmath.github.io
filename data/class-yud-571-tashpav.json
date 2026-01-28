@@ -988,6 +988,24 @@
             "due_date": "29-01-2026",
             "due_date_display": "חמישי, 29.01.2026"
           }
+        },
+        {
+          "name": "24. מנה - אסימפטוטות אופקיות",
+          "desc": "",
+          "id": "4-25",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/12LpffK2JqQEOEa463p6p5gq0FllVSjY5/view"
+            },
+            {
+              "type": "file",
+              "name": "2. דף תרגול",
+              "url": "https://drive.google.com/file/d/13VFHKsOUve3dqWUUxIUhCwXj0mAcgamR/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
