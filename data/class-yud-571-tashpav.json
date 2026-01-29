@@ -968,9 +968,27 @@
           "lesson_json": {}
         },
         {
+          "name": "22.5. מנה - סרטונים",
+          "desc": "<p>סרטונים על פונקצית מנה. מהבסיס</p>",
+          "id": "4-24",
+          "content": [],
+          "lesson_json": {
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=w7DBCmRkxI4",
+                "title": "אסימפטוטה אנכית וחורים"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=bj_zBSfZ2rE",
+                "title": "אסימפטוטה אופקית"
+              }
+            ]
+          }
+        },
+        {
           "name": "23. מנה - מבוא, תחום הגדרה, אסימפטוטות אנכיות וחורים, פרמטרים",
           "desc": "<p>פונקצית מנה - תחום הגדרה, אסימפטוטות אנכיות, חורים.</p>\n<p>ש.ב לשבוע הבא, התרגילים שמסומנים באדום.</p>",
-          "id": "4-24",
+          "id": "4-25",
           "content": [
             {
               "type": "file",
@@ -992,7 +1010,7 @@
         {
           "name": "24. מנה - אסימפטוטות אופקיות",
           "desc": "<p>פונקצית מנה - אסימפטוטות אופקיות ושרטוט מקדים</p>",
-          "id": "4-25",
+          "id": "4-26",
           "content": [
             {
               "type": "file",
@@ -1006,8 +1024,8 @@
             },
             {
               "type": "file",
-              "name": "3. פתרונות סקיצה מקדימה",
-              "url": "https://drive.google.com/file/d/1rq_0x3fPau3KIGXPTMW4Jq0o1FSjxPCa/view"
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1892khQTHuRH-9r91mvY3BpCxOV1JTsJd/view"
             }
           ],
           "lesson_json": {
@@ -1241,13 +1259,18 @@
           "content": [
             {
               "type": "file",
-              "name": "ש.ב - בלי רמזים",
-              "url": "https://drive.google.com/file/d/10jIJZBxFK_hCm-Ic3xEBh69lDYKy5wVr/view"
+              "name": "1. ש.ב - בלי רמזים",
+              "url": "https://drive.google.com/file/d/1ExpUPm_SHQC1Xl9r1D-CfOICPxyc5022/view"
             },
             {
               "type": "file",
-              "name": "ש.ב - עם רמזים",
-              "url": "https://drive.google.com/file/d/1eXo8DJ2O0VAbcO7VUwsqVLtCaTgqkWHN/view"
+              "name": "2. ש.ב - עם רמזים",
+              "url": "https://drive.google.com/file/d/167i2-8-ZN7K6jYOmrpZBxkloU9Fx-7nt/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1z11sDwgAys0gdgjJAX52ZKObWWRZHW1Y/view"
             }
           ],
           "lesson_json": {
