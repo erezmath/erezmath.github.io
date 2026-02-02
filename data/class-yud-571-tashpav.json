@@ -477,8 +477,8 @@
           ],
           "lesson_json": {
             "lesson_date": "25-01-2026",
-            "due_date": "01-02-2026",
-            "due_date_display": "ראשון, 01.02.2026"
+            "due_date": "04-02-2026",
+            "due_date_display": "רביעי, 04.02.2026"
           }
         }
       ]
@@ -1275,8 +1275,8 @@
           ],
           "lesson_json": {
             "lesson_date": "27-01-2026",
-            "due_date": "03-02-2026",
-            "due_date_display": "שלישי, 03.02.2026"
+            "due_date": "04-02-2026",
+            "due_date_display": "רביעי, 04.02.2026"
           }
         }
       ]

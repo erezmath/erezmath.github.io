@@ -6,9 +6,10 @@
   "desc": "",
   "tags": [
     "0. חוברת בגרויות, צ'קליסט בגרויות, טיפים",
-    "1. פתרון בגרויות לפי נושאים",
-    "2. מתכונות מומלצות",
-    "3. תרגול מסכם לפי נושאים"
+    "1. בגרויות ופתרונות 571 יואל גבע",
+    "2. פתרון בגרויות לפי נושאים",
+    "3. מתכונות מומלצות",
+    "4. תרגול מסכם לפי נושאים"
   ],
   "topics": [
     {
@@ -93,13 +94,147 @@
       ]
     },
     {
-      "name": "1. פתרון בגרויות לפי נושאים",
-      "id": "1-פתרון-בגרויות-לפי-נושאים",
+      "name": "1. בגרויות ופתרונות 571 יואל גבע",
+      "id": "1-בגרויות-ופתרונות-571-יואל-גבע",
+      "lessons": [
+        {
+          "name": "1. בגרויות 571 -  2022-2025",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "2022 - מועד חורף - פתרון",
+              "url": "https://drive.google.com/file/d/1pkImwNPmeyoCVQR5HYhgltbZYB7E2NZB/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - מועד חורף - שאלון",
+              "url": "https://drive.google.com/file/d/19RPP2HP9V6edps2ps8DdIp1vbQsPIIP7/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד א - פתרון",
+              "url": "https://drive.google.com/file/d/1B6vUg7z7E6mGkSz-RejznJwu1d6ylMPh/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד א - שאלון",
+              "url": "https://drive.google.com/file/d/1WbpMJs2gw3ftA3z0vMTYlEuIyVF95UEA/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד ב - פתרון",
+              "url": "https://drive.google.com/file/d/1iJUBflvtfcZZA7D1XK8ETrv-8XtG4WDG/view"
+            },
+            {
+              "type": "file",
+              "name": "2022 - קיץ מועד ב - שאלון",
+              "url": "https://drive.google.com/file/d/1Pqg3wW81-sm5g6bS3pVi_qPz8UhCq0XW/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד א - פתרון",
+              "url": "https://drive.google.com/file/d/1Xk1vpsRVz47uRruL0HJPZzbNDPCJ_0Wl/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד א - שאלון",
+              "url": "https://drive.google.com/file/d/1qzpaQRn_3ALsO9RyhahNPqF0e7nNdLGk/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד ב - פתרון",
+              "url": "https://drive.google.com/file/d/1XcZ8Os3jSjCfMpPJ7hFq9nrTZG28wnRA/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד ב - שאלון",
+              "url": "https://drive.google.com/file/d/1p4nVnzcMvy81o5c0PKoTGIVpA3koPl_V/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד מיוחד - פתרון",
+              "url": "https://drive.google.com/file/d/1YubcawF3lrPxvEfaJu0dxe0-CunyXrNG/view"
+            },
+            {
+              "type": "file",
+              "name": "2023 - קיץ מועד מיוחד - שאלון",
+              "url": "https://drive.google.com/file/d/1Y8bBl_aO0HGxtCOtdM3I1UN7_z5xLeHR/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - מועד חורף - פתרון",
+              "url": "https://drive.google.com/file/d/1FKmboklmbDVfQTWF4XO1HrlnEGzfKEBH/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - מועד חורף - שאלון",
+              "url": "https://drive.google.com/file/d/1LYp5pp488KlUxYsC95Fevbim-wuvzhTl/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד א - פתרון",
+              "url": "https://drive.google.com/file/d/1yp9SlfnCnN36PU1b8IlT5T0hl1yxs2q_/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד א - שאלון",
+              "url": "https://drive.google.com/file/d/1sCPk-GmBHYfWCVrz3PfZq9eotTAgqXK-/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד ב - פתרון",
+              "url": "https://drive.google.com/file/d/1eqyjWwd2BhCXhmyqNn2qA0-SHjIAN6Jq/view"
+            },
+            {
+              "type": "file",
+              "name": "2024 - קיץ מועד ב - שאלון",
+              "url": "https://drive.google.com/file/d/1FxueBwaNn5gRpjZMtSWNYt4A5Hnf3W2Z/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - מועד חורף - פתרון",
+              "url": "https://drive.google.com/file/d/13f6dKsOkWc_miUQZdGRRW4749f3vHIER/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - מועד חורף - שאלון",
+              "url": "https://drive.google.com/file/d/1ATgjYXkQtlawkFnRctRxBIgSh4GFoZeV/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד א - פתרון",
+              "url": "https://drive.google.com/file/d/1lfyCx4qEwS_UTThY0xs0PADMI3RK3GBa/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד א - שאלון",
+              "url": "https://drive.google.com/file/d/1PQkXSmR9dzgGSdiHRZUxlB3MItFTmA0o/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד ב - פתרון",
+              "url": "https://drive.google.com/file/d/1K1FM4KM4cywq91FKxkjSptcerfShPFLE/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד ב - שאלון",
+              "url": "https://drive.google.com/file/d/1x-wHf6Q4Vwd6Wfilc99b2E7tbTL2_4Q2/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "2. פתרון בגרויות לפי נושאים",
+      "id": "2-פתרון-בגרויות-לפי-נושאים",
       "lessons": [
         {
           "name": "1. שאלות קצרות",
           "desc": "",
-          "id": "2-1",
+          "id": "3-1",
           "content": [
             {
               "type": "file",
@@ -132,7 +267,7 @@
         {
           "name": "2. סדרות",
           "desc": "",
-          "id": "2-2",
+          "id": "3-2",
           "content": [
             {
               "type": "file",
@@ -240,7 +375,7 @@
         {
           "name": "3. הסתברות",
           "desc": "",
-          "id": "2-3",
+          "id": "3-3",
           "content": [
             {
               "type": "file",
@@ -278,7 +413,7 @@
         {
           "name": "4. גאומטריה",
           "desc": "",
-          "id": "2-4",
+          "id": "3-4",
           "content": [
             {
               "type": "file",
@@ -356,7 +491,7 @@
         {
           "name": "5. טריגונומטריה",
           "desc": "",
-          "id": "2-5",
+          "id": "3-5",
           "content": [
             {
               "type": "file",
@@ -459,7 +594,7 @@
         {
           "name": "6. חדוא",
           "desc": "",
-          "id": "2-6",
+          "id": "3-6",
           "content": [
             {
               "type": "file",
@@ -532,7 +667,7 @@
         {
           "name": "7. חדוא טריגו",
           "desc": "",
-          "id": "2-7",
+          "id": "3-7",
           "content": [
             {
               "type": "file",
@@ -575,7 +710,7 @@
         {
           "name": "8. בעיות קיצון",
           "desc": "",
-          "id": "2-8",
+          "id": "3-8",
           "content": [
             {
               "type": "file",
@@ -643,7 +778,7 @@
         {
           "name": "9. בעיות תנועה",
           "desc": "",
-          "id": "2-9",
+          "id": "3-9",
           "content": [
             {
               "type": "file",
@@ -676,13 +811,13 @@
       ]
     },
     {
-      "name": "2. מתכונות מומלצות",
-      "id": "2-מתכונות-מומלצות",
+      "name": "3. מתכונות מומלצות",
+      "id": "3-מתכונות-מומלצות",
       "lessons": [
         {
           "name": "1. מריאן",
           "desc": "",
-          "id": "3-1",
+          "id": "4-1",
           "content": [
             {
               "type": "folder",
@@ -764,7 +899,7 @@
         {
           "name": "2. ארכימדס",
           "desc": "",
-          "id": "3-2",
+          "id": "4-2",
           "content": [
             {
               "type": "folder",
@@ -810,7 +945,7 @@
         {
           "name": "3. גול",
           "desc": "",
-          "id": "3-3",
+          "id": "4-3",
           "content": [
             {
               "type": "file",
@@ -823,7 +958,7 @@
         {
           "name": "4. תיכון בית וג'ן וסרור עסאד",
           "desc": "<p>יש פה גם מתכונות בפועל של סרור עסאד, וגם הסימולציות שלו שהם ברמה מאוד גבוהה</p>",
-          "id": "3-4",
+          "id": "4-4",
           "content": [
             {
               "type": "folder",
@@ -936,7 +1071,7 @@
         {
           "name": "5. אוסטרובסקי ואפי כהן",
           "desc": "<p>מבחנים עולים ברמת הקושי, כוללים גם מחוון ופתרונות מלאים</p>",
-          "id": "3-5",
+          "id": "4-5",
           "content": [
             {
               "type": "file",
@@ -984,7 +1119,7 @@
         {
           "name": "6. מתכונות בתי ספר עם פתרונות - תשפד",
           "desc": "",
-          "id": "3-6",
+          "id": "4-6",
           "content": [
             {
               "type": "file",
@@ -1057,7 +1192,7 @@
         {
           "name": "7. מתכונות בתי ספר נוספות עם פתרונות - תשפד",
           "desc": "",
-          "id": "3-7",
+          "id": "4-7",
           "content": [
             {
               "type": "file",
@@ -1145,7 +1280,7 @@
         {
           "name": "10. רוני רוט",
           "desc": "",
-          "id": "3-8",
+          "id": "4-8",
           "content": [
             {
               "type": "file",
@@ -1158,7 +1293,7 @@
         {
           "name": "11. ארכימדס אתגר",
           "desc": "",
-          "id": "3-9",
+          "id": "4-9",
           "content": [
             {
               "type": "file",
@@ -1181,7 +1316,7 @@
         {
           "name": "12. בר אילן",
           "desc": "",
-          "id": "3-10",
+          "id": "4-10",
           "content": [
             {
               "type": "folder",
@@ -1283,13 +1418,13 @@
       ]
     },
     {
-      "name": "3. תרגול מסכם לפי נושאים",
-      "id": "3-תרגול-מסכם-לפי-נושאים",
+      "name": "4. תרגול מסכם לפי נושאים",
+      "id": "4-תרגול-מסכם-לפי-נושאים",
       "lessons": [
         {
           "name": "1. שאלות קצרות",
           "desc": "",
-          "id": "4-1",
+          "id": "5-1",
           "content": [
             {
               "type": "folder",
@@ -1402,7 +1537,7 @@
         {
           "name": "2. סדרות",
           "desc": "",
-          "id": "4-2",
+          "id": "5-2",
           "content": [
             {
               "type": "folder",
@@ -1437,14 +1572,14 @@
         {
           "name": "3. הסתברות",
           "desc": "",
-          "id": "4-3",
+          "id": "5-3",
           "content": [],
           "lesson_json": {}
         },
         {
           "name": "4. גאומטריה",
           "desc": "",
-          "id": "4-4",
+          "id": "5-4",
           "content": [
             {
               "type": "folder",
@@ -1468,7 +1603,7 @@
         {
           "name": "5. טריגונומטריה",
           "desc": "",
-          "id": "4-5",
+          "id": "5-5",
           "content": [
             {
               "type": "folder",
@@ -1502,7 +1637,7 @@
         {
           "name": "6. חדוא",
           "desc": "",
-          "id": "4-6",
+          "id": "5-6",
           "content": [
             {
               "type": "folder",
@@ -1546,7 +1681,7 @@
         {
           "name": "7. חדוא טריגו",
           "desc": "",
-          "id": "4-7",
+          "id": "5-7",
           "content": [
             {
               "type": "file",
@@ -1569,7 +1704,7 @@
         {
           "name": "8. בעיות קיצון",
           "desc": "",
-          "id": "4-8",
+          "id": "5-8",
           "content": [
             {
               "type": "folder",
