@@ -490,6 +490,28 @@
             "due_date": "04-02-2026",
             "due_date_display": "רביעי, 04.02.2026"
           }
+        },
+        {
+          "name": "3. מעגל - אנך מרכזי ומרחק ממיתר",
+          "desc": "<p>שיעור כפול, אם לא מצליחים שאלה משיעורי הבית, העזרו בפתרונות בסיכום השיעור.</p>",
+          "id": "3-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרונות",
+              "url": "https://drive.google.com/file/d/1kKxEC2rM7aFLS0H9358HuBYAiqRaEcmB/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1sYi_L5RUCn5iVGOvYMjCvuJ3h9yBwfqT/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "05-02-2026",
+            "due_date": "12-02-2026",
+            "due_date_display": "חמישי, 12.02.2026"
+          }
         }
       ]
     },
