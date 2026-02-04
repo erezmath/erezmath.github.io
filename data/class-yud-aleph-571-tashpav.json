@@ -938,6 +938,19 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "10. בגרויות עם חקירה n זוגי ואי זוגי",
+          "desc": "",
+          "id": "7-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "1.  חקירה זוגי אי זוגי, בגרות חורף 2023",
+              "url": "https://drive.google.com/file/d/1MIWggTPd5ihDNL0OTseot00pUWwu6oez/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -1050,6 +1063,24 @@
               "type": "file",
               "name": "5. סיכום",
               "url": "https://drive.google.com/file/d/1vBN9XKLn4w4LCisNqcFOgOc_VwVzbhJT/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "6. הזזות של אינטגרלים",
+          "desc": "",
+          "id": "8-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - אינטגרל של הזזות",
+              "url": "https://drive.google.com/file/d/1K8SX8YZwiJXKk8HMjAI0QRfO-ueHMp8Q/view"
+            },
+            {
+              "type": "file",
+              "name": "2. אינטגרל מצטבר מקמפוס",
+              "url": "https://drive.google.com/file/d/1lTjZ44sAbQ75zwv6_C_Cps-wrv9uaMTL/view"
             }
           ],
           "lesson_json": {}
