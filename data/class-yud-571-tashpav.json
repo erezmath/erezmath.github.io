@@ -1097,6 +1097,23 @@
             "due_date": "08-02-2026",
             "due_date_display": "ראשון, 08.02.2026"
           }
+        },
+        {
+          "name": "27. מנה - חקירה עם חורים, פונקציה מצומצמת, פרמטרים בלי חקירה",
+          "desc": "<p>מנה עם חורים - פונקציה מצומצמת.</p>\n<p>שרטוט f' .</p>\n<p>פרמטרים ללא חקירה.</p>",
+          "id": "4-29",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב",
+              "url": "https://drive.google.com/file/d/1ipmvX9EN4fAZZm4vxQteKCgUe-t3envr/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "08-02-2026",
+            "due_date": "15-02-2026",
+            "due_date_display": "ראשון, 15.02.2026"
+          }
         }
       ]
     },

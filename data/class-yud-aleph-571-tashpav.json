@@ -539,6 +539,24 @@
           "lesson_json": {
             "lesson_date": "22-01-2026"
           }
+        },
+        {
+          "name": "5. הסתברות מותנה - תרגול עץ וטבלה לפני מבחן",
+          "desc": "",
+          "id": "4-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות - עץ וטבלה",
+              "url": "https://drive.google.com/file/d/1DYgBm50CfyxLIya14Yd2Av5oL_qAnACX/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות לשאלה 24",
+              "url": "https://drive.google.com/file/d/1Jw3sLAVhIamgHUNhqRp3LQtEOPQqvsiV/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
