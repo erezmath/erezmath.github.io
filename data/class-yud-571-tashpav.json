@@ -1364,6 +1364,28 @@
             "due_date": "04-02-2026",
             "due_date_display": "רביעי, 04.02.2026"
           }
+        },
+        {
+          "name": "10. משפט הקוסינוסים במשולשים - בלי ועם פרמטרים",
+          "desc": "<p>שיעור כפול - מתחיל תרגילים מאוד פשוטים, עולה לתרגילים עם פרמטרים.</p>",
+          "id": "5-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1nxu6UeKOMtz8gd3pZ8jeA4uixmyMe0ZB/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1n7xGU4hgeK9vma_duxOWTe6keFrBjvyP/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "10-02-2026",
+            "due_date": "17-02-2026",
+            "due_date_display": "שלישי, 17.02.2026"
+          }
         }
       ]
     },
