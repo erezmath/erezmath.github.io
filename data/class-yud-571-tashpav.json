@@ -1107,6 +1107,11 @@
               "type": "file",
               "name": "1. ש.ב",
               "url": "https://drive.google.com/file/d/1ipmvX9EN4fAZZm4vxQteKCgUe-t3envr/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון חקירה עם חור",
+              "url": "https://drive.google.com/file/d/1o8rKSxasosrFjxwOj5JoSo3L5zz0aqmN/view"
             }
           ],
           "lesson_json": {
@@ -1834,6 +1839,16 @@
           "desc": "",
           "id": "6-13",
           "content": [
+            {
+              "type": "file",
+              "name": "1. פתרון חקירה בלי חור",
+              "url": "https://drive.google.com/file/d/1ilx7rWnhaYwCXXwdFTFxL4CyRdk8LV47/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון חקירה עם חור",
+              "url": "https://drive.google.com/file/d/1gZGZUZ8SyYXdtJUFi9hzVYBHW-QAd7vi/view"
+            },
             {
               "type": "file",
               "name": "נושאים לבוחן",
