@@ -1927,6 +1927,24 @@
           "lesson_json": {
             "lesson_date": "03-02-2026"
           }
+        },
+        {
+          "name": "17. מבחן פברואר",
+          "desc": "",
+          "id": "13-14",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. נושאים למבחן ינואר יא 571",
+              "url": "https://drive.google.com/file/d/1hWt4ysGzoYlL3HD3nJxcY38_OyhpbrBT/view"
+            },
+            {
+              "type": "file",
+              "name": "2. מבחן פברואר - עם תשובות",
+              "url": "https://drive.google.com/file/d/1fTw3jA8PFpwTcqySQi9K1OqD_X_4DX0C/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     }
