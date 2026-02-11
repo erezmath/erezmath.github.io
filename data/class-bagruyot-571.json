@@ -1340,6 +1340,22 @@
           "content": [
             {
               "type": "folder",
+              "name": "2020",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "מתכונת תשף 1 - 581",
+                  "url": "https://drive.google.com/file/d/1Q3onskgyvoLn0kU6S-_XdCfYi6Kkyz8C/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונת תשף 3 - 581",
+                  "url": "https://drive.google.com/file/d/18D-JdoxvH8ygUdcbxhRelFUge4kY0akJ/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
               "name": "2021",
               "content": [
                 {
@@ -1429,6 +1445,27 @@
                   "type": "file",
                   "name": "בר אילן - 35581 - מתכונת 3",
                   "url": "https://drive.google.com/file/d/1KRge64hrnJoTCD6wL3-9eFzoG9uIJo6j/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בר אילן-35571-מתכונת 1 תשפה",
+                  "url": "https://drive.google.com/file/d/10A2dNxueissgqKogis8dZL9Iy5bWE6pc/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35571-מתכונת 2 תשפה",
+                  "url": "https://drive.google.com/file/d/1ioPp00AuS58hmFiHEX2s3yVmiKl0pXsH/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35571-מתכונת 3 תשפה",
+                  "url": "https://drive.google.com/file/d/1Oqw_LyjPi0ofPVPRQw6ef-zzwGRi4VQN/view"
                 }
               ]
             }

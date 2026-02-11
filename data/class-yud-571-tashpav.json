@@ -512,6 +512,33 @@
             "due_date": "12-02-2026",
             "due_date_display": "חמישי, 12.02.2026"
           }
+        },
+        {
+          "name": "4.  זוית היקפית",
+          "desc": "<p>שיעור כפול.\nעמוד ראשון - פיצוח לפצח על הדפים.\nעמוד שני - טענה נימוק.</p>",
+          "id": "3-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1tH8HH-u6m9NqRQ8F5LXtCc4KZdfQnWr7/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/13LVIVrNyiPqilFZ4-gKh1OYhaxEDfL4f/view"
+            },
+            {
+              "type": "file",
+              "name": "3. רמזים לש.ב",
+              "url": "https://drive.google.com/file/d/1BvQL_Ka8Y1QfiuhM5EK_4TpCGOd4wJQ0/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "12-02-2026",
+            "due_date": "17-02-2026",
+            "due_date_display": "שלישי, 17.02.2026"
+          }
         }
       ]
     },

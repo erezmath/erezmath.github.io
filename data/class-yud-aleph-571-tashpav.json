@@ -557,6 +557,29 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "6. הסתברות עץ וטבלה - תרגול חזרה",
+          "desc": "",
+          "id": "4-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות בכיתה",
+              "url": "https://drive.google.com/file/d/1UvHZcmGc1a4j_6VQg4WkTueLymAuH0Ay/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1ZWINZDrFbP2zHTFvOtAr60oUgMh3N5B7/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות שאלות בכיתה",
+              "url": "https://drive.google.com/file/d/136ZdkF9gzRaVcBKtVnzHGlgtEsuyDwjn/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },

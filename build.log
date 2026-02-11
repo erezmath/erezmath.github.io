@@ -1332,3 +1332,25 @@
 2026-02-10 14:43:03,907 [2026-02-10 14:43:03 IST] Copied static assets
 2026-02-10 14:43:03,927 [2026-02-10 14:43:03 IST] Copied images
 2026-02-10 14:43:03,927 [2026-02-10 14:43:03 IST] Site built successfully!
+2026-02-11 20:37:37,652 [2026-02-11 20:37:37 IST] Regenerating data with drive_to_class_json.py
+2026-02-11 20:37:38,954 [2026-02-11 20:37:38 IST] Drive-to-class JSON generation started
+2026-02-11 20:37:38,955 [2026-02-11 20:37:38 IST] Main process started
+2026-02-11 20:37:39,239 file_cache is only supported with oauth2client<4.0.0
+2026-02-11 20:37:39,251 [2026-02-11 20:37:39 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-11 20:37:39,251 [2026-02-11 20:37:39 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-11 20:37:39,251 [2026-02-11 20:37:39 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37?usp=drive_link)
+2026-02-11 20:38:38,348 [2026-02-11 20:38:38 IST] Wrote data\class-bagruyot-571.json
+2026-02-11 20:38:38,348 [2026-02-11 20:38:38 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-11 20:38:38,348 [2026-02-11 20:38:38 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-11 20:41:04,976 [2026-02-11 20:41:04 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-11 20:41:04,977 [2026-02-11 20:41:04 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-11 20:43:10,979 [2026-02-11 20:43:10 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-11 20:43:10,979 [2026-02-11 20:43:10 IST] All classes processed. JSON generation complete.
+2026-02-11 20:43:11,036 [2026-02-11 20:43:11 IST] Data regeneration complete
+2026-02-11 20:43:11,036 [2026-02-11 20:43:11 IST] Main build process started
+2026-02-11 20:43:11,051 [2026-02-11 20:43:11 IST] Loaded 6 class JSON files
+2026-02-11 20:43:11,064 [2026-02-11 20:43:11 IST] Rendered index.html
+2026-02-11 20:43:11,092 [2026-02-11 20:43:11 IST] Rendered all class pages
+2026-02-11 20:43:11,094 [2026-02-11 20:43:11 IST] Copied static assets
+2026-02-11 20:43:11,112 [2026-02-11 20:43:11 IST] Copied images
+2026-02-11 20:43:11,112 [2026-02-11 20:43:11 IST] Site built successfully!
