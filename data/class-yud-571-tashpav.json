@@ -535,9 +535,9 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "12-02-2026",
-            "due_date": "17-02-2026",
-            "due_date_display": "שלישי, 17.02.2026"
+            "lesson_date": "15-02-2026",
+            "due_date": "22-02-2026",
+            "due_date_display": "ראשון, 22.02.2026"
           }
         }
       ]
@@ -1145,6 +1145,23 @@
             "lesson_date": "08-02-2026",
             "due_date": "15-02-2026",
             "due_date_display": "ראשון, 15.02.2026"
+          }
+        },
+        {
+          "name": "28. פונקצית מנה - סעיפי פרמטרים",
+          "desc": "<p>שעתיים שיעור - נתמקד בסעיפי מציאת פרמטרים.</p>",
+          "id": "4-30",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. פרמטרים",
+              "url": "https://drive.google.com/file/d/1FO2biC_ug8r7Nka2IvklQ7b2snUPj3wt/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "15-02-2026",
+            "due_date": "22-02-2026",
+            "due_date_display": "ראשון, 22.02.2026"
           }
         }
       ]
