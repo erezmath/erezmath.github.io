@@ -129,3 +129,28 @@ Click "Save and Continue", Skip "Scopes" section, click "Save and Continue", Add
 # assignments.md
 weekly assignments are stored in assignments.md per class.
 a <hr> seperation line is needed between the weekly assignments, both for visual que for the user, and for the code.
+
+
+# javascript "to submit soon requirements section
+Edit /docs/static/main.js to create the following feature:
+The feature will be called: create submit soon topic.
+1. create a global variable boolean flag called "globalCreateSubmitSoonTopic", as true. Reason is that if i want to deactivate this feature, it will be simple and moduler.
+
+2. If this feature is on, it will create a new topic, that will be the first topic, that will be called "0. להגשה בקרוב". 
+3. It will then detect any lessons that were true for is_date_today_or_future (meaning they're due to be sumitted soon), and add the lessons in this topic. This will allow for easy access to them by the students. 
+4. Note that these lessons should also appear in their original topic, so this information will appear double in the html page, so observe and notify if the your implementation creates a problem. 
+5. In terms of implementation: I suggest is_date_today_or_future will fill a global array of lesson ids called globalSubmitSoonLessons. Each is_date_today_or_future found, the lesson id will be stored in the array.
+After is_date_today_or_future finished running through the entire html page, copy the lesson ids to the new topic "0. להגשה בקרוב", and note that each copied element should have be given new suffix of id, not to create two two identical entries with the same id in the same html.
+
+6. clarifications:
+- edit file static/main.js, not docs/static/main.js
+- the .lesson-due-date is always a descendant (not necesserily a direct descendant) of a sepcfic lesson, that should be added to the new topic "0. להגשה בקרוב"
+- “Submit soon” definition: means all future and today.
+- Execution order: create after is_date_today_or_future() finished running through the entire html page
+- empty state: Add: create "0. להגשה בקרוב" only when there is at least one submit-soon lesson.
+- Id suffix format: "-submit-soon".
+- href of new items: href should change to the new id.
+
+
+
+implement it in main.js, and it should be In javascript, create a section that 

@@ -1,3 +1,48 @@
+// --- Create submit soon topic (feature flag and lesson id list) ---
+const globalCreateSubmitSoonTopic = true;
+let globalSubmitSoonLessons = [];
+
+const SUBMIT_SOON_TOPIC_ID = '0-הגשה-בקרוב';
+const SUBMIT_SOON_TOPIC_TITLE = '0. להגשה בקרוב';
+const SUBMIT_SOON_ID_SUFFIX = '-submit-soon';
+
+function createSubmitSoonTopic() {
+  if (!globalCreateSubmitSoonTopic || !globalSubmitSoonLessons.length) return;
+  const topicsList = document.querySelector('.topics-list');
+  const topicsNav = document.querySelector('.topics-nav');
+  if (!topicsList || !topicsNav) return;
+
+  const section = document.createElement('section');
+  section.className = 'topic-section';
+  section.id = SUBMIT_SOON_TOPIC_ID;
+  const h2 = document.createElement('h2');
+  h2.textContent = SUBMIT_SOON_TOPIC_TITLE;
+  section.appendChild(h2);
+  const accordion = document.createElement('div');
+  accordion.className = 'accordion';
+  section.appendChild(accordion);
+
+  globalSubmitSoonLessons.forEach(lessonId => {
+    const lessonEl = document.getElementById(lessonId);
+    if (!lessonEl) return;
+    const clone = lessonEl.cloneNode(true);
+    const newId = lessonId + SUBMIT_SOON_ID_SUFFIX;
+    clone.id = newId;
+    const anchor = clone.querySelector('a[href^="#"]');
+    if (anchor) anchor.setAttribute('href', '#' + newId);
+    accordion.appendChild(clone);
+  });
+
+  topicsList.insertBefore(section, topicsList.firstChild);
+
+  const navBtn = document.createElement('button');
+  navBtn.className = 'topic-btn';
+  navBtn.setAttribute('onclick', "scrollToTopic('" + SUBMIT_SOON_TOPIC_ID + "')");
+  navBtn.textContent = SUBMIT_SOON_TOPIC_TITLE;
+  topicsNav.querySelectorAll('.topic-btn').forEach(btn => btn.classList.remove('active'));
+  topicsNav.insertBefore(navBtn, topicsNav.firstChild);
+}
+
 // Expand/collapse for lessons with chevron
 function setupLessonExpand() {
   document.querySelectorAll('.accordion').forEach(accordion => {
@@ -259,6 +304,8 @@ function scrollToHashTarget() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  is_date_today_or_future();
+  createSubmitSoonTopic();
   setupLessonExpand();
   setupTopicsNav();
   setupTopicsScrollSpy();
@@ -364,7 +411,10 @@ function setupAssignments() {
 //Validates that the extracted date is legitimate
 //Adds color-alert if the date is today, or color-warning if it's in the future
 //Does nothing for past dates or invalid/missing dates
+//When globalCreateSubmitSoonTopic is true, fills globalSubmitSoonLessons with lesson ids for today or future
 function is_date_today_or_future() {
+  if (globalCreateSubmitSoonTopic) globalSubmitSoonLessons = [];
+
   // Get current date in Israel timezone
   const now = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Jerusalem" }));
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -373,20 +423,15 @@ function is_date_today_or_future() {
   const tomorrow = new Date(today);
   tomorrow.setDate(tomorrow.getDate() + 1);
   
-  // Get all lesson-due-row divs
+  // Get all lesson-due-date elements (each is a descendant of a .lesson)
   const dueDivs = document.querySelectorAll('.lesson-due-date');
-  
-  //console.log(`Found ${dueDivs.length} lesson-due-date elements`); // Debug log
   
   dueDivs.forEach(div => {
     // Extract date using regex pattern dd.mm.yyyy
     const text = div.textContent;
     const dateMatch = text.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
     
-    if (!dateMatch) {
-      //console.log('No date found in:', text); // Debug log
-      return;
-    }
+    if (!dateMatch) return;
     
     // Parse the extracted date
     const day = parseInt(dateMatch[1], 10);
@@ -398,29 +443,23 @@ function is_date_today_or_future() {
     if (extractedDate.getDate() !== day || 
         extractedDate.getMonth() !== month || 
         extractedDate.getFullYear() !== year) {
-      console.log('Invalid date:', dateMatch[0]); // Debug log
+      console.log('Invalid date:', dateMatch[0]);
       return;
     }
     
-    //console.log(`Checking date: ${dateMatch[0]}, Today: ${today.toLocaleDateString()}, Tomorrow: ${tomorrow.toLocaleDateString()}`); // Debug log
-    
-    // Compare dates
-    if (extractedDate.getTime() === today.getTime() || extractedDate.getTime() === tomorrow.getTime()) {
-      div.classList.add('color-alert');
-      //console.log('Added color-alert to:', dateMatch[0]); // Debug log
-    } else if (extractedDate > tomorrow) {
-      div.classList.add('color-warning');
-      //console.log('Added color-warning to:', dateMatch[0]); // Debug log
-    } else {
-      //console.log('Date is in the past:', dateMatch[0]); // Debug log
+    const isTodayOrFuture = extractedDate.getTime() >= today.getTime();
+    if (isTodayOrFuture) {
+      if (extractedDate.getTime() === today.getTime() || extractedDate.getTime() === tomorrow.getTime()) {
+        div.classList.add('color-alert');
+      } else {
+        div.classList.add('color-warning');
+      }
+      if (globalCreateSubmitSoonTopic) {
+        const lesson = div.closest('.lesson');
+        if (lesson && lesson.id && globalSubmitSoonLessons.indexOf(lesson.id) === -1) {
+          globalSubmitSoonLessons.push(lesson.id);
+        }
+      }
     }
   });
-}
-
-// Call the function when DOM is ready
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', is_date_today_or_future);
-} else {
-  // DOM is already loaded
-  is_date_today_or_future();
 }
