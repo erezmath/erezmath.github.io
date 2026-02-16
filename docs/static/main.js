@@ -176,53 +176,47 @@ function setupTopicsScrollSpy() {
   const ids = btns.map(btn => btn.getAttribute('onclick')?.match(/'(.*?)'/)?.[1]).filter(Boolean);
   const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
 
-  // Check if all topics are visible in the navigation - run once since screen width doesn't change
-  function checkTopicsVisibility() {
-    const navRect = nav.getBoundingClientRect();
-    const lastBtnRect = btns[btns.length - 1].getBoundingClientRect();
-    const firstBtnRect = btns[0].getBoundingClientRect();
-    
-    // A button is visible if its entire width is within the nav's bounds
-    const firstButtonVisible = firstBtnRect.left >= navRect.left && firstBtnRect.right <= navRect.right;
-    const lastButtonVisible = lastBtnRect.left >= navRect.left && lastBtnRect.right <= navRect.right;
-    
-    // If both first and last buttons are visible, all buttons in between are also visible
-    return firstButtonVisible && lastButtonVisible;
-  }
-  
-  // Store the result since screen width doesn't change
-  const allTopicsVisible = checkTopicsVisibility();
-
   function onScroll() {
-    // Always remove .active from all buttons first
+    const refY = 150; // Reference line from viewport top (below sticky header)
     btns.forEach(b => b.classList.remove('active'));
-    let found = false;
-    
-    for (let i = sections.length - 1; i >= 0; i--) {
-      const section = sections[i];
-      const rect = section.getBoundingClientRect();
-      
-      // Check if section is in view (accounting for sticky header)
-      if (rect.top <= 150) { // Adjusted threshold for sticky header
-        found = true;
-        btns[i].classList.add('active');
-        
-        // Only scroll the topics nav if not all topics are visible
-        if (!allTopicsVisible) {
-          btns[i].scrollIntoView({ 
-            behavior: "smooth", 
-            inline: "center", 
-            block: "nearest" 
-          });
-        }
-        
+
+    // Use the section that *contains* the reference line (refY). That way only one section
+    // can be active at a time, so two topics with similar names (e.g. "6. חדוא" and "6. חדוא - אינטגרלים")
+    // don't cause flicker when scrolling between them.
+    let activeIndex = -1;
+    for (let i = 0; i < sections.length; i++) {
+      const rect = sections[i].getBoundingClientRect();
+      if (rect.top <= refY && rect.bottom > refY) {
+        activeIndex = i;
         break;
       }
     }
-    
-    // If we're at the very top of the page, activate first button
-    if (!found && window.scrollY < 100) {
-      btns[0].classList.add('active');
+    if (activeIndex === -1) {
+      if (sections.length && sections[0].getBoundingClientRect().top > refY) {
+        activeIndex = 0;
+      } else {
+        for (let i = sections.length - 1; i >= 0; i--) {
+          if (sections[i].getBoundingClientRect().top <= refY) {
+            activeIndex = i;
+            break;
+          }
+        }
+      }
+    }
+    if (activeIndex >= 0) {
+      const activeBtn = btns[activeIndex];
+      activeBtn.classList.add('active');
+      // Keep active button in view: check this button's visibility in the nav (works for RTL and when first/last both visible)
+      const navRect = nav.getBoundingClientRect();
+      const btnRect = activeBtn.getBoundingClientRect();
+      const btnVisibleInNav = btnRect.left >= navRect.left && btnRect.right <= navRect.right;
+      if (!btnVisibleInNav) {
+        activeBtn.scrollIntoView({
+          behavior: 'smooth',
+          inline: 'center',
+          block: 'nearest'
+        });
+      }
     }
   }
 
