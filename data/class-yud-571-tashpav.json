@@ -1149,13 +1149,23 @@
         },
         {
           "name": "28. פונקצית מנה - סעיפי פרמטרים",
-          "desc": "<p>שעתיים שיעור - נתמקד בסעיפי מציאת פרמטרים.</p>",
+          "desc": "<p>שעתיים שיעור - נתמקד בסעיפי מציאת פרמטרים.</p>\n<p>הקובץ המלא טוב לתרגול וחזרה לפני מבחן.</p>",
           "id": "4-30",
           "content": [
             {
               "type": "file",
-              "name": "1. פרמטרים",
-              "url": "https://drive.google.com/file/d/1FO2biC_ug8r7Nka2IvklQ7b2snUPj3wt/view"
+              "name": "1. פרמטרים - קובץ מלא",
+              "url": "https://drive.google.com/file/d/1RYs22GcKuaM8hU2O43658ySFJIxQfUMB/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פרמטרים - בכיתה - שיעור ראשון",
+              "url": "https://drive.google.com/file/d/1At-McC_1_AC_Rzb9qEib0JTQGzCYXjh_/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פרמטרים - ש.ב",
+              "url": "https://drive.google.com/file/d/1fLkfxbGpK0_3z-C9JTRAXZKypgN2bJ_p/view"
             }
           ],
           "lesson_json": {
