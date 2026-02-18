@@ -1,0 +1,27 @@
+{
+  "folder_id": "16jvduH4cOBQIVMxoQPsgcTPCMzMbdJBI",
+  "modified_time": "2025-12-22T11:53:35.094Z",
+  "cached_at": "2026-02-18T22:44:44.977626",
+  "items": [
+    {
+      "id": "1odwVhMyjN31RwdBvfuy6xSfBR1a4Mwjd",
+      "name": "1. אינטגרל לא מסוים - סיכום שיעור.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1Lui6soynLI5_P-mVsFJ8IUIx2QNPmJa4",
+      "name": "2. ש.ב.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1pEavCJyfnKTilSW2vNSOaWgb9byoss6t",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1mzrE-jytfRE8mfCxKtQ0TyqlqjgwdHCn",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

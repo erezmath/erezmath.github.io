@@ -1,0 +1,22 @@
+{
+  "folder_id": "1_SM-89lHN3Rks5khzLl6QgnaGYC4lKIu",
+  "modified_time": "2025-12-31T18:08:31.807Z",
+  "cached_at": "2026-02-18T22:41:44.471739",
+  "items": [
+    {
+      "id": "13gIWR8CUr0aQjYUqOUiSo_ipal9wF-nC",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1iCl4rYWIz9PgXZUblTvw6V47BDZBEyTI",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    },
+    {
+      "id": "1Z9Q7u_tXIcvoU_NCJ1AdtcWxviwl2Lwj",
+      "name": "תרגילי דמיון בני גורן.pdf",
+      "mimeType": "application/pdf"
+    }
+  ]
+}

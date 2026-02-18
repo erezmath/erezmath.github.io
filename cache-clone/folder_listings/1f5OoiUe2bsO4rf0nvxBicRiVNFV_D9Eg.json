@@ -1,0 +1,27 @@
+{
+  "folder_id": "1f5OoiUe2bsO4rf0nvxBicRiVNFV_D9Eg",
+  "modified_time": "2025-11-22T18:37:55.340Z",
+  "cached_at": "2026-02-18T22:41:36.032373",
+  "items": [
+    {
+      "id": "1ezP75cuoR4746SJt-KV5E65HuTBkLDSH",
+      "name": "1. סיכום שיעור.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1IIO2NT1xav6ZZNV8-ppc0GIcys2f5XUg",
+      "name": "2. ש.ב.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1Hd5kUlJUoJXMV-T7Uek6ilUa0tsds2Fe",
+      "name": "3. פתרונות ורמזים.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1vJG273hu7tEX-kFhqFKWMrMQi1eDkAkh",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "folder_id": "1fAZ17JljFwOWaaKOlKugBMPhk5hF1-eh",
+  "modified_time": "2025-11-26T18:44:19.042Z",
+  "cached_at": "2026-02-18T22:42:23.245418",
+  "items": [
+    {
+      "id": "1mrkLIxOuKwTn3jm_lhSS_GlXGEH_KkoG",
+      "name": "1.ש.ב.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1ug1HA_KZBHl5RUsuphTNM1fytMorRiaS",
+      "name": "2. פתרון שאלה 4.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1KFb0lbyOZCUtHiN_Ow0KyBDhbgm99vkD",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1WGE496lLDdu26bbUmGPyiqFHr8yIiaf_",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

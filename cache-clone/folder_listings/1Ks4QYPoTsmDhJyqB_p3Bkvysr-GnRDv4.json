@@ -1,0 +1,17 @@
+{
+  "folder_id": "1Ks4QYPoTsmDhJyqB_p3Bkvysr-GnRDv4",
+  "modified_time": "2025-12-11T12:20:09.199Z",
+  "cached_at": "2026-02-18T22:41:50.138189",
+  "items": [
+    {
+      "id": "1qr3KrKwQfyyoKyyLbb85FGAsggEovUiL",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1t7Jg9UeOCSj7YcbVY_P2dJzGIG-hesC9",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

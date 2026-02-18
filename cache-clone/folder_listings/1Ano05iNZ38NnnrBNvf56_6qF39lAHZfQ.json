@@ -1,0 +1,27 @@
+{
+  "folder_id": "1Ano05iNZ38NnnrBNvf56_6qF39lAHZfQ",
+  "modified_time": "2026-01-14T20:29:31.644Z",
+  "cached_at": "2026-02-18T22:44:24.024819",
+  "items": [
+    {
+      "id": "1bF5NOnIjB8w_o2__nwuql-XZ2uVEPQRy",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1PMR4nzW3YMGcp2giwX6rSWZZtOffBR9R",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    },
+    {
+      "id": "10YKxBmHU56BcnrVjhJXwsFaXoPRrv6Wc",
+      "name": "גאומטריה מבגרויות.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1s8TxGP3A2Q9cZzO6aIyCzeZ9ytoiuFOf",
+      "name": "משפטי שטחים והמשפט ההפוך למשיק למיתר.pdf",
+      "mimeType": "application/pdf"
+    }
+  ]
+}

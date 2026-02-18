@@ -1,0 +1,27 @@
+{
+  "folder_id": "1DAi4sr8dVBcxcBz-A_K7BkHOIw01l_sh",
+  "modified_time": "2026-01-21T21:30:03.460Z",
+  "cached_at": "2026-02-18T22:44:10.702485",
+  "items": [
+    {
+      "id": "1qThOS-uJ0e800Xbd0SUbVjHouxCKEpAv",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1VKFpRpVwLZL3NaXF_GW4ehbPYkQLePPg",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    },
+    {
+      "id": "1i0u67Ay1VLNk1SuMbeNSt4hlOvqQBVSt",
+      "name": "סיכום שיעור.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1MbsLupT8JVkR05iBPm35ADl0kZ5xOna9",
+      "name": "תרגילים לשעה הראשונה.pdf",
+      "mimeType": "application/pdf"
+    }
+  ]
+}

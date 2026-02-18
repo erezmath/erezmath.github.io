@@ -1,0 +1,32 @@
+{
+  "folder_id": "1h2NX-VoxxOvv3iZKIb6EbicZ1z3T1twM",
+  "modified_time": "2025-12-29T19:40:57.321Z",
+  "cached_at": "2026-02-18T22:45:11.444923",
+  "items": [
+    {
+      "id": "1jyrvvKTwqqxFv-XUEzuyL__PcABv_oVq",
+      "name": "1. ש.ב בגרויות טריגו.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "14Qgg4m7bwxyNy5spyrvt2WumHUymtCxY",
+      "name": "2. 2016 - חורף - חקירה טריגונומטרית.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "11iv5u3Nab5aPNBTN88jVJ5y4jgIqxBHS",
+      "name": "3. 2019 - חורף - חקירה טריגונומטרית.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1V_KKkb9-pI-c14X_Pk5NcumTvW4yOLdh",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1_uVJVC_KAwPebb_0Wd1PmiPEUQTYxF0U",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

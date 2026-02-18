@@ -1,0 +1,27 @@
+{
+  "folder_id": "1gFRsE7f-S6dSLpt8YSy4XGz-Dh6qQEWS",
+  "modified_time": "2026-02-02T18:48:28.263Z",
+  "cached_at": "2026-02-18T22:45:44.071770",
+  "items": [
+    {
+      "id": "1YksYwKQHUQs4DVGYgUobc0Wu8nUQvV4L",
+      "name": "1. מריאן מתכונת 2 תשפה - מבחן ופתרונות מלאים.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1NWT8lSGY5R5xF4WpruoIu3poP8vI7Zy1",
+      "name": "2. פתרון שלי - קצרות, גאומטריה פיצוח, וטריגו.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "19TRC2OblVYBl1Iz_i6he5sPhdGGQO6CI",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1Ii_gg7wq6_N8mg8Uu_Teg3lxzwSCsQQZ",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

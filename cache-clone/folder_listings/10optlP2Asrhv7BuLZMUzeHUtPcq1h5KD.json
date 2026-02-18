@@ -1,0 +1,37 @@
+{
+  "folder_id": "10optlP2Asrhv7BuLZMUzeHUtPcq1h5KD",
+  "modified_time": "2025-12-24T19:17:39.941Z",
+  "cached_at": "2026-02-18T22:42:59.392619",
+  "items": [
+    {
+      "id": "1oG6Reyjf-N78FKtz0svqoPDtYbAhBAC7",
+      "name": "1. סיכום שיעור.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1_wXddNoXNFWcTVLQY951kwo0xz0Lgtpn",
+      "name": "2. ש.ב.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1rxu44Cwkk2KdTzcnxgd9l-oMT_pq17hL",
+      "name": "3. תרגילי רשות.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1ExHI6DAqQpiORyADHh9K7kMkLAficn8F",
+      "name": "4. פתרונות.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1va0C1jOYpFp22mkvgls12EdPeNXzUZOB",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1dvV7PJaJBdQsf6M2lrUQJ0eprSOMBKGX",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

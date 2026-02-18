@@ -1,0 +1,32 @@
+{
+  "folder_id": "1AiWyatPuI34vbiIEc5NGGxKHmmXGXsya",
+  "modified_time": "2026-01-12T19:23:01.226Z",
+  "cached_at": "2026-02-18T22:43:09.275559",
+  "items": [
+    {
+      "id": "1P1TVFx_Q-XPaPMhu5pBDzGIm2GB7dCQR",
+      "name": "1. סיכום שיעור.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1GIb69lx-WG704FLtrbBXndxgRoI6Xe4x",
+      "name": "2. ש.ב - מה שמסומן באדום.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1zPRo7s6TxqauTiul3K_PSqwQep11HHrP",
+      "name": "3. פתרונות לחלק מש.ב.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1jJXbjVxx_6AtECLdllIzSQiQziABQLnl",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1hOUAWPVk1jdFjBf2aXBhvWGQtrfsKkII",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

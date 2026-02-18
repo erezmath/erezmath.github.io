@@ -1,0 +1,32 @@
+{
+  "folder_id": "1Cj8-idXKklWy30z-nDA0NBb0lpBuGEoe",
+  "modified_time": "2026-02-14T19:20:45.768Z",
+  "cached_at": "2026-02-18T22:42:50.086024",
+  "items": [
+    {
+      "id": "1RYs22GcKuaM8hU2O43658ySFJIxQfUMB",
+      "name": "1. פרמטרים - קובץ מלא.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1At-McC_1_AC_Rzb9qEib0JTQGzCYXjh_",
+      "name": "2. פרמטרים - בכיתה - שיעור ראשון.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1fLkfxbGpK0_3z-C9JTRAXZKypgN2bJ_p",
+      "name": "3. פרמטרים - ש.ב.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1oI9rZsI3JQ6IV-rvXjiwfJVQ9nOKqxzE",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1X5JGb88AGodEg8z__2XyAl99ADsx2q7-",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

@@ -547,6 +547,8 @@ def main():
     """Main process: selectively crawls classes based on regenerate flag, writes JSON only for classes that need updating."""
     log_event('Main process started')
     print('Main process started!')
+    # Record the start time
+    start_time = datetime.now()
     
     # Create data directory if it doesn't exist
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -583,6 +585,13 @@ def main():
         log_event(f'Wrote {out_path}')
         print(f'Wrote {out_path}')
     log_event('All classes processed. JSON generation complete.')
+
+    # Record the end time
+    end_time = datetime.now()
+    # Calculate the total time taken
+    total_time = end_time - start_time
+    print(f"Total time taken: {total_time.total_seconds()} seconds to run.")
+    print(f'Total time taken: {total_time}')
     print('All classes processed. JSON generation complete.')
 
 if __name__ == '__main__':

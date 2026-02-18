@@ -1,0 +1,27 @@
+{
+  "folder_id": "1GgMPxLbFEzjK8gu6Q3ZwQAu5F7BWOwHY",
+  "modified_time": "2025-12-27T19:02:58.205Z",
+  "cached_at": "2026-02-18T22:44:49.557904",
+  "items": [
+    {
+      "id": "1MSAbmdzH2duEg_eVU39GNfDzbJGi114U",
+      "name": "1. סיכום שיעור.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1BYkVts8jayAPzWJXg-oO9jrdF2pYk5aj",
+      "name": "2. ש.ב.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1Qqmz0QmYe79ixUlH0QBNYdEts6zSW80J",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1ai4PSpTYZOWNWbTKwlafUYX2ucyflSqi",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

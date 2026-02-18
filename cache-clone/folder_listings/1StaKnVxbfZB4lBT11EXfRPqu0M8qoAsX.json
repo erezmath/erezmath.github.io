@@ -1,0 +1,32 @@
+{
+  "folder_id": "1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX",
+  "modified_time": "2026-01-26T15:01:50.390Z",
+  "cached_at": "2026-02-18T22:44:15.189824",
+  "items": [
+    {
+      "id": "1YNp16YVUkRkmKWmnNI3JEroDynx4GaJt",
+      "name": "1. סיכום שיעור - הסתברות מותנית עם טבלה.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1ZvAhY4JE0jmksHYiCodSduGKv0r6wZeN",
+      "name": "2. עבודת כיתה.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1zwQEuMGlkij3_tMpJ4O-r1NipDik2t2T",
+      "name": "3. פתרונות.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1hj5wuOJDiAh3gHiLvDRR0WTM1kIcYF7-",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1aAW5hRlXKJeIi1Hc8HhWUDZzuZGfitsX",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

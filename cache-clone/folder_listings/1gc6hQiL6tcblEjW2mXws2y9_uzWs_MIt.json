@@ -1,0 +1,32 @@
+{
+  "folder_id": "1gc6hQiL6tcblEjW2mXws2y9_uzWs_MIt",
+  "modified_time": "2026-01-17T21:23:30.784Z",
+  "cached_at": "2026-02-18T22:44:08.649055",
+  "items": [
+    {
+      "id": "1WJzmlNA9sfrfyxR9sWuFd9zS4j9E4geK",
+      "name": "1. סיכום שיעור - מבוא.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1HUm1XI9t99VQajHwdSYqjRQPAx9cLpho",
+      "name": "2. שאלות מהספר.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1jam1fzImp1QYp_X42g8lJDOBqbGQWekH",
+      "name": "3. שאלות מהספר לשעה השנייה.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1jiXcLLgpv0eFv4WL1yfZIrg5BqWylWg5",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1d0yfvJlEeHi9sRU3bpVyTcMNGFTMve01",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

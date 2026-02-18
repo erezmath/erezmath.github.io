@@ -1,0 +1,22 @@
+{
+  "folder_id": "1-MX29qmH8uxX7N6ayT1y7AXJHy2KH7MJ",
+  "modified_time": "2025-12-09T17:58:34.532Z",
+  "cached_at": "2026-02-18T22:42:31.361845",
+  "items": [
+    {
+      "id": "1xq7CrYLXhgBklSA8AFAMduExMzL45wBV",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1uKu_RrV9WsQLd-wFGvgh6D96IlgjMTnN",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    },
+    {
+      "id": "1g_osY6mDWIwPyNZgxaXiaw3BEbKtnB_m",
+      "name": "עבודת חנוכה בחדוא.pdf",
+      "mimeType": "application/pdf"
+    }
+  ]
+}

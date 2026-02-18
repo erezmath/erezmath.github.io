@@ -1,0 +1,42 @@
+{
+  "folder_id": "1hZyA1ODqgK5otn_Vy9DmsF800MSSuR8m",
+  "modified_time": "2026-01-17T20:26:50.112Z",
+  "cached_at": "2026-02-18T22:44:05.494566",
+  "items": [
+    {
+      "id": "1lIImMVh_BWgGaCs66qg_mbcKAnfCaqQN",
+      "name": "0. סרטונים - קורס הסתברות",
+      "mimeType": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "1gc6hQiL6tcblEjW2mXws2y9_uzWs_MIt",
+      "name": "1. מבוא, שאלות פשוטות לפני עץ",
+      "mimeType": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "1DAi4sr8dVBcxcBz-A_K7BkHOIw01l_sh",
+      "name": "2. דיאגרמת עץ בלי פרמטרים - מאורעות בלתי תלויים, כפל וחיבור הסתברויות",
+      "mimeType": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "1ncHzmYTjfQywtBUZST02BiqUwrT20fVz",
+      "name": "3. דיאגרמת עץ עם פרמטרים",
+      "mimeType": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX",
+      "name": "4. טבלת הסתברות מותנה",
+      "mimeType": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "1eDlxjvSSMQ3KWoXWvAyEN3BmooTqkDPQ",
+      "name": "5. הסתברות מותנה - תרגול עץ וטבלה לפני מבחן",
+      "mimeType": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "1nKEbTR3OGmWD9045rqAiroCNMSBk5ae7",
+      "name": "6. הסתברות עץ וטבלה - תרגול חזרה",
+      "mimeType": "application/vnd.google-apps.folder"
+    }
+  ]
+}

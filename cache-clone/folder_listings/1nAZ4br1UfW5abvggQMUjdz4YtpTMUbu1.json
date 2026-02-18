@@ -1,0 +1,32 @@
+{
+  "folder_id": "1nAZ4br1UfW5abvggQMUjdz4YtpTMUbu1",
+  "modified_time": "2026-01-26T19:39:17.057Z",
+  "cached_at": "2026-02-18T22:44:54.031658",
+  "items": [
+    {
+      "id": "1zO3fogtxbPYq5O7l3ZzrtpkzeAY3LgYQ",
+      "name": "1. סיכום שיעור - דוגמא.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1noFoCoB_YA8WMPjVFQKxiPGTBUrQox3C",
+      "name": "2. שאלות תרגול עצמי - אתר מתמטיקס.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1ho7lnMkSYVARzoBI7IDK9U0NvzlY7s28",
+      "name": "3. שאלות בכיתה - ארכימדס.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1SllysAJgvMJ9XQ9nCwdvItIKU_8iZekF",
+      "name": "4. פונקציה אינטגרל מצטבר - תרגול נוסף.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1vBN9XKLn4w4LCisNqcFOgOc_VwVzbhJT",
+      "name": "5. סיכום.pdf",
+      "mimeType": "application/pdf"
+    }
+  ]
+}

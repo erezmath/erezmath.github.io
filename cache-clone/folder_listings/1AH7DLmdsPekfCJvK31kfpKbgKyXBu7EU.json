@@ -1,0 +1,22 @@
+{
+  "folder_id": "1AH7DLmdsPekfCJvK31kfpKbgKyXBu7EU",
+  "modified_time": "2025-09-15T19:07:06.209Z",
+  "cached_at": "2026-02-18T22:42:05.357637",
+  "items": [
+    {
+      "id": "1R9dk3lruub8V75q0cu3nOPBDANkQo-75",
+      "name": "1. סיכום שיעור.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1mOpxCk14uxTR4dKRSojULgcCUvUPINqN",
+      "name": "2. תרגול נגזרות.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1cWY_N5wFV92AjAM8qlMZ0QDb1fVp7Fmy",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

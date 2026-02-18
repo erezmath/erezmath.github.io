@@ -1,0 +1,27 @@
+{
+  "folder_id": "1tSpk4dlpkaOCKReH8IR4iVeg71TT4YDg",
+  "modified_time": "2025-12-29T19:42:05.800Z",
+  "cached_at": "2026-02-18T22:45:07.561495",
+  "items": [
+    {
+      "id": "10aHTR8KdX7aOJFSHa3ar2mmec08AZR-h",
+      "name": "1. בגרויות 2022, 2024.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1awqSywSlC3CiQ0i-CUpqoS-xXl87cRSQ",
+      "name": "2. פתרונות",
+      "mimeType": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "1S0DeVF2eJynzT1tpfkqoUtR2CwubQYzP",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "13siFmKsJHft2dtWVbKEZ-M-sx0x5SzCM",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "folder_id": "1GhFt7lnATsGs1d_yQiFN0InVzC40i5ca",
+  "modified_time": "2025-12-09T11:25:13.929Z",
+  "cached_at": "2026-02-18T22:45:33.220037",
+  "items": [
+    {
+      "id": "1uExvHyXs772kz5TXjRDOUjcF3TyZyFtJ",
+      "name": "1. מבחן שני יא 5.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1Aq3uh5DZDKEw_PAxg9MZ5qGArhi-h7-8",
+      "name": "2. פתרון המבחן יא 5.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1OOLT2Xse0jf2qT-WD0v9jwpw-lzoNL5g",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1nqUZbpsss8tvCCBBe6TmSd96SQNww9GC",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    }
+  ]
+}

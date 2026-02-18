@@ -1,0 +1,22 @@
+{
+  "folder_id": "1j_W0yv86hFz_qllakitXRTdUuB9fpCRR",
+  "modified_time": "2026-02-03T14:23:01.500Z",
+  "cached_at": "2026-02-18T22:42:45.688363",
+  "items": [
+    {
+      "id": "1BpiS2HR9L5fimuVP_jVqzKveTJOi9-Ov",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "19MD0Xvp_2UyZvGK6yqlhVh16qAd8hDXa",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    },
+    {
+      "id": "1b_j6YNzyw9gzZTnQs1mz6oYEjigxlcHt",
+      "name": "סיכום שיעור, ש.ב בעמוד השני, ותשובות.pdf",
+      "mimeType": "application/pdf"
+    }
+  ]
+}

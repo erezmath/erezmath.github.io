@@ -1,0 +1,27 @@
+{
+  "folder_id": "1hKJU-yoHIny_C2r65IPmuxSwgGFrI2AU",
+  "modified_time": "2026-01-03T20:03:02.833Z",
+  "cached_at": "2026-02-18T22:41:46.784091",
+  "items": [
+    {
+      "id": "1BR9fMzgfK-Vy-qOC_BKL7I68wn7hAPJV",
+      "name": "1. דמיון - אוסף תרגילים מאתגרים.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "1suhITLezvaO4tjebccFH7vx3bgv5i6A9",
+      "name": "README.md",
+      "mimeType": "text/markdown"
+    },
+    {
+      "id": "1l7-n5UFn_MYNPo-tWMUb8XWFZBOvQ-2v",
+      "name": "lesson.json",
+      "mimeType": "application/json"
+    },
+    {
+      "id": "1dU3zTE_RWxB_WtL_zGBaLgVa5gA9OUE8",
+      "name": "חומרים",
+      "mimeType": "application/vnd.google-apps.folder"
+    }
+  ]
+}
