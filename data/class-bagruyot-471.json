@@ -1,0 +1,179 @@
+{
+  "id": 5,
+  "name": "בגרויות 471 ופתרונות",
+  "url_name": "bagruyot-471",
+  "banner_url": "images/banner471.png",
+  "desc": "",
+  "tags": [
+    "נושאים",
+    "שאלות לא מבגרויות"
+  ],
+  "topics": [
+    {
+      "name": "נושאים",
+      "id": "נושאים",
+      "lessons": [
+        {
+          "name": "דפי נוסחאות ומשפטים בגאומטריה",
+          "desc": "",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "דף נוסחאות 471 - תשפה - מחוק מותאם ליא",
+              "url": "https://drive.google.com/file/d/1QleBOj6Uo_SZbmt9OofQBNobaBeryBBT/view"
+            },
+            {
+              "type": "file",
+              "name": "דף נוסחאות 471 - תשפה - מלא",
+              "url": "https://drive.google.com/file/d/1nKkKAX-0gCl9jGOTVSmRRc2JYa4Q1kWA/view"
+            },
+            {
+              "type": "file",
+              "name": "משפטים בגאומטריה מעגל לתלמידי 471 - תשפה",
+              "url": "https://drive.google.com/file/d/1zK1MlgiaFLlLxgw1QsnZIDPpOFwOoC6W/view"
+            },
+            {
+              "type": "file",
+              "name": "משפטים בגאומטריה מעגל לתלמידי 471",
+              "url": "https://drive.google.com/file/d/1xvuOiFASXcBHa18vEP0-djDRpsLO5n_V/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "חוברת בגרויות יואל גבע",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "חוברת בגרויות 471 2025 - בלי מיקוד",
+              "url": "https://drive.google.com/file/d/1zxFAp_2RpAg_TIuN4yYyZ5KqfIeq_Vmt/view"
+            },
+            {
+              "type": "file",
+              "name": "חוברת בגרויות 471 2025 - עם מיקוד",
+              "url": "https://drive.google.com/file/d/1nOcQ35YAPESNwcO_leX4yoTcxC6FVTg5/view"
+            },
+            {
+              "type": "file",
+              "name": "עפר ילין (יואל גבע) תרגילי גיאומטריה משולבים ללא מעגל מיקוד 2025 עם פתרונות מלאים",
+              "url": "https://drive.google.com/file/d/1ou-1wsTIsNhkQE2CRnDp55h4BO6FgWBq/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "רגרסיה - מצגת",
+          "desc": "",
+          "id": "1-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "רגרסיה",
+              "url": "https://drive.google.com/file/d/1vfWWRsArRwcIirI4_Vhj90FzTt7GvhAy/view"
+            },
+            {
+              "type": "file",
+              "name": "רגרסיה.pptx",
+              "url": "https://drive.google.com/file/d/1RfjlDGhbCFebFt530R7Ama49GL0aB7yA/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "שאלות לא מבגרויות",
+      "id": "שאלות-לא-מבגרויות",
+      "lessons": [
+        {
+          "name": "גאומטריה",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "גיאומטריה יא -4 יחל-  שאלות משולבות במעגל סופי.docx",
+              "url": "https://drive.google.com/file/d/1islykkqoOzi7-7b2FriGKTb-U-MIzO99/view"
+            },
+            {
+              "type": "file",
+              "name": "גיאומטריה משולבת - מעגל לכיתה יא גרגורי שפורין",
+              "url": "https://drive.google.com/file/d/1m-Qy_eOS4qA9sMH_Vl6X4I1oYFzuTGHh/view"
+            },
+            {
+              "type": "file",
+              "name": "חוברת תרגול מעגל 471 - תשפה.docx",
+              "url": "https://drive.google.com/file/d/1Da9t1jM4aE5yf4j4ZTduCvJj542re08G/view"
+            },
+            {
+              "type": "file",
+              "name": "משפטים במעגל לתלמידי 4 יחידות - חלק א'",
+              "url": "https://drive.google.com/file/d/1vPJL3INZGU0k0UaOVjAovhfOPRj1Vowb/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלות במעגל 471 מותאמות למיקוד תשפה - חלק א'",
+              "url": "https://drive.google.com/file/d/17PCUeS3bf_R366R_tCpf5m-r5OcBzJZY/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "התפלגות נורמלית",
+          "desc": "",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "התפלגות נורמלית שאלות נוספות סמיון ווינר",
+              "url": "https://drive.google.com/file/d/1bERA47wBw2eJ52xxSbGWge9FcLwGgG7u/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "מתכונות ארכימדס 471",
+          "desc": "",
+          "id": "2-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "ארכימדס 471 - מתכונות 1,2",
+              "url": "https://drive.google.com/file/d/1_PPsLnmnBGJuhj6HIxiTrXDj4X3zaAjf/view"
+            },
+            {
+              "type": "file",
+              "name": "ארכימדס 471 - מתכונות 13,14",
+              "url": "https://drive.google.com/file/d/1DiA7YpqUHrfsVndmaGK8LuepQ4hCqiwO/view"
+            },
+            {
+              "type": "file",
+              "name": "ארכימדס 471 - מתכונות 3-9",
+              "url": "https://drive.google.com/file/d/1SopVI3pQPajcd4xlHRAEfHPseJyiQ2bS/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "מתכונות לא מבגרויות",
+          "desc": "",
+          "id": "2-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת במתמטיקה 471 סמיון ויינר",
+              "url": "https://drive.google.com/file/d/1QUmIVqM_rbUnDUVOnBWtvp2Ub9VnJHqS/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    }
+  ],
+  "assignments": "",
+  "assignments_file_id": "",
+  "active": false
+}

@@ -225,16 +225,9 @@
           "lesson_json": {}
         },
         {
-          "name": "12.5. שיעור חזרה על צמצום שברים",
-          "desc": "",
-          "id": "1-12",
-          "content": [],
-          "lesson_json": {}
-        },
-        {
           "name": "12. צמצום שברים אלגבריים, חור על קצה המזלג",
           "desc": "",
-          "id": "1-13",
+          "id": "1-12",
           "content": [
             {
               "type": "file",
@@ -247,6 +240,13 @@
               "url": "https://drive.google.com/file/d/1bbHYl9KG79XxcSYQTFFP9repCpblupSl/view"
             }
           ],
+          "lesson_json": {}
+        },
+        {
+          "name": "12.5. שיעור חזרה על צמצום שברים",
+          "desc": "",
+          "id": "1-13",
+          "content": [],
           "lesson_json": {}
         },
         {
@@ -497,22 +497,9 @@
           "lesson_json": {}
         },
         {
-          "name": "27.5. עבודת חנוכה",
-          "desc": "",
-          "id": "1-28",
-          "content": [
-            {
-              "type": "file",
-              "name": "עבודת חנוכה באלגברה",
-              "url": "https://drive.google.com/file/d/1yOTz2XRBgip85FYAi-zpx8-y5aPfluhY/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
           "name": "27. פרבולות  עם פרמטרים ומציאתם על פי רמזים",
           "desc": "",
-          "id": "1-29",
+          "id": "1-28",
           "content": [
             {
               "type": "file",
@@ -523,6 +510,19 @@
               "type": "file",
               "name": "3. פרבולה עם פרמטרים - דף עבודה",
               "url": "https://drive.google.com/file/d/1gxSHBwmOQ6lSHZRc2c_0k07BboFSXctV/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "27.5. עבודת חנוכה",
+          "desc": "",
+          "id": "1-29",
+          "content": [
+            {
+              "type": "file",
+              "name": "עבודת חנוכה באלגברה",
+              "url": "https://drive.google.com/file/d/1yOTz2XRBgip85FYAi-zpx8-y5aPfluhY/view"
             }
           ],
           "lesson_json": {}
@@ -1747,9 +1747,22 @@
           "lesson_json": {}
         },
         {
-          "name": "4.5 עבודת סוכות",
+          "name": "4. בוחן לדוגמא סוף ספטמבר - טרפז",
           "desc": "",
           "id": "4-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "בוחן לדוגמא בטרפז.docx",
+              "url": "https://drive.google.com/file/d/1bcOi0Lq2riKjtOwmAX6bYkRPqk1kYBrf/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "4.5 עבודת סוכות",
+          "desc": "",
+          "id": "4-6",
           "content": [
             {
               "type": "file",
@@ -1760,19 +1773,6 @@
               "type": "file",
               "name": "2. פתרון שאלה מילולית מספר 141 מהעבודה",
               "url": "https://drive.google.com/file/d/1XOlFurOOfhixk0Bf_11yr6QxJFy0J5iW/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "4. בוחן לדוגמא סוף ספטמבר - טרפז",
-          "desc": "",
-          "id": "4-6",
-          "content": [
-            {
-              "type": "file",
-              "name": "בוחן לדוגמא בטרפז.docx",
-              "url": "https://drive.google.com/file/d/1bcOi0Lq2riKjtOwmAX6bYkRPqk1kYBrf/view"
             }
           ],
           "lesson_json": {}

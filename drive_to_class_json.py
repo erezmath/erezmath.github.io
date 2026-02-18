@@ -68,23 +68,43 @@ class_info = [
         'name': 'בגרויות 571 ופתרונות',
         'url_name': 'bagruyot-571',
         #'url_name': '271',
-        'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37?usp=drive_link',
+        'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37',
         'banner_url': 'images/banner571.png',
         'active': False,
-        'regenerate': True
+        'regenerate': False
     },
     {
         'id': 4,
         'name': 'בגרויות 472 ופתרונות',
         'url_name': 'bagruyot-472',
         #'url_name': '271',
-        'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO?usp=drive_link',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO',
         'banner_url': 'images/banner472.png',
         'active': False,
         'regenerate': False
     },
     {
         'id': 5,
+        'name': 'בגרויות 471 ופתרונות',
+        'url_name': 'bagruyot-471',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW',
+        'banner_url': 'images/banner471.png',
+        'active': False,
+        'regenerate': False
+    },
+    {
+        'id': 6,
+        'name': 'אולימפיאדה במתמטיקה',
+        'url_name': 'olimpiada-matematica',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL',
+        'banner_url': 'images/olympiad.png',
+        'active': False,
+        'regenerate': False
+    },
+    {
+        'id': 7,
         'name': 'כיתה י 571 תשפו',
         'url_name': 'yud-571-tashpav',
         #'url_name': '271',
@@ -94,7 +114,7 @@ class_info = [
         'regenerate': True
     },
     {
-        'id': 6,
+        'id': 8,
         'name': 'כיתה יא 571 תשפו',
         'url_name': 'yud-aleph-571-tashpav',
         #'url_name': '271',
