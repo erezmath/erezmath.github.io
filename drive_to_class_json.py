@@ -25,6 +25,10 @@ CREDENTIALS_PATH = 'secrets/credentials.json'
 TOKEN_PATH = 'secrets/token.pickle'
 DATA_DIR = 'data'
 
+# Folder listing cache (Strategy 1: ModifiedTime-based). Cache applies to every folder
+# including nested subfolders—each folder_id has its own cache file.
+CACHE_DIR = os.path.join('cache', 'folder_listings')
+
 # Assignments filename (can be changed easily)
 ASSIGNMENTS_FILENAME = 'assignments.md'
 
@@ -348,13 +352,105 @@ def extract_lesson_number(name):
         return float(match.group(1))
     return float('inf')  # Put items without numbers at the end
 
-def list_folder_contents(service, folder_id):
-    """List all files and folders in a Google Drive folder."""
+
+def _folder_cache_path(folder_id):
+    """Return cache file path for a folder (safe for any folder_id including nested subfolders)."""
+    # Folder IDs are alphanumeric with - and _; sanitize for filesystem
+    safe_id = re.sub(r'[^\w\-]', '_', folder_id)
+    return os.path.join(CACHE_DIR, f"{safe_id}.json")
+
+
+def clear_folder_listing_cache(folder_id=None):
+    """
+    Clear folder listing cache.
+    If folder_id is given, clear only that folder's cache; otherwise clear all.
+    """
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    if folder_id:
+        path = _folder_cache_path(folder_id)
+        if os.path.exists(path):
+            os.remove(path)
+            log_event(f"Cleared cache for folder {folder_id}")
+    else:
+        for name in os.listdir(CACHE_DIR):
+            if name.endswith('.json'):
+                os.remove(os.path.join(CACHE_DIR, name))
+        log_event("Cleared all folder listing cache")
+
+
+def list_folder_contents(service, folder_id, use_cache=True):
+    """
+    List all files and folders in a Google Drive folder.
+    Uses ModifiedTime-based cache: each folder (including nested subfolders) has its own
+    cache file; if the folder's modifiedTime is unchanged, the cached listing is returned.
+    """
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    cache_file = _folder_cache_path(folder_id)
+
+    # Try cache (only if we have a cache file and use_cache is True)
+    if use_cache and os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                cache_data = json.load(f)
+            # One lightweight API call to check if folder changed
+            folder_meta = service.files().get(
+                fileId=folder_id,
+                fields="modifiedTime"
+            ).execute()
+            cached_modified = cache_data.get('modified_time')
+            current_modified = folder_meta.get('modifiedTime')
+            if cached_modified == current_modified:
+                log_event(f"Cache hit for folder {folder_id}")
+                return cache_data.get('items', [])
+        except HttpError as e:
+            if e.resp.status == 404:
+                # Folder deleted; remove stale cache
+                if os.path.exists(cache_file):
+                    os.remove(cache_file)
+                raise
+            log_event(f"Cache check failed for {folder_id}: {e}, fetching fresh")
+        except Exception as e:
+            log_event(f"Cache read error for {folder_id}: {str(e)}, fetching fresh")
+
+    # Fetch full listing from API
     query = f"'{folder_id}' in parents and trashed = false"
-    results = service.files().list(q=query, fields="files(id, name, mimeType)", pageSize=1000).execute()
+    results = service.files().list(
+        q=query,
+        fields="files(id, name, mimeType)",
+        pageSize=1000
+    ).execute()
     files = results.get('files', [])
-    # Sort by numeric prefix, then by full name for items with same prefix
-    return sorted(files, key=lambda x: (extract_lesson_number(x['name']), x['name']))
+
+    # Get folder's modifiedTime for cache
+    try:
+        folder_meta = service.files().get(
+            fileId=folder_id,
+            fields="modifiedTime"
+        ).execute()
+        modified_time = folder_meta.get('modifiedTime')
+    except Exception as e:
+        log_event(f"Could not get modifiedTime for {folder_id}: {e}")
+        modified_time = None
+
+    sorted_items = sorted(
+        files,
+        key=lambda x: (extract_lesson_number(x['name']), x['name'])
+    )
+
+    cache_data = {
+        "folder_id": folder_id,
+        "modified_time": modified_time,
+        "cached_at": datetime.now().isoformat(),
+        "items": sorted_items,
+    }
+    try:
+        with open(cache_file, 'w', encoding='utf-8') as f:
+            json.dump(cache_data, f, ensure_ascii=False, indent=2)
+        log_event(f"Cached listing for folder {folder_id}")
+    except Exception as e:
+        log_event(f"Cache write error for {folder_id}: {str(e)}")
+
+    return sorted_items
 
 
 # old implementation - had an issue with folders with the name 13.5 appearing before 13, and not after, that's why the above methods were introduced.
