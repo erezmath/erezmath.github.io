@@ -28,6 +28,8 @@ DATA_DIR = 'data'
 # Folder listing cache (Strategy 1: ModifiedTime-based). Cache applies to every folder
 # including nested subfolders—each folder_id has its own cache file.
 CACHE_DIR = os.path.join('cache', 'folder_listings')
+# Cached full lesson objects (when folder unchanged: skip README, lesson.json, crawl_lesson_content)
+LESSON_OBJ_CACHE_DIR = os.path.join('cache', 'lesson_objects')
 
 # Assignments filename (can be changed easily)
 ASSIGNMENTS_FILENAME = 'assignments.md'
@@ -55,7 +57,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV',
         'banner_url': 'images/banner1.png',
         'active': False,         # whether to show the class is tought this year, or was tought in previous years
-        'regenerate': False      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
+        'regenerate': True      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
     },
     {
         'id': 2,
@@ -65,7 +67,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa',
         'banner_url': 'images/banner2.jpg',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 3,
@@ -75,7 +77,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37',
         'banner_url': 'images/banner571.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 4,
@@ -85,7 +87,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO',
         'banner_url': 'images/banner472.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 5,
@@ -95,7 +97,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW',
         'banner_url': 'images/banner471.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 6,
@@ -105,7 +107,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL',
         'banner_url': 'images/olympiad.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 7,
@@ -362,7 +364,7 @@ def _folder_cache_path(folder_id):
 
 def clear_folder_listing_cache(folder_id=None):
     """
-    Clear folder listing cache.
+    Clear folder listing cache (and lesson object cache when clearing all).
     If folder_id is given, clear only that folder's cache; otherwise clear all.
     """
     os.makedirs(CACHE_DIR, exist_ok=True)
@@ -371,11 +373,69 @@ def clear_folder_listing_cache(folder_id=None):
         if os.path.exists(path):
             os.remove(path)
             log_event(f"Cleared cache for folder {folder_id}")
+        lesson_path = _lesson_cache_path(folder_id)
+        if os.path.exists(lesson_path):
+            os.remove(lesson_path)
     else:
         for name in os.listdir(CACHE_DIR):
             if name.endswith('.json'):
                 os.remove(os.path.join(CACHE_DIR, name))
         log_event("Cleared all folder listing cache")
+        if os.path.isdir(LESSON_OBJ_CACHE_DIR):
+            for name in os.listdir(LESSON_OBJ_CACHE_DIR):
+                if name.endswith('.json'):
+                    os.remove(os.path.join(LESSON_OBJ_CACHE_DIR, name))
+            log_event("Cleared all lesson object cache")
+
+
+def _lesson_cache_path(folder_id):
+    """Return cache file path for a lesson object (keyed by lesson folder_id)."""
+    safe_id = re.sub(r'[^\w\-]', '_', folder_id)
+    return os.path.join(LESSON_OBJ_CACHE_DIR, f"{safe_id}.json")
+
+
+def get_cached_lesson_obj(lesson_folder_id, folder_modified_time):
+    """
+    Return cached lesson object if it exists and matches folder modified_time.
+    Lesson object has keys: name, desc, content, lesson_json (id is set by caller).
+    """
+    path = _lesson_cache_path(lesson_folder_id)
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        if data.get('modified_time') != folder_modified_time:
+            return None
+        log_event(f"Lesson object cache hit for folder {lesson_folder_id}")
+        return data.get('lesson_obj')
+    except Exception as e:
+        log_event(f"Lesson cache read error for {lesson_folder_id}: {str(e)}")
+        return None
+
+
+def save_lesson_obj_cache(lesson_folder_id, folder_modified_time, lesson_obj):
+    """Save lesson object to cache (stores name, desc, content, lesson_json; id set by caller)."""
+    os.makedirs(LESSON_OBJ_CACHE_DIR, exist_ok=True)
+    path = _lesson_cache_path(lesson_folder_id)
+    # Store without 'id' so it's stable; caller sets id when using
+    cache_obj = {
+        'name': lesson_obj['name'],
+        'desc': lesson_obj['desc'],
+        'content': lesson_obj['content'],
+        'lesson_json': lesson_obj['lesson_json'],
+    }
+    data = {
+        'modified_time': folder_modified_time,
+        'cached_at': datetime.now().isoformat(),
+        'lesson_obj': cache_obj,
+    }
+    try:
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        log_event(f"Cached lesson object for folder {lesson_folder_id}")
+    except Exception as e:
+        log_event(f"Lesson cache write error for {lesson_folder_id}: {str(e)}")
 
 
 def list_folder_contents(service, folder_id, use_cache=True):
@@ -383,9 +443,14 @@ def list_folder_contents(service, folder_id, use_cache=True):
     List all files and folders in a Google Drive folder.
     Uses ModifiedTime-based cache: each folder (including nested subfolders) has its own
     cache file; if the folder's modifiedTime is unchanged, the cached listing is returned.
+
+    Returns:
+        (items, cache_info): items is list of file/folder dicts; cache_info is
+        {"modified_time": str|None, "from_cache": bool}.
     """
     os.makedirs(CACHE_DIR, exist_ok=True)
     cache_file = _folder_cache_path(folder_id)
+    cache_info = {"modified_time": None, "from_cache": False}
 
     # Try cache (only if we have a cache file and use_cache is True)
     if use_cache and os.path.exists(cache_file):
@@ -401,7 +466,9 @@ def list_folder_contents(service, folder_id, use_cache=True):
             current_modified = folder_meta.get('modifiedTime')
             if cached_modified == current_modified:
                 log_event(f"Cache hit for folder {folder_id}")
-                return cache_data.get('items', [])
+                cache_info["modified_time"] = current_modified
+                cache_info["from_cache"] = True
+                return cache_data.get('items', []), cache_info
         except HttpError as e:
             if e.resp.status == 404:
                 # Folder deleted; remove stale cache
@@ -432,6 +499,8 @@ def list_folder_contents(service, folder_id, use_cache=True):
         log_event(f"Could not get modifiedTime for {folder_id}: {e}")
         modified_time = None
 
+    cache_info["modified_time"] = modified_time
+
     sorted_items = sorted(
         files,
         key=lambda x: (extract_lesson_number(x['name']), x['name'])
@@ -450,7 +519,7 @@ def list_folder_contents(service, folder_id, use_cache=True):
     except Exception as e:
         log_event(f"Cache write error for {folder_id}: {str(e)}")
 
-    return sorted_items
+    return sorted_items, cache_info
 
 
 # old implementation - had an issue with folders with the name 13.5 appearing before 13, and not after, that's why the above methods were introduced.
@@ -463,7 +532,7 @@ def list_folder_contents(service, folder_id, use_cache=True):
 
 def crawl_lesson_content(service, folder_id):
     """Recursively crawl the contents of a lesson folder."""
-    items = list_folder_contents(service, folder_id)
+    items, _ = list_folder_contents(service, folder_id)
     content = []
     for item in items:
         if item['mimeType'] == 'application/vnd.google-apps.folder':
@@ -490,7 +559,7 @@ def crawl_lesson_content(service, folder_id):
 def crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id):
     """Crawl all topics and lessons for a class."""
     # Get root folder contents once
-    root_folder_items = list_folder_contents(service, folder_id)
+    root_folder_items, _ = list_folder_contents(service, folder_id)
     
     # Read assignments.md file first, using root folder items to avoid redundant query
     assignments_content, assignments_file_id = read_assignments_file(service, folder_id, root_folder_items)
@@ -504,17 +573,29 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
             'lessons': []
         }
         # Get topic folder contents once
-        topic_folder_items = list_folder_contents(service, topic['id'])
+        topic_folder_items, _ = list_folder_contents(service, topic['id'])
         lesson_folders = [f for f in topic_folder_items if f['mimeType'] == 'application/vnd.google-apps.folder']
         for lesson_index, lesson in enumerate(lesson_folders, 1):
             # Get lesson folder contents once
-            lesson_folder_items = list_folder_contents(service, lesson['id'])
+            lesson_folder_items, lesson_cache_info = list_folder_contents(service, lesson['id'])
             
-            # Read README.md file for lesson description, using lesson folder items to avoid redundant query
+            # If folder unchanged, try to use cached full lesson object (skip README, lesson.json, crawl)
+            if lesson_cache_info.get("from_cache") and lesson_cache_info.get("modified_time"):
+                cached_lesson = get_cached_lesson_obj(lesson['id'], lesson_cache_info["modified_time"])
+                if cached_lesson is not None:
+                    lesson_obj = {
+                        'name': cached_lesson['name'],
+                        'desc': cached_lesson['desc'],
+                        'id': f"{topic_index}-{lesson_index}",
+                        'content': cached_lesson['content'],
+                        'lesson_json': cached_lesson['lesson_json'],
+                    }
+                    topic_obj['lessons'].append(lesson_obj)
+                    continue
+            
+            # Build lesson object (folder changed or no cache)
             lesson_description = read_readme_file(service, lesson['id'], lesson_folder_items)
-            # Read lesson.json metadata if exists, using lesson folder items to avoid redundant query
             lesson_meta = read_lesson_json(service, lesson['id'], lesson_folder_items)
-            # Add formatted due date if present
             if 'due_date' in lesson_meta:
                 display = _format_due_date(lesson_meta.get('due_date', ''))
                 if display:
@@ -523,11 +604,14 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
             lesson_obj = {
                 'name': lesson['name'],
                 'desc': lesson_description,
-                'id': f"{topic_index}-{lesson_index}",  # Add lesson ID in format "topic-lesson"
+                'id': f"{topic_index}-{lesson_index}",
                 'content': crawl_lesson_content(service, lesson['id']),
                 'lesson_json': lesson_meta
             }
             topic_obj['lessons'].append(lesson_obj)
+            # Cache for next run when folder is unchanged
+            if lesson_cache_info.get("modified_time"):
+                save_lesson_obj_cache(lesson['id'], lesson_cache_info["modified_time"], lesson_obj)
         topics.append(topic_obj)
     tags = [t['name'] for t in topics]
     return {
