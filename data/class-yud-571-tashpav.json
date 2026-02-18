@@ -539,6 +539,34 @@
             "due_date": "19-02-2026",
             "due_date_display": "חמישי, 19.02.2026"
           }
+        },
+        {
+          "name": "5. זויות היקפיות הנשענת על הקוטר",
+          "desc": "",
+          "id": "3-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/15JKnKO86X2A31XZVgYJMfePPJO3vzNT1/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1yAW8yXDqAWH7EbKgHMrSXaDd_iS_4vzk/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1iWfjRJurCd0fAb851eNo1KuDVyN5vTd4/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מצגת למי שלא היה בשיעור.pptx",
+              "url": "https://drive.google.com/file/d/1t23ZHy9cXrahyhPWj1PNhP1_O2Zp0Hel/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -1437,8 +1465,8 @@
           ],
           "lesson_json": {
             "lesson_date": "10-02-2026",
-            "due_date": "17-02-2026",
-            "due_date_display": "שלישי, 17.02.2026"
+            "due_date": "19-02-2026",
+            "due_date_display": "חמישי, 19.02.2026"
           }
         }
       ]
