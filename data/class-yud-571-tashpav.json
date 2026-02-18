@@ -1917,6 +1917,11 @@
           "content": [
             {
               "type": "file",
+              "name": "0. נושאים לבוחן",
+              "url": "https://drive.google.com/file/d/1N2BGyHy9hEbDuFHJWnUjL6rtReGFCeXC/view"
+            },
+            {
+              "type": "file",
               "name": "1. פתרון חקירה בלי חור",
               "url": "https://drive.google.com/file/d/1ilx7rWnhaYwCXXwdFTFxL4CyRdk8LV47/view"
             },
@@ -1932,8 +1937,18 @@
             },
             {
               "type": "file",
-              "name": "נושאים לבוחן",
-              "url": "https://drive.google.com/file/d/1N2BGyHy9hEbDuFHJWnUjL6rtReGFCeXC/view"
+              "name": "4. שאלות ותשובות לשאלות תלמידים מתוך השאלות לבוחן",
+              "url": "https://drive.google.com/file/d/1CtYdJ18VxWFtW4O_2C_OesECGb2gyaab/view"
+            },
+            {
+              "type": "file",
+              "name": "5. בוחן פונקצית מנה - פברואר - טור א וטור ב - ופתרון",
+              "url": "https://drive.google.com/file/d/1wZmOU7shR1gw1SyPYPbE8UI7y53nByGX/view"
+            },
+            {
+              "type": "file",
+              "name": "6. בוחן פונקצית מנה - פברואר - טור א וטור ב - מחוון",
+              "url": "https://drive.google.com/file/d/1x3JiHsB21i9d3S75ZMmF64U0NQbb9pSQ/view"
             }
           ],
           "lesson_json": {
