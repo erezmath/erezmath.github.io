@@ -170,19 +170,27 @@ def extract_folder_id(url):
     match = re.search(r'/folders/([a-zA-Z0-9_-]+)', url)
     return match.group(1) if match else url
 
-def read_readme_file(service, folder_id):
-    """Read README.md file from a Google Drive folder and return its HTML content."""
+def read_readme_file(service, folder_id, folder_items):
+    """
+    Read README.md file from a Google Drive folder and return its HTML content.
+    
+    Args:
+        service: Google Drive service object
+        folder_id: ID of the folder to search
+        folder_items: List of items already fetched from folder listing.
+    """
     try:
-        # Look for README.md file in the folder
-        query = f"'{folder_id}' in parents and name = 'README.md' and trashed = false"
-        results = service.files().list(q=query, fields="files(id, name)").execute()
-        files = results.get('files', [])
+        readme_file_id = None
         
-        if not files:
+        # Check folder_items for README.md
+        for item in folder_items:
+            if item.get('name') == 'README.md' and item.get('mimeType') != 'application/vnd.google-apps.folder':
+                readme_file_id = item.get('id')
+                break
+        
+        # If not found, return empty string (file doesn't exist)
+        if not readme_file_id:
             return ""
-        
-        # Get the first README.md file found
-        readme_file_id = files[0]['id']
         
         # Download the file content
         file_content = service.files().get_media(fileId=readme_file_id).execute()
@@ -199,20 +207,29 @@ def read_readme_file(service, folder_id):
         log_event(f"Error reading README.md from folder {folder_id}: {str(e)}")
         return ""
 
-def read_lesson_json(service, folder_id):
+def read_lesson_json(service, folder_id, folder_items):
     """
     Read lesson.json file from a Google Drive folder and return its parsed JSON object.
     Returns an empty dict if the file does not exist or cannot be parsed.
+    
+    Args:
+        service: Google Drive service object
+        folder_id: ID of the folder to search
+        folder_items: List of items already fetched from folder listing.
     """
     try:
-        query = f"'{folder_id}' in parents and name = 'lesson.json' and trashed = false"
-        results = service.files().list(q=query, fields="files(id, name)").execute()
-        files = results.get('files', [])
-
-        if not files:
+        lesson_json_id = None
+        
+        # Check folder_items for lesson.json
+        for item in folder_items:
+            if item.get('name') == 'lesson.json' and item.get('mimeType') != 'application/vnd.google-apps.folder':
+                lesson_json_id = item.get('id')
+                break
+        
+        # If not found, return empty dict (file doesn't exist)
+        if not lesson_json_id:
             return {}
-
-        lesson_json_id = files[0]['id']
+        
         file_content = service.files().get_media(fileId=lesson_json_id).execute()
         json_text = file_content.decode('utf-8')
         return json.loads(json_text)
@@ -254,24 +271,30 @@ def _format_due_date(due_str: str) -> str:
     except Exception:
         return ""
 
-def read_assignments_file(service, folder_id):
+def read_assignments_file(service, folder_id, folder_items):
     """
     Read assignments.md file from a Google Drive folder and return its HTML content and file ID.
     Only the content up to and including the 4th <hr> tag is kept in the HTML for performance.
     NOTE: If you change the number of blocks here, you must also update the JS logic in static/main.js
     to keep the frontend and backend in sync.
+    
+    Args:
+        service: Google Drive service object
+        folder_id: ID of the folder to search
+        folder_items: List of items already fetched from folder listing.
     """
     try:
-        # Look for assignments.md file in the folder
-        query = f"'{folder_id}' in parents and name = '{ASSIGNMENTS_FILENAME}' and trashed = false"
-        results = service.files().list(q=query, fields="files(id, name)").execute()
-        files = results.get('files', [])
+        assignments_file_id = None
         
-        if not files:
+        # Check folder_items for assignments.md
+        for item in folder_items:
+            if item.get('name') == ASSIGNMENTS_FILENAME and item.get('mimeType') != 'application/vnd.google-apps.folder':
+                assignments_file_id = item.get('id')
+                break
+        
+        # If not found, return empty strings (file doesn't exist)
+        if not assignments_file_id:
             return "", ""
-        
-        # Get the first assignments.md file found
-        assignments_file_id = files[0]['id']
         
         # Download the file content
         file_content = service.files().get_media(fileId=assignments_file_id).execute()
@@ -370,23 +393,31 @@ def crawl_lesson_content(service, folder_id):
 
 def crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id):
     """Crawl all topics and lessons for a class."""
-    # Read assignments.txt file first
-    assignments_content, assignments_file_id = read_assignments_file(service, folder_id)
+    # Get root folder contents once
+    root_folder_items = list_folder_contents(service, folder_id)
+    
+    # Read assignments.md file first, using root folder items to avoid redundant query
+    assignments_content, assignments_file_id = read_assignments_file(service, folder_id, root_folder_items)
     
     topics = []
-    topic_folders = [f for f in list_folder_contents(service, folder_id) if f['mimeType'] == 'application/vnd.google-apps.folder']
+    topic_folders = [f for f in root_folder_items if f['mimeType'] == 'application/vnd.google-apps.folder']
     for topic_index, topic in enumerate(topic_folders, 1):
         topic_obj = {
             'name': topic['name'],
             'id': topic['name'].replace(' ', '-').replace('.', '').replace('/', '-').lower(),
             'lessons': []
         }
-        lesson_folders = [f for f in list_folder_contents(service, topic['id']) if f['mimeType'] == 'application/vnd.google-apps.folder']
+        # Get topic folder contents once
+        topic_folder_items = list_folder_contents(service, topic['id'])
+        lesson_folders = [f for f in topic_folder_items if f['mimeType'] == 'application/vnd.google-apps.folder']
         for lesson_index, lesson in enumerate(lesson_folders, 1):
-            # Read README.md file for lesson description
-            lesson_description = read_readme_file(service, lesson['id'])
-            # Read lesson.json metadata if exists
-            lesson_meta = read_lesson_json(service, lesson['id'])
+            # Get lesson folder contents once
+            lesson_folder_items = list_folder_contents(service, lesson['id'])
+            
+            # Read README.md file for lesson description, using lesson folder items to avoid redundant query
+            lesson_description = read_readme_file(service, lesson['id'], lesson_folder_items)
+            # Read lesson.json metadata if exists, using lesson folder items to avoid redundant query
+            lesson_meta = read_lesson_json(service, lesson['id'], lesson_folder_items)
             # Add formatted due date if present
             if 'due_date' in lesson_meta:
                 display = _format_due_date(lesson_meta.get('due_date', ''))
