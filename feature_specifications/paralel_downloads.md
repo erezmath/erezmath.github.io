@@ -1,0 +1,1 @@
+parallel downloads was tried and had a bug, cursor agents were unable to solve it, so i discarded changes and reverted to the old implementation.
