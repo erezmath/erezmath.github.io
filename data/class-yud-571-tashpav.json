@@ -1219,7 +1219,8 @@
           ],
           "lesson_json": {
             "lesson_date": "22-02-2026",
-            "due_date": "29-02-2026"
+            "due_date": "01-03-2026",
+            "due_date_display": "ראשון, 01.03.2026"
           }
         }
       ]

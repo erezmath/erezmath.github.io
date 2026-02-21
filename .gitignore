@@ -1,4 +1,4 @@
 secrets/
 cache/
 changes_api/
-pycache/
+**/__pycache__/ 
