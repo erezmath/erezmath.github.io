@@ -58,7 +58,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV',
         'banner_url': 'images/banner1.png',
         'active': False,         # whether to show the class is tought this year, or was tought in previous years
-        'regenerate': False      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
+        'regenerate': True      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
     },
     {
         'id': 2,
@@ -68,7 +68,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa',
         'banner_url': 'images/banner2.jpg',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 3,
@@ -78,7 +78,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37',
         'banner_url': 'images/banner571.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 4,
@@ -88,7 +88,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO',
         'banner_url': 'images/banner472.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 5,
@@ -98,7 +98,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW',
         'banner_url': 'images/banner471.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 6,
@@ -108,7 +108,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL',
         'banner_url': 'images/olympiad.png',
         'active': False,
-        'regenerate': False
+        'regenerate': True
     },
     {
         'id': 7,
@@ -437,7 +437,7 @@ def save_lesson_obj_cache(lesson_folder_id, folder_modified_time, lesson_obj):
     try:
         with open(path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        log_event(f"Cached lesson object for folder {lesson_folder_id}")
+        #log_event(f"Cached lesson object for folder {lesson_folder_id}")
     except Exception as e:
         log_event(f"Lesson cache write error for {lesson_folder_id}: {str(e)}")
 
@@ -475,7 +475,6 @@ def list_folder_contents(service, folder_id, use_cache=True, invalidated_ids=Non
         except Exception as e:
             log_event(f"Cache read error for {folder_id}: {str(e)}, fetching fresh")
 
-    log_event(f"Fetching folder {folder_id} from API")
     # Fetch full listing from API
     query = f"'{folder_id}' in parents and trashed = false"
     results = service.files().list(
