@@ -450,3 +450,9 @@ This provides:
 - ✅ Easy to disable if needed
 
 The cache will be most effective since "vast majority of folders don't change between runs" - meaning most runs will see near-maximum speedup.
+
+There's a bug in the implementation. 
+When cache directory was present, the build process did not detect a new lesson. ran without the cache directory, and it was built correctly.
+Also, add a flag to build_site.py to allow clearing of the cache.
+"python build_site.py --regen-data --clear-cache" will clear cache.
+by default "python build_site.py --regen-data" will not clear cache.

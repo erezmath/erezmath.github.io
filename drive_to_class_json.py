@@ -57,7 +57,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV',
         'banner_url': 'images/banner1.png',
         'active': False,         # whether to show the class is tought this year, or was tought in previous years
-        'regenerate': True      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
+        'regenerate': False      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
     },
     {
         'id': 2,
@@ -67,7 +67,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa',
         'banner_url': 'images/banner2.jpg',
         'active': False,
-        'regenerate': True
+        'regenerate': False
     },
     {
         'id': 3,
@@ -77,7 +77,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37',
         'banner_url': 'images/banner571.png',
         'active': False,
-        'regenerate': True
+        'regenerate': False
     },
     {
         'id': 4,
@@ -87,7 +87,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO',
         'banner_url': 'images/banner472.png',
         'active': False,
-        'regenerate': True
+        'regenerate': False
     },
     {
         'id': 5,
@@ -97,7 +97,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW',
         'banner_url': 'images/banner471.png',
         'active': False,
-        'regenerate': True
+        'regenerate': False
     },
     {
         'id': 6,
@@ -107,7 +107,7 @@ class_info = [
         'google_drive_url': 'https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL',
         'banner_url': 'images/olympiad.png',
         'active': False,
-        'regenerate': True
+        'regenerate': False
     },
     {
         'id': 7,
@@ -407,7 +407,7 @@ def get_cached_lesson_obj(lesson_folder_id, folder_modified_time):
             data = json.load(f)
         if data.get('modified_time') != folder_modified_time:
             return None
-        log_event(f"Lesson object cache hit for folder {lesson_folder_id}")
+        #log_event(f"Lesson object cache hit for folder {lesson_folder_id}")
         return data.get('lesson_obj')
     except Exception as e:
         log_event(f"Lesson cache read error for {lesson_folder_id}: {str(e)}")
@@ -465,10 +465,21 @@ def list_folder_contents(service, folder_id, use_cache=True):
             cached_modified = cache_data.get('modified_time')
             current_modified = folder_meta.get('modifiedTime')
             if cached_modified == current_modified:
-                log_event(f"Cache hit for folder {folder_id}")
-                cache_info["modified_time"] = current_modified
-                cache_info["from_cache"] = True
-                return cache_data.get('items', []), cache_info
+                # Drive does not update a folder's modifiedTime when children are added/removed/renamed.
+                # Verify contents by comparing current (id, name) pairs with cached; detects new/removed/renamed items.
+                list_query = f"'{folder_id}' in parents and trashed = false"
+                list_results = service.files().list(
+                    q=list_query,
+                    fields="files(id, name)",
+                    pageSize=1000
+                ).execute()
+                current_pairs = {(f['id'], f['name']) for f in list_results.get('files', [])}
+                cached_pairs = {(item['id'], item['name']) for item in cache_data.get('items', [])}
+                if current_pairs == cached_pairs:
+                    cache_info["modified_time"] = current_modified
+                    cache_info["from_cache"] = True
+                    return cache_data.get('items', []), cache_info
+                # Pairs differ (new, removed, or renamed items) -> fall through to full fetch
         except HttpError as e:
             if e.resp.status == 404:
                 # Folder deleted; remove stale cache
@@ -479,6 +490,8 @@ def list_folder_contents(service, folder_id, use_cache=True):
         except Exception as e:
             log_event(f"Cache read error for {folder_id}: {str(e)}, fetching fresh")
 
+    
+    log_event(f"cache not found for folder {folder_id}, fetching full listing from API")
     # Fetch full listing from API
     query = f"'{folder_id}' in parents and trashed = false"
     results = service.files().list(
