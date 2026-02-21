@@ -1,0 +1,768 @@
+2026-02-21 18:10:15,774 [2026-02-21 18:10:15 IST] Regenerating data with drive_to_class_json.py
+2026-02-21 18:10:16,676 [2026-02-21 18:10:16 IST] Drive-to-class JSON generation started
+2026-02-21 18:10:16,678 [2026-02-21 18:10:16 IST] Main process started
+2026-02-21 18:10:16,940 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:10:16,943 [2026-02-21 18:10:16 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:10:16,944 [2026-02-21 18:10:16 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:10:16,944 [2026-02-21 18:10:16 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:10:16,944 [2026-02-21 18:10:16 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:10:16,944 [2026-02-21 18:10:16 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:10:16,944 [2026-02-21 18:10:16 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:10:16,944 [2026-02-21 18:10:16 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:10:16,982 [2026-02-21 18:10:16 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:10:16,983 [2026-02-21 18:10:16 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:10:17,025 [2026-02-21 18:10:17 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:10:17,025 [2026-02-21 18:10:17 IST] All classes processed. JSON generation complete.
+2026-02-21 18:10:17,711 [2026-02-21 18:10:17 IST] Saved initial changes state for next run
+2026-02-21 18:10:17,772 [2026-02-21 18:10:17 IST] Data regeneration complete
+2026-02-21 18:10:17,772 [2026-02-21 18:10:17 IST] Main build process started
+2026-02-21 18:10:17,791 [2026-02-21 18:10:17 IST] Loaded 8 class JSON files
+2026-02-21 18:10:17,804 [2026-02-21 18:10:17 IST] Rendered index.html
+2026-02-21 18:10:17,836 [2026-02-21 18:10:17 IST] Rendered all class pages
+2026-02-21 18:10:17,838 [2026-02-21 18:10:17 IST] Copied static assets
+2026-02-21 18:10:17,864 [2026-02-21 18:10:17 IST] Copied images
+2026-02-21 18:10:17,865 [2026-02-21 18:10:17 IST] Site built successfully!
+2026-02-21 18:11:41,236 [2026-02-21 18:11:41 IST] Regenerating data with drive_to_class_json.py
+2026-02-21 18:11:42,137 [2026-02-21 18:11:42 IST] Drive-to-class JSON generation started
+2026-02-21 18:11:42,139 [2026-02-21 18:11:42 IST] Main process started
+2026-02-21 18:11:42,158 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:11:42,874 [2026-02-21 18:11:42 IST] Persisted 0 changes to changes_api\changes-21-02-2026_18-11.json
+2026-02-21 18:11:42,881 [2026-02-21 18:11:42 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:11:42,882 [2026-02-21 18:11:42 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:11:42,882 [2026-02-21 18:11:42 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:11:42,882 [2026-02-21 18:11:42 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:11:42,882 [2026-02-21 18:11:42 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:11:42,882 [2026-02-21 18:11:42 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:11:42,882 [2026-02-21 18:11:42 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:11:42,921 [2026-02-21 18:11:42 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:11:42,921 [2026-02-21 18:11:42 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:11:42,964 [2026-02-21 18:11:42 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:11:42,964 [2026-02-21 18:11:42 IST] All classes processed. JSON generation complete.
+2026-02-21 18:11:42,965 [2026-02-21 18:11:42 IST] Saved changes state for next run
+2026-02-21 18:11:43,019 [2026-02-21 18:11:43 IST] Data regeneration complete
+2026-02-21 18:11:43,019 [2026-02-21 18:11:43 IST] Main build process started
+2026-02-21 18:11:43,045 [2026-02-21 18:11:43 IST] Loaded 8 class JSON files
+2026-02-21 18:11:43,057 [2026-02-21 18:11:43 IST] Rendered index.html
+2026-02-21 18:11:43,088 [2026-02-21 18:11:43 IST] Rendered all class pages
+2026-02-21 18:11:43,090 [2026-02-21 18:11:43 IST] Copied static assets
+2026-02-21 18:11:43,106 [2026-02-21 18:11:43 IST] Copied images
+2026-02-21 18:11:43,106 [2026-02-21 18:11:43 IST] Site built successfully!
+2026-02-21 18:12:37,744 [2026-02-21 18:12:37 IST] Regenerating data with drive_to_class_json.py
+2026-02-21 18:12:38,650 [2026-02-21 18:12:38 IST] Drive-to-class JSON generation started
+2026-02-21 18:12:38,652 [2026-02-21 18:12:38 IST] Main process started
+2026-02-21 18:12:38,654 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:12:39,526 [2026-02-21 18:12:39 IST] Persisted 4 changes to changes_api\changes-21-02-2026_18-12.json
+2026-02-21 18:12:39,539 [2026-02-21 18:12:39 IST] Affected folder IDs (will refetch): 2
+2026-02-21 18:12:39,540 [2026-02-21 18:12:39 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:12:39,541 [2026-02-21 18:12:39 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:12:39,542 [2026-02-21 18:12:39 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:12:39,542 [2026-02-21 18:12:39 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:12:39,546 [2026-02-21 18:12:39 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:12:39,546 [2026-02-21 18:12:39 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:12:39,547 [2026-02-21 18:12:39 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:12:39,565 [2026-02-21 18:12:39 IST] Fetching folder 17XaydLICLr4dXo3IBtHIcyYJL4tX8KjO from API
+2026-02-21 18:12:40,395 [2026-02-21 18:12:40 IST] Cached listing for folder 17XaydLICLr4dXo3IBtHIcyYJL4tX8KjO
+2026-02-21 18:12:40,408 [2026-02-21 18:12:40 IST] Fetching folder 1NCDOg67WRnHsNxTfpqmaey_9-kxffLwt from API
+2026-02-21 18:12:41,000 [2026-02-21 18:12:41 IST] Cached listing for folder 1NCDOg67WRnHsNxTfpqmaey_9-kxffLwt
+2026-02-21 18:12:42,425 [2026-02-21 18:12:42 IST] Fetching folder 1NCDOg67WRnHsNxTfpqmaey_9-kxffLwt from API
+2026-02-21 18:12:43,031 [2026-02-21 18:12:43 IST] Cached listing for folder 1NCDOg67WRnHsNxTfpqmaey_9-kxffLwt
+2026-02-21 18:12:43,032 [2026-02-21 18:12:43 IST] Cached lesson object for folder 1NCDOg67WRnHsNxTfpqmaey_9-kxffLwt
+2026-02-21 18:12:43,045 [2026-02-21 18:12:43 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:12:43,045 [2026-02-21 18:12:43 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:12:43,088 [2026-02-21 18:12:43 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:12:43,088 [2026-02-21 18:12:43 IST] All classes processed. JSON generation complete.
+2026-02-21 18:12:43,088 [2026-02-21 18:12:43 IST] Saved changes state for next run
+2026-02-21 18:12:43,145 [2026-02-21 18:12:43 IST] Data regeneration complete
+2026-02-21 18:12:43,145 [2026-02-21 18:12:43 IST] Main build process started
+2026-02-21 18:12:43,173 [2026-02-21 18:12:43 IST] Loaded 8 class JSON files
+2026-02-21 18:12:43,184 [2026-02-21 18:12:43 IST] Rendered index.html
+2026-02-21 18:12:43,213 [2026-02-21 18:12:43 IST] Rendered all class pages
+2026-02-21 18:12:43,215 [2026-02-21 18:12:43 IST] Copied static assets
+2026-02-21 18:12:43,230 [2026-02-21 18:12:43 IST] Copied images
+2026-02-21 18:12:43,230 [2026-02-21 18:12:43 IST] Site built successfully!
+2026-02-21 18:13:32,888 [2026-02-21 18:13:32 IST] Regenerating data with drive_to_class_json.py
+2026-02-21 18:13:33,774 [2026-02-21 18:13:33 IST] Drive-to-class JSON generation started
+2026-02-21 18:13:33,775 [2026-02-21 18:13:33 IST] Main process started
+2026-02-21 18:13:33,778 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:13:34,615 [2026-02-21 18:13:34 IST] Persisted 4 changes to changes_api\changes-21-02-2026_18-13.json
+2026-02-21 18:13:34,622 [2026-02-21 18:13:34 IST] Affected folder IDs (will refetch): 2
+2026-02-21 18:13:34,622 [2026-02-21 18:13:34 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:13:34,623 [2026-02-21 18:13:34 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:13:34,623 [2026-02-21 18:13:34 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:13:34,623 [2026-02-21 18:13:34 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:13:34,623 [2026-02-21 18:13:34 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:13:34,623 [2026-02-21 18:13:34 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:13:34,623 [2026-02-21 18:13:34 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:13:34,635 [2026-02-21 18:13:34 IST] Fetching folder 17XaydLICLr4dXo3IBtHIcyYJL4tX8KjO from API
+2026-02-21 18:13:35,293 [2026-02-21 18:13:35 IST] Cached listing for folder 17XaydLICLr4dXo3IBtHIcyYJL4tX8KjO
+2026-02-21 18:13:35,333 [2026-02-21 18:13:35 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:13:35,333 [2026-02-21 18:13:35 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:13:35,377 [2026-02-21 18:13:35 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:13:35,377 [2026-02-21 18:13:35 IST] All classes processed. JSON generation complete.
+2026-02-21 18:13:35,378 [2026-02-21 18:13:35 IST] Saved changes state for next run
+2026-02-21 18:13:35,423 [2026-02-21 18:13:35 IST] Data regeneration complete
+2026-02-21 18:13:35,423 [2026-02-21 18:13:35 IST] Main build process started
+2026-02-21 18:13:35,448 [2026-02-21 18:13:35 IST] Loaded 8 class JSON files
+2026-02-21 18:13:35,470 [2026-02-21 18:13:35 IST] Rendered index.html
+2026-02-21 18:13:35,499 [2026-02-21 18:13:35 IST] Rendered all class pages
+2026-02-21 18:13:35,501 [2026-02-21 18:13:35 IST] Copied static assets
+2026-02-21 18:13:35,514 [2026-02-21 18:13:35 IST] Copied images
+2026-02-21 18:13:35,514 [2026-02-21 18:13:35 IST] Site built successfully!
+2026-02-21 18:15:21,713 [2026-02-21 18:15:21 IST] Regenerating data with drive_to_class_json.py
+2026-02-21 18:15:22,647 [2026-02-21 18:15:22 IST] Drive-to-class JSON generation started
+2026-02-21 18:15:22,649 [2026-02-21 18:15:22 IST] Main process started
+2026-02-21 18:15:22,652 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:15:23,528 [2026-02-21 18:15:23 IST] Persisted 1 changes to changes_api\changes-21-02-2026_18-15.json
+2026-02-21 18:15:23,538 [2026-02-21 18:15:23 IST] Affected folder IDs (will refetch): 1
+2026-02-21 18:15:23,538 [2026-02-21 18:15:23 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:15:23,538 [2026-02-21 18:15:23 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:15:23,538 [2026-02-21 18:15:23 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:15:23,539 [2026-02-21 18:15:23 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:15:23,539 [2026-02-21 18:15:23 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:15:23,539 [2026-02-21 18:15:23 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:15:23,539 [2026-02-21 18:15:23 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:15:23,571 [2026-02-21 18:15:23 IST] Fetching folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK from API
+2026-02-21 18:15:24,268 [2026-02-21 18:15:24 IST] Cached listing for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:15:24,921 [2026-02-21 18:15:24 IST] Fetching folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK from API
+2026-02-21 18:15:25,571 [2026-02-21 18:15:25 IST] Cached listing for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:15:25,572 [2026-02-21 18:15:25 IST] Cached lesson object for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:15:25,598 [2026-02-21 18:15:25 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:15:25,598 [2026-02-21 18:15:25 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:15:25,643 [2026-02-21 18:15:25 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:15:25,644 [2026-02-21 18:15:25 IST] All classes processed. JSON generation complete.
+2026-02-21 18:15:25,644 [2026-02-21 18:15:25 IST] Saved changes state for next run
+2026-02-21 18:15:25,706 [2026-02-21 18:15:25 IST] Data regeneration complete
+2026-02-21 18:15:25,707 [2026-02-21 18:15:25 IST] Main build process started
+2026-02-21 18:15:25,732 [2026-02-21 18:15:25 IST] Loaded 8 class JSON files
+2026-02-21 18:15:25,744 [2026-02-21 18:15:25 IST] Rendered index.html
+2026-02-21 18:15:25,775 [2026-02-21 18:15:25 IST] Rendered all class pages
+2026-02-21 18:15:25,777 [2026-02-21 18:15:25 IST] Copied static assets
+2026-02-21 18:15:25,797 [2026-02-21 18:15:25 IST] Copied images
+2026-02-21 18:15:25,797 [2026-02-21 18:15:25 IST] Site built successfully!
+2026-02-21 18:16:18,404 [2026-02-21 18:16:18 IST] Regenerating data with drive_to_class_json.py
+2026-02-21 18:16:19,268 [2026-02-21 18:16:19 IST] Drive-to-class JSON generation started
+2026-02-21 18:16:19,270 [2026-02-21 18:16:19 IST] Main process started
+2026-02-21 18:16:19,273 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:16:20,172 [2026-02-21 18:16:20 IST] Persisted 1 changes to changes_api\changes-21-02-2026_18-16.json
+2026-02-21 18:16:20,179 [2026-02-21 18:16:20 IST] Affected folder IDs (will refetch): 1
+2026-02-21 18:16:20,179 [2026-02-21 18:16:20 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:16:20,180 [2026-02-21 18:16:20 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:16:20,180 [2026-02-21 18:16:20 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:16:20,180 [2026-02-21 18:16:20 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:16:20,180 [2026-02-21 18:16:20 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:16:20,180 [2026-02-21 18:16:20 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:16:20,180 [2026-02-21 18:16:20 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:16:20,193 [2026-02-21 18:16:20 IST] Fetching folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK from API
+2026-02-21 18:16:20,854 [2026-02-21 18:16:20 IST] Cached listing for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:16:20,854 [2026-02-21 18:16:20 IST] Fetching folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK from API
+2026-02-21 18:16:21,576 [2026-02-21 18:16:21 IST] Cached listing for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:16:21,576 [2026-02-21 18:16:21 IST] Cached lesson object for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:16:21,602 [2026-02-21 18:16:21 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:16:21,602 [2026-02-21 18:16:21 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:16:21,648 [2026-02-21 18:16:21 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:16:21,648 [2026-02-21 18:16:21 IST] All classes processed. JSON generation complete.
+2026-02-21 18:16:21,649 [2026-02-21 18:16:21 IST] Saved changes state for next run
+2026-02-21 18:16:21,704 [2026-02-21 18:16:21 IST] Data regeneration complete
+2026-02-21 18:16:21,704 [2026-02-21 18:16:21 IST] Main build process started
+2026-02-21 18:16:21,732 [2026-02-21 18:16:21 IST] Loaded 8 class JSON files
+2026-02-21 18:16:21,744 [2026-02-21 18:16:21 IST] Rendered index.html
+2026-02-21 18:16:21,782 [2026-02-21 18:16:21 IST] Rendered all class pages
+2026-02-21 18:16:21,785 [2026-02-21 18:16:21 IST] Copied static assets
+2026-02-21 18:16:21,806 [2026-02-21 18:16:21 IST] Copied images
+2026-02-21 18:16:21,806 [2026-02-21 18:16:21 IST] Site built successfully!
+2026-02-21 18:33:39,759 [2026-02-21 18:33:39 IST] Drive-to-class JSON generation started
+2026-02-21 18:33:39,796 [2026-02-21 18:33:39 IST] Cleared all folder listing cache
+2026-02-21 18:33:39,832 [2026-02-21 18:33:39 IST] Cleared all lesson object cache
+2026-02-21 18:33:39,832 [2026-02-21 18:33:39 IST] Cleared changes state (startPageToken)
+2026-02-21 18:33:39,832 [2026-02-21 18:33:39 IST] Cleared folder listing and lesson caches
+2026-02-21 18:33:39,832 [2026-02-21 18:33:39 IST] Regenerating data with drive_to_class_json.py
+2026-02-21 18:33:40,755 [2026-02-21 18:33:40 IST] Drive-to-class JSON generation started
+2026-02-21 18:33:40,757 [2026-02-21 18:33:40 IST] Main process started
+2026-02-21 18:33:40,761 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:33:40,764 [2026-02-21 18:33:40 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:33:40,764 [2026-02-21 18:33:40 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:33:40,764 [2026-02-21 18:33:40 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:33:40,764 [2026-02-21 18:33:40 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:33:40,764 [2026-02-21 18:33:40 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:33:40,764 [2026-02-21 18:33:40 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:33:40,765 [2026-02-21 18:33:40 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:33:40,765 [2026-02-21 18:33:40 IST] Fetching folder 1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ from API
+2026-02-21 18:33:41,803 [2026-02-21 18:33:41 IST] Cached listing for folder 1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ
+2026-02-21 18:33:41,803 [2026-02-21 18:33:41 IST] Fetching folder 1UH6UHEILeV6E_kgrKKfDkJRc8wRxljxp from API
+2026-02-21 18:33:42,456 [2026-02-21 18:33:42 IST] Cached listing for folder 1UH6UHEILeV6E_kgrKKfDkJRc8wRxljxp
+2026-02-21 18:33:42,456 [2026-02-21 18:33:42 IST] Fetching folder 1U9t0aZ4-dW-xQr67-siNNAFDN_A2rxA_ from API
+2026-02-21 18:33:43,015 [2026-02-21 18:33:43 IST] Cached listing for folder 1U9t0aZ4-dW-xQr67-siNNAFDN_A2rxA_
+2026-02-21 18:33:43,028 [2026-02-21 18:33:43 IST] Cached lesson object for folder 1U9t0aZ4-dW-xQr67-siNNAFDN_A2rxA_
+2026-02-21 18:33:43,028 [2026-02-21 18:33:43 IST] Fetching folder 1r1k_ZLDQTDcrkGFB9MR4lmWcpHFdaf2H from API
+2026-02-21 18:33:43,616 [2026-02-21 18:33:43 IST] Cached listing for folder 1r1k_ZLDQTDcrkGFB9MR4lmWcpHFdaf2H
+2026-02-21 18:33:43,624 [2026-02-21 18:33:43 IST] Cached lesson object for folder 1r1k_ZLDQTDcrkGFB9MR4lmWcpHFdaf2H
+2026-02-21 18:33:43,624 [2026-02-21 18:33:43 IST] Fetching folder 1asosA-Usn2o4Wi3_4Od79uqBNVMx_jEr from API
+2026-02-21 18:33:44,247 [2026-02-21 18:33:44 IST] Cached listing for folder 1asosA-Usn2o4Wi3_4Od79uqBNVMx_jEr
+2026-02-21 18:33:44,248 [2026-02-21 18:33:44 IST] Fetching folder 17RTNi4b7F0bgY009Y-I6FE2S402bpth4 from API
+2026-02-21 18:33:44,874 [2026-02-21 18:33:44 IST] Cached listing for folder 17RTNi4b7F0bgY009Y-I6FE2S402bpth4
+2026-02-21 18:33:44,885 [2026-02-21 18:33:44 IST] Cached lesson object for folder 17RTNi4b7F0bgY009Y-I6FE2S402bpth4
+2026-02-21 18:33:44,885 [2026-02-21 18:33:44 IST] Fetching folder 1csRnd76pT0comn0ou3NUxenRhAWdS4xw from API
+2026-02-21 18:33:45,541 [2026-02-21 18:33:45 IST] Cached listing for folder 1csRnd76pT0comn0ou3NUxenRhAWdS4xw
+2026-02-21 18:33:45,548 [2026-02-21 18:33:45 IST] Cached lesson object for folder 1csRnd76pT0comn0ou3NUxenRhAWdS4xw
+2026-02-21 18:33:45,549 [2026-02-21 18:33:45 IST] Fetching folder 1rewE9npqDWA6agg7YYk6GWCuSahibRGU from API
+2026-02-21 18:33:46,166 [2026-02-21 18:33:46 IST] Cached listing for folder 1rewE9npqDWA6agg7YYk6GWCuSahibRGU
+2026-02-21 18:33:46,177 [2026-02-21 18:33:46 IST] Cached lesson object for folder 1rewE9npqDWA6agg7YYk6GWCuSahibRGU
+2026-02-21 18:33:46,177 [2026-02-21 18:33:46 IST] Fetching folder 1hvl5_1tChNPgGh6Ql5QzJGT7-frnVXGy from API
+2026-02-21 18:33:46,775 [2026-02-21 18:33:46 IST] Cached listing for folder 1hvl5_1tChNPgGh6Ql5QzJGT7-frnVXGy
+2026-02-21 18:33:46,782 [2026-02-21 18:33:46 IST] Cached lesson object for folder 1hvl5_1tChNPgGh6Ql5QzJGT7-frnVXGy
+2026-02-21 18:33:46,783 [2026-02-21 18:33:46 IST] Fetching folder 1eldYHyT_ADhNt0G7e46CVvCh95x4fBw7 from API
+2026-02-21 18:33:47,383 [2026-02-21 18:33:47 IST] Cached listing for folder 1eldYHyT_ADhNt0G7e46CVvCh95x4fBw7
+2026-02-21 18:33:47,392 [2026-02-21 18:33:47 IST] Cached lesson object for folder 1eldYHyT_ADhNt0G7e46CVvCh95x4fBw7
+2026-02-21 18:33:47,392 [2026-02-21 18:33:47 IST] Fetching folder 1V0_aomyvIGRpSSdrEv7gQ_0kywOGee1m from API
+2026-02-21 18:33:47,984 [2026-02-21 18:33:47 IST] Cached listing for folder 1V0_aomyvIGRpSSdrEv7gQ_0kywOGee1m
+2026-02-21 18:33:47,996 [2026-02-21 18:33:47 IST] Cached lesson object for folder 1V0_aomyvIGRpSSdrEv7gQ_0kywOGee1m
+2026-02-21 18:33:47,996 [2026-02-21 18:33:47 IST] Fetching folder 1LM1MqyfTGP3ME0_z_L838jdHvstyzcAN from API
+2026-02-21 18:33:48,596 [2026-02-21 18:33:48 IST] Cached listing for folder 1LM1MqyfTGP3ME0_z_L838jdHvstyzcAN
+2026-02-21 18:33:49,239 [2026-02-21 18:33:49 IST] Cached lesson object for folder 1LM1MqyfTGP3ME0_z_L838jdHvstyzcAN
+2026-02-21 18:33:49,239 [2026-02-21 18:33:49 IST] Fetching folder 1S35dqXaZA_E_7HigHbiuRk4ChflhS6-Y from API
+2026-02-21 18:33:49,845 [2026-02-21 18:33:49 IST] Cached listing for folder 1S35dqXaZA_E_7HigHbiuRk4ChflhS6-Y
+2026-02-21 18:33:49,853 [2026-02-21 18:33:49 IST] Cached lesson object for folder 1S35dqXaZA_E_7HigHbiuRk4ChflhS6-Y
+2026-02-21 18:33:49,853 [2026-02-21 18:33:49 IST] Fetching folder 1cf5z_u_Sicgze7g-LghpcjMlGgiXM5sZ from API
+2026-02-21 18:33:50,448 [2026-02-21 18:33:50 IST] Cached listing for folder 1cf5z_u_Sicgze7g-LghpcjMlGgiXM5sZ
+2026-02-21 18:33:50,456 [2026-02-21 18:33:50 IST] Cached lesson object for folder 1cf5z_u_Sicgze7g-LghpcjMlGgiXM5sZ
+2026-02-21 18:33:50,456 [2026-02-21 18:33:50 IST] Fetching folder 1CGAQ-BgR62_m3C4GLMAuIYHZCJy-XjCA from API
+2026-02-21 18:33:51,060 [2026-02-21 18:33:51 IST] Cached listing for folder 1CGAQ-BgR62_m3C4GLMAuIYHZCJy-XjCA
+2026-02-21 18:33:51,071 [2026-02-21 18:33:51 IST] Cached lesson object for folder 1CGAQ-BgR62_m3C4GLMAuIYHZCJy-XjCA
+2026-02-21 18:33:51,072 [2026-02-21 18:33:51 IST] Fetching folder 1yZqgAuy_wPl9evdz7HTE1VfstB-YfSxQ from API
+2026-02-21 18:33:51,706 [2026-02-21 18:33:51 IST] Cached listing for folder 1yZqgAuy_wPl9evdz7HTE1VfstB-YfSxQ
+2026-02-21 18:33:53,360 [2026-02-21 18:33:53 IST] Cached lesson object for folder 1yZqgAuy_wPl9evdz7HTE1VfstB-YfSxQ
+2026-02-21 18:33:53,361 [2026-02-21 18:33:53 IST] Fetching folder 1f5OoiUe2bsO4rf0nvxBicRiVNFV_D9Eg from API
+2026-02-21 18:33:53,928 [2026-02-21 18:33:53 IST] Cached listing for folder 1f5OoiUe2bsO4rf0nvxBicRiVNFV_D9Eg
+2026-02-21 18:33:54,587 [2026-02-21 18:33:54 IST] Cached lesson object for folder 1f5OoiUe2bsO4rf0nvxBicRiVNFV_D9Eg
+2026-02-21 18:33:54,587 [2026-02-21 18:33:54 IST] Fetching folder 1SYOYt49Db-AmMc1vf6P6eKL-wGf5PFf3 from API
+2026-02-21 18:33:55,219 [2026-02-21 18:33:55 IST] Cached listing for folder 1SYOYt49Db-AmMc1vf6P6eKL-wGf5PFf3
+2026-02-21 18:33:56,491 [2026-02-21 18:33:56 IST] Cached lesson object for folder 1SYOYt49Db-AmMc1vf6P6eKL-wGf5PFf3
+2026-02-21 18:33:56,491 [2026-02-21 18:33:56 IST] Fetching folder 1-KFv1yr5vpm5ODok4-lKWjPVcgdNE3Jk from API
+2026-02-21 18:33:57,150 [2026-02-21 18:33:57 IST] Cached listing for folder 1-KFv1yr5vpm5ODok4-lKWjPVcgdNE3Jk
+2026-02-21 18:33:58,925 [2026-02-21 18:33:58 IST] Cached lesson object for folder 1-KFv1yr5vpm5ODok4-lKWjPVcgdNE3Jk
+2026-02-21 18:33:58,925 [2026-02-21 18:33:58 IST] Fetching folder 15qVIocMm1QqKSOhLG4IeDdT3HgJLj77- from API
+2026-02-21 18:33:59,513 [2026-02-21 18:33:59 IST] Cached listing for folder 15qVIocMm1QqKSOhLG4IeDdT3HgJLj77-
+2026-02-21 18:34:00,844 [2026-02-21 18:34:00 IST] Cached lesson object for folder 15qVIocMm1QqKSOhLG4IeDdT3HgJLj77-
+2026-02-21 18:34:00,844 [2026-02-21 18:34:00 IST] Fetching folder 1_SM-89lHN3Rks5khzLl6QgnaGYC4lKIu from API
+2026-02-21 18:34:01,490 [2026-02-21 18:34:01 IST] Cached listing for folder 1_SM-89lHN3Rks5khzLl6QgnaGYC4lKIu
+2026-02-21 18:34:02,972 [2026-02-21 18:34:02 IST] Cached lesson object for folder 1_SM-89lHN3Rks5khzLl6QgnaGYC4lKIu
+2026-02-21 18:34:02,973 [2026-02-21 18:34:02 IST] Fetching folder 1hKJU-yoHIny_C2r65IPmuxSwgGFrI2AU from API
+2026-02-21 18:34:03,550 [2026-02-21 18:34:03 IST] Cached listing for folder 1hKJU-yoHIny_C2r65IPmuxSwgGFrI2AU
+2026-02-21 18:34:04,967 [2026-02-21 18:34:04 IST] Fetching folder 1dU3zTE_RWxB_WtL_zGBaLgVa5gA9OUE8 from API
+2026-02-21 18:34:05,554 [2026-02-21 18:34:05 IST] Cached listing for folder 1dU3zTE_RWxB_WtL_zGBaLgVa5gA9OUE8
+2026-02-21 18:34:05,555 [2026-02-21 18:34:05 IST] Cached lesson object for folder 1hKJU-yoHIny_C2r65IPmuxSwgGFrI2AU
+2026-02-21 18:34:05,555 [2026-02-21 18:34:05 IST] Fetching folder 1qRauMUAIX5lquRkL-b6d23XfB_HdruGD from API
+2026-02-21 18:34:06,179 [2026-02-21 18:34:06 IST] Cached listing for folder 1qRauMUAIX5lquRkL-b6d23XfB_HdruGD
+2026-02-21 18:34:06,179 [2026-02-21 18:34:06 IST] Fetching folder 1Ks4QYPoTsmDhJyqB_p3Bkvysr-GnRDv4 from API
+2026-02-21 18:34:06,772 [2026-02-21 18:34:06 IST] Cached listing for folder 1Ks4QYPoTsmDhJyqB_p3Bkvysr-GnRDv4
+2026-02-21 18:34:08,201 [2026-02-21 18:34:08 IST] Cached lesson object for folder 1Ks4QYPoTsmDhJyqB_p3Bkvysr-GnRDv4
+2026-02-21 18:34:08,201 [2026-02-21 18:34:08 IST] Fetching folder 1Yxcp6sIIucDSJyX0TFpkyhe-tR9_wAOh from API
+2026-02-21 18:34:08,869 [2026-02-21 18:34:08 IST] Cached listing for folder 1Yxcp6sIIucDSJyX0TFpkyhe-tR9_wAOh
+2026-02-21 18:34:10,411 [2026-02-21 18:34:10 IST] Cached lesson object for folder 1Yxcp6sIIucDSJyX0TFpkyhe-tR9_wAOh
+2026-02-21 18:34:10,411 [2026-02-21 18:34:10 IST] Fetching folder 1QjYeEY9quZQqsoAzatoAWUZrKvV8Zo8x from API
+2026-02-21 18:34:11,018 [2026-02-21 18:34:11 IST] Cached listing for folder 1QjYeEY9quZQqsoAzatoAWUZrKvV8Zo8x
+2026-02-21 18:34:12,518 [2026-02-21 18:34:12 IST] Cached lesson object for folder 1QjYeEY9quZQqsoAzatoAWUZrKvV8Zo8x
+2026-02-21 18:34:12,518 [2026-02-21 18:34:12 IST] Fetching folder 1ZKAEu1Rhl1iXvvJTReJ9Nlj2USpL0WWe from API
+2026-02-21 18:34:13,099 [2026-02-21 18:34:13 IST] Cached listing for folder 1ZKAEu1Rhl1iXvvJTReJ9Nlj2USpL0WWe
+2026-02-21 18:34:14,325 [2026-02-21 18:34:14 IST] Cached lesson object for folder 1ZKAEu1Rhl1iXvvJTReJ9Nlj2USpL0WWe
+2026-02-21 18:34:14,325 [2026-02-21 18:34:14 IST] Fetching folder 11pEMNhqoN6-VzcmxLs8ypSlDky2kg-nY from API
+2026-02-21 18:34:14,948 [2026-02-21 18:34:14 IST] Cached listing for folder 11pEMNhqoN6-VzcmxLs8ypSlDky2kg-nY
+2026-02-21 18:34:16,482 [2026-02-21 18:34:16 IST] Cached lesson object for folder 11pEMNhqoN6-VzcmxLs8ypSlDky2kg-nY
+2026-02-21 18:34:16,482 [2026-02-21 18:34:16 IST] Fetching folder 1ZLBkPxPXJbaZNCCdWFVepC1hyyL3HtUl from API
+2026-02-21 18:34:17,072 [2026-02-21 18:34:17 IST] Cached listing for folder 1ZLBkPxPXJbaZNCCdWFVepC1hyyL3HtUl
+2026-02-21 18:34:18,428 [2026-02-21 18:34:18 IST] Cached lesson object for folder 1ZLBkPxPXJbaZNCCdWFVepC1hyyL3HtUl
+2026-02-21 18:34:18,428 [2026-02-21 18:34:18 IST] Fetching folder 17XaydLICLr4dXo3IBtHIcyYJL4tX8KjO from API
+2026-02-21 18:34:19,029 [2026-02-21 18:34:19 IST] Cached listing for folder 17XaydLICLr4dXo3IBtHIcyYJL4tX8KjO
+2026-02-21 18:34:19,029 [2026-02-21 18:34:19 IST] Fetching folder 1EEW0rzjgwyszhh-jAuSenhPY-2OMYAxv from API
+2026-02-21 18:34:19,627 [2026-02-21 18:34:19 IST] Cached listing for folder 1EEW0rzjgwyszhh-jAuSenhPY-2OMYAxv
+2026-02-21 18:34:19,636 [2026-02-21 18:34:19 IST] Cached lesson object for folder 1EEW0rzjgwyszhh-jAuSenhPY-2OMYAxv
+2026-02-21 18:34:19,636 [2026-02-21 18:34:19 IST] Fetching folder 1AH7DLmdsPekfCJvK31kfpKbgKyXBu7EU from API
+2026-02-21 18:34:20,207 [2026-02-21 18:34:20 IST] Cached listing for folder 1AH7DLmdsPekfCJvK31kfpKbgKyXBu7EU
+2026-02-21 18:34:20,857 [2026-02-21 18:34:20 IST] Cached lesson object for folder 1AH7DLmdsPekfCJvK31kfpKbgKyXBu7EU
+2026-02-21 18:34:20,858 [2026-02-21 18:34:20 IST] Fetching folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK from API
+2026-02-21 18:34:21,445 [2026-02-21 18:34:21 IST] Cached listing for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:34:21,452 [2026-02-21 18:34:21 IST] Cached lesson object for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-02-21 18:34:21,453 [2026-02-21 18:34:21 IST] Fetching folder 1KT7SSdcXlQFl7MAL9OtnvnLc2MD2AJ_V from API
+2026-02-21 18:34:22,008 [2026-02-21 18:34:22 IST] Cached listing for folder 1KT7SSdcXlQFl7MAL9OtnvnLc2MD2AJ_V
+2026-02-21 18:34:22,025 [2026-02-21 18:34:22 IST] Cached lesson object for folder 1KT7SSdcXlQFl7MAL9OtnvnLc2MD2AJ_V
+2026-02-21 18:34:22,025 [2026-02-21 18:34:22 IST] Fetching folder 1NutCqRJD67seKuMe0KMwMHy1DFH_71Kl from API
+2026-02-21 18:34:22,595 [2026-02-21 18:34:22 IST] Cached listing for folder 1NutCqRJD67seKuMe0KMwMHy1DFH_71Kl
+2026-02-21 18:34:22,602 [2026-02-21 18:34:22 IST] Cached lesson object for folder 1NutCqRJD67seKuMe0KMwMHy1DFH_71Kl
+2026-02-21 18:34:22,603 [2026-02-21 18:34:22 IST] Fetching folder 1l27M3PBDfi_H5QSDdyfr4Zj5RErzfDIu from API
+2026-02-21 18:34:23,191 [2026-02-21 18:34:23 IST] Cached listing for folder 1l27M3PBDfi_H5QSDdyfr4Zj5RErzfDIu
+2026-02-21 18:34:23,200 [2026-02-21 18:34:23 IST] Cached lesson object for folder 1l27M3PBDfi_H5QSDdyfr4Zj5RErzfDIu
+2026-02-21 18:34:23,200 [2026-02-21 18:34:23 IST] Fetching folder 1vH9ds1LWZLuvsdX_ofPlx-kZgzNFUn9t from API
+2026-02-21 18:34:23,818 [2026-02-21 18:34:23 IST] Cached listing for folder 1vH9ds1LWZLuvsdX_ofPlx-kZgzNFUn9t
+2026-02-21 18:34:23,829 [2026-02-21 18:34:23 IST] Cached lesson object for folder 1vH9ds1LWZLuvsdX_ofPlx-kZgzNFUn9t
+2026-02-21 18:34:23,829 [2026-02-21 18:34:23 IST] Fetching folder 1b9e5INZ_YQe-wUj9x0AC4EAXzdVqAKn9 from API
+2026-02-21 18:34:24,422 [2026-02-21 18:34:24 IST] Cached listing for folder 1b9e5INZ_YQe-wUj9x0AC4EAXzdVqAKn9
+2026-02-21 18:34:24,435 [2026-02-21 18:34:24 IST] Cached lesson object for folder 1b9e5INZ_YQe-wUj9x0AC4EAXzdVqAKn9
+2026-02-21 18:34:24,435 [2026-02-21 18:34:24 IST] Fetching folder 1FHyiNlvgyNY62O10V8LQ_9WnrLDHDm0n from API
+2026-02-21 18:34:25,023 [2026-02-21 18:34:25 IST] Cached listing for folder 1FHyiNlvgyNY62O10V8LQ_9WnrLDHDm0n
+2026-02-21 18:34:25,030 [2026-02-21 18:34:25 IST] Cached lesson object for folder 1FHyiNlvgyNY62O10V8LQ_9WnrLDHDm0n
+2026-02-21 18:34:25,031 [2026-02-21 18:34:25 IST] Fetching folder 1lu2NnH4q_LKb2NDHNUYIf7CZ45NM-B_Q from API
+2026-02-21 18:34:25,678 [2026-02-21 18:34:25 IST] Cached listing for folder 1lu2NnH4q_LKb2NDHNUYIf7CZ45NM-B_Q
+2026-02-21 18:34:25,687 [2026-02-21 18:34:25 IST] Cached lesson object for folder 1lu2NnH4q_LKb2NDHNUYIf7CZ45NM-B_Q
+2026-02-21 18:34:25,688 [2026-02-21 18:34:25 IST] Fetching folder 1txSJlH9GvoftjC66kPm6srtsoJfWkyIA from API
+2026-02-21 18:34:26,310 [2026-02-21 18:34:26 IST] Cached listing for folder 1txSJlH9GvoftjC66kPm6srtsoJfWkyIA
+2026-02-21 18:34:26,318 [2026-02-21 18:34:26 IST] Cached lesson object for folder 1txSJlH9GvoftjC66kPm6srtsoJfWkyIA
+2026-02-21 18:34:26,319 [2026-02-21 18:34:26 IST] Fetching folder 1LfaQwR8kVkqGQvkrho8t4EQ_0N3ide4- from API
+2026-02-21 18:34:26,938 [2026-02-21 18:34:26 IST] Cached listing for folder 1LfaQwR8kVkqGQvkrho8t4EQ_0N3ide4-
+2026-02-21 18:34:26,947 [2026-02-21 18:34:26 IST] Cached lesson object for folder 1LfaQwR8kVkqGQvkrho8t4EQ_0N3ide4-
+2026-02-21 18:34:26,947 [2026-02-21 18:34:26 IST] Fetching folder 1BjumIkmzYojfrDdIjbR4KKfL8ux3pkRw from API
+2026-02-21 18:34:27,566 [2026-02-21 18:34:27 IST] Cached listing for folder 1BjumIkmzYojfrDdIjbR4KKfL8ux3pkRw
+2026-02-21 18:34:27,573 [2026-02-21 18:34:27 IST] Cached lesson object for folder 1BjumIkmzYojfrDdIjbR4KKfL8ux3pkRw
+2026-02-21 18:34:27,573 [2026-02-21 18:34:27 IST] Fetching folder 1XqnXfZSPPNAxzfOVILuzwA8-q0AZlcFc from API
+2026-02-21 18:34:28,141 [2026-02-21 18:34:28 IST] Cached listing for folder 1XqnXfZSPPNAxzfOVILuzwA8-q0AZlcFc
+2026-02-21 18:34:29,407 [2026-02-21 18:34:29 IST] Cached lesson object for folder 1XqnXfZSPPNAxzfOVILuzwA8-q0AZlcFc
+2026-02-21 18:34:29,407 [2026-02-21 18:34:29 IST] Fetching folder 1Q0dkYrBh4M2CoZoSaFZWznHFq9RPmAZ2 from API
+2026-02-21 18:34:29,979 [2026-02-21 18:34:29 IST] Cached listing for folder 1Q0dkYrBh4M2CoZoSaFZWznHFq9RPmAZ2
+2026-02-21 18:34:30,620 [2026-02-21 18:34:30 IST] Cached lesson object for folder 1Q0dkYrBh4M2CoZoSaFZWznHFq9RPmAZ2
+2026-02-21 18:34:30,620 [2026-02-21 18:34:30 IST] Fetching folder 1lGHZK688asQ8IYN5SNcNp3Ovh-0LEPqr from API
+2026-02-21 18:34:31,199 [2026-02-21 18:34:31 IST] Cached listing for folder 1lGHZK688asQ8IYN5SNcNp3Ovh-0LEPqr
+2026-02-21 18:34:32,021 [2026-02-21 18:34:32 IST] Cached lesson object for folder 1lGHZK688asQ8IYN5SNcNp3Ovh-0LEPqr
+2026-02-21 18:34:32,022 [2026-02-21 18:34:32 IST] Fetching folder 1fAZ17JljFwOWaaKOlKugBMPhk5hF1-eh from API
+2026-02-21 18:34:32,643 [2026-02-21 18:34:32 IST] Cached listing for folder 1fAZ17JljFwOWaaKOlKugBMPhk5hF1-eh
+2026-02-21 18:34:33,923 [2026-02-21 18:34:33 IST] Cached lesson object for folder 1fAZ17JljFwOWaaKOlKugBMPhk5hF1-eh
+2026-02-21 18:34:33,923 [2026-02-21 18:34:33 IST] Fetching folder 1BVqJJSIhnHSS_UDZUgmlioh97deCkOEa from API
+2026-02-21 18:34:34,574 [2026-02-21 18:34:34 IST] Cached listing for folder 1BVqJJSIhnHSS_UDZUgmlioh97deCkOEa
+2026-02-21 18:34:35,377 [2026-02-21 18:34:35 IST] Cached lesson object for folder 1BVqJJSIhnHSS_UDZUgmlioh97deCkOEa
+2026-02-21 18:34:35,377 [2026-02-21 18:34:35 IST] Fetching folder 1yTb18ggqXHYL6MIOON0ORSQehP5fUsj6 from API
+2026-02-21 18:34:35,983 [2026-02-21 18:34:35 IST] Cached listing for folder 1yTb18ggqXHYL6MIOON0ORSQehP5fUsj6
+2026-02-21 18:34:36,724 [2026-02-21 18:34:36 IST] Cached lesson object for folder 1yTb18ggqXHYL6MIOON0ORSQehP5fUsj6
+2026-02-21 18:34:36,725 [2026-02-21 18:34:36 IST] Fetching folder 1hWEFGXQ3acH-0ScpOKdwV4rBAv3LXOuq from API
+2026-02-21 18:34:37,329 [2026-02-21 18:34:37 IST] Cached listing for folder 1hWEFGXQ3acH-0ScpOKdwV4rBAv3LXOuq
+2026-02-21 18:34:38,765 [2026-02-21 18:34:38 IST] Cached lesson object for folder 1hWEFGXQ3acH-0ScpOKdwV4rBAv3LXOuq
+2026-02-21 18:34:38,765 [2026-02-21 18:34:38 IST] Fetching folder 1-MX29qmH8uxX7N6ayT1y7AXJHy2KH7MJ from API
+2026-02-21 18:34:39,454 [2026-02-21 18:34:39 IST] Cached listing for folder 1-MX29qmH8uxX7N6ayT1y7AXJHy2KH7MJ
+2026-02-21 18:34:40,744 [2026-02-21 18:34:40 IST] Cached lesson object for folder 1-MX29qmH8uxX7N6ayT1y7AXJHy2KH7MJ
+2026-02-21 18:34:40,745 [2026-02-21 18:34:40 IST] Fetching folder 1BRkd24m7dlMitAGuzVr6Mq9gcYRJxO0s from API
+2026-02-21 18:34:41,342 [2026-02-21 18:34:41 IST] Cached listing for folder 1BRkd24m7dlMitAGuzVr6Mq9gcYRJxO0s
+2026-02-21 18:34:42,794 [2026-02-21 18:34:42 IST] Cached lesson object for folder 1BRkd24m7dlMitAGuzVr6Mq9gcYRJxO0s
+2026-02-21 18:34:42,795 [2026-02-21 18:34:42 IST] Fetching folder 1tcvKaLEWc5TrTT2zhRZMfqKlcs4s2rr8 from API
+2026-02-21 18:34:43,374 [2026-02-21 18:34:43 IST] Cached listing for folder 1tcvKaLEWc5TrTT2zhRZMfqKlcs4s2rr8
+2026-02-21 18:34:43,387 [2026-02-21 18:34:43 IST] Cached lesson object for folder 1tcvKaLEWc5TrTT2zhRZMfqKlcs4s2rr8
+2026-02-21 18:34:43,387 [2026-02-21 18:34:43 IST] Fetching folder 1Ctx4JGYDDe95w55Bd8tf20jRPf554Q1E from API
+2026-02-21 18:34:43,998 [2026-02-21 18:34:43 IST] Cached listing for folder 1Ctx4JGYDDe95w55Bd8tf20jRPf554Q1E
+2026-02-21 18:34:45,519 [2026-02-21 18:34:45 IST] Cached lesson object for folder 1Ctx4JGYDDe95w55Bd8tf20jRPf554Q1E
+2026-02-21 18:34:45,519 [2026-02-21 18:34:45 IST] Fetching folder 1aGGSldeguQefGDMeyARYjizqclC3yWf8 from API
+2026-02-21 18:34:46,115 [2026-02-21 18:34:46 IST] Cached listing for folder 1aGGSldeguQefGDMeyARYjizqclC3yWf8
+2026-02-21 18:34:47,368 [2026-02-21 18:34:47 IST] Cached lesson object for folder 1aGGSldeguQefGDMeyARYjizqclC3yWf8
+2026-02-21 18:34:47,368 [2026-02-21 18:34:47 IST] Fetching folder 1Cjv_WrbW1qxeUmpw75rEZUah4qmIii_P from API
+2026-02-21 18:34:48,037 [2026-02-21 18:34:48 IST] Cached listing for folder 1Cjv_WrbW1qxeUmpw75rEZUah4qmIii_P
+2026-02-21 18:34:49,729 [2026-02-21 18:34:49 IST] Cached lesson object for folder 1Cjv_WrbW1qxeUmpw75rEZUah4qmIii_P
+2026-02-21 18:34:49,729 [2026-02-21 18:34:49 IST] Fetching folder 1NC3aOhFHvS9x9ZACpvlmd0i9pwHfTmuW from API
+2026-02-21 18:34:50,291 [2026-02-21 18:34:50 IST] Cached listing for folder 1NC3aOhFHvS9x9ZACpvlmd0i9pwHfTmuW
+2026-02-21 18:34:51,751 [2026-02-21 18:34:51 IST] Cached lesson object for folder 1NC3aOhFHvS9x9ZACpvlmd0i9pwHfTmuW
+2026-02-21 18:34:51,751 [2026-02-21 18:34:51 IST] Fetching folder 1j_W0yv86hFz_qllakitXRTdUuB9fpCRR from API
+2026-02-21 18:34:52,469 [2026-02-21 18:34:52 IST] Cached listing for folder 1j_W0yv86hFz_qllakitXRTdUuB9fpCRR
+2026-02-21 18:34:54,113 [2026-02-21 18:34:54 IST] Cached lesson object for folder 1j_W0yv86hFz_qllakitXRTdUuB9fpCRR
+2026-02-21 18:34:54,113 [2026-02-21 18:34:54 IST] Fetching folder 1evuAW-Zg60AYbZuwpRPVLC7oY5X8xSKi from API
+2026-02-21 18:34:54,709 [2026-02-21 18:34:54 IST] Cached listing for folder 1evuAW-Zg60AYbZuwpRPVLC7oY5X8xSKi
+2026-02-21 18:34:55,891 [2026-02-21 18:34:55 IST] Cached lesson object for folder 1evuAW-Zg60AYbZuwpRPVLC7oY5X8xSKi
+2026-02-21 18:34:55,891 [2026-02-21 18:34:55 IST] Fetching folder 1Cj8-idXKklWy30z-nDA0NBb0lpBuGEoe from API
+2026-02-21 18:34:56,509 [2026-02-21 18:34:56 IST] Cached listing for folder 1Cj8-idXKklWy30z-nDA0NBb0lpBuGEoe
+2026-02-21 18:34:57,778 [2026-02-21 18:34:57 IST] Cached lesson object for folder 1Cj8-idXKklWy30z-nDA0NBb0lpBuGEoe
+2026-02-21 18:34:57,778 [2026-02-21 18:34:57 IST] Fetching folder 1rwmUyyYiJzbDGJUUtFso4SAkd362wWoN from API
+2026-02-21 18:34:58,348 [2026-02-21 18:34:58 IST] Cached listing for folder 1rwmUyyYiJzbDGJUUtFso4SAkd362wWoN
+2026-02-21 18:34:59,644 [2026-02-21 18:34:59 IST] Cached lesson object for folder 1rwmUyyYiJzbDGJUUtFso4SAkd362wWoN
+2026-02-21 18:34:59,644 [2026-02-21 18:34:59 IST] Fetching folder 1_liqCqKIw_fM6bqwahs7Kjs36dDAeY8F from API
+2026-02-21 18:35:00,334 [2026-02-21 18:35:00 IST] Cached listing for folder 1_liqCqKIw_fM6bqwahs7Kjs36dDAeY8F
+2026-02-21 18:35:00,334 [2026-02-21 18:35:00 IST] Fetching folder 1nS_O0cB9hGMTgynsOZ7qtPPZDj1mq3Jq from API
+2026-02-21 18:35:00,898 [2026-02-21 18:35:00 IST] Cached listing for folder 1nS_O0cB9hGMTgynsOZ7qtPPZDj1mq3Jq
+2026-02-21 18:35:02,187 [2026-02-21 18:35:02 IST] Cached lesson object for folder 1nS_O0cB9hGMTgynsOZ7qtPPZDj1mq3Jq
+2026-02-21 18:35:02,187 [2026-02-21 18:35:02 IST] Fetching folder 1Rbf9MRiuJcC2rS3pn1SxmN9bZHY8RXZq from API
+2026-02-21 18:35:02,830 [2026-02-21 18:35:02 IST] Cached listing for folder 1Rbf9MRiuJcC2rS3pn1SxmN9bZHY8RXZq
+2026-02-21 18:35:04,244 [2026-02-21 18:35:04 IST] Cached lesson object for folder 1Rbf9MRiuJcC2rS3pn1SxmN9bZHY8RXZq
+2026-02-21 18:35:04,244 [2026-02-21 18:35:04 IST] Fetching folder 1d929mcuTOZuFgN5xzASLt8bhJCyzGQQL from API
+2026-02-21 18:35:04,869 [2026-02-21 18:35:04 IST] Cached listing for folder 1d929mcuTOZuFgN5xzASLt8bhJCyzGQQL
+2026-02-21 18:35:06,182 [2026-02-21 18:35:06 IST] Cached lesson object for folder 1d929mcuTOZuFgN5xzASLt8bhJCyzGQQL
+2026-02-21 18:35:06,182 [2026-02-21 18:35:06 IST] Fetching folder 10optlP2Asrhv7BuLZMUzeHUtPcq1h5KD from API
+2026-02-21 18:35:06,765 [2026-02-21 18:35:06 IST] Cached listing for folder 10optlP2Asrhv7BuLZMUzeHUtPcq1h5KD
+2026-02-21 18:35:08,451 [2026-02-21 18:35:08 IST] Cached lesson object for folder 10optlP2Asrhv7BuLZMUzeHUtPcq1h5KD
+2026-02-21 18:35:08,452 [2026-02-21 18:35:08 IST] Fetching folder 10Xj0fBlp8z3mmTaizRWGq3OuSQgFxPIg from API
+2026-02-21 18:35:09,068 [2026-02-21 18:35:09 IST] Cached listing for folder 10Xj0fBlp8z3mmTaizRWGq3OuSQgFxPIg
+2026-02-21 18:35:10,649 [2026-02-21 18:35:10 IST] Cached lesson object for folder 10Xj0fBlp8z3mmTaizRWGq3OuSQgFxPIg
+2026-02-21 18:35:10,649 [2026-02-21 18:35:10 IST] Fetching folder 1l3EZcct3NN7fRT8QVZwtJzt_u6-Vvm7U from API
+2026-02-21 18:35:11,240 [2026-02-21 18:35:11 IST] Cached listing for folder 1l3EZcct3NN7fRT8QVZwtJzt_u6-Vvm7U
+2026-02-21 18:35:12,751 [2026-02-21 18:35:12 IST] Cached lesson object for folder 1l3EZcct3NN7fRT8QVZwtJzt_u6-Vvm7U
+2026-02-21 18:35:12,751 [2026-02-21 18:35:12 IST] Fetching folder 1efLEc1CghQsw9_mwS0pniVelSEODrL-4 from API
+2026-02-21 18:35:13,330 [2026-02-21 18:35:13 IST] Cached listing for folder 1efLEc1CghQsw9_mwS0pniVelSEODrL-4
+2026-02-21 18:35:14,715 [2026-02-21 18:35:14 IST] Cached lesson object for folder 1efLEc1CghQsw9_mwS0pniVelSEODrL-4
+2026-02-21 18:35:14,715 [2026-02-21 18:35:14 IST] Fetching folder 1AiWyatPuI34vbiIEc5NGGxKHmmXGXsya from API
+2026-02-21 18:35:15,293 [2026-02-21 18:35:15 IST] Cached listing for folder 1AiWyatPuI34vbiIEc5NGGxKHmmXGXsya
+2026-02-21 18:35:17,102 [2026-02-21 18:35:17 IST] Cached lesson object for folder 1AiWyatPuI34vbiIEc5NGGxKHmmXGXsya
+2026-02-21 18:35:17,102 [2026-02-21 18:35:17 IST] Fetching folder 13IcWIqtLZhuN9_LQiyMwipizGIp8s6Nn from API
+2026-02-21 18:35:17,695 [2026-02-21 18:35:17 IST] Cached listing for folder 13IcWIqtLZhuN9_LQiyMwipizGIp8s6Nn
+2026-02-21 18:35:18,857 [2026-02-21 18:35:18 IST] Cached lesson object for folder 13IcWIqtLZhuN9_LQiyMwipizGIp8s6Nn
+2026-02-21 18:35:18,857 [2026-02-21 18:35:18 IST] Fetching folder 1JGO0exjvFVYo6rErmWYExSnvVDmzJk7u from API
+2026-02-21 18:35:19,466 [2026-02-21 18:35:19 IST] Cached listing for folder 1JGO0exjvFVYo6rErmWYExSnvVDmzJk7u
+2026-02-21 18:35:21,055 [2026-02-21 18:35:21 IST] Cached lesson object for folder 1JGO0exjvFVYo6rErmWYExSnvVDmzJk7u
+2026-02-21 18:35:21,055 [2026-02-21 18:35:21 IST] Fetching folder 1m3V0gp5R2CPtjbWZZASGBAjhwxR1ykf1 from API
+2026-02-21 18:35:21,609 [2026-02-21 18:35:21 IST] Cached listing for folder 1m3V0gp5R2CPtjbWZZASGBAjhwxR1ykf1
+2026-02-21 18:35:23,216 [2026-02-21 18:35:23 IST] Cached lesson object for folder 1m3V0gp5R2CPtjbWZZASGBAjhwxR1ykf1
+2026-02-21 18:35:23,217 [2026-02-21 18:35:23 IST] Fetching folder 1ineuMxS5KmoWp5JjHMK7G_yxHuonWgis from API
+2026-02-21 18:35:23,781 [2026-02-21 18:35:23 IST] Cached listing for folder 1ineuMxS5KmoWp5JjHMK7G_yxHuonWgis
+2026-02-21 18:35:23,781 [2026-02-21 18:35:23 IST] Fetching folder 1alOkQkbfzkRM3gEYf3lIdXFq25yyG464 from API
+2026-02-21 18:35:24,419 [2026-02-21 18:35:24 IST] Cached listing for folder 1alOkQkbfzkRM3gEYf3lIdXFq25yyG464
+2026-02-21 18:35:24,428 [2026-02-21 18:35:24 IST] Cached lesson object for folder 1alOkQkbfzkRM3gEYf3lIdXFq25yyG464
+2026-02-21 18:35:24,428 [2026-02-21 18:35:24 IST] Fetching folder 1GHZDwoYwuu1KDq3GhgfuT4pUZj9loxz- from API
+2026-02-21 18:35:25,022 [2026-02-21 18:35:25 IST] Cached listing for folder 1GHZDwoYwuu1KDq3GhgfuT4pUZj9loxz-
+2026-02-21 18:35:25,633 [2026-02-21 18:35:25 IST] Cached lesson object for folder 1GHZDwoYwuu1KDq3GhgfuT4pUZj9loxz-
+2026-02-21 18:35:25,633 [2026-02-21 18:35:25 IST] Fetching folder 1QlfNsW6EBlo_tm9Kb3QFe7X2tqwR6zfu from API
+2026-02-21 18:35:26,227 [2026-02-21 18:35:26 IST] Cached listing for folder 1QlfNsW6EBlo_tm9Kb3QFe7X2tqwR6zfu
+2026-02-21 18:35:26,851 [2026-02-21 18:35:26 IST] Fetching folder 1wUhNeyLm0_8i_fJT8Ohn0YQ7Oy1BVYAW from API
+2026-02-21 18:35:27,492 [2026-02-21 18:35:27 IST] Cached listing for folder 1wUhNeyLm0_8i_fJT8Ohn0YQ7Oy1BVYAW
+2026-02-21 18:35:27,492 [2026-02-21 18:35:27 IST] Fetching folder 1X9UlsrUMK69_YbdVJy1vFaCA8fgem1xV from API
+2026-02-21 18:35:28,115 [2026-02-21 18:35:28 IST] Cached listing for folder 1X9UlsrUMK69_YbdVJy1vFaCA8fgem1xV
+2026-02-21 18:35:28,115 [2026-02-21 18:35:28 IST] Fetching folder 1ZUvgQiL9-zuprk7Ipj2-bhlQCUPQVwxO from API
+2026-02-21 18:35:28,729 [2026-02-21 18:35:28 IST] Cached listing for folder 1ZUvgQiL9-zuprk7Ipj2-bhlQCUPQVwxO
+2026-02-21 18:35:28,730 [2026-02-21 18:35:28 IST] Cached lesson object for folder 1QlfNsW6EBlo_tm9Kb3QFe7X2tqwR6zfu
+2026-02-21 18:35:28,730 [2026-02-21 18:35:28 IST] Fetching folder 1dX7AxHrkXfwbdn9SR8F1zZCl5HTaKuJf from API
+2026-02-21 18:35:29,323 [2026-02-21 18:35:29 IST] Cached listing for folder 1dX7AxHrkXfwbdn9SR8F1zZCl5HTaKuJf
+2026-02-21 18:35:29,332 [2026-02-21 18:35:29 IST] Cached lesson object for folder 1dX7AxHrkXfwbdn9SR8F1zZCl5HTaKuJf
+2026-02-21 18:35:29,333 [2026-02-21 18:35:29 IST] Fetching folder 15M5vI8GHnOmE6zMqD_0w5x0zcZnM9Kmv from API
+2026-02-21 18:35:29,910 [2026-02-21 18:35:29 IST] Cached listing for folder 15M5vI8GHnOmE6zMqD_0w5x0zcZnM9Kmv
+2026-02-21 18:35:30,628 [2026-02-21 18:35:30 IST] Cached lesson object for folder 15M5vI8GHnOmE6zMqD_0w5x0zcZnM9Kmv
+2026-02-21 18:35:30,629 [2026-02-21 18:35:30 IST] Fetching folder 1woGZ2BhXHES5aJNjJ-mtfd-pu4LqsNr8 from API
+2026-02-21 18:35:31,228 [2026-02-21 18:35:31 IST] Cached listing for folder 1woGZ2BhXHES5aJNjJ-mtfd-pu4LqsNr8
+2026-02-21 18:35:31,240 [2026-02-21 18:35:31 IST] Cached lesson object for folder 1woGZ2BhXHES5aJNjJ-mtfd-pu4LqsNr8
+2026-02-21 18:35:31,240 [2026-02-21 18:35:31 IST] Fetching folder 1FEIGwbCCyIvGnHQ_0ID3hpqumwu4r9Rh from API
+2026-02-21 18:35:31,844 [2026-02-21 18:35:31 IST] Cached listing for folder 1FEIGwbCCyIvGnHQ_0ID3hpqumwu4r9Rh
+2026-02-21 18:35:31,852 [2026-02-21 18:35:31 IST] Cached lesson object for folder 1FEIGwbCCyIvGnHQ_0ID3hpqumwu4r9Rh
+2026-02-21 18:35:31,853 [2026-02-21 18:35:31 IST] Fetching folder 1OsY3f4gl0XQdsguPN5bN6h06TfjywQN3 from API
+2026-02-21 18:35:32,442 [2026-02-21 18:35:32 IST] Cached listing for folder 1OsY3f4gl0XQdsguPN5bN6h06TfjywQN3
+2026-02-21 18:35:32,449 [2026-02-21 18:35:32 IST] Cached lesson object for folder 1OsY3f4gl0XQdsguPN5bN6h06TfjywQN3
+2026-02-21 18:35:32,449 [2026-02-21 18:35:32 IST] Fetching folder 1te5pgkeJy6MStIA2PJTSNlXORY9Ieh1z from API
+2026-02-21 18:35:33,033 [2026-02-21 18:35:33 IST] Cached listing for folder 1te5pgkeJy6MStIA2PJTSNlXORY9Ieh1z
+2026-02-21 18:35:33,054 [2026-02-21 18:35:33 IST] Cached lesson object for folder 1te5pgkeJy6MStIA2PJTSNlXORY9Ieh1z
+2026-02-21 18:35:33,054 [2026-02-21 18:35:33 IST] Fetching folder 1HSHnprMFPZOqOiF61LKLb4k09YMshnW4 from API
+2026-02-21 18:35:33,638 [2026-02-21 18:35:33 IST] Cached listing for folder 1HSHnprMFPZOqOiF61LKLb4k09YMshnW4
+2026-02-21 18:35:34,884 [2026-02-21 18:35:34 IST] Cached lesson object for folder 1HSHnprMFPZOqOiF61LKLb4k09YMshnW4
+2026-02-21 18:35:34,884 [2026-02-21 18:35:34 IST] Fetching folder 1h2T2sPOnXJ4JAlBwxaBtn7JOR6OVYEIc from API
+2026-02-21 18:35:35,486 [2026-02-21 18:35:35 IST] Cached listing for folder 1h2T2sPOnXJ4JAlBwxaBtn7JOR6OVYEIc
+2026-02-21 18:35:36,137 [2026-02-21 18:35:36 IST] Fetching folder 1F35DrwtizNZmP8ZFJrBWH7PIAQIXodWi from API
+2026-02-21 18:35:36,742 [2026-02-21 18:35:36 IST] Cached listing for folder 1F35DrwtizNZmP8ZFJrBWH7PIAQIXodWi
+2026-02-21 18:35:36,743 [2026-02-21 18:35:36 IST] Fetching folder 1-mc7YYNlLb33K00YJsblR6xh9CFQMEnb from API
+2026-02-21 18:35:37,311 [2026-02-21 18:35:37 IST] Cached listing for folder 1-mc7YYNlLb33K00YJsblR6xh9CFQMEnb
+2026-02-21 18:35:37,311 [2026-02-21 18:35:37 IST] Fetching folder 1lGpJOLX6CnDpaQoRWWUIcf8CW2rgWX94 from API
+2026-02-21 18:35:37,903 [2026-02-21 18:35:37 IST] Cached listing for folder 1lGpJOLX6CnDpaQoRWWUIcf8CW2rgWX94
+2026-02-21 18:35:37,903 [2026-02-21 18:35:37 IST] Fetching folder 1KrdEeKmaz295HuQVQTCcQusy4Y22Mu_N from API
+2026-02-21 18:35:38,452 [2026-02-21 18:35:38 IST] Cached listing for folder 1KrdEeKmaz295HuQVQTCcQusy4Y22Mu_N
+2026-02-21 18:35:38,454 [2026-02-21 18:35:38 IST] Fetching folder 1mqU0225zdCfpR4B0NbtCLV_JI-5-9QR5 from API
+2026-02-21 18:35:39,057 [2026-02-21 18:35:39 IST] Cached listing for folder 1mqU0225zdCfpR4B0NbtCLV_JI-5-9QR5
+2026-02-21 18:35:39,060 [2026-02-21 18:35:39 IST] Cached lesson object for folder 1h2T2sPOnXJ4JAlBwxaBtn7JOR6OVYEIc
+2026-02-21 18:35:39,060 [2026-02-21 18:35:39 IST] Fetching folder 1l3Fnr4KCUmeZBZnMiKr5XHBCeTRgE_dQ from API
+2026-02-21 18:35:39,709 [2026-02-21 18:35:39 IST] Cached listing for folder 1l3Fnr4KCUmeZBZnMiKr5XHBCeTRgE_dQ
+2026-02-21 18:35:39,719 [2026-02-21 18:35:39 IST] Cached lesson object for folder 1l3Fnr4KCUmeZBZnMiKr5XHBCeTRgE_dQ
+2026-02-21 18:35:39,720 [2026-02-21 18:35:39 IST] Fetching folder 1Uvjpk-E9idqOwA_z3qYQZ8HiBqmBdJpK from API
+2026-02-21 18:35:40,351 [2026-02-21 18:35:40 IST] Cached listing for folder 1Uvjpk-E9idqOwA_z3qYQZ8HiBqmBdJpK
+2026-02-21 18:35:40,948 [2026-02-21 18:35:40 IST] Cached lesson object for folder 1Uvjpk-E9idqOwA_z3qYQZ8HiBqmBdJpK
+2026-02-21 18:35:40,951 [2026-02-21 18:35:40 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:35:40,951 [2026-02-21 18:35:40 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:35:40,951 [2026-02-21 18:35:40 IST] Fetching folder 1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK from API
+2026-02-21 18:35:41,587 [2026-02-21 18:35:41 IST] Cached listing for folder 1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK
+2026-02-21 18:35:41,587 [2026-02-21 18:35:41 IST] Fetching folder 1vRqEVOBV6BdnuBFVti_ZrkWr5nc0p_tJ from API
+2026-02-21 18:35:42,170 [2026-02-21 18:35:42 IST] Cached listing for folder 1vRqEVOBV6BdnuBFVti_ZrkWr5nc0p_tJ
+2026-02-21 18:35:42,170 [2026-02-21 18:35:42 IST] Fetching folder 1WIO0JslwVTlwYc08eGxEU0mcDO1_pds8 from API
+2026-02-21 18:35:42,769 [2026-02-21 18:35:42 IST] Cached listing for folder 1WIO0JslwVTlwYc08eGxEU0mcDO1_pds8
+2026-02-21 18:35:43,563 [2026-02-21 18:35:43 IST] Cached lesson object for folder 1WIO0JslwVTlwYc08eGxEU0mcDO1_pds8
+2026-02-21 18:35:43,563 [2026-02-21 18:35:43 IST] Fetching folder 1uMONEdcewcRvnza30ri2drScLVVoQ_Qf from API
+2026-02-21 18:35:44,170 [2026-02-21 18:35:44 IST] Cached listing for folder 1uMONEdcewcRvnza30ri2drScLVVoQ_Qf
+2026-02-21 18:35:44,795 [2026-02-21 18:35:44 IST] Cached lesson object for folder 1uMONEdcewcRvnza30ri2drScLVVoQ_Qf
+2026-02-21 18:35:44,795 [2026-02-21 18:35:44 IST] Fetching folder 16vj3RYzOPsiMHevlWd8i0zpM-9fZW1ZS from API
+2026-02-21 18:35:45,380 [2026-02-21 18:35:45 IST] Cached listing for folder 16vj3RYzOPsiMHevlWd8i0zpM-9fZW1ZS
+2026-02-21 18:35:45,917 [2026-02-21 18:35:45 IST] Cached lesson object for folder 16vj3RYzOPsiMHevlWd8i0zpM-9fZW1ZS
+2026-02-21 18:35:45,917 [2026-02-21 18:35:45 IST] Fetching folder 1-TlNW1IILKeRn30c3wbFs0bH81XUR0PI from API
+2026-02-21 18:35:46,535 [2026-02-21 18:35:46 IST] Cached listing for folder 1-TlNW1IILKeRn30c3wbFs0bH81XUR0PI
+2026-02-21 18:35:47,086 [2026-02-21 18:35:47 IST] Cached lesson object for folder 1-TlNW1IILKeRn30c3wbFs0bH81XUR0PI
+2026-02-21 18:35:47,086 [2026-02-21 18:35:47 IST] Fetching folder 1q578EOaxkClxnQreRAaz7gL8yLOyitGU from API
+2026-02-21 18:35:47,700 [2026-02-21 18:35:47 IST] Cached listing for folder 1q578EOaxkClxnQreRAaz7gL8yLOyitGU
+2026-02-21 18:35:48,312 [2026-02-21 18:35:48 IST] Cached lesson object for folder 1q578EOaxkClxnQreRAaz7gL8yLOyitGU
+2026-02-21 18:35:48,313 [2026-02-21 18:35:48 IST] Fetching folder 1luX2ghpy6ZXvttGI_q1y_aBhYtRYlmrC from API
+2026-02-21 18:35:48,880 [2026-02-21 18:35:48 IST] Cached listing for folder 1luX2ghpy6ZXvttGI_q1y_aBhYtRYlmrC
+2026-02-21 18:35:48,880 [2026-02-21 18:35:48 IST] Fetching folder 1KB3YxDZo35jM6ioZDaCuM5zogcOXf5r7 from API
+2026-02-21 18:35:49,512 [2026-02-21 18:35:49 IST] Cached listing for folder 1KB3YxDZo35jM6ioZDaCuM5zogcOXf5r7
+2026-02-21 18:35:49,526 [2026-02-21 18:35:49 IST] Cached lesson object for folder 1KB3YxDZo35jM6ioZDaCuM5zogcOXf5r7
+2026-02-21 18:35:49,526 [2026-02-21 18:35:49 IST] Fetching folder 1VxlnYQyRtNaFF95ZT-_PE9xG1Zb0ki32 from API
+2026-02-21 18:35:50,101 [2026-02-21 18:35:50 IST] Cached listing for folder 1VxlnYQyRtNaFF95ZT-_PE9xG1Zb0ki32
+2026-02-21 18:35:50,124 [2026-02-21 18:35:50 IST] Cached lesson object for folder 1VxlnYQyRtNaFF95ZT-_PE9xG1Zb0ki32
+2026-02-21 18:35:50,124 [2026-02-21 18:35:50 IST] Fetching folder 1TwYx7UXQaGF7mWMTbnpoKR3tvHM470Xt from API
+2026-02-21 18:35:50,717 [2026-02-21 18:35:50 IST] Cached listing for folder 1TwYx7UXQaGF7mWMTbnpoKR3tvHM470Xt
+2026-02-21 18:35:50,718 [2026-02-21 18:35:50 IST] Fetching folder 19es5GvtsHQc5zeQp1G44i7GbvRQ2Bdeo from API
+2026-02-21 18:35:51,236 [2026-02-21 18:35:51 IST] Cached listing for folder 19es5GvtsHQc5zeQp1G44i7GbvRQ2Bdeo
+2026-02-21 18:35:52,440 [2026-02-21 18:35:52 IST] Cached lesson object for folder 19es5GvtsHQc5zeQp1G44i7GbvRQ2Bdeo
+2026-02-21 18:35:52,441 [2026-02-21 18:35:52 IST] Fetching folder 1UqjKoeOzAQp9WNhIlbmR-uWm-Y1xaM7B from API
+2026-02-21 18:35:53,047 [2026-02-21 18:35:53 IST] Cached listing for folder 1UqjKoeOzAQp9WNhIlbmR-uWm-Y1xaM7B
+2026-02-21 18:35:53,058 [2026-02-21 18:35:53 IST] Cached lesson object for folder 1UqjKoeOzAQp9WNhIlbmR-uWm-Y1xaM7B
+2026-02-21 18:35:53,058 [2026-02-21 18:35:53 IST] Fetching folder 18oJuCeN7-S0exMXs0Fet0hj7WSHM1-e2 from API
+2026-02-21 18:35:53,670 [2026-02-21 18:35:53 IST] Cached listing for folder 18oJuCeN7-S0exMXs0Fet0hj7WSHM1-e2
+2026-02-21 18:35:53,686 [2026-02-21 18:35:53 IST] Cached lesson object for folder 18oJuCeN7-S0exMXs0Fet0hj7WSHM1-e2
+2026-02-21 18:35:53,687 [2026-02-21 18:35:53 IST] Fetching folder 1W7IExaalMxCeV-VwEBpB28OODjEXaDT4 from API
+2026-02-21 18:35:54,249 [2026-02-21 18:35:54 IST] Cached listing for folder 1W7IExaalMxCeV-VwEBpB28OODjEXaDT4
+2026-02-21 18:35:54,259 [2026-02-21 18:35:54 IST] Cached lesson object for folder 1W7IExaalMxCeV-VwEBpB28OODjEXaDT4
+2026-02-21 18:35:54,259 [2026-02-21 18:35:54 IST] Fetching folder 1jDIpa37ILlTQE3P3mQ0Plaj1geX61Gee from API
+2026-02-21 18:35:54,804 [2026-02-21 18:35:54 IST] Cached listing for folder 1jDIpa37ILlTQE3P3mQ0Plaj1geX61Gee
+2026-02-21 18:35:54,811 [2026-02-21 18:35:54 IST] Cached lesson object for folder 1jDIpa37ILlTQE3P3mQ0Plaj1geX61Gee
+2026-02-21 18:35:54,811 [2026-02-21 18:35:54 IST] Fetching folder 1E3_R-RGcldhedLs_hkvsRooDDLJxJHu2 from API
+2026-02-21 18:35:55,388 [2026-02-21 18:35:55 IST] Cached listing for folder 1E3_R-RGcldhedLs_hkvsRooDDLJxJHu2
+2026-02-21 18:35:55,396 [2026-02-21 18:35:55 IST] Cached lesson object for folder 1E3_R-RGcldhedLs_hkvsRooDDLJxJHu2
+2026-02-21 18:35:55,396 [2026-02-21 18:35:55 IST] Fetching folder 1cOe4WNxVMQhKgY26t0Rh9Zdf54BCZhPX from API
+2026-02-21 18:35:56,019 [2026-02-21 18:35:56 IST] Cached listing for folder 1cOe4WNxVMQhKgY26t0Rh9Zdf54BCZhPX
+2026-02-21 18:35:56,027 [2026-02-21 18:35:56 IST] Cached lesson object for folder 1cOe4WNxVMQhKgY26t0Rh9Zdf54BCZhPX
+2026-02-21 18:35:56,027 [2026-02-21 18:35:56 IST] Fetching folder 1yQGP3by75A00ahEqNt0OA-3ln6_vFrO6 from API
+2026-02-21 18:35:56,620 [2026-02-21 18:35:56 IST] Cached listing for folder 1yQGP3by75A00ahEqNt0OA-3ln6_vFrO6
+2026-02-21 18:35:57,266 [2026-02-21 18:35:57 IST] Cached lesson object for folder 1yQGP3by75A00ahEqNt0OA-3ln6_vFrO6
+2026-02-21 18:35:57,267 [2026-02-21 18:35:57 IST] Fetching folder 12D1LEy0RRR8ryC0chaRF3Nwc1Rw0cIMw from API
+2026-02-21 18:35:57,844 [2026-02-21 18:35:57 IST] Cached listing for folder 12D1LEy0RRR8ryC0chaRF3Nwc1Rw0cIMw
+2026-02-21 18:35:57,857 [2026-02-21 18:35:57 IST] Cached lesson object for folder 12D1LEy0RRR8ryC0chaRF3Nwc1Rw0cIMw
+2026-02-21 18:35:57,857 [2026-02-21 18:35:57 IST] Fetching folder 1Y9IBZLhE3qLNetz7MSnJjHbleS7BxGRH from API
+2026-02-21 18:35:58,523 [2026-02-21 18:35:58 IST] Cached listing for folder 1Y9IBZLhE3qLNetz7MSnJjHbleS7BxGRH
+2026-02-21 18:35:58,530 [2026-02-21 18:35:58 IST] Cached lesson object for folder 1Y9IBZLhE3qLNetz7MSnJjHbleS7BxGRH
+2026-02-21 18:35:58,531 [2026-02-21 18:35:58 IST] Fetching folder 1_CYncusvfcYaHNFNOgv7yF4u1OgARqJV from API
+2026-02-21 18:35:59,228 [2026-02-21 18:35:59 IST] Cached listing for folder 1_CYncusvfcYaHNFNOgv7yF4u1OgARqJV
+2026-02-21 18:35:59,258 [2026-02-21 18:35:59 IST] Cached lesson object for folder 1_CYncusvfcYaHNFNOgv7yF4u1OgARqJV
+2026-02-21 18:35:59,258 [2026-02-21 18:35:59 IST] Fetching folder 1zBJqZlwVbe0CWat4HAN5SCb7vf04FNkH from API
+2026-02-21 18:35:59,833 [2026-02-21 18:35:59 IST] Cached listing for folder 1zBJqZlwVbe0CWat4HAN5SCb7vf04FNkH
+2026-02-21 18:35:59,840 [2026-02-21 18:35:59 IST] Cached lesson object for folder 1zBJqZlwVbe0CWat4HAN5SCb7vf04FNkH
+2026-02-21 18:35:59,841 [2026-02-21 18:35:59 IST] Fetching folder 1hZyA1ODqgK5otn_Vy9DmsF800MSSuR8m from API
+2026-02-21 18:36:00,396 [2026-02-21 18:36:00 IST] Cached listing for folder 1hZyA1ODqgK5otn_Vy9DmsF800MSSuR8m
+2026-02-21 18:36:00,396 [2026-02-21 18:36:00 IST] Fetching folder 1lIImMVh_BWgGaCs66qg_mbcKAnfCaqQN from API
+2026-02-21 18:36:01,035 [2026-02-21 18:36:01 IST] Cached listing for folder 1lIImMVh_BWgGaCs66qg_mbcKAnfCaqQN
+2026-02-21 18:36:02,397 [2026-02-21 18:36:02 IST] Cached lesson object for folder 1lIImMVh_BWgGaCs66qg_mbcKAnfCaqQN
+2026-02-21 18:36:02,397 [2026-02-21 18:36:02 IST] Fetching folder 1gc6hQiL6tcblEjW2mXws2y9_uzWs_MIt from API
+2026-02-21 18:36:03,034 [2026-02-21 18:36:03 IST] Cached listing for folder 1gc6hQiL6tcblEjW2mXws2y9_uzWs_MIt
+2026-02-21 18:36:04,267 [2026-02-21 18:36:04 IST] Cached lesson object for folder 1gc6hQiL6tcblEjW2mXws2y9_uzWs_MIt
+2026-02-21 18:36:04,267 [2026-02-21 18:36:04 IST] Fetching folder 1DAi4sr8dVBcxcBz-A_K7BkHOIw01l_sh from API
+2026-02-21 18:36:04,892 [2026-02-21 18:36:04 IST] Cached listing for folder 1DAi4sr8dVBcxcBz-A_K7BkHOIw01l_sh
+2026-02-21 18:36:06,374 [2026-02-21 18:36:06 IST] Cached lesson object for folder 1DAi4sr8dVBcxcBz-A_K7BkHOIw01l_sh
+2026-02-21 18:36:06,374 [2026-02-21 18:36:06 IST] Fetching folder 1ncHzmYTjfQywtBUZST02BiqUwrT20fVz from API
+2026-02-21 18:36:06,966 [2026-02-21 18:36:06 IST] Cached listing for folder 1ncHzmYTjfQywtBUZST02BiqUwrT20fVz
+2026-02-21 18:36:08,258 [2026-02-21 18:36:08 IST] Cached lesson object for folder 1ncHzmYTjfQywtBUZST02BiqUwrT20fVz
+2026-02-21 18:36:08,258 [2026-02-21 18:36:08 IST] Fetching folder 1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX from API
+2026-02-21 18:36:08,887 [2026-02-21 18:36:08 IST] Cached listing for folder 1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX
+2026-02-21 18:36:09,986 [2026-02-21 18:36:09 IST] Cached lesson object for folder 1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX
+2026-02-21 18:36:09,987 [2026-02-21 18:36:09 IST] Fetching folder 1eDlxjvSSMQ3KWoXWvAyEN3BmooTqkDPQ from API
+2026-02-21 18:36:10,544 [2026-02-21 18:36:10 IST] Cached listing for folder 1eDlxjvSSMQ3KWoXWvAyEN3BmooTqkDPQ
+2026-02-21 18:36:10,551 [2026-02-21 18:36:10 IST] Cached lesson object for folder 1eDlxjvSSMQ3KWoXWvAyEN3BmooTqkDPQ
+2026-02-21 18:36:10,552 [2026-02-21 18:36:10 IST] Fetching folder 1nKEbTR3OGmWD9045rqAiroCNMSBk5ae7 from API
+2026-02-21 18:36:11,149 [2026-02-21 18:36:11 IST] Cached listing for folder 1nKEbTR3OGmWD9045rqAiroCNMSBk5ae7
+2026-02-21 18:36:11,170 [2026-02-21 18:36:11 IST] Cached lesson object for folder 1nKEbTR3OGmWD9045rqAiroCNMSBk5ae7
+2026-02-21 18:36:11,170 [2026-02-21 18:36:11 IST] Fetching folder 1A1f8RrfZGuAqES-mt72SO7ZwbJGDMAHS from API
+2026-02-21 18:36:11,758 [2026-02-21 18:36:11 IST] Cached listing for folder 1A1f8RrfZGuAqES-mt72SO7ZwbJGDMAHS
+2026-02-21 18:36:11,758 [2026-02-21 18:36:11 IST] Fetching folder 1LwJwbzHQWdOZi1Op3coxrd9Eaxg8c_cb from API
+2026-02-21 18:36:12,354 [2026-02-21 18:36:12 IST] Cached listing for folder 1LwJwbzHQWdOZi1Op3coxrd9Eaxg8c_cb
+2026-02-21 18:36:12,365 [2026-02-21 18:36:12 IST] Cached lesson object for folder 1LwJwbzHQWdOZi1Op3coxrd9Eaxg8c_cb
+2026-02-21 18:36:12,365 [2026-02-21 18:36:12 IST] Fetching folder 1JlQmRNpSBh1IYVzfHRqfJkApGWZeMd8Y from API
+2026-02-21 18:36:12,979 [2026-02-21 18:36:12 IST] Cached listing for folder 1JlQmRNpSBh1IYVzfHRqfJkApGWZeMd8Y
+2026-02-21 18:36:13,584 [2026-02-21 18:36:13 IST] Cached lesson object for folder 1JlQmRNpSBh1IYVzfHRqfJkApGWZeMd8Y
+2026-02-21 18:36:13,584 [2026-02-21 18:36:13 IST] Fetching folder 1aVOCRV6OfQLy7QT6IaW31nXy8c6S_f0a from API
+2026-02-21 18:36:14,186 [2026-02-21 18:36:14 IST] Cached listing for folder 1aVOCRV6OfQLy7QT6IaW31nXy8c6S_f0a
+2026-02-21 18:36:14,956 [2026-02-21 18:36:14 IST] Cached lesson object for folder 1aVOCRV6OfQLy7QT6IaW31nXy8c6S_f0a
+2026-02-21 18:36:14,956 [2026-02-21 18:36:14 IST] Fetching folder 1Ano05iNZ38NnnrBNvf56_6qF39lAHZfQ from API
+2026-02-21 18:36:15,558 [2026-02-21 18:36:15 IST] Cached listing for folder 1Ano05iNZ38NnnrBNvf56_6qF39lAHZfQ
+2026-02-21 18:36:17,040 [2026-02-21 18:36:17 IST] Cached lesson object for folder 1Ano05iNZ38NnnrBNvf56_6qF39lAHZfQ
+2026-02-21 18:36:17,040 [2026-02-21 18:36:17 IST] Fetching folder 1BwJ9W_jQvm_bo3_ifWqalytc8AlSwaK2 from API
+2026-02-21 18:36:17,682 [2026-02-21 18:36:17 IST] Cached listing for folder 1BwJ9W_jQvm_bo3_ifWqalytc8AlSwaK2
+2026-02-21 18:36:17,682 [2026-02-21 18:36:17 IST] Fetching folder 1oJWKeixk9itDEZHRawfPzD27el0uz-8N from API
+2026-02-21 18:36:18,243 [2026-02-21 18:36:18 IST] Cached listing for folder 1oJWKeixk9itDEZHRawfPzD27el0uz-8N
+2026-02-21 18:36:18,252 [2026-02-21 18:36:18 IST] Cached lesson object for folder 1oJWKeixk9itDEZHRawfPzD27el0uz-8N
+2026-02-21 18:36:18,252 [2026-02-21 18:36:18 IST] Fetching folder 1zLHxobvI_90XYeTx0MgVQF_wkKoBuajc from API
+2026-02-21 18:36:18,849 [2026-02-21 18:36:18 IST] Cached listing for folder 1zLHxobvI_90XYeTx0MgVQF_wkKoBuajc
+2026-02-21 18:36:18,856 [2026-02-21 18:36:18 IST] Cached lesson object for folder 1zLHxobvI_90XYeTx0MgVQF_wkKoBuajc
+2026-02-21 18:36:18,856 [2026-02-21 18:36:18 IST] Fetching folder 1yoYQrn2igwDdRgyZxyvuCu_2oc8MP3Lm from API
+2026-02-21 18:36:19,465 [2026-02-21 18:36:19 IST] Cached listing for folder 1yoYQrn2igwDdRgyZxyvuCu_2oc8MP3Lm
+2026-02-21 18:36:19,475 [2026-02-21 18:36:19 IST] Cached lesson object for folder 1yoYQrn2igwDdRgyZxyvuCu_2oc8MP3Lm
+2026-02-21 18:36:19,475 [2026-02-21 18:36:19 IST] Fetching folder 1yALXP4w1F-E0M0HRoBPa6QJIyp-d2GDz from API
+2026-02-21 18:36:20,030 [2026-02-21 18:36:20 IST] Cached listing for folder 1yALXP4w1F-E0M0HRoBPa6QJIyp-d2GDz
+2026-02-21 18:36:20,037 [2026-02-21 18:36:20 IST] Cached lesson object for folder 1yALXP4w1F-E0M0HRoBPa6QJIyp-d2GDz
+2026-02-21 18:36:20,037 [2026-02-21 18:36:20 IST] Fetching folder 12eTLn024HxuzeS5HbGZedsSs7Mjroj1A from API
+2026-02-21 18:36:20,641 [2026-02-21 18:36:20 IST] Cached listing for folder 12eTLn024HxuzeS5HbGZedsSs7Mjroj1A
+2026-02-21 18:36:20,650 [2026-02-21 18:36:20 IST] Cached lesson object for folder 12eTLn024HxuzeS5HbGZedsSs7Mjroj1A
+2026-02-21 18:36:20,650 [2026-02-21 18:36:20 IST] Fetching folder 1K6D-WLOEyeygLSdcCOQ4qwc3_joAYs23 from API
+2026-02-21 18:36:21,248 [2026-02-21 18:36:21 IST] Cached listing for folder 1K6D-WLOEyeygLSdcCOQ4qwc3_joAYs23
+2026-02-21 18:36:21,771 [2026-02-21 18:36:21 IST] Cached lesson object for folder 1K6D-WLOEyeygLSdcCOQ4qwc3_joAYs23
+2026-02-21 18:36:21,771 [2026-02-21 18:36:21 IST] Fetching folder 1hKbTjjSRrS-KRXZFrRGJXTAfVRi2ry5O from API
+2026-02-21 18:36:22,386 [2026-02-21 18:36:22 IST] Cached listing for folder 1hKbTjjSRrS-KRXZFrRGJXTAfVRi2ry5O
+2026-02-21 18:36:22,388 [2026-02-21 18:36:22 IST] Fetching folder 1RnRgHHVjIPm5wqSRdBA_PcdfKLXCdncO from API
+2026-02-21 18:36:22,995 [2026-02-21 18:36:22 IST] Cached listing for folder 1RnRgHHVjIPm5wqSRdBA_PcdfKLXCdncO
+2026-02-21 18:36:23,004 [2026-02-21 18:36:23 IST] Cached lesson object for folder 1RnRgHHVjIPm5wqSRdBA_PcdfKLXCdncO
+2026-02-21 18:36:23,004 [2026-02-21 18:36:23 IST] Fetching folder 1rsT6QqWJ8zdIzYcNw4cUQTiMw7aMWwp7 from API
+2026-02-21 18:36:23,538 [2026-02-21 18:36:23 IST] Cached listing for folder 1rsT6QqWJ8zdIzYcNw4cUQTiMw7aMWwp7
+2026-02-21 18:36:23,546 [2026-02-21 18:36:23 IST] Cached lesson object for folder 1rsT6QqWJ8zdIzYcNw4cUQTiMw7aMWwp7
+2026-02-21 18:36:23,546 [2026-02-21 18:36:23 IST] Fetching folder 170P2EIeGWvKKth-dSmrDHirGGlKwRKPh from API
+2026-02-21 18:36:24,141 [2026-02-21 18:36:24 IST] Cached listing for folder 170P2EIeGWvKKth-dSmrDHirGGlKwRKPh
+2026-02-21 18:36:24,155 [2026-02-21 18:36:24 IST] Cached lesson object for folder 170P2EIeGWvKKth-dSmrDHirGGlKwRKPh
+2026-02-21 18:36:24,155 [2026-02-21 18:36:24 IST] Fetching folder 1M5skZDrFr3SDieIueXY49GfwjiMP5qXp from API
+2026-02-21 18:36:24,716 [2026-02-21 18:36:24 IST] Cached listing for folder 1M5skZDrFr3SDieIueXY49GfwjiMP5qXp
+2026-02-21 18:36:24,723 [2026-02-21 18:36:24 IST] Cached lesson object for folder 1M5skZDrFr3SDieIueXY49GfwjiMP5qXp
+2026-02-21 18:36:24,723 [2026-02-21 18:36:24 IST] Fetching folder 1K8z96JC6vexOIFYi-Y9t7F2wStDJ3BHX from API
+2026-02-21 18:36:25,305 [2026-02-21 18:36:25 IST] Cached listing for folder 1K8z96JC6vexOIFYi-Y9t7F2wStDJ3BHX
+2026-02-21 18:36:25,314 [2026-02-21 18:36:25 IST] Cached lesson object for folder 1K8z96JC6vexOIFYi-Y9t7F2wStDJ3BHX
+2026-02-21 18:36:25,314 [2026-02-21 18:36:25 IST] Fetching folder 1PF45HLrOb4E6z2lvokrMGtPRKe-FNJiI from API
+2026-02-21 18:36:25,899 [2026-02-21 18:36:25 IST] Cached listing for folder 1PF45HLrOb4E6z2lvokrMGtPRKe-FNJiI
+2026-02-21 18:36:25,907 [2026-02-21 18:36:25 IST] Cached lesson object for folder 1PF45HLrOb4E6z2lvokrMGtPRKe-FNJiI
+2026-02-21 18:36:25,908 [2026-02-21 18:36:25 IST] Fetching folder 12UbhVFPR9df1QGueB7HVthzfwpJZKYxY from API
+2026-02-21 18:36:26,489 [2026-02-21 18:36:26 IST] Cached listing for folder 12UbhVFPR9df1QGueB7HVthzfwpJZKYxY
+2026-02-21 18:36:26,503 [2026-02-21 18:36:26 IST] Cached lesson object for folder 12UbhVFPR9df1QGueB7HVthzfwpJZKYxY
+2026-02-21 18:36:26,503 [2026-02-21 18:36:26 IST] Fetching folder 18MUFxdjJIGvcvhQdiymJ7GORO6aBV0e3 from API
+2026-02-21 18:36:27,066 [2026-02-21 18:36:27 IST] Cached listing for folder 18MUFxdjJIGvcvhQdiymJ7GORO6aBV0e3
+2026-02-21 18:36:27,074 [2026-02-21 18:36:27 IST] Cached lesson object for folder 18MUFxdjJIGvcvhQdiymJ7GORO6aBV0e3
+2026-02-21 18:36:27,074 [2026-02-21 18:36:27 IST] Fetching folder 1hSg4j_9zi6jku7qmaO9xMmXt1I8WUJS6 from API
+2026-02-21 18:36:27,646 [2026-02-21 18:36:27 IST] Cached listing for folder 1hSg4j_9zi6jku7qmaO9xMmXt1I8WUJS6
+2026-02-21 18:36:28,255 [2026-02-21 18:36:28 IST] Cached lesson object for folder 1hSg4j_9zi6jku7qmaO9xMmXt1I8WUJS6
+2026-02-21 18:36:28,255 [2026-02-21 18:36:28 IST] Fetching folder 1ZsE1nh0396Wt7UAXP4ondclaLDsGgjNQ from API
+2026-02-21 18:36:28,803 [2026-02-21 18:36:28 IST] Cached listing for folder 1ZsE1nh0396Wt7UAXP4ondclaLDsGgjNQ
+2026-02-21 18:36:28,810 [2026-02-21 18:36:28 IST] Cached lesson object for folder 1ZsE1nh0396Wt7UAXP4ondclaLDsGgjNQ
+2026-02-21 18:36:28,810 [2026-02-21 18:36:28 IST] Fetching folder 1ccIcmFrqKxFsIGHfrYp2b8mvcayi-_uz from API
+2026-02-21 18:36:29,363 [2026-02-21 18:36:29 IST] Cached listing for folder 1ccIcmFrqKxFsIGHfrYp2b8mvcayi-_uz
+2026-02-21 18:36:29,364 [2026-02-21 18:36:29 IST] Fetching folder 16jvduH4cOBQIVMxoQPsgcTPCMzMbdJBI from API
+2026-02-21 18:36:29,994 [2026-02-21 18:36:29 IST] Cached listing for folder 16jvduH4cOBQIVMxoQPsgcTPCMzMbdJBI
+2026-02-21 18:36:31,441 [2026-02-21 18:36:31 IST] Cached lesson object for folder 16jvduH4cOBQIVMxoQPsgcTPCMzMbdJBI
+2026-02-21 18:36:31,441 [2026-02-21 18:36:31 IST] Fetching folder 1WlRL7EfcsgS28-t0Bd7drtjdUBDDExKi from API
+2026-02-21 18:36:31,987 [2026-02-21 18:36:31 IST] Cached listing for folder 1WlRL7EfcsgS28-t0Bd7drtjdUBDDExKi
+2026-02-21 18:36:33,218 [2026-02-21 18:36:33 IST] Cached lesson object for folder 1WlRL7EfcsgS28-t0Bd7drtjdUBDDExKi
+2026-02-21 18:36:33,218 [2026-02-21 18:36:33 IST] Fetching folder 1GgMPxLbFEzjK8gu6Q3ZwQAu5F7BWOwHY from API
+2026-02-21 18:36:33,788 [2026-02-21 18:36:33 IST] Cached listing for folder 1GgMPxLbFEzjK8gu6Q3ZwQAu5F7BWOwHY
+2026-02-21 18:36:35,165 [2026-02-21 18:36:35 IST] Cached lesson object for folder 1GgMPxLbFEzjK8gu6Q3ZwQAu5F7BWOwHY
+2026-02-21 18:36:35,165 [2026-02-21 18:36:35 IST] Fetching folder 1vH0aDKKDR_Kn91OMibp3AGXckl8Heyz0 from API
+2026-02-21 18:36:35,750 [2026-02-21 18:36:35 IST] Cached listing for folder 1vH0aDKKDR_Kn91OMibp3AGXckl8Heyz0
+2026-02-21 18:36:37,176 [2026-02-21 18:36:37 IST] Cached lesson object for folder 1vH0aDKKDR_Kn91OMibp3AGXckl8Heyz0
+2026-02-21 18:36:37,176 [2026-02-21 18:36:37 IST] Fetching folder 1nAZ4br1UfW5abvggQMUjdz4YtpTMUbu1 from API
+2026-02-21 18:36:37,792 [2026-02-21 18:36:37 IST] Cached listing for folder 1nAZ4br1UfW5abvggQMUjdz4YtpTMUbu1
+2026-02-21 18:36:37,802 [2026-02-21 18:36:37 IST] Cached lesson object for folder 1nAZ4br1UfW5abvggQMUjdz4YtpTMUbu1
+2026-02-21 18:36:37,802 [2026-02-21 18:36:37 IST] Fetching folder 1k-E0r25K0bAlM59AgrwNC2o8x2kXEFDb from API
+2026-02-21 18:36:38,382 [2026-02-21 18:36:38 IST] Cached listing for folder 1k-E0r25K0bAlM59AgrwNC2o8x2kXEFDb
+2026-02-21 18:36:38,398 [2026-02-21 18:36:38 IST] Cached lesson object for folder 1k-E0r25K0bAlM59AgrwNC2o8x2kXEFDb
+2026-02-21 18:36:38,399 [2026-02-21 18:36:38 IST] Fetching folder 1i0L18BcHeTHELeYPG6GNvEoxeUJFW7LJ from API
+2026-02-21 18:36:38,968 [2026-02-21 18:36:38 IST] Cached listing for folder 1i0L18BcHeTHELeYPG6GNvEoxeUJFW7LJ
+2026-02-21 18:36:38,969 [2026-02-21 18:36:38 IST] Fetching folder 1a-6iRxXz5iIOLLwfGpSZP9o2e4VyuZaB from API
+2026-02-21 18:36:39,569 [2026-02-21 18:36:39 IST] Cached listing for folder 1a-6iRxXz5iIOLLwfGpSZP9o2e4VyuZaB
+2026-02-21 18:36:39,578 [2026-02-21 18:36:39 IST] Cached lesson object for folder 1a-6iRxXz5iIOLLwfGpSZP9o2e4VyuZaB
+2026-02-21 18:36:39,578 [2026-02-21 18:36:39 IST] Fetching folder 1SuULtYAMSu02MyCvOmhF0W-0SSNzjvO6 from API
+2026-02-21 18:36:40,137 [2026-02-21 18:36:40 IST] Cached listing for folder 1SuULtYAMSu02MyCvOmhF0W-0SSNzjvO6
+2026-02-21 18:36:40,147 [2026-02-21 18:36:40 IST] Cached lesson object for folder 1SuULtYAMSu02MyCvOmhF0W-0SSNzjvO6
+2026-02-21 18:36:40,148 [2026-02-21 18:36:40 IST] Fetching folder 1o5frG6CZo9ir7I9G6s5lP1hdhAguGnHm from API
+2026-02-21 18:36:40,736 [2026-02-21 18:36:40 IST] Cached listing for folder 1o5frG6CZo9ir7I9G6s5lP1hdhAguGnHm
+2026-02-21 18:36:41,360 [2026-02-21 18:36:41 IST] Cached lesson object for folder 1o5frG6CZo9ir7I9G6s5lP1hdhAguGnHm
+2026-02-21 18:36:41,360 [2026-02-21 18:36:41 IST] Fetching folder 1sQMukSwtY-Rn8CVIOeV4yq7lTxgVGGSH from API
+2026-02-21 18:36:41,986 [2026-02-21 18:36:41 IST] Cached listing for folder 1sQMukSwtY-Rn8CVIOeV4yq7lTxgVGGSH
+2026-02-21 18:36:42,842 [2026-02-21 18:36:42 IST] Cached lesson object for folder 1sQMukSwtY-Rn8CVIOeV4yq7lTxgVGGSH
+2026-02-21 18:36:42,842 [2026-02-21 18:36:42 IST] Fetching folder 1qBnHCaS-zRYjdePy07JBJfHTvU383DgN from API
+2026-02-21 18:36:43,359 [2026-02-21 18:36:43 IST] Cached listing for folder 1qBnHCaS-zRYjdePy07JBJfHTvU383DgN
+2026-02-21 18:36:44,141 [2026-02-21 18:36:44 IST] Cached lesson object for folder 1qBnHCaS-zRYjdePy07JBJfHTvU383DgN
+2026-02-21 18:36:44,141 [2026-02-21 18:36:44 IST] Fetching folder 1-1019E4OfHpCZUlP71xIgIecYKXRzP6o from API
+2026-02-21 18:36:44,712 [2026-02-21 18:36:44 IST] Cached listing for folder 1-1019E4OfHpCZUlP71xIgIecYKXRzP6o
+2026-02-21 18:36:45,255 [2026-02-21 18:36:45 IST] Cached lesson object for folder 1-1019E4OfHpCZUlP71xIgIecYKXRzP6o
+2026-02-21 18:36:45,255 [2026-02-21 18:36:45 IST] Fetching folder 1XrPx0PNZIXh4gJoCFhqy8ggMic9y_i6G from API
+2026-02-21 18:36:45,857 [2026-02-21 18:36:45 IST] Cached listing for folder 1XrPx0PNZIXh4gJoCFhqy8ggMic9y_i6G
+2026-02-21 18:36:45,865 [2026-02-21 18:36:45 IST] Cached lesson object for folder 1XrPx0PNZIXh4gJoCFhqy8ggMic9y_i6G
+2026-02-21 18:36:45,865 [2026-02-21 18:36:45 IST] Fetching folder 1r1rNHdEruSDT49q0BMff6KTVE8SlXxcH from API
+2026-02-21 18:36:46,475 [2026-02-21 18:36:46 IST] Cached listing for folder 1r1rNHdEruSDT49q0BMff6KTVE8SlXxcH
+2026-02-21 18:36:47,138 [2026-02-21 18:36:47 IST] Fetching folder 1KcJGcVM93bajt9RwwcvX_hBbu5KXdz2K from API
+2026-02-21 18:36:47,715 [2026-02-21 18:36:47 IST] Cached listing for folder 1KcJGcVM93bajt9RwwcvX_hBbu5KXdz2K
+2026-02-21 18:36:47,716 [2026-02-21 18:36:47 IST] Cached lesson object for folder 1r1rNHdEruSDT49q0BMff6KTVE8SlXxcH
+2026-02-21 18:36:47,716 [2026-02-21 18:36:47 IST] Fetching folder 1tSpk4dlpkaOCKReH8IR4iVeg71TT4YDg from API
+2026-02-21 18:36:48,302 [2026-02-21 18:36:48 IST] Cached listing for folder 1tSpk4dlpkaOCKReH8IR4iVeg71TT4YDg
+2026-02-21 18:36:49,537 [2026-02-21 18:36:49 IST] Fetching folder 1awqSywSlC3CiQ0i-CUpqoS-xXl87cRSQ from API
+2026-02-21 18:36:50,061 [2026-02-21 18:36:50 IST] Cached listing for folder 1awqSywSlC3CiQ0i-CUpqoS-xXl87cRSQ
+2026-02-21 18:36:50,062 [2026-02-21 18:36:50 IST] Cached lesson object for folder 1tSpk4dlpkaOCKReH8IR4iVeg71TT4YDg
+2026-02-21 18:36:50,062 [2026-02-21 18:36:50 IST] Fetching folder 1h2NX-VoxxOvv3iZKIb6EbicZ1z3T1twM from API
+2026-02-21 18:36:50,680 [2026-02-21 18:36:50 IST] Cached listing for folder 1h2NX-VoxxOvv3iZKIb6EbicZ1z3T1twM
+2026-02-21 18:36:51,936 [2026-02-21 18:36:51 IST] Cached lesson object for folder 1h2NX-VoxxOvv3iZKIb6EbicZ1z3T1twM
+2026-02-21 18:36:51,936 [2026-02-21 18:36:51 IST] Fetching folder 1JGEM_1FvKzHObx39yRyiCbe4CM8NIZui from API
+2026-02-21 18:36:52,523 [2026-02-21 18:36:52 IST] Cached listing for folder 1JGEM_1FvKzHObx39yRyiCbe4CM8NIZui
+2026-02-21 18:36:52,530 [2026-02-21 18:36:52 IST] Cached lesson object for folder 1JGEM_1FvKzHObx39yRyiCbe4CM8NIZui
+2026-02-21 18:36:52,531 [2026-02-21 18:36:52 IST] Fetching folder 1NFiNKu5i0eXcWbw0B036_LzFAfhIR8Fw from API
+2026-02-21 18:36:53,119 [2026-02-21 18:36:53 IST] Cached listing for folder 1NFiNKu5i0eXcWbw0B036_LzFAfhIR8Fw
+2026-02-21 18:36:53,120 [2026-02-21 18:36:53 IST] Fetching folder 1_kGt5vDENOZCaiqtEfWbINJNa9woZTZ9 from API
+2026-02-21 18:36:53,706 [2026-02-21 18:36:53 IST] Cached listing for folder 1_kGt5vDENOZCaiqtEfWbINJNa9woZTZ9
+2026-02-21 18:36:53,713 [2026-02-21 18:36:53 IST] Cached lesson object for folder 1_kGt5vDENOZCaiqtEfWbINJNa9woZTZ9
+2026-02-21 18:36:53,714 [2026-02-21 18:36:53 IST] Fetching folder 1ePUcLbsp6Vs23AkCJSqgS8dvuqgi6E5P from API
+2026-02-21 18:36:54,281 [2026-02-21 18:36:54 IST] Cached listing for folder 1ePUcLbsp6Vs23AkCJSqgS8dvuqgi6E5P
+2026-02-21 18:36:54,804 [2026-02-21 18:36:54 IST] Cached lesson object for folder 1ePUcLbsp6Vs23AkCJSqgS8dvuqgi6E5P
+2026-02-21 18:36:54,805 [2026-02-21 18:36:54 IST] Fetching folder 1Kh6sl6VjrBZjHgbzLjsutVAueuiFykH0 from API
+2026-02-21 18:36:55,353 [2026-02-21 18:36:55 IST] Cached listing for folder 1Kh6sl6VjrBZjHgbzLjsutVAueuiFykH0
+2026-02-21 18:36:55,353 [2026-02-21 18:36:55 IST] Fetching folder 1jmanCLrlItaNpnbC_HCIgw8L0K6UZfrf from API
+2026-02-21 18:36:55,906 [2026-02-21 18:36:55 IST] Cached listing for folder 1jmanCLrlItaNpnbC_HCIgw8L0K6UZfrf
+2026-02-21 18:36:55,914 [2026-02-21 18:36:55 IST] Cached lesson object for folder 1jmanCLrlItaNpnbC_HCIgw8L0K6UZfrf
+2026-02-21 18:36:55,915 [2026-02-21 18:36:55 IST] Fetching folder 1MjIAAuwngA05oJWru4apJmoFwNBaDmRE from API
+2026-02-21 18:36:56,451 [2026-02-21 18:36:56 IST] Cached listing for folder 1MjIAAuwngA05oJWru4apJmoFwNBaDmRE
+2026-02-21 18:36:56,460 [2026-02-21 18:36:56 IST] Cached lesson object for folder 1MjIAAuwngA05oJWru4apJmoFwNBaDmRE
+2026-02-21 18:36:56,460 [2026-02-21 18:36:56 IST] Fetching folder 1Alse2yWfcQfVgRptc9NIL9hc3mfZ-Pwj from API
+2026-02-21 18:36:57,041 [2026-02-21 18:36:57 IST] Cached listing for folder 1Alse2yWfcQfVgRptc9NIL9hc3mfZ-Pwj
+2026-02-21 18:36:57,056 [2026-02-21 18:36:57 IST] Cached lesson object for folder 1Alse2yWfcQfVgRptc9NIL9hc3mfZ-Pwj
+2026-02-21 18:36:57,057 [2026-02-21 18:36:57 IST] Fetching folder 1tiGPlu9ZJ3ULtHEafN69gD8VnN-70-AB from API
+2026-02-21 18:36:57,603 [2026-02-21 18:36:57 IST] Cached listing for folder 1tiGPlu9ZJ3ULtHEafN69gD8VnN-70-AB
+2026-02-21 18:36:57,616 [2026-02-21 18:36:57 IST] Cached lesson object for folder 1tiGPlu9ZJ3ULtHEafN69gD8VnN-70-AB
+2026-02-21 18:36:57,617 [2026-02-21 18:36:57 IST] Fetching folder 19aXa_PFnQ0qEazDdaCpxyHnKk4FPA1FG from API
+2026-02-21 18:36:58,206 [2026-02-21 18:36:58 IST] Cached listing for folder 19aXa_PFnQ0qEazDdaCpxyHnKk4FPA1FG
+2026-02-21 18:36:58,206 [2026-02-21 18:36:58 IST] Fetching folder 1kaaidsglsrsc4vmauJOFmNjUHAqmq-rw from API
+2026-02-21 18:36:58,786 [2026-02-21 18:36:58 IST] Cached listing for folder 1kaaidsglsrsc4vmauJOFmNjUHAqmq-rw
+2026-02-21 18:36:59,457 [2026-02-21 18:36:59 IST] Cached lesson object for folder 1kaaidsglsrsc4vmauJOFmNjUHAqmq-rw
+2026-02-21 18:36:59,457 [2026-02-21 18:36:59 IST] Fetching folder 1L_NSqrobWv2-kekatnyt4JoBbazcBbtR from API
+2026-02-21 18:37:00,062 [2026-02-21 18:37:00 IST] Cached listing for folder 1L_NSqrobWv2-kekatnyt4JoBbazcBbtR
+2026-02-21 18:37:00,724 [2026-02-21 18:37:00 IST] Cached lesson object for folder 1L_NSqrobWv2-kekatnyt4JoBbazcBbtR
+2026-02-21 18:37:00,724 [2026-02-21 18:37:00 IST] Fetching folder 1uugZX8WWo2Ml9Ml66-639zkr8TKHahi6 from API
+2026-02-21 18:37:01,327 [2026-02-21 18:37:01 IST] Cached listing for folder 1uugZX8WWo2Ml9Ml66-639zkr8TKHahi6
+2026-02-21 18:37:01,337 [2026-02-21 18:37:01 IST] Cached lesson object for folder 1uugZX8WWo2Ml9Ml66-639zkr8TKHahi6
+2026-02-21 18:37:01,337 [2026-02-21 18:37:01 IST] Fetching folder 1kbDAWYJY1MNS_c7xekLEF8BuBpQs13yN from API
+2026-02-21 18:37:01,882 [2026-02-21 18:37:01 IST] Cached listing for folder 1kbDAWYJY1MNS_c7xekLEF8BuBpQs13yN
+2026-02-21 18:37:01,883 [2026-02-21 18:37:01 IST] Fetching folder 1qrBasVqH3Ry51ePYt7TJcfYDA5fZqXEX from API
+2026-02-21 18:37:02,537 [2026-02-21 18:37:02 IST] Cached listing for folder 1qrBasVqH3Ry51ePYt7TJcfYDA5fZqXEX
+2026-02-21 18:37:02,547 [2026-02-21 18:37:02 IST] Cached lesson object for folder 1qrBasVqH3Ry51ePYt7TJcfYDA5fZqXEX
+2026-02-21 18:37:02,547 [2026-02-21 18:37:02 IST] Fetching folder 17Dw-_Ps8pw3kB-bRzk-w7biV0VeyAa6z from API
+2026-02-21 18:37:03,156 [2026-02-21 18:37:03 IST] Cached listing for folder 17Dw-_Ps8pw3kB-bRzk-w7biV0VeyAa6z
+2026-02-21 18:37:03,164 [2026-02-21 18:37:03 IST] Cached lesson object for folder 17Dw-_Ps8pw3kB-bRzk-w7biV0VeyAa6z
+2026-02-21 18:37:03,164 [2026-02-21 18:37:03 IST] Fetching folder 192wpg8KYF0gyhCyHpUtFUsrB9Gg-jiks from API
+2026-02-21 18:37:03,773 [2026-02-21 18:37:03 IST] Cached listing for folder 192wpg8KYF0gyhCyHpUtFUsrB9Gg-jiks
+2026-02-21 18:37:03,783 [2026-02-21 18:37:03 IST] Cached lesson object for folder 192wpg8KYF0gyhCyHpUtFUsrB9Gg-jiks
+2026-02-21 18:37:03,784 [2026-02-21 18:37:03 IST] Fetching folder 1Qt6u6q9Lm9aburcWj9t1b5Kmj3FN3B_0 from API
+2026-02-21 18:37:04,350 [2026-02-21 18:37:04 IST] Cached listing for folder 1Qt6u6q9Lm9aburcWj9t1b5Kmj3FN3B_0
+2026-02-21 18:37:04,376 [2026-02-21 18:37:04 IST] Cached lesson object for folder 1Qt6u6q9Lm9aburcWj9t1b5Kmj3FN3B_0
+2026-02-21 18:37:04,377 [2026-02-21 18:37:04 IST] Fetching folder 1M0EV6_oRsKeEh0V6h4LtLHrz8G-Io_7k from API
+2026-02-21 18:37:05,125 [2026-02-21 18:37:05 IST] Cached listing for folder 1M0EV6_oRsKeEh0V6h4LtLHrz8G-Io_7k
+2026-02-21 18:37:05,133 [2026-02-21 18:37:05 IST] Cached lesson object for folder 1M0EV6_oRsKeEh0V6h4LtLHrz8G-Io_7k
+2026-02-21 18:37:05,134 [2026-02-21 18:37:05 IST] Fetching folder 16krzOiucpxU81f3mdQJdkg7MRA6s95RY from API
+2026-02-21 18:37:05,730 [2026-02-21 18:37:05 IST] Cached listing for folder 16krzOiucpxU81f3mdQJdkg7MRA6s95RY
+2026-02-21 18:37:05,738 [2026-02-21 18:37:05 IST] Cached lesson object for folder 16krzOiucpxU81f3mdQJdkg7MRA6s95RY
+2026-02-21 18:37:05,738 [2026-02-21 18:37:05 IST] Fetching folder 1GhFt7lnATsGs1d_yQiFN0InVzC40i5ca from API
+2026-02-21 18:37:06,330 [2026-02-21 18:37:06 IST] Cached listing for folder 1GhFt7lnATsGs1d_yQiFN0InVzC40i5ca
+2026-02-21 18:37:07,877 [2026-02-21 18:37:07 IST] Cached lesson object for folder 1GhFt7lnATsGs1d_yQiFN0InVzC40i5ca
+2026-02-21 18:37:07,878 [2026-02-21 18:37:07 IST] Fetching folder 1v1Dwra6P6p1ci7Y5DaNCT_fYnfDWYz0r from API
+2026-02-21 18:37:08,570 [2026-02-21 18:37:08 IST] Cached listing for folder 1v1Dwra6P6p1ci7Y5DaNCT_fYnfDWYz0r
+2026-02-21 18:37:10,134 [2026-02-21 18:37:10 IST] Cached lesson object for folder 1v1Dwra6P6p1ci7Y5DaNCT_fYnfDWYz0r
+2026-02-21 18:37:10,134 [2026-02-21 18:37:10 IST] Fetching folder 1-HvrWvJYltLmwQJci_en0LFG3TFbu7H3 from API
+2026-02-21 18:37:10,723 [2026-02-21 18:37:10 IST] Cached listing for folder 1-HvrWvJYltLmwQJci_en0LFG3TFbu7H3
+2026-02-21 18:37:10,731 [2026-02-21 18:37:10 IST] Fetching folder 13AIQzuVWyP5xuhSt3kIgmJEqN2fkBfbD from API
+2026-02-21 18:37:11,360 [2026-02-21 18:37:11 IST] Cached listing for folder 13AIQzuVWyP5xuhSt3kIgmJEqN2fkBfbD
+2026-02-21 18:37:11,362 [2026-02-21 18:37:11 IST] Cached lesson object for folder 1-HvrWvJYltLmwQJci_en0LFG3TFbu7H3
+2026-02-21 18:37:11,362 [2026-02-21 18:37:11 IST] Fetching folder 1sIFJkS2ctTfPgSTU0UdH-krW7XUNQuWb from API
+2026-02-21 18:37:11,950 [2026-02-21 18:37:11 IST] Cached listing for folder 1sIFJkS2ctTfPgSTU0UdH-krW7XUNQuWb
+2026-02-21 18:37:11,958 [2026-02-21 18:37:11 IST] Cached lesson object for folder 1sIFJkS2ctTfPgSTU0UdH-krW7XUNQuWb
+2026-02-21 18:37:11,958 [2026-02-21 18:37:11 IST] Fetching folder 1iuFse3bEEgLuQZhX8be7XYZ55PbIqx1n from API
+2026-02-21 18:37:12,567 [2026-02-21 18:37:12 IST] Cached listing for folder 1iuFse3bEEgLuQZhX8be7XYZ55PbIqx1n
+2026-02-21 18:37:13,913 [2026-02-21 18:37:13 IST] Cached lesson object for folder 1iuFse3bEEgLuQZhX8be7XYZ55PbIqx1n
+2026-02-21 18:37:13,913 [2026-02-21 18:37:13 IST] Fetching folder 1mOazUjh2Q-xx4skTZTZtCyb_B3VOe68r from API
+2026-02-21 18:37:14,459 [2026-02-21 18:37:14 IST] Cached listing for folder 1mOazUjh2Q-xx4skTZTZtCyb_B3VOe68r
+2026-02-21 18:37:14,467 [2026-02-21 18:37:14 IST] Cached lesson object for folder 1mOazUjh2Q-xx4skTZTZtCyb_B3VOe68r
+2026-02-21 18:37:14,467 [2026-02-21 18:37:14 IST] Fetching folder 1gFRsE7f-S6dSLpt8YSy4XGz-Dh6qQEWS from API
+2026-02-21 18:37:15,093 [2026-02-21 18:37:15 IST] Cached listing for folder 1gFRsE7f-S6dSLpt8YSy4XGz-Dh6qQEWS
+2026-02-21 18:37:16,435 [2026-02-21 18:37:16 IST] Cached lesson object for folder 1gFRsE7f-S6dSLpt8YSy4XGz-Dh6qQEWS
+2026-02-21 18:37:16,436 [2026-02-21 18:37:16 IST] Fetching folder 1O6MQXw_SIHj5eAR9FpNHZABEa83BnIft from API
+2026-02-21 18:37:17,014 [2026-02-21 18:37:17 IST] Cached listing for folder 1O6MQXw_SIHj5eAR9FpNHZABEa83BnIft
+2026-02-21 18:37:17,026 [2026-02-21 18:37:17 IST] Cached lesson object for folder 1O6MQXw_SIHj5eAR9FpNHZABEa83BnIft
+2026-02-21 18:37:17,026 [2026-02-21 18:37:17 IST] Fetching folder 15jF1iP1sB2vsFn-NSRbEJdMFHAWhb329 from API
+2026-02-21 18:37:17,579 [2026-02-21 18:37:17 IST] Cached listing for folder 15jF1iP1sB2vsFn-NSRbEJdMFHAWhb329
+2026-02-21 18:37:18,429 [2026-02-21 18:37:18 IST] Cached lesson object for folder 15jF1iP1sB2vsFn-NSRbEJdMFHAWhb329
+2026-02-21 18:37:18,432 [2026-02-21 18:37:18 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:37:18,432 [2026-02-21 18:37:18 IST] All classes processed. JSON generation complete.
+2026-02-21 18:37:18,697 [2026-02-21 18:37:18 IST] Saved initial changes state for next run
+2026-02-21 18:37:18,757 [2026-02-21 18:37:18 IST] Data regeneration complete
+2026-02-21 18:37:18,757 [2026-02-21 18:37:18 IST] Main build process started
+2026-02-21 18:37:18,776 [2026-02-21 18:37:18 IST] Loaded 8 class JSON files
+2026-02-21 18:37:18,789 [2026-02-21 18:37:18 IST] Rendered index.html
+2026-02-21 18:37:18,819 [2026-02-21 18:37:18 IST] Rendered all class pages
+2026-02-21 18:37:18,821 [2026-02-21 18:37:18 IST] Copied static assets
+2026-02-21 18:37:18,847 [2026-02-21 18:37:18 IST] Copied images
+2026-02-21 18:37:18,847 [2026-02-21 18:37:18 IST] Site built successfully!

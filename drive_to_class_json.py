@@ -25,11 +25,12 @@ CREDENTIALS_PATH = 'secrets/credentials.json'
 TOKEN_PATH = 'secrets/token.pickle'
 DATA_DIR = 'data'
 
-# Folder listing cache (Strategy 1: ModifiedTime-based). Cache applies to every folder
-# including nested subfolders—each folder_id has its own cache file.
+# Folder listing cache. Each folder_id has its own cache file.
 CACHE_DIR = os.path.join('cache', 'folder_listings')
 # Cached full lesson objects (when folder unchanged: skip README, lesson.json, crawl_lesson_content)
 LESSON_OBJ_CACHE_DIR = os.path.join('cache', 'lesson_objects')
+# Changes API: saved startPageToken for next run (cleared when clearing all cache)
+CHANGES_STATE_PATH = os.path.join('cache', 'changes_state.json')
 
 # Assignments filename (can be changed easily)
 ASSIGNMENTS_FILENAME = 'assignments.md'
@@ -386,6 +387,9 @@ def clear_folder_listing_cache(folder_id=None):
                 if name.endswith('.json'):
                     os.remove(os.path.join(LESSON_OBJ_CACHE_DIR, name))
             log_event("Cleared all lesson object cache")
+        if os.path.exists(CHANGES_STATE_PATH):
+            os.remove(CHANGES_STATE_PATH)
+            log_event("Cleared changes state (startPageToken)")
 
 
 def _lesson_cache_path(folder_id):
@@ -438,11 +442,12 @@ def save_lesson_obj_cache(lesson_folder_id, folder_modified_time, lesson_obj):
         log_event(f"Lesson cache write error for {lesson_folder_id}: {str(e)}")
 
 
-def list_folder_contents(service, folder_id, use_cache=True):
+def list_folder_contents(service, folder_id, use_cache=True, invalidated_ids=None):
     """
     List all files and folders in a Google Drive folder.
-    Uses ModifiedTime-based cache: each folder (including nested subfolders) has its own
-    cache file; if the folder's modifiedTime is unchanged, the cached listing is returned.
+    When use_cache is True and folder_id is not in invalidated_ids, returns cached
+    listing if present (no API calls). Otherwise fetches from API and updates cache.
+    Invalidated folders are those known to have changed (from Drive Changes API).
 
     Returns:
         (items, cache_info): items is list of file/folder dicts; cache_info is
@@ -451,38 +456,18 @@ def list_folder_contents(service, folder_id, use_cache=True):
     os.makedirs(CACHE_DIR, exist_ok=True)
     cache_file = _folder_cache_path(folder_id)
     cache_info = {"modified_time": None, "from_cache": False}
+    invalidated_ids = invalidated_ids or set()
 
-    # Try cache (only if we have a cache file and use_cache is True)
-    if use_cache and os.path.exists(cache_file):
+    # Use cache only when enabled, folder not invalidated, and cache file exists
+    if use_cache and folder_id not in invalidated_ids and os.path.exists(cache_file):
         try:
             with open(cache_file, 'r', encoding='utf-8') as f:
                 cache_data = json.load(f)
-            # One lightweight API call to check if folder changed
-            folder_meta = service.files().get(
-                fileId=folder_id,
-                fields="modifiedTime"
-            ).execute()
-            cached_modified = cache_data.get('modified_time')
-            current_modified = folder_meta.get('modifiedTime')
-            if cached_modified == current_modified:
-                # Drive does not update a folder's modifiedTime when children are added/removed/renamed.
-                # Verify contents by comparing current (id, name) pairs with cached; detects new/removed/renamed items.
-                list_query = f"'{folder_id}' in parents and trashed = false"
-                list_results = service.files().list(
-                    q=list_query,
-                    fields="files(id, name)",
-                    pageSize=1000
-                ).execute()
-                current_pairs = {(f['id'], f['name']) for f in list_results.get('files', [])}
-                cached_pairs = {(item['id'], item['name']) for item in cache_data.get('items', [])}
-                if current_pairs == cached_pairs:
-                    cache_info["modified_time"] = current_modified
-                    cache_info["from_cache"] = True
-                    return cache_data.get('items', []), cache_info
-                # Pairs differ (new, removed, or renamed items) -> fall through to full fetch
+            cache_info["modified_time"] = cache_data.get('modified_time')
+            cache_info["from_cache"] = True
+            return cache_data.get('items', []), cache_info
         except HttpError as e:
             if e.resp.status == 404:
-                # Folder deleted; remove stale cache
                 if os.path.exists(cache_file):
                     os.remove(cache_file)
                 raise
@@ -490,8 +475,7 @@ def list_folder_contents(service, folder_id, use_cache=True):
         except Exception as e:
             log_event(f"Cache read error for {folder_id}: {str(e)}, fetching fresh")
 
-    
-    log_event(f"cache not found for folder {folder_id}, fetching full listing from API")
+    log_event(f"Fetching folder {folder_id} from API")
     # Fetch full listing from API
     query = f"'{folder_id}' in parents and trashed = false"
     results = service.files().list(
@@ -543,16 +527,17 @@ def list_folder_contents(service, folder_id, use_cache=True):
 #    files = results.get('files', [])
 #    return natsorted(files, key=lambda x: x['name'])
 
-def crawl_lesson_content(service, folder_id):
+def crawl_lesson_content(service, folder_id, use_cache=True, invalidated_ids=None):
     """Recursively crawl the contents of a lesson folder."""
-    items, _ = list_folder_contents(service, folder_id)
+    invalidated_ids = invalidated_ids or set()
+    items, _ = list_folder_contents(service, folder_id, use_cache=use_cache, invalidated_ids=invalidated_ids)
     content = []
     for item in items:
         if item['mimeType'] == 'application/vnd.google-apps.folder':
             content.append({
                 'type': 'folder',
                 'name': item['name'],
-                'content': crawl_lesson_content(service, item['id'])
+                'content': crawl_lesson_content(service, item['id'], use_cache=use_cache, invalidated_ids=invalidated_ids)
             })
         else:
             # Check if the file should be ignored
@@ -569,10 +554,11 @@ def crawl_lesson_content(service, folder_id):
             })
     return content
 
-def crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id):
+def crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id, invalidated_ids=None, use_cache=True):
     """Crawl all topics and lessons for a class."""
+    invalidated_ids = invalidated_ids or set()
     # Get root folder contents once
-    root_folder_items, _ = list_folder_contents(service, folder_id)
+    root_folder_items, _ = list_folder_contents(service, folder_id, use_cache=use_cache, invalidated_ids=invalidated_ids)
     
     # Read assignments.md file first, using root folder items to avoid redundant query
     assignments_content, assignments_file_id = read_assignments_file(service, folder_id, root_folder_items)
@@ -586,11 +572,11 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
             'lessons': []
         }
         # Get topic folder contents once
-        topic_folder_items, _ = list_folder_contents(service, topic['id'])
+        topic_folder_items, _ = list_folder_contents(service, topic['id'], use_cache=use_cache, invalidated_ids=invalidated_ids)
         lesson_folders = [f for f in topic_folder_items if f['mimeType'] == 'application/vnd.google-apps.folder']
         for lesson_index, lesson in enumerate(lesson_folders, 1):
             # Get lesson folder contents once
-            lesson_folder_items, lesson_cache_info = list_folder_contents(service, lesson['id'])
+            lesson_folder_items, lesson_cache_info = list_folder_contents(service, lesson['id'], use_cache=use_cache, invalidated_ids=invalidated_ids)
             
             # If folder unchanged, try to use cached full lesson object (skip README, lesson.json, crawl)
             if lesson_cache_info.get("from_cache") and lesson_cache_info.get("modified_time"):
@@ -618,7 +604,7 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
                 'name': lesson['name'],
                 'desc': lesson_description,
                 'id': f"{topic_index}-{lesson_index}",
-                'content': crawl_lesson_content(service, lesson['id']),
+                'content': crawl_lesson_content(service, lesson['id'], use_cache=use_cache, invalidated_ids=invalidated_ids),
                 'lesson_json': lesson_meta
             }
             topic_obj['lessons'].append(lesson_obj)
@@ -642,20 +628,58 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
 
 def main():
     """Main process: selectively crawls classes based on regenerate flag, writes JSON only for classes that need updating."""
+    import argparse
+    parser = argparse.ArgumentParser(description='Generate class JSON from Google Drive.')
+    parser.add_argument('--no-cache', action='store_true', help='Disable all caching (full fetch every time, for testing or major changes).')
+    args = parser.parse_args()
+    use_cache = not args.no_cache
+
     log_event('Main process started')
     print('Main process started!')
     # Record the start time
     start_time = datetime.now()
-    
+
     # Create data directory if it doesn't exist
     os.makedirs(DATA_DIR, exist_ok=True)
-    
+
     service = get_drive_service()
-    
-    # removed for now because we're not using it currently
-    # Create base64 credentials for GitHub Actions if needed
-    #create_base64_credentials()
-    
+
+    # Resolve affected folder IDs and start token via Changes API when using cache
+    affected_folder_ids = set()
+    new_start_page_token = None
+    if use_cache:
+        import drive_changes
+        saved_token = None
+        if os.path.exists(CHANGES_STATE_PATH):
+            try:
+                with open(CHANGES_STATE_PATH, 'r', encoding='utf-8') as f:
+                    state = json.load(f)
+                saved_token = state.get('startPageToken')
+            except Exception as e:
+                log_event(f"Could not load changes state: {e}")
+        if saved_token:
+            try:
+                changes_list, new_start_page_token = drive_changes.fetch_changes(service, saved_token)
+                changes_path = drive_changes.persist_changes(changes_list, new_start_page_token)
+                log_event(f"Persisted {len(changes_list)} changes to {changes_path}")
+                data = drive_changes.load_changes(changes_path)
+                affected_folder_ids = drive_changes.compute_affected_folder_ids(
+                    data['changes'], CACHE_DIR
+                )
+                if affected_folder_ids:
+                    log_event(f"Affected folder IDs (will refetch): {len(affected_folder_ids)}")
+            except Exception as e:
+                log_event(f"Changes API error: {e}; clearing changes state so next run does full crawl")
+                if os.path.exists(CHANGES_STATE_PATH):
+                    os.remove(CHANGES_STATE_PATH)
+                affected_folder_ids = set()
+                new_start_page_token = None
+        else:
+            # No previous token: full crawl this run; get token at end for next run
+            new_start_page_token = None  # will fetch at end
+    else:
+        log_event('Cache disabled (--no-cache)')
+
     # Use hardcoded ids from class_info
     for cls in class_info:
         class_name = cls['name']
@@ -665,16 +689,19 @@ def main():
         banner_url = cls.get('banner_url', '')
         active = cls.get('active', False)
         regenerate = cls.get('regenerate', True)  # Default to True for backward compatibility
-        
+
         # Check if we should regenerate this class
         if not regenerate:
             log_event(f'Skipping {url_name} - regenerate=False, keeping existing JSON file')
             print(f'Skipping {url_name} - regenerate=False, keeping existing JSON file')
             continue
-            
+
         folder_id = extract_folder_id(folder_url)
         log_event(f'Crawling url_name: {url_name} (folder_url: {folder_url})')
-        class_json = crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id)
+        class_json = crawl_class(
+            service, class_name, folder_id, banner_url, url_name, active, class_id,
+            invalidated_ids=affected_folder_ids, use_cache=use_cache
+        )
         # Use url_name for output filename
         out_path = os.path.join(DATA_DIR, f'class-{url_name}.json')
         with open(out_path, 'w', encoding='utf-8') as f:
@@ -682,6 +709,29 @@ def main():
         log_event(f'Wrote {out_path}')
         print(f'Wrote {out_path}')
     log_event('All classes processed. JSON generation complete.')
+
+    # Save new start page token for next run when using cache
+    if use_cache and new_start_page_token:
+        os.makedirs(os.path.dirname(CHANGES_STATE_PATH), exist_ok=True)
+        try:
+            with open(CHANGES_STATE_PATH, 'w', encoding='utf-8') as f:
+                json.dump({'startPageToken': new_start_page_token}, f, indent=2)
+            log_event('Saved changes state for next run')
+        except Exception as e:
+            log_event(f"Could not save changes state: {e}")
+    elif use_cache and not os.path.exists(CHANGES_STATE_PATH):
+        # First run with cache: get current token so next run can use changes
+        try:
+            import drive_changes
+            start_token_resp = service.changes().getStartPageToken().execute()
+            token = start_token_resp.get('startPageToken')
+            if token:
+                os.makedirs(os.path.dirname(CHANGES_STATE_PATH), exist_ok=True)
+                with open(CHANGES_STATE_PATH, 'w', encoding='utf-8') as f:
+                    json.dump({'startPageToken': token}, f, indent=2)
+                log_event('Saved initial changes state for next run')
+        except Exception as e:
+            log_event(f"Could not save initial changes state: {e}")
 
     # Record the end time
     end_time = datetime.now()
