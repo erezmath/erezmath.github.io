@@ -626,14 +626,14 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
         'active': active
     }
 
-def main():
-    """Main process: selectively crawls classes based on regenerate flag, writes JSON only for classes that need updating."""
-    import argparse
-    parser = argparse.ArgumentParser(description='Generate class JSON from Google Drive.')
-    parser.add_argument('--no-cache', action='store_true', help='Disable all caching (full fetch every time, for testing or major changes).')
-    args = parser.parse_args()
-    use_cache = not args.no_cache
+def generate_data(use_cache=True):
+    """Generate all class JSON files from Google Drive.
 
+    Args:
+        use_cache: When True, uses folder/lesson cache and Drive Changes API to
+                   invalidate only affected folders. When False, does a full
+                   fetch without reading or writing cache/state.
+    """
     log_event('Main process started')
     print('Main process started!')
     # Record the start time
@@ -678,7 +678,7 @@ def main():
             # No previous token: full crawl this run; get token at end for next run
             new_start_page_token = None  # will fetch at end
     else:
-        log_event('Cache disabled (--no-cache)')
+        log_event('Cache disabled (use_cache=False)')
 
     # Use hardcoded ids from class_info
     for cls in class_info:
@@ -740,6 +740,12 @@ def main():
     print(f"Total time taken: {total_time.total_seconds()} seconds to run.")
     print(f'Total time taken: {total_time}')
     print('All classes processed. JSON generation complete.')
+
+
+def main():
+    """CLI entry point: always runs with cache enabled."""
+    generate_data(use_cache=True)
+
 
 if __name__ == '__main__':
     main() 

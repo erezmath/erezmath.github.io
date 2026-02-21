@@ -8,14 +8,14 @@ import json
 from datetime import datetime
 
 CHANGES_API_DIR = 'changes_api'
-# Timestamp format: dd-mm-yyyy_hh-mm (day, month, year, hour, minute)
+# Timestamp format: dd-mm-yyyy_hh-mm-ss (day, month, year, hour, minute, second)
 CHANGES_FILENAME_PREFIX = 'changes-'
 
 
 def _timestamp_str():
-    """Return current timestamp in format dd-mm-yyyy_hh-mm."""
+    """Return current timestamp in format dd-mm-yyyy_hh-mm-ss."""
     now = datetime.now()
-    return now.strftime('%d-%m-%Y_%H-%M')
+    return now.strftime('%d-%m-%Y_%H-%M-%S')
 
 
 def fetch_changes(service, page_token):
@@ -46,7 +46,7 @@ def fetch_changes(service, page_token):
 def persist_changes(changes_list, new_start_page_token):
     """
     Save changes to a timestamped file in changes_api/.
-    File name: changes-dd-mm-yyyy_hh-mm.json
+    File name: changes-dd-mm-yyyy_hh-mm-ss.json
     Does not delete any existing files. Returns path to the written file.
     changes_list may be empty.
     """

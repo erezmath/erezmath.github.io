@@ -22,9 +22,11 @@ DIST_DIR = 'docs'
 # command: 'python build_site.py --regen-data'
 # otherwise, the data will be loaded from the data/ directory
 # --clear-cache clears folder listing and lesson caches before regen (e.g. python build_site.py --regen-data --clear-cache)
+# --no-cache disables all caching inside drive_to_class_json (full fetch, for testing/major changes)
 parser = argparse.ArgumentParser(description='Build the static site.')
 parser.add_argument('--regen-data', action='store_true', help='Regenerate class JSON data before building')
 parser.add_argument('--clear-cache', action='store_true', help='Clear folder/lesson cache before regenerating data (use with --regen-data)')
+parser.add_argument('--no-cache', action='store_true', help='Regenerate data without any caching (slow, but safest for major changes)')
 args = parser.parse_args()
 
 if args.clear_cache:
@@ -33,8 +35,10 @@ if args.clear_cache:
     log_event('Cleared folder listing and lesson caches')
 
 if args.regen_data:
-    log_event('Regenerating data with drive_to_class_json.py')
-    subprocess.run(['python', 'drive_to_class_json.py'], check=True)
+    from drive_to_class_json import generate_data
+    log_event('Regenerating data with drive_to_class_json.generate_data')
+    use_cache = not args.no_cache
+    generate_data(use_cache=use_cache)
     log_event('Data regeneration complete')
 
 # Ensure dist exists before any file operations

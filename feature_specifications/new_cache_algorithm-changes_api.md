@@ -129,11 +129,30 @@ Same as Approach 1 or 3, but add a **safety valve**: if the number of changes si
 
 ## Vital requirement
 
-**Any implementation must retain the option to build without any caching** (e.g. `use_cache=False` from code or a flag like `--no-cache` / `--clear-cache`). This is required for testing and for “major changes” runs where the user prefers a full refresh.
+**Any implementation must retain the option to build without any caching**. This is implemented as:
+
+- Internally, via `drive_to_class_json.generate_data(use_cache=False)` – no cache reads/writes and no Changes API calls.
+- Externally, via a CLI flag on `build_site.py`:
+  - `python build_site.py --regen-data --no-cache` → regenerate data with `use_cache=False`.
+  - `python build_site.py --regen-data --clear-cache` → clear all caches and changes state, then regenerate with cache enabled.
+  - `python build_site.py --regen-data --clear-cache --no-cache` → clear caches and regenerate without any caching.
 
 
-implement 3, and before that, add the following change:
-add a folder called changes_api (git ignored). 
-i want to store changes that occured between builds in files, with date and time stamp changes-dd-mm-yyyy_hh-mm  (day,month,year,hour,minute).
-for modularity, save the necessary changes to file, and when you want to use changes, load its data to memory to be used, but i don't want this information deleted - both for tracking and for debugging.  
-it can happen that the changes file will be empty.
+## Implementation notes (as built)
+
+- A new **`changes_api/`** directory (git-ignored) stores timestamped change snapshots:
+  - Files are named `changes-dd-mm-yyyy_hh-mm-ss.json` (day, month, year, hour, minute, second).
+  - Each file contains: `timestamp`, `saved_at`, `newStartPageToken`, `change_count`, and a `changes` array.
+  - Files are never deleted by the code, for tracking and debugging. The `changes` array may be empty when no changes occurred.
+- The `drive_changes.py` module encapsulates:
+  - `fetch_changes(service, page_token)` → `(changes_list, new_start_page_token)`.
+  - `persist_changes(changes_list, new_start_page_token)` → path under `changes_api/`.
+  - `load_changes(path)` → full persisted dict, including `changes`.
+  - `compute_affected_folder_ids(changes_list, CACHE_DIR)` → set of folder IDs whose listings must be refetched.
+- `drive_to_class_json.py` provides:
+  - `generate_data(use_cache=True)` – the main entrypoint used by both its CLI and `build_site.py`.
+  - `main()` – CLI wrapper that always runs with cache enabled (no CLI flags on `drive_to_class_json.py` itself).
+- `build_site.py`:
+  - `--regen-data` regenerates `data/class-*.json` via `generate_data`.
+  - `--clear-cache` clears folder/lesson caches and `cache/changes_state.json` before regeneration.
+  - `--no-cache` calls `generate_data(use_cache=False)` for a full, non-cached fetch.

@@ -766,3 +766,28 @@
 2026-02-21 18:37:18,821 [2026-02-21 18:37:18 IST] Copied static assets
 2026-02-21 18:37:18,847 [2026-02-21 18:37:18 IST] Copied images
 2026-02-21 18:37:18,847 [2026-02-21 18:37:18 IST] Site built successfully!
+2026-02-21 18:51:12,496 [2026-02-21 18:51:12 IST] Drive-to-class JSON generation started
+2026-02-21 18:51:12,496 [2026-02-21 18:51:12 IST] Regenerating data with drive_to_class_json.generate_data
+2026-02-21 18:51:12,496 [2026-02-21 18:51:12 IST] Main process started
+2026-02-21 18:51:12,498 file_cache is only supported with oauth2client<4.0.0
+2026-02-21 18:51:13,245 [2026-02-21 18:51:13 IST] Persisted 0 changes to changes_api\changes-21-02-2026_18-51-13.json
+2026-02-21 18:51:13,252 [2026-02-21 18:51:13 IST] Skipping tet-metzuyanut-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:51:13,252 [2026-02-21 18:51:13 IST] Skipping yud-571-tashpa - regenerate=False, keeping existing JSON file
+2026-02-21 18:51:13,252 [2026-02-21 18:51:13 IST] Skipping bagruyot-571 - regenerate=False, keeping existing JSON file
+2026-02-21 18:51:13,252 [2026-02-21 18:51:13 IST] Skipping bagruyot-472 - regenerate=False, keeping existing JSON file
+2026-02-21 18:51:13,253 [2026-02-21 18:51:13 IST] Skipping bagruyot-471 - regenerate=False, keeping existing JSON file
+2026-02-21 18:51:13,253 [2026-02-21 18:51:13 IST] Skipping olimpiada-matematica - regenerate=False, keeping existing JSON file
+2026-02-21 18:51:13,253 [2026-02-21 18:51:13 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-02-21 18:51:13,899 [2026-02-21 18:51:13 IST] Wrote data\class-yud-571-tashpav.json
+2026-02-21 18:51:13,900 [2026-02-21 18:51:13 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-02-21 18:51:14,623 [2026-02-21 18:51:14 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-02-21 18:51:14,624 [2026-02-21 18:51:14 IST] All classes processed. JSON generation complete.
+2026-02-21 18:51:14,624 [2026-02-21 18:51:14 IST] Saved changes state for next run
+2026-02-21 18:51:14,625 [2026-02-21 18:51:14 IST] Data regeneration complete
+2026-02-21 18:51:14,625 [2026-02-21 18:51:14 IST] Main build process started
+2026-02-21 18:51:14,644 [2026-02-21 18:51:14 IST] Loaded 8 class JSON files
+2026-02-21 18:51:14,656 [2026-02-21 18:51:14 IST] Rendered index.html
+2026-02-21 18:51:14,687 [2026-02-21 18:51:14 IST] Rendered all class pages
+2026-02-21 18:51:14,689 [2026-02-21 18:51:14 IST] Copied static assets
+2026-02-21 18:51:14,706 [2026-02-21 18:51:14 IST] Copied images
+2026-02-21 18:51:14,706 [2026-02-21 18:51:14 IST] Site built successfully!
