@@ -1489,6 +1489,24 @@
             "due_date": "19-02-2026",
             "due_date_display": "חמישי, 19.02.2026"
           }
+        },
+        {
+          "name": "11. המעגל הטריגונומטרי, ומשוואות טריגונומטריות",
+          "desc": "",
+          "id": "5-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1la_qKUSVzrHVrUE0AVK-jfs-TvRc2qfA/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1OGziSDty7Nk24nMKSrBIN5cw5ex_6hH0/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },

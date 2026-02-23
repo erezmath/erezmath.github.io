@@ -10,4 +10,6 @@ logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='%(asctime)s %
 def log_event(msg):
     """Log a message with a timestamp in Israel local time (IST)."""
     now = datetime.now(ISRAEL_TZ).strftime('%Y-%m-%d %H:%M:%S')
+
+    
     logging.info(f'[{now} IST] {msg}') 
