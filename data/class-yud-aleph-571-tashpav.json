@@ -136,6 +136,26 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "5. אינדוקציה עם עצרת",
+          "desc": "<p>חוזר לנושא אחרי הסתברות ברנולי.</p>\n<p>שיעור בודד. אין שיעורי בית, כי יש הגשת בגרויות/מתכונות שוטפות.</p>",
+          "id": "2-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. אינדוקציה עם עצרת ושאלות סיכום",
+              "url": "https://drive.google.com/file/d/19sGiG-57q9Ic9rVq21u1PATq_Zk82WO_/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות תרגילי כיתה",
+              "url": "https://drive.google.com/file/d/1E2v6xoIys18IeQFyPRXBP9OkVm0XeVLI/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "26-02-2026"
+          }
         }
       ]
     },
@@ -648,7 +668,7 @@
             },
             {
               "type": "file",
-              "name": "דף תרגול.docx",
+              "name": "דף תרגול",
               "url": "https://drive.google.com/file/d/1TvCK4Pr439qDyQTylGGKHzC_PAYittyv/view"
             },
             {

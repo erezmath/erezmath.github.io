@@ -1313,9 +1313,27 @@
           "lesson_json": {}
         },
         {
-          "name": "10. רוני רוט",
+          "name": "9. מתכונות בתי ספר - תשפו",
           "desc": "",
           "id": "4-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "הכפר הירוק - מבחן שלישי 19.2.26 - פתרון ומחוון",
+              "url": "https://drive.google.com/file/d/1b-r-Dv6be3zQpZosUA1EmmbbpItDfLKk/view"
+            },
+            {
+              "type": "file",
+              "name": "הכפר הירוק - מבחן שלישי 19.2.26",
+              "url": "https://drive.google.com/file/d/1fkkXisoq2BKxgRK-1ZJR7aDiPov7sDim/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "10. רוני רוט",
+          "desc": "",
+          "id": "4-9",
           "content": [
             {
               "type": "file",
@@ -1328,7 +1346,7 @@
         {
           "name": "11. ארכימדס אתגר",
           "desc": "",
-          "id": "4-9",
+          "id": "4-10",
           "content": [
             {
               "type": "file",
@@ -1351,7 +1369,7 @@
         {
           "name": "12. בר אילן",
           "desc": "",
-          "id": "4-10",
+          "id": "4-11",
           "content": [
             {
               "type": "folder",

@@ -571,6 +571,34 @@
             "due_date": "26-02-2026",
             "due_date_display": "חמישי, 26.02.2026"
           }
+        },
+        {
+          "name": "6. מעגל - משיק למעגל מאונך לרדיוס",
+          "desc": "",
+          "id": "3-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1cPjzRyQIIxM7v9f3KMlZ-5Ekz51bckQX/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1nk_NF03G8gRIrNquF8UHqBZsOTXUzyXq/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1TYGeSzK0mm4VisBeCweY4FljsTDYW2xY/view"
+            },
+            {
+              "type": "file",
+              "name": "4. תרגילי רשות הכנה למבחן מארכימדס",
+              "url": "https://drive.google.com/file/d/1c_PNnMAknphuMeMQM9wUY7BxYxzB_kEc/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
