@@ -50,6 +50,13 @@ IGNORED_FILENAMES = [
     'lesson.json',          # lesson json files
 ]
 
+# File extensions to remove from display names when not removing all extensions.
+# Example: ['pdf', 'mp4']
+REMOVED_EXTENSIONS = ['pdf', 'mp4', 'gif']
+# If True, remove any file extension from the display name (everything after the last dot).
+# If False, only remove extensions listed in REMOVED_EXTENSIONS.
+REMOVE_ALL_EXTENSIONS = True
+
 class_info = [
     {
         'id': 1,
@@ -356,6 +363,34 @@ def extract_lesson_number(name):
     return float('inf')  # Put items without numbers at the end
 
 
+def _remove_all_extensions(filename: str) -> str:
+    """Remove the last file extension from a filename (everything after the last dot)."""
+    return re.sub(r'\.[^.]+$', '', filename)
+
+
+def _remove_configured_extensions(filename: str) -> str:
+    """Remove only extensions listed in REMOVED_EXTENSIONS (case-insensitive)."""
+    lower = filename.lower()
+    for ext in REMOVED_EXTENSIONS:
+        ext_lower = ext.lower().lstrip('.')
+        suffix = f'.{ext_lower}'
+        if lower.endswith(suffix):
+            # Strip the dot and extension length
+            return filename[: -len(suffix)]
+    return filename
+
+
+def display_name_from_filename(filename: str) -> str:
+    """
+    Return the display name for a file:
+    - If REMOVE_ALL_EXTENSIONS is True: remove any extension.
+    - Otherwise: remove only extensions listed in REMOVED_EXTENSIONS.
+    """
+    if REMOVE_ALL_EXTENSIONS:
+        return _remove_all_extensions(filename)
+    return _remove_configured_extensions(filename)
+
+
 def _folder_cache_path(folder_id):
     """Return cache file path for a folder (safe for any folder_id including nested subfolders)."""
     # Folder IDs are alphanumeric with - and _; sanitize for filesystem
@@ -544,8 +579,8 @@ def crawl_lesson_content(service, folder_id, use_cache=True, invalidated_ids=Non
             if filename in [ignored.lower() for ignored in IGNORED_FILENAMES]:
                 continue  # Skip this file
             
-            # Remove .pdf extension for display, but keep original name for download
-            name = re.sub(r'\.pdf$', '', item['name'], flags=re.IGNORECASE)
+            # Use configurable extension removal for display name; keep original name for download
+            name = display_name_from_filename(item['name'])
             content.append({
                 'type': 'file',
                 'name': name,
