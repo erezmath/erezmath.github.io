@@ -1492,7 +1492,7 @@
         },
         {
           "name": "11. המעגל הטריגונומטרי, ומשוואות טריגונומטריות",
-          "desc": "",
+          "desc": "<p>שיעור כפול - חולק לפעמיים שעה בודדת בהפרש יום. חשוב להדגיש עד כמה חשוב המעגל הטריגונומטרי גם להמשך החומר - במרוכבים ובוקטורים. </p>\n<p>פתרון המשוואות הוא משנה ויותר תירוץ למה ללמד את זה.</p>",
           "id": "5-12",
           "content": [
             {
@@ -1502,11 +1502,25 @@
             },
             {
               "type": "file",
-              "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1OGziSDty7Nk24nMKSrBIN5cw5ex_6hH0/view"
+              "name": "2. שיעור שני - פתרונות מיוחדים",
+              "url": "https://drive.google.com/file/d/17rJ7h0FWQpx1r1JETJc8Gjd_Qdd3BWnR/view"
+            },
+            {
+              "type": "file",
+              "name": "3. המעגל הטריגונומטרי - סרטון המחשה.mp4",
+              "url": "https://drive.google.com/file/d/1vNugfJ_rKpg8uh5jCEfP_OkZBhD0wQhe/view"
+            },
+            {
+              "type": "file",
+              "name": "4. ש.ב",
+              "url": "https://drive.google.com/file/d/1RHRST5KVECircNCItXNk4lMuJMyNKWiW/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "24-02-2026",
+            "due_date": "03-03-2026",
+            "due_date_display": "שלישי, 03.03.2026"
+          }
         }
       ]
     },
