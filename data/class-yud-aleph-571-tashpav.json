@@ -27,7 +27,7 @@
       "lessons": [
         {
           "name": "1. עבודות הגשה",
-          "desc": "",
+          "desc": "<p>לראשון הקרוב:</p>\n<p>בגרות חורף 2026.</p>\n<p>הוספתי לראשון הבא:</p>\n<p>בגרות קיץ מועד ב 2024</p>",
           "id": "1-1",
           "content": [
             {
@@ -45,6 +45,49 @@
             "due_date": "01-03-2026",
             "due_date_display": "ראשון, 01.03.2026"
           }
+        },
+        {
+          "name": "2. אימון למתכונת ראשונה",
+          "desc": "<p>אוסף מתכונות טובות להתכונן.</p>\n<p>להתאמן על 6 נושאים, כי תצטרכו לבחור 5 שאלות במתכונת. </p>",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תיכון בית וגן-35571-מתכונת 2 כולל תשובות",
+              "url": "https://drive.google.com/file/d/1fODL5pbZFRrEYBEFDiyEWCyrvLHUMMYJ/view"
+            },
+            {
+              "type": "file",
+              "name": "2. הכפר הירוק - מבחן שלישי 19.2.26 - פתרון ומחוון",
+              "url": "https://drive.google.com/file/d/1CGa0GsNyK53978irHmb7619bAbOsdakF/view"
+            },
+            {
+              "type": "file",
+              "name": "2. הכפר הירוק - מבחן שלישי 19.2.26",
+              "url": "https://drive.google.com/file/d/158jEkvpnMBdusrHxIgqNIEuY4EO59A2H/view"
+            },
+            {
+              "type": "file",
+              "name": "3. אליאנס -  35581 - תשפד - מתכונת 1 - לא לפתור בעית תנועה",
+              "url": "https://drive.google.com/file/d/1uaazEcKSk7mUzYJfFvSoH7h8nhYfNjX6/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן 6 מריאן 571 - תשפה",
+              "url": "https://drive.google.com/file/d/1VRMorAQRHZNX8tR1UUUxnjkUNkQq7R0p/view"
+            },
+            {
+              "type": "file",
+              "name": "5. מבחן 1 מריאן 571 - תשפה",
+              "url": "https://drive.google.com/file/d/18bLIfbnLy0c5h1sGn20jzBOnGB5cO3c1/view"
+            },
+            {
+              "type": "file",
+              "name": "6. בר אילן-35571-מתכונת 1 תשפה",
+              "url": "https://drive.google.com/file/d/103j1KtsMpctHIJ7fMtrpEBaVU3gxBX7S/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
