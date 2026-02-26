@@ -574,7 +574,7 @@
         },
         {
           "name": "6. מעגל - משיק למעגל מאונך לרדיוס",
-          "desc": "",
+          "desc": "<p>שיעור כפול.\nיש גם תרגילי רשות יותר מאתגרים אימון למבחן</p>",
           "id": "3-7",
           "content": [
             {
@@ -598,7 +598,11 @@
               "url": "https://drive.google.com/file/d/1c_PNnMAknphuMeMQM9wUY7BxYxzB_kEc/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "26-02-2026",
+            "due_date": "05-03-2026",
+            "due_date_display": "חמישי, 05.03.2026"
+          }
         }
       ]
     },
