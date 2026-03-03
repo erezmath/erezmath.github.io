@@ -58,13 +58,8 @@
             },
             {
               "type": "file",
-              "name": "2. הכפר הירוק - מבחן שלישי 19.2.26 - פתרון ומחוון",
-              "url": "https://drive.google.com/file/d/1CGa0GsNyK53978irHmb7619bAbOsdakF/view"
-            },
-            {
-              "type": "file",
-              "name": "2. הכפר הירוק - מבחן שלישי 19.2.26",
-              "url": "https://drive.google.com/file/d/158jEkvpnMBdusrHxIgqNIEuY4EO59A2H/view"
+              "name": "2. הכפר הירוק - מבחן שלישי 19.2.26 - כולל פתרון ומחוון",
+              "url": "https://drive.google.com/file/d/1-fY39k3nopH9ite3Uo5WJ6Bd3x6rmHAp/view"
             },
             {
               "type": "file",
@@ -85,6 +80,11 @@
               "type": "file",
               "name": "6. בר אילן-35571-מתכונת 1 תשפה",
               "url": "https://drive.google.com/file/d/103j1KtsMpctHIJ7fMtrpEBaVU3gxBX7S/view"
+            },
+            {
+              "type": "file",
+              "name": "7. מחוז מרכז - טרום מתכונת 571 - תשפה - רמה קלה - עם פתרונות מלאים",
+              "url": "https://drive.google.com/file/d/1jgLFVFRA9dRte2_6XbnWU9z7EE7nqQMW/view"
             }
           ],
           "lesson_json": {}
@@ -1675,6 +1675,29 @@
               "type": "file",
               "name": "5. בגרות 2021 חורף נבצרים - בעית קיצון גרפית, מנה - פתרון",
               "url": "https://drive.google.com/file/d/1_aUukXw-EpPANHy_39OgZxX7W7AHvUq4/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "3. בעיות קיצון - מריאן וארכימדס - תרגול למתכונות",
+          "desc": "",
+          "id": "11-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בעיות קיצון גאומטריות",
+              "url": "https://drive.google.com/file/d/1NeA1OOnyC0_Dot2pYNTDC50rhh7N_eQa/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בעיות קיצון גרפיות",
+              "url": "https://drive.google.com/file/d/1AZ5KvB_CjzHOOp9EfwjH5FIODFf3i7uO/view"
+            },
+            {
+              "type": "file",
+              "name": "3. בעית קיצון גאומטרית מריאן טרפז - פתרון",
+              "url": "https://drive.google.com/file/d/1jtthX8SeihXxvY918wIk-A9_M6RIc2yW/view"
             }
           ],
           "lesson_json": {}

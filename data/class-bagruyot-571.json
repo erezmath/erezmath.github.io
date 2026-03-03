@@ -1319,6 +1319,11 @@
           "content": [
             {
               "type": "file",
+              "name": "7. מחוז מרכז - טרום מתכונת 571 - תשפה - רמה קלה - עם פתרונות מלאים",
+              "url": "https://drive.google.com/file/d/1z8dlPSv28AHaCkCLr3d7DPeHzSCU6juf/view"
+            },
+            {
+              "type": "file",
               "name": "הכפר הירוק - מבחן שלישי 19.2.26 - פתרון ומחוון",
               "url": "https://drive.google.com/file/d/1b-r-Dv6be3zQpZosUA1EmmbbpItDfLKk/view"
             },
@@ -1798,22 +1803,33 @@
           "content": [
             {
               "type": "folder",
-              "name": "גאומטרית",
+              "name": "גאומטריות",
               "content": [
                 {
                   "type": "file",
-                  "name": "בעית קיצון בשילוב פיזיקה - זמן מהירות מרחק.docx",
+                  "name": "1. בעיות קיצון גאומטריות - מריאן וארכימדס",
+                  "url": "https://drive.google.com/file/d/1wGCcPnYBuUejZB0wpPpqC0FED3Ft-UwH/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. בעית קיצון גאומטרית מריאן טרפז - פתרון",
+                  "url": "https://drive.google.com/file/d/1qt9APnqrW5eOvjTM0L3nrakr5r7z2M9j/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. בעית קיצון בשילוב פיזיקה - זמן מהירות מרחק",
                   "url": "https://drive.google.com/file/d/1Y7zBGSMRoCmDLwR-uKSZlP0IJfghlh6S/view"
-                },
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "גרפיות",
+              "content": [
                 {
                   "type": "file",
-                  "name": "מריאן - בעית קיצון גאומטרית - טרפז - פתרון",
-                  "url": "https://drive.google.com/file/d/1LBCvG1w0CIUxwoFjw-ph94L8GaFZ3itK/view"
-                },
-                {
-                  "type": "file",
-                  "name": "מריאן - בעית קיצון גאומטרית - טרפז.docx",
-                  "url": "https://drive.google.com/file/d/1pkMmvqgJQRDEe3WNe6gWmhnVK6Y3wde8/view"
+                  "name": "2.  בעיות קיצון גרפיות - מריאן וארכימדס",
+                  "url": "https://drive.google.com/file/d/1pDHccenQnWife0SxpPQGzpDU9Uipdxrz/view"
                 }
               ]
             }
