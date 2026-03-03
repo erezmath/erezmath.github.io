@@ -889,3 +889,39 @@
 2026-03-03 13:49:11,650 [2026-03-03 13:49:11 IST] Copied static assets
 2026-03-03 13:49:11,677 [2026-03-03 13:49:11 IST] Copied images
 2026-03-03 13:49:11,677 [2026-03-03 13:49:11 IST] Site built successfully!
+2026-03-03 13:50:13,235 [2026-03-03 13:50:13 IST] Drive-to-class JSON generation started
+2026-03-03 13:50:13,235 [2026-03-03 13:50:13 IST] Regenerating data with drive_to_class_json.generate_data
+2026-03-03 13:50:13,235 [2026-03-03 13:50:13 IST] Main process started
+2026-03-03 13:50:13,238 file_cache is only supported with oauth2client<4.0.0
+2026-03-03 13:50:14,084 [2026-03-03 13:50:14 IST] Persisted 4 changes to changes_api\changes-03-03-2026_13-50-14.json
+2026-03-03 13:50:14,093 [2026-03-03 13:50:14 IST] Affected folder IDs (will refetch): 2
+2026-03-03 13:50:14,093 [2026-03-03 13:50:14 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-03-03 13:50:14,163 [2026-03-03 13:50:14 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-03-03 13:50:14,163 [2026-03-03 13:50:14 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-03-03 13:50:14,225 [2026-03-03 13:50:14 IST] Wrote data\class-yud-571-tashpa.json
+2026-03-03 13:50:14,225 [2026-03-03 13:50:14 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-03-03 13:50:14,844 [2026-03-03 13:50:14 IST] Cached listing for folder 1Ds-m6IK4FnLn6frgRFvV23lP8UpMMjGs
+2026-03-03 13:50:15,437 [2026-03-03 13:50:15 IST] Cached listing for folder 1Ds-m6IK4FnLn6frgRFvV23lP8UpMMjGs
+2026-03-03 13:50:15,447 [2026-03-03 13:50:15 IST] Wrote data\class-bagruyot-571.json
+2026-03-03 13:50:15,447 [2026-03-03 13:50:15 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-03-03 13:50:15,449 [2026-03-03 13:50:15 IST] Wrote data\class-bagruyot-472.json
+2026-03-03 13:50:15,450 [2026-03-03 13:50:15 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-03-03 13:50:15,454 [2026-03-03 13:50:15 IST] Wrote data\class-bagruyot-471.json
+2026-03-03 13:50:15,454 [2026-03-03 13:50:15 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-03-03 13:50:15,457 [2026-03-03 13:50:15 IST] Wrote data\class-olimpiada-matematica.json
+2026-03-03 13:50:15,457 [2026-03-03 13:50:15 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-03-03 13:50:15,499 [2026-03-03 13:50:15 IST] Wrote data\class-yud-571-tashpav.json
+2026-03-03 13:50:15,499 [2026-03-03 13:50:15 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-03-03 13:50:16,205 [2026-03-03 13:50:16 IST] Cached listing for folder 1xTwZk4EkwXEem3v_q-YmxGba3WcRki7v
+2026-03-03 13:50:17,682 [2026-03-03 13:50:17 IST] Cached listing for folder 1xTwZk4EkwXEem3v_q-YmxGba3WcRki7v
+2026-03-03 13:50:17,739 [2026-03-03 13:50:17 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-03-03 13:50:17,739 [2026-03-03 13:50:17 IST] All classes processed. JSON generation complete.
+2026-03-03 13:50:17,740 [2026-03-03 13:50:17 IST] Saved changes state for next run
+2026-03-03 13:50:17,740 [2026-03-03 13:50:17 IST] Data regeneration complete
+2026-03-03 13:50:17,740 [2026-03-03 13:50:17 IST] Main build process started
+2026-03-03 13:50:17,787 [2026-03-03 13:50:17 IST] Loaded 8 class JSON files
+2026-03-03 13:50:17,799 [2026-03-03 13:50:17 IST] Rendered index.html
+2026-03-03 13:50:17,832 [2026-03-03 13:50:17 IST] Rendered all class pages
+2026-03-03 13:50:17,835 [2026-03-03 13:50:17 IST] Copied static assets
+2026-03-03 13:50:17,855 [2026-03-03 13:50:17 IST] Copied images
+2026-03-03 13:50:17,855 [2026-03-03 13:50:17 IST] Site built successfully!
