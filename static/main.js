@@ -1,6 +1,7 @@
 // --- Create submit soon topic (feature flag and lesson id list) ---
 const globalCreateSubmitSoonTopic = true;
 let globalSubmitSoonLessons = [];
+let globalSubmitSoonLessonDueTimes = {};
 
 const SUBMIT_SOON_TOPIC_ID = '0-הגשה-בקרוב';
 const SUBMIT_SOON_TOPIC_TITLE = '0. להגשה בקרוב';
@@ -12,6 +13,16 @@ function createSubmitSoonTopic() {
   const topicsNav = document.querySelector('.topics-nav');
   if (!topicsList || !topicsNav) return;
 
+  // Sort by due date ascending (earliest due first). Missing/invalid dates go last.
+  const submitSoonLessonsSorted = globalSubmitSoonLessons
+    .slice()
+    .sort((a, b) => {
+      const ta = Number.isFinite(globalSubmitSoonLessonDueTimes[a]) ? globalSubmitSoonLessonDueTimes[a] : Number.POSITIVE_INFINITY;
+      const tb = Number.isFinite(globalSubmitSoonLessonDueTimes[b]) ? globalSubmitSoonLessonDueTimes[b] : Number.POSITIVE_INFINITY;
+      if (ta !== tb) return ta - tb;
+      return String(a).localeCompare(String(b), 'he');
+    });
+
   const section = document.createElement('section');
   section.className = 'topic-section';
   section.id = SUBMIT_SOON_TOPIC_ID;
@@ -22,7 +33,7 @@ function createSubmitSoonTopic() {
   accordion.className = 'accordion';
   section.appendChild(accordion);
 
-  globalSubmitSoonLessons.forEach(lessonId => {
+  submitSoonLessonsSorted.forEach(lessonId => {
     const lessonEl = document.getElementById(lessonId);
     if (!lessonEl) return;
     const clone = lessonEl.cloneNode(true);
@@ -407,7 +418,10 @@ function setupAssignments() {
 //Does nothing for past dates or invalid/missing dates
 //When globalCreateSubmitSoonTopic is true, fills globalSubmitSoonLessons with lesson ids for today or future
 function is_date_today_or_future() {
-  if (globalCreateSubmitSoonTopic) globalSubmitSoonLessons = [];
+  if (globalCreateSubmitSoonTopic) {
+    globalSubmitSoonLessons = [];
+    globalSubmitSoonLessonDueTimes = {};
+  }
 
   // Get current date in Israel timezone
   const now = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Jerusalem" }));
@@ -452,6 +466,7 @@ function is_date_today_or_future() {
         const lesson = div.closest('.lesson');
         if (lesson && lesson.id && globalSubmitSoonLessons.indexOf(lesson.id) === -1) {
           globalSubmitSoonLessons.push(lesson.id);
+          globalSubmitSoonLessonDueTimes[lesson.id] = extractedDate.getTime();
         }
       }
     }
