@@ -1,0 +1,2 @@
+sort the lessons in "0-הגשה-בקרוב" by due date - the lessons that are due first should be first, lessons that are due last should be last. 
+for context, I think the relevant code is in main.js,createSubmitSoonTopic

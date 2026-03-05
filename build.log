@@ -1252,3 +1252,166 @@
 2026-03-04 12:26:50,172 [2026-03-04 12:26:50 IST] Copied static assets
 2026-03-04 12:26:50,188 [2026-03-04 12:26:50 IST] Copied images
 2026-03-04 12:26:50,188 [2026-03-04 12:26:50 IST] Site built successfully!
+2026-03-05 09:34:29,056 [2026-03-05 09:34:29 IST] Drive-to-class JSON generation started
+2026-03-05 09:34:29,057 [2026-03-05 09:34:29 IST] Regenerating data with drive_to_class_json.generate_data
+2026-03-05 09:34:29,057 [2026-03-05 09:34:29 IST] Main process started
+2026-03-05 09:34:29,337 file_cache is only supported with oauth2client<4.0.0
+2026-03-05 09:34:30,184 [2026-03-05 09:34:30 IST] Persisted 32 changes to changes_api\changes-05-03-2026_09-34-30.json
+2026-03-05 09:34:33,473 [2026-03-05 09:34:33 IST] Affected folder IDs (will refetch): 18
+2026-03-05 09:34:33,473 [2026-03-05 09:34:33 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-03-05 09:34:34,215 [2026-03-05 09:34:34 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-03-05 09:34:34,215 [2026-03-05 09:34:34 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-03-05 09:34:34,892 [2026-03-05 09:34:34 IST] Wrote data\class-yud-571-tashpa.json
+2026-03-05 09:34:34,892 [2026-03-05 09:34:34 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-03-05 09:34:35,144 [2026-03-05 09:34:35 IST] Wrote data\class-bagruyot-571.json
+2026-03-05 09:34:35,145 [2026-03-05 09:34:35 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-03-05 09:34:35,160 [2026-03-05 09:34:35 IST] Wrote data\class-bagruyot-472.json
+2026-03-05 09:34:35,160 [2026-03-05 09:34:35 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-03-05 09:34:35,211 [2026-03-05 09:34:35 IST] Wrote data\class-bagruyot-471.json
+2026-03-05 09:34:35,211 [2026-03-05 09:34:35 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-03-05 09:34:35,232 [2026-03-05 09:34:35 IST] Wrote data\class-olimpiada-matematica.json
+2026-03-05 09:34:35,232 [2026-03-05 09:34:35 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-03-05 09:34:35,973 [2026-03-05 09:34:35 IST] Cached listing for folder 1Yxcp6sIIucDSJyX0TFpkyhe-tR9_wAOh
+2026-03-05 09:34:39,361 [2026-03-05 09:34:39 IST] Cached listing for folder 1Yxcp6sIIucDSJyX0TFpkyhe-tR9_wAOh
+2026-03-05 09:34:39,929 [2026-03-05 09:34:39 IST] Cached listing for folder 1QjYeEY9quZQqsoAzatoAWUZrKvV8Zo8x
+2026-03-05 09:34:42,205 [2026-03-05 09:34:42 IST] Cached listing for folder 1QjYeEY9quZQqsoAzatoAWUZrKvV8Zo8x
+2026-03-05 09:34:43,058 [2026-03-05 09:34:43 IST] Cached listing for folder 1NutCqRJD67seKuMe0KMwMHy1DFH_71Kl
+2026-03-05 09:34:43,701 [2026-03-05 09:34:43 IST] Cached listing for folder 1NutCqRJD67seKuMe0KMwMHy1DFH_71Kl
+2026-03-05 09:34:44,345 [2026-03-05 09:34:44 IST] Cached listing for folder 1l27M3PBDfi_H5QSDdyfr4Zj5RErzfDIu
+2026-03-05 09:34:44,981 [2026-03-05 09:34:44 IST] Cached listing for folder 1l27M3PBDfi_H5QSDdyfr4Zj5RErzfDIu
+2026-03-05 09:34:45,690 [2026-03-05 09:34:45 IST] Cached listing for folder 1tcvKaLEWc5TrTT2zhRZMfqKlcs4s2rr8
+2026-03-05 09:34:46,362 [2026-03-05 09:34:46 IST] Cached listing for folder 1tcvKaLEWc5TrTT2zhRZMfqKlcs4s2rr8
+2026-03-05 09:34:46,904 [2026-03-05 09:34:46 IST] Cached listing for folder 1aGGSldeguQefGDMeyARYjizqclC3yWf8
+2026-03-05 09:34:48,904 [2026-03-05 09:34:48 IST] Cached listing for folder 1aGGSldeguQefGDMeyARYjizqclC3yWf8
+2026-03-05 09:34:49,541 [2026-03-05 09:34:49 IST] Cached listing for folder 1Cjv_WrbW1qxeUmpw75rEZUah4qmIii_P
+2026-03-05 09:34:51,652 [2026-03-05 09:34:51 IST] Cached listing for folder 1Cjv_WrbW1qxeUmpw75rEZUah4qmIii_P
+2026-03-05 09:34:52,275 [2026-03-05 09:34:52 IST] Cached listing for folder 1j_W0yv86hFz_qllakitXRTdUuB9fpCRR
+2026-03-05 09:34:54,315 [2026-03-05 09:34:54 IST] Cached listing for folder 1j_W0yv86hFz_qllakitXRTdUuB9fpCRR
+2026-03-05 09:34:54,884 [2026-03-05 09:34:54 IST] Cached listing for folder 1evuAW-Zg60AYbZuwpRPVLC7oY5X8xSKi
+2026-03-05 09:34:57,262 [2026-03-05 09:34:57 IST] Cached listing for folder 1evuAW-Zg60AYbZuwpRPVLC7oY5X8xSKi
+2026-03-05 09:34:58,022 [2026-03-05 09:34:58 IST] Cached listing for folder 1JGO0exjvFVYo6rErmWYExSnvVDmzJk7u
+2026-03-05 09:35:00,204 [2026-03-05 09:35:00 IST] Cached listing for folder 1JGO0exjvFVYo6rErmWYExSnvVDmzJk7u
+2026-03-05 09:35:00,822 [2026-03-05 09:35:00 IST] Cached listing for folder 1m3V0gp5R2CPtjbWZZASGBAjhwxR1ykf1
+2026-03-05 09:35:03,006 [2026-03-05 09:35:03 IST] Cached listing for folder 1m3V0gp5R2CPtjbWZZASGBAjhwxR1ykf1
+2026-03-05 09:35:03,107 [2026-03-05 09:35:03 IST] Wrote data\class-yud-571-tashpav.json
+2026-03-05 09:35:03,107 [2026-03-05 09:35:03 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-03-05 09:35:03,879 [2026-03-05 09:35:03 IST] Cached listing for folder 1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX
+2026-03-05 09:35:05,762 [2026-03-05 09:35:05 IST] Cached listing for folder 1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX
+2026-03-05 09:35:06,545 [2026-03-05 09:35:06 IST] Cached listing for folder 1nAZ4br1UfW5abvggQMUjdz4YtpTMUbu1
+2026-03-05 09:35:07,113 [2026-03-05 09:35:07 IST] Cached listing for folder 1nAZ4br1UfW5abvggQMUjdz4YtpTMUbu1
+2026-03-05 09:35:07,839 [2026-03-05 09:35:07 IST] Cached listing for folder 1PMnSvGoBggwIWhPvA-DADELerNa7dgpR
+2026-03-05 09:35:09,920 [2026-03-05 09:35:09 IST] Cached listing for folder 1PMnSvGoBggwIWhPvA-DADELerNa7dgpR
+2026-03-05 09:35:10,618 [2026-03-05 09:35:10 IST] Cached listing for folder 1N8WowdhM5fCP3S47B6IFpiRjm1ospLCn
+2026-03-05 09:35:12,722 [2026-03-05 09:35:12 IST] Cached listing for folder 1N8WowdhM5fCP3S47B6IFpiRjm1ospLCn
+2026-03-05 09:35:13,437 [2026-03-05 09:35:13 IST] Cached listing for folder 1eYXaX52eV9SuLW3bze9gewIyyj4mwaK7
+2026-03-05 09:35:14,792 [2026-03-05 09:35:14 IST] Cached listing for folder 1eYXaX52eV9SuLW3bze9gewIyyj4mwaK7
+2026-03-05 09:35:14,818 [2026-03-05 09:35:14 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-03-05 09:35:14,819 [2026-03-05 09:35:14 IST] All classes processed. JSON generation complete.
+2026-03-05 09:35:14,820 [2026-03-05 09:35:14 IST] Saved changes state for next run
+2026-03-05 09:35:14,821 [2026-03-05 09:35:14 IST] Data regeneration complete
+2026-03-05 09:35:14,821 [2026-03-05 09:35:14 IST] Main build process started
+2026-03-05 09:35:14,898 [2026-03-05 09:35:14 IST] Loaded 8 class JSON files
+2026-03-05 09:35:14,932 [2026-03-05 09:35:14 IST] Rendered index.html
+2026-03-05 09:35:14,973 [2026-03-05 09:35:14 IST] Rendered all class pages
+2026-03-05 09:35:14,976 [2026-03-05 09:35:14 IST] Copied static assets
+2026-03-05 09:35:15,004 [2026-03-05 09:35:15 IST] Copied images
+2026-03-05 09:35:15,004 [2026-03-05 09:35:15 IST] Site built successfully!
+2026-03-05 09:36:33,635 [2026-03-05 09:36:33 IST] Drive-to-class JSON generation started
+2026-03-05 09:36:33,635 [2026-03-05 09:36:33 IST] Regenerating data with drive_to_class_json.generate_data
+2026-03-05 09:36:33,636 [2026-03-05 09:36:33 IST] Main process started
+2026-03-05 09:36:33,638 file_cache is only supported with oauth2client<4.0.0
+2026-03-05 09:36:34,426 [2026-03-05 09:36:34 IST] Persisted 2 changes to changes_api\changes-05-03-2026_09-36-34.json
+2026-03-05 09:36:34,432 [2026-03-05 09:36:34 IST] Affected folder IDs (will refetch): 1
+2026-03-05 09:36:34,432 [2026-03-05 09:36:34 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-03-05 09:36:34,486 [2026-03-05 09:36:34 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-03-05 09:36:34,486 [2026-03-05 09:36:34 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-03-05 09:36:34,539 [2026-03-05 09:36:34 IST] Wrote data\class-yud-571-tashpa.json
+2026-03-05 09:36:34,539 [2026-03-05 09:36:34 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-03-05 09:36:34,557 [2026-03-05 09:36:34 IST] Wrote data\class-bagruyot-571.json
+2026-03-05 09:36:34,558 [2026-03-05 09:36:34 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-03-05 09:36:34,560 [2026-03-05 09:36:34 IST] Wrote data\class-bagruyot-472.json
+2026-03-05 09:36:34,560 [2026-03-05 09:36:34 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-03-05 09:36:34,565 [2026-03-05 09:36:34 IST] Wrote data\class-bagruyot-471.json
+2026-03-05 09:36:34,565 [2026-03-05 09:36:34 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-03-05 09:36:34,567 [2026-03-05 09:36:34 IST] Wrote data\class-olimpiada-matematica.json
+2026-03-05 09:36:34,567 [2026-03-05 09:36:34 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-03-05 09:36:34,608 [2026-03-05 09:36:34 IST] Wrote data\class-yud-571-tashpav.json
+2026-03-05 09:36:34,609 [2026-03-05 09:36:34 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-03-05 09:36:35,348 [2026-03-05 09:36:35 IST] Cached listing for folder 1PMnSvGoBggwIWhPvA-DADELerNa7dgpR
+2026-03-05 09:36:37,400 [2026-03-05 09:36:37 IST] Cached listing for folder 1PMnSvGoBggwIWhPvA-DADELerNa7dgpR
+2026-03-05 09:36:37,415 [2026-03-05 09:36:37 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-03-05 09:36:37,415 [2026-03-05 09:36:37 IST] All classes processed. JSON generation complete.
+2026-03-05 09:36:37,416 [2026-03-05 09:36:37 IST] Saved changes state for next run
+2026-03-05 09:36:37,416 [2026-03-05 09:36:37 IST] Data regeneration complete
+2026-03-05 09:36:37,416 [2026-03-05 09:36:37 IST] Main build process started
+2026-03-05 09:36:37,471 [2026-03-05 09:36:37 IST] Loaded 8 class JSON files
+2026-03-05 09:36:37,483 [2026-03-05 09:36:37 IST] Rendered index.html
+2026-03-05 09:36:37,516 [2026-03-05 09:36:37 IST] Rendered all class pages
+2026-03-05 09:36:37,518 [2026-03-05 09:36:37 IST] Copied static assets
+2026-03-05 09:36:37,543 [2026-03-05 09:36:37 IST] Copied images
+2026-03-05 09:36:37,544 [2026-03-05 09:36:37 IST] Site built successfully!
+2026-03-05 09:38:05,626 [2026-03-05 09:38:05 IST] Drive-to-class JSON generation started
+2026-03-05 09:38:05,626 [2026-03-05 09:38:05 IST] Regenerating data with drive_to_class_json.generate_data
+2026-03-05 09:38:05,626 [2026-03-05 09:38:05 IST] Main process started
+2026-03-05 09:38:05,628 file_cache is only supported with oauth2client<4.0.0
+2026-03-05 09:38:06,319 [2026-03-05 09:38:06 IST] Persisted 0 changes to changes_api\changes-05-03-2026_09-38-06.json
+2026-03-05 09:38:06,325 [2026-03-05 09:38:06 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-03-05 09:38:06,379 [2026-03-05 09:38:06 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-03-05 09:38:06,379 [2026-03-05 09:38:06 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-03-05 09:38:06,430 [2026-03-05 09:38:06 IST] Wrote data\class-yud-571-tashpa.json
+2026-03-05 09:38:06,431 [2026-03-05 09:38:06 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-03-05 09:38:06,450 [2026-03-05 09:38:06 IST] Wrote data\class-bagruyot-571.json
+2026-03-05 09:38:06,450 [2026-03-05 09:38:06 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-03-05 09:38:06,453 [2026-03-05 09:38:06 IST] Wrote data\class-bagruyot-472.json
+2026-03-05 09:38:06,453 [2026-03-05 09:38:06 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-03-05 09:38:06,457 [2026-03-05 09:38:06 IST] Wrote data\class-bagruyot-471.json
+2026-03-05 09:38:06,458 [2026-03-05 09:38:06 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-03-05 09:38:06,460 [2026-03-05 09:38:06 IST] Wrote data\class-olimpiada-matematica.json
+2026-03-05 09:38:06,460 [2026-03-05 09:38:06 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-03-05 09:38:06,501 [2026-03-05 09:38:06 IST] Wrote data\class-yud-571-tashpav.json
+2026-03-05 09:38:06,501 [2026-03-05 09:38:06 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-03-05 09:38:06,561 [2026-03-05 09:38:06 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-03-05 09:38:06,562 [2026-03-05 09:38:06 IST] All classes processed. JSON generation complete.
+2026-03-05 09:38:06,562 [2026-03-05 09:38:06 IST] Saved changes state for next run
+2026-03-05 09:38:06,562 [2026-03-05 09:38:06 IST] Data regeneration complete
+2026-03-05 09:38:06,562 [2026-03-05 09:38:06 IST] Main build process started
+2026-03-05 09:38:06,611 [2026-03-05 09:38:06 IST] Loaded 8 class JSON files
+2026-03-05 09:38:06,622 [2026-03-05 09:38:06 IST] Rendered index.html
+2026-03-05 09:38:06,653 [2026-03-05 09:38:06 IST] Rendered all class pages
+2026-03-05 09:38:06,655 [2026-03-05 09:38:06 IST] Copied static assets
+2026-03-05 09:38:06,672 [2026-03-05 09:38:06 IST] Copied images
+2026-03-05 09:38:06,672 [2026-03-05 09:38:06 IST] Site built successfully!
+2026-03-05 09:38:17,592 [2026-03-05 09:38:17 IST] Drive-to-class JSON generation started
+2026-03-05 09:38:17,593 [2026-03-05 09:38:17 IST] Regenerating data with drive_to_class_json.generate_data
+2026-03-05 09:38:17,593 [2026-03-05 09:38:17 IST] Main process started
+2026-03-05 09:38:17,595 file_cache is only supported with oauth2client<4.0.0
+2026-03-05 09:38:18,452 [2026-03-05 09:38:18 IST] Persisted 1 changes to changes_api\changes-05-03-2026_09-38-18.json
+2026-03-05 09:38:18,457 [2026-03-05 09:38:18 IST] Affected folder IDs (will refetch): 1
+2026-03-05 09:38:18,457 [2026-03-05 09:38:18 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-03-05 09:38:18,511 [2026-03-05 09:38:18 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-03-05 09:38:18,511 [2026-03-05 09:38:18 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-03-05 09:38:18,560 [2026-03-05 09:38:18 IST] Wrote data\class-yud-571-tashpa.json
+2026-03-05 09:38:18,560 [2026-03-05 09:38:18 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-03-05 09:38:18,579 [2026-03-05 09:38:18 IST] Wrote data\class-bagruyot-571.json
+2026-03-05 09:38:18,579 [2026-03-05 09:38:18 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-03-05 09:38:18,582 [2026-03-05 09:38:18 IST] Wrote data\class-bagruyot-472.json
+2026-03-05 09:38:18,582 [2026-03-05 09:38:18 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-03-05 09:38:18,587 [2026-03-05 09:38:18 IST] Wrote data\class-bagruyot-471.json
+2026-03-05 09:38:18,587 [2026-03-05 09:38:18 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-03-05 09:38:18,589 [2026-03-05 09:38:18 IST] Wrote data\class-olimpiada-matematica.json
+2026-03-05 09:38:18,589 [2026-03-05 09:38:18 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-03-05 09:38:18,630 [2026-03-05 09:38:18 IST] Wrote data\class-yud-571-tashpav.json
+2026-03-05 09:38:18,630 [2026-03-05 09:38:18 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-03-05 09:38:19,266 [2026-03-05 09:38:19 IST] Cached listing for folder 1PMnSvGoBggwIWhPvA-DADELerNa7dgpR
+2026-03-05 09:38:21,335 [2026-03-05 09:38:21 IST] Cached listing for folder 1PMnSvGoBggwIWhPvA-DADELerNa7dgpR
+2026-03-05 09:38:21,355 [2026-03-05 09:38:21 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-03-05 09:38:21,355 [2026-03-05 09:38:21 IST] All classes processed. JSON generation complete.
+2026-03-05 09:38:21,356 [2026-03-05 09:38:21 IST] Saved changes state for next run
+2026-03-05 09:38:21,356 [2026-03-05 09:38:21 IST] Data regeneration complete
+2026-03-05 09:38:21,356 [2026-03-05 09:38:21 IST] Main build process started
+2026-03-05 09:38:21,406 [2026-03-05 09:38:21 IST] Loaded 8 class JSON files
+2026-03-05 09:38:21,418 [2026-03-05 09:38:21 IST] Rendered index.html
+2026-03-05 09:38:21,450 [2026-03-05 09:38:21 IST] Rendered all class pages
+2026-03-05 09:38:21,452 [2026-03-05 09:38:21 IST] Copied static assets
+2026-03-05 09:38:21,469 [2026-03-05 09:38:21 IST] Copied images
+2026-03-05 09:38:21,469 [2026-03-05 09:38:21 IST] Site built successfully!
