@@ -1377,6 +1377,115 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "7. אינטגרל מצטבר - משתנה למטה",
+          "desc": "",
+          "id": "8-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגיל בכיתה - פתרון שאלה ראשונה",
+              "url": "https://drive.google.com/file/d/1U_9uGHk8gnWFIyPDoRgZR-UJAkLAz70r/view"
+            },
+            {
+              "type": "file",
+              "name": "2. שאלות",
+              "url": "https://drive.google.com/file/d/1dO3ZabV1hG-Y8AIAcl3GoN7tZMPDxLbQ/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "8. אימון אינטגרלים למתכונת ולבגרות",
+          "desc": "<p>אינטגרלים ממספר מקומות</p>",
+          "id": "8-8",
+          "content": [
+            {
+              "type": "folder",
+              "name": "1. הזזות - שאלות קלות יותר",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. אינטגרל_של_פונקציה_מוזזת_אופקית",
+                  "url": "https://drive.google.com/file/d/1PtIQLnCdAEPaE529FD8Ncaj5HruTkhuf/view"
+                },
+                {
+                  "type": "file",
+                  "name": "1. אינטגרל_של_פונקציה_מוזזת_אופקית_-_למורה - פתרונות",
+                  "url": "https://drive.google.com/file/d/1hkZzJgo-LhDrV87TcmfRzcpMVnDxwb7i/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. איטגרל_של_פונקציה_מוזזת_אנכית",
+                  "url": "https://drive.google.com/file/d/1WHBWku1L3NAa8WeClm-xcw3Cu98RVaCT/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. אינטגרל_של_פונקציה_מוזזת_אנכית_-_למורה - פתרונות",
+                  "url": "https://drive.google.com/file/d/1XKuSMn8g4lvWMXDjBGxCFEQt5UVm1TPa/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2. זוגית אי זוגית",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "אינטגרל_של_פונקציה_זוגית_ואי_זוגית-_למורה_070818",
+                  "url": "https://drive.google.com/file/d/1ABHcyz2P-xIgcZ903Lbe1vEku-hAoDg8/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אינטגרל_של_פונקציה_זוגית_ואי_זוגית",
+                  "url": "https://drive.google.com/file/d/1CYYtF1tmXSM6WV7PghOvJJ1hlePRutw_/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "3. שאלות סיכום הזזות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. אינטגרלים - שאלות סיכום טרנפורמציות שכתבתי",
+                  "url": "https://drive.google.com/file/d/1zxvumztm7aCf0bnpgaCuRkR-QFMjNN_9/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. אינטגרלים והזזות - משימה מדורגת - אוניברסיטת חיפה",
+                  "url": "https://drive.google.com/file/d/17Lccf6SXw2Rrp64bJ35j4wg5nhtLCHFH/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "4. אינטגרל מצטבר - משתנה למטה",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. תרגיל בכיתה - פתרון שאלה ראשונה",
+                  "url": "https://drive.google.com/file/d/1jsIUdKzDkl3rK-wSivK32mfHVGvzSehM/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. שאלות",
+                  "url": "https://drive.google.com/file/d/14z1by17-Fjb0ub55UiD2-hXQRyjPzqCS/view"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "קובץ שאלות אינטגרלים - אימון למתכונת ולבגרות",
+              "url": "https://drive.google.com/file/d/1RXUs4Sgx96Fzew6WXbpjaZyyHHjEmxV3/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "08-03-2026",
+            "due_date": "12-05-2026",
+            "due_date_display": "שלישי, 12.05.2026"
+          }
         }
       ]
     },
@@ -2309,8 +2418,13 @@
             },
             {
               "type": "file",
-              "name": "2. מבחן פברואר - עם תשובות",
+              "name": "2. מבחן פברואר - עם תשובות בינה מלאכותית",
               "url": "https://drive.google.com/file/d/1fTw3jA8PFpwTcqySQi9K1OqD_X_4DX0C/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות שלי למבחן פברואר",
+              "url": "https://drive.google.com/file/d/18oG0-TZ2kJLisjWCzQZaeUQGQVRHpNFv/view"
             }
           ],
           "lesson_json": {}
