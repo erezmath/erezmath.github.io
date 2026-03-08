@@ -1576,6 +1576,11 @@
               "type": "file",
               "name": "4. ש.ב",
               "url": "https://drive.google.com/file/d/1iUOZXgzp1DBZZhgykCuM6eye2e-eaO7c/view"
+            },
+            {
+              "type": "file",
+              "name": "5. פתרונות",
+              "url": "https://drive.google.com/file/d/18m6VKlVuybfeNuXby1-4F3nmCsSoQtOJ/view"
             }
           ],
           "lesson_json": {
@@ -2097,6 +2102,19 @@
             "due_date": "15-02-2026",
             "due_date_display": "ראשון, 15.02.2026"
           }
+        },
+        {
+          "name": "14. מבחן מרץ",
+          "desc": "",
+          "id": "7-14",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. נושאים למבחן מרץ",
+              "url": "https://drive.google.com/file/d/1hVoM6vl81OsSIhFrxzptTk2EOOWIOT2R/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     }
