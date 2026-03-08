@@ -600,9 +600,7 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "26-02-2026",
-            "due_date": "12-03-2026",
-            "due_date_display": "חמישי, 12.03.2026"
+            "lesson_date": "26-02-2026"
           }
         }
       ]
@@ -1270,12 +1268,15 @@
               "type": "file",
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1nsILlPI9kE0qYZcuGwvZ1zkkS9FkngpH/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1yFi-a_fqQjUuv2m4wg68slr2w6zR5XM0/view"
             }
           ],
           "lesson_json": {
-            "lesson_date": "08-03-2026",
-            "due_date": "11-03-2026",
-            "due_date_display": "רביעי, 11.03.2026"
+            "lesson_date": "08-03-2026"
           }
         }
       ]
@@ -1578,9 +1579,7 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "24-02-2026",
-            "due_date": "10-03-2026",
-            "due_date_display": "שלישי, 10.03.2026"
+            "lesson_date": "24-02-2026"
           }
         }
       ]
