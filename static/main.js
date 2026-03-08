@@ -69,88 +69,65 @@ function setupLessonExpand() {
         if (columns === 2) {
           rowStart = idx % 2 === 0 ? idx : idx - 1;
           const targetLesson = lessons[rowStart];
-          const clickedLesson = lessons[idx]; // The actual lesson that was clicked
+          const clickedLesson = lessons[idx];
           const isRowExpanded = targetLesson.classList.contains('expanded');
-          const currentHash = window.location.hash.substring(1);
-          const isClickingCurrentHash = clickedLesson.id === currentHash;
+          const clickedLessonInExpandedRow = isRowExpanded && (clickedLesson === lessons[rowStart] || clickedLesson === lessons[rowStart + 1]);
           
-          if (isRowExpanded && isClickingCurrentHash) {
-            // Row is expanded and clicking on the lesson that's currently in hash - collapse
+          if (clickedLessonInExpandedRow) {
+            // Row is expanded and user clicked one of the two lessons in it - collapse (same as mobile)
             allLessons.forEach(lesson => lesson.classList.remove('expanded'));
-            history.replaceState(null, '', window.location.pathname);
-          } else if (isRowExpanded && !isClickingCurrentHash) {
-            // Row is expanded but clicking on the other lesson - switch focus
-            history.replaceState(null, '', '#' + clickedLesson.id);
+            if (window.location.hash) history.replaceState(null, '', window.location.pathname);
           } else {
-            // Row is not expanded - expand and focus on clicked lesson
+            // Expand this row
             allLessons.forEach(lesson => lesson.classList.remove('expanded'));
             [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
               if (lesson) lesson.classList.add('expanded');
             });
-            history.replaceState(null, '', '#' + clickedLesson.id);
+            if (window.location.hash) history.replaceState(null, '', window.location.pathname);
           }
         } else {
           const targetLesson = lessons[idx];
           const isExpanding = !targetLesson.classList.contains('expanded');
-          
-          // Close all lessons first (across all topics)
           allLessons.forEach(lesson => lesson.classList.remove('expanded'));
-          
-          // If we were expanding, expand the target lesson
           if (isExpanding) {
             lessons[idx].classList.add('expanded');
-            // Update hash to this lesson
-            history.replaceState(null, '', '#' + lessons[idx].id);
+            if (window.location.hash) history.replaceState(null, '', window.location.pathname);
           } else {
-            // If we were collapsing, remove hash from URL
-            history.replaceState(null, '', window.location.pathname);
+            if (window.location.hash) history.replaceState(null, '', window.location.pathname);
           }
         }
       });
       header.addEventListener('keydown', function(e) {
         if (e.key === 'Enter' || e.key === ' ') {
-          // Get ALL lessons on the page, not just in this accordion
           const allLessons = Array.from(document.querySelectorAll('.lesson'));
-          
           const columns = window.matchMedia('(min-width: 700px)').matches ? 2 : 1;
           let rowStart;
           if (columns === 2) {
             rowStart = idx % 2 === 0 ? idx : idx - 1;
             const targetLesson = lessons[rowStart];
-            const clickedLesson = lessons[idx]; // The actual lesson that was clicked
+            const clickedLesson = lessons[idx];
             const isRowExpanded = targetLesson.classList.contains('expanded');
-            const currentHash = window.location.hash.substring(1);
-            const isClickingCurrentHash = clickedLesson.id === currentHash;
+            const clickedLessonInExpandedRow = isRowExpanded && (clickedLesson === lessons[rowStart] || clickedLesson === lessons[rowStart + 1]);
             
-            if (isRowExpanded && isClickingCurrentHash) {
-              // Row is expanded and clicking on the lesson that's currently in hash - collapse
+            if (clickedLessonInExpandedRow) {
               allLessons.forEach(lesson => lesson.classList.remove('expanded'));
-              history.replaceState(null, '', window.location.pathname);
-            } else if (isRowExpanded && !isClickingCurrentHash) {
-              // Row is expanded but clicking on the other lesson - switch focus
-              history.replaceState(null, '', '#' + clickedLesson.id);
+              if (window.location.hash) history.replaceState(null, '', window.location.pathname);
             } else {
-              // Row is not expanded - expand and focus on clicked lesson
               allLessons.forEach(lesson => lesson.classList.remove('expanded'));
               [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
                 if (lesson) lesson.classList.add('expanded');
               });
-              history.replaceState(null, '', '#' + clickedLesson.id);
+              if (window.location.hash) history.replaceState(null, '', window.location.pathname);
             }
           } else {
             const targetLesson = lessons[idx];
             const isExpanding = !targetLesson.classList.contains('expanded');
-            
-            // Close all lessons first (across all topics)
             allLessons.forEach(lesson => lesson.classList.remove('expanded'));
-            
-            // If we were expanding, expand the target lesson
             if (isExpanding) {
               lessons[idx].classList.add('expanded');
-              history.replaceState(null, '', '#' + lessons[idx].id);
+              if (window.location.hash) history.replaceState(null, '', window.location.pathname);
             } else {
-              // If we were collapsing, remove hash from URL
-              history.replaceState(null, '', window.location.pathname);
+              if (window.location.hash) history.replaceState(null, '', window.location.pathname);
             }
           }
           e.preventDefault();
@@ -255,6 +232,46 @@ function scrollToTopic(id) {
   }
 }
 
+// Share footer: copy link and WhatsApp
+function getBaseUrl() {
+  return window.location.origin + window.location.pathname;
+}
+
+function copyLink(buttonElement, lessonId) {
+  const linkToCopy = getBaseUrl() + '#' + lessonId;
+  navigator.clipboard.writeText(linkToCopy).then(() => {
+    buttonElement.classList.add('show-tooltip');
+    setTimeout(() => buttonElement.classList.remove('show-tooltip'), 2000);
+  }).catch(() => {
+    alert('לא הצלחנו להעתיק את הקישור');
+  });
+}
+
+function shareWhatsApp(lessonId, lessonTitle) {
+  const linkToShare = getBaseUrl() + '#' + lessonId;
+  const message = 'בדוק את השיעור הזה ממתמטיקה: ' + lessonTitle + '\n\n' + linkToShare;
+  window.open('https://wa.me/?text=' + encodeURIComponent(message), '_blank');
+}
+
+function setupShareFooter() {
+  document.addEventListener('click', function(e) {
+    const copyBtn = e.target.closest('.share-btn.copy');
+    if (copyBtn) {
+      e.preventDefault();
+      const lessonId = copyBtn.getAttribute('data-lesson-id');
+      if (lessonId) copyLink(copyBtn, lessonId);
+      return;
+    }
+    const waBtn = e.target.closest('.share-btn.whatsapp');
+    if (waBtn) {
+      e.preventDefault();
+      const lessonId = waBtn.getAttribute('data-lesson-id');
+      const lessonTitle = waBtn.getAttribute('data-lesson-title') || '';
+      if (lessonId) shareWhatsApp(lessonId, lessonTitle);
+    }
+  });
+}
+
 function setupLessonFolders() {
 document.querySelectorAll('.lesson-folder .folder-row').forEach(row => {
   row.addEventListener('click', function() {
@@ -315,6 +332,7 @@ document.addEventListener('DOMContentLoaded', function() {
   setupTopicsNav();
   setupTopicsScrollSpy();
   setupLessonFolders();
+  setupShareFooter();
   setupAssignments();
   
   // Handle hash navigation on page load with a small delay to ensure everything is rendered

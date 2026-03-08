@@ -505,18 +505,12 @@ body {
     box-shadow: 0 2px 8px rgba(30,64,175,0.08);
     border: 1.5px solid #e5e7eb;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
     padding: 0;
     overflow: hidden;
     width: 100%;
     box-sizing: border-box;
     color: #111;
     scroll-margin-top: 128px;
-  }
-  .lesson:hover {
-    box-shadow: 0 6px 20px rgba(1,186,239,0.13);
-    border: 2px solid rgb(1,186,239);
-    transform: translateY(-2px);
   }
   .lesson-pop {
     box-shadow: 0 6px 20px rgba(1,186,239,0.13);
@@ -537,6 +531,17 @@ body {
     gap: 0.15rem;
     justify-content: flex-start;
     text-align: right;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 14px 14px 0 0;
+  }
+  .lesson-header:hover {
+    background-color: rgba(1, 186, 239, 0.06);
+  }
+  .lesson:has(.lesson-header:hover) {
+    box-shadow: 0 6px 20px rgba(1,186,239,0.13);
+    border: 2px solid rgb(1,186,239);
+    transform: translateY(-2px);
   }
 
   /* Due date row under the header */
@@ -589,6 +594,74 @@ body {
   .lesson.expanded .lesson-content {
     display: block;
     animation: fadeIn 0.3s ease;
+  }
+  .share-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin-top: 1rem;
+    padding-top: 10px;
+    border-top: 1px dashed #e0e0e0;
+  }
+  .share-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, transform 0.1s;
+    position: relative;
+  }
+  .share-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: #777;
+    transition: fill 0.2s;
+  }
+  .share-btn:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  .share-btn.whatsapp:hover svg {
+    fill: #25D366;
+  }
+  .share-btn.copy:hover svg {
+    fill: #007BFF;
+  }
+  .share-btn .tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-5px);
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, transform 0.2s;
+    pointer-events: none;
+  }
+  .share-btn .tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+  .share-btn.show-tooltip .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-10px);
   }
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
