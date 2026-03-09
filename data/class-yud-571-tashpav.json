@@ -1586,6 +1586,26 @@
           "lesson_json": {
             "lesson_date": "24-02-2026"
           }
+        },
+        {
+          "name": "2. משוואות טריגונומטריות עם טנגנס, גורמים משותפים, משוואה ריבועית, עם זווית - לא כולל שימוש בזהויות",
+          "desc": "<p>משוואות טריגונומטריות - שעה בודדת. \nמשוואות בסיסיות ללא זהויות, שיעור לאחר הפסקה של שבועיים בגלל מלחמה.</p>",
+          "id": "6-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1ma1vZ2QfEoY-XD1aAHotsVekZhUrQD6G/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1QgEeeYE8tJYTQ9vAS6UXo-KCqV2oS-tt/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "10-03-2026"
+          }
         }
       ]
     },

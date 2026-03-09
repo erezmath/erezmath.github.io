@@ -317,10 +317,11 @@ function scrollToHashTarget() {
         behavior: 'smooth'
       });
       // Pop effect: add a class that mimics .lesson:hover
+      el.classList.add('expanded');
       el.classList.add('lesson-pop');
       setTimeout(() => {
         el.classList.remove('lesson-pop');
-      }, 1500); // Duration in ms for the pop effect, remember that it takes time to reach the target
+      }, 5000); // Duration in ms for the pop effect, remember that it takes time to reach the target
     }
   }
 }

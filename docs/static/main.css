@@ -514,7 +514,7 @@ body {
   }
   .lesson-pop {
     box-shadow: 0 6px 20px rgba(1,186,239,0.13);
-    border: 2px solid rgb(1,186,239);
+    border: 3px solid rgb(1,186,239);
     transform: translateY(-2px);
     transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
   }
