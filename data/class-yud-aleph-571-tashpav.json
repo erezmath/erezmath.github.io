@@ -1244,6 +1244,26 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "11. חקירת פרמטר קטן מאפס - תרגיל ממתכונת בר אילן - אימון למתכונת הראשונה",
+          "desc": "<p>שעה אחת - פתרון בכיתה של תרגיל חדוא פרמטר עם טריקים - ממתכונת בר אילן 2025</p>",
+          "id": "7-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בר אילן-35571-מתכונת 1 תשפה",
+              "url": "https://drive.google.com/file/d/1rJr2ejVtJt00wDJakTSJixvjlhuId8Zh/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בר אילן - פתרונות",
+              "url": "https://drive.google.com/file/d/1Q712mUJ9x2ZQezzdKLvLB93xnj2JEolL/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "10-03-2026"
+          }
         }
       ]
     },
@@ -1490,6 +1510,31 @@
             "lesson_date": "08-03-2026",
             "due_date": "12-05-2026",
             "due_date_display": "שלישי, 12.05.2026"
+          }
+        },
+        {
+          "name": "9. אינטגרל הזזות - חזרה והרחבה לקראת מתכונת ראשונה",
+          "desc": "<p>שעה אחת - חזרה והרחבה של טרנספורמציות על אינטגרלים</p>",
+          "id": "8-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. אינטגרלים - שאלות סיכום טרנפורמציות שכתבתי",
+              "url": "https://drive.google.com/file/d/1zpYAvnbuORUhLa1aaHvgSa7Ag2QimaPh/view"
+            },
+            {
+              "type": "file",
+              "name": "1. אינטגרלים - שאלות סיכום טרנפורמציות שכתבתי",
+              "url": "https://drive.google.com/file/d/1y33ApvXsRBe6WpJ-vI3bUAU6ZlTBw9Ts/view"
+            },
+            {
+              "type": "file",
+              "name": "2. אינטגרלים - פתרונות בכיתה",
+              "url": "https://drive.google.com/file/d/1ETEFezu_4PR0QHiGw0-gfFv6_4ECg4Ch/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "10-03-2026"
           }
         }
       ]
