@@ -1282,6 +1282,28 @@
             "due_date": "10-03-2026",
             "due_date_display": "שלישי, 10.03.2026"
           }
+        },
+        {
+          "name": "31. פונקצית מנה - חקירה הבע באמצעות - תרגילים מבגרויות",
+          "desc": "<p>חקירת מנה כשמשאירים את הפרמטר עד הסוף.</p>\n<p>מאוד נפוץ בבגרויות.</p>\n<p>נתרגל שוב את 2 הדרכים למלא טבלת נגזרת.</p>\n<p>בכיתה תרגיל ראשון, שני התרגילים הבאים שיעורי בית.</p>\n<p>תרגילים נוספים אימון למבחן.</p>",
+          "id": "4-33",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. הבע באמצעות - ש.ב מבגרויות",
+              "url": "https://drive.google.com/file/d/1CujMbdgj5YgbpxVjCnfBxntavmCwFJn6/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1B5KfjeedfMwRYJQ5M4ZTl9DfPpD4QJMl/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "11-03-2026",
+            "due_date": "14-03-2026",
+            "due_date_display": "שבת, 14.03.2026"
+          }
         }
       ]
     },
