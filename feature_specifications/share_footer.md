@@ -36,14 +36,16 @@ Why this is better:
 Zero DOM Bloat: Your initial HTML load is as lightweight as it was before we started.
 Highly Performant: It only does the work of generating HTML when a user explicitly opens a specific lesson.
 One Source of Truth: If you ever want to change the icons or add a Telegram button, you only change it in one place in the JavaScript, rather than updating 200 HTML blocks.
+
+Must use good code practice, avoid code duplication and code smell, use optimal solution, if you're unsure between two options, ask me to choose.
+
+
+
 I used the <details> and <summary> tags here because they emit a native toggle event when opened or closed, making the JavaScript incredibly simple.
 Are you currently using <details> tags for your accordions, or are you using standard <div> elements with a custom JavaScript function to open and close them? If it's custom <div>s, I can easily tweak the script to hook into your existing click listener!
 
-for context, also see try folder - try2.html and on_demand.js
 
 
-
-also, when a user enters a page url with a hash, scroll to the lesson and expand it, and highlight it without going back to normal.
 
 also, what does gemini mean about details and summary tags. can the implementation be simpler?
 
