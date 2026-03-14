@@ -587,6 +587,24 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "12. סדרות עם סעיפי חשיבה - סגנון מאוד נפוץ בבגרויות החדשות",
+          "desc": "<p>סדרות עם סעיפי חשיבה - מאוד נפוץ בבגרויות החדשות, לא רק אלגברה.</p>",
+          "id": "3-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סדרה הנדסית ממתכונת ארכימדס 2022",
+              "url": "https://drive.google.com/file/d/1Rgm-K-HyLYFY7lBAk36xr3q-uI9ZuPzq/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1JGuyEKcG880doyQr_Xm2IlDZlbcCB6e6/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -1412,6 +1430,11 @@
               "type": "file",
               "name": "2. שאלות",
               "url": "https://drive.google.com/file/d/1dO3ZabV1hG-Y8AIAcl3GoN7tZMPDxLbQ/view"
+            },
+            {
+              "type": "file",
+              "name": "3. שיעור בזום",
+              "url": "https://drive.google.com/file/d/1oZdZs8HuWZoPNeHVI7CQY2n32XqxMB4g/view"
             }
           ],
           "lesson_json": {}

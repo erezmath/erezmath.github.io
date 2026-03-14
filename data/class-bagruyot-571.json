@@ -244,6 +244,54 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "2. בגרויות 571 - מרוכזות לפי נושאים",
+          "desc": "",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה י גאומטריה",
+              "url": "https://drive.google.com/file/d/1RXueWWf0TgeJLIwPME5YR10BQPOKNNcv/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה י וגם יא חדוא",
+              "url": "https://drive.google.com/file/d/126yJJpwSnVMzdaGybS7phUMoTdgvtMOU/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה י וגם יא קיצון",
+              "url": "https://drive.google.com/file/d/1HlT85NxUlTNmcCdbDhvEUKJyTZDuWWO4/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה י טריגונומטריה",
+              "url": "https://drive.google.com/file/d/1GY6UeohyKQZ2pWd48_aRq-q2e28cAfOO/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה יא אינדוקצייה",
+              "url": "https://drive.google.com/file/d/1jqirhJfmNoDQf9PCH0zLpZI7jScpRFMg/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה יא הסתברות",
+              "url": "https://drive.google.com/file/d/1Ock-ZtqXbYc5SEX0mik7zmffL8D4CU5o/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה יא סדרות",
+              "url": "https://drive.google.com/file/d/1dTditeAEbh47A4v-kASbnjwD5Nf6BG1C/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 571 כתה יא פונקציות טריגונומטריות",
+              "url": "https://drive.google.com/file/d/1_Od6vDAxxu_mUKbwwcSJEQ_n2OItk2Jl/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },

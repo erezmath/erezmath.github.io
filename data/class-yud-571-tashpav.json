@@ -604,6 +604,28 @@
             "due_date": "11-03-2026",
             "due_date_display": "רביעי, 11.03.2026"
           }
+        },
+        {
+          "name": "7. מעגל - שני משיקים למעגל",
+          "desc": "<p>שיעור כפול - שני משיקים למעגל.</p>\n<p>השבוע נלמד עוד גאומטריה - נסיים את יתר משפטי המשיקים.</p>",
+          "id": "3-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור וש.ב",
+              "url": "https://drive.google.com/file/d/1Vg4UpGFmLh2Z2oNAZe3A401d2OBhuW9F/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1n7WIoeBGbtf832Fr6AL30KYNl1VBTBdV/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "15-03-2026",
+            "due_date": "17-03-2026",
+            "due_date_display": "שלישי, 17.03.2026"
+          }
         }
       ]
     },
@@ -1304,6 +1326,19 @@
             "due_date": "14-03-2026",
             "due_date_display": "שבת, 14.03.2026"
           }
+        },
+        {
+          "name": "31.5. תרגול רשות בפונקצית מנה - לקראת מבחן מרץ",
+          "desc": "<p>תרגילים נוספים בחקירת פונקצית מנה.</p>\n<p>קודם כל פתרו את יתר התרגילים שנתתי לאימון.</p>\n<p>בקובץ הזה, התאמנו על תרגילי הבע באמצעות - עמודים אחרונים בקובץ.</p>\n<p>כמו כן, יש פה שלל סעיפי חשיבה.</p>",
+          "id": "4-34",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. דף עבודה פונקצית מנה - אפי כהן",
+              "url": "https://drive.google.com/file/d/1dk3t0qG4TRflOpor7AImpCmzjxRU7-Y_/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -2162,6 +2197,11 @@
               "type": "file",
               "name": "1. נושאים למבחן מרץ",
               "url": "https://drive.google.com/file/d/1hVoM6vl81OsSIhFrxzptTk2EOOWIOT2R/view"
+            },
+            {
+              "type": "file",
+              "name": "2. מבחן לדוגמא מרץ י 571",
+              "url": "https://drive.google.com/file/d/1eZ7dosQfotnwo7AcrJo7xzqy497_khE3/view"
             }
           ],
           "lesson_json": {}
