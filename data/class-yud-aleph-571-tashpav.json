@@ -850,6 +850,35 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "10. הסתברות - שאלות מבגרויות 2018-2023",
+          "desc": "",
+          "id": "4-11",
+          "content": [
+            {
+              "type": "folder",
+              "name": "פתרונות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. 2018 - חורף - הסתברות",
+                  "url": "https://drive.google.com/file/d/1biZIwoTMrPnXIbC-RAHtRMKszEp_sNEX/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. 2019 - קיץ מועד א - הסתברות",
+                  "url": "https://drive.google.com/file/d/1kbZQNTLKTL8ZYKDMCdzoqI3Hm637z1rh/view"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "תרגול הסתברות מבגרויות",
+              "url": "https://drive.google.com/file/d/11L6vd7Mp7KJp0FR2zmdxiqNZkTI7H3l6/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
