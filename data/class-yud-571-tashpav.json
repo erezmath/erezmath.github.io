@@ -626,6 +626,33 @@
             "due_date": "16-03-2026",
             "due_date_display": "שני, 16.03.2026"
           }
+        },
+        {
+          "name": "8. זוית בין משיק למיתר",
+          "desc": "<p>שיעור כפול - זווית בין משיק למיתר.</p>\n<p>משפט מאוד שימושי - חלק מהשאלות רק פיצוח, חלק טענה נימוק.</p>",
+          "id": "3-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1lciRAPbWCjrLW78SDN4chV8s6AqkbVEU/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1TIKrQ_4L82y2GVQTqtKtxuDecMhfNU2_/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1SCJvAi3inqmYsrTtgpOruwbryEVgJykq/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "17-03-2026",
+            "due_date": "21-03-2026",
+            "due_date_display": "שבת, 21.03.2026"
+          }
         }
       ]
     },

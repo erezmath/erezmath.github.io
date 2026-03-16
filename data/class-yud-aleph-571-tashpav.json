@@ -852,7 +852,7 @@
           "lesson_json": {}
         },
         {
-          "name": "10. הסתברות - שאלות מבגרויות 2018-2023",
+          "name": "10. הסתברות - שאלות מבגרויות 2018-2025",
           "desc": "",
           "id": "4-11",
           "content": [
@@ -869,6 +869,31 @@
                   "type": "file",
                   "name": "2. 2019 - קיץ מועד א - הסתברות",
                   "url": "https://drive.google.com/file/d/1kbZQNTLKTL8ZYKDMCdzoqI3Hm637z1rh/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. 2025 - קיץ מועד ב - הסתברות",
+                  "url": "https://drive.google.com/file/d/1vPQgXvIoykJ4bpWqrJ0BCN0vxGUpz0f9/view"
+                },
+                {
+                  "type": "file",
+                  "name": "4. 2025 - קיץ מועד א - הסתברות",
+                  "url": "https://drive.google.com/file/d/1lwNtchLlZesJzVCXTVVBqqRp1KwHuank/view"
+                },
+                {
+                  "type": "file",
+                  "name": "5. 2023 - קיץ מועד א - הסתברות",
+                  "url": "https://drive.google.com/file/d/1aQGNspveFtez6lfdeejtufe_WhPrQUMt/view"
+                },
+                {
+                  "type": "file",
+                  "name": "6. 2023 - חורף - הסתברות",
+                  "url": "https://drive.google.com/file/d/1UnMZ059kUTfPdjDmrwEFCEd4Pb1Vv65n/view"
+                },
+                {
+                  "type": "file",
+                  "name": "7. 2023 - קיץ מועד ב - הסתברות",
+                  "url": "https://drive.google.com/file/d/1rlvgzpY0VLY3o3qdffyyRddoaTggDk3t/view"
                 }
               ]
             },
