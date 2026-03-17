@@ -542,7 +542,7 @@
           }
         },
         {
-          "name": "5. זויות היקפיות הנשענת על הקוטר",
+          "name": "5. זוויות היקפיות הנשענת על הקוטר",
           "desc": "<p>שיעור כפול.\nעמוד ראשון - פיצוח לפצח על הדפים.\nעמוד שני - טענה נימוק.</p>\n<p>יש גם תרגילי רשות יותר מאתגרים בעמוד השלישי.</p>",
           "id": "3-6",
           "content": [
@@ -563,7 +563,7 @@
             },
             {
               "type": "file",
-              "name": "4. מצגת למי שלא היה בשיעור",
+              "name": "4. מצגת למי שלא היה בשיעור.pptx",
               "url": "https://drive.google.com/file/d/1t23ZHy9cXrahyhPWj1PNhP1_O2Zp0Hel/view"
             }
           ],
@@ -628,7 +628,7 @@
           }
         },
         {
-          "name": "8. זוית בין משיק למיתר",
+          "name": "8. זווית בין משיק למיתר",
           "desc": "<p>שיעור כפול - זווית בין משיק למיתר.</p>\n<p>משפט מאוד שימושי - חלק מהשאלות רק פיצוח, חלק טענה נימוק.</p>",
           "id": "3-9",
           "content": [
@@ -639,13 +639,18 @@
             },
             {
               "type": "file",
-              "name": "2. ש.ב",
+              "name": "2. ש.ב.docx",
               "url": "https://drive.google.com/file/d/1TIKrQ_4L82y2GVQTqtKtxuDecMhfNU2_/view"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1SCJvAi3inqmYsrTtgpOruwbryEVgJykq/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות בזום",
+              "url": "https://drive.google.com/file/d/1YOBHacvTzlAFCn4KbtVgiHAKi4SBWvzP/view"
             }
           ],
           "lesson_json": {

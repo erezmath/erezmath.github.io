@@ -1089,11 +1089,6 @@
                 },
                 {
                   "type": "file",
-                  "name": "סימולציה_001_שאלון_581_קיץ_2021_סרור_אסעד",
-                  "url": "https://drive.google.com/file/d/1teAm7kW5qNp-BTuHCmTDp7pWSl2eyZEf/view"
-                },
-                {
-                  "type": "file",
                   "name": "פא סרור מתכונת 2",
                   "url": "https://drive.google.com/file/d/10LwshOkB4JdoHBMgv2cYVjCRr66heA8A/view"
                 },
@@ -1145,6 +1140,16 @@
               "type": "folder",
               "name": "2024",
               "content": [
+                {
+                  "type": "file",
+                  "name": "2. סרור אסעד - 35581 - סימולציה 2024 - פתרון",
+                  "url": "https://drive.google.com/file/d/1E1MsIOl_jv7dTGFYcP92zLSKQDMdw82p/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. סרור אסעד - 35581 - סימולציה 2024",
+                  "url": "https://drive.google.com/file/d/1yKoNoLqbZXTr0rPSBIhTPSlwfLR3oquR/view"
+                },
                 {
                   "type": "file",
                   "name": "תיכון בית וגן-35581-מתכונת 1",
@@ -1723,6 +1728,11 @@
                   "url": "https://drive.google.com/file/d/1UVh8Y5Z9Iq9GHX3vuyHiWIXbBgxnEJgd/view"
                 }
               ]
+            },
+            {
+              "type": "file",
+              "name": "סדרה הנדסית עם סעיפי חשיבה - ארכימדס מתכונת 2022",
+              "url": "https://drive.google.com/file/d/1syIhggCYlCs9P_3gH0zRrs6_6XHF0VX4/view"
             }
           ],
           "lesson_json": {}
@@ -1781,7 +1791,7 @@
             },
             {
               "type": "file",
-              "name": "טריגו - סעיף ראשון לא סטנדרטי",
+              "name": "טריגו - סעיף ראשון לא סטנדרטי.docx",
               "url": "https://drive.google.com/file/d/1U9MNj36LOIpNTra7ISCA7n6xTt0rq1Y9/view"
             },
             {
@@ -1797,6 +1807,11 @@
           "desc": "",
           "id": "5-6",
           "content": [
+            {
+              "type": "file",
+              "name": "1. חקירה הבע באמצעות - פרמטר קטן מאפס - בר אילן 2025",
+              "url": "https://drive.google.com/file/d/1TrVOGQjmQ-k6NO_YrrRjdNK38X-rn1m5/view"
+            },
             {
               "type": "folder",
               "name": "ארכימדס",
@@ -1853,7 +1868,7 @@
             },
             {
               "type": "file",
-              "name": "מריאן - חדוא טריגונומטרי - זיהוי לפי חיוביות שליליות",
+              "name": "מריאן - חדוא טריגונומטרי - זיהוי לפי חיוביות שליליות.docx",
               "url": "https://drive.google.com/file/d/1m8TCYroPpkb5W__ggJ0AMgOBrAjKPXvU/view"
             }
           ],
@@ -1880,7 +1895,7 @@
                 },
                 {
                   "type": "file",
-                  "name": "3. בעית קיצון בשילוב פיזיקה - זמן מהירות מרחק",
+                  "name": "3. בעית קיצון בשילוב פיזיקה - זמן מהירות מרחק.docx",
                   "url": "https://drive.google.com/file/d/1Y7zBGSMRoCmDLwR-uKSZlP0IJfghlh6S/view"
                 }
               ]

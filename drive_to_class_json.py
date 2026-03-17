@@ -55,7 +55,7 @@ IGNORED_FILENAMES = [
 REMOVED_EXTENSIONS = ['pdf', 'mp4', 'gif']
 # If True, remove any file extension from the display name (everything after the last dot).
 # If False, only remove extensions listed in REMOVED_EXTENSIONS.
-REMOVE_ALL_EXTENSIONS = True
+REMOVE_ALL_EXTENSIONS = False
 
 class_info = [
     {

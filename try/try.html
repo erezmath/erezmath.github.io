@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>עץ מיומנויות - אינטגרלים (אינטראקטיבי ומופרד)</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/standalone/umd/vis-network.min.js"></script>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        h1 { color: #bb86fc; margin: 0 0 10px 0; text-align: center; }
+        p { color: #aaaaaa; text-align: center; margin-bottom: 20px; }
+        
+        .container {
+            display: flex;
+            flex: 1;
+            gap: 20px;
+            min-height: 600px;
+        }
+        
+        #mynetwork {
+            flex: 3;
+            height: 100%;
+            border: 2px solid #333;
+            border-radius: 12px;
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        #info-panel {
+            flex: 1;
+            background-color: #2c2c2c;
+            border: 2px solid #444;
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #info-panel h2 { color: #03dac6; margin-top: 0; border-bottom: 1px solid #555; padding-bottom: 10px; }
+        .info-field { margin-bottom: 15px; font-size: 16px; }
+        .info-field span { color: #bb86fc; font-weight: bold; }
+        
+        .edit-btn {
+            margin-top: auto;
+            background-color: #bb86fc;
+            color: #000;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .edit-btn:hover { background-color: #9965f4; }
+    </style>
+</head>
+<body>
+
+    <h1>🗺️ עץ מיומנויות: אינטגרלים (5 יח')</h1>
+    <p>גלול כדי לעשות זום, לחץ על הרקע כדי לנווט. לחץ על מלבן כדי לראות את פרטיו.</p>
+    
+    <div class="container">
+        <div id="mynetwork"></div>
+
+        <div id="info-panel">
+            <h2 id="info-title">טוען נתונים...</h2>
+            <div class="info-field">מזהה פנימי (ID): <br><span id="info-id">---</span></div>
+            <div class="info-field">סוג הצומת: <br><span id="info-type">---</span></div>
+            <p style="text-align: right; font-size: 14px; margin-top: 20px;">
+                כאן תוכל בעתיד להציג את התרגילים הרלוונטיים, טופס העריכה של הנושא, או כפתור הוספת ענף חדש.
+            </p>
+            <button class="edit-btn" onclick="alert('בעתיד: יפתח טופס עריכה עבור ה-ID שנבחר!')">ערוך תוכן / הוסף תרגיל</button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var nodes = new vis.DataSet([
+            { id: 0, label: 'אינטגרלים\n(5 יח\')', color: { background: '#bb86fc', border: '#9965f4' }, font: {size: 22, color: '#000000', bold: true}, type: 'root' },
+            { id: 1, label: '1. לפי נוסחא', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 2, label: '2. פונקציה קדומה', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 3, label: '3. חישובי שטח', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 4, label: '4. שיטת ההצבה', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 5, label: '5. אינטגרל מצטבר', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 6, label: '6. הזזות', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 7, label: '7. זוגיות / אי-זוגיות', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 8, label: '8. אי-שוויונים', color: '#03dac6', font: {color: '#000000', bold: true}, type: 'category' },
+            { id: 11, label: 'פולינום + פנימית', type: 'trick' },
+            { id: 12, label: 'מנה + פנימית', type: 'trick' },
+            { id: 13, label: 'שורש + פנימית', type: 'trick' },
+            { id: 14, label: 'טריגו + פנימית', type: 'trick' },
+            { id: 31, label: 'כללי בין 2 פונקציות', type: 'trick' },
+            { id: 32, label: 'חלוקת שטח ופיצול', type: 'trick' },
+            { id: 41, label: 'הצבה קלאסית', type: 'trick' },
+            { id: 42, label: "f' * f", type: 'trick' },
+            { id: 43, label: "f' * f^n (חיובי)", type: 'trick' },
+            { id: 44, label: "f' * f^n (שלילי)", type: 'trick' },
+            { id: 51, label: 'משתנה למעלה', type: 'trick' },
+            { id: 52, label: 'משתנה למטה', type: 'trick' },
+            { id: 61, label: 'אנכיות', type: 'trick' },
+            { id: 62, label: 'אופקיות', type: 'trick' },
+            { id: 63, label: 'מתיחה', type: 'trick' },
+            { id: 64, label: 'שיקוף X', type: 'trick' },
+            { id: 65, label: 'הצרחת גבולות', type: 'trick' },
+            { id: 66, label: 'שילובים', type: 'trick' },
+            { id: 81, label: 'כתלות בגבולות', type: 'trick' },
+            { id: 82, label: 'ביחס למלבן', type: 'trick' },
+            { id: 83, label: 'ביחס למשולש', type: 'trick' }
+        ]);
+
+        // הגדרת אורך שונה לקווים: 
+        // 350px כדי להרחיק את המשפחות הראשיות מהמרכז
+        // 120px כדי לשמור את תתי-הנושאים קרובים למשפחה שלהם
+        var edges = new vis.DataSet([
+            // מהשורש לקטגוריות (קווים ארוכים במיוחד להרחקה)
+            { from: 0, to: 1, length: 350 }, { from: 0, to: 2, length: 350 }, { from: 0, to: 3, length: 350 }, 
+            { from: 0, to: 4, length: 350 }, { from: 0, to: 5, length: 350 }, { from: 0, to: 6, length: 350 }, 
+            { from: 0, to: 7, length: 350 }, { from: 0, to: 8, length: 350 },
+            
+            // מהקטגוריות לתתי-הנושאים (קווים קצרים לאיגוד)
+            { from: 1, to: 11, length: 120 }, { from: 1, to: 12, length: 120 }, { from: 1, to: 13, length: 120 }, { from: 1, to: 14, length: 120 },
+            { from: 3, to: 31, length: 120 }, { from: 3, to: 32, length: 120 },
+            { from: 4, to: 41, length: 120 }, { from: 4, to: 42, length: 120 }, { from: 4, to: 43, length: 120 }, { from: 4, to: 44, length: 120 },
+            { from: 5, to: 51, length: 120 }, { from: 5, to: 52, length: 120 },
+            { from: 6, to: 61, length: 120 }, { from: 6, to: 62, length: 120 }, { from: 6, to: 63, length: 120 }, { from: 6, to: 64, length: 120 }, { from: 6, to: 65, length: 120 }, { from: 6, to: 66, length: 120 },
+            { from: 8, to: 81, length: 120 }, { from: 8, to: 82, length: 120 }, { from: 8, to: 83, length: 120 }
+        ]);
+
+        var container = document.getElementById('mynetwork');
+        var data = { nodes: nodes, edges: edges };
+        var options = {
+            nodes: {
+                shape: 'box', 
+                margin: 12,
+                color: {
+                    background: '#3700b3',
+                    border: '#5c22e0',
+                    highlight: { background: '#6200ea', border: '#ffffff' },
+                    hover: { background: '#6200ea', border: '#bb86fc' }
+                },
+                font: { color: 'white', face: 'Tahoma', size: 14 },
+                borderWidth: 2
+            },
+            edges: {
+                color: '#777777',
+                width: 2,
+                smooth: false 
+            },
+            interaction: { 
+                dragNodes: false, 
+                hover: true,
+                zoomView: true
+            },
+            physics: {
+                enabled: true,
+                barnesHut: { 
+                    gravitationalConstant: -15000, // דחייה חזקה מאוד בין הצמתים למניעת התערבבות
+                    centralGravity: 0.1, // משיכה חלשה למרכז כדי שהעץ יתפרש
+                    springLength: 200,
+                    springConstant: 0.04,
+                    avoidOverlap: 1 // קריטי: מונע מצמתים "לדרוס" אחד את השני
+                },
+                stabilization: { 
+                    iterations: 1000 // נותן למנוע זמן לסדר את המפה לפני שהמשתמש רואה אותה
+                } 
+            }
+        };
+
+        var network = new vis.Network(container, data, options);
+
+        function updatePanelForNode(nodeId) {
+            if (nodeId !== null && nodeId !== undefined) {
+                var nodeData = nodes.get(nodeId);
+                document.getElementById('info-title').innerText = nodeData.label.replace('\n', ' ');
+                document.getElementById('info-id').innerText = nodeId;
+                
+                var typeText = "לא ידוע";
+                if(nodeData.type === 'root') typeText = "נושא שורש";
+                if(nodeData.type === 'category') typeText = "קטגוריה ראשית";
+                if(nodeData.type === 'trick') typeText = "תת-נושא / טריק";
+                document.getElementById('info-type').innerText = typeText;
+            } else {
+                document.getElementById('info-title').innerText = "לא נבחר נושא";
+                document.getElementById('info-id').innerText = "---";
+                document.getElementById('info-type').innerText = "---";
+            }
+        }
+
+        network.on("click", function (params) {
+            if (params.nodes.length > 0) {
+                updatePanelForNode(params.nodes[0]);
+            } else {
+                updatePanelForNode(null);
+            }
+        });
+
+        network.once("stabilizationIterationsDone", function() {
+            network.selectNodes([0]); 
+            updatePanelForNode(0);
+            
+            // מתאים את הזום אוטומטית כך שכל העץ ייכנס למסך בצורה אופטימלית לאחר שהסתדר
+            network.fit({
+                animation: { duration: 1000, easingFunction: "easeInOutQuad" }
+            });
+        });
+    </script>
+</body>
+</html>
