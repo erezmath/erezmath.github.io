@@ -1892,6 +1892,44 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "11. חקירה טריגונומטרית - מסימולציות 2021 של סרור אסעד",
+          "desc": "<p>בחקירת טריגו מתקילים פחות בבגרות, ויש פחות הפתעות.</p>\n<p>חשוב לא לטעות בפתרונות המיוחדים (ממליץ לצייר מעגל יחידה)</p>\n<p>ובדרך כלל יש טריקים של זהויות, שאם מתאמנים קצת על משוואות טריגונומטריות, לא קשה לזהות.</p>",
+          "id": "9-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. חקירת טריגו - סרור אסעד 2021 סימולציה 3 - שאלה ופתרון",
+              "url": "https://drive.google.com/file/d/125haAZ5dQWVziphf4wtts_7tjsh0t-h6/view"
+            },
+            {
+              "type": "file",
+              "name": "2. חקירת טריגו - סרור אסעד 2021 סימולציה 2 - שאלה ופתרון",
+              "url": "https://drive.google.com/file/d/1k8wu9fEccfL7Zis8zSaa0fb1y-FbEPJA/view"
+            },
+            {
+              "type": "folder",
+              "name": "מבחני סימולציה - סרור אסעד",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "סרור אסעד 2021 סימולציה 2",
+                  "url": "https://drive.google.com/file/d/18xsZQKZpXX1Gsfv65nolkm7B5Ehgh1oo/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סרור אסעד 2021 סימולציה 3",
+                  "url": "https://drive.google.com/file/d/1mrth8V9A2VCHJZxtpRLpxKZ6e3Llp05c/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "19-03-2026",
+            "due_date": "19-03-2026",
+            "due_date_display": "חמישי, 19.03.2026"
+          }
         }
       ]
     },

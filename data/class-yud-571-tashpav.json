@@ -1366,6 +1366,28 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "32.  הפונקציה ההופכית 1 חלקי",
+          "desc": "<p>שרטוט הפונקציה 1 חלקי.</p>\n<p>טרנספורמציה נפוצה מאוד כסעיף חשיבה - לשרטט ללא חקירה נוספת.</p>",
+          "id": "4-35",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ודוגמאות",
+              "url": "https://drive.google.com/file/d/1lJNksSPUS-5uSyRiXodYamno6jLmanLT/view"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגול בכיתה",
+              "url": "https://drive.google.com/file/d/1Jr9gy5qqUsAqoeWa5hvf_9_Y5FnVLlq1/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "19-03-2026",
+            "due_date": "19-03-2026",
+            "due_date_display": "חמישי, 19.03.2026"
+          }
         }
       ]
     },
