@@ -639,11 +639,6 @@
             },
             {
               "type": "file",
-              "name": "2. ש.ב.docx",
-              "url": "https://drive.google.com/file/d/1TIKrQ_4L82y2GVQTqtKtxuDecMhfNU2_/view"
-            },
-            {
-              "type": "file",
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1SCJvAi3inqmYsrTtgpOruwbryEVgJykq/view"
             },
@@ -1703,6 +1698,46 @@
             "due_date": "17-03-2026",
             "due_date_display": "שלישי, 17.03.2026"
           }
+        },
+        {
+          "name": "3. משוואות עם זהויות - זוויות כפולות, זהות פיתגורס, וחלוקה ליצירת טנגנס",
+          "desc": "<p>משוואות טריגונומטריות - שעה בודדת.\nמשוואות עם זהויות כפולות, פיתגורס, וחלוקה ליצירת טנגנס</p>",
+          "id": "6-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1R0eoKBquNQn3ZnJDVPt3huq3m6bS7d9T/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1jfckp-t5YAJ_keXSn8dLLWinsdsI9ysz/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "18-03-2026",
+            "due_date": "21-03-2026",
+            "due_date_display": "שבת, 21.03.2026"
+          }
+        },
+        {
+          "name": "3.5. תרגול רשות במשוואות טריגונומטריות - גול ואפי כהן",
+          "desc": "",
+          "id": "6-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. משוואות טריגונומטריות - אפי כהן",
+              "url": "https://drive.google.com/file/d/1fsO35yxGShKw2KpfzTWLB6VF10iLNswv/view"
+            },
+            {
+              "type": "file",
+              "name": "2. משוואות טריגונומטריות - גול",
+              "url": "https://drive.google.com/file/d/1WkExPUGGDGLfD3FfIwqBUbm_-ksx9tUm/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
