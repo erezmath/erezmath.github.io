@@ -145,6 +145,18 @@ def copy_images():
         print('Warning: images/ directory does not exist. No images copied.')
     log_event('Copied images')
 
+def copy_quizes():
+    """Copy quizes to the output directory."""
+    quizes_dist = os.path.join(DIST_DIR, 'quizes')
+    if os.path.exists(quizes_dist):
+        shutil.rmtree(quizes_dist)
+    if os.path.exists('quizes'):
+        shutil.copytree('quizes', quizes_dist)
+    else:
+        print('Warning: quizes/ directory does not exist. No quizes copied.')
+    log_event('Copied quizes')
+
+
 def main():
     """Main build process: cleans output, loads data, renders pages, copies assets."""
     log_event('Main build process started')
@@ -159,6 +171,7 @@ def main():
     render_class_pages(classes)
     copy_static()
     copy_images()
+    copy_quizes()
     log_event('Site built successfully!')
     print('site built successfully!')
 

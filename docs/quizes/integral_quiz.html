@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תרגול אינטגרלים - שאלון 571</title>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9ecef;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        /* תפריט ניווט עליון מותאם למובייל */
+        .top-nav {
+            background-color: #2c3e50;
+            padding: 15px 10px;
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .top-nav button {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin-left: 10px;
+            border-radius: 20px;
+            background-color: #34495e;
+            font-weight: bold;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-family: inherit;
+        }
+        .top-nav button:hover {
+            background-color: #3498db;
+        }
+        .top-nav button.active {
+            background-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px 15px;
+        }
+
+        .quiz-header {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-size: 2em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        .center-wrapper {
+            text-align: center;
+        }
+
+        /* עיצוב הקופסה הנפרדת לכל סעיף */
+        .section-box {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 25px 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            border-top: 5px solid #3498db;
+        }
+
+        .section-box h2 {
+            color: #2980b9;
+            margin-top: 0;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+
+        .formula-box {
+            background-color: #e8f4f8;
+            border: 2px dashed #3498db;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0 40px 0;
+            text-align: center;
+        }
+        .formula-box h3 { margin-top: 0; color: #2980b9; }
+
+        .question-box {
+            background: #fdfdfd;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .question-box:last-child {
+            margin-bottom: 0;
+        }
+        
+        .question-text {
+            font-size: 1.15em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .math-container {
+            direction: ltr;
+            display: inline-block;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .options label {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .options label:hover {
+            background: #eaf2f8;
+            border-color: #3498db;
+        }
+        .options input[type="radio"] {
+            margin-left: 15px;
+            transform: scale(1.2);
+        }
+        .actions {
+            margin-top: 20px;
+        }
+        .action-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-left: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .action-btn:hover { background: #2980b9; }
+        .hint-btn { background: #f39c12; }
+        .hint-btn:hover { background: #d68910; }
+        
+        .hint-box {
+            display: none;
+            background: #fcf3cf;
+            border-right: 4px solid #f1c40f;
+            padding: 15px;
+            margin-top: 15px;
+            font-size: 1em;
+            border-radius: 4px;
+        }
+        .feedback {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 15px;
+            display: none;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .correct { color: #155724; background-color: #d4edda; border: 1px solid #c3e6cb; }
+        .incorrect { color: #721c24; background-color: #f8d7da; border: 1px solid #f5c6cb; }
+    </style>
+</head>
+<body>
+
+<nav class="top-nav" id="nav-container"></nav>
+
+<div class="container" id="quiz-container"></div>
+
+<script>
+    // ==========================================
+    // DATA LAYER (JSON)
+    // ==========================================
+    const quizzesData = [
+        {
+            id: 'quiz1',
+            title: 'בוחן 1: אינטגרל לפי נוסחא',
+            formulas: `
+                <div style="margin-bottom: 15px; font-size: 1.1em;">
+                    <span class="math-container">\\(\\int x^t \\, dx = \\frac{x^{t+1}}{t+1} + C\\)</span> <br>
+                    <small>(\\(t \\neq -1\\), ממשי \\(t\\))</small>
+                </div>
+                <div style="font-size: 1.1em;">
+                    אם \\( F(x) \\) היא פונקציה קדומה של \\( f(x) \\) אז:<br>
+                    <span class="math-container">\\(\\int f(mx + b) \\, dx = \\frac{1}{m}F(mx + b) + C\\)</span> <br>
+                    <small>(\\(m \\neq 0\\))</small>
+                </div>
+            `,
+            sections: [
+                {
+                    title: 'א. פולינומים, פונקציה מורכבת ופתיחת סוגריים',
+                    questions: [
+                        {
+                            text: 'מצאו את האינטגרל הלא מסויים: <br><br><span class="math-container">\\(\\int (4x^3 - 6x^2 + 2) \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(12x^2 - 12x + C\\)" },
+                                { value: "correct", text: "\\(x^4 - 2x^3 + 2x + C\\)" },
+                                { value: "wrong", text: "\\(x^4 - 3x^3 + 2x + C\\)" },
+                                { value: "wrong", text: "\\(x^4 - 2x^3 + 2x\\)" }
+                            ],
+                            hint: 'השתמשו בכלל החזקה. אל תשכחו את קבוע האינטגרציה \\( C \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{1} (2x - 1)^3 \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{1}{4}\\)" },
+                                { value: "wrong", text: "\\(\\frac{1}{2}\\)" },
+                                { value: "correct", text: "\\(0\\)" },
+                                { value: "wrong", text: "\\(-\\frac{1}{8}\\)" }
+                            ],
+                            hint: 'זוהי פונקציה מורכבת ליניארית. זכרו לחלק בנגזרת הפנימית (2)!'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{2} x(x^2 - 3) \\, dx\\)</span>',
+                            options: [
+                                { value: "correct", text: "\\(-2\\)" },
+                                { value: "wrong", text: "\\(2\\)" },
+                                { value: "wrong", text: "\\(0\\)" },
+                                { value: "wrong", text: "\\(4\\)" }
+                            ],
+                            hint: 'פתחו סוגריים תחילה לקבלת פולינום, בצעו אינטגרציה לכל איבר בנפרד, ואז הציבו את הגבולות.'
+                        }
+                    ]
+                },
+                {
+                    title: 'ב. אינטגרל מנה ופונקציה מורכבת',
+                    questions: [
+                        {
+                            text: 'מצאו את האינטגרל הלא מסויים: <br><br><span class="math-container">\\(\\int \\frac{3}{(x + 2)^2} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-\\frac{3}{(x + 2)^3} + C\\)" },
+                                { value: "correct", text: "\\(-\\frac{3}{x + 2} + C\\)" },
+                                { value: "wrong", text: "\\(\\frac{3}{x + 2} + C\\)" },
+                                { value: "wrong", text: "\\(-\\frac{1}{x + 2} + C\\)" }
+                            ],
+                            hint: 'העלו את המכנה למונה על ידי שימוש בחזקה שלילית, ואז השתמשו בכלל החזקה.'
+                        },
+                        {
+                            text: 'מצאו את האינטגרל הלא מסויים: <br><br><span class="math-container">\\(\\int \\frac{8}{(2x - 1)^3} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-\\frac{4}{(2x - 1)^2} + C\\)" },
+                                { value: "correct", text: "\\(-\\frac{2}{(2x - 1)^2} + C\\)" },
+                                { value: "wrong", text: "\\(\\frac{2}{(2x - 1)^2} + C\\)" },
+                                { value: "wrong", text: "\\(-\\frac{8}{(2x - 1)^4} + C\\)" },
+                                { value: "wrong", text: "\\(-\\frac{1}{(2x - 1)^2} + C\\)" }
+                            ],
+                            hint: 'המירו לחזקה שלילית. בצעו אינטגרל ואל תשכחו לחלק בנגזרת הפנימית של הבסיס.'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{1}^{2} \\frac{6}{(3x - 2)^2} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-1.5\\)" },
+                                { value: "correct", text: "\\(1.5\\)" },
+                                { value: "wrong", text: "\\(0.5\\)" },
+                                { value: "wrong", text: "\\(2.5\\)" }
+                            ],
+                            hint: 'רשמו את הפונקציה בעזרת חזקה שלילית, מצאו פונקציה קדומה, והציבו את הגבולות.'
+                        }
+                    ]
+                },
+                {
+                    title: 'ג. אינטגרל עם פישוט מקדים',
+                    questions: [
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{1}^{2} \\left(x - \\frac{1}{x}\\right)^2 \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{11}{6}\\)" },
+                                { value: "correct", text: "\\(\\frac{5}{6}\\)" },
+                                { value: "wrong", text: "\\(-\\frac{5}{6}\\)" },
+                                { value: "wrong", text: "\\(\\frac{1}{2}\\)" }
+                            ],
+                            hint: 'פתחו את הסוגריים לפני ביצוע האינטגרציה, וזכרו לחשב את האיבר האמצעי.'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{4}^{5} \\frac{x^2 - 9}{x - 3} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(8.5\\)" },
+                                { value: "correct", text: "\\(7.5\\)" },
+                                { value: "wrong", text: "\\(6.5\\)" },
+                                { value: "wrong", text: "\\(12\\)" }
+                            ],
+                            hint: 'השתמשו בנוסחת הפרש ריבועים כדי לפרק את המונה לגורמים, וצמצמו את השבר.'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{1}^{3} \\frac{2x^3 - 8x^2}{2x^2} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-11\\)" },
+                                { value: "correct", text: "\\(-4\\)" },
+                                { value: "wrong", text: "\\(4\\)" },
+                                { value: "wrong", text: "\\(-5\\)" },
+                                { value: "wrong", text: "\\(0\\)" }
+                            ],
+                            hint: 'בצעו חלוקה - חלקו כל איבר במונה במכנה בנפרד וצמצמו.'
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            id: 'quiz2',
+            title: 'בוחן 2: מציאת פונקציה קדומה לפי נתון',
+            formulas: `
+                <div style="margin-bottom: 15px; font-size: 1.1em;">
+                    <strong>הסבר קצר:</strong> כדי למצוא את הפונקציה המקורית \\( f(x) \\), מחשבים את האינטגרל של הנגזרת \\( f'(x) \\) ומוסיפים את הקבוע \\( C \\). לאחר מכן, מציבים את הנתון הידוע (כמו חיתוך עם הצירים או נקודה נתונה) כדי למצוא את ערכו המדויק של \\( C \\).
+                </div>
+                <div style="margin-bottom: 15px; font-size: 1.1em;">
+                    <span class="math-container">\\(f(x) = \\int f'(x) \\, dx + C\\)</span>
+                </div>
+                <div style="font-size: 1.1em;">
+                    <strong>משיק לפונקציה:</strong> שיפוע המשיק לישר בנקודת ההשקה שווה לערך הנגזרת באותה נקודה: \\( f'(x_0) = m \\).
+                </div>
+            `,
+            sections: [
+                {
+                    title: 'א. פונקציה העוברת בנקודה נתונה',
+                    questions: [
+                        {
+                            text: 'נתונה נגזרת של פונקציה: <span class="math-container">\\(f\'(x) = 3x^2 - 2x + 4\\)</span>.<br>ידוע שגרף הפונקציה \\(f(x)\\) עובר בנקודה \\((1, 6)\\).<br>מצאו את הפונקציה \\(f(x)\\).',
+                            options: [
+                                { value: "wrong", text: "\\(f(x) = x^3 - x^2 + 4x + 6\\)" },
+                                { value: "correct", text: "\\(f(x) = x^3 - x^2 + 4x + 2\\)" },
+                                { value: "wrong", text: "\\(f(x) = x^3 - 2x^2 + 4x + 4\\)" }
+                            ],
+                            hint: 'בצעו אינטגרל לנגזרת כדי למצוא את \\(f(x)\\) עם הקבוע \\(C\\). לאחר מכן הציבו \\(x=1\\) ו-\\(y=6\\).'
+                        },
+                        {
+                            text: 'נתונה נגזרת של פונקציה: <span class="math-container">\\(f\'(x) = \\frac{6}{(2x - 1)^2}\\)</span>.<br>גרף הפונקציה עובר בנקודה \\((1, 4)\\).<br>מצאו את הפונקציה \\(f(x)\\).',
+                            options: [
+                                { value: "wrong", text: "\\(f(x) = -\\frac{6}{2x - 1} + 10\\)" },
+                                { value: "correct", text: "\\(f(x) = -\\frac{3}{2x - 1} + 7\\)" },
+                                { value: "wrong", text: "\\(f(x) = \\frac{3}{2x - 1} + 1\\)" }
+                            ],
+                            hint: 'העלו את המכנה בעזרת חזקה שלילית ועשו אינטגרל. לבסוף הציבו את הנקודה למציאת \\(C\\).'
+                        }
+                    ]
+                },
+                {
+                    title: 'ב. חיתוך עם הצירים',
+                    questions: [
+                        {
+                            text: 'נתונה נגזרת של פונקציה: <span class="math-container">\\(f\'(x) = -2x + 5\\)</span>.<br>ידוע שגרף הפונקציה חותך את ציר ה-\\(y\\) בנקודה שבה \\(y = -3\\).<br>מצאו את הפונקציה \\(f(x)\\).',
+                            options: [
+                                { value: "correct", text: "\\(f(x) = -x^2 + 5x - 3\\)" },
+                                { value: "wrong", text: "\\(f(x) = -x^2 + 5x + 3\\)" },
+                                { value: "wrong", text: "\\(f(x) = -2x^2 + 5x - 3\\)" }
+                            ],
+                            hint: 'חיתוך עם ציר ה-\\(y\\) אומר ששיעור ה-\\(x\\) של הנקודה הוא 0. כלומר, הנקודה היא \\((0, -3)\\).'
+                        },
+                        {
+                            text: 'נתונה נגזרת של פונקציה: <span class="math-container">\\(f\'(x) = 4x^3 - 4\\)</span>.<br>הפונקציה חותכת את ציר ה-\\(x\\) בנקודה שבה \\(x = 2\\).<br>מצאו את הפונקציה \\(f(x)\\).',
+                            options: [
+                                { value: "wrong", text: "\\(f(x) = x^4 - 4x + 2\\)" },
+                                { value: "correct", text: "\\(f(x) = x^4 - 4x - 8\\)" },
+                                { value: "wrong", text: "\\(f(x) = x^4 - 4x - 16\\)" }
+                            ],
+                            hint: 'חיתוך עם ציר ה-\\(x\\) אומר ששיעור ה-\\(y\\) של הנקודה הוא 0. כלומר, הנקודה היא \\((2, 0)\\).'
+                        }
+                    ]
+                },
+                {
+                    title: 'ג. פונקציה המשיקה לישר',
+                    questions: [
+                        {
+                            text: 'נתונה נגזרת של פונקציה: <span class="math-container">\\(f\'(x) = 2x - 6\\)</span>.<br>נתון כי הישר <span class="math-container">\\(y = -2x - 1\\)</span> משיק לגרף הפונקציה.<br>מצאו את הפונקציה \\(f(x)\\).',
+                            options: [
+                                { value: "wrong", text: "\\(f(x) = x^2 - 6x - 1\\)" },
+                                { value: "correct", text: "\\(f(x) = x^2 - 6x + 3\\)" },
+                                { value: "wrong", text: "\\(f(x) = x^2 - 6x + 5\\)" }
+                            ],
+                            hint: 'שיפוע המשיק שווה לערך הנגזרת בנקודת ההשקה! השוו את הנגזרת לשיפוע המשיק (-2) כדי למצוא את \\(x\\).'
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            id: 'quiz3',
+            title: 'בוחן 3: אינטגרל כפל פונקציה ונגזרתה והצבה',
+            formulas: `
+                <div style="margin-bottom: 15px; font-size: 1.1em;">
+                    <strong>הסבר קצר:</strong> כאשר מזהים אינטגרל של פונקציה מורכבת כפול הנגזרת הפנימית שלה, ניתן להשתמש בנוסחה ישירה או בשיטת ההצבה (הגדרת \\(u\\)). בשיטת ההצבה עבור אינטגרל מסוים, <strong>חובה</strong> לעדכן גם את גבולות האינטגרציה לערכים של \\(u\\)!
+                </div>
+                <div style="margin-bottom: 15px; font-size: 1.1em;">
+                    <span class="math-container">\\(\\int f'(x) \\cdot [f(x)]^n \\, dx = \\frac{[f(x)]^{n+1}}{n+1} + C\\)</span> <br>
+                    <small>(\\(n \\neq -1\\))</small>
+                </div>
+                <div style="font-size: 1.1em;">
+                    <strong>שיטת ההצבה:</strong><br>
+                    <span class="math-container">\\(u = f(x) \\implies du = f'(x)dx\\)</span>
+                </div>
+            `,
+            sections: [
+                {
+                    title: 'א. אינטגרל מסויים מן הצורה \\( f\'(x) \\cdot f(x) \\)',
+                    questions: [
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{\\frac{\\pi}{4}} \\sin(x)\\cos(x) \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{1}{2}\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{4}\\)" },
+                                { value: "wrong", text: "\\(0\\)" }
+                            ],
+                            hint: 'מבנה של \\( f\'(x) \\cdot f(x) \\) שבו \\( f(x) = \\sin(x) \\). האינטגרל הוא \\( \\frac{[f(x)]^2}{2} \\).'
+                        },
+                        {
+                            text: 'נתונה הפונקציה <span class="math-container">\\( f(x) = x^2 - 3x \\)</span>.<br>חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{1}^{2} f\'(x) \\cdot f(x) \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-2\\)" },
+                                { value: "correct", text: "\\(0\\)" },
+                                { value: "wrong", text: "\\(2\\)" }
+                            ],
+                            hint: 'הפונקציה הקדומה היא \\( \\frac{[f(x)]^2}{2} \\). חשבו את \\( f(2) \\) ואת \\( f(1) \\) והציבו.'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{1} 2(x^3+1)(3x^2) \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(4\\)" },
+                                { value: "correct", text: "\\(3\\)" },
+                                { value: "wrong", text: "\\(6\\)" }
+                            ],
+                            hint: 'מבנה של \\( 2 \\cdot f(x) \\cdot f\'(x) \\). האינטגרל של מבנה זה הוא פשוט \\( [f(x)]^2 \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{-1}^{1} (3x^2)(x^3) \\, dx\\)</span>',
+                            options: [
+                                { value: "correct", text: "\\(0\\)" },
+                                { value: "wrong", text: "\\(1\\)" },
+                                { value: "wrong", text: "\\(0.5\\)" }
+                            ],
+                            hint: 'שימו לב ש- \\( f(x) = x^3 \\) ונגזרתה היא \\( 3x^2 \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{2} (2x-2)(x^2-2x) \\, dx\\)</span>',
+                            options: [
+                                { value: "correct", text: "\\(0\\)" },
+                                { value: "wrong", text: "\\(4\\)" },
+                                { value: "wrong", text: "\\(2\\)" }
+                            ],
+                            hint: 'זיהוי: \\( f(x) = x^2-2x \\). האינטגרל של \\( f\'(x)f(x) \\) הוא \\( \\frac{(f(x))^2}{2} \\).'
+                        }
+                    ]
+                },
+                {
+                    title: 'ב. אינטגרל מסויים מן הצורה \\( f\'(x) \\cdot [f(x)]^n \\) כאשר \\( n > 0 \\)',
+                    questions: [
+                        {
+                            text: 'נתונה הפונקציה <span class="math-container">\\( f(x) = \\tan(x) \\)</span>.<br>חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{\\frac{\\pi}{4}} f\'(x) \\cdot (f(x))^2 \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(1\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{3}\\)" },
+                                { value: "wrong", text: "\\(\\frac{1}{4}\\)" }
+                            ],
+                            hint: 'הפונקציה הקדומה של \\( f\'(x) \\cdot (f(x))^n \\) היא \\( \\frac{(f(x))^{n+1}}{n+1} \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{-1}^{0} 4x(2x^2+1)^3 \\, dx\\)</span>',
+                            options: [
+                                { value: "correct", text: "\\(-20\\)" },
+                                { value: "wrong", text: "\\(20\\)" },
+                                { value: "wrong", text: "\\(-80\\)" }
+                            ],
+                            hint: 'זיהוי תבנית: \\( f(x) = 2x^2+1 \\), והנגזרת שלה היא \\( 4x \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{\\frac{\\pi}{2}} \\frac{\\cos(x)\\sin^3(x)}{2} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{1}{4}\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{8}\\)" },
+                                { value: "wrong", text: "\\(-\\frac{1}{8}\\)" }
+                            ],
+                            hint: 'ניתן לכתוב כ- \\( \\frac{1}{2} \\int \\cos(x)\\sin^3(x) dx \\).'
+                        },
+                        {
+                            text: 'נתונה פונקציה \\( f(x) \\) המקיימת \\( f(1)=2 \\) ו- \\( f(2)=3 \\).<br>חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_1^2 f\'(x)(f(x))^2 \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{27}{3}\\)" },
+                                { value: "correct", text: "\\(\\frac{19}{3}\\)" },
+                                { value: "wrong", text: "\\(19\\)" }
+                            ],
+                            hint: 'הפונקציה הקדומה היא \\( \\frac{(f(x))^3}{3} \\). הציבו את הערכים הנתונים.'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_0^1 (2x-2)(x^2-2x+3)^2 \\, dx\\)</span>',
+                            options: [
+                                { value: "correct", text: "\\(-\\frac{19}{3}\\)" },
+                                { value: "wrong", text: "\\(\\frac{19}{3}\\)" },
+                                { value: "wrong", text: "\\(\\frac{8}{3}\\)" }
+                            ],
+                            hint: 'מצאו את \\( f(x) \\). חשבו את ערכה בגבול העליון ובגבול התחתון והציבו בתוצאת האינטגרל.'
+                        }
+                    ]
+                },
+                {
+                    title: 'ג. אינטגרל מסויים מן הצורה מנה עם חזקה במכנה',
+                    questions: [
+                        {
+                            text: 'נתונה הפונקציה <span class="math-container">\\( f(x) = x^2+2 \\)</span>.<br>חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{1} \\frac{f\'(x)}{(f(x))^3} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-\\frac{5}{72}\\)" },
+                                { value: "correct", text: "\\(\\frac{5}{72}\\)" },
+                                { value: "wrong", text: "\\(\\frac{1}{18}\\)" }
+                            ],
+                            hint: 'העלו למונה כחזקה שלילית (\\( -3 \\)), והשתמשו בכלל: \\( \\frac{(f(x))^{n+1}}{n+1} \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{1} \\frac{2x+1}{(x^2+x+1)^3} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{5}{9}\\)" },
+                                { value: "correct", text: "\\(\\frac{4}{9}\\)" },
+                                { value: "wrong", text: "\\(-\\frac{4}{9}\\)" }
+                            ],
+                            hint: 'הפכו את השבר לכפל בחזקה שלילית: \\( (2x+1)(x^2+x+1)^{-3} \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_{0}^{\\frac{\\pi}{3}} \\frac{\\sin(x)}{\\cos^4(x)} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{8}{3}\\)" },
+                                { value: "correct", text: "\\(\\frac{7}{3}\\)" },
+                                { value: "wrong", text: "\\(-\\frac{7}{3}\\)" }
+                            ],
+                            hint: 'הביטוי שקול ל- \\( \\sin(x) \\cdot (\\cos(x))^{-4} \\). שימו לב שהנגזרת של \\( \\cos(x) \\) היא \\( -\\sin(x) \\), חסר לכם סימן מינוס!'
+                        },
+                        {
+                            text: 'נתונה פונקציה \\( f(x) \\) המקיימת \\( f(0)=1 \\) ו- \\( f(1)=2 \\).<br>חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_0^1 \\frac{f\'(x)}{(f(x))^2} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-\\frac{1}{2}\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{2}\\)" },
+                                { value: "wrong", text: "\\(1\\)" }
+                            ],
+                            hint: 'הביטוי שקול ל- \\( f\'(x)(f(x))^{-2} \\). הפונקציה הקדומה היא \\( -\\frac{1}{f(x)} \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים: <br><br><span class="math-container">\\(\\int_1^2 \\frac{2x}{(x^2+1)^2} \\, dx\\)</span>',
+                            options: [
+                                { value: "correct", text: "\\(\\frac{3}{10}\\)" },
+                                { value: "wrong", text: "\\(\\frac{1}{10}\\)" },
+                                { value: "wrong", text: "\\(-\\frac{3}{10}\\)" }
+                            ],
+                            hint: 'הפונקציה במכנה היא \\( f(x) = x^2+1 \\). העלו אותה למונה עם חזקה שלילית \\( -2 \\).'
+                        }
+                    ]
+                },
+                {
+                    title: 'ד. פתרון בעזרת שיטת ההצבה',
+                    questions: [
+                        {
+                            text: 'חשבו את האינטגרל המסויים בעזרת שיטת ההצבה: <br><br><span class="math-container">\\(\\int_{1}^{3} \\frac{x}{(x^2+1)^2} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(-\\frac{1}{5}\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{5}\\)" },
+                                { value: "wrong", text: "\\(\\frac{2}{5}\\)" }
+                            ],
+                            hint: 'נסו להציב \\( u = x^2+1 \\). חשבו את \\( du \\), ואל תשכחו להחליף גם את גבולות האינטגרציה!'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים בעזרת שיטת ההצבה: <br><br><span class="math-container">\\(\\int_{0}^{\\frac{\\pi}{2}} \\sin^3(x)\\cos(x) \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{1}{2}\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{4}\\)" },
+                                { value: "wrong", text: "\\(\\frac{1}{3}\\)" }
+                            ],
+                            hint: 'הציבו \\( u = \\sin(x) \\). חשבו מה יהיו גבולות האינטגרציה החדשים.'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים בעזרת שיטת ההצבה: <br><br><span class="math-container">\\(\\int_{0}^{1} x^2(x^3-1)^4 \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{1}{5}\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{15}\\)" },
+                                { value: "wrong", text: "\\(-\\frac{1}{15}\\)" }
+                            ],
+                            hint: 'הציבו \\( u = x^3 - 1 \\).'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים בעזרת שיטת ההצבה: <br><br><span class="math-container">\\(\\int_{0}^{1} \\frac{3x^2}{(x^3+2)^2} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(\\frac{1}{3}\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{6}\\)" },
+                                { value: "wrong", text: "\\(\\frac{5}{6}\\)" }
+                            ],
+                            hint: 'הציבו \\( u = x^3+2 \\), מצאו את \\( du \\), ועדכנו את הגבולות.'
+                        },
+                        {
+                            text: 'חשבו את האינטגרל המסויים בעזרת שיטת ההצבה: <br><br><span class="math-container">\\(\\int_0^{\\frac{\\pi}{4}} \\frac{\\sin(x)}{\\cos^3(x)} \\, dx\\)</span>',
+                            options: [
+                                { value: "wrong", text: "\\(1\\)" },
+                                { value: "correct", text: "\\(\\frac{1}{2}\\)" },
+                                { value: "wrong", text: "\\(-\\frac{1}{2}\\)" }
+                            ],
+                            hint: 'הציבו \\( u = \\cos(x) \\). שימו לב ש- \\( du = -\\sin(x)dx \\) (אל תשכחו את המינוס).'
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            id: 'quiz4',
+            title: 'בוחן 4: אינטגרל הזזות, טרנספורמציות ומציאת פרמטרים',
+            formulas: `
+                <div style="margin-bottom: 15px; font-size: 1.1em;">
+                    <strong>תזכורת:</strong>
+                    <ul style="text-align: right; direction: rtl; margin-top: 5px;">
+                        <li><strong>הזזה אנכית:</strong> מוספת או מחסרת שטח של מלבן: \\( \\int_a^b (f(x) \\pm c)dx = \\int_a^b f(x)dx \\pm c(b-a) \\)</li>
+                        <li><strong>הזזה אופקית:</strong> השטח נשמר <strong>רק</strong> אם גבולות האינטגרציה זזים באותו כיוון ובאותה מידה כמו הפונקציה.</li>
+                        <li><strong>זוגיות:</strong> בפונקציה אי-זוגית אינטגרל מ-\\(-a\\) עד \\(a\\) הוא 0. בזוגית, הוא פעמיים האינטגרל מ-\\(0\\) עד \\(a\\).</li>
+                        <li><strong>הצרחת גבולות:</strong> החלפת גבול עליון ותחתון הופכת את סימן התוצאה למינוס.</li>
+                    </ul>
+                </div>
+            `,
+            sections: [
+                {
+                    title: 'a. הזזות אנכיות',
+                    questions: [
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{5} f(x)dx = 20\\)</span>. חשבו את <span class="math-container">\\(\\int_{0}^{5} (f(x) + 3)dx\\)</span>.', options: [{ value: "correct", text: "\\(35\\)" }, { value: "wrong", text: "\\(23\\)" }, { value: "wrong", text: "\\(15\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'האינטגרל של סכום שווה לסכום האינטגרלים. חשבו את האינטגרל של הקבוע 3 בקטע שבין 0 ל-5 (שטח מלבן באורך 5 וגובה 3).' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{-2}^{2} f(x)dx = 8\\)</span>. חשבו את <span class="math-container">\\(\\int_{-2}^{2} (f(x) - 4)dx\\)</span>.', options: [{ value: "correct", text: "\\(-8\\)" }, { value: "wrong", text: "\\(4\\)" }, { value: "wrong", text: "\\(0\\)" }, { value: "wrong", text: "\\(24\\)" }], hint: 'אורך הקטע הוא 4. יש להפחית מהאינטגרל המקורי את השטח של המלבן שגובהו 4 ואורכו 4.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{1}^{4} f(x)dx = 10\\)</span> וכן <span class="math-container">\\(\\int_{1}^{4} (f(x) + k)dx = 22\\)</span>. מצאו את \\(k\\).', options: [{ value: "correct", text: "\\(4\\)" }, { value: "wrong", text: "\\(12\\)" }, { value: "wrong", text: "\\(3\\)" }, { value: "wrong", text: "\\(8\\)" }], hint: 'ההפרש בין האינטגרלים הוא האינטגרל של \\(k\\) בקטע שאורכו 3. פתרו את המשוואה: 10 פלוס 3k שווה ל-22.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{2}^{6} f(x)dx = 15\\)</span>. האם ניתן לחשב את <span class="math-container">\\(\\int_{2}^{7} (f(x) + 1)dx\\)</span>?', options: [{ value: "correct", text: "לא ניתן לדעת" }, { value: "wrong", text: "\\(20\\)" }, { value: "wrong", text: "\\(16\\)" }, { value: "wrong", text: "\\(15\\)" }], hint: 'שימו לב לגבולות האינטגרציה החדשים. האם נתון לנו מידע על הפונקציה בקטע שבין 6 ל-7?' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{2} f(x)dx = 6\\)</span> וכן <span class="math-container">\\(\\int_{0}^{2} (f(x) - p)dx = 0\\)</span>. מצאו את \\(p\\).', options: [{ value: "correct", text: "\\(3\\)" }, { value: "wrong", text: "\\(6\\)" }, { value: "wrong", text: "\\(2\\)" }, { value: "wrong", text: "\\(-3\\)" }], hint: 'האינטגרל של \\(p\\) בקטע באורך 2 מקזז בדיוק את הערך 6. לכן \\(2p = 6\\).' }
+                    ]
+                },
+                {
+                    title: 'b. הזזות אופקיות',
+                    questions: [
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{1}^{8} f(x)dx = 30\\)</span>. חשבו את <span class="math-container">\\(\\int_{3}^{10} f(x-2)dx\\)</span>.', options: [{ value: "correct", text: "\\(30\\)" }, { value: "wrong", text: "\\(28\\)" }, { value: "wrong", text: "\\(32\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'הפונקציה הוזזה ימינה ב-2 יחידות, וגם גבולות האינטגרציה זזו ימינה בדיוק ב-2 יחידות. לכן השטח זהה.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{-3}^{1} f(x)dx = 12\\)</span>. חשבו את <span class="math-container">\\(\\int_{-4}^{0} f(x+1)dx\\)</span>.', options: [{ value: "correct", text: "\\(12\\)" }, { value: "wrong", text: "\\(11\\)" }, { value: "wrong", text: "\\(13\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'הפונקציה הוזזה שמאלה ביחידה אחת וכך גם שני הגבולות. השטח נשמר.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{4} f(x)dx = 10\\)</span>. מצאו את הפרמטר \\(k\\) אם נתון ש- <span class="math-container">\\(\\int_{k}^{k+4} f(x-5)dx = 10\\)</span>.', options: [{ value: "correct", text: "\\(5\\)" }, { value: "wrong", text: "\\(-5\\)" }, { value: "wrong", text: "\\(4\\)" }, { value: "wrong", text: "\\(0\\)" }], hint: 'כדי שהשטח יישמר (10), גבולות האינטגרציה צריכים לזוז ימינה באותה מידה שהפונקציה זזה. הפונקציה זזה 5 יחידות ימינה.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{1}^{5} f(x)dx = 14\\)</span>. האם ניתן לחשב את <span class="math-container">\\(\\int_{1}^{5} f(x-2)dx\\)</span>?', options: [{ value: "correct", text: "לא ניתן לדעת" }, { value: "wrong", text: "\\(14\\)" }, { value: "wrong", text: "\\(12\\)" }, { value: "wrong", text: "\\(16\\)" }], hint: 'הפונקציה הוזזה אופקית, אך גבולות האינטגרציה נשארו במקום. ללא מידע על הפונקציה באזורים אחרים, לא ניתן לחשב.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{2}^{6} f(x)dx = 8\\)</span>. מצאו את \\(m\\) אם <span class="math-container">\\(\\int_{m}^{m+4} f(x+3)dx = 8\\)</span>.', options: [{ value: "correct", text: "\\(-1\\)" }, { value: "wrong", text: "\\(5\\)" }, { value: "wrong", text: "\\(3\\)" }, { value: "wrong", text: "\\(1\\)" }], hint: 'הפונקציה זזה 3 יחידות שמאלה (x+3). כדי לשמור על השטח, הגבולות צריכים לזוז 3 יחידות שמאלה. הגבול התחתון המקורי היה 2.' }
+                    ]
+                },
+                {
+                    title: 'c. כפל בקבוע (מתיחה אנכית)',
+                    questions: [
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{2}^{5} f(x)dx = 7\\)</span>. חשבו את <span class="math-container">\\(\\int_{2}^{5} 4f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(28\\)" }, { value: "wrong", text: "\\(11\\)" }, { value: "wrong", text: "\\(7\\)" }, { value: "wrong", text: "\\(1.75\\)" }], hint: 'ניתן להוציא קבוע כפל אל מחוץ לאינטגרל ולהכפיל את התוצאה.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{-1}^{3} f(x)dx = -10\\)</span>. חשבו את <span class="math-container">\\(\\int_{-1}^{3} -0.5f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(5\\)" }, { value: "wrong", text: "\\(-5\\)" }, { value: "wrong", text: "\\(20\\)" }, { value: "wrong", text: "\\(-20\\)" }], hint: 'הוציאו את הקבוע -0.5 מחוץ לאינטגרל והכפילו אותו בערך הנתון (-10).' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{2} f(x)dx = 6\\)</span> וכן <span class="math-container">\\(\\int_{0}^{2} m \\cdot f(x)dx = -18\\)</span>. מצאו את הפרמטר \\(m\\).', options: [{ value: "correct", text: "\\(-3\\)" }, { value: "wrong", text: "\\(3\\)" }, { value: "wrong", text: "\\(-12\\)" }, { value: "wrong", text: "\\(12\\)" }], hint: 'משוואה פשוטה: \\(m \\cdot 6 = -18\\).' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{1}^{4} 3f(x)dx = 21\\)</span>. חשבו את <span class="math-container">\\(\\int_{1}^{4} f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(7\\)" }, { value: "wrong", text: "\\(21\\)" }, { value: "wrong", text: "\\(63\\)" }, { value: "wrong", text: "\\(18\\)" }], hint: 'חלקו את שני אגפי המשוואה הנתונה ב-3 כדי לבודד את האינטגרל המבוקש.' }
+                    ]
+                },
+                {
+                    title: 'd. + e. שיקוף ציר X והצרחת גבולות',
+                    questions: [
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{1}^{3} f(x)dx = 5\\)</span>. חשבו את <span class="math-container">\\(\\int_{1}^{3} -f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(-5\\)" }, { value: "wrong", text: "\\(5\\)" }, { value: "wrong", text: "\\(0\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'שיקוף הפונקציה סביב ציר X (כפל במינוס) הופך את סימן תוצאת האינטגרל.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{2}^{6} f(x)dx = 10\\)</span>. חשבו את <span class="math-container">\\(\\int_{6}^{2} f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(-10\\)" }, { value: "wrong", text: "\\(10\\)" }, { value: "wrong", text: "\\(0\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'כאשר מחליפים בין הגבול העליון לתחתון (הצרחה), תוצאת האינטגרל מוכפלת במינוס 1.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{5} f(x)dx = 8\\)</span>. חשבו את <span class="math-container">\\(\\int_{5}^{0} -f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(8\\)" }, { value: "wrong", text: "\\(-8\\)" }, { value: "wrong", text: "\\(0\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'יש כאן שתי פעולות שמכפילות במינוס: גם שיקוף ציר X וגם הצרחת גבולות. מינוס כפול מינוס נותן פלוס.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{2}^{4} f(x)dx = a\\)</span>. חשבו את <span class="math-container">\\(\\int_{4}^{2} 2f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(-2a\\)" }, { value: "wrong", text: "\\(2a\\)" }, { value: "wrong", text: "\\(-a\\)" }, { value: "wrong", text: "\\(a\\)" }], hint: 'הצרחת גבולות מוסיפה מינוס, וכפל בקבוע מכפיל ב-2. התוצאה היא הכפלה במינוס 2.' }
+                    ]
+                },
+                {
+                    title: 'f. אינטגרל של פונקציות זוגיות ואי-זוגיות',
+                    questions: [
+                        { text: 'נתונה פונקציה <strong>אי-זוגית</strong> \\(f(x)\\). ידוע כי <span class="math-container">\\(\\int_{0}^{4} f(x)dx = 7\\)</span>. חשבו את <span class="math-container">\\(\\int_{-4}^{4} f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(0\\)" }, { value: "wrong", text: "\\(14\\)" }, { value: "wrong", text: "\\(7\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'בפונקציה אי-זוגית, השטחים משני צידי ציר ה-Y הופכיים בסימנם ומבטלים זה את זה כאשר הגבולות סימטריים.' },
+                        { text: 'נתונה פונקציה <strong>זוגית</strong> \\(f(x)\\). ידוע כי <span class="math-container">\\(\\int_{0}^{3} f(x)dx = 5\\)</span>. חשבו את <span class="math-container">\\(\\int_{-3}^{3} f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(10\\)" }, { value: "wrong", text: "\\(0\\)" }, { value: "wrong", text: "\\(5\\)" }, { value: "wrong", text: "\\(-5\\)" }], hint: 'בפונקציה זוגית, יש סימטריה. השטח מימין לציר ה-Y זהה לשטח משמאל. לכן כופלים פי 2.' },
+                        { text: 'נתונה פונקציה <strong>אי-זוגית</strong> \\(f(x)\\). חשבו את <span class="math-container">\\(\\int_{-2}^{2} (f(x) + 4)dx\\)</span>.', options: [{ value: "correct", text: "\\(16\\)" }, { value: "wrong", text: "\\(0\\)" }, { value: "wrong", text: "\\(8\\)" }, { value: "wrong", text: "\\(4\\)" }], hint: 'פצלו את האינטגרל: האינטגרל של \\(f(x)\\) בגבולות סימטריים הוא 0. נותר רק לחשב את האינטגרל של הקבוע 4 בקטע שבין -2 ל-2 (אורך הקטע הוא 4).' },
+                        { text: 'נתונה פונקציה <strong>זוגית</strong> \\(f(x)\\). ידוע כי <span class="math-container">\\(\\int_{-5}^{5} f(x)dx = 20\\)</span>. חשבו את <span class="math-container">\\(\\int_{0}^{5} f(x)dx\\)</span>.', options: [{ value: "correct", text: "\\(10\\)" }, { value: "wrong", text: "\\(20\\)" }, { value: "wrong", text: "\\(0\\)" }, { value: "wrong", text: "\\(40\\)" }], hint: 'השטח הכולל מורכב משני חצאים שווים. לכן, מ-0 עד 5 השטח הוא חצי מהשטח הכולל.' },
+                        { text: 'נתונה פונקציה <strong>אי-זוגית</strong> \\(f(x)\\). מצאו את \\(k\\) אם <span class="math-container">\\(\\int_{-a}^{a} f(x)dx = k\\)</span> (כאשר \\(a > 0\\)).', options: [{ value: "correct", text: "\\(0\\)" }, { value: "wrong", text: "\\(2a\\)" }, { value: "wrong", text: "\\(a\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'הגדרה: בכל גבול סימטרי סביב הראשית, אינטגרל של פונקציה אי-זוגית מתאפס לחלוטין.' }
+                    ]
+                },
+                {
+                    title: 'g. שילובים של הסעיפים הקודמים',
+                    questions: [
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{1}^{4} f(x)dx = 6\\)</span>. חשבו את <span class="math-container">\\(\\int_{1}^{4} (2f(x) - 3)dx\\)</span>.', options: [{ value: "correct", text: "\\(3\\)" }, { value: "wrong", text: "\\(9\\)" }, { value: "wrong", text: "\\(12\\)" }, { value: "wrong", text: "\\(0\\)" }], hint: 'הכפילו את הערך הנתון ב-2 (מתיחה), והפחיתו ממנו את שטח המלבן של 3 (גובה 3 כפול אורך קטע 3).' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{5} f(x)dx = 10\\)</span>. חשבו את <span class="math-container">\\(\\int_{2}^{7} (3f(x-2) + 1)dx\\)</span>.', options: [{ value: "correct", text: "\\(35\\)" }, { value: "wrong", text: "\\(31\\)" }, { value: "wrong", text: "\\(30\\)" }, { value: "wrong", text: "לא ניתן לדעת" }], hint: 'ההזזה האופקית זהה לזו של הגבולות (2 ימינה), לכן ערך האינטגרל של f נשמר. כעת הכפילו ב-3, והוסיפו את האינטגרל של הקבוע 1 (אורך הקטע הוא 5).' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{5} f(x)dx = 10\\)</span>. האם ניתן לחשב את <span class="math-container">\\(\\int_{1}^{6} (3f(x-2) + 1)dx\\)</span>?', options: [{ value: "correct", text: "לא ניתן לדעת" }, { value: "wrong", text: "\\(35\\)" }, { value: "wrong", text: "\\(36\\)" }, { value: "wrong", text: "\\(16\\)" }], hint: 'שימו לב: הפונקציה הוזזה 2 יחידות ימינה, אך הגבולות הוזזו רק יחידה אחת ימינה (מ-0 ו-5 ל-1 ו-6). השטח לא נשמר ולא ניתן לחשב.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{3}^{6} f(x)dx = 8\\)</span>. חשבו את <span class="math-container">\\(\\int_{4}^{7} (0.5f(x-1) + 4)dx\\)</span>.', options: [{ value: "correct", text: "\\(16\\)" }, { value: "wrong", text: "\\(8\\)" }, { value: "wrong", text: "\\(12\\)" }, { value: "wrong", text: "\\(4\\)" }], hint: 'הפונקציה והגבולות זזו יחידה אחת ימינה. כפלו את הערך המקורי (8) בחצי, והוסיפו את שטח המלבן של 4 באורך קטע 3 (7 פחות 4).' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{1}^{3} f(x)dx = 5\\)</span>. מצאו את \\(a\\) אם נתון: <span class="math-container">\\(\\int_{1}^{3} (a \\cdot f(x) + 2)dx = 14\\)</span>.', options: [{ value: "correct", text: "\\(2\\)" }, { value: "wrong", text: "\\(4\\)" }, { value: "wrong", text: "\\(3\\)" }, { value: "wrong", text: "\\(1\\)" }], hint: 'בנו משוואה: a כפול 5, פלוס האינטגרל של הקבוע 2 (שהוא 2 כפול אורך הקטע 2 = 4) שווה ל-14.' },
+                        { text: 'ידוע כי <span class="math-container">\\(\\int_{0}^{2} f(x)dx = 3\\)</span>. מצאו את \\(k\\) אם נתון: <span class="math-container">\\(\\int_{3}^{5} (2f(x-3) + k)dx = 16\\)</span>.', options: [{ value: "correct", text: "\\(5\\)" }, { value: "wrong", text: "\\(10\\)" }, { value: "wrong", text: "\\(2\\)" }, { value: "wrong", text: "\\(8\\)" }], hint: 'הפונקציה והגבולות זזו ב-3 יחידות ימינה. האינטגרל החדש של f הוא 3 כפול 2 = 6. לכן, 6 ועוד 2k (כי אורך הקטע הוא 2) שווה 16.' },
+                        { text: 'נתונה פונקציה <strong>זוגית</strong> \\(f(x)\\). ידוע כי <span class="math-container">\\(\\int_{0}^{2} f(x)dx = 4\\)</span>. מצאו את \\(c\\) אם <span class="math-container">\\(\\int_{-2}^{2} (c \\cdot f(x) - 1)dx = 12\\)</span>.', options: [{ value: "correct", text: "\\(2\\)" }, { value: "wrong", text: "\\(4\\)" }, { value: "wrong", text: "\\(1\\)" }, { value: "wrong", text: "\\(3\\)" }], hint: 'מכיוון ש-f זוגית, האינטגרל ממינוס 2 עד 2 הוא פעמיים מ-0 עד 2 (כלומר 8). האינטגרל של 1- בקטע זה הוא 4-. לכן המשוואה היא: 8c פחות 4 שווה ל-12.' }
+                    ]
+                }
+            ]
+        }
+    ];
+
+    // ==========================================
+    // PRESENTATION LAYER (UI Rendering)
+    // ==========================================
+    
+    // יצירת תפריט הניווט
+    function initNav() {
+        const navContainer = document.getElementById('nav-container');
+        let navHtml = '';
+        quizzesData.forEach((quiz, index) => {
+            navHtml += `<button id="nav-btn-${index}" onclick="renderQuiz(${index})">${quiz.title.split(':')[0]}</button>`;
+        });
+        navContainer.innerHTML = navHtml;
+    }
+
+    // רינדור בוחן ספציפי
+    function renderQuiz(index) {
+        // עדכון מצב כפתורי הניווט
+        quizzesData.forEach((_, i) => {
+            const btn = document.getElementById(`nav-btn-${i}`);
+            if(i === index) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+
+        const quiz = quizzesData[index];
+        let html = `<div class="center-wrapper"><h1 class="quiz-header">${quiz.title}</h1></div>`;
+
+        // אם יש בלוק נוסחאות והסברים, הוסף אותו
+        if (quiz.formulas) {
+            html += `<div class="formula-box"><h3>תזכורת והסבר:</h3>${quiz.formulas}</div>`;
+        }
+
+        // לולאה על הסעיפים והשאלות
+        quiz.sections.forEach((sec, sIdx) => {
+            html += `<div class="section-box"><h2>${sec.title}</h2>`;
+            sec.questions.forEach((q, qIdx) => {
+                const qId = `q_${index}_${sIdx}_${qIdx}`;
+                html += `
+                <div class="question-box">
+                    <div class="question-text">${qIdx + 1}. ${q.text}</div>
+                    <div class="options">`;
+                
+                // הוספת האופציות
+                q.options.forEach((opt, oIdx) => {
+                    html += `
+                        <label>
+                            <input type="radio" name="${qId}" value="${opt.value}"> 
+                            <span class="math-container">${opt.text}</span>
+                        </label>`;
+                });
+
+                html += `
+                    </div>
+                    <div class="actions">
+                        <button class="action-btn" onclick="checkAnswer('${qId}')">בדוק תשובה</button>
+                        <button class="action-btn hint-btn" onclick="toggleHint('hint_${qId}')">רמז</button>
+                    </div>
+                    <div id="hint_${qId}" class="hint-box">רמז: ${q.hint}</div>
+                    <div id="feedback_${qId}" class="feedback"></div>
+                </div>`;
+            });
+            html += `</div>`;
+        });
+
+        // עדכון ה-DOM
+        document.getElementById('quiz-container').innerHTML = html;
+        window.scrollTo(0, 0); // גלילה למעלה בעת החלפת בוחן
+
+        // בקשה מ-MathJax לרנדר מחדש את המתמטיקה שנוספה ל-DOM
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
+    }
+
+    // בדיקת תשובה
+    function checkAnswer(questionId) {
+        const selected = document.querySelector(`input[name="${questionId}"]:checked`);
+        const feedbackEl = document.getElementById(`feedback_${questionId}`);
+        
+        if (!selected) {
+            feedbackEl.textContent = "אנא בחרו תשובה לפני הבדיקה.";
+            feedbackEl.className = "feedback incorrect";
+            feedbackEl.style.display = "block";
+            return;
+        }
+
+        if (selected.value === "correct") {
+            feedbackEl.textContent = "כל הכבוד! תשובה נכונה.";
+            feedbackEl.className = "feedback correct";
+        } else {
+            feedbackEl.textContent = "תשובה שגויה. נסו שוב או היעזרו ברמז.";
+            feedbackEl.className = "feedback incorrect";
+        }
+        feedbackEl.style.display = "block";
+    }
+
+    // הצגה והסתרה של רמז
+    function toggleHint(hintId) {
+        const hintEl = document.getElementById(hintId);
+        if (hintEl.style.display === "none" || hintEl.style.display === "") {
+            hintEl.style.display = "block";
+        } else {
+            hintEl.style.display = "none";
+        }
+    }
+
+    // אתחול האפליקציה בטעינה הראשונה (הצגת תפריט ובוחן ראשון)
+    window.onload = () => {
+        initNav();
+        renderQuiz(0);
+    };
+
+</script>
+
+</body>
+</html>
