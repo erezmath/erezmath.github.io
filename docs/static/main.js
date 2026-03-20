@@ -249,7 +249,7 @@ function copyLink(buttonElement, lessonId) {
 
 function shareWhatsApp(lessonId, lessonTitle) {
   const linkToShare = getBaseUrl() + '#' + lessonId;
-  const message = 'בדוק את השיעור הזה ממתמטיקה: ' + lessonTitle + '\n\n' + linkToShare;
+  const message = 'שיעור מתמטיקה: ' + lessonTitle + '\n\n' + linkToShare;
   window.open('https://wa.me/?text=' + encodeURIComponent(message), '_blank');
 }
 
@@ -512,7 +512,14 @@ function injectShareFooter(lessonElement) {
   // Lazy Load Check: If footer already exists, exit
   if (content.querySelector('.share-footer')) return;
 
-  const lessonId = lessonElement.id || 'unknown';
+  let lessonId = lessonElement.id || 'unknown';
+  
+  // if submit-soon lesson, remove it, so the shared link is the original one, and not the temporary submit-soon.
+  if (lessonId.endsWith(SUBMIT_SOON_ID_SUFFIX)) {
+    lessonId = lessonId.replace(SUBMIT_SOON_ID_SUFFIX, '');
+  }
+  // -------------------------------------------------------------
+
   const lessonTitleEl = lessonElement.querySelector('.lesson-title');
   const lessonTitle = lessonTitleEl ? lessonTitleEl.textContent.trim() : '';
 
