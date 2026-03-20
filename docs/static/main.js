@@ -253,25 +253,6 @@ function shareWhatsApp(lessonId, lessonTitle) {
   window.open('https://wa.me/?text=' + encodeURIComponent(message), '_blank');
 }
 
-function setupShareFooter() {
-  document.addEventListener('click', function(e) {
-    const copyBtn = e.target.closest('.share-btn.copy');
-    if (copyBtn) {
-      e.preventDefault();
-      const lessonId = copyBtn.getAttribute('data-lesson-id');
-      if (lessonId) copyLink(copyBtn, lessonId);
-      return;
-    }
-    const waBtn = e.target.closest('.share-btn.whatsapp');
-    if (waBtn) {
-      e.preventDefault();
-      const lessonId = waBtn.getAttribute('data-lesson-id');
-      const lessonTitle = waBtn.getAttribute('data-lesson-title') || '';
-      if (lessonId) shareWhatsApp(lessonId, lessonTitle);
-    }
-  });
-}
-
 function setupLessonFolders() {
 document.querySelectorAll('.lesson-folder .folder-row').forEach(row => {
   row.addEventListener('click', function() {
@@ -297,7 +278,6 @@ document.querySelectorAll('.lesson-folder .folder-row').forEach(row => {
 
 // Enhanced hash navigation for lesson IDs
 function scrollToHashTarget() {
-  
   if (window.location.hash) {
     const el = document.getElementById(window.location.hash.substring(1));
     if (el) {
@@ -316,12 +296,39 @@ function scrollToHashTarget() {
         top: targetScroll,
         behavior: 'smooth'
       });
+      
+      // --- FIX: Expand the entire row instead of just the single element ---
+      // First, collapse any currently expanded lessons (clean slate)
+      document.querySelectorAll('.lesson').forEach(lesson => lesson.classList.remove('expanded'));
+
+      const accordion = el.closest('.accordion');
+      if (accordion) {
+        const lessons = Array.from(accordion.querySelectorAll('.lesson'));
+        const idx = lessons.indexOf(el);
+        const columns = window.matchMedia('(min-width: 700px)').matches ? 2 : 1;
+        
+        if (columns === 2 && idx !== -1) {
+          // Find the start of the 2-column row
+          const rowStart = idx % 2 === 0 ? idx : idx - 1;
+          // Expand both lessons in this row
+          [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
+            if (lesson) lesson.classList.add('expanded');
+          });
+        } else {
+          // Mobile view or single item: expand only the target
+          el.classList.add('expanded');
+        }
+      } else {
+        // Fallback if lesson is not inside an accordion
+        el.classList.add('expanded');
+      }
+      // -------------------------------------------------------------------
+
       // Pop effect: add a class that mimics .lesson:hover
-      el.classList.add('expanded');
       el.classList.add('lesson-pop');
       setTimeout(() => {
         el.classList.remove('lesson-pop');
-      }, 5000); // Duration in ms for the pop effect, remember that it takes time to reach the target
+      }, 5000); // Duration in ms for the pop effect
     }
   }
 }
@@ -494,7 +501,7 @@ function is_date_today_or_future() {
 
 
 // ==========================================
-// SHARE FOOTER LAZY LOADING
+// SHARE FOOTER LAZY LOADING (MUTATION OBSERVER)
 // ==========================================
 
 const SHARE_ICONS = {
@@ -502,7 +509,7 @@ const SHARE_ICONS = {
   copy: `<svg viewBox="0 0 24 24" aria-hidden="true" width="24" height="24" fill="currentColor"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>`
 };
 
-// 1. Reusable Core Function: Creates the footer only if needed
+// Creates the footer only if needed
 function injectShareFooter(lessonElement) {
   if (!lessonElement) return;
 
@@ -518,7 +525,6 @@ function injectShareFooter(lessonElement) {
   if (lessonId.endsWith(SUBMIT_SOON_ID_SUFFIX)) {
     lessonId = lessonId.replace(SUBMIT_SOON_ID_SUFFIX, '');
   }
-  // -------------------------------------------------------------
 
   const lessonTitleEl = lessonElement.querySelector('.lesson-title');
   const lessonTitle = lessonTitleEl ? lessonTitleEl.textContent.trim() : '';
@@ -538,29 +544,45 @@ function injectShareFooter(lessonElement) {
   content.insertAdjacentHTML('beforeend', footerHTML);
 }
 
-// 2. Handle standard UI clicks
-document.addEventListener('click', function(event) {
-  const header = event.target.closest('.lesson-header');
-  if (header) {
-    const lesson = header.closest('.lesson');
-    injectShareFooter(lesson);
-  }
-});
+// Watch for lessons getting the "expanded" class
+function setupShareFooterObserver() {
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+        const target = mutation.target;
+        if (target.classList.contains('lesson') && target.classList.contains('expanded')) {
+          injectShareFooter(target);
+        }
+      }
+    });
+  });
 
-// 3. Handle URL Hashes (On page load OR when hash changes manually)
-function handleHashNavigation() {
-  if (window.location.hash) {
-    // Strip the '#' to get just "3-4". getElementById is safer for IDs starting with numbers.
-    const targetId = window.location.hash.substring(1); 
-    const targetLesson = document.getElementById(targetId);
-    
-    if (targetLesson && targetLesson.classList.contains('lesson')) {
-      injectShareFooter(targetLesson);
-    }
-  }
+  // Observe all lessons currently on the page
+  document.querySelectorAll('.lesson').forEach(lesson => {
+    observer.observe(lesson, { attributes: true });
+  });
 }
 
-// Check immediately on load
-handleHashNavigation();
-// Also listen just in case another script or link changes the hash on the fly
-window.addEventListener('hashchange', handleHashNavigation);
+// Attach event listeners and start observer
+function setupShareFooter() {
+  // Global listener for share button clicks
+  document.addEventListener('click', function(e) {
+    const copyBtn = e.target.closest('.share-btn.copy');
+    if (copyBtn) {
+      e.preventDefault();
+      const lessonId = copyBtn.getAttribute('data-lesson-id');
+      if (lessonId) copyLink(copyBtn, lessonId);
+      return;
+    }
+    const waBtn = e.target.closest('.share-btn.whatsapp');
+    if (waBtn) {
+      e.preventDefault();
+      const lessonId = waBtn.getAttribute('data-lesson-id');
+      const lessonTitle = waBtn.getAttribute('data-lesson-title') || '';
+      if (lessonId) shareWhatsApp(lessonId, lessonTitle);
+    }
+  });
+
+  // Initialize the MutationObserver
+  setupShareFooterObserver();
+}
