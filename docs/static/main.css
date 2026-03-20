@@ -511,6 +511,10 @@ body {
     box-sizing: border-box;
     color: #111;
     scroll-margin-top: 128px;
+    /* Flexbox changes to align sizes and footers */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   .lesson-pop {
     box-shadow: 0 6px 20px rgba(1,186,239,0.13);
@@ -590,6 +594,8 @@ body {
     background: #f8fafc;
     padding: 1.2rem;
     border-top: 1px solid #e5e7eb;
+    /* Allow the content to expand and fill the available vertical space */
+    flex-grow: 1;
   }
   .lesson.expanded .lesson-content {
     display: block;
@@ -600,7 +606,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 12px;
-    margin-top: 1rem;
+    /* Pushes the footer down to the bottom naturally */
+    margin-top: auto; 
     padding-top: 10px;
     border-top: 1px dashed #e0e0e0;
   }
@@ -881,4 +888,28 @@ body {
   .lesson-list li {
     margin-bottom: 6px; 
   }
+}
+
+/* --- SHARE FOOTER ALIGNMENT FIX --- */
+
+/* 1. Ensure the grid stretches both cards to exactly equal heights */
+.accordion {
+  align-items: stretch !important;
+}
+
+/* 2. Fix the card to stretch naturally (removes the buggy height: 100%) */
+.lesson {
+  height: auto !important; 
+  align-self: stretch !important;
+}
+
+/* 3. When expanded, keep it as a flex column instead of a standard block */
+.lesson.expanded .lesson-content {
+  display: flex !important; 
+  flex-direction: column;
+}
+
+/* 4. Force the footer to the absolute bottom */
+.share-footer {
+  margin-top: auto !important;
 }
