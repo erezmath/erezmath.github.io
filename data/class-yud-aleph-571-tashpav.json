@@ -1341,6 +1341,33 @@
           "lesson_json": {
             "lesson_date": "10-03-2026"
           }
+        },
+        {
+          "name": "12. שאלות חקירה הפוכות - עם קשר גרף הפונקציה נגזרת",
+          "desc": "<p>שעה אחת - שאלות חקירה \"הפוכות\" - עם קשר גרף נגזרת.</p>",
+          "id": "7-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות חקירה הפוכות בכיתה",
+              "url": "https://drive.google.com/file/d/1IEkodSOJxsggDKuu0mdTdyQuNaSdQUcp/view"
+            },
+            {
+              "type": "file",
+              "name": "2012 - קיץ מועד ב - חקירה הפוכה - שאלה 7",
+              "url": "https://drive.google.com/file/d/18Qwu1bfxu8xW4hrM4slDWRal1pFqvx3V/view"
+            },
+            {
+              "type": "file",
+              "name": "2018 - קיץ מועד ב - חקירה הפוכה - שאלה 6",
+              "url": "https://drive.google.com/file/d/1SnT_1B_FAhveENB4xgV0mXZ6GIV9zeuO/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-03-2026",
+            "due_date": "22-03-2026",
+            "due_date_display": "ראשון, 22.03.2026"
+          }
         }
       ]
     },

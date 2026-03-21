@@ -1655,6 +1655,28 @@
             "due_date": "19-02-2026",
             "due_date_display": "חמישי, 19.02.2026"
           }
+        },
+        {
+          "name": "11. חזרה למבחן מרץ - משפט הסינוסים קוסינוסים ופיצוח - שאלות מארכימדס",
+          "desc": "<p>שיעור כפול - חזרה למבחן מרץ - משפט הסינוסים, הקוסינוסים, שטח, ופיצוח.</p>",
+          "id": "5-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגילים בכיתה",
+              "url": "https://drive.google.com/file/d/1IT7MQ2x5MhVDVjf2r5gDxcFTfgmBctWd/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1xfpH36HORFQMlMfFEN7ZkUwPyRPmHi58/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-03-2026",
+            "due_date": "22-03-2026",
+            "due_date_display": "ראשון, 22.03.2026"
+          }
         }
       ]
     },
@@ -1735,6 +1757,11 @@
               "type": "file",
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1jfckp-t5YAJ_keXSn8dLLWinsdsI9ysz/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות חלקיים",
+              "url": "https://drive.google.com/file/d/10WlOOJCG9zxXZEisS6kVQLyUNdbGsSpf/view"
             }
           ],
           "lesson_json": {
@@ -1744,9 +1771,22 @@
           }
         },
         {
+          "name": "3.2. זהויות - הוכחות",
+          "desc": "<p>הוכחה רק של סינוס חיבור זוויות, לאט לאט אצרף הוכחות של היתר</p>",
+          "id": "6-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "הוכחת זהויות טריגונומטריות",
+              "url": "https://drive.google.com/file/d/1y3qyu3E1D_yOXqa4SzRtfTz1faCFLn1B/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
           "name": "3.5. תרגול רשות במשוואות טריגונומטריות - גול ואפי כהן",
           "desc": "",
-          "id": "6-4",
+          "id": "6-5",
           "content": [
             {
               "type": "file",
