@@ -574,9 +574,22 @@
           }
         },
         {
+          "name": "5.5. שאלות חזרה למבחן - ללא משיקים",
+          "desc": "",
+          "id": "3-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "אוסף שאלות במעגל - ללא משיקים או פרופורציה",
+              "url": "https://drive.google.com/file/d/1ph5I-9Hi355AvOQlnVewC66TWwxCYiS_/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
           "name": "6. מעגל - משיק למעגל מאונך לרדיוס",
           "desc": "<p>שיעור כפול.\nיש גם תרגילי רשות יותר מאתגרים אימון למבחן</p>\n<p>ש.ב נדחו קצת בגלל טראמפ</p>",
-          "id": "3-7",
+          "id": "3-8",
           "content": [
             {
               "type": "file",
@@ -608,7 +621,7 @@
         {
           "name": "7. מעגל - שני משיקים למעגל",
           "desc": "<p>שיעור כפול - שני משיקים למעגל.</p>\n<p>השבוע נלמד עוד גאומטריה - נסיים את יתר משפטי המשיקים.</p>",
-          "id": "3-8",
+          "id": "3-9",
           "content": [
             {
               "type": "file",
@@ -630,7 +643,7 @@
         {
           "name": "8. זווית בין משיק למיתר",
           "desc": "<p>שיעור כפול - זווית בין משיק למיתר.</p>\n<p>משפט מאוד שימושי - חלק מהשאלות רק פיצוח, חלק טענה נימוק.</p>",
-          "id": "3-9",
+          "id": "3-10",
           "content": [
             {
               "type": "file",
@@ -653,6 +666,19 @@
             "due_date": "21-03-2026",
             "due_date_display": "שבת, 21.03.2026"
           }
+        },
+        {
+          "name": "8.5. שאלות חזרה למבחן - עם משיקים",
+          "desc": "",
+          "id": "3-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "תרגילים",
+              "url": "https://drive.google.com/file/d/1r0AeFWAxe-R_IpjuRWF1RukW0ddFDKxN/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -1356,13 +1382,18 @@
         },
         {
           "name": "31.5. תרגול רשות בפונקצית מנה - לקראת מבחן מרץ",
-          "desc": "<p>תרגילים נוספים בחקירת פונקצית מנה.</p>\n<p>קודם כל פתרו את יתר התרגילים שנתתי לאימון.</p>\n<p>בקובץ הזה, התאמנו על תרגילי הבע באמצעות - עמודים אחרונים בקובץ.</p>\n<p>כמו כן, יש פה שלל סעיפי חשיבה.</p>",
+          "desc": "<p>תרגילים נוספים בחקירת פונקצית מנה.</p>\n<p>קודם כל פתרו את יתר התרגילים שנתתי לאימון.</p>\n<p>בקובץ הראשון, התאמנו על תרגילי הבע באמצעות - עמודים אחרונים בקובץ, כמו כן יש פה שלל סעיפי חשיבה.</p>\n<p>הקובץ השני רק עם תרגילי הבע באמצעות.</p>",
           "id": "4-34",
           "content": [
             {
               "type": "file",
               "name": "1. דף עבודה פונקצית מנה - אפי כהן",
               "url": "https://drive.google.com/file/d/1dk3t0qG4TRflOpor7AImpCmzjxRU7-Y_/view"
+            },
+            {
+              "type": "file",
+              "name": "2. דף עבודה פונקצית מנה - אני יצרתי עם AI",
+              "url": "https://drive.google.com/file/d/1YbA_LguADMriCaqxPp01gGSuKGqfeLVo/view"
             }
           ],
           "lesson_json": {}
@@ -2318,9 +2349,46 @@
           }
         },
         {
+          "name": "14. עבודת פסח",
+          "desc": "<p>הגישו בדיוק לפי ההוראות. חג שמח :)</p>",
+          "id": "7-14",
+          "content": [
+            {
+              "type": "file",
+              "name": "0. עבודת פסח - הוראות",
+              "url": "https://drive.google.com/file/d/1i9KpwWoQPQlbrpvyZOFBDKJGB8FYjFMF/view"
+            },
+            {
+              "type": "file",
+              "name": "1. חדוא",
+              "url": "https://drive.google.com/file/d/1AamHrWkl1wArsVkL7jU10EjRB092GgCK/view"
+            },
+            {
+              "type": "file",
+              "name": "2. מעגל - ללא משיקים",
+              "url": "https://drive.google.com/file/d/1cigGPr9cu0xSGD8CQmZB2FFQhGrmnIJ4/view"
+            },
+            {
+              "type": "file",
+              "name": "3. מעגל - עם משיקים",
+              "url": "https://drive.google.com/file/d/1pM-4dJi0ZXViVywhCj_9KEzbCX1e1-RH/view"
+            },
+            {
+              "type": "file",
+              "name": "4. טריגו מארכימדס",
+              "url": "https://drive.google.com/file/d/1FHP_BmaiT62MLRL4EyrKajrDtDV9ncKD/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "23-03-2026",
+            "due_date": "08-04-2026",
+            "due_date_display": "רביעי, 08.04.2026"
+          }
+        },
+        {
           "name": "14. מבחן מרץ - חקירת מנה הבע באמצעות, טריגו במישור, גאומטריה זוויות היקפיות ומשיקים",
           "desc": "",
-          "id": "7-14",
+          "id": "7-15",
           "content": [
             {
               "type": "file",
