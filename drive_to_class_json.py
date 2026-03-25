@@ -138,7 +138,7 @@ class_info = [
         'regenerate': True
     },
     {
-        'id': 8,
+        'id': 9,
         'name': 'כיתה יב 572 תשפו',
         'url_name': 'yud-bet-572-tashpav',
         #'url_name': '271',

@@ -2417,3 +2417,40 @@
 2026-03-25 11:41:32,990 [2026-03-25 11:41:32 IST] Copied images
 2026-03-25 11:41:32,991 [2026-03-25 11:41:32 IST] Copied quizes
 2026-03-25 11:41:32,991 [2026-03-25 11:41:32 IST] Site built successfully!
+2026-03-25 11:42:59,464 [2026-03-25 11:42:59 IST] Drive-to-class JSON generation started
+2026-03-25 11:42:59,465 [2026-03-25 11:42:59 IST] Regenerating data with drive_to_class_json.generate_data
+2026-03-25 11:42:59,465 [2026-03-25 11:42:59 IST] Main process started
+2026-03-25 11:42:59,467 file_cache is only supported with oauth2client<4.0.0
+2026-03-25 11:43:00,163 [2026-03-25 11:43:00 IST] Persisted 1 changes to changes_api\changes-25-03-2026_11-43-00.json
+2026-03-25 11:43:00,171 [2026-03-25 11:43:00 IST] Affected folder IDs (will refetch): 1
+2026-03-25 11:43:00,171 [2026-03-25 11:43:00 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-03-25 11:43:00,232 [2026-03-25 11:43:00 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-03-25 11:43:00,232 [2026-03-25 11:43:00 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-03-25 11:43:00,279 [2026-03-25 11:43:00 IST] Wrote data\class-yud-571-tashpa.json
+2026-03-25 11:43:00,280 [2026-03-25 11:43:00 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-03-25 11:43:00,300 [2026-03-25 11:43:00 IST] Wrote data\class-bagruyot-571.json
+2026-03-25 11:43:00,300 [2026-03-25 11:43:00 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-03-25 11:43:00,303 [2026-03-25 11:43:00 IST] Wrote data\class-bagruyot-472.json
+2026-03-25 11:43:00,303 [2026-03-25 11:43:00 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-03-25 11:43:00,308 [2026-03-25 11:43:00 IST] Wrote data\class-bagruyot-471.json
+2026-03-25 11:43:00,308 [2026-03-25 11:43:00 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-03-25 11:43:00,310 [2026-03-25 11:43:00 IST] Wrote data\class-olimpiada-matematica.json
+2026-03-25 11:43:00,310 [2026-03-25 11:43:00 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-03-25 11:43:00,359 [2026-03-25 11:43:00 IST] Wrote data\class-yud-571-tashpav.json
+2026-03-25 11:43:00,359 [2026-03-25 11:43:00 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link)
+2026-03-25 11:43:00,410 [2026-03-25 11:43:00 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-03-25 11:43:00,410 [2026-03-25 11:43:00 IST] Crawling url_name: yud-bet-572-tashpav (folder_url: https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW?usp=drive_link)
+2026-03-25 11:43:00,925 [2026-03-25 11:43:00 IST] Cached listing for folder 1OkKRF0oE1iCrilQEfFZKKf3AcQsPMWFm
+2026-03-25 11:43:01,424 [2026-03-25 11:43:01 IST] Cached listing for folder 1OkKRF0oE1iCrilQEfFZKKf3AcQsPMWFm
+2026-03-25 11:43:01,436 [2026-03-25 11:43:01 IST] Wrote data\class-yud-bet-572-tashpav.json
+2026-03-25 11:43:01,436 [2026-03-25 11:43:01 IST] All classes processed. JSON generation complete.
+2026-03-25 11:43:01,437 [2026-03-25 11:43:01 IST] Saved changes state for next run
+2026-03-25 11:43:01,437 [2026-03-25 11:43:01 IST] Data regeneration complete
+2026-03-25 11:43:01,437 [2026-03-25 11:43:01 IST] Main build process started
+2026-03-25 11:43:01,491 [2026-03-25 11:43:01 IST] Loaded 9 class JSON files
+2026-03-25 11:43:01,502 [2026-03-25 11:43:01 IST] Rendered index.html
+2026-03-25 11:43:01,535 [2026-03-25 11:43:01 IST] Rendered all class pages
+2026-03-25 11:43:01,537 [2026-03-25 11:43:01 IST] Copied static assets
+2026-03-25 11:43:01,562 [2026-03-25 11:43:01 IST] Copied images
+2026-03-25 11:43:01,563 [2026-03-25 11:43:01 IST] Copied quizes
+2026-03-25 11:43:01,563 [2026-03-25 11:43:01 IST] Site built successfully!
