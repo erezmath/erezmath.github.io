@@ -136,6 +136,16 @@ class_info = [
         'banner_url': 'images/banner4.png',
         'active': True,
         'regenerate': True
+    },
+    {
+        'id': 8,
+        'name': 'כיתה יב 572 תשפו',
+        'url_name': 'yud-bet-572-tashpav',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW?usp=drive_link',
+        'banner_url': 'images/banner8.png',
+        'active': False,
+        'regenerate': True
     }
 ]
 

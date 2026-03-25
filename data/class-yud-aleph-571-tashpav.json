@@ -2693,6 +2693,17 @@
               "type": "file",
               "name": "עבודת פסח - מבחנים ממריאן 3,4,5",
               "url": "https://drive.google.com/file/d/1La3-1IWNztKGbpi-MlKSsSrtYkK8kBF8/view"
+            },
+            {
+              "type": "folder",
+              "name": "פתרונות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "שאלה_קצרה_1_חלקי - נדרשת הוכחה אלגברית מלאה, לדוגמא.",
+                  "url": "https://drive.google.com/file/d/1v73VFcIIoTyOQnu7Pv5goAGsw7zJmtcC/view"
+                }
+              ]
             }
           ],
           "lesson_json": {

@@ -1,0 +1,102 @@
+{
+  "id": 8,
+  "name": "כיתה יב 572 תשפו",
+  "url_name": "yud-bet-572-tashpav",
+  "banner_url": "images/banner8.png",
+  "desc": "",
+  "tags": [
+    "0. בגרויות ודפי נוסחאות",
+    "1. חדוא"
+  ],
+  "topics": [
+    {
+      "name": "0. בגרויות ודפי נוסחאות",
+      "id": "0-בגרויות-ודפי-נוסחאות",
+      "lessons": [
+        {
+          "name": "1. בגרויות לפי נושאים",
+          "desc": "",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 572 אנליטית",
+              "url": "https://drive.google.com/file/d/1SRJ2vSzO9Pb655se7DFVWOZEtrC_jwqu/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 572 וקטורים",
+              "url": "https://drive.google.com/file/d/1oqTlC9V3S_X_o_t5u-wIzfR7UJpQWUZ4/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 572 מספרים מרוכבים",
+              "url": "https://drive.google.com/file/d/1RHNj7NLoPLCaPSvPNbzrB5NgBaPuUxqg/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 572 פונקציות לוגריתמיות",
+              "url": "https://drive.google.com/file/d/1EKh7YiMTatXi6nYM27bQih9nvrjXkdz_/view"
+            },
+            {
+              "type": "file",
+              "name": "ריכוז בגרויות 572 פונקציות מעריכיות",
+              "url": "https://drive.google.com/file/d/1Tf0hngHT4LaifHZQpnSqLcWPfzu4h-j5/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2. דף נוסחאות 5 יחל לבגרות",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "דף נוסחאות 5 יחל תוכנית חדשה",
+              "url": "https://drive.google.com/file/d/1KmErp3hPJsDJFSpIYMDeVJpm-D0nNfN0/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "1. חדוא",
+      "id": "1-חדוא",
+      "lessons": [
+        {
+          "name": "1. פונקציה מעריכית - מבוא וקדם אנליזה, משוואות, אי שוויונים",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור כפול",
+              "url": "https://drive.google.com/file/d/1AOhOoJ8QKrt16c0kO4h_RziuB38n3i8E/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב משוואות מעריכיות.docx",
+              "url": "https://drive.google.com/file/d/1pYIdvL75unqQy39ywh4wmr6Rb_m7hyfp/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב קדם אנליזה - על קצה המזלג.docx",
+              "url": "https://drive.google.com/file/d/1M26kYqv6_pUkkPNWcTQAKZgO4oRlM9TA/view"
+            },
+            {
+              "type": "file",
+              "name": "4. ש.ב. אי שוויונים מעריכיים.docx",
+              "url": "https://drive.google.com/file/d/15Hass5um0JyKKyLQLK_BxuRSr5VBg6Pt/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    }
+  ],
+  "assignments": "",
+  "assignments_file_id": "",
+  "active": false
+}
