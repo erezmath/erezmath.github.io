@@ -976,6 +976,19 @@
             "due_date": "18-01-2026",
             "due_date_display": "ראשון, 18.01.2026"
           }
+        },
+        {
+          "name": "5. שאלות רמת בגרות לא מבגרויות",
+          "desc": "",
+          "id": "5-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "אימון גאומטריה - רמה גבוהה לא מבגרויות",
+              "url": "https://drive.google.com/file/d/1e3DiUimNDisMFG__9PHx3eTrCHn9u2CT/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },

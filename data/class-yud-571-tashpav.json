@@ -2377,6 +2377,17 @@
               "type": "file",
               "name": "4. טריגו מארכימדס",
               "url": "https://drive.google.com/file/d/1FHP_BmaiT62MLRL4EyrKajrDtDV9ncKD/view"
+            },
+            {
+              "type": "folder",
+              "name": "פתרונות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "טריגו - שאלה אחרונה",
+                  "url": "https://drive.google.com/file/d/1QDQKXGPMONx63jKAF2CunDarZECUGEft/view"
+                }
+              ]
             }
           ],
           "lesson_json": {

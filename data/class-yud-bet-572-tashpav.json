@@ -115,6 +115,36 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "3. לוגים - יתר החוקים ומשוואות",
+          "desc": "",
+          "id": "2-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1Pun6fLmhV6P-85waJitDhQoWbcYh8kKn/view"
+            },
+            {
+              "type": "file",
+              "name": "~WRL0003.tmp",
+              "url": "https://drive.google.com/file/d/1OXC9yUFTHFoKpfngZJGFHZ2cguohzay_/view"
+            },
+            {
+              "type": "file",
+              "name": "לוגים - יתר החוקים ומשוואות.docx",
+              "url": "https://drive.google.com/file/d/1Ct7JjcQ-94rJwpZwwWqSUZbopPO9QAs7/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "4. חקירת פונקציה מעריכית - תחום הגדרה, אסימפטוטות, נגזרת, חקירה מלאה",
+          "desc": "",
+          "id": "2-4",
+          "content": [],
+          "lesson_json": {}
         }
       ]
     }
