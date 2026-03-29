@@ -132,7 +132,7 @@ class_info = [
         'name': 'כיתה יא 571 תשפו',
         'url_name': 'yud-aleph-571-tashpav',
         #'url_name': '271',
-        'google_drive_url': 'https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK?usp=drive_link',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK',
         'banner_url': 'images/banner4.png',
         'active': True,
         'regenerate': True
@@ -142,7 +142,7 @@ class_info = [
         'name': 'כיתה יב 572 תשפו',
         'url_name': 'yud-bet-572-tashpav',
         #'url_name': '271',
-        'google_drive_url': 'https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW?usp=drive_link',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW',
         'banner_url': 'images/banner8.png',
         'active': False,
         'regenerate': True

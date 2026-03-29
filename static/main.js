@@ -247,9 +247,11 @@ function copyLink(buttonElement, lessonId) {
   });
 }
 
-function shareWhatsApp(lessonId, lessonTitle) {
+function shareWhatsApp(lessonId, lessonTitle, topicTitle) {
   const linkToShare = getBaseUrl() + '#' + lessonId;
-  const message = 'שיעור מתמטיקה: ' + lessonTitle + '\n\n' + linkToShare;
+  // במידה ויש נושא (topic), הוא יתווסף לתחילת ההודעה
+  const topicPrefix = topicTitle ? `נושא: ${topicTitle}\n` : '';
+  const message = `${topicPrefix}שיעור: ${lessonTitle}\n\n${linkToShare}`;
   window.open('https://wa.me/?text=' + encodeURIComponent(message), '_blank');
 }
 
@@ -529,9 +531,22 @@ function injectShareFooter(lessonElement) {
   const lessonTitleEl = lessonElement.querySelector('.lesson-title');
   const lessonTitle = lessonTitleEl ? lessonTitleEl.textContent.trim() : '';
 
+  // משיכת שם הנושא מהאלמנט המקורי
+  let topicTitle = '';
+  const originalLessonElement = document.getElementById(lessonId); // מביא את השיעור המקורי (גם אם נלחץ דרך submit-soon)
+  if (originalLessonElement) {
+    const topicSection = originalLessonElement.closest('.topic-section');
+    if (topicSection) {
+      const h2 = topicSection.querySelector('h2');
+      if (h2) {
+        topicTitle = h2.textContent.trim();
+      }
+    }
+  }
+
   const footerHTML = `
     <div class="share-footer">
-      <button type="button" class="share-btn whatsapp" data-lesson-id="${lessonId}" data-lesson-title="${lessonTitle}" aria-label="שתף בוואטסאפ">
+      <button type="button" class="share-btn whatsapp" data-lesson-id="${lessonId}" data-lesson-title="${lessonTitle}" data-topic-title="${topicTitle}" aria-label="שתף בוואטסאפ">
         ${SHARE_ICONS.whatsapp}
       </button>
       <button type="button" class="share-btn copy" data-lesson-id="${lessonId}" aria-label="העתק קישור">
@@ -579,7 +594,8 @@ function setupShareFooter() {
       e.preventDefault();
       const lessonId = waBtn.getAttribute('data-lesson-id');
       const lessonTitle = waBtn.getAttribute('data-lesson-title') || '';
-      if (lessonId) shareWhatsApp(lessonId, lessonTitle);
+      const topicTitle = waBtn.getAttribute('data-topic-title') || ''; // שולפים את הנושא
+      if (lessonId) shareWhatsApp(lessonId, lessonTitle, topicTitle);
     }
   });
 
