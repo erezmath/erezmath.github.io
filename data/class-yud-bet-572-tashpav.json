@@ -123,7 +123,7 @@
           "content": [
             {
               "type": "file",
-              "name": "1. סיכום שיעור",
+              "name": "1. סיכום שיעור - בודד - אין צורך בהעמקת יתר כי עוברים לחקירה מעריכית",
               "url": "https://drive.google.com/file/d/1Pun6fLmhV6P-85waJitDhQoWbcYh8kKn/view"
             },
             {
@@ -139,6 +139,11 @@
           "desc": "",
           "id": "2-4",
           "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - שיעור בודד",
+              "url": "https://drive.google.com/file/d/1rOoqYBOz2BXzmtT6INefr1XyEklNKckE/view"
+            },
             {
               "type": "file",
               "name": "שאלות נבחרות.docx",
