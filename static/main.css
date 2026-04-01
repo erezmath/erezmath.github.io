@@ -125,7 +125,7 @@ body {
     border-color: var(--color-primary);
   }
   .dropdown-content {
-    display: none;
+    /* Click-Only Modern Approach */
     position: absolute;
     top: 110%;
     right: 0;
@@ -136,10 +136,30 @@ body {
     border: var(--border-width) solid var(--color-border);
     z-index: 1000;
     padding: 8px 0;
+    
+    /* Animation instead of display:none */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
   }
-  .dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content {
-    display: block;
+
+  /* Open state triggered by JavaScript class instead of hover/focus-within */
+  .dropdown.open .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
+
+  /* SVG rotation animation when dropdown is open */
+  .dropdown-btn svg {
+    transition: transform 0.2s ease;
+  }
+  .dropdown.open .dropdown-btn svg {
+    transform: rotate(180deg);
+  }
+
+
   .dropdown-content a {
     color: var(--color-primary-dark);
     padding: 10px 24px;

@@ -602,3 +602,67 @@ function setupShareFooter() {
   // Initialize the MutationObserver
   setupShareFooterObserver();
 }
+
+// --- Accessibility & Click-Only Dropdown Implementation ---
+function setupAccessibleDropdown() {
+  const dropdown = document.querySelector('.dropdown');
+  const dropdownBtn = document.querySelector('.dropdown-btn');
+  
+  if (!dropdown || !dropdownBtn) return;
+
+  // Add a11y attributes
+  dropdownBtn.setAttribute('aria-haspopup', 'true');
+  dropdownBtn.setAttribute('aria-expanded', 'false');
+  dropdownBtn.setAttribute('aria-controls', 'dropdown-menu');
+
+  // Find the menu and add an ID for aria-controls
+  const dropdownContent = document.querySelector('.dropdown-content');
+  if (dropdownContent && !dropdownContent.id) {
+    dropdownContent.id = 'dropdown-menu';
+    dropdownContent.setAttribute('role', 'menu');
+  }
+
+  // Toggle function
+  const toggleDropdown = (open) => {
+    const isNowOpen = open !== undefined ? open : !dropdown.classList.contains('open');
+    if (isNowOpen) {
+      dropdown.classList.add('open');
+      dropdownBtn.setAttribute('aria-expanded', 'true');
+    } else {
+      dropdown.classList.remove('open');
+      dropdownBtn.setAttribute('aria-expanded', 'false');
+    }
+  };
+
+  // Click event for the button
+  dropdownBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleDropdown();
+  });
+
+  // Close when clicking outside
+  document.addEventListener('click', (e) => {
+    if (dropdown.classList.contains('open') && !dropdown.contains(e.target)) {
+      toggleDropdown(false);
+    }
+  });
+
+  // Accessibility: Handle Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && dropdown.classList.contains('open')) {
+      toggleDropdown(false);
+      dropdownBtn.focus(); // Return focus to button
+    }
+  });
+
+  // Accessibility: Keyboard support for the button itself
+  dropdownBtn.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleDropdown();
+    }
+  });
+}
+
+// Call the new function
+setupAccessibleDropdown();
