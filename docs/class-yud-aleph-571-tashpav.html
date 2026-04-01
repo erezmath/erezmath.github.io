@@ -8,11 +8,29 @@
   <link rel="stylesheet" href="static/main.css">
 </head>
 <body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="icon-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <rect x="3" y="3" width="18" height="18" rx="2"/>
+      <rect x="7" y="7" width="10" height="3" rx="1"/>
+      <rect x="7" y="12" width="3" height="3" rx="1"/>
+      <rect x="14" y="12" width="3" height="3" rx="1"/>
+    </symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="6 9 12 15 18 9"/>
+    </symbol>
+    <symbol id="icon-folder-closed" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z"/>
+    </symbol>
+    <symbol id="icon-folder-open" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z"/>
+      <path d="M3 8 L17 8"/>
+    </symbol>
+  </svg>
 <header class="site-header">
   <div class="site-header-inner">
     <div class="site-header-left">
       <span class="site-header-icon">
-        <svg width="28" height="28" fill="none" stroke="#1e293b" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="7" y="7" width="10" height="3" rx="1"/><rect x="7" y="12" width="3" height="3" rx="1"/><rect x="14" y="12" width="3" height="3" rx="1"/></svg>
+        <svg class="svg-icon svg-icon-logo"><use href="#icon-logo"></use></svg>
       </span>
     </div>
     <div class="site-header-right">
@@ -22,7 +40,7 @@
       <div class="dropdown">
         <button class="dropdown-btn" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-menu">
                 כיתה יא 571 תשפו
-          <svg width="18" height="18" fill="none" stroke="#1e293b" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          <svg class="svg-icon svg-icon-chevron"><use href="#icon-chevron"></use></svg>
         </button>
         <div class="dropdown-content" id="dropdown-menu" role="menu">
           <span class="dropdown-group-title">כיתות השנה:</span>
@@ -190,15 +208,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">1. משרד החינוך</strong>
                       </div>
@@ -218,15 +229,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">2. ארכימדס</strong>
                       </div>
@@ -241,15 +245,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">3. בר אילן</strong>
                       </div>
@@ -262,15 +259,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">4. שאלות קצרות מהבגרויות</strong>
                       </div>
@@ -595,15 +585,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">פתרונות</strong>
                       </div>
@@ -1012,15 +995,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">1. הזזות - שאלות קלות יותר</strong>
                       </div>
@@ -1036,15 +1012,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">2. זוגית אי זוגית</strong>
                       </div>
@@ -1058,15 +1027,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">3. שאלות סיכום הזזות</strong>
                       </div>
@@ -1080,15 +1042,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">4. אינטגרל מצטבר - משתנה למטה</strong>
                       </div>
@@ -1222,15 +1177,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">3. פתרונות</strong>
                       </div>
@@ -1260,15 +1208,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">2. פתרונות</strong>
                       </div>
@@ -1327,15 +1268,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">מבחני סימולציה - סרור אסעד</strong>
                       </div>
@@ -1647,15 +1581,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">אימון נוסף למבחן</strong>
                       </div>
@@ -1776,15 +1703,8 @@
                     <li class="lesson-folder">
                       <div class="folder-row" tabindex="0">
                         <span class="folder-icon" data-state="closed">
-                          <!-- Closed folder SVG (pure outline) -->
-                          <svg class="icon-folder-closed" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6 Q3 4 5 4 H8 Q9 4 10 5 L11 6 H16 Q17 6 17 7 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                          <!-- Open folder SVG (pure outline) -->
-                          <svg class="icon-folder-open" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none;" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 8 Q3 6 5 6 H8 Q9 6 10 7 L11 8 H16 Q17 8 17 9 V15 Q17 16 16 16 H4 Q3 16 3 15 Z" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M3 8 L17 8" stroke="#8a8f98" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-                          </svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-closed"><use href="#icon-folder-closed"></use></svg>
+                          <svg class="svg-icon svg-icon-folder icon-folder-open" style="display:none;"><use href="#icon-folder-open"></use></svg>
                         </span>
                         <strong class="folder-name">פתרונות</strong>
                       </div>

@@ -933,3 +933,31 @@ body {
 .share-footer {
   margin-top: auto !important;
 }
+
+
+
+/* --- SVG Sprite Helpers --- */
+.svg-icon {
+  display: inline-block;
+  vertical-align: middle;
+  fill: none;
+}
+/* לוגו כותרת */
+.svg-icon-logo {
+  width: 28px;
+  height: 28px;
+  stroke: #1e293b;
+}
+/* חץ תפריט Dropdown */
+.svg-icon-chevron {
+  width: 18px;
+  height: 18px;
+  stroke: #1e293b;
+}
+/* אייקוני תיקייה פתוחה/סגורה */
+.svg-icon-folder {
+  width: 20px;
+  height: 20px;
+  stroke: #8a8f98;
+}
+/* --- END SVG Sprite Helpers --- */
