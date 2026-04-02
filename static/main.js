@@ -63,8 +63,8 @@ function setupLessonExpand() {
         // Get ALL lessons on the page, not just in this accordion
         const allLessons = Array.from(document.querySelectorAll('.lesson'));
         
-        // Determine columns: 2 on desktop, 1 on mobile
-        const columns = window.matchMedia('(min-width: 700px)').matches ? 2 : 1;
+        // Determine columns: 2 on tablet/desktop, 1 on mobile
+        const columns = window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
         let rowStart;
         if (columns === 2) {
           rowStart = idx % 2 === 0 ? idx : idx - 1;
@@ -100,7 +100,7 @@ function setupLessonExpand() {
       header.addEventListener('keydown', function(e) {
         if (e.key === 'Enter' || e.key === ' ') {
           const allLessons = Array.from(document.querySelectorAll('.lesson'));
-          const columns = window.matchMedia('(min-width: 700px)').matches ? 2 : 1;
+          const columns = window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
           let rowStart;
           if (columns === 2) {
             rowStart = idx % 2 === 0 ? idx : idx - 1;
@@ -307,7 +307,7 @@ function scrollToHashTarget() {
       if (accordion) {
         const lessons = Array.from(accordion.querySelectorAll('.lesson'));
         const idx = lessons.indexOf(el);
-        const columns = window.matchMedia('(min-width: 700px)').matches ? 2 : 1;
+        const columns = window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
         
         if (columns === 2 && idx !== -1) {
           // Find the start of the 2-column row

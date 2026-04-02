@@ -513,7 +513,7 @@ body {
     gap: 2rem;
     overflow: visible;
   }
-  @media (min-width: 700px) {
+  @media (min-width: 769px) {
     .accordion {
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
@@ -780,7 +780,7 @@ body {
     }
   } 
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
   .topics-nav {
     overflow-x: auto;
     white-space: nowrap;
@@ -862,7 +862,7 @@ body {
   padding-right: 24px; 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .class-group-title {
     padding-right: 0;
   }
