@@ -195,10 +195,14 @@ body {
     margin: 0;
   }
   .class-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: var(--gap-main);
-    justify-content: center;
-    flex-wrap: wrap;
+  }
+  @media (min-width: 769px) {
+    .class-cards {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   .class-card {
     background: var(--color-bg);
@@ -210,9 +214,8 @@ body {
     text-decoration: none;
     color: inherit;
     border: var(--border-width) solid var(--color-border);
-    min-width: 380px;
-    max-width: 480px;
-    flex: 1 1 380px;
+    width: 100%;
+    box-sizing: border-box;
   }
   .class-card-banner {
     height: 160px;
@@ -326,15 +329,6 @@ body {
     top: 0;
   }
   
-  /* On small screens, if navbar height changes, adjust as needed */
-  @media (max-width: 600px) {
-    .topics-nav {
-      top: var(--header-height); /* UPDATED: consistent variable use */
-    }
-    body.class-page .topics-nav {
-      top: 0;
-    }
-  }
   .topic-btn {
     font-family: inherit;
     font-size: 0.9rem;
@@ -766,19 +760,33 @@ body {
   .lesson-content a {
     color: #111;
   }
-  @media (max-width: 900px) {
-    .site-main, .container {
-      padding: 0 8px;
-    }
-    .class-cards {
-      flex-direction: column;
-      gap: 24px;
-    }
-    .class-card {
-      min-width: 0;
-      max-width: 100%;
-    }
-  } 
+
+/* === NEW STANDARDIZED MOBILE BREAKPOINT (Consolidated 600px & 900px here) === */
+@media (max-width: 768px) {
+  /* From old 900px */
+  .site-main, .container {
+    padding: 0 8px;
+  }
+  
+  /* From old 600px */
+  .topics-nav {
+    top: var(--header-height);
+  }
+  body.class-page .topics-nav {
+    top: 0;
+  }
+
+  /* Existing 768px adjustments */
+  .class-group-title {
+    padding-right: 0;
+  }
+  .lesson-list a {
+    padding: 10px 6px;
+  }
+  .lesson-list li {
+    margin-bottom: 6px; 
+  }
+}
 
 @media (max-width: 1024px) {
   .topics-nav {
@@ -862,11 +870,6 @@ body {
   padding-right: 24px; 
 }
 
-@media (max-width: 768px) {
-  .class-group-title {
-    padding-right: 0;
-  }
-}
 .class-group-title.past {
   color: #8a8f98;
   font-weight: 600;
@@ -897,17 +900,6 @@ body {
 
 .lesson-list li {
   margin-bottom: 4px;
-}
-
-/* Mobile touch optimization */
-@media (max-width: 768px) {
-  .lesson-list a {
-    padding: 10px 6px;
-  }
-  
-  .lesson-list li {
-    margin-bottom: 6px; 
-  }
 }
 
 /* --- SHARE FOOTER ALIGNMENT FIX --- */
