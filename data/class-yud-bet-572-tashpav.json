@@ -239,6 +239,11 @@
             },
             {
               "type": "file",
+              "name": "2025 - קיץ מועד א - חקירה מעריכית - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1_SIDNarxriM44u4f7R2nJuTja0DQbnh3/view"
+            },
+            {
+              "type": "file",
               "name": "2025 - קיץ מועד א - מרוכבים",
               "url": "https://drive.google.com/file/d/1U8-Af0E4UBblNRfTnEZFarBO5ka7Vred/view"
             },
@@ -415,6 +420,24 @@
               "type": "file",
               "name": "2. תרגילים",
               "url": "https://drive.google.com/file/d/10B8D8PVwfeySoxbfOv_qVDkOnyq2ntxS/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "6. חקירת פונקציה מעריכית - בגרויות",
+          "desc": "<p>2 שאלות טכניות מבגרויות קיץ 2025</p>",
+          "id": "2-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד א - חקירה מעריכית - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1akF-kbkC-TXR6BhKHBHkAaMk4-CvObAJ/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1FW2722QGnGw7s_2vykQs7IJ1GNc_cIS5/view"
             }
           ],
           "lesson_json": {}
