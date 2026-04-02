@@ -1,41 +1,70 @@
-:root {
-  /* Colors */
-  --color-primary: #1e40af;
-  --color-primary-dark: #1e293b;
-  --color-accent: rgb(1,186,239);
-  --color-accent2: rgb(32,191,85);
-  --color-bg: #fff;
-  --color-border: #e5e7eb;
-  --color-gray: #8a8f98;
-  --color-gray2: #64748b;
-  --color-bg-light: #f8fafc;
-  --color-bg-lighter: #f0f4fa;
-  --color-bg-banner: #e0e7ef;
-  --color-alert:red;
-  --color-warning:orange;
-  /* Spacing & Sizing */
-  --header-height: 64px;
-  --topics-nav-top: 64px;
-  --border-radius-lg: 18px;
-  --border-radius-md: 14px;
-  --border-radius-sm: 8px;
-  --border-width: 1.5px;
-  --padding-main: 24px;
-  --gap-main: 32px;
-  --font-size-base: 1rem;
-  --font-size-lg: 2rem;
-  /* Shadows & Transitions */
-  --shadow-card: 0 2px 8px rgba(30,64,175,0.08);
-  --shadow-pop: 0 6px 20px rgba(1,186,239,0.13);
-  --transition-fast: 0.2s;
-  --transition-slow: 0.5s;
-}
+/**
+ * ============================================================================
+ * MAIN CSS STYLESHEET
+ * * Sections:
+ * 1. Variables & Global Settings
+ * 2. Base Styles & Typography Utilities
+ * 3. Header & Dropdown Navigation
+ * 4. Layout, Banners & Welcome Section
+ * 5. Homepage Class Cards
+ * 6. Topics Navigation
+ * 7. Assignments Section
+ * 8. Accordion Grid & Lessons
+ * 9. Lesson Folders & Lists
+ * 10. Share Footer
+ * 11. CSS Icons & SVG Helpers
+ * 12. Media Queries (Responsive Adjustments)
+ * ============================================================================
+ */
 
-/* Reset and base styles */
-html {
-  scroll-behavior: smooth;
-}
-body {
+
+/* ============================================================================
+   1. VARIABLES & GLOBAL SETTINGS
+   ============================================================================ */
+   :root {
+    /* Colors */
+    --color-primary: #1e40af;
+    --color-primary-dark: #1e293b;
+    --color-accent: rgb(1,186,239);
+    --color-accent2: rgb(32,191,85);
+    --color-bg: #fff;
+    --color-border: #e5e7eb;
+    --color-gray: #8a8f98;
+    --color-gray2: #64748b;
+    --color-bg-light: #f8fafc;
+    --color-bg-lighter: #f0f4fa;
+    --color-bg-banner: #e0e7ef;
+    --color-alert: red;
+    --color-warning: orange;
+    
+    /* Spacing & Sizing */
+    --header-height: 64px;
+    --topics-nav-top: 64px;
+    --border-radius-lg: 18px;
+    --border-radius-md: 14px;
+    --border-radius-sm: 8px;
+    --border-width: 1.5px;
+    --padding-main: 24px;
+    --gap-main: 32px;
+    --font-size-base: 1rem;
+    --font-size-lg: 2rem;
+    
+    /* Shadows & Transitions */
+    --shadow-card: 0 2px 8px rgba(30,64,175,0.08);
+    --shadow-pop: 0 6px 20px rgba(1,186,239,0.13);
+    --transition-fast: 0.2s;
+    --transition-slow: 0.5s;
+  }
+  
+  
+  /* ============================================================================
+     2. BASE STYLES & TYPOGRAPHY UTILITIES
+     ============================================================================ */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
     font-family: 'Heebo', 'Segoe UI', Arial, sans-serif;
     background: var(--color-bg);
     margin: 0;
@@ -43,9 +72,23 @@ body {
     direction: rtl;
     color: var(--color-primary-dark);
   }
+  
   body.class-page .site-header {
     position: static;
   }
+  
+  .color-alert {
+    color: var(--color-alert) !important;
+  }
+  
+  .color-warning {
+    color: var(--color-warning) !important;
+  }
+  
+  
+  /* ============================================================================
+     3. HEADER & DROPDOWN NAVIGATION
+     ============================================================================ */
   .site-header {
     width: 100vw;
     background: var(--color-bg);
@@ -57,6 +100,7 @@ body {
     top: 0;
     z-index: 100;
   }
+  
   .site-header-inner {
     display: flex;
     flex-direction: row-reverse;
@@ -67,20 +111,25 @@ body {
     height: var(--header-height);
     justify-content: space-between;
   }
+  
   .site-header-left {
     display: flex;
     align-items: center;
   }
+  
   .site-header-icon {
     display: flex;
     align-items: center;
     margin-left: 12px;
   }
+  
   .site-header-right {
     display: flex;
     align-items: center;
     gap: 12px;
   }
+  
+  /* Nav Buttons */
   .nav-btn {
     background: var(--color-bg);
     border: var(--border-width) solid var(--color-border);
@@ -99,14 +148,18 @@ body {
     font-weight: 700;
     gap: 6px;
   }
+  
   .nav-btn:hover {
     color: var(--color-bg);
     border-color: var(--color-primary);
   }
+  
+  /* Dropdown Sub-menu */
   .dropdown {
     position: relative;
     display: inline-block;
   }
+  
   .dropdown-btn {
     background: var(--color-bg);
     border: var(--border-width) solid var(--color-border);
@@ -121,11 +174,13 @@ body {
     gap: 6px;
     transition: all var(--transition-fast);
   }
-  .dropdown-btn:hover, .dropdown-btn:focus {
+  
+  .dropdown-btn:hover, 
+  .dropdown-btn:focus {
     border-color: var(--color-primary);
   }
+  
   .dropdown-content {
-    /* Click-Only Modern Approach */
     position: absolute;
     top: 110%;
     right: 0;
@@ -137,29 +192,27 @@ body {
     z-index: 1000;
     padding: 8px 0;
     
-    /* Animation instead of display:none */
+    /* Animation properties */
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
     transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
   }
-
-  /* Open state triggered by JavaScript class instead of hover/focus-within */
+  
   .dropdown.open .dropdown-content {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
   }
-
-  /* SVG rotation animation when dropdown is open */
+  
   .dropdown-btn svg {
     transition: transform 0.2s ease;
   }
+  
   .dropdown.open .dropdown-btn svg {
     transform: rotate(180deg);
   }
-
-
+  
   .dropdown-content a {
     color: var(--color-primary-dark);
     padding: 10px 24px;
@@ -170,40 +223,97 @@ body {
     border-radius: var(--border-radius-sm);
     transition: background var(--transition-fast), color var(--transition-fast);
   }
-  .dropdown-content a.active, .dropdown-content a:hover {
+  
+  .dropdown-content a.active, 
+  .dropdown-content a:hover {
     background: var(--color-bg-banner);
     color: var(--color-primary);
   }
+  
+  
+  /* ============================================================================
+     4. LAYOUT, BANNERS & WELCOME SECTION
+     ============================================================================ */
   .site-main {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 var(--padding-main);
   }
+  
   .welcome-block {
     text-align: center;
     margin: 48px 0 32px 0;
   }
+  
   .welcome-title {
     font-size: 2.3rem;
     font-weight: 800;
     color: var(--color-primary);
     margin-bottom: 0.5rem;
   }
+  
   .welcome-desc {
     font-size: 1.15rem;
     color: var(--color-gray2);
     margin: 0;
   }
+  
+  .class-banner-full {
+    position: relative;
+    min-height: 220px;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--border-radius-lg);
+    margin-bottom: var(--gap-main);
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .class-banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 1%, transparent 60%);
+  }
+  
+  .class-banner-content {
+    position: relative;
+    z-index: 2;
+    color: var(--color-bg);
+    padding: 32px;
+  }
+  
+  .class-banner-content h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: var(--color-bg);
+  }
+  
+  .class-banner-content p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+    color: var(--color-bg-banner);
+  }
+  
+  
+  /* ============================================================================
+     5. HOMEPAGE CLASS CARDS
+     ============================================================================ */
   .class-cards {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--gap-main);
   }
+  
   @media (min-width: 769px) {
     .class-cards {
       grid-template-columns: 1fr 1fr;
     }
   }
+  
   .class-card {
     background: var(--color-bg);
     border-radius: var(--border-radius-lg);
@@ -217,37 +327,44 @@ body {
     width: 100%;
     box-sizing: border-box;
   }
+  
   .class-card-banner {
     height: 160px;
     background-size: cover;
     background-position: center;
   }
+  
   .class-card-content {
     padding: var(--padding-main);
   }
+  
   .class-card-title-row {
     display: flex;
     flex-direction: column;
     gap: 4px;
     margin-bottom: 12px;
   }
+  
   .class-card-title {
     font-size: 1.3rem;
     font-weight: 800;
     color: var(--color-primary);
     margin: 0;
   }
+  
   .class-card-desc {
     font-size: var(--font-size-base);
     color: var(--color-gray2);
     margin: 0;
   }
+  
   .class-card-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 12px;
   }
+  
   .tag {
     white-space: nowrap;
     font-weight: 400;
@@ -260,6 +377,7 @@ body {
     display: inline-block;
     transition: all var(--transition-fast);
   }
+  
   .class-card-meta {
     display: flex;
     gap: 16px;
@@ -267,41 +385,11 @@ body {
     color: var(--color-gray2);
     margin-top: 8px;
   }
-  .class-banner-full {
-    position: relative;
-    min-height: 220px;
-    background-size: cover;
-    background-position: center;
-    border-radius: var(--border-radius-lg);
-    margin-bottom: var(--gap-main);
-    display: flex;
-    align-items: flex-end;
-    overflow: hidden;
-    margin-top:10px;
-  }
-  .class-banner-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(0deg, rgba(0,0,0,0.7) 1%, transparent 60%);
-  }
-  .class-banner-content {
-    position: relative;
-    z-index: 2;
-    color: var(--color-bg);
-    padding: 32px;
-  }
-  .class-banner-content h1 {
-    font-size: 2.2rem;
-    font-weight: 800;
-    margin-bottom: 0.5rem;
-    color: var(--color-bg);
-  }
-  .class-banner-content p {
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin: 0;
-    color: var(--color-bg-banner);
-  }
+  
+  
+  /* ============================================================================
+     6. TOPICS NAVIGATION
+     ============================================================================ */
   .topics-nav {
     display: flex;
     gap: 12px;
@@ -317,14 +405,6 @@ body {
     justify-content: center;
   }
   
-  .color-alert{
-    color: var(--color-alert) !important;
-  }
-  .color-warning{
-    color: var(--color-warning) !important;
-  }
-
-  /* On class pages, where navbar is not sticky, stick to the very top */
   body.class-page .topics-nav {
     top: 0;
   }
@@ -342,15 +422,18 @@ body {
     transition: background 0.2s, color 0.2s, border 0.2s;
     outline: none;
   }
+  
   .topic-btn.active {
     color: rgb(255, 255, 255);
     box-shadow: rgba(1, 186, 239, 0.3) 0px 4px 15px;
     background: linear-gradient(135deg, rgb(1, 186, 239) 0%, rgb(32, 191, 85) 100%);
     border-color: rgb(1, 186, 239);
   }
+  
   .topics-list {
     margin-bottom: 32px;
   }
+  
   .topic-section {
     background: #fff;
     border-radius: 16px;
@@ -360,9 +443,11 @@ body {
     border: 1.5px solid #e5e7eb;
     transition: border 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   }
+  
   .topic-section:hover {
     border: 1.5px solid rgb(1,186,239);
   }
+  
   .topic-section h2 {
     font-size: 2rem;
     font-weight: 700;
@@ -373,6 +458,10 @@ body {
     padding-bottom: 8px;
   }
   
+  
+  /* ============================================================================
+     7. ASSIGNMENTS SECTION
+     ============================================================================ */
   .assignments-content {
     background: #f8fafc;
     border-radius: 12px;
@@ -501,18 +590,27 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 2px 8px rgba(30, 64, 175, 0.2);
   }
+  
+  
+  /* ============================================================================
+     8. ACCORDION GRID & LESSONS
+     ============================================================================ */
   .accordion {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
     overflow: visible;
+    /* Ensure the grid stretches both cards to exactly equal heights */
+    align-items: stretch !important;
   }
+  
   @media (min-width: 769px) {
     .accordion {
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
     }
   }
+  
   .lesson {
     background: linear-gradient(135deg, rgb(248, 249, 250) 0%, rgb(233, 236, 239) 100%);
     border-radius: 14px;
@@ -525,17 +623,20 @@ body {
     box-sizing: border-box;
     color: #111;
     scroll-margin-top: 128px;
-    /* Flexbox changes to align sizes and footers */
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* Fix the card to stretch naturally */
+    height: auto !important; 
+    align-self: stretch !important;
   }
+  
   .lesson-pop {
     box-shadow: 0 6px 20px rgba(1,186,239,0.13);
     border: 3px solid rgb(1,186,239);
     transform: translateY(-2px);
     transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
   }
+  
   .lesson-header {
     font-size: 1.1rem;
     font-weight: 500;
@@ -553,19 +654,21 @@ body {
     transition: background-color 0.2s;
     border-radius: 14px 14px 0 0;
   }
+  
   .lesson-header:hover {
     background-color: rgba(1, 186, 239, 0.06);
   }
+  
   .lesson:has(.lesson-header:hover) {
     box-shadow: 0 6px 20px rgba(1,186,239,0.13);
     border: 2px solid rgb(1,186,239);
     transform: translateY(-2px);
   }
-
-  /* Due date row under the header */
+  
   .lesson-title {
     width: 100%;
   }
+  
   .lesson-due-row {
     font-size: 0.95rem;
     color: #94a3b8;
@@ -574,6 +677,7 @@ body {
     margin-top: 0.1rem;
     width: 100%;
   }
+  
   .lesson-due-row .lesson-due-date {
     color: #94a3b8;
     font-weight: 600;
@@ -592,39 +696,165 @@ body {
   .lesson-description p {
     margin: 0;
   }
-  .chevron {
-    display: inline-block;
-    transition: transform 0.2s;
-    width: 1.2em;
-    height: 1.2em;
-    vertical-align: middle;
-    filter: none;
-  }
-  .lesson.expanded .chevron {
-    transform: rotate(180deg);
-  }
+  
   .lesson-content {
     display: none;
     background: #f8fafc;
     padding: 1.2rem;
     border-top: 1px solid #e5e7eb;
-    /* Allow the content to expand and fill the available vertical space */
     flex-grow: 1;
   }
+  
   .lesson.expanded .lesson-content {
     display: block;
     animation: fadeIn 0.3s ease;
+    /* When expanded, keep it as a flex column instead of a standard block */
+    display: flex !important; 
+    flex-direction: column;
   }
+  
+  .lesson-btn {
+    background: #1e40af;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-size: 1rem;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+  }
+  
+  .lesson-btn:hover {
+    background: #0f256e;
+  }
+  
+  .lesson-content a {
+    color: #111;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  
+  /* ============================================================================
+     9. LESSON FOLDERS & LISTS
+     ============================================================================ */
+  .lesson-folder .folder-row {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 2px 0;
+    transition: background 0.2s;
+  }
+  
+  .lesson-folder .folder-row:hover, 
+  .lesson-folder .folder-row:focus {
+    background: #f0f4fa;
+  }
+  
+  .folder-chevron {
+    display: inline-block;
+    width: 1em;
+    margin-left: 0.5em;
+    transition: transform 0.2s;
+  }
+  
+  .lesson-folder.expanded > .folder-row .folder-chevron {
+    transform: rotate(90deg);
+  }
+  
+  .folder-content {
+    margin-right: 2.2em;
+    padding-right: 0.5em;
+    border-right: none;
+  }
+  
+  .lesson-folder .lesson-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .folder-icon {
+    display: inline-flex;
+    align-items: center;
+    width: 1.5em;
+    margin-left: 0.5em;
+    transition: none;
+  }
+  
+  .icon-folder-closed, 
+  .icon-folder-open {
+    vertical-align: middle;
+  } 
+  
+  .class-groups {
+    padding-right: 0;
+  }
+  
+  .class-group-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 32px 0 12px 0;
+    letter-spacing: 0.5px;
+    padding-right: 24px; 
+  }
+  
+  .class-group-title.past {
+    color: #8a8f98;
+    font-weight: 600;
+  }
+  
+  .dropdown-group-title {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #8a8f98;
+    margin: 8px 0 2px 0;
+    padding: 0 24px;
+    cursor: default;
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  .dropdown-group-title.past {
+    margin-top: 16px;
+  } 
+  
+  .lesson-list {
+    padding-right: 20px;
+  }
+  
+  .lesson-list a {
+    padding: 8px 4px;
+  }
+  
+  .lesson-list li {
+    margin-bottom: 4px;
+  }
+  
+  
+  /* ============================================================================
+     10. SHARE FOOTER
+     ============================================================================ */
   .share-footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 12px;
-    /* Pushes the footer down to the bottom naturally */
-    margin-top: auto; 
+    /* Force the footer to the absolute bottom */
+    margin-top: auto !important; 
     padding-top: 10px;
     border-top: 1px dashed #e0e0e0;
   }
+  
   .share-btn {
     background: none;
     border: none;
@@ -637,22 +867,27 @@ body {
     transition: background-color 0.2s, transform 0.1s;
     position: relative;
   }
+  
   .share-btn svg {
     width: 20px;
     height: 20px;
     fill: #777;
     transition: fill 0.2s;
   }
+  
   .share-btn:hover {
     background-color: #f0f0f0;
     transform: scale(1.05);
   }
+  
   .share-btn.whatsapp:hover svg {
     fill: #25D366;
   }
+  
   .share-btn.copy:hover svg {
     fill: #007BFF;
   }
+  
   .share-btn .tooltip {
     position: absolute;
     bottom: 100%;
@@ -669,6 +904,7 @@ body {
     transition: opacity 0.2s, transform 0.2s;
     pointer-events: none;
   }
+  
   .share-btn .tooltip::after {
     content: '';
     position: absolute;
@@ -679,33 +915,17 @@ body {
     border-style: solid;
     border-color: #333 transparent transparent transparent;
   }
+  
   .share-btn.show-tooltip .tooltip {
     opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(-10px);
   }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .lesson-btn {
-    background: #1e40af;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 6px 16px;
-    font-size: 1rem;
-    margin-top: 8px;
-    cursor: pointer;
-    transition: background 0.2s;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 700;
-  }
-  .lesson-btn:hover {
-    background: #0f256e;
-  }
-  /* Icons (SVG or CSS) */
+  
+  
+  /* ============================================================================
+     11. CSS ICONS & SVG HELPERS
+     ============================================================================ */
   .icon-home::before {
     content: "";
     display: inline-block;
@@ -714,6 +934,7 @@ body {
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%231e40af" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 10.5L12 4l9 6.5M5 10.5V19a1 1 0 001 1h3.5a.5.5 0 00.5-.5V15a1 1 0 011-1h2a1 1 0 011 1v4.5a.5.5 0 00.5.5H18a1 1 0 001-1v-8.5"/></svg>') center/contain no-repeat;
     vertical-align: middle;
   }
+  
   .icon-book::before {
     content: "";
     display: inline-block;
@@ -722,6 +943,7 @@ body {
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%231e40af" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 7H20v13H6.5A2.5 2.5 0 014 17.5V4.5z"/></svg>') center/contain no-repeat;
     vertical-align: middle;
   }
+  
   .icon-file::before {
     content: "";
     display: inline-block;
@@ -730,6 +952,7 @@ body {
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%231e40af" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg>') center/contain no-repeat;
     vertical-align: middle;
   }
+  
   .icon-folder::before {
     content: "";
     display: inline-block;
@@ -738,6 +961,16 @@ body {
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%231e40af" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 7a2 2 0 012-2h5l2 2h7a2 2 0 012 2v7a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"/></svg>') center/contain no-repeat;
     vertical-align: middle;
   }
+  
+  .chevron {
+    display: inline-block;
+    transition: transform 0.2s;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+    filter: none;
+  }
+  
   .chevron::before {
     content: "";
     display: inline-block;
@@ -746,210 +979,114 @@ body {
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%231e40af" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="6 9 12 15 18 9"/></svg>') center/contain no-repeat;
     vertical-align: middle;
   }
+  
+  .lesson.expanded .chevron {
+    transform: rotate(180deg);
+  }
+  
   .lesson .icon-file::before,
   .lesson .icon-folder::before {
     filter: none;
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%23000" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg>') center/contain no-repeat;
   }
+  
   .lesson .icon-folder::before {
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%23000" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 7a2 2 0 012-2h5l2 2h7a2 2 0 012 2v7a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"/></svg>') center/contain no-repeat;
   }
+  
   .lesson .chevron::before {
     background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="%23000" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="6 9 12 15 18 9"/></svg>') center/contain no-repeat;
   }
-  .lesson-content a {
-    color: #111;
-  }
-
-/* === NEW STANDARDIZED MOBILE BREAKPOINT (Consolidated 600px & 900px here) === */
-@media (max-width: 768px) {
-  /* From old 900px */
-  .site-main, .container {
-    padding: 0 8px;
+  
+  /* SVG Sprite Helpers */
+  .svg-icon {
+    display: inline-block;
+    vertical-align: middle;
+    fill: none;
   }
   
-  /* From old 600px */
-  .topics-nav {
-    top: var(--header-height);
+  .svg-icon-logo {
+    width: 28px;
+    height: 28px;
+    stroke: #1e293b;
   }
-  body.class-page .topics-nav {
-    top: 0;
+  
+  .svg-icon-chevron {
+    width: 18px;
+    height: 18px;
+    stroke: #1e293b;
   }
-
-  /* Existing 768px adjustments */
-  .class-group-title {
-    padding-right: 0;
+  
+  .svg-icon-folder {
+    width: 20px;
+    height: 20px;
+    stroke: #8a8f98;
   }
-  .lesson-list a {
-    padding: 10px 6px;
+  
+  
+  /* ============================================================================
+     12. MEDIA QUERIES (RESPONSIVE ADJUSTMENTS)
+     ============================================================================ */
+  
+  /* Tablet & Below */
+  @media (max-width: 1024px) {
+    .topics-nav {
+      overflow-x: auto;
+      white-space: nowrap;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      padding-right: 8px;
+      padding-left: 8px;
+      scrollbar-width: thin;
+      scrollbar-color: #e5e7eb #fff;
+    }
+    
+    .topics-nav::-webkit-scrollbar {
+      height: 6px;
+      background: #fff;
+    }
+    
+    .topics-nav::-webkit-scrollbar-thumb {
+      background: #e5e7eb;
+      border-radius: 6px;
+    }
+    
+    .topic-btn {
+      flex: 0 0 auto;
+      margin-left: 8px;
+      margin-right: 0;
+    }
+    
+    .lesson {
+      scroll-margin-top: 96px; /* Adjust for mobile sticky area */
+    }
   }
-  .lesson-list li {
-    margin-bottom: 6px; 
+  
+  /* Mobile Devices */
+  @media (max-width: 768px) {
+    .site-main, 
+    .container {
+      padding: 0 8px;
+    }
+    
+    .topics-nav {
+      top: var(--header-height);
+    }
+    
+    body.class-page .topics-nav {
+      top: 0;
+    }
+  
+    .class-group-title {
+      padding-right: 0;
+    }
+    
+    /* Touch optimization for lesson lists */
+    .lesson-list a {
+      padding: 10px 6px;
+    }
+    
+    .lesson-list li {
+      margin-bottom: 6px; 
+    }
   }
-}
-
-@media (max-width: 1024px) {
-  .topics-nav {
-    overflow-x: auto;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    padding-right: 8px;
-    padding-left: 8px;
-    scrollbar-width: thin;
-    scrollbar-color: #e5e7eb #fff;
-  }
-  .topics-nav::-webkit-scrollbar {
-    height: 6px;
-    background: #fff;
-  }
-  .topics-nav::-webkit-scrollbar-thumb {
-    background: #e5e7eb;
-    border-radius: 6px;
-  }
-  .topic-btn {
-    flex: 0 0 auto;
-    margin-left: 8px;
-    margin-right: 0;
-  }
-  .lesson {
-    scroll-margin-top: 96px; /* Adjust for mobile sticky area */
-  }
-} 
-
-.lesson-folder .folder-row {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  user-select: none;
-  padding: 2px 0;
-  transition: background 0.2s;
-}
-.lesson-folder .folder-row:hover, .lesson-folder .folder-row:focus {
-  background: #f0f4fa;
-}
-.folder-chevron {
-  display: inline-block;
-  width: 1em;
-  margin-left: 0.5em;
-  transition: transform 0.2s;
-}
-.lesson-folder.expanded > .folder-row .folder-chevron {
-  transform: rotate(90deg);
-}
-.folder-content {
-  margin-right: 2.2em;   /* aligns with folder icon + name */
-  padding-right: 0.5em;  /* small extra space for clarity */
-  border-right: none;
-}
-.lesson-folder .lesson-list {
-  margin: 0;
-  padding: 0;
-}
-.folder-icon {
-  display: inline-flex;
-  align-items: center;
-  width: 1.5em;
-  margin-left: 0.5em;
-  transition: none;
-}
-.icon-folder-closed, .icon-folder-open {
-  vertical-align: middle;
-} 
-
-.class-groups {
-  padding-right: 0;
-}
-
-.class-group-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #1e293b;
-  margin: 32px 0 12px 0;
-  letter-spacing: 0.5px;
-  padding-right: 24px; 
-}
-
-.class-group-title.past {
-  color: #8a8f98;
-  font-weight: 600;
-}
-.dropdown-group-title {
-  display: block;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #8a8f98;
-  margin: 8px 0 2px 0;
-  padding: 0 24px;
-  cursor: default;
-  pointer-events: none;
-  user-select: none;
-}
-.dropdown-group-title.past {
-  margin-top: 16px;
-} 
-
-/* Compact, touch-friendly lesson-list improvements */
-.lesson-list {
-  padding-right:20px;
-}
-
-.lesson-list a {
-  padding: 8px 4px;
-}
-
-.lesson-list li {
-  margin-bottom: 4px;
-}
-
-/* --- SHARE FOOTER ALIGNMENT FIX --- */
-
-/* 1. Ensure the grid stretches both cards to exactly equal heights */
-.accordion {
-  align-items: stretch !important;
-}
-
-/* 2. Fix the card to stretch naturally (removes the buggy height: 100%) */
-.lesson {
-  height: auto !important; 
-  align-self: stretch !important;
-}
-
-/* 3. When expanded, keep it as a flex column instead of a standard block */
-.lesson.expanded .lesson-content {
-  display: flex !important; 
-  flex-direction: column;
-}
-
-/* 4. Force the footer to the absolute bottom */
-.share-footer {
-  margin-top: auto !important;
-}
-
-
-
-/* --- SVG Sprite Helpers --- */
-.svg-icon {
-  display: inline-block;
-  vertical-align: middle;
-  fill: none;
-}
-/* לוגו כותרת */
-.svg-icon-logo {
-  width: 28px;
-  height: 28px;
-  stroke: #1e293b;
-}
-/* חץ תפריט Dropdown */
-.svg-icon-chevron {
-  width: 18px;
-  height: 18px;
-  stroke: #1e293b;
-}
-/* אייקוני תיקייה פתוחה/סגורה */
-.svg-icon-folder {
-  width: 20px;
-  height: 20px;
-  stroke: #8a8f98;
-}
-/* --- END SVG Sprite Helpers --- */
