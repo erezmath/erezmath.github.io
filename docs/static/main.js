@@ -7,6 +7,12 @@ const SUBMIT_SOON_TOPIC_ID = '0-הגשה-בקרוב';
 const SUBMIT_SOON_TOPIC_TITLE = '0. להגשה בקרוב';
 const SUBMIT_SOON_ID_SUFFIX = '-submit-soon';
 
+// --- Utility Functions ---
+// Determine number of lesson columns: 2 on tablet/desktop, 1 on mobile
+function getLessonGridColumns() {
+  return window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
+}
+
 function createSubmitSoonTopic() {
   if (!globalCreateSubmitSoonTopic || !globalSubmitSoonLessons.length) return;
   const topicsList = document.querySelector('.topics-list');
@@ -63,8 +69,7 @@ function setupLessonExpand() {
         // Get ALL lessons on the page, not just in this accordion
         const allLessons = Array.from(document.querySelectorAll('.lesson'));
         
-        // Determine columns: 2 on tablet/desktop, 1 on mobile
-        const columns = window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
+        const columns = getLessonGridColumns();
         let rowStart;
         if (columns === 2) {
           rowStart = idx % 2 === 0 ? idx : idx - 1;
@@ -100,7 +105,7 @@ function setupLessonExpand() {
       header.addEventListener('keydown', function(e) {
         if (e.key === 'Enter' || e.key === ' ') {
           const allLessons = Array.from(document.querySelectorAll('.lesson'));
-          const columns = window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
+          const columns = getLessonGridColumns();
           let rowStart;
           if (columns === 2) {
             rowStart = idx % 2 === 0 ? idx : idx - 1;
@@ -307,7 +312,7 @@ function scrollToHashTarget() {
       if (accordion) {
         const lessons = Array.from(accordion.querySelectorAll('.lesson'));
         const idx = lessons.indexOf(el);
-        const columns = window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
+        const columns = getLessonGridColumns();
         
         if (columns === 2 && idx !== -1) {
           // Find the start of the 2-column row
