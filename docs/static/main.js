@@ -8,7 +8,7 @@ const SUBMIT_SOON_TOPIC_TITLE = '0. להגשה בקרוב';
 const SUBMIT_SOON_ID_SUFFIX = '-submit-soon';
 
 // --- Utility Functions ---
-// Determine number of lesson columns: 2 on tablet/desktop, 1 on mobile
+// Determine columns: 2 on tablet/desktop, 1 on mobile
 function getLessonGridColumns() {
   return window.matchMedia('(min-width: 769px)').matches ? 2 : 1;
 }
@@ -144,21 +144,9 @@ function setupLessonExpand() {
 
 // Sticky topics nav active state (click)
 function setupTopicsNav() {
-  const nav = document.querySelector('.topics-nav');
-  if (!nav) return;
-  const btns = nav.querySelectorAll('.topic-btn');
-  btns.forEach(btn => {
-    btn.addEventListener('click', function() {
-      // Only scroll to the section, do not set .active here
-      const id = this.getAttribute('onclick')?.match(/'(.*?)'/)?.[1];
-      if (id) {
-        const el = document.getElementById(id);
-        if (el) {
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }
-    });
-  });
+  // The click event is already handled directly by the onclick="scrollToTopic('id')" 
+  // attribute on the buttons. The redundant el.scrollIntoView() logic was removed 
+  // from here to allow the precise dynamic scroll math in scrollToTopic() to work.
 }
 
 // Scrollspy for topics nav
@@ -229,11 +217,36 @@ function setupTopicsScrollSpy() {
   onScroll();
 }
 
-// Scroll to topic section
+// Scroll to topic section dynamically adjusting for sticky headers
 function scrollToTopic(id) {
-  const el = document.getElementById(id);
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const section = document.getElementById(id);
+  if (section) {
+    // Target the h2 inside the section for precise scrolling, or fallback to the section itself
+    const h2 = section.querySelector('h2');
+    const targetEl = h2 ? h2 : section;
+    
+    const header = document.querySelector('.site-header');
+    const topicsNav = document.querySelector('.topics-nav');
+    
+    let offset = 0;
+    // Only add heights if the elements are actually sticky on the current page
+    if (header && getComputedStyle(header).position === 'sticky') {
+      offset += header.offsetHeight;
+    }
+    if (topicsNav && getComputedStyle(topicsNav).position === 'sticky') {
+      offset += topicsNav.offsetHeight;
+    }
+    
+    const rect = targetEl.getBoundingClientRect();
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Calculate target scroll with 4px breathing room
+    const targetScroll = rect.top + scrollTop - offset - 4;
+    
+    window.scrollTo({
+      top: targetScroll,
+      behavior: 'smooth'
+    });
   }
 }
 
@@ -288,12 +301,18 @@ function scrollToHashTarget() {
   if (window.location.hash) {
     const el = document.getElementById(window.location.hash.substring(1));
     if (el) {
-      // Get total sticky offset
+      // Get total sticky offset dynamically
       const header = document.querySelector('.site-header');
       const topicsNav = document.querySelector('.topics-nav');
       let offset = 0;
-      if (header) offset += header.offsetHeight;
-      if (topicsNav && getComputedStyle(topicsNav).position === 'sticky') offset += topicsNav.offsetHeight;
+      
+      // Ensure we only calculate offsets if the elements are sticky
+      if (header && getComputedStyle(header).position === 'sticky') {
+        offset += header.offsetHeight;
+      }
+      if (topicsNav && getComputedStyle(topicsNav).position === 'sticky') {
+        offset += topicsNav.offsetHeight;
+      }
       
       const rect = el.getBoundingClientRect();
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
