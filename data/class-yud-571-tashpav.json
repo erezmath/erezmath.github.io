@@ -25,8 +25,13 @@
           "content": [
             {
               "type": "file",
-              "name": "משפטים בגאומטריה לבגרות",
+              "name": "1. משפטים בגאומטריה לבגרות",
               "url": "https://drive.google.com/file/d/1LepqjB-U8M0YR5b042SV-cooMBhL28J-/view"
+            },
+            {
+              "type": "file",
+              "name": "2. משפטים בגיאומטריה - עם ציורים",
+              "url": "https://drive.google.com/file/d/1q_NiXeYgONG41O9uW5GGhHhxz8suCUsP/view"
             }
           ],
           "lesson_json": {}
@@ -1289,7 +1294,7 @@
         },
         {
           "name": "28. פונקצית מנה - סעיפי פרמטרים",
-          "desc": "<p>שעתיים שיעור - נתמקד בסעיפי מציאת פרמטרים.</p>\n<p>הקובץ המלא טוב לתרגול וחזרה לפני מבחן.</p>",
+          "desc": "<p>שעתיים שיעור - נתמקד בסעיפי מציאת פרמטרים.</p>\n<p>הקובץ המלא טוב לתרגול וחזרה לפני מבחן.</p>\n<p>בנוסף, הוספתי קובץ נוסף לתרגול לפני המבחן.</p>",
           "id": "4-30",
           "content": [
             {
@@ -1306,6 +1311,16 @@
               "type": "file",
               "name": "3. פרמטרים - ש.ב",
               "url": "https://drive.google.com/file/d/1fLkfxbGpK0_3z-C9JTRAXZKypgN2bJ_p/view"
+            },
+            {
+              "type": "file",
+              "name": "4. סעיפי פרמטרים - תרגול למבחן - אוסף שאלות עם פתרונות.docx",
+              "url": "https://drive.google.com/file/d/1a9iTfhQMPYCfjEKO2A67IeCSsaZIU_Jh/view"
+            },
+            {
+              "type": "file",
+              "name": "4. סעיפי פרמטרים - תרגול למבחן - אוסף שאלות עם פתרונות",
+              "url": "https://drive.google.com/file/d/1fF6M0uI-VH-rx0_ddjCJqJEGQtBOt6hz/view"
             }
           ],
           "lesson_json": {
@@ -1392,7 +1407,7 @@
             },
             {
               "type": "file",
-              "name": "2. דף עבודה פונקצית מנה - אני יצרתי עם AI",
+              "name": "2. פונקצית מנה - הבע באמצעות עם סעיפי חשיבה שאני כתבתי",
               "url": "https://drive.google.com/file/d/1YbA_LguADMriCaqxPp01gGSuKGqfeLVo/view"
             }
           ],
@@ -1412,6 +1427,11 @@
               "type": "file",
               "name": "2. תרגול בכיתה",
               "url": "https://drive.google.com/file/d/1Jr9gy5qqUsAqoeWa5hvf_9_Y5FnVLlq1/view"
+            },
+            {
+              "type": "file",
+              "name": "3. שיעור בזום",
+              "url": "https://drive.google.com/file/d/1FDmoJkkbgowhY_3cVBoQu-nVOl5coC7e/view"
             }
           ],
           "lesson_json": {
