@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>בוחן עצמי: טריקים באינטגרלים 571</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" 
+            onload="renderMathInElement(document.body, {delimiters: [{left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}]});">
+    </script>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 2px solid #e1e4e8;
+        }
+
+        details {
+            width: 100%;
+        }
+
+        summary {
+            padding: 20px;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #ffffff;
+            transition: background 0.2s;
+        }
+
+        summary:hover {
+            background: #f8f9fa;
+        }
+
+        /* הסרת החץ המובנה של הדפדפן */
+        summary::-webkit-details-marker { display: none; }
+
+        .question-label {
+            align-self: flex-start;
+            font-size: 0.8rem;
+            color: #6c757d;
+            font-weight: bold;
+            margin-bottom: 10px;
+            background: #e9ecef;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .math-question {
+            font-size: 1.4rem;
+            color: #1e40af;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .answer-content {
+            padding: 20px;
+            background: #f0fdf4; /* רקע ירקרק עדין לתשובה */
+            border-top: 2px dashed #bbf7d0;
+            color: #166534;
+        }
+
+        .answer-label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            color: #15803d;
+        }
+
+        .visual-sketch {
+            margin: 10px 0;
+        }
+
+        .reveal-btn {
+            margin-top: 15px;
+            font-size: 0.85rem;
+            color: #3b82f6;
+            text-decoration: underline;
+        }
+
+        details[open] .reveal-btn { display: none; }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: #1e293b; margin-bottom: 10px;">יודע לפתור?</h1>
+    <p style="color: #64748b; margin-bottom: 30px;">לחץ על התרגיל כדי לבדוק את הטריק</p>
+
+    <div class="grid-container">
+
+        <div class="card">
+            <details>
+                <summary>
+                    <span class="question-label">אינטגרל מורכב</span>
+                    <div class="math-question">\[ \int (5x-2)^3 dx \]</div>
+                    <span class="reveal-btn">הצג פתרון</span>
+                </summary>
+                <div class="answer-content">
+                    <span class="answer-label">הפתרון:</span>
+                    \[ \frac{(5x-2)^4}{5 \cdot 4} + C = \frac{(5x-2)^4}{20} + C \]
+                    <small>אל תשכח לחלק בנגזרת הפנימית!</small>
+                </div>
+            </details>
+        </div>
+
+        <div class="card">
+            <details>
+                <summary>
+                    <span class="question-label">פונקציית מנה</span>
+                    <div class="math-question">\[ \int \frac{2x}{x^2+1} dx \]</div>
+                    <span class="reveal-btn">הצג פתרון</span>
+                </summary>
+                <div class="answer-content">
+                    <span class="answer-label">הטריק: המונה הוא הנגזרת של המכנה</span>
+                    \[ \ln|x^2+1| + C \]
+                </div>
+            </details>
+        </div>
+
+        <div class="card">
+            <details>
+                <summary>
+                    <span class="question-label">חישוב שטח</span>
+                    <div class="visual-sketch">
+                        <svg width="140" height="80" viewBox="0 0 140 80">
+                            <path d="M 10,60 Q 70,10 130,60" fill="none" stroke="#3b82f6" stroke-width="2"/>
+                            <line x1="10" y1="60" x2="130" y2="60" stroke="#ef4444" stroke-width="2"/>
+                            <path d="M 30,45 Q 70,25 110,45 L 110,60 L 30,60 Z" fill="#bfdbfe" opacity="0.5"/>
+                            <text x="60" y="55" font-size="10" fill="#1e40af">S=?</text>
+                        </svg>
+                    </div>
+                    <div class="math-question" style="font-size: 1rem;">איך מחשבים את S המסומן?</div>
+                    <span class="reveal-btn">הצג פתרון</span>
+                </summary>
+                <div class="answer-content">
+                    <span class="answer-label">הנוסחא:</span>
+                    \[ S = \int_{x_1}^{x_2} (f_{upper} - f_{lower}) dx \]
+                    <small>אין צורך לפצל אם אחת תמיד מעל השנייה!</small>
+                </div>
+            </details>
+        </div>
+
+        <div class="card">
+            <details>
+                <summary>
+                    <span class="question-label">הזזה אופקית</span>
+                    <div class="math-question">\[ \int_{a+c}^{b+c} f(x-c) dx = ? \]</div>
+                    <span class="reveal-btn">הצג פתרון</span>
+                </summary>
+                <div class="answer-content">
+                    <span class="answer-label">השטח נשאר זהה:</span>
+                    \[ \int_{a}^{b} f(x) dx \]
+                    <small>הזזה של כל הפונקציה וגבולותיה יחד לא משנה את השטח.</small>
+                </div>
+            </details>
+        </div>
+
+        <div class="card">
+            <details>
+                <summary>
+                    <span class="question-label">הערכת שטח (קעירות)</span>
+                    <div class="visual-sketch">
+                        <svg width="140" height="80" viewBox="0 0 140 80">
+                            <path d="M 20,60 Q 70,75 120,20" fill="none" stroke="#3b82f6" stroke-width="2"/>
+                            <line x1="20" y1="60" x2="120" y2="20" stroke="#eab308" stroke-dasharray="3"/>
+                            <text x="40" y="30" font-size="8" fill="#eab308">טרפז</text>
+                        </svg>
+                    </div>
+                    <div class="math-question" style="font-size: 0.9rem;">האם שטח האינטגרל גדול או קטן מהטרפז?</div>
+                    <span class="reveal-btn">הצג פתרון</span>
+                </summary>
+                <div class="answer-content">
+                    <span class="answer-label">תלוי קעירות:</span>
+                    אם \( f''(x) > 0 \) (קעורה כלפי מעלה), השטח **קטן** משטח הטרפז שנוצר ע"י המיתר.
+                </div>
+            </details>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -35,3 +35,758 @@
 2026-04-02 23:15:03,697 [2026-04-02 23:15:03 IST] Copied images
 2026-04-02 23:15:03,698 [2026-04-02 23:15:03 IST] Copied quizes
 2026-04-02 23:15:03,698 [2026-04-02 23:15:03 IST] Site built successfully!
+2026-04-02 23:33:00,157 [2026-04-02 23:33:00 IST] Drive-to-class JSON generation started
+2026-04-02 23:33:00,157 [2026-04-02 23:33:00 IST] Regenerating data with drive_to_class_json.generate_data
+2026-04-02 23:33:00,157 [2026-04-02 23:33:00 IST] Main process started
+2026-04-02 23:33:00,171 file_cache is only supported with oauth2client<4.0.0
+2026-04-02 23:33:00,848 [2026-04-02 23:33:00 IST] Persisted 0 changes to changes_api\changes-02-04-2026_23-33-00.json
+2026-04-02 23:33:00,858 [2026-04-02 23:33:00 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-04-02 23:33:02,112 [2026-04-02 23:33:02 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-04-02 23:33:02,112 [2026-04-02 23:33:02 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-04-02 23:33:03,232 [2026-04-02 23:33:03 IST] Wrote data\class-yud-571-tashpa.json
+2026-04-02 23:33:03,232 [2026-04-02 23:33:03 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-04-02 23:33:03,676 [2026-04-02 23:33:03 IST] Wrote data\class-bagruyot-571.json
+2026-04-02 23:33:03,676 [2026-04-02 23:33:03 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-04-02 23:33:03,724 [2026-04-02 23:33:03 IST] Wrote data\class-bagruyot-472.json
+2026-04-02 23:33:03,724 [2026-04-02 23:33:03 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-04-02 23:33:03,813 [2026-04-02 23:33:03 IST] Wrote data\class-bagruyot-471.json
+2026-04-02 23:33:03,814 [2026-04-02 23:33:03 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-04-02 23:33:03,854 [2026-04-02 23:33:03 IST] Wrote data\class-olimpiada-matematica.json
+2026-04-02 23:33:03,854 [2026-04-02 23:33:03 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-04-02 23:33:04,923 [2026-04-02 23:33:04 IST] Wrote data\class-yud-571-tashpav.json
+2026-04-02 23:33:04,923 [2026-04-02 23:33:04 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK)
+2026-04-02 23:33:06,084 [2026-04-02 23:33:06 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-04-02 23:33:06,085 [2026-04-02 23:33:06 IST] Crawling url_name: yud-bet-572-tashpav (folder_url: https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW)
+2026-04-02 23:33:06,228 [2026-04-02 23:33:06 IST] Wrote data\class-yud-bet-572-tashpav.json
+2026-04-02 23:33:06,228 [2026-04-02 23:33:06 IST] All classes processed. JSON generation complete.
+2026-04-02 23:33:06,229 [2026-04-02 23:33:06 IST] Saved changes state for next run
+2026-04-02 23:33:06,229 [2026-04-02 23:33:06 IST] Data regeneration complete
+2026-04-02 23:33:06,229 [2026-04-02 23:33:06 IST] Main build process started
+2026-04-02 23:33:06,302 [2026-04-02 23:33:06 IST] Loaded 9 class JSON files
+2026-04-02 23:33:06,339 [2026-04-02 23:33:06 IST] Rendered index.html
+2026-04-02 23:33:06,379 [2026-04-02 23:33:06 IST] Rendered all class pages
+2026-04-02 23:33:06,381 [2026-04-02 23:33:06 IST] Copied static assets
+2026-04-02 23:33:06,422 [2026-04-02 23:33:06 IST] Copied images
+2026-04-02 23:33:06,423 [2026-04-02 23:33:06 IST] Copied quizes
+2026-04-02 23:33:06,423 [2026-04-02 23:33:06 IST] Site built successfully!
+2026-04-03 20:51:08,797 [2026-04-03 20:51:08 IST] Drive-to-class JSON generation started
+2026-04-03 20:51:08,797 [2026-04-03 20:51:08 IST] Regenerating data with drive_to_class_json.generate_data
+2026-04-03 20:51:08,797 [2026-04-03 20:51:08 IST] Main process started
+2026-04-03 20:51:09,054 file_cache is only supported with oauth2client<4.0.0
+2026-04-03 20:51:09,885 [2026-04-03 20:51:09 IST] Persisted 46 changes to changes_api\changes-03-04-2026_20-51-09.json
+2026-04-03 20:51:13,678 [2026-04-03 20:51:13 IST] Affected folder IDs (will refetch): 16
+2026-04-03 20:51:13,678 [2026-04-03 20:51:13 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-04-03 20:51:14,347 [2026-04-03 20:51:14 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-04-03 20:51:14,347 [2026-04-03 20:51:14 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-04-03 20:51:14,911 [2026-04-03 20:51:14 IST] Wrote data\class-yud-571-tashpa.json
+2026-04-03 20:51:14,912 [2026-04-03 20:51:14 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-04-03 20:51:15,521 [2026-04-03 20:51:15 IST] Cached listing for folder 1HSc9gBE_3QZkT2Zmn7YrBqJsd6ag9cRD
+2026-04-03 20:51:17,641 [2026-04-03 20:51:17 IST] Cached listing for folder 1HSc9gBE_3QZkT2Zmn7YrBqJsd6ag9cRD
+2026-04-03 20:51:18,251 [2026-04-03 20:51:18 IST] Cached listing for folder 102wUmot4fukLs0GvGG-r5hcMJAOCIGJd
+2026-04-03 20:51:18,892 [2026-04-03 20:51:18 IST] Cached listing for folder 102wUmot4fukLs0GvGG-r5hcMJAOCIGJd
+2026-04-03 20:51:19,647 [2026-04-03 20:51:19 IST] Cached listing for folder 1hiGPfnw_ce8m7dro0bh3xDrAoRSXECsp
+2026-04-03 20:51:20,259 [2026-04-03 20:51:20 IST] Cached listing for folder 1hiGPfnw_ce8m7dro0bh3xDrAoRSXECsp
+2026-04-03 20:51:20,852 [2026-04-03 20:51:20 IST] Cached listing for folder 1zUmsO2x1zzy-QIfqPtSv-xMutHsVAeta
+2026-04-03 20:51:22,178 [2026-04-03 20:51:22 IST] Cached listing for folder 1zUmsO2x1zzy-QIfqPtSv-xMutHsVAeta
+2026-04-03 20:51:22,706 [2026-04-03 20:51:22 IST] Cached listing for folder 1XnNRK8UONeeB_531sQfAdq6glyNJ65C7
+2026-04-03 20:51:22,763 [2026-04-03 20:51:22 IST] Wrote data\class-bagruyot-571.json
+2026-04-03 20:51:22,763 [2026-04-03 20:51:22 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-04-03 20:51:22,775 [2026-04-03 20:51:22 IST] Wrote data\class-bagruyot-472.json
+2026-04-03 20:51:22,776 [2026-04-03 20:51:22 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-04-03 20:51:22,819 [2026-04-03 20:51:22 IST] Wrote data\class-bagruyot-471.json
+2026-04-03 20:51:22,820 [2026-04-03 20:51:22 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-04-03 20:51:22,840 [2026-04-03 20:51:22 IST] Wrote data\class-olimpiada-matematica.json
+2026-04-03 20:51:22,840 [2026-04-03 20:51:22 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-04-03 20:51:23,391 [2026-04-03 20:51:23 IST] Wrote data\class-yud-571-tashpav.json
+2026-04-03 20:51:23,391 [2026-04-03 20:51:23 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK)
+2026-04-03 20:51:23,991 [2026-04-03 20:51:23 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-04-03 20:51:23,991 [2026-04-03 20:51:23 IST] Crawling url_name: yud-bet-572-tashpav (folder_url: https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW)
+2026-04-03 20:51:24,663 [2026-04-03 20:51:24 IST] Cached listing for folder 1w6BkHGsvMu3Sm8Q573fhH-vfV7CiU0ol
+2026-04-03 20:51:25,272 [2026-04-03 20:51:25 IST] Cached listing for folder 1w6BkHGsvMu3Sm8Q573fhH-vfV7CiU0ol
+2026-04-03 20:51:25,827 [2026-04-03 20:51:25 IST] Cached listing for folder 1_2xuWDYTFEeUy1c9kEo4PHSXq3eNiANj
+2026-04-03 20:51:26,437 [2026-04-03 20:51:26 IST] Cached listing for folder 1_2xuWDYTFEeUy1c9kEo4PHSXq3eNiANj
+2026-04-03 20:51:27,044 [2026-04-03 20:51:27 IST] Cached listing for folder 1d5ZZvlp_3GNxdn0XUE5PPszvlBdNqwws
+2026-04-03 20:51:27,590 [2026-04-03 20:51:27 IST] Cached listing for folder 1d5ZZvlp_3GNxdn0XUE5PPszvlBdNqwws
+2026-04-03 20:51:27,642 [2026-04-03 20:51:27 IST] Wrote data\class-yud-bet-572-tashpav.json
+2026-04-03 20:51:27,642 [2026-04-03 20:51:27 IST] All classes processed. JSON generation complete.
+2026-04-03 20:51:27,643 [2026-04-03 20:51:27 IST] Saved changes state for next run
+2026-04-03 20:51:27,643 [2026-04-03 20:51:27 IST] Data regeneration complete
+2026-04-03 20:51:27,643 [2026-04-03 20:51:27 IST] Main build process started
+2026-04-03 20:51:27,701 [2026-04-03 20:51:27 IST] Loaded 9 class JSON files
+2026-04-03 20:51:27,712 [2026-04-03 20:51:27 IST] Rendered index.html
+2026-04-03 20:51:27,743 [2026-04-03 20:51:27 IST] Rendered all class pages
+2026-04-03 20:51:27,745 [2026-04-03 20:51:27 IST] Copied static assets
+2026-04-03 20:51:27,788 [2026-04-03 20:51:27 IST] Copied images
+2026-04-03 20:51:27,789 [2026-04-03 20:51:27 IST] Copied quizes
+2026-04-03 20:51:27,789 [2026-04-03 20:51:27 IST] Site built successfully!
+2026-04-03 21:13:48,250 [2026-04-03 21:13:48 IST] Drive-to-class JSON generation started
+2026-04-03 21:13:48,343 [2026-04-03 21:13:48 IST] Cleared all folder listing cache
+2026-04-03 21:13:48,410 [2026-04-03 21:13:48 IST] Cleared all lesson object cache
+2026-04-03 21:13:48,410 [2026-04-03 21:13:48 IST] Cleared changes state (startPageToken)
+2026-04-03 21:13:48,410 [2026-04-03 21:13:48 IST] Cleared folder listing and lesson caches
+2026-04-03 21:13:48,410 [2026-04-03 21:13:48 IST] Regenerating data with drive_to_class_json.generate_data
+2026-04-03 21:13:48,410 [2026-04-03 21:13:48 IST] Main process started
+2026-04-03 21:13:48,423 file_cache is only supported with oauth2client<4.0.0
+2026-04-03 21:13:48,425 [2026-04-03 21:13:48 IST] Crawling url_name: tet-metzuyanut-tashpa (folder_url: https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV)
+2026-04-03 21:13:49,428 [2026-04-03 21:13:49 IST] Cached listing for folder 1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV
+2026-04-03 21:13:50,050 [2026-04-03 21:13:50 IST] Cached listing for folder 1CsnDgRgDyaM_QcGpT4nq50u9euuJe6by
+2026-04-03 21:13:50,614 [2026-04-03 21:13:50 IST] Cached listing for folder 1XyuYT6Q_WOlY9yYk0Wik0jPFBy-vF_cx
+2026-04-03 21:13:51,195 [2026-04-03 21:13:51 IST] Cached listing for folder 1_OudhF7WBeVYhZHT8gSUVDst8LKzWzm_
+2026-04-03 21:13:51,771 [2026-04-03 21:13:51 IST] Cached listing for folder 1I57S--6j8p0dZtS5oPvmtKWrcP_SHzLB
+2026-04-03 21:13:52,319 [2026-04-03 21:13:52 IST] Cached listing for folder 1ScmZtVOujleWDlvTkbPlg-YWREAEeLb9
+2026-04-03 21:13:52,848 [2026-04-03 21:13:52 IST] Cached listing for folder 1PasreFsuHIP_x0x4zc7BadkVwSTrZla9
+2026-04-03 21:13:53,462 [2026-04-03 21:13:53 IST] Cached listing for folder 1fspZnl5Qyo32x2paTkJ-LWMKKgyz46IW
+2026-04-03 21:13:53,984 [2026-04-03 21:13:53 IST] Cached listing for folder 1n6MQQkFaCQ66A5z29Bkd2MK8T8D-aVdX
+2026-04-03 21:13:54,573 [2026-04-03 21:13:54 IST] Cached listing for folder 1cjC4Lcg5UqHp9FNcYw1hzFsXzFhBHFPE
+2026-04-03 21:13:55,148 [2026-04-03 21:13:55 IST] Cached listing for folder 124DXLYggYqshxN8mMnl0TzToZztC4xyA
+2026-04-03 21:13:55,707 [2026-04-03 21:13:55 IST] Cached listing for folder 1Goev7D9i1pXABIpFXmhBRgIcrsdSLu2M
+2026-04-03 21:13:56,231 [2026-04-03 21:13:56 IST] Cached listing for folder 1VuM4GnmQnfUijflyN0isUpoi77JS8kf4
+2026-04-03 21:13:56,760 [2026-04-03 21:13:56 IST] Cached listing for folder 1bLf7gpSdvT7GxtKPgv0a7UXHiYTJZbsb
+2026-04-03 21:13:57,338 [2026-04-03 21:13:57 IST] Cached listing for folder 14nWf33E12MPiVCE3uXwhgJQUp0Bg-484
+2026-04-03 21:13:57,939 [2026-04-03 21:13:57 IST] Cached listing for folder 1H_vpbvV64of1NnywPFKlkv9Fqt4lE1Wx
+2026-04-03 21:13:58,485 [2026-04-03 21:13:58 IST] Cached listing for folder 1JOxQEYipBKsMBWLQCX2s8HCMzNa_9ODY
+2026-04-03 21:13:59,072 [2026-04-03 21:13:59 IST] Cached listing for folder 1Sr1YP-tH_0L1-6t4yqk68SJfIwVFmLUO
+2026-04-03 21:13:59,669 [2026-04-03 21:13:59 IST] Cached listing for folder 1X9mnFzz7EOclnkGqSJ1j0ykujgXDjFGA
+2026-04-03 21:14:00,552 [2026-04-03 21:14:00 IST] Cached listing for folder 1U-UNc2u1xwcGiQm3Uxkg9cvsft9cE2Zo
+2026-04-03 21:14:01,082 [2026-04-03 21:14:01 IST] Cached listing for folder 1Pwv8kSEWDUfn7cL_xxLwU3MJQ6zqdes1
+2026-04-03 21:14:01,664 [2026-04-03 21:14:01 IST] Cached listing for folder 12bhaoR6XJe4lNCF9GuKITb4sd1Unsciy
+2026-04-03 21:14:02,251 [2026-04-03 21:14:02 IST] Cached listing for folder 1AHhsT6tTn8tbw7FlWxSYbjFz-tHJV5Cb
+2026-04-03 21:14:02,821 [2026-04-03 21:14:02 IST] Cached listing for folder 1iAsIH9aRIn1BmbrPUaletsPBE1SRbfLi
+2026-04-03 21:14:03,382 [2026-04-03 21:14:03 IST] Cached listing for folder 1i5kS2A25NrHb4nXVkl-VLmouvR2_xXWo
+2026-04-03 21:14:03,944 [2026-04-03 21:14:03 IST] Cached listing for folder 1gJO7hIZ9aBMC1aXKfnmwm_YEIKVJW72M
+2026-04-03 21:14:04,508 [2026-04-03 21:14:04 IST] Cached listing for folder 1YoDKH1BouQwkxXHJHaxpBD00CC6IKPBj
+2026-04-03 21:14:05,353 [2026-04-03 21:14:05 IST] Cached listing for folder 1lsK9YCM9XFmqH2LlWw8uU1NfdT72bPiY
+2026-04-03 21:14:05,935 [2026-04-03 21:14:05 IST] Cached listing for folder 1hnR-Eftz9sIapC7AePLTiAMuteIBYKjT
+2026-04-03 21:14:06,507 [2026-04-03 21:14:06 IST] Cached listing for folder 13qNZAUNM7phSo0-e4vlkj4MAprW6rxbs
+2026-04-03 21:14:06,999 [2026-04-03 21:14:06 IST] Cached listing for folder 1Ba35of1pwoigdgZpygwCYCc_mEVnXxjQ
+2026-04-03 21:14:07,518 [2026-04-03 21:14:07 IST] Cached listing for folder 1vGcI2fiZ98Dm_V5YRQtWwrH1zJtt17ov
+2026-04-03 21:14:08,114 [2026-04-03 21:14:08 IST] Cached listing for folder 1D2zf0c6z32JEZFFTG1phkaNJXL10UpQn
+2026-04-03 21:14:08,669 [2026-04-03 21:14:08 IST] Cached listing for folder 1oK-XrlAhrtFRb8EvEj3oSbQn1-311KU4
+2026-04-03 21:14:09,229 [2026-04-03 21:14:09 IST] Cached listing for folder 1hWYgGnmZy_yxvtYSEYhL1iexmtZR74wJ
+2026-04-03 21:14:09,775 [2026-04-03 21:14:09 IST] Cached listing for folder 1uRxQNSYNYWXx0Ncd2cXXr_kMPOmRkH95
+2026-04-03 21:14:10,318 [2026-04-03 21:14:10 IST] Cached listing for folder 1hNS6QcY-IsGdM73g5QAZfADKX8_cjnFX
+2026-04-03 21:14:10,864 [2026-04-03 21:14:10 IST] Cached listing for folder 1Jz2deJJ3rsH0wrYpdUZwbVPBikLLpigW
+2026-04-03 21:14:11,466 [2026-04-03 21:14:11 IST] Cached listing for folder 1-D-SFQWlYb3smZBAUoHEq4nCqeiUpDni
+2026-04-03 21:14:12,011 [2026-04-03 21:14:12 IST] Cached listing for folder 1MbdSqBG78Yo2HwhAa5rN_Li56yq7rk_X
+2026-04-03 21:14:12,642 [2026-04-03 21:14:12 IST] Cached listing for folder 1rnh_AMQ8CCZ-TImJXJ3tAUyWMARpM-HZ
+2026-04-03 21:14:13,193 [2026-04-03 21:14:13 IST] Cached listing for folder 1vNhjzBjCP7wT7vj4nuircQhy7EHeSK8X
+2026-04-03 21:14:13,714 [2026-04-03 21:14:13 IST] Cached listing for folder 1DmSqD2E5QOPZycxtSGjU0a0Hc7Y7ICpU
+2026-04-03 21:14:14,291 [2026-04-03 21:14:14 IST] Cached listing for folder 1XOTeu-v_nUyZ4j2gJoJBedpJLkbVgnZD
+2026-04-03 21:14:14,866 [2026-04-03 21:14:14 IST] Cached listing for folder 1QHMgskqw2KLv2a1cfV6JhS4dUNfMF50m
+2026-04-03 21:14:15,390 [2026-04-03 21:14:15 IST] Cached listing for folder 13krCiQuHrOgAq2kZbVliLwvSBV-oDsiq
+2026-04-03 21:14:15,948 [2026-04-03 21:14:15 IST] Cached listing for folder 1ZZkvt0BSHrJZvNmtetagbksNyBJxoMzV
+2026-04-03 21:14:16,468 [2026-04-03 21:14:16 IST] Cached listing for folder 1TVDhljVEmOY05yoVDc9UZYUOWcgBFANN
+2026-04-03 21:14:17,064 [2026-04-03 21:14:17 IST] Cached listing for folder 1NweCoXHZW2qUQxiHqLAxOMStR1328Kr2
+2026-04-03 21:14:17,626 [2026-04-03 21:14:17 IST] Cached listing for folder 1F9exK2aipYYsQhCQicDeD4eIT7aFt3ay
+2026-04-03 21:14:18,310 [2026-04-03 21:14:18 IST] Cached listing for folder 16xhKi-TYaf88l7FxDpKKAZq_KWppqBp5
+2026-04-03 21:14:18,849 [2026-04-03 21:14:18 IST] Cached listing for folder 13g5s8msrHR2cnsgilDkmj3ooDgzIA1Du
+2026-04-03 21:14:19,380 [2026-04-03 21:14:19 IST] Cached listing for folder 1LXxDsVCAEqBl4u5VPleerWyHTFiDZh28
+2026-04-03 21:14:19,945 [2026-04-03 21:14:19 IST] Cached listing for folder 1I7e9tFwzQujpziYYxM0wW3Mwze6WFhSu
+2026-04-03 21:14:20,513 [2026-04-03 21:14:20 IST] Cached listing for folder 1_dQwUz4btmqkLkjp7wX0q7gwEmJmEGYU
+2026-04-03 21:14:21,111 [2026-04-03 21:14:21 IST] Cached listing for folder 1bXgxUjluAgpSPIC8pcM1m74FWSS2YOgx
+2026-04-03 21:14:21,631 [2026-04-03 21:14:21 IST] Cached listing for folder 147RfHDZ2IvCPzYPU52FnLJ3f_BnlHl6j
+2026-04-03 21:14:22,180 [2026-04-03 21:14:22 IST] Cached listing for folder 1dcle61sbVWyuZSj64FLv5M73OrrLEQuK
+2026-04-03 21:14:22,728 [2026-04-03 21:14:22 IST] Cached listing for folder 1RmxnIG-_gS3xOKBLgkEXfNhichdjrvqb
+2026-04-03 21:14:23,332 [2026-04-03 21:14:23 IST] Cached listing for folder 1qyrBBouKa9mWXKoyo_P3nMlrIvwxMMQd
+2026-04-03 21:14:23,913 [2026-04-03 21:14:23 IST] Cached listing for folder 1Zth7C-bg1leAiastFKpIDD7I1VJMb71N
+2026-04-03 21:14:24,427 [2026-04-03 21:14:24 IST] Cached listing for folder 1EzzRJf1eLIiP8-rxmAUF3BGYy6ZUUfLq
+2026-04-03 21:14:25,015 [2026-04-03 21:14:25 IST] Cached listing for folder 1cykGsaHoc3PxDkAgb768nPncoJUa4scL
+2026-04-03 21:14:25,587 [2026-04-03 21:14:25 IST] Cached listing for folder 1tcBnw6dMSDsoJmftLw7SImlkI4ZUoMNo
+2026-04-03 21:14:26,149 [2026-04-03 21:14:26 IST] Cached listing for folder 1AN1okneoVE-DSaX4QXjEFVusc4RIclsx
+2026-04-03 21:14:26,719 [2026-04-03 21:14:26 IST] Cached listing for folder 1v4aFuobYAx6QEyZVtxcjXq3VXQy_ArD5
+2026-04-03 21:14:27,280 [2026-04-03 21:14:27 IST] Cached listing for folder 1XfumxBnjKOIO5YSwxgZOLRar1_0mj7qq
+2026-04-03 21:14:27,841 [2026-04-03 21:14:27 IST] Cached listing for folder 1lNC0cze26_m8cFlpDRuGBV4V6RvwuOCX
+2026-04-03 21:14:28,331 [2026-04-03 21:14:28 IST] Cached listing for folder 1ONgZ2mdrzBsvU9Grw_Ey_FuQiBEIkMKQ
+2026-04-03 21:14:28,872 [2026-04-03 21:14:28 IST] Cached listing for folder 1ZzWAo0FDBrcLL4MPYkFKjVIH_X8Aq5H2
+2026-04-03 21:14:29,497 [2026-04-03 21:14:29 IST] Cached listing for folder 1TveCjSzctmZWf2OlF4pE_gglXtmCSN9V
+2026-04-03 21:14:30,010 [2026-04-03 21:14:30 IST] Cached listing for folder 1m7ACOeEioOrl-W4xNCfbPfO9jVTh33WZ
+2026-04-03 21:14:30,533 [2026-04-03 21:14:30 IST] Cached listing for folder 1I_5_O276ZayrDiDvUfO0ws8Rt2bEVqRb
+2026-04-03 21:14:31,079 [2026-04-03 21:14:31 IST] Cached listing for folder 1FQY_KOGIURkwSk8Clo7SBIqVSEESHcuQ
+2026-04-03 21:14:31,592 [2026-04-03 21:14:31 IST] Cached listing for folder 1kHpDCj-YDiwwDSZlpVd-93W8s3IrBBjd
+2026-04-03 21:14:32,212 [2026-04-03 21:14:32 IST] Cached listing for folder 1LgtjnTVLoagnDhIKkL5CRpS5zaNP50j3
+2026-04-03 21:14:32,938 [2026-04-03 21:14:32 IST] Cached listing for folder 1NREZLHr6oCplytSLnkjU3xty97HeGePo
+2026-04-03 21:14:33,528 [2026-04-03 21:14:33 IST] Cached listing for folder 1iRB_4HUsMBdk9p10oP_e-h5TQuoZHw3X
+2026-04-03 21:14:34,123 [2026-04-03 21:14:34 IST] Cached listing for folder 1p2uOXlcVrNsb4SWePa1q1oeKgJMNgJr3
+2026-04-03 21:14:34,655 [2026-04-03 21:14:34 IST] Cached listing for folder 1JB2mq5DH6WYqcQGK3M_kTt3Ky9sTVsuT
+2026-04-03 21:14:35,223 [2026-04-03 21:14:35 IST] Cached listing for folder 1aSo4WSVjoM24EHQh5MK1upJ8dqb16qzT
+2026-04-03 21:14:35,757 [2026-04-03 21:14:35 IST] Cached listing for folder 1LteCVV--kDHfJiGG43YgGqHWdYkHbbQY
+2026-04-03 21:14:36,525 [2026-04-03 21:14:36 IST] Cached listing for folder 1063T-opBStB6TKTMuRQFXz2PGnKvP7xN
+2026-04-03 21:14:37,050 [2026-04-03 21:14:37 IST] Cached listing for folder 1xjjfw3db5y5OmEJ1Od1v1UOoQyR2lk1t
+2026-04-03 21:14:37,628 [2026-04-03 21:14:37 IST] Cached listing for folder 1_xVTyEYsfbV7vLZnBrd5Rm8eEeAgUj4T
+2026-04-03 21:14:38,192 [2026-04-03 21:14:38 IST] Cached listing for folder 1JbSl5qQHhPhuJkxegfD73m4QNTjCFWNr
+2026-04-03 21:14:38,748 [2026-04-03 21:14:38 IST] Cached listing for folder 1MIUEU5Eu-SqimuKxTeWP_UCLMd5vum-x
+2026-04-03 21:14:39,257 [2026-04-03 21:14:39 IST] Cached listing for folder 16Wt0PlnIA8kFHaJATxYx8U_SICF-PI5A
+2026-04-03 21:14:39,790 [2026-04-03 21:14:39 IST] Cached listing for folder 1l-WC3QS5xyg1fN3B3byCRl1iw2UXJLJM
+2026-04-03 21:14:40,353 [2026-04-03 21:14:40 IST] Cached listing for folder 12cGefSA0ACxb79WBDxanTnzrBPIQnKGg
+2026-04-03 21:14:40,927 [2026-04-03 21:14:40 IST] Cached listing for folder 1hHzbwQDpvfTpalseG3-AnRt1ozFkC8r-
+2026-04-03 21:14:41,545 [2026-04-03 21:14:41 IST] Cached listing for folder 1fnv_oC8nB20HMVSXJ0FWZ5AuvFCyw48g
+2026-04-03 21:14:42,116 [2026-04-03 21:14:42 IST] Cached listing for folder 1MB-qfQ0GcvNbqCDJBpssrvYv7Y7OxbAD
+2026-04-03 21:14:42,638 [2026-04-03 21:14:42 IST] Cached listing for folder 1P5AK5ZXfeIK5AH6jdTPF9j7fSpq1TA70
+2026-04-03 21:14:43,200 [2026-04-03 21:14:43 IST] Cached listing for folder 16IDMG89MLEMd4-6R5qUG-duiBwDlMTK_
+2026-04-03 21:14:43,736 [2026-04-03 21:14:43 IST] Cached listing for folder 1pIFTHM1rn41P-cm5eYTvZAybSPauNOE2
+2026-04-03 21:14:44,242 [2026-04-03 21:14:44 IST] Cached listing for folder 16tvWdPzfoiH1L5ZVruCmhqXR_W_JEIiY
+2026-04-03 21:14:44,757 [2026-04-03 21:14:44 IST] Cached listing for folder 1osfXK4A5G5chQ3Zxv1mAFW4g91eVBWkP
+2026-04-03 21:14:45,275 [2026-04-03 21:14:45 IST] Cached listing for folder 1oX9rkt9X7PNSowPa2T1GpmZBg-UdjfGk
+2026-04-03 21:14:45,772 [2026-04-03 21:14:45 IST] Cached listing for folder 1hrzvsZdDd09BJuKntYFM-FqudG4hkQYQ
+2026-04-03 21:14:46,388 [2026-04-03 21:14:46 IST] Cached listing for folder 1ccSViZkv-scJWGdme7VBVjbycvKD9KCo
+2026-04-03 21:14:46,932 [2026-04-03 21:14:46 IST] Cached listing for folder 1VeNMSjM7to2AoiAHfBYjBsIrPI5zDqnG
+2026-04-03 21:14:47,537 [2026-04-03 21:14:47 IST] Cached listing for folder 1DW6QgqsJr2c8WETgM3_nSWzoNdO6xuBz
+2026-04-03 21:14:48,090 [2026-04-03 21:14:48 IST] Cached listing for folder 1qAvdgOXXszOejW85BisTsqWo-CMsOVJ1
+2026-04-03 21:14:48,653 [2026-04-03 21:14:48 IST] Cached listing for folder 14PO_9IPJLIb7LAJjr_vhgafGT7fA4d6K
+2026-04-03 21:14:49,215 [2026-04-03 21:14:49 IST] Cached listing for folder 1dMBiSDFs3BYtjd51KjyVREyxwk_cbj-t
+2026-04-03 21:14:49,824 [2026-04-03 21:14:49 IST] Cached listing for folder 1QyCnE3oO1u4AAfFTOicmCQ_xKL02jcup
+2026-04-03 21:14:50,370 [2026-04-03 21:14:50 IST] Cached listing for folder 1MTjmHQDwseTPOg1YNbOZUOEbf-BbxVKv
+2026-04-03 21:14:50,896 [2026-04-03 21:14:50 IST] Cached listing for folder 1QfWpO460ctzlyNlEz314mQNJ61y3Mi6Q
+2026-04-03 21:14:51,647 [2026-04-03 21:14:51 IST] Cached listing for folder 1uaZ00UpoLM7DoLv3g6Q1XUCgzVwGPk6o
+2026-04-03 21:14:52,143 [2026-04-03 21:14:52 IST] Cached listing for folder 1mRAKQEw13mgEuTv774xMn8X8Lz_KT1Nm
+2026-04-03 21:14:52,677 [2026-04-03 21:14:52 IST] Cached listing for folder 12ERCoSFG7wAlJBN-t3HZ3s9NG-WDS4Zd
+2026-04-03 21:14:53,539 [2026-04-03 21:14:53 IST] Cached listing for folder 1rjlEMPcIfxsZioMmz28X3TH4bSeqo8Vi
+2026-04-03 21:14:54,145 [2026-04-03 21:14:54 IST] Cached listing for folder 1vGYu5u6rJoC6EFV14kZbKa14IumDjCLz
+2026-04-03 21:14:54,749 [2026-04-03 21:14:54 IST] Cached listing for folder 1lecJG_F8KF31NlkwtkFDbj6mC-SKSxCS
+2026-04-03 21:14:55,290 [2026-04-03 21:14:55 IST] Cached listing for folder 1Bch0naYswDtGZSI6tKMsEubTJNhAF6Kc
+2026-04-03 21:14:55,875 [2026-04-03 21:14:55 IST] Cached listing for folder 1Bh1lTrvJSAKjbPp-0y-mJOUuYSkJ5AHk
+2026-04-03 21:14:56,395 [2026-04-03 21:14:56 IST] Cached listing for folder 12va2NJ-TnN1QkSmT1R_beAPU4H7Ky2cy
+2026-04-03 21:14:56,942 [2026-04-03 21:14:56 IST] Cached listing for folder 1ZTh1rs9c4JwEJk7a2YmD9QOt0lD7S0y6
+2026-04-03 21:14:57,475 [2026-04-03 21:14:57 IST] Cached listing for folder 1764t232autVDRFrPIrwtRhaFMsDfCxyi
+2026-04-03 21:14:58,073 [2026-04-03 21:14:58 IST] Cached listing for folder 1I-sopc3sJFD-Cpk8Qlt58IV-2UcT_EmM
+2026-04-03 21:14:58,598 [2026-04-03 21:14:58 IST] Cached listing for folder 1ibJgnHNHkIuFinjUMQ5eb_AO_16C2s9W
+2026-04-03 21:14:59,146 [2026-04-03 21:14:59 IST] Cached listing for folder 15oj6GxNay3hbxUSjMmzEopKFgps1RJRi
+2026-04-03 21:14:59,718 [2026-04-03 21:14:59 IST] Cached listing for folder 1y2QIjvNSfhT-gTu0H73Ey_ZXfLRws5JN
+2026-04-03 21:15:00,307 [2026-04-03 21:15:00 IST] Cached listing for folder 1eagAvah1gv-QGhoVLb18VkO7aNy6Ad0V
+2026-04-03 21:15:00,853 [2026-04-03 21:15:00 IST] Cached listing for folder 1Iv-iwAVCqbEw72qrGXltdqcAmVKiTeeX
+2026-04-03 21:15:01,402 [2026-04-03 21:15:01 IST] Cached listing for folder 16y71AyI7PwboX-Mu89xN3Lu5Iy9wFT6G
+2026-04-03 21:15:01,940 [2026-04-03 21:15:01 IST] Cached listing for folder 11gqALsLjlalxP2DEmP_7YqBTY8UcTHI9
+2026-04-03 21:15:02,477 [2026-04-03 21:15:02 IST] Cached listing for folder 1Pi4aexnzdjYynRR1nLzHsNDJwVgU4VMz
+2026-04-03 21:15:03,113 [2026-04-03 21:15:03 IST] Cached listing for folder 1FcoBuzBQR4IWyiUNcABN4cENiLE61GDz
+2026-04-03 21:15:03,638 [2026-04-03 21:15:03 IST] Cached listing for folder 1gVdAlZoiO0PRmw3gokbfAoy_XF155v3q
+2026-04-03 21:15:04,170 [2026-04-03 21:15:04 IST] Cached listing for folder 1dQEbUPP-6OF5RA-QJWK15iGM5W1We9XL
+2026-04-03 21:15:04,752 [2026-04-03 21:15:04 IST] Cached listing for folder 1qsoqkEKGzqA-LXw-vfTaRhD1AB0hDMUJ
+2026-04-03 21:15:05,283 [2026-04-03 21:15:05 IST] Cached listing for folder 1soxlZc3CPTVkee6aTKDS195TmzfCC11E
+2026-04-03 21:15:05,828 [2026-04-03 21:15:05 IST] Cached listing for folder 1eFHB7tnxpTAYiacy8tCXGOFtF9xPM7Uu
+2026-04-03 21:15:06,373 [2026-04-03 21:15:06 IST] Cached listing for folder 1Kzmdu1QnwzwiY4cPE3sNzB2kQ--dvFDx
+2026-04-03 21:15:06,906 [2026-04-03 21:15:06 IST] Cached listing for folder 1RvEacxdL7lQPy0V0Y3Xp6DX5-XjhWvSU
+2026-04-03 21:15:07,451 [2026-04-03 21:15:07 IST] Cached listing for folder 1drbFpPQ46qJXoN3Ogr5H3SHxDqDOOtDu
+2026-04-03 21:15:08,024 [2026-04-03 21:15:08 IST] Cached listing for folder 1F6PukbUitVnHi43T-6xSyK6GR50Cp0Nv
+2026-04-03 21:15:08,660 [2026-04-03 21:15:08 IST] Cached listing for folder 13fbYq8zM0YNfDKxTBTSKCHKVEWv1-TYe
+2026-04-03 21:15:09,179 [2026-04-03 21:15:09 IST] Cached listing for folder 1O4SuSzwWcX6kR0d9ndAWlSfdWWDoOUvj
+2026-04-03 21:15:09,752 [2026-04-03 21:15:09 IST] Cached listing for folder 15nyJtM1NV-uE-8nCWy2DYkq8WUvqQdXs
+2026-04-03 21:15:10,287 [2026-04-03 21:15:10 IST] Cached listing for folder 1ZDC6DpeJH02YTZ7AtcHHMv7ED3orZo6a
+2026-04-03 21:15:10,782 [2026-04-03 21:15:10 IST] Cached listing for folder 15lXn1-ounbtP9W3G34u9LLhqskFIXmXu
+2026-04-03 21:15:11,275 [2026-04-03 21:15:11 IST] Cached listing for folder 1em7PZp9bW8LrmSTHyMTUc4YPU6RXWou1
+2026-04-03 21:15:11,918 [2026-04-03 21:15:11 IST] Cached listing for folder 19umEQdJJFt3_DI5PTjzoP4OwFWSHDhy2
+2026-04-03 21:15:12,473 [2026-04-03 21:15:12 IST] Cached listing for folder 1yIwHiMLnuk5lZIMLrMeVfF19Os6G7dpX
+2026-04-03 21:15:13,021 [2026-04-03 21:15:13 IST] Cached listing for folder 1mcva1ThK-BUqHZXkJMihrSnZqOvKlW-b
+2026-04-03 21:15:13,540 [2026-04-03 21:15:13 IST] Cached listing for folder 1Lx1Mv_YrElYhhNT_m0IXci_FP2Xom001
+2026-04-03 21:15:14,044 [2026-04-03 21:15:14 IST] Cached listing for folder 1OTYNq_Q7ETn4kBRRM-VMlMnqO8GFHLAB
+2026-04-03 21:15:14,556 [2026-04-03 21:15:14 IST] Cached listing for folder 1hKX5mpLHFaGUU6HE6rZxKLim-xQWjpOP
+2026-04-03 21:15:15,077 [2026-04-03 21:15:15 IST] Cached listing for folder 1j5puo7ubJctzOUC1hIuw9SGL_pCAq2sx
+2026-04-03 21:15:15,641 [2026-04-03 21:15:15 IST] Cached listing for folder 1jI9h9VTJ9wdKX127QffnbNjgigp4lgGI
+2026-04-03 21:15:15,651 [2026-04-03 21:15:15 IST] Wrote data\class-tet-metzuyanut-tashpa.json
+2026-04-03 21:15:15,651 [2026-04-03 21:15:15 IST] Crawling url_name: yud-571-tashpa (folder_url: https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa)
+2026-04-03 21:15:16,205 [2026-04-03 21:15:16 IST] Cached listing for folder 1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa
+2026-04-03 21:15:16,728 [2026-04-03 21:15:16 IST] Cached listing for folder 18sw3xK48cAiTo5Q0Zm3_s_D3oQEOZtAM
+2026-04-03 21:15:17,238 [2026-04-03 21:15:17 IST] Cached listing for folder 1PjONp7bvh-ZEh-8mIXtFQbzNPDY29Jlx
+2026-04-03 21:15:17,978 [2026-04-03 21:15:17 IST] Cached listing for folder 1T_LGdyO7-ABjMvgKqlMRuqaTkNPik6Jp
+2026-04-03 21:15:18,595 [2026-04-03 21:15:18 IST] Cached listing for folder 1FCez9SOuOIMg6CzKizZBPVuvwD4pTdfV
+2026-04-03 21:15:19,127 [2026-04-03 21:15:19 IST] Cached listing for folder 1O_waHIwrbu8Tey5OuaYlHTOev_b8JHaS
+2026-04-03 21:15:19,746 [2026-04-03 21:15:19 IST] Cached listing for folder 1Yfqz2y_gA-rNKEgzbExzUCloyJGeVfHz
+2026-04-03 21:15:20,288 [2026-04-03 21:15:20 IST] Cached listing for folder 1O9h--U6bUutJ5jQRv1hy5s0FZ45ue6pb
+2026-04-03 21:15:20,924 [2026-04-03 21:15:20 IST] Cached listing for folder 1gOcRr7DNXajQ97hQMM6OiNG3QNAWXeFG
+2026-04-03 21:15:21,489 [2026-04-03 21:15:21 IST] Cached listing for folder 1KzLG6nIjf4BFN8FYhthZcHIGb4T05FbW
+2026-04-03 21:15:22,113 [2026-04-03 21:15:22 IST] Cached listing for folder 1Der7vFXuhcRyzfU6CTGjR-lvvsO0El97
+2026-04-03 21:15:22,713 [2026-04-03 21:15:22 IST] Cached listing for folder 13HeHpmRYtVzrsj5sIM54LN33YpKn8VOW
+2026-04-03 21:15:23,256 [2026-04-03 21:15:23 IST] Cached listing for folder 15L65OqybqOGqZqQywBVyJ2RbIoijYANq
+2026-04-03 21:15:23,864 [2026-04-03 21:15:23 IST] Cached listing for folder 1Tx4a-hK65at9EC1wRhP3D9kVeN7OUCQh
+2026-04-03 21:15:24,408 [2026-04-03 21:15:24 IST] Cached listing for folder 1anfXwumS7BlPqMWKKsJimSzwgzfgYuIX
+2026-04-03 21:15:24,949 [2026-04-03 21:15:24 IST] Cached listing for folder 1q7ibHZ-xiGUS9ofSdr5D3UQa_hYPO2C0
+2026-04-03 21:15:25,490 [2026-04-03 21:15:25 IST] Cached listing for folder 1bmcnygJYuG7ndkZty5_17mX42Zqw0kJm
+2026-04-03 21:15:26,039 [2026-04-03 21:15:26 IST] Cached listing for folder 1p_NszdDAjIgOQULa99kclsGwUdEY11_n
+2026-04-03 21:15:26,565 [2026-04-03 21:15:26 IST] Cached listing for folder 1UD7QTfXGkLo64woGfGoLetwu73AhUOgB
+2026-04-03 21:15:27,180 [2026-04-03 21:15:27 IST] Cached listing for folder 1KE50lcryLsvOCvCAj-AYWQ5YdXMHfuTr
+2026-04-03 21:15:27,762 [2026-04-03 21:15:27 IST] Cached listing for folder 1ojjTrn1NoDNoBvWOHHXwpn1vg6FOb9Rm
+2026-04-03 21:15:28,389 [2026-04-03 21:15:28 IST] Cached listing for folder 1ONgssS5YAbZCEETDcBfw8VneZb-sOTBU
+2026-04-03 21:15:29,109 [2026-04-03 21:15:29 IST] Cached listing for folder 1LtbWWLsYIQQ_huc0rsi-kfy6xC7W5HzF
+2026-04-03 21:15:29,626 [2026-04-03 21:15:29 IST] Cached listing for folder 1laRJpL-HUBcu_iKaJJ8ONRx5XKTsLwn1
+2026-04-03 21:15:30,195 [2026-04-03 21:15:30 IST] Cached listing for folder 1q4TbP3VJn_pf9LnxZjEbSe5eM-6Hp2ST
+2026-04-03 21:15:30,749 [2026-04-03 21:15:30 IST] Cached listing for folder 1HeUGF2f4O54lvLcue9KnQCP_sjmjSqOd
+2026-04-03 21:15:31,281 [2026-04-03 21:15:31 IST] Cached listing for folder 1TiFW1_DcLvgu4PH4YU7mYXPVA7XmYTa0
+2026-04-03 21:15:31,806 [2026-04-03 21:15:31 IST] Cached listing for folder 1OPkM965lIqGP7aqfmkeQDYOFuVcqGdTm
+2026-04-03 21:15:32,288 [2026-04-03 21:15:32 IST] Cached listing for folder 1JvbFBffP0LkYB9IKHxsDxHQjEdwbm8Ok
+2026-04-03 21:15:32,861 [2026-04-03 21:15:32 IST] Cached listing for folder 1fwt8lW7PjpG0NhA6HejhnJOgxhbfwlcA
+2026-04-03 21:15:33,479 [2026-04-03 21:15:33 IST] Cached listing for folder 1u_c-HbrfBOxkpgsjOo_SIos4NdAB8fPU
+2026-04-03 21:15:34,018 [2026-04-03 21:15:34 IST] Cached listing for folder 1jfoySfr-5eLMiG_OdrtF19-mey9fLXcK
+2026-04-03 21:15:34,527 [2026-04-03 21:15:34 IST] Cached listing for folder 1ijQxkucZoxaaJm_IAKJbNiqoS6lVFq1m
+2026-04-03 21:15:35,076 [2026-04-03 21:15:35 IST] Cached listing for folder 1VF73gs0awVN3seyhQ8HR2N0_e8C1wnRO
+2026-04-03 21:15:35,581 [2026-04-03 21:15:35 IST] Cached listing for folder 1_NAUeceXSPvJP7FU2tHX9viVguIf22zA
+2026-04-03 21:15:36,186 [2026-04-03 21:15:36 IST] Cached listing for folder 1zs2asMNmyZf-w_0WMHl0_hWyhKRvfcwR
+2026-04-03 21:15:36,697 [2026-04-03 21:15:36 IST] Cached listing for folder 1kwiPJ5TZnGhrV5iLUZMScAn5yFiN9Rjy
+2026-04-03 21:15:37,266 [2026-04-03 21:15:37 IST] Cached listing for folder 1nMRrIWfG208N5ZjEH8vc_JLTOYSmNjEQ
+2026-04-03 21:15:37,807 [2026-04-03 21:15:37 IST] Cached listing for folder 1z-MHEbFIliY2eGqlz_e_IDy2ua04jlt3
+2026-04-03 21:15:38,378 [2026-04-03 21:15:38 IST] Cached listing for folder 1lxqMk0KbBjdLCep-XSNC6aD0wGnk7nFy
+2026-04-03 21:15:38,939 [2026-04-03 21:15:38 IST] Cached listing for folder 1f_LCRYKbXp-860yFYCkHzZcPOCnoNXtW
+2026-04-03 21:15:39,451 [2026-04-03 21:15:39 IST] Cached listing for folder 1_NcTnaQow2jJS3bM2x9FFbmGYTYadlNG
+2026-04-03 21:15:39,995 [2026-04-03 21:15:39 IST] Cached listing for folder 1ujjPvgdf2uEvbW4gu6lFGL1vCpjBX2IS
+2026-04-03 21:15:40,566 [2026-04-03 21:15:40 IST] Cached listing for folder 1BxwoLJAJ2lZmmxqvh6vFOt_Vuimz_FS5
+2026-04-03 21:15:41,123 [2026-04-03 21:15:41 IST] Cached listing for folder 1G-P4sCyVRd4K0Mna-K9KnHisJki3IhpF
+2026-04-03 21:15:41,675 [2026-04-03 21:15:41 IST] Cached listing for folder 16MWwinv8L7qNCy9grshQB7JkwIhW_GZ3
+2026-04-03 21:15:42,220 [2026-04-03 21:15:42 IST] Cached listing for folder 1GensVJ0PoN8_oBdrYpE7_ZeqsP3IYVMC
+2026-04-03 21:15:42,717 [2026-04-03 21:15:42 IST] Cached listing for folder 1bofv91oK8RblftLOh9cc2ZUwue1SvaPR
+2026-04-03 21:15:43,310 [2026-04-03 21:15:43 IST] Cached listing for folder 1AXaeQOGgFQtpUy_loSZAdvbzqjFW8llf
+2026-04-03 21:15:43,818 [2026-04-03 21:15:43 IST] Cached listing for folder 1QiuGfnUfpup-M1-9fRpP4q001DkAwbew
+2026-04-03 21:15:44,358 [2026-04-03 21:15:44 IST] Cached listing for folder 1Ob4jIWZPjz6eQX5zWaXLkJhBbrSuwakb
+2026-04-03 21:15:44,861 [2026-04-03 21:15:44 IST] Cached listing for folder 1SaE1bLZr3pykxN5Sk-SdHcrx5phchMEB
+2026-04-03 21:15:45,491 [2026-04-03 21:15:45 IST] Cached listing for folder 10EpnFpNuDKJBvycOWGGjQXvvVLUa4_17
+2026-04-03 21:15:46,007 [2026-04-03 21:15:46 IST] Cached listing for folder 1mepJocLlOMp9HsCzsC--48CSgYE0cg17
+2026-04-03 21:15:46,637 [2026-04-03 21:15:46 IST] Cached listing for folder 1lVmeynNOOPRekaSC0uFhca216JYDmbFS
+2026-04-03 21:15:47,240 [2026-04-03 21:15:47 IST] Cached listing for folder 1OXIY1ylX1Okfy9rig637vA3Q4GZiqAIs
+2026-04-03 21:15:47,785 [2026-04-03 21:15:47 IST] Cached listing for folder 1BfQ3_yUqjAes28Hp4AiTXN91rJ46CpII
+2026-04-03 21:15:48,284 [2026-04-03 21:15:48 IST] Cached listing for folder 1X6Sv6ZxI5qEoruiXoCZlEee7AXXxiWBC
+2026-04-03 21:15:48,826 [2026-04-03 21:15:48 IST] Cached listing for folder 1jbYrlmNvEuoJjYevFuneAzVVowh17X7u
+2026-04-03 21:15:49,374 [2026-04-03 21:15:49 IST] Cached listing for folder 1jrPdfwX0ZEQfusk2g30joon8-9xzXmaJ
+2026-04-03 21:15:49,935 [2026-04-03 21:15:49 IST] Cached listing for folder 1oubDb5dzjQDuMFu5HxSbAq3yVmfj2Dv6
+2026-04-03 21:15:50,574 [2026-04-03 21:15:50 IST] Cached listing for folder 187fU0iDVUlGecbrwtigpp5OpN411Kc-o
+2026-04-03 21:15:51,113 [2026-04-03 21:15:51 IST] Cached listing for folder 1o-o8iguueu7LpderczEvzgTcOffSzxLZ
+2026-04-03 21:15:51,653 [2026-04-03 21:15:51 IST] Cached listing for folder 1SKVH88TXZMPDDTmrIra1-hJ9Y-HSqA_T
+2026-04-03 21:15:52,198 [2026-04-03 21:15:52 IST] Cached listing for folder 1gtp5An-3gC1-6F8svBwcaF9qgDl1t_S6
+2026-04-03 21:15:52,721 [2026-04-03 21:15:52 IST] Cached listing for folder 1IMloYLK1qK1mU-ztam0HhwrYoc8r2jGJ
+2026-04-03 21:15:53,260 [2026-04-03 21:15:53 IST] Cached listing for folder 140Pb1HREW4zao3yMQ90PYKzqL1ojJiQs
+2026-04-03 21:15:53,924 [2026-04-03 21:15:53 IST] Cached listing for folder 1aFqy-hedQhYz92vibqcDTT7tmMSJHuiS
+2026-04-03 21:15:54,469 [2026-04-03 21:15:54 IST] Cached listing for folder 16LJyx3cLulaXJsvw6V75F8stEP0UYcuv
+2026-04-03 21:15:55,094 [2026-04-03 21:15:55 IST] Cached listing for folder 11hn5YXisO4TZTSr_AtcL5dAf2Nq29R8B
+2026-04-03 21:15:55,628 [2026-04-03 21:15:55 IST] Cached listing for folder 1PAH7GySCRi-JVHXqW4WSfnsUt1AeKabP
+2026-04-03 21:15:56,176 [2026-04-03 21:15:56 IST] Cached listing for folder 1gxfDaAJdu3HWcaMRjq2Sr6f8AUpq1_4D
+2026-04-03 21:15:56,723 [2026-04-03 21:15:56 IST] Cached listing for folder 1ViCG55m9CRTcNwF4m9tjlBnSr4Sb-ADD
+2026-04-03 21:15:57,321 [2026-04-03 21:15:57 IST] Cached listing for folder 1H_he-Q1uWinHdqcu4FCcE4BFH9VbojPC
+2026-04-03 21:15:57,979 [2026-04-03 21:15:57 IST] Cached listing for folder 149WreKr0bqGMZC1m83kZs8kCS4AXS0Wc
+2026-04-03 21:15:58,525 [2026-04-03 21:15:58 IST] Cached listing for folder 1yL2CVTI3my6OaOObPXI2kWaszOqtczS-
+2026-04-03 21:15:59,064 [2026-04-03 21:15:59 IST] Cached listing for folder 1zUIhXI_8_lSOBvzs9ckpTWHa8F1BAcks
+2026-04-03 21:15:59,633 [2026-04-03 21:15:59 IST] Cached listing for folder 1IxFsMovmxxD8BDtMEqIKTkBA-cr_9BaE
+2026-04-03 21:16:00,290 [2026-04-03 21:16:00 IST] Cached listing for folder 1J_wOR9wdXqtXruxeUo5ezWSnJG_UeIOz
+2026-04-03 21:16:00,855 [2026-04-03 21:16:00 IST] Cached listing for folder 1BmZGUnCgaraNLZaQuXdFFG6xxNQlFHbh
+2026-04-03 21:16:01,392 [2026-04-03 21:16:01 IST] Cached listing for folder 1cZTB0pOYtFAzdymqtPBSNA4DrpMsT_I7
+2026-04-03 21:16:01,946 [2026-04-03 21:16:01 IST] Cached listing for folder 1-_xGh_7UAophNaTFkqlH0ZTYzUjOoxvA
+2026-04-03 21:16:02,707 [2026-04-03 21:16:02 IST] Cached listing for folder 1k16SkGM-E-dQate_OQrvPTtDW9yq-j53
+2026-04-03 21:16:03,245 [2026-04-03 21:16:03 IST] Cached listing for folder 18ZnwI8-Q5QSgOqSIOTaizaYGwWaOgVtV
+2026-04-03 21:16:03,790 [2026-04-03 21:16:03 IST] Cached listing for folder 18tE7qsjeHcegzu4eFI1MFyBApOqqa-T1
+2026-04-03 21:16:04,512 [2026-04-03 21:16:04 IST] Cached listing for folder 1HSCIX5h8bLJaocoYS4p22OIMzz-xtLCa
+2026-04-03 21:16:05,246 [2026-04-03 21:16:05 IST] Cached listing for folder 1oGhoof2RZSrVE2TnunRzIVNguzd9_qu4
+2026-04-03 21:16:05,848 [2026-04-03 21:16:05 IST] Cached listing for folder 14NewR-R49Y93z9DsVNUiah2nRHRPuzCq
+2026-04-03 21:16:06,406 [2026-04-03 21:16:06 IST] Cached listing for folder 1JKGoFr3K6BrBpIHBVRuR8S1MrpP1nKFi
+2026-04-03 21:16:07,101 [2026-04-03 21:16:07 IST] Cached listing for folder 1GLaj-Q5KLkDRacowMjLnymWtxsYUpUoE
+2026-04-03 21:16:07,668 [2026-04-03 21:16:07 IST] Cached listing for folder 1k1VSYp_Q3rOWy9uVCCm5dSAcyPV1ezFF
+2026-04-03 21:16:08,272 [2026-04-03 21:16:08 IST] Cached listing for folder 1qv1oQL9Gh4dfUvI-_RbCeXf-3YK3qLtL
+2026-04-03 21:16:08,797 [2026-04-03 21:16:08 IST] Cached listing for folder 1ASqSSNXHK8TgF6bPU3iFygjUshorC-fQ
+2026-04-03 21:16:09,355 [2026-04-03 21:16:09 IST] Cached listing for folder 1zuS74q4usYmdVAPS18_qEurh-ReGIUAB
+2026-04-03 21:16:09,895 [2026-04-03 21:16:09 IST] Cached listing for folder 1g1-1vktYYf3Z2VEKwUcqjHIdZ89E9JXU
+2026-04-03 21:16:10,437 [2026-04-03 21:16:10 IST] Cached listing for folder 1Khn1Gdd19QcEnoR4pASKdqJaLaUtVbXC
+2026-04-03 21:16:11,012 [2026-04-03 21:16:11 IST] Cached listing for folder 1DX9gvQtKzbYsUnsmbtlpi4xFApvmqbGh
+2026-04-03 21:16:11,597 [2026-04-03 21:16:11 IST] Cached listing for folder 1Px7XIUTJSpTx5fVh-uEhewAEoFAeRku2
+2026-04-03 21:16:12,102 [2026-04-03 21:16:12 IST] Cached listing for folder 1yr3E734nTkT5gXnVx5c3Vbe5OoMjf1b6
+2026-04-03 21:16:12,706 [2026-04-03 21:16:12 IST] Cached listing for folder 1GynxJyOIw5jpycWhK7E3rVFArRA2yTKw
+2026-04-03 21:16:13,256 [2026-04-03 21:16:13 IST] Cached listing for folder 1upZXLOc1VkscFXt5s7Q6PVaozEumjsfX
+2026-04-03 21:16:13,827 [2026-04-03 21:16:13 IST] Cached listing for folder 1oYAFHHjW8cnJ2H5TrFuXCqxmflnTsjAk
+2026-04-03 21:16:14,310 [2026-04-03 21:16:14 IST] Cached listing for folder 1HqcW5qmHzUmHesC3mBtv_HN-xJ25HDRK
+2026-04-03 21:16:14,889 [2026-04-03 21:16:14 IST] Cached listing for folder 1epBhtnjPDd7GpG77VPjzXZzB_YjJxKyQ
+2026-04-03 21:16:15,414 [2026-04-03 21:16:15 IST] Cached listing for folder 1Ucxf2jYZ969_tGUfpv1FUlbyVNNzxYKS
+2026-04-03 21:16:16,018 [2026-04-03 21:16:16 IST] Cached listing for folder 185vfXQK6P1nFJOjEqkUOQE_xfUK9yh8d
+2026-04-03 21:16:16,546 [2026-04-03 21:16:16 IST] Cached listing for folder 1u6NchY7detSjYqBkBgP8zq4ZeohTh_ml
+2026-04-03 21:16:17,081 [2026-04-03 21:16:17 IST] Cached listing for folder 1UEJvDetlBOLm5hGNhCkUM5BWLTCQnuNU
+2026-04-03 21:16:17,660 [2026-04-03 21:16:17 IST] Cached listing for folder 1Svu6HN7M2P9TEosjNQgRCrgUWkQ18ar1
+2026-04-03 21:16:18,202 [2026-04-03 21:16:18 IST] Cached listing for folder 1aZ7FYUIWEeJ9DkyDl-nSPcKZrVS0V35A
+2026-04-03 21:16:18,948 [2026-04-03 21:16:18 IST] Cached listing for folder 1QzFtyXePsWt6DxaHuDsL7MMT3Kks67bi
+2026-04-03 21:16:19,503 [2026-04-03 21:16:19 IST] Cached listing for folder 1ws21X190QgPiAgX1dhLWNVA6JSCJRDu5
+2026-04-03 21:16:20,156 [2026-04-03 21:16:20 IST] Cached listing for folder 13tzB9jHdNmBiS-g0x-PrV0mOU_rhFEfQ
+2026-04-03 21:16:20,763 [2026-04-03 21:16:20 IST] Cached listing for folder 1N9cSdCqaaPe9_cWxHkzknoE_TM47F0-n
+2026-04-03 21:16:21,285 [2026-04-03 21:16:21 IST] Cached listing for folder 1u9xoH7RcZ5AVBEx-XOZ6-KwMqVfpVQp3
+2026-04-03 21:16:21,294 [2026-04-03 21:16:21 IST] Wrote data\class-yud-571-tashpa.json
+2026-04-03 21:16:21,295 [2026-04-03 21:16:21 IST] Crawling url_name: bagruyot-571 (folder_url: https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37)
+2026-04-03 21:16:21,803 [2026-04-03 21:16:21 IST] Cached listing for folder 17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37
+2026-04-03 21:16:22,317 [2026-04-03 21:16:22 IST] Cached listing for folder 1BuXGU0Zyse_JiCmCz3rffZQs99fI9BGr
+2026-04-03 21:16:22,844 [2026-04-03 21:16:22 IST] Cached listing for folder 1HSc9gBE_3QZkT2Zmn7YrBqJsd6ag9cRD
+2026-04-03 21:16:24,806 [2026-04-03 21:16:24 IST] Cached listing for folder 102wUmot4fukLs0GvGG-r5hcMJAOCIGJd
+2026-04-03 21:16:25,401 [2026-04-03 21:16:25 IST] Cached listing for folder 1P8RkyDeqzeEm7-3iKyvYtCN2nev1hKbe
+2026-04-03 21:16:25,942 [2026-04-03 21:16:25 IST] Cached listing for folder 12cLiRbUlukDtBnlw7RlLcDUx3zb-wvj9
+2026-04-03 21:16:26,450 [2026-04-03 21:16:26 IST] Cached listing for folder 1TzzbE77M_znRfcJvEYm8JvdTjCYzsTeX
+2026-04-03 21:16:26,972 [2026-04-03 21:16:26 IST] Cached listing for folder 1W0IA6QW-SQOX7QqbI9klgwM7k9bd8UvT
+2026-04-03 21:16:28,264 [2026-04-03 21:16:28 IST] Cached listing for folder 1vcWrj4Y8QVSo1B7JPC_QtytgBUxGT-Ej
+2026-04-03 21:16:28,782 [2026-04-03 21:16:28 IST] Cached listing for folder 1aK5Mk2gJODmLXuhMG2tslUlf72X-1yD8
+2026-04-03 21:16:29,319 [2026-04-03 21:16:29 IST] Cached listing for folder 1TbWI5Izfx7HAIR7G_7FbElGhmdS-NB_Z
+2026-04-03 21:16:29,963 [2026-04-03 21:16:29 IST] Cached listing for folder 1pkDXRZvmSms7J1I1flc2sVCUbPeKxJKm
+2026-04-03 21:16:30,437 [2026-04-03 21:16:30 IST] Cached listing for folder 12Dx90vJdopP6z2_MGUg40KsTZmBvk09f
+2026-04-03 21:16:30,998 [2026-04-03 21:16:30 IST] Cached listing for folder 1EEk9mwbz9ZwY4n6rJf1LTUeymyClde4K
+2026-04-03 21:16:31,516 [2026-04-03 21:16:31 IST] Cached listing for folder 1DhytbBQmjuGFGzHifVW5FahoeYieUp9W
+2026-04-03 21:16:32,078 [2026-04-03 21:16:32 IST] Cached listing for folder 1vDqR4tXMJ2EZ3wfKzlvXStkjVRfbJ0yz
+2026-04-03 21:16:32,561 [2026-04-03 21:16:32 IST] Cached listing for folder 1ynGa0xEFdsfa_FJ45gBt5mDE71K_0JMn
+2026-04-03 21:16:33,083 [2026-04-03 21:16:33 IST] Cached listing for folder 1yj-WCxRajl6lQf5zc2bkjAy1EpCJlnfx
+2026-04-03 21:16:33,734 [2026-04-03 21:16:33 IST] Cached listing for folder 11IBv2Yw8g9AIZtoST9BVABLjRzevQKFN
+2026-04-03 21:16:34,289 [2026-04-03 21:16:34 IST] Cached listing for folder 1ySW4WZ10i0LLVU05TuCr7qdC6CM-1aI6
+2026-04-03 21:16:34,955 [2026-04-03 21:16:34 IST] Cached listing for folder 1u1gsjdn0xDpQL5aEAUBGiHi2JkurKDHI
+2026-04-03 21:16:35,522 [2026-04-03 21:16:35 IST] Cached listing for folder 1bqq_kNHOrb08ClzSpP1uSob3NdVFam1B
+2026-04-03 21:16:36,040 [2026-04-03 21:16:36 IST] Cached listing for folder 1mwBczj4ZGVrszv7HXfTvlcdq9-LKtCxq
+2026-04-03 21:16:36,583 [2026-04-03 21:16:36 IST] Cached listing for folder 1KDbM9NrRQBKnYany8oX9MzgdSZUiBiG_
+2026-04-03 21:16:37,214 [2026-04-03 21:16:37 IST] Cached listing for folder 1gTY50d1T9K9u8iKtQkp47zBXLwOU3SrD
+2026-04-03 21:16:37,789 [2026-04-03 21:16:37 IST] Cached listing for folder 1m4daSqn-1qyOtjn0-25jGuR1jOFRaCmp
+2026-04-03 21:16:38,325 [2026-04-03 21:16:38 IST] Cached listing for folder 1zr2GVn7720J4-fGlPf_HwiR0HA4YCyLe
+2026-04-03 21:16:39,415 [2026-04-03 21:16:39 IST] Cached listing for folder 1t2NxBQ4Gw1VzJesVsDTRPw5hm3L1cnmi
+2026-04-03 21:16:39,945 [2026-04-03 21:16:39 IST] Cached listing for folder 1O1dWoQAV4FwJG-ShRMPg7FFsJ5bne0-f
+2026-04-03 21:16:40,468 [2026-04-03 21:16:40 IST] Cached listing for folder 1BXfT8nVazI350SG6cQjupElWColSnddl
+2026-04-03 21:16:41,005 [2026-04-03 21:16:41 IST] Cached listing for folder 1ciMpgLGqC91pAL8C1toIBu0mPayfoSAp
+2026-04-03 21:16:41,504 [2026-04-03 21:16:41 IST] Cached listing for folder 1AUWALo0ekmWJ850Blcj7ZM-gj_-SL_Lm
+2026-04-03 21:16:42,013 [2026-04-03 21:16:42 IST] Cached listing for folder 13FV3pHCw5r2wLClglt5wJ0cwgH4zPN5_
+2026-04-03 21:16:42,495 [2026-04-03 21:16:42 IST] Cached listing for folder 1OOqSkshxVjVblJl9Pp92lZwLoqkgJrcC
+2026-04-03 21:16:43,047 [2026-04-03 21:16:43 IST] Cached listing for folder 1Ofp8S3dZBqT2SOlTZqhMJ28ru1eahrHY
+2026-04-03 21:16:43,632 [2026-04-03 21:16:43 IST] Cached listing for folder 1uVTZiGO0dP_6-i8Eob-mU6B2HHopZ26B
+2026-04-03 21:16:44,414 [2026-04-03 21:16:44 IST] Cached listing for folder 1GTuwLq_gmOPUDNgHg2PVOskgK1ChW8Wb
+2026-04-03 21:16:44,903 [2026-04-03 21:16:44 IST] Cached listing for folder 1izeztAaOpJTK8DJrVca-Lw1USeQqmq08
+2026-04-03 21:16:46,055 [2026-04-03 21:16:46 IST] Cached listing for folder 156jSy01VKhCrBYTvd8ZkSgIivLuuTRCI
+2026-04-03 21:16:46,602 [2026-04-03 21:16:46 IST] Cached listing for folder 1HSNbOTEeJfN8thvA9cQP7Nj7h6Axhbe_
+2026-04-03 21:16:47,099 [2026-04-03 21:16:47 IST] Cached listing for folder 1ux4XCwW6zrd2suEwd7SEdTFWfqaH08ls
+2026-04-03 21:16:47,596 [2026-04-03 21:16:47 IST] Cached listing for folder 1uFpYFC09TRbmU8qrdGi2NpS9jAoLSFA4
+2026-04-03 21:16:48,129 [2026-04-03 21:16:48 IST] Cached listing for folder 12YYoyQmbYsmgIPkhhjVUTMA9StkYUG5a
+2026-04-03 21:16:49,477 [2026-04-03 21:16:49 IST] Cached listing for folder 1sxFZ8GFVXxHc03gUnsMSNIUOXVuTzlHg
+2026-04-03 21:16:50,068 [2026-04-03 21:16:50 IST] Cached listing for folder 1M9jm4cqnQy6dSCU6XVxae2GmBaccWdkk
+2026-04-03 21:16:50,667 [2026-04-03 21:16:50 IST] Cached listing for folder 1Ds-m6IK4FnLn6frgRFvV23lP8UpMMjGs
+2026-04-03 21:16:51,215 [2026-04-03 21:16:51 IST] Cached listing for folder 1Z4pEsjfFFw98dVHzESqwXTKO-qh-ZUFn
+2026-04-03 21:16:51,746 [2026-04-03 21:16:51 IST] Cached listing for folder 1hiGPfnw_ce8m7dro0bh3xDrAoRSXECsp
+2026-04-03 21:16:52,301 [2026-04-03 21:16:52 IST] Cached listing for folder 1zUmsO2x1zzy-QIfqPtSv-xMutHsVAeta
+2026-04-03 21:16:53,551 [2026-04-03 21:16:53 IST] Cached listing for folder 1XnNRK8UONeeB_531sQfAdq6glyNJ65C7
+2026-04-03 21:16:54,199 [2026-04-03 21:16:54 IST] Cached listing for folder 1CsRlG5vpQEPFiSIWz5fVT67IwuKcoRaM
+2026-04-03 21:16:54,788 [2026-04-03 21:16:54 IST] Cached listing for folder 1xSvBm-PbbIk7oh0p_Zn7o7kEkUO4wLqO
+2026-04-03 21:16:55,317 [2026-04-03 21:16:55 IST] Cached listing for folder 1TPbNDLet_6mgAVTwRDMGndhEgLN6s6Mj
+2026-04-03 21:16:55,815 [2026-04-03 21:16:55 IST] Cached listing for folder 18okYuoDVTstJtfdGNDiSKu2RN-4RdRGc
+2026-04-03 21:16:56,416 [2026-04-03 21:16:56 IST] Cached listing for folder 1_TD2B6lobBQRDnD2XqhrHrKNCKBg4vHQ
+2026-04-03 21:16:56,992 [2026-04-03 21:16:56 IST] Cached listing for folder 1fGmO-Bs-9K0DSn7WF4zPJBlDcmiQlnFh
+2026-04-03 21:16:57,526 [2026-04-03 21:16:57 IST] Cached listing for folder 1XPSqT0rGg4S2etoZfYwLl7pIIQ0gR0Ox
+2026-04-03 21:16:58,073 [2026-04-03 21:16:58 IST] Cached listing for folder 1BgfgBNJEnd_aDLzp9cYc9e5vfVSQMUWc
+2026-04-03 21:16:59,162 [2026-04-03 21:16:59 IST] Cached listing for folder 12yciaZD0Y4Hp-2tRdbPFIryEqZfv2IIn
+2026-04-03 21:16:59,767 [2026-04-03 21:16:59 IST] Cached listing for folder 1Di1hccIO66M-4y28mR1H2rolJ5Lrk7n2
+2026-04-03 21:17:00,278 [2026-04-03 21:17:00 IST] Cached listing for folder 1_CVNBr_CchWF4rcQygvQHCBHf0lAB3Di
+2026-04-03 21:17:00,772 [2026-04-03 21:17:00 IST] Cached listing for folder 1NUceEsI4cxjU4Qnc3UXX3-WtGaccrEKw
+2026-04-03 21:17:01,294 [2026-04-03 21:17:01 IST] Cached listing for folder 1HKnmhlotzsC_yxSZzESHxUskcoMhEDm-
+2026-04-03 21:17:01,792 [2026-04-03 21:17:01 IST] Cached listing for folder 1W6j-OSTAUC7bwg8iQdTBBcE0KJ7v-7w7
+2026-04-03 21:17:02,303 [2026-04-03 21:17:02 IST] Cached listing for folder 1E73FMC3rub-efHDqxLIxElWfi86w-NVv
+2026-04-03 21:17:02,933 [2026-04-03 21:17:02 IST] Cached listing for folder 1EGWEh3nmWyH0_W3c5Z1hmE_e-DnQ91Pd
+2026-04-03 21:17:03,455 [2026-04-03 21:17:03 IST] Cached listing for folder 1L7k44mv-bCRoQYvO2YFnAEFxrManygsM
+2026-04-03 21:17:03,994 [2026-04-03 21:17:03 IST] Cached listing for folder 1whenJT323nJ75w0BLF9xZtufcN9_zcGG
+2026-04-03 21:17:04,562 [2026-04-03 21:17:04 IST] Cached listing for folder 1ZVQREpxLl-AdKCISEguHGS04mU8Wi_kW
+2026-04-03 21:17:05,127 [2026-04-03 21:17:05 IST] Cached listing for folder 11nL_CcRmaosCCEwoevRJLImcrvQ6IOg1
+2026-04-03 21:17:05,693 [2026-04-03 21:17:05 IST] Cached listing for folder 1PXVzXRYjbz4z0VuD2HVLSJ0y1kG1VvSp
+2026-04-03 21:17:06,206 [2026-04-03 21:17:06 IST] Cached listing for folder 1uoJE-RJBgNLO_482SCfsz6iXa-5qK4CW
+2026-04-03 21:17:06,715 [2026-04-03 21:17:06 IST] Cached listing for folder 1w_VR6UnnO5JZSyAa_maAHCKmWbzDn9pW
+2026-04-03 21:17:07,253 [2026-04-03 21:17:07 IST] Cached listing for folder 1zgTafTrzD1oVjwzQUEP0pP1Q0xg0YNoL
+2026-04-03 21:17:07,853 [2026-04-03 21:17:07 IST] Cached listing for folder 15IvkmcckGMlFgZsp7omYHeDsmqvNyws5
+2026-04-03 21:17:08,407 [2026-04-03 21:17:08 IST] Cached listing for folder 1O8jCXLe_19-YKE1z_TL_Z2KLmDqysjL-
+2026-04-03 21:17:09,086 [2026-04-03 21:17:09 IST] Cached listing for folder 167nbNFjfJQ3Pm0QOcIaLJPCfVi12bTDN
+2026-04-03 21:17:09,579 [2026-04-03 21:17:09 IST] Cached listing for folder 15_8Y1nFhHFrtyJ832pxNkOkiwMFdI0cN
+2026-04-03 21:17:10,095 [2026-04-03 21:17:10 IST] Cached listing for folder 1SioWv6_J2MfbxDS2jy8m1r_Va_OHQqOB
+2026-04-03 21:17:10,612 [2026-04-03 21:17:10 IST] Cached listing for folder 1hMNjGAa-kmH4eKvImn8Q00xTd6-5FwaF
+2026-04-03 21:17:11,129 [2026-04-03 21:17:11 IST] Cached listing for folder 1l1ZPSFd3N5f3m2ixtz5QV2gvtd1GGlOo
+2026-04-03 21:17:11,639 [2026-04-03 21:17:11 IST] Cached listing for folder 1HUzQcJMkgKJnFBctFRcqgr2bmeEDBfLZ
+2026-04-03 21:17:12,133 [2026-04-03 21:17:12 IST] Cached listing for folder 1m1tmVjbYBnlBqjIIYnUfxps8qq8Wc1Q1
+2026-04-03 21:17:12,137 [2026-04-03 21:17:12 IST] Wrote data\class-bagruyot-571.json
+2026-04-03 21:17:12,137 [2026-04-03 21:17:12 IST] Crawling url_name: bagruyot-472 (folder_url: https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO)
+2026-04-03 21:17:12,693 [2026-04-03 21:17:12 IST] Cached listing for folder 1GA90OEL-eUycrz8saqRe4SBtBokhZCIO
+2026-04-03 21:17:13,241 [2026-04-03 21:17:13 IST] Cached listing for folder 16x741HaXFa2nO8f8Zs56T40Oe5GzYEiH
+2026-04-03 21:17:13,731 [2026-04-03 21:17:13 IST] Cached listing for folder 1h81yhBSBadSF2SVeq2-Dd1j4Gk2Id2bv
+2026-04-03 21:17:14,279 [2026-04-03 21:17:14 IST] Cached listing for folder 1WXNYIg3XhBOUwn2ID4mmMQ_VEpYqBj8n
+2026-04-03 21:17:14,816 [2026-04-03 21:17:14 IST] Cached listing for folder 1fCLl69YUIzZzvLigMVCcOWML9Hv1n-W7
+2026-04-03 21:17:15,358 [2026-04-03 21:17:15 IST] Cached listing for folder 16968RB8q2nF_sejznWGkARMYJX6dWLmJ
+2026-04-03 21:17:15,933 [2026-04-03 21:17:15 IST] Cached listing for folder 1UHzaSv-eeUJ5B-gJFrCXHNczg13SSP8K
+2026-04-03 21:17:15,934 [2026-04-03 21:17:15 IST] Wrote data\class-bagruyot-472.json
+2026-04-03 21:17:15,934 [2026-04-03 21:17:15 IST] Crawling url_name: bagruyot-471 (folder_url: https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW)
+2026-04-03 21:17:16,464 [2026-04-03 21:17:16 IST] Cached listing for folder 1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW
+2026-04-03 21:17:16,973 [2026-04-03 21:17:16 IST] Cached listing for folder 1w9wuHuEktMEMXCwVe8rGlmCo5JDUFTkL
+2026-04-03 21:17:17,537 [2026-04-03 21:17:17 IST] Cached listing for folder 15wyS3uzDpAM8HphUtcxWIw7vjfvLke3J
+2026-04-03 21:17:18,103 [2026-04-03 21:17:18 IST] Cached listing for folder 1Kh1xks3p01yMFSVVrt2ZmusMBd1QT7h3
+2026-04-03 21:17:18,600 [2026-04-03 21:17:18 IST] Cached listing for folder 115TpOEiEi1xhMNsktZ_0sQEkmaV4lZ6O
+2026-04-03 21:17:19,134 [2026-04-03 21:17:19 IST] Cached listing for folder 1Vb_IiD8CXDyfJ5PRoDP76GfN_nX0jUfH
+2026-04-03 21:17:19,692 [2026-04-03 21:17:19 IST] Cached listing for folder 18hiAqG7I_0W6woqqN2u8FxoPIT_eaGPK
+2026-04-03 21:17:20,220 [2026-04-03 21:17:20 IST] Cached listing for folder 1nDKMl_EPIdWq0f1ck4XJ1N4EbK0gaqut
+2026-04-03 21:17:20,739 [2026-04-03 21:17:20 IST] Cached listing for folder 1T0SeUKD9CXtJIw3_Nxrz7HiAfp-zmRtY
+2026-04-03 21:17:21,311 [2026-04-03 21:17:21 IST] Cached listing for folder 1yO8ILsMqK1-o2BYXyB0oB23nQo238rHY
+2026-04-03 21:17:21,319 [2026-04-03 21:17:21 IST] Wrote data\class-bagruyot-471.json
+2026-04-03 21:17:21,320 [2026-04-03 21:17:21 IST] Crawling url_name: olimpiada-matematica (folder_url: https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL)
+2026-04-03 21:17:21,885 [2026-04-03 21:17:21 IST] Cached listing for folder 1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL
+2026-04-03 21:17:22,424 [2026-04-03 21:17:22 IST] Cached listing for folder 1qlrUVdCwb7Vvngrdq8E4ipvYZhhuqU0E
+2026-04-03 21:17:23,037 [2026-04-03 21:17:23 IST] Cached listing for folder 1D7o-OVfu6yZ8-9C3OFQUPSYnSBTD64pW
+2026-04-03 21:17:23,610 [2026-04-03 21:17:23 IST] Cached listing for folder 1CngMATlwv7g-ECsEj7ElgIe1DvqkMyjf
+2026-04-03 21:17:23,617 [2026-04-03 21:17:23 IST] Wrote data\class-olimpiada-matematica.json
+2026-04-03 21:17:23,617 [2026-04-03 21:17:23 IST] Crawling url_name: yud-571-tashpav (folder_url: https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ)
+2026-04-03 21:17:24,135 [2026-04-03 21:17:24 IST] Cached listing for folder 1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ
+2026-04-03 21:17:24,639 [2026-04-03 21:17:24 IST] Cached listing for folder 1UH6UHEILeV6E_kgrKKfDkJRc8wRxljxp
+2026-04-03 21:17:25,174 [2026-04-03 21:17:25 IST] Cached listing for folder 1U9t0aZ4-dW-xQr67-siNNAFDN_A2rxA_
+2026-04-03 21:17:25,665 [2026-04-03 21:17:25 IST] Cached listing for folder 1r1k_ZLDQTDcrkGFB9MR4lmWcpHFdaf2H
+2026-04-03 21:17:26,192 [2026-04-03 21:17:26 IST] Cached listing for folder 1asosA-Usn2o4Wi3_4Od79uqBNVMx_jEr
+2026-04-03 21:17:26,717 [2026-04-03 21:17:26 IST] Cached listing for folder 17RTNi4b7F0bgY009Y-I6FE2S402bpth4
+2026-04-03 21:17:27,260 [2026-04-03 21:17:27 IST] Cached listing for folder 1csRnd76pT0comn0ou3NUxenRhAWdS4xw
+2026-04-03 21:17:27,772 [2026-04-03 21:17:27 IST] Cached listing for folder 1rewE9npqDWA6agg7YYk6GWCuSahibRGU
+2026-04-03 21:17:28,420 [2026-04-03 21:17:28 IST] Cached listing for folder 1hvl5_1tChNPgGh6Ql5QzJGT7-frnVXGy
+2026-04-03 21:17:28,991 [2026-04-03 21:17:28 IST] Cached listing for folder 1eldYHyT_ADhNt0G7e46CVvCh95x4fBw7
+2026-04-03 21:17:29,528 [2026-04-03 21:17:29 IST] Cached listing for folder 1V0_aomyvIGRpSSdrEv7gQ_0kywOGee1m
+2026-04-03 21:17:30,149 [2026-04-03 21:17:30 IST] Cached listing for folder 1LM1MqyfTGP3ME0_z_L838jdHvstyzcAN
+2026-04-03 21:17:31,490 [2026-04-03 21:17:31 IST] Cached listing for folder 1S35dqXaZA_E_7HigHbiuRk4ChflhS6-Y
+2026-04-03 21:17:31,994 [2026-04-03 21:17:31 IST] Cached listing for folder 1cf5z_u_Sicgze7g-LghpcjMlGgiXM5sZ
+2026-04-03 21:17:32,511 [2026-04-03 21:17:32 IST] Cached listing for folder 1CGAQ-BgR62_m3C4GLMAuIYHZCJy-XjCA
+2026-04-03 21:17:33,026 [2026-04-03 21:17:33 IST] Cached listing for folder 1yZqgAuy_wPl9evdz7HTE1VfstB-YfSxQ
+2026-04-03 21:17:34,868 [2026-04-03 21:17:34 IST] Cached listing for folder 1f5OoiUe2bsO4rf0nvxBicRiVNFV_D9Eg
+2026-04-03 21:17:36,311 [2026-04-03 21:17:36 IST] Cached listing for folder 1SYOYt49Db-AmMc1vf6P6eKL-wGf5PFf3
+2026-04-03 21:17:38,773 [2026-04-03 21:17:38 IST] Cached listing for folder 1-KFv1yr5vpm5ODok4-lKWjPVcgdNE3Jk
+2026-04-03 21:17:40,617 [2026-04-03 21:17:40 IST] Cached listing for folder 15qVIocMm1QqKSOhLG4IeDdT3HgJLj77-
+2026-04-03 21:17:42,587 [2026-04-03 21:17:42 IST] Cached listing for folder 1_SM-89lHN3Rks5khzLl6QgnaGYC4lKIu
+2026-04-03 21:17:44,807 [2026-04-03 21:17:44 IST] Cached listing for folder 1hKJU-yoHIny_C2r65IPmuxSwgGFrI2AU
+2026-04-03 21:17:46,716 [2026-04-03 21:17:46 IST] Cached listing for folder 1dU3zTE_RWxB_WtL_zGBaLgVa5gA9OUE8
+2026-04-03 21:17:47,315 [2026-04-03 21:17:47 IST] Cached listing for folder 1qRauMUAIX5lquRkL-b6d23XfB_HdruGD
+2026-04-03 21:17:47,811 [2026-04-03 21:17:47 IST] Cached listing for folder 1Ks4QYPoTsmDhJyqB_p3Bkvysr-GnRDv4
+2026-04-03 21:17:49,845 [2026-04-03 21:17:49 IST] Cached listing for folder 1Yxcp6sIIucDSJyX0TFpkyhe-tR9_wAOh
+2026-04-03 21:17:51,873 [2026-04-03 21:17:51 IST] Cached listing for folder 1QjYeEY9quZQqsoAzatoAWUZrKvV8Zo8x
+2026-04-03 21:17:54,204 [2026-04-03 21:17:54 IST] Cached listing for folder 1ZKAEu1Rhl1iXvvJTReJ9Nlj2USpL0WWe
+2026-04-03 21:17:56,131 [2026-04-03 21:17:56 IST] Cached listing for folder 11pEMNhqoN6-VzcmxLs8ypSlDky2kg-nY
+2026-04-03 21:17:58,098 [2026-04-03 21:17:58 IST] Cached listing for folder 1ZLBkPxPXJbaZNCCdWFVepC1hyyL3HtUl
+2026-04-03 21:18:00,102 [2026-04-03 21:18:00 IST] Cached listing for folder 1xcIlQpqXcStJmYL5Qy5QbobMEwepOXan
+2026-04-03 21:18:00,680 [2026-04-03 21:18:00 IST] Cached listing for folder 1jJLZZRGjAk4iBDOjO2DfZTmzazetHTKr
+2026-04-03 21:18:02,515 [2026-04-03 21:18:02 IST] Cached listing for folder 1DxVku1FRIbRdO1v-X58laM7Q90UnAWQi
+2026-04-03 21:18:04,494 [2026-04-03 21:18:04 IST] Cached listing for folder 1ck9LmKhuTqMvOb0A5yPQPud2qBCV_lQP
+2026-04-03 21:18:06,525 [2026-04-03 21:18:06 IST] Cached listing for folder 1cYeiepUisPcc-kkj1HAqBgdCgPjEjFTr
+2026-04-03 21:18:07,167 [2026-04-03 21:18:07 IST] Cached listing for folder 17XaydLICLr4dXo3IBtHIcyYJL4tX8KjO
+2026-04-03 21:18:07,677 [2026-04-03 21:18:07 IST] Cached listing for folder 1EEW0rzjgwyszhh-jAuSenhPY-2OMYAxv
+2026-04-03 21:18:08,221 [2026-04-03 21:18:08 IST] Cached listing for folder 1AH7DLmdsPekfCJvK31kfpKbgKyXBu7EU
+2026-04-03 21:18:09,514 [2026-04-03 21:18:09 IST] Cached listing for folder 16pXxrH5wJsyuVUyVgqjWSTwB2Jm9CpnK
+2026-04-03 21:18:10,047 [2026-04-03 21:18:10 IST] Cached listing for folder 1KT7SSdcXlQFl7MAL9OtnvnLc2MD2AJ_V
+2026-04-03 21:18:10,626 [2026-04-03 21:18:10 IST] Cached listing for folder 1NutCqRJD67seKuMe0KMwMHy1DFH_71Kl
+2026-04-03 21:18:11,188 [2026-04-03 21:18:11 IST] Cached listing for folder 1l27M3PBDfi_H5QSDdyfr4Zj5RErzfDIu
+2026-04-03 21:18:11,763 [2026-04-03 21:18:11 IST] Cached listing for folder 1vH9ds1LWZLuvsdX_ofPlx-kZgzNFUn9t
+2026-04-03 21:18:12,361 [2026-04-03 21:18:12 IST] Cached listing for folder 1b9e5INZ_YQe-wUj9x0AC4EAXzdVqAKn9
+2026-04-03 21:18:12,909 [2026-04-03 21:18:12 IST] Cached listing for folder 1FHyiNlvgyNY62O10V8LQ_9WnrLDHDm0n
+2026-04-03 21:18:13,449 [2026-04-03 21:18:13 IST] Cached listing for folder 1lu2NnH4q_LKb2NDHNUYIf7CZ45NM-B_Q
+2026-04-03 21:18:13,944 [2026-04-03 21:18:13 IST] Cached listing for folder 1txSJlH9GvoftjC66kPm6srtsoJfWkyIA
+2026-04-03 21:18:14,449 [2026-04-03 21:18:14 IST] Cached listing for folder 1LfaQwR8kVkqGQvkrho8t4EQ_0N3ide4-
+2026-04-03 21:18:14,951 [2026-04-03 21:18:14 IST] Cached listing for folder 1BjumIkmzYojfrDdIjbR4KKfL8ux3pkRw
+2026-04-03 21:18:15,630 [2026-04-03 21:18:15 IST] Cached listing for folder 1XqnXfZSPPNAxzfOVILuzwA8-q0AZlcFc
+2026-04-03 21:18:17,696 [2026-04-03 21:18:17 IST] Cached listing for folder 1Q0dkYrBh4M2CoZoSaFZWznHFq9RPmAZ2
+2026-04-03 21:18:19,582 [2026-04-03 21:18:19 IST] Cached listing for folder 1lGHZK688asQ8IYN5SNcNp3Ovh-0LEPqr
+2026-04-03 21:18:20,760 [2026-04-03 21:18:20 IST] Cached listing for folder 1fAZ17JljFwOWaaKOlKugBMPhk5hF1-eh
+2026-04-03 21:18:22,825 [2026-04-03 21:18:22 IST] Cached listing for folder 1BVqJJSIhnHSS_UDZUgmlioh97deCkOEa
+2026-04-03 21:18:24,100 [2026-04-03 21:18:24 IST] Cached listing for folder 1yTb18ggqXHYL6MIOON0ORSQehP5fUsj6
+2026-04-03 21:18:25,308 [2026-04-03 21:18:25 IST] Cached listing for folder 1hWEFGXQ3acH-0ScpOKdwV4rBAv3LXOuq
+2026-04-03 21:18:27,473 [2026-04-03 21:18:27 IST] Cached listing for folder 1-MX29qmH8uxX7N6ayT1y7AXJHy2KH7MJ
+2026-04-03 21:18:29,381 [2026-04-03 21:18:29 IST] Cached listing for folder 1BRkd24m7dlMitAGuzVr6Mq9gcYRJxO0s
+2026-04-03 21:18:31,367 [2026-04-03 21:18:31 IST] Cached listing for folder 1tcvKaLEWc5TrTT2zhRZMfqKlcs4s2rr8
+2026-04-03 21:18:31,912 [2026-04-03 21:18:31 IST] Cached listing for folder 1Ctx4JGYDDe95w55Bd8tf20jRPf554Q1E
+2026-04-03 21:18:33,817 [2026-04-03 21:18:33 IST] Cached listing for folder 1aGGSldeguQefGDMeyARYjizqclC3yWf8
+2026-04-03 21:18:35,763 [2026-04-03 21:18:35 IST] Cached listing for folder 1Cjv_WrbW1qxeUmpw75rEZUah4qmIii_P
+2026-04-03 21:18:37,990 [2026-04-03 21:18:37 IST] Cached listing for folder 1NC3aOhFHvS9x9ZACpvlmd0i9pwHfTmuW
+2026-04-03 21:18:40,050 [2026-04-03 21:18:40 IST] Cached listing for folder 1j_W0yv86hFz_qllakitXRTdUuB9fpCRR
+2026-04-03 21:18:41,982 [2026-04-03 21:18:41 IST] Cached listing for folder 1evuAW-Zg60AYbZuwpRPVLC7oY5X8xSKi
+2026-04-03 21:18:43,892 [2026-04-03 21:18:43 IST] Cached listing for folder 1Cj8-idXKklWy30z-nDA0NBb0lpBuGEoe
+2026-04-03 21:18:45,816 [2026-04-03 21:18:45 IST] Cached listing for folder 1rwmUyyYiJzbDGJUUtFso4SAkd362wWoN
+2026-04-03 21:18:47,731 [2026-04-03 21:18:47 IST] Cached listing for folder 1XiuD2LDwwKW4ssCc-MToT2BQz8tQbgO4
+2026-04-03 21:18:49,880 [2026-04-03 21:18:49 IST] Cached listing for folder 1PHc0qtlv-2e0wpxm_tKqR-8i7l_zoN0J
+2026-04-03 21:18:51,707 [2026-04-03 21:18:51 IST] Cached listing for folder 1zZFQlDHwU7zcxcO4DqxdYSS8-UXWrX6q
+2026-04-03 21:18:53,151 [2026-04-03 21:18:53 IST] Cached listing for folder 11VY_ZSwNrqbymPDjMHprS4M86LmBWIr3
+2026-04-03 21:18:55,237 [2026-04-03 21:18:55 IST] Cached listing for folder 1_liqCqKIw_fM6bqwahs7Kjs36dDAeY8F
+2026-04-03 21:18:55,706 [2026-04-03 21:18:55 IST] Cached listing for folder 1nS_O0cB9hGMTgynsOZ7qtPPZDj1mq3Jq
+2026-04-03 21:18:57,598 [2026-04-03 21:18:57 IST] Cached listing for folder 1Rbf9MRiuJcC2rS3pn1SxmN9bZHY8RXZq
+2026-04-03 21:18:59,670 [2026-04-03 21:18:59 IST] Cached listing for folder 1d929mcuTOZuFgN5xzASLt8bhJCyzGQQL
+2026-04-03 21:19:01,772 [2026-04-03 21:19:01 IST] Cached listing for folder 10optlP2Asrhv7BuLZMUzeHUtPcq1h5KD
+2026-04-03 21:19:03,536 [2026-04-03 21:19:03 IST] Cached listing for folder 10Xj0fBlp8z3mmTaizRWGq3OuSQgFxPIg
+2026-04-03 21:19:06,013 [2026-04-03 21:19:06 IST] Cached listing for folder 1l3EZcct3NN7fRT8QVZwtJzt_u6-Vvm7U
+2026-04-03 21:19:08,051 [2026-04-03 21:19:08 IST] Cached listing for folder 1efLEc1CghQsw9_mwS0pniVelSEODrL-4
+2026-04-03 21:19:10,035 [2026-04-03 21:19:10 IST] Cached listing for folder 1AiWyatPuI34vbiIEc5NGGxKHmmXGXsya
+2026-04-03 21:19:12,596 [2026-04-03 21:19:12 IST] Cached listing for folder 13IcWIqtLZhuN9_LQiyMwipizGIp8s6Nn
+2026-04-03 21:19:14,705 [2026-04-03 21:19:14 IST] Cached listing for folder 1JGO0exjvFVYo6rErmWYExSnvVDmzJk7u
+2026-04-03 21:19:16,696 [2026-04-03 21:19:16 IST] Cached listing for folder 1m3V0gp5R2CPtjbWZZASGBAjhwxR1ykf1
+2026-04-03 21:19:18,820 [2026-04-03 21:19:18 IST] Cached listing for folder 1SCRg4TJboZWfL1JTzuigI--tiGyQUlEB
+2026-04-03 21:19:20,678 [2026-04-03 21:19:20 IST] Cached listing for folder 1d43Zy3DMvBfKHNGEeA7vuXxq15lZ93od
+2026-04-03 21:19:21,250 [2026-04-03 21:19:21 IST] Cached listing for folder 1FmZSYct16hKxnl4nkx8I0SRC4ca_lCHy
+2026-04-03 21:19:23,177 [2026-04-03 21:19:23 IST] Cached listing for folder 1Kd3KqrSlsvTuI14TxQufDq41AYqHXkE8
+2026-04-03 21:19:25,164 [2026-04-03 21:19:25 IST] Cached listing for folder 1znf7xKnG2be16aFj1xKZX-1P-fP-mI5B
+2026-04-03 21:19:27,068 [2026-04-03 21:19:27 IST] Cached listing for folder 1IAq1qYiKBPFwLD5mrkatiazng08pSX8b
+2026-04-03 21:19:28,299 [2026-04-03 21:19:28 IST] Cached listing for folder 1cPQdiuOlBQpW-q1PEXIh9YeYiP7T9CJs
+2026-04-03 21:19:28,884 [2026-04-03 21:19:28 IST] Cached listing for folder 1ineuMxS5KmoWp5JjHMK7G_yxHuonWgis
+2026-04-03 21:19:29,365 [2026-04-03 21:19:29 IST] Cached listing for folder 1alOkQkbfzkRM3gEYf3lIdXFq25yyG464
+2026-04-03 21:19:29,922 [2026-04-03 21:19:29 IST] Cached listing for folder 1GHZDwoYwuu1KDq3GhgfuT4pUZj9loxz-
+2026-04-03 21:19:31,167 [2026-04-03 21:19:31 IST] Cached listing for folder 1QlfNsW6EBlo_tm9Kb3QFe7X2tqwR6zfu
+2026-04-03 21:19:32,365 [2026-04-03 21:19:32 IST] Cached listing for folder 1wUhNeyLm0_8i_fJT8Ohn0YQ7Oy1BVYAW
+2026-04-03 21:19:32,942 [2026-04-03 21:19:32 IST] Cached listing for folder 1X9UlsrUMK69_YbdVJy1vFaCA8fgem1xV
+2026-04-03 21:19:33,492 [2026-04-03 21:19:33 IST] Cached listing for folder 1ZUvgQiL9-zuprk7Ipj2-bhlQCUPQVwxO
+2026-04-03 21:19:34,127 [2026-04-03 21:19:34 IST] Cached listing for folder 1dX7AxHrkXfwbdn9SR8F1zZCl5HTaKuJf
+2026-04-03 21:19:34,644 [2026-04-03 21:19:34 IST] Cached listing for folder 15M5vI8GHnOmE6zMqD_0w5x0zcZnM9Kmv
+2026-04-03 21:19:35,930 [2026-04-03 21:19:35 IST] Cached listing for folder 1woGZ2BhXHES5aJNjJ-mtfd-pu4LqsNr8
+2026-04-03 21:19:36,476 [2026-04-03 21:19:36 IST] Cached listing for folder 1FEIGwbCCyIvGnHQ_0ID3hpqumwu4r9Rh
+2026-04-03 21:19:37,161 [2026-04-03 21:19:37 IST] Cached listing for folder 1OsY3f4gl0XQdsguPN5bN6h06TfjywQN3
+2026-04-03 21:19:37,681 [2026-04-03 21:19:37 IST] Cached listing for folder 1te5pgkeJy6MStIA2PJTSNlXORY9Ieh1z
+2026-04-03 21:19:38,218 [2026-04-03 21:19:38 IST] Cached listing for folder 1HSHnprMFPZOqOiF61LKLb4k09YMshnW4
+2026-04-03 21:19:40,217 [2026-04-03 21:19:40 IST] Cached listing for folder 1h2T2sPOnXJ4JAlBwxaBtn7JOR6OVYEIc
+2026-04-03 21:19:41,503 [2026-04-03 21:19:41 IST] Cached listing for folder 1F35DrwtizNZmP8ZFJrBWH7PIAQIXodWi
+2026-04-03 21:19:42,016 [2026-04-03 21:19:42 IST] Cached listing for folder 1-mc7YYNlLb33K00YJsblR6xh9CFQMEnb
+2026-04-03 21:19:42,599 [2026-04-03 21:19:42 IST] Cached listing for folder 1lGpJOLX6CnDpaQoRWWUIcf8CW2rgWX94
+2026-04-03 21:19:43,166 [2026-04-03 21:19:43 IST] Cached listing for folder 1KrdEeKmaz295HuQVQTCcQusy4Y22Mu_N
+2026-04-03 21:19:43,675 [2026-04-03 21:19:43 IST] Cached listing for folder 1mqU0225zdCfpR4B0NbtCLV_JI-5-9QR5
+2026-04-03 21:19:44,233 [2026-04-03 21:19:44 IST] Cached listing for folder 1l3Fnr4KCUmeZBZnMiKr5XHBCeTRgE_dQ
+2026-04-03 21:19:44,740 [2026-04-03 21:19:44 IST] Cached listing for folder 1Uvjpk-E9idqOwA_z3qYQZ8HiBqmBdJpK
+2026-04-03 21:19:45,780 [2026-04-03 21:19:45 IST] Cached listing for folder 1FfsmzxLGRg5tny8wOj91ITZCfZDCBDdO
+2026-04-03 21:19:47,951 [2026-04-03 21:19:47 IST] Cached listing for folder 13Uq9L53PVGqQ3lz87EOWkCYgq3PgpszC
+2026-04-03 21:19:48,637 [2026-04-03 21:19:48 IST] Cached listing for folder 1hA7DI4rV4N6lVjNZIVod8LWbr-CAXXST
+2026-04-03 21:19:48,646 [2026-04-03 21:19:48 IST] Wrote data\class-yud-571-tashpav.json
+2026-04-03 21:19:48,647 [2026-04-03 21:19:48 IST] Crawling url_name: yud-aleph-571-tashpav (folder_url: https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK)
+2026-04-03 21:19:49,178 [2026-04-03 21:19:49 IST] Cached listing for folder 1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK
+2026-04-03 21:19:49,717 [2026-04-03 21:19:49 IST] Cached listing for folder 1vRqEVOBV6BdnuBFVti_ZrkWr5nc0p_tJ
+2026-04-03 21:19:50,243 [2026-04-03 21:19:50 IST] Cached listing for folder 1WIO0JslwVTlwYc08eGxEU0mcDO1_pds8
+2026-04-03 21:19:51,489 [2026-04-03 21:19:51 IST] Cached listing for folder 1uMONEdcewcRvnza30ri2drScLVVoQ_Qf
+2026-04-03 21:19:52,896 [2026-04-03 21:19:52 IST] Cached listing for folder 16vj3RYzOPsiMHevlWd8i0zpM-9fZW1ZS
+2026-04-03 21:19:54,157 [2026-04-03 21:19:54 IST] Cached listing for folder 1-TlNW1IILKeRn30c3wbFs0bH81XUR0PI
+2026-04-03 21:19:55,553 [2026-04-03 21:19:55 IST] Cached listing for folder 1q578EOaxkClxnQreRAaz7gL8yLOyitGU
+2026-04-03 21:19:56,796 [2026-04-03 21:19:56 IST] Cached listing for folder 1ZwD9j6nhWFGmYtcAaCUFpvnnYEmbCnyb
+2026-04-03 21:19:59,536 [2026-04-03 21:19:59 IST] Cached listing for folder 1luX2ghpy6ZXvttGI_q1y_aBhYtRYlmrC
+2026-04-03 21:20:00,114 [2026-04-03 21:20:00 IST] Cached listing for folder 1KB3YxDZo35jM6ioZDaCuM5zogcOXf5r7
+2026-04-03 21:20:00,690 [2026-04-03 21:20:00 IST] Cached listing for folder 1VxlnYQyRtNaFF95ZT-_PE9xG1Zb0ki32
+2026-04-03 21:20:01,174 [2026-04-03 21:20:01 IST] Cached listing for folder 1nUfezUuItGWuvz43UP66apfULip9GulA
+2026-04-03 21:20:03,378 [2026-04-03 21:20:03 IST] Cached listing for folder 1fnQ-5afRYl6s6GBQiNrQfAoTLfUzo6Ch
+2026-04-03 21:20:03,905 [2026-04-03 21:20:03 IST] Cached listing for folder 1s5z3gwGeRBiLcL229vXxRRDgR5q0bar3
+2026-04-03 21:20:04,409 [2026-04-03 21:20:04 IST] Cached listing for folder 1Grr7pQre-mpHGx0GML0iYlyZNbaMAYi1
+2026-04-03 21:20:04,951 [2026-04-03 21:20:04 IST] Cached listing for folder 1VRbky2FIsDqmcBUplUgH-IcpF2xsR8db
+2026-04-03 21:20:05,561 [2026-04-03 21:20:05 IST] Cached listing for folder 1TwYx7UXQaGF7mWMTbnpoKR3tvHM470Xt
+2026-04-03 21:20:06,115 [2026-04-03 21:20:06 IST] Cached listing for folder 19es5GvtsHQc5zeQp1G44i7GbvRQ2Bdeo
+2026-04-03 21:20:08,175 [2026-04-03 21:20:08 IST] Cached listing for folder 1UqjKoeOzAQp9WNhIlbmR-uWm-Y1xaM7B
+2026-04-03 21:20:08,778 [2026-04-03 21:20:08 IST] Cached listing for folder 18oJuCeN7-S0exMXs0Fet0hj7WSHM1-e2
+2026-04-03 21:20:09,320 [2026-04-03 21:20:09 IST] Cached listing for folder 1W7IExaalMxCeV-VwEBpB28OODjEXaDT4
+2026-04-03 21:20:09,862 [2026-04-03 21:20:09 IST] Cached listing for folder 1jDIpa37ILlTQE3P3mQ0Plaj1geX61Gee
+2026-04-03 21:20:10,393 [2026-04-03 21:20:10 IST] Cached listing for folder 1E3_R-RGcldhedLs_hkvsRooDDLJxJHu2
+2026-04-03 21:20:10,935 [2026-04-03 21:20:10 IST] Cached listing for folder 1cOe4WNxVMQhKgY26t0Rh9Zdf54BCZhPX
+2026-04-03 21:20:11,487 [2026-04-03 21:20:11 IST] Cached listing for folder 1yQGP3by75A00ahEqNt0OA-3ln6_vFrO6
+2026-04-03 21:20:12,811 [2026-04-03 21:20:12 IST] Cached listing for folder 12D1LEy0RRR8ryC0chaRF3Nwc1Rw0cIMw
+2026-04-03 21:20:13,556 [2026-04-03 21:20:13 IST] Cached listing for folder 1Y9IBZLhE3qLNetz7MSnJjHbleS7BxGRH
+2026-04-03 21:20:14,077 [2026-04-03 21:20:14 IST] Cached listing for folder 1_CYncusvfcYaHNFNOgv7yF4u1OgARqJV
+2026-04-03 21:20:14,676 [2026-04-03 21:20:14 IST] Cached listing for folder 1zBJqZlwVbe0CWat4HAN5SCb7vf04FNkH
+2026-04-03 21:20:15,186 [2026-04-03 21:20:15 IST] Cached listing for folder 1CoYCNIyDP8dJ58juOntQUqUdU7GoakLX
+2026-04-03 21:20:16,461 [2026-04-03 21:20:16 IST] Cached listing for folder 1hZyA1ODqgK5otn_Vy9DmsF800MSSuR8m
+2026-04-03 21:20:17,022 [2026-04-03 21:20:17 IST] Cached listing for folder 1lIImMVh_BWgGaCs66qg_mbcKAnfCaqQN
+2026-04-03 21:20:19,149 [2026-04-03 21:20:19 IST] Cached listing for folder 1gc6hQiL6tcblEjW2mXws2y9_uzWs_MIt
+2026-04-03 21:20:21,175 [2026-04-03 21:20:21 IST] Cached listing for folder 1DAi4sr8dVBcxcBz-A_K7BkHOIw01l_sh
+2026-04-03 21:20:23,035 [2026-04-03 21:20:23 IST] Cached listing for folder 1ncHzmYTjfQywtBUZST02BiqUwrT20fVz
+2026-04-03 21:20:24,769 [2026-04-03 21:20:24 IST] Cached listing for folder 1StaKnVxbfZB4lBT11EXfRPqu0M8qoAsX
+2026-04-03 21:20:26,473 [2026-04-03 21:20:26 IST] Cached listing for folder 1eDlxjvSSMQ3KWoXWvAyEN3BmooTqkDPQ
+2026-04-03 21:20:27,056 [2026-04-03 21:20:27 IST] Cached listing for folder 1nKEbTR3OGmWD9045rqAiroCNMSBk5ae7
+2026-04-03 21:20:27,584 [2026-04-03 21:20:27 IST] Cached listing for folder 1Wjwk30W6fKI2fgAwkfk2zHzVAly8tRlA
+2026-04-03 21:20:28,072 [2026-04-03 21:20:28 IST] Cached listing for folder 1ymX6t_Ok2-zUv9g2mYAdpVEO04RMLMzt
+2026-04-03 21:20:28,641 [2026-04-03 21:20:28 IST] Cached listing for folder 1B7Foc9KN-0x6pChUKPf8XdJX61NWnTOC
+2026-04-03 21:20:29,246 [2026-04-03 21:20:29 IST] Cached listing for folder 1Te-ZNu-3Y8F9qcqkzJkLGMYIzcjhD6u0
+2026-04-03 21:20:30,058 [2026-04-03 21:20:30 IST] Cached listing for folder 1hBx1wv9xyUk2ms6ULmbAcMrPPqJF0Ad8
+2026-04-03 21:20:30,619 [2026-04-03 21:20:30 IST] Cached listing for folder 1A1f8RrfZGuAqES-mt72SO7ZwbJGDMAHS
+2026-04-03 21:20:31,132 [2026-04-03 21:20:31 IST] Cached listing for folder 1LwJwbzHQWdOZi1Op3coxrd9Eaxg8c_cb
+2026-04-03 21:20:31,696 [2026-04-03 21:20:31 IST] Cached listing for folder 1JlQmRNpSBh1IYVzfHRqfJkApGWZeMd8Y
+2026-04-03 21:20:32,941 [2026-04-03 21:20:32 IST] Cached listing for folder 1aVOCRV6OfQLy7QT6IaW31nXy8c6S_f0a
+2026-04-03 21:20:34,262 [2026-04-03 21:20:34 IST] Cached listing for folder 1Ano05iNZ38NnnrBNvf56_6qF39lAHZfQ
+2026-04-03 21:20:36,505 [2026-04-03 21:20:36 IST] Cached listing for folder 1lYwFLmGPtlM8vX5VZP9Xma7RT5LVSSNt
+2026-04-03 21:20:37,082 [2026-04-03 21:20:37 IST] Cached listing for folder 1BwJ9W_jQvm_bo3_ifWqalytc8AlSwaK2
+2026-04-03 21:20:37,631 [2026-04-03 21:20:37 IST] Cached listing for folder 1oJWKeixk9itDEZHRawfPzD27el0uz-8N
+2026-04-03 21:20:38,200 [2026-04-03 21:20:38 IST] Cached listing for folder 1zLHxobvI_90XYeTx0MgVQF_wkKoBuajc
+2026-04-03 21:20:38,775 [2026-04-03 21:20:38 IST] Cached listing for folder 1yoYQrn2igwDdRgyZxyvuCu_2oc8MP3Lm
+2026-04-03 21:20:39,313 [2026-04-03 21:20:39 IST] Cached listing for folder 1yALXP4w1F-E0M0HRoBPa6QJIyp-d2GDz
+2026-04-03 21:20:39,863 [2026-04-03 21:20:39 IST] Cached listing for folder 12eTLn024HxuzeS5HbGZedsSs7Mjroj1A
+2026-04-03 21:20:40,418 [2026-04-03 21:20:40 IST] Cached listing for folder 1K6D-WLOEyeygLSdcCOQ4qwc3_joAYs23
+2026-04-03 21:20:41,686 [2026-04-03 21:20:41 IST] Cached listing for folder 1hKbTjjSRrS-KRXZFrRGJXTAfVRi2ry5O
+2026-04-03 21:20:42,322 [2026-04-03 21:20:42 IST] Cached listing for folder 1RnRgHHVjIPm5wqSRdBA_PcdfKLXCdncO
+2026-04-03 21:20:42,830 [2026-04-03 21:20:42 IST] Cached listing for folder 1rsT6QqWJ8zdIzYcNw4cUQTiMw7aMWwp7
+2026-04-03 21:20:43,398 [2026-04-03 21:20:43 IST] Cached listing for folder 170P2EIeGWvKKth-dSmrDHirGGlKwRKPh
+2026-04-03 21:20:43,924 [2026-04-03 21:20:43 IST] Cached listing for folder 1M5skZDrFr3SDieIueXY49GfwjiMP5qXp
+2026-04-03 21:20:44,557 [2026-04-03 21:20:44 IST] Cached listing for folder 1K8z96JC6vexOIFYi-Y9t7F2wStDJ3BHX
+2026-04-03 21:20:45,117 [2026-04-03 21:20:45 IST] Cached listing for folder 1PF45HLrOb4E6z2lvokrMGtPRKe-FNJiI
+2026-04-03 21:20:45,695 [2026-04-03 21:20:45 IST] Cached listing for folder 12UbhVFPR9df1QGueB7HVthzfwpJZKYxY
+2026-04-03 21:20:46,204 [2026-04-03 21:20:46 IST] Cached listing for folder 18MUFxdjJIGvcvhQdiymJ7GORO6aBV0e3
+2026-04-03 21:20:46,707 [2026-04-03 21:20:46 IST] Cached listing for folder 1hSg4j_9zi6jku7qmaO9xMmXt1I8WUJS6
+2026-04-03 21:20:47,926 [2026-04-03 21:20:47 IST] Cached listing for folder 1ZsE1nh0396Wt7UAXP4ondclaLDsGgjNQ
+2026-04-03 21:20:48,492 [2026-04-03 21:20:48 IST] Cached listing for folder 1Q1jalqQvrgeTDJpsGyFoVykgDPAaYk_9
+2026-04-03 21:20:51,022 [2026-04-03 21:20:51 IST] Cached listing for folder 17rM4vtVPUixJ14v91-QY6eSGifEaFQEn
+2026-04-03 21:20:52,993 [2026-04-03 21:20:52 IST] Cached listing for folder 1ccIcmFrqKxFsIGHfrYp2b8mvcayi-_uz
+2026-04-03 21:20:53,529 [2026-04-03 21:20:53 IST] Cached listing for folder 16jvduH4cOBQIVMxoQPsgcTPCMzMbdJBI
+2026-04-03 21:20:55,674 [2026-04-03 21:20:55 IST] Cached listing for folder 1WlRL7EfcsgS28-t0Bd7drtjdUBDDExKi
+2026-04-03 21:20:57,581 [2026-04-03 21:20:57 IST] Cached listing for folder 1GgMPxLbFEzjK8gu6Q3ZwQAu5F7BWOwHY
+2026-04-03 21:20:59,576 [2026-04-03 21:20:59 IST] Cached listing for folder 1vH0aDKKDR_Kn91OMibp3AGXckl8Heyz0
+2026-04-03 21:21:01,690 [2026-04-03 21:21:01 IST] Cached listing for folder 1nAZ4br1UfW5abvggQMUjdz4YtpTMUbu1
+2026-04-03 21:21:02,251 [2026-04-03 21:21:02 IST] Cached listing for folder 1k-E0r25K0bAlM59AgrwNC2o8x2kXEFDb
+2026-04-03 21:21:02,878 [2026-04-03 21:21:02 IST] Cached listing for folder 1CKLh3TdEApcj_-dZPOk7ULK0DWnNMPdX
+2026-04-03 21:21:03,415 [2026-04-03 21:21:03 IST] Cached listing for folder 1bzlW8DJ7NLgUg2M5rty2Bk5HvqMpvn9v
+2026-04-03 21:21:05,329 [2026-04-03 21:21:05 IST] Cached listing for folder 16CiTYxppxhrYp5koWcM9sQkoiJaBM3Pb
+2026-04-03 21:21:05,846 [2026-04-03 21:21:05 IST] Cached listing for folder 1gyCl_GwpwZkMyglPsGkc0Go0kydQ1oPj
+2026-04-03 21:21:06,385 [2026-04-03 21:21:06 IST] Cached listing for folder 15fLy4zaW932QveJ3c_FKOUOBRe_boVK3
+2026-04-03 21:21:06,958 [2026-04-03 21:21:06 IST] Cached listing for folder 1i4ITEJRcr6LXrw6KUGF-i02iNvNZepYD
+2026-04-03 21:21:07,509 [2026-04-03 21:21:07 IST] Cached listing for folder 1waLBnO_gHmbm5eXBObZ3VEoUlfskpgMV
+2026-04-03 21:21:09,527 [2026-04-03 21:21:09 IST] Cached listing for folder 1i0L18BcHeTHELeYPG6GNvEoxeUJFW7LJ
+2026-04-03 21:21:10,047 [2026-04-03 21:21:10 IST] Cached listing for folder 1a-6iRxXz5iIOLLwfGpSZP9o2e4VyuZaB
+2026-04-03 21:21:10,642 [2026-04-03 21:21:10 IST] Cached listing for folder 1SuULtYAMSu02MyCvOmhF0W-0SSNzjvO6
+2026-04-03 21:21:11,209 [2026-04-03 21:21:11 IST] Cached listing for folder 1o5frG6CZo9ir7I9G6s5lP1hdhAguGnHm
+2026-04-03 21:21:12,817 [2026-04-03 21:21:12 IST] Cached listing for folder 1sQMukSwtY-Rn8CVIOeV4yq7lTxgVGGSH
+2026-04-03 21:21:14,119 [2026-04-03 21:21:14 IST] Cached listing for folder 1qBnHCaS-zRYjdePy07JBJfHTvU383DgN
+2026-04-03 21:21:15,331 [2026-04-03 21:21:15 IST] Cached listing for folder 1-1019E4OfHpCZUlP71xIgIecYKXRzP6o
+2026-04-03 21:21:16,474 [2026-04-03 21:21:16 IST] Cached listing for folder 1XrPx0PNZIXh4gJoCFhqy8ggMic9y_i6G
+2026-04-03 21:21:17,052 [2026-04-03 21:21:17 IST] Cached listing for folder 1r1rNHdEruSDT49q0BMff6KTVE8SlXxcH
+2026-04-03 21:21:18,350 [2026-04-03 21:21:18 IST] Cached listing for folder 1KcJGcVM93bajt9RwwcvX_hBbu5KXdz2K
+2026-04-03 21:21:18,860 [2026-04-03 21:21:18 IST] Cached listing for folder 1tSpk4dlpkaOCKReH8IR4iVeg71TT4YDg
+2026-04-03 21:21:21,029 [2026-04-03 21:21:21 IST] Cached listing for folder 1awqSywSlC3CiQ0i-CUpqoS-xXl87cRSQ
+2026-04-03 21:21:21,553 [2026-04-03 21:21:21 IST] Cached listing for folder 1h2NX-VoxxOvv3iZKIb6EbicZ1z3T1twM
+2026-04-03 21:21:23,433 [2026-04-03 21:21:23 IST] Cached listing for folder 1JGEM_1FvKzHObx39yRyiCbe4CM8NIZui
+2026-04-03 21:21:24,052 [2026-04-03 21:21:24 IST] Cached listing for folder 15ipq_K0kxyk18i4QfXZ__ve3AS6wFIrA
+2026-04-03 21:21:25,967 [2026-04-03 21:21:25 IST] Cached listing for folder 1JmJE9Vfa2AKNu8hqD2DlObQ-99TXGu2f
+2026-04-03 21:21:26,497 [2026-04-03 21:21:26 IST] Cached listing for folder 1NFiNKu5i0eXcWbw0B036_LzFAfhIR8Fw
+2026-04-03 21:21:27,002 [2026-04-03 21:21:27 IST] Cached listing for folder 1_kGt5vDENOZCaiqtEfWbINJNa9woZTZ9
+2026-04-03 21:21:27,544 [2026-04-03 21:21:27 IST] Cached listing for folder 1ePUcLbsp6Vs23AkCJSqgS8dvuqgi6E5P
+2026-04-03 21:21:28,685 [2026-04-03 21:21:28 IST] Cached listing for folder 1PMnSvGoBggwIWhPvA-DADELerNa7dgpR
+2026-04-03 21:21:30,633 [2026-04-03 21:21:30 IST] Cached listing for folder 1Kh6sl6VjrBZjHgbzLjsutVAueuiFykH0
+2026-04-03 21:21:31,175 [2026-04-03 21:21:31 IST] Cached listing for folder 1jmanCLrlItaNpnbC_HCIgw8L0K6UZfrf
+2026-04-03 21:21:31,718 [2026-04-03 21:21:31 IST] Cached listing for folder 1MjIAAuwngA05oJWru4apJmoFwNBaDmRE
+2026-04-03 21:21:32,366 [2026-04-03 21:21:32 IST] Cached listing for folder 1Alse2yWfcQfVgRptc9NIL9hc3mfZ-Pwj
+2026-04-03 21:21:32,969 [2026-04-03 21:21:32 IST] Cached listing for folder 1tiGPlu9ZJ3ULtHEafN69gD8VnN-70-AB
+2026-04-03 21:21:33,479 [2026-04-03 21:21:33 IST] Cached listing for folder 19aXa_PFnQ0qEazDdaCpxyHnKk4FPA1FG
+2026-04-03 21:21:34,006 [2026-04-03 21:21:34 IST] Cached listing for folder 1kaaidsglsrsc4vmauJOFmNjUHAqmq-rw
+2026-04-03 21:21:35,205 [2026-04-03 21:21:35 IST] Cached listing for folder 1L_NSqrobWv2-kekatnyt4JoBbazcBbtR
+2026-04-03 21:21:36,365 [2026-04-03 21:21:36 IST] Cached listing for folder 1uugZX8WWo2Ml9Ml66-639zkr8TKHahi6
+2026-04-03 21:21:36,891 [2026-04-03 21:21:36 IST] Cached listing for folder 1N8WowdhM5fCP3S47B6IFpiRjm1ospLCn
+2026-04-03 21:21:38,977 [2026-04-03 21:21:38 IST] Cached listing for folder 1kbDAWYJY1MNS_c7xekLEF8BuBpQs13yN
+2026-04-03 21:21:39,609 [2026-04-03 21:21:39 IST] Cached listing for folder 1qrBasVqH3Ry51ePYt7TJcfYDA5fZqXEX
+2026-04-03 21:21:40,130 [2026-04-03 21:21:40 IST] Cached listing for folder 17Dw-_Ps8pw3kB-bRzk-w7biV0VeyAa6z
+2026-04-03 21:21:40,673 [2026-04-03 21:21:40 IST] Cached listing for folder 192wpg8KYF0gyhCyHpUtFUsrB9Gg-jiks
+2026-04-03 21:21:41,188 [2026-04-03 21:21:41 IST] Cached listing for folder 1Qt6u6q9Lm9aburcWj9t1b5Kmj3FN3B_0
+2026-04-03 21:21:41,756 [2026-04-03 21:21:41 IST] Cached listing for folder 1M0EV6_oRsKeEh0V6h4LtLHrz8G-Io_7k
+2026-04-03 21:21:42,337 [2026-04-03 21:21:42 IST] Cached listing for folder 16krzOiucpxU81f3mdQJdkg7MRA6s95RY
+2026-04-03 21:21:42,914 [2026-04-03 21:21:42 IST] Cached listing for folder 1GhFt7lnATsGs1d_yQiFN0InVzC40i5ca
+2026-04-03 21:21:45,313 [2026-04-03 21:21:45 IST] Cached listing for folder 1v1Dwra6P6p1ci7Y5DaNCT_fYnfDWYz0r
+2026-04-03 21:21:47,584 [2026-04-03 21:21:47 IST] Cached listing for folder 1-HvrWvJYltLmwQJci_en0LFG3TFbu7H3
+2026-04-03 21:21:48,157 [2026-04-03 21:21:48 IST] Cached listing for folder 13AIQzuVWyP5xuhSt3kIgmJEqN2fkBfbD
+2026-04-03 21:21:48,700 [2026-04-03 21:21:48 IST] Cached listing for folder 1sIFJkS2ctTfPgSTU0UdH-krW7XUNQuWb
+2026-04-03 21:21:49,251 [2026-04-03 21:21:49 IST] Cached listing for folder 1iuFse3bEEgLuQZhX8be7XYZ55PbIqx1n
+2026-04-03 21:21:51,278 [2026-04-03 21:21:51 IST] Cached listing for folder 1mOazUjh2Q-xx4skTZTZtCyb_B3VOe68r
+2026-04-03 21:21:51,805 [2026-04-03 21:21:51 IST] Cached listing for folder 1gFRsE7f-S6dSLpt8YSy4XGz-Dh6qQEWS
+2026-04-03 21:21:53,864 [2026-04-03 21:21:53 IST] Cached listing for folder 1O6MQXw_SIHj5eAR9FpNHZABEa83BnIft
+2026-04-03 21:21:54,398 [2026-04-03 21:21:54 IST] Cached listing for folder 1eYXaX52eV9SuLW3bze9gewIyyj4mwaK7
+2026-04-03 21:21:55,464 [2026-04-03 21:21:55 IST] Cached listing for folder 15jF1iP1sB2vsFn-NSRbEJdMFHAWhb329
+2026-04-03 21:21:56,824 [2026-04-03 21:21:56 IST] Cached listing for folder 1xxTSIwaiFMYBAcKXgTRjVL4aVxkVTAJV
+2026-04-03 21:21:58,614 [2026-04-03 21:21:58 IST] Cached listing for folder 17SU5r-RNn1o6_PrpTKGh1uIG2V4c0to_
+2026-04-03 21:21:58,619 [2026-04-03 21:21:58 IST] Wrote data\class-yud-aleph-571-tashpav.json
+2026-04-03 21:21:58,619 [2026-04-03 21:21:58 IST] Crawling url_name: yud-bet-572-tashpav (folder_url: https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW)
+2026-04-03 21:21:59,200 [2026-04-03 21:21:59 IST] Cached listing for folder 1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW
+2026-04-03 21:21:59,701 [2026-04-03 21:21:59 IST] Cached listing for folder 1g4dw7Pkh8CCzT-g_-_mUc4lcxn1x-o8R
+2026-04-03 21:22:00,257 [2026-04-03 21:22:00 IST] Cached listing for folder 1OkKRF0oE1iCrilQEfFZKKf3AcQsPMWFm
+2026-04-03 21:22:00,838 [2026-04-03 21:22:00 IST] Cached listing for folder 1DIdMQw-E2tT_mTHLfjBTNpDhRMo_roRS
+2026-04-03 21:22:01,355 [2026-04-03 21:22:01 IST] Cached listing for folder 1v37a3mR4pPEv98t3DeWugQio2MFzfxpx
+2026-04-03 21:22:01,869 [2026-04-03 21:22:01 IST] Cached listing for folder 1Hg_FRJwxA3Cq2pxuYdU6HN4l6T36fxkq
+2026-04-03 21:22:02,506 [2026-04-03 21:22:02 IST] Cached listing for folder 1g25cqZtG4s2Ng-VzxyvJN16e_DR-9DRK
+2026-04-03 21:22:03,043 [2026-04-03 21:22:03 IST] Cached listing for folder 1w6BkHGsvMu3Sm8Q573fhH-vfV7CiU0ol
+2026-04-03 21:22:03,607 [2026-04-03 21:22:03 IST] Cached listing for folder 1Tf9a7ifndBqDelt_bfED3ci8TEeqaYmo
+2026-04-03 21:22:04,153 [2026-04-03 21:22:04 IST] Cached listing for folder 1_2xuWDYTFEeUy1c9kEo4PHSXq3eNiANj
+2026-04-03 21:22:04,663 [2026-04-03 21:22:04 IST] Cached listing for folder 1d5ZZvlp_3GNxdn0XUE5PPszvlBdNqwws
+2026-04-03 21:22:05,173 [2026-04-03 21:22:05 IST] Cached listing for folder 1W8wYoD4sTF0dey6c6gfSrhoqoHxrv8J6
+2026-04-03 21:22:05,762 [2026-04-03 21:22:05 IST] Cached listing for folder 1PgEDW4ywzuvEbJ5xdJ-aKK9ugwheA9Wp
+2026-04-03 21:22:06,267 [2026-04-03 21:22:06 IST] Cached listing for folder 1x8SXl9Vj-nc363P_109NK4TusNt_ApGL
+2026-04-03 21:22:06,988 [2026-04-03 21:22:06 IST] Wrote data\class-yud-bet-572-tashpav.json
+2026-04-03 21:22:06,988 [2026-04-03 21:22:06 IST] All classes processed. JSON generation complete.
+2026-04-03 21:22:07,259 [2026-04-03 21:22:07 IST] Saved initial changes state for next run
+2026-04-03 21:22:07,259 [2026-04-03 21:22:07 IST] Data regeneration complete
+2026-04-03 21:22:07,259 [2026-04-03 21:22:07 IST] Main build process started
+2026-04-03 21:22:07,293 [2026-04-03 21:22:07 IST] Loaded 9 class JSON files
+2026-04-03 21:22:07,305 [2026-04-03 21:22:07 IST] Rendered index.html
+2026-04-03 21:22:07,339 [2026-04-03 21:22:07 IST] Rendered all class pages
+2026-04-03 21:22:07,342 [2026-04-03 21:22:07 IST] Copied static assets
+2026-04-03 21:22:07,381 [2026-04-03 21:22:07 IST] Copied images
+2026-04-03 21:22:07,382 [2026-04-03 21:22:07 IST] Copied quizes
+2026-04-03 21:22:07,383 [2026-04-03 21:22:07 IST] Site built successfully!
