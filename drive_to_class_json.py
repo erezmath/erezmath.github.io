@@ -59,8 +59,9 @@ REMOVE_ALL_EXTENSIONS = False
 
 SITE_CATEGORIES = [
     {'id': 'current', 'title': 'כיתות השנה'},
-    {'id': 'exams', 'title': 'בגרויות ומתכונות'},
-    {'id': 'past', 'title': 'כיתות עבר'}
+    {'id': 'bagruyot', 'title': 'בגרויות ומתכונות'},
+    {'id': 'past', 'title': 'כיתות עבר'},
+    {'id': 'other', 'title': 'אחר'}
 ]
 
 class_info = [
@@ -90,7 +91,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37',
         'banner_url': 'images/banner571.png',
-        'category': 'exams',
+        'category': 'bagruyot',
         'regenerate': True
     },
     {
@@ -100,7 +101,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO',
         'banner_url': 'images/banner472.png',
-        'category': 'exams',
+        'category': 'bagruyot',
         'regenerate': True
     },
     {
@@ -110,7 +111,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW',
         'banner_url': 'images/banner471.png',
-        'category': 'exams',
+        'category': 'bagruyot',
         'regenerate': True
     },
     {
@@ -160,7 +161,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1uBrRKePcRRwbcLi6x9fXcVy9D1wgPnED',
         'banner_url': 'images/banner572.png',
-        'category': 'exams',
+        'category': 'bagruyot',
         'regenerate': True
     }
 ]
