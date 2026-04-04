@@ -14,6 +14,7 @@
  * 10. Share Footer
  * 11. CSS Icons & SVG Helpers
  * 12. Media Queries (Responsive Adjustments)
+ * 13. Drive Hover Previews
  * ============================================================================
  */
 
@@ -1090,3 +1091,40 @@
       margin-bottom: 6px; 
     }
   }
+
+  /* ============================================================================
+   13. DRIVE HOVER PREVIEWS
+   ============================================================================ */
+.drive-preview-tooltip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-fast) ease, visibility var(--transition-fast) ease;
+  background: var(--color-bg);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-pop);
+  padding: 4px;
+  /* Will not exceed window bounds */
+  max-width: min(600px, 90vw);
+  max-height: min(600px, 90vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drive-preview-tooltip.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.drive-preview-tooltip img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: calc(var(--border-radius-sm) - 4px);
+  background: var(--color-bg-light);
+  object-fit: contain;
+}

@@ -12,6 +12,7 @@
  * 8. Hash Navigation
  * 9. Accessibility (Dropdowns)
  * 10. Initialization
+ * 11. Google Drive Hover Previews
  * ============================================================================
  */
 
@@ -34,6 +35,10 @@ let assignmentsBlocks = null;
 let assignmentsCurrentBlocks = 2; // Start by showing 2 blocks
 const assignmentsMaxClicks = 2;   // User can click 'see more' 2 times (so up to 4 blocks)
 let assignmentsClicks = 0;
+
+// Hover Preview configuration
+const ENABLE_DRIVE_HOVER_PREVIEWS = true;
+const HOVER_PREVIEW_DELAY_MS = 300;
 
 const SHARE_ICONS = {
   whatsapp: `<svg viewBox="0 0 24 24" aria-hidden="true" width="24" height="24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>`,
@@ -783,6 +788,10 @@ document.addEventListener('DOMContentLoaded', function() {
   setupShareFooter();
   setupAssignments();
   
+  if (ENABLE_DRIVE_HOVER_PREVIEWS) {
+    setupDriveHoverPreviews();
+  }
+  
   // Handle hash navigation on page load with a slight delay for rendering
   setTimeout(() => {
     scrollToHashTarget();
@@ -791,3 +800,120 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Update scroll target when URL hash changes
 window.addEventListener('hashchange', scrollToHashTarget);
+
+
+// ============================================================================
+// 11. GOOGLE DRIVE HOVER PREVIEWS
+// ============================================================================
+
+/**
+ * Adds a hover thumbnail preview for Google Drive file links.
+ * Only active on desktop devices with hover support.
+ */
+function setupDriveHoverPreviews() {
+  if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+    return;
+  }
+
+  let hoverTimeout = null;
+  let activePreview = null;
+
+  const previewContainer = document.createElement('div');
+  previewContainer.className = 'drive-preview-tooltip';
+  document.body.appendChild(previewContainer);
+
+  const hidePreview = () => {
+    clearTimeout(hoverTimeout);
+    previewContainer.classList.remove('visible');
+    activePreview = null;
+  };
+
+  document.addEventListener('mouseover', (e) => {
+    const link = e.target.closest('a');
+    if (!link) return;
+
+    const url = link.href;
+    const driveMatch = url.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
+    if (!driveMatch) return;
+
+    const fileId = driveMatch[1];
+    let lastEvent = e;
+
+    const positionPreview = (mouseEvent) => {
+      lastEvent = mouseEvent;
+      // We no longer exit early if not visible here, because we want to calculate
+      // position before making it visible.
+
+      const rect = previewContainer.getBoundingClientRect();
+      const margin = 15;
+      
+      // Default: Place to the immediate left of the cursor (RTL reading direction)
+      let left = mouseEvent.clientX - rect.width - margin;
+      
+      // Flip logic: If there isn't enough room on the left, place it on the right
+      if (left < margin) {
+        left = mouseEvent.clientX + margin;
+      }
+      
+      // Vertical placement: Center the image vertically on the mouse position
+      let top = mouseEvent.clientY - (rect.height / 2);
+      
+      // Clamp to top window boundary
+      if (top < margin) {
+        top = margin;
+      }
+      
+      // Clamp to bottom window boundary
+      if (top + rect.height > window.innerHeight - margin) {
+        top = window.innerHeight - rect.height - margin;
+      }
+      
+      previewContainer.style.left = `${left}px`;
+      previewContainer.style.top = `${top}px`;
+    };
+
+    const mouseMoveHandler = (mouseEvent) => {
+      // Only re-position dynamically if it's already visible
+      if (previewContainer.classList.contains('visible')) {
+        positionPreview(mouseEvent);
+      } else {
+        lastEvent = mouseEvent; // Keep track of latest mouse position while waiting
+      }
+    };
+
+    link.addEventListener('mousemove', mouseMoveHandler);
+
+    hoverTimeout = setTimeout(() => {
+      if (activePreview !== fileId) {
+        activePreview = fileId;
+        
+        // Fetch higher resolution thumbnail using sz=s1200 parameter
+        const imgUrl = `https://drive.google.com/thumbnail?id=${fileId}&sz=s1200`;
+        const img = document.createElement('img');
+        img.alt = 'Preview';
+        
+        img.onload = () => {
+          // Ensure we are still hovering on the same file by the time image loads
+          if (activePreview === fileId) {
+            previewContainer.innerHTML = '';
+            previewContainer.appendChild(img);
+            
+            // Calculate position based on the newly appended, fully loaded image dimensions
+            positionPreview(lastEvent);
+            
+            // Now that it's positioned correctly, reveal it
+            previewContainer.classList.add('visible');
+          }
+        };
+
+        // Start loading the image (this triggers the onload function above)
+        img.src = imgUrl;
+      }
+    }, HOVER_PREVIEW_DELAY_MS);
+
+    link.addEventListener('mouseleave', () => {
+      hidePreview();
+      link.removeEventListener('mousemove', mouseMoveHandler);
+    }, { once: true });
+  });
+}
