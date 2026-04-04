@@ -1,0 +1,1119 @@
+{
+  "id": 10,
+  "name": "בגרויות 572 ופתרונות",
+  "url_name": "bagruyot-572",
+  "banner_url": "images/banner572.png",
+  "desc": "",
+  "tags": [
+    "1. בגרויות לפי נושאים",
+    "2. מתכונות בתי ספר",
+    "3. חוברת בגרויות יואל גבע",
+    "10. מתכונות בר אילן"
+  ],
+  "topics": [
+    {
+      "name": "1. בגרויות לפי נושאים",
+      "id": "1-בגרויות-לפי-נושאים",
+      "lessons": [
+        {
+          "name": "1. ריכוז בגרויות 2020-2025 לפי נושאים",
+          "desc": "",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "folder",
+              "name": "יובל אמיתי",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 אנליטית",
+                  "url": "https://drive.google.com/file/d/1UcV6cgEgNxA6jk_FWU81IJkOkuTG0k8A/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 וקטורים",
+                  "url": "https://drive.google.com/file/d/18fqBFR8ybIRXCxEL9OQPdeHk17uutN4C/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 מספרים מרוכבים",
+                  "url": "https://drive.google.com/file/d/1GE31jsDnyubhAd5XZDHyoBXGbrGYhn_q/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 פונקציות לוגריתמיות",
+                  "url": "https://drive.google.com/file/d/19esp4eznyfSXOV3bVNM28zjJKI1XIkBx/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 פונקציות מעריכיות",
+                  "url": "https://drive.google.com/file/d/1LRB1bmTnbCGStyV4KTksjGQrTufA-Rhu/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "שרית סמואל",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "עותק של ln(f(x))   e^(f(x))",
+                  "url": "https://drive.google.com/file/d/1nvvwEteuODxDdkoc8WrprUUIXKC7-OaY/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עותק של ווקטורים מבגרויות 572",
+                  "url": "https://drive.google.com/file/d/1q1ZRkE3Xr-6RTVb7u4Q6xFm7Ecdu9NhC/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עותק של חזקת n.pdf",
+                  "url": "https://drive.google.com/file/d/12GHyUB-us9Qma-DGqeJTMD95fvQdNGme/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עותק של מרוכבים מבגרויות 572.pdf",
+                  "url": "https://drive.google.com/file/d/1aF4MbT-yXIk-AIR4vBglElZPmArpj3H6/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2. מפות חשיבה - יובל אמיתי",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 1 הקו הישר",
+              "url": "https://drive.google.com/file/d/1NMcuDgaxBYYOUtmcoxR1xTZgB9YxfFw9/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 2 מעגל",
+              "url": "https://drive.google.com/file/d/1lxEsYciS6a4Yu-VvB3JMVBPbnARY2gCs/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 3 פרבולה",
+              "url": "https://drive.google.com/file/d/1_43bQxj2Uw2c0-xTJwIsyGJJGGRrU2wE/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 4 אליפסה",
+              "url": "https://drive.google.com/file/d/162F2pYEPmx9iksmTr-wTYi46XrJEZpUx/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 5 היפרבולה",
+              "url": "https://drive.google.com/file/d/1Yhy8Pkz_IdgkeZyjLxeoo1SW4no3l-Ur/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 6 מקומות גאומטריים",
+              "url": "https://drive.google.com/file/d/1a5cvytuDZN6JA5DMkmIx9WFtlCQF4ZvP/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 1 הוקטור הגאומטרי",
+              "url": "https://drive.google.com/file/d/1coqcncW2AigjkQaskyOsjtoI0gy7307R/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 2 הוקטור האלגברי",
+              "url": "https://drive.google.com/file/d/1a6FWx6kke1TyReghdteX_r0PJhqJfhFZ/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 3 ישרים",
+              "url": "https://drive.google.com/file/d/1O8uAyvNXrfPjSb0s5NTMfHmD6Hk9mbAU/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 4 מישור - דף א",
+              "url": "https://drive.google.com/file/d/1DbUCnpCTmuttaQPLOL8bmzbrAdB0_2AW/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 4 מישור - דף ב",
+              "url": "https://drive.google.com/file/d/1pEZ_HXm4mAmemXExu91Kc5McsZ8spT3Q/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - מספרים מרוכבים",
+              "url": "https://drive.google.com/file/d/1JKpK-igXircIiUrnkML4noBdbrU4WCY2/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - פונקציות לוגריתמיות 1",
+              "url": "https://drive.google.com/file/d/1KRViedY-908p7xuvC6HZI83LOnlf2g1v/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - פונקציות לוגריתמיות 2",
+              "url": "https://drive.google.com/file/d/1wAjLuRY1L6qvLa84kw0uz1gGFGCzbh81/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - פונקציות מעריכיות",
+              "url": "https://drive.google.com/file/d/1Ajo3DN0F3ELYUzRFflR9SWxiWJBrYHO7/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "2. מתכונות בתי ספר",
+      "id": "2-מתכונות-בתי-ספר",
+      "lessons": [
+        {
+          "name": "5 מתכונות בתי ספר - תשפה",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "folder",
+              "name": "572 קיץ",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "גימנסיה הרצליה תל אביב-35572-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1ssEbB7Dhm3d625Kj9mtW-y0pPRkP-KF6/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "582 חורף",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "יובלים אור יהודה - 35582 - מתכונת ראשונה",
+                  "url": "https://drive.google.com/file/d/19xUivDtd0wvj-90W1nrBfkndaU52iLlE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקווה ישראל חולון-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1ut5GUeqZUIR584srDBLHZV2aZz_LqcWI/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקווה ישראל חולון-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1mxGXDIhoB__oDujrhgWMWYnjU5ZzPNgX/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקווה ישראל חולון-35582-מתכונת 3",
+                  "url": "https://drive.google.com/file/d/1DHcc22KgSa8Kgf-GDdAITB6vrVaOss4w/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקווה ישראל חולון-35582-מתכונת 4",
+                  "url": "https://drive.google.com/file/d/107q5qNri0ZJGLQ1Jhv__6lPWucmqxmRm/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "582 קיץ",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "אביב רעננה-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1WAo964HQso9VS9OUNG3zMdN6KTm-18gO/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אולפנת צביה הרצליה-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1pVaGNzH4K5dL7QCXXKHGvOaygMSSuIMG/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אולפנת צביה הרצליה-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1EGTASUOlqeVKxd2KvFP7WrmGnzNCdHgr/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט פרס יקנעם-35582-מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1e2VER3aTnx_T-Qrb1ob6HvaL86nVRR9U/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט שלהבת שוהם-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1LVDW1uTLH3ihHEVHXE5tXetW1U06egvl/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אלון רמת השרון-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1gmedR3l5ZKw5hu7MEULqBmTM3bZyiZAS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בן גוריון נס ציונה-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1ANY6unyor__7mgGbgWqKRajj8N9AdaR5/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בן צבי קריית אונו-35582-מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1jb74JTkyOK17Clqx5L-tiSKhKcre0gB7/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בן צבי קרית אונו-35582-מבחן מסכם כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1wWPaPmlSTHo9ypZyXIF7r0RpSQF2aXFk/view"
+                },
+                {
+                  "type": "file",
+                  "name": "גלילי כפר סבא-35582-מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1RmuxdFPKRC3InMlPL4cS5WDepHQm6Vwp/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דה שליט רחובות-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1asEzv-yV09a4Wg5m4aLwP2-tqBIa06eX/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דה שליט רחובות-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1YlXWXT0orydw_-QxVhDUT7Ci9k4nGrpS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "היובל הרצליה-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/18ja3rCpZ_9lxm8X8qK-zf_T63CGIaao3/view"
+                },
+                {
+                  "type": "file",
+                  "name": "היובל הרצליה-35582-מתכונת 2 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1Y2nP3KVryTqBtCpc61pSrYBlLvpHEx99/view"
+                },
+                {
+                  "type": "file",
+                  "name": "הראשונים הרצליה-35582-מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1GuofHofzQONd7dHbUbbXWXEuh3ZTDCvw/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ליידי דיוויס תל אביב-35582-מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1aB7L6lxBlQFId1edbixdzOG5LSNMWhCS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ליידי דייויס תל אביב-35582-טרום מתכונת",
+                  "url": "https://drive.google.com/file/d/1KYmB2GXXZkhKH_TpdGls3UTUZpMZGp1L/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ליידי דייויס תל אביב-35582-מתכונת 2 כולל תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1HYsWxxdHuW2a3zWQ07O4HF94sOcl5DYS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ליידי דייויס תל אביב-35582-מתכונת יא מואץ",
+                  "url": "https://drive.google.com/file/d/1xpLiER8A_giekbpC0-BkaG5MVSMVj-f_/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מוסינזון הוד השרון-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1f0lXrMksWR_BOoZDlaC_uB_cNrDEqLYc/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מטרו ווסט רעננה-35582-מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1N1T-i5q6TEGjV3C-VGOhnkpKAqThd7Iu/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מטרו ווסט רעננה-35582-מתכונת 2 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1F7CMIWbGhEH_RtVtkJcUFvN5S_-S7STX/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מטרו ווסט רעננה-35582-קדם מתכונת",
+                  "url": "https://drive.google.com/file/d/12bE_1SaeE2DqRXTWHK3ljmH3Yz6H26YW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקיף ה אשדוד-35582-מתכונת 2 מתורגמת לרוסית",
+                  "url": "https://drive.google.com/file/d/1c48sSMql748ubEkUMvjA-AJCBPZ9a946/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקיף ה אשדוד-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1Hj2nFNtYaRbiP4KoNmPfJbAlpMcgbb32/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עירוני יד תל אביב-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/17_IbMrW9HS8PJTEMGsHxnY1z6-EMmDEC/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עירוני יד תל אביב-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1zInPQosPs3xzbKnTtX8vP3Rbll9Jesox/view"
+                },
+                {
+                  "type": "file",
+                  "name": "רוטברג רמת השרון-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1XFd5GN2dEWHiXz2ReYxJeaMTCwRJ3uor/view"
+                },
+                {
+                  "type": "file",
+                  "name": "רוטברג רמת השרון-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1oqd1P1itcqxqyRjZmFX-eip6l1asaFEF/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "6. מתכונות בתי ספר - תשפד",
+          "desc": "",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "folder",
+              "name": "572 חורף",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "דרכא רמון גדרה-35572- מתכונת 1 - פתרון",
+                  "url": "https://drive.google.com/file/d/1h82siUgvirOBImX6G0jfu8n3i1e048Pq/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דרכא רמון גדרה-35572-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1qqxQbQM9YroJCV1_rnV9HgZAPe17AVef/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דרכא רמון גדרה-35572-מתכונת 2 - פתרון",
+                  "url": "https://drive.google.com/file/d/1RPjmQIzGLKmPHJFZAcSfojikz8hFVWdi/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דרכא רמון גדרה-35572-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1Tfi6Tx9hLNlQ8Dg2qGQlQQU0EqREqwVx/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "582 חורף",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "אולפנת צביה-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1UApIEQnpMJVT6XPDlXCfJz87B76o8GZg/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אולפנת צביה-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1nnuQYDHN3GeU47DpH552ZtlGdIWUkwnP/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אור שרה - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1UVbWlNOhpWwPe6xOSrARX8vXQNurZLzU/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אור שרה - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1nVmhKRFoOjkSh9jVacwkl7HHkJCFOGzh/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט יובלי אריאל - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1RlMOdsefp9xYZ8KkXjJdccrbyR8kmBcs/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט יובלי אריאל - 35582 - מתכונת 3 - כולל פתרונות מלאים",
+                  "url": "https://drive.google.com/file/d/1sTcKj4tLYzxIUusqWwb7_zdOe7ZJGSiR/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט יובלי אריאל-35582-מתכונת 2 כולל פתרון",
+                  "url": "https://drive.google.com/file/d/1ohHGB6BDd9krJ9lTUBC367WvwQpxsw9n/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט פרדס חנה כרכור-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1RKv4zFBPnZE6tNYmgmE05fd8rqmrR3EQ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט פרדס חנה כרכור-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1xlmVmX8nZQ1XqOpQMncl52NcvlXP0Bzb/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אלון רמת השרון -35582 - מתכונת חסרים",
+                  "url": "https://drive.google.com/file/d/1YdvTUM3pkP0FIryXfqejM5uwKzBDPbnS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אלון רמת השרון-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1rE4omyN34cyurOKyh6MBEVXGjLcWRDqO/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35582 - מתכונת 1 עם תשובות",
+                  "url": "https://drive.google.com/file/d/1syrAdHGqtyx2cqV3tGvzRDp_V97pJvLl/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35582 - מתכונת 2 עם תשובות",
+                  "url": "https://drive.google.com/file/d/1F-wLNkH1XRYrrXtmr89ZiL4-N1fbmOxn/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35582 - מתכונת 3 עם תשובות",
+                  "url": "https://drive.google.com/file/d/1EG--jnLaLqVKduFq4uoG4LDWVbiA9Foo/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1yCng_CPkN6GVFTu6rldXcm_HrxGjp_iN/view"
+                },
+                {
+                  "type": "file",
+                  "name": "היובל הרצליה-35582-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/12HRyXTZIUK8DBqLJEtcgfWMxlEpf-40X/view"
+                },
+                {
+                  "type": "file",
+                  "name": "היובל הרצליה-35582-מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1Be_fGUqOy6HPqps81ZWoTbO544LBHvYR/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מיתר גני תקווה - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/15yUK5kNz-bPF1E_SwzPfZ8R4xBvlHCeE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקיף יהוד - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1MCUY4OwdLhzmx9VhyT8pFc41G0kKdyut/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מקיף יהוד - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1l-utgwlpfBgvJK9YZDgEqiHYpOETYfBL/view"
+                },
+                {
+                  "type": "file",
+                  "name": "קוגל חולון - 35582 - מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/143IwR4PalvxhHBNgIN9Awn_2WZWSLw7h/view"
+                },
+                {
+                  "type": "file",
+                  "name": "קוגל חולון - 35582 - מתכונת 2 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1nUrWHHyYSzK59MsFrviOmv_WE8KQm48X/view"
+                },
+                {
+                  "type": "file",
+                  "name": "קוגל חולון - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1FW1oXRP_9rsIIY1YgHxOgxnF1eUFlUCU/view"
+                },
+                {
+                  "type": "file",
+                  "name": "רמות ים - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1M7hGTGro0Tnc0babsTkE_nloR1ay-yeU/view"
+                },
+                {
+                  "type": "file",
+                  "name": "תיכון לא ידוע-35582-מתכונת עם פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1ZO5bHog9ZWOUVdgj45c9_-YrT51-1NJ3/view"
+                },
+                {
+                  "type": "file",
+                  "name": "תיכון מיתר - 35582 - מתכונת 2 - פתרון",
+                  "url": "https://drive.google.com/file/d/1W8D1a4BPy5tvgsNzghONYU73jRIrZqkW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "תיכון מיתר - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1jpsB2QyQR9xjep4K3UhHvGxI7mIpxWsx/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "קיץ 582",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "אביב רעננה - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1res3JARjuv1pROzBgoonKQijtPEkshAl/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אביב רעננה - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1U9EFIXQA7XJUeswyY9ekLRX2aQMdqIeO/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט יובלי אריאל - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1q7O-PyOjiLTUgikWsNtQfbi_5LqOmIgP/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אורט יובלי אריאל - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1Z0YG9j4ytQ3lqetaOWJeb3XzyaI88LHQ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "אמית חבל מודיעין - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1jjoSGsqvlkjM3juMFAEC39NFAHaRL2CQ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בית ג_ן - 35582 - מתכונת 1 כולל תשובות",
+                  "url": "https://drive.google.com/file/d/1ftBWpeC7pfr_cMO5FiWnBWRwcDj_7wiZ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בליך רמת גן - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1ucPV-vuhru3dT2PMTSLaJs9fYsxqTlr8/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35582 - מתכונת 1 עם תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1PCfptcS1HDJsiqcHYOsXUeMtL2AHUSXl/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35582 - מתכונת 2 עם תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1dV4qkqHsYUhX8uX2L2-sbKndgQGb7EpB/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1iSukIUHrRfSHNXzIjPuI6qpW9H1oYNOc/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בר אילן - 35582 - מתכונת 3 עם תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1wneFW7y0IjkibPuleVOgnO0bUt3KZwaF/view"
+                },
+                {
+                  "type": "file",
+                  "name": "גימנסיה הרצליה תל אביב - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1_Lz3Z0epzaysX4Z262U9Dn6LIdnflcBf/view"
+                },
+                {
+                  "type": "file",
+                  "name": "גימנסיה הרצליה תל אביב - 35582 - מתכונת 2 כולל תשובות",
+                  "url": "https://drive.google.com/file/d/1HfUHZ9zDxh3db68zhYWUm64ht1fkIOuW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "דה שליט רחובות - 35582 - מתכונת",
+                  "url": "https://drive.google.com/file/d/1hkf2xWm_Y3JzeVNYVtS0oxdlEbPSSPiI/view"
+                },
+                {
+                  "type": "file",
+                  "name": "הכפר הירוק - 35582 - מתכונת 2 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1wZj9mh3W0faXytNFpnH8XQPM9i5toHLT/view"
+                },
+                {
+                  "type": "file",
+                  "name": "הכפר הירוק - מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/12b4rgB49CRjwU35XLJ23fWvMCJVuqi8f/view"
+                },
+                {
+                  "type": "file",
+                  "name": "הראשונים הרצליה - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1g4sc05-HQOyXylM7gFoxCXY7Lz1BLDkt/view"
+                },
+                {
+                  "type": "file",
+                  "name": "הראשונים הרצליה - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1nQBL2uPokM5OJI-4glSnFxoXBwodcUJq/view"
+                },
+                {
+                  "type": "file",
+                  "name": "חוף השרון - 35582 - מתכונת 2",
+                  "url": "https://drive.google.com/file/d/1XA4UfUT9rHnxEedgpTvbDViaG07Or6VN/view"
+                },
+                {
+                  "type": "file",
+                  "name": "כדורי - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1CZbdunDhHvT3_LtHFuRtSazvTO8AMx0D/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מטרו ווסט רעננה - 35582 - מתכונת 1 כולל פתרון מלא",
+                  "url": "https://drive.google.com/file/d/1VopkYVoaBYq8K-r5iMT_MBsvkRlLunHt/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סרור אסעד - 35582 - סימולציה",
+                  "url": "https://drive.google.com/file/d/121wpl8rsAc_kS6lJr0KP_D41_Vy4D5ZO/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עודד קדימה צורן - 35582 - מתכונת 1 כולל תשובות",
+                  "url": "https://drive.google.com/file/d/1GJJlFAZgkf66801vJkDkHDyKvTjSFT2E/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עודד קדימה צורן - 35582 - מתכונת מועד מיוחד כולל תשובות",
+                  "url": "https://drive.google.com/file/d/12vGaggLTNvjsXS0UvZcax_rX2kLkWrJK/view"
+                },
+                {
+                  "type": "file",
+                  "name": "קוגל חולון - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/10XK7GbAaDDcLRkXfS9F0MXTgLAohmgIx/view"
+                },
+                {
+                  "type": "file",
+                  "name": "רוטברג רמת השרון - 35582 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1AC9a0sXYaI2U4e-t0Qv1s4-8YPoQ6uuU/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "7. מתכונות בתי ספר - תשפג 582",
+          "desc": "",
+          "id": "2-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "35582-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1UmjwT6HdJ_99PFSsXQNff-npTN87lFzX/view"
+            },
+            {
+              "type": "file",
+              "name": "אולפנת אוריה-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1D2dAAtiVGXMTxJw4y7ol_NFfG5Kdn_DJ/view"
+            },
+            {
+              "type": "file",
+              "name": "אולפנת צביה הרצליה-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1DPXN_JItuzrycaWOHxgySvEauu-IvJe6/view"
+            },
+            {
+              "type": "file",
+              "name": "אולפנת צביה הרצליה-35582-מתכונת 2",
+              "url": "https://drive.google.com/file/d/17UxK6YhhKJiAV3ia7TMPBaMS6PFgChJj/view"
+            },
+            {
+              "type": "file",
+              "name": "אמית מודיעין-35582-מיני מתכונת.docx",
+              "url": "https://drive.google.com/file/d/1nTHXZ-IbhY_1Cp_0jTnDcZUFPXxoVa1E/view"
+            },
+            {
+              "type": "file",
+              "name": "אמית מודיעין-35582-מתכונת חורף כולל פתרונות.docx",
+              "url": "https://drive.google.com/file/d/1pPdUof6LcmTbDk1q6tAqlG4iwWHNVppF/view"
+            },
+            {
+              "type": "file",
+              "name": "אמית מודיעין-35582-מתכונת חורף.docx",
+              "url": "https://drive.google.com/file/d/1u-TIjb9l7d6pSwp3wcxn3gyOvotR6Se1/view"
+            },
+            {
+              "type": "file",
+              "name": "ארכימדס-35582-מתכונת",
+              "url": "https://drive.google.com/file/d/1aZhpqA1Ud02utbZzK1leHnAvTU42THQc/view"
+            },
+            {
+              "type": "file",
+              "name": "ארכימדס-35582-פתרון מלא",
+              "url": "https://drive.google.com/file/d/1E6oNX-ygiZd2ssCZLQonVzK1IynNPgVc/view"
+            },
+            {
+              "type": "file",
+              "name": "בית ג_ן -35582-סימולציה",
+              "url": "https://drive.google.com/file/d/10avPFtlnm0MRtOnGEfxt_XpdNEyJf5sI/view"
+            },
+            {
+              "type": "file",
+              "name": "בית ג׳אן-35572- מתכונת כולל פתרונות מלאים",
+              "url": "https://drive.google.com/file/d/1Sdt9NnCXmY7k0x2MbA5K1kcOMbOlehZa/view"
+            },
+            {
+              "type": "file",
+              "name": "בני עקיבא גבעת שמואל-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1AowSGoDpb7Qc6aNF-CjkC5rXB_Et-J-I/view"
+            },
+            {
+              "type": "file",
+              "name": "בר אילן-35582-מתכונת 1 פתרון מלא",
+              "url": "https://drive.google.com/file/d/17g7XUR0JWHVfjS54u1p4V1sp1Ss1SR3e/view"
+            },
+            {
+              "type": "file",
+              "name": "בר אילן-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1jqIP3aYaZHFhhHNUtRgO4falSVn6jzUn/view"
+            },
+            {
+              "type": "file",
+              "name": "בר אילן-35582-מתכונת 2 פתרון מלא",
+              "url": "https://drive.google.com/file/d/1ZgkD4qB0gq-nPux5cB9QsqtxMLkSkXq_/view"
+            },
+            {
+              "type": "file",
+              "name": "בר אילן-35582-מתכונת 2",
+              "url": "https://drive.google.com/file/d/1jA7uWqLbrjI1TQ6tcB3G4PRsYtGVczpA/view"
+            },
+            {
+              "type": "file",
+              "name": "בר אילן-35582-מתכונת 3 פתרון מלא",
+              "url": "https://drive.google.com/file/d/1zHmAxyQp3MHEH5ksXN6RWULN8jGPCMoF/view"
+            },
+            {
+              "type": "file",
+              "name": "בר אילן-35582-מתכונת 3",
+              "url": "https://drive.google.com/file/d/1rShGm3Ea0MBUQkVDFRfFVI1UOYOBZ8W1/view"
+            },
+            {
+              "type": "file",
+              "name": "גימנסיה הרצליה תל אביב-35582-מתכונת 1.docx",
+              "url": "https://drive.google.com/file/d/1FnLXgKNQyi27qbfTPvNVh8Vqt7g0ICVa/view"
+            },
+            {
+              "type": "file",
+              "name": "גימנסיה הרצליה תל אביב-35582-מתכונת 2",
+              "url": "https://drive.google.com/file/d/1CgWugYSAA2Di7ZqA6J3BLjXLWxqoeomI/view"
+            },
+            {
+              "type": "file",
+              "name": "גימנסיה הרצליה תל אביב-35582-מתכונת 3",
+              "url": "https://drive.google.com/file/d/1ZO96njikCIyDt0EkTkyS4du5KeFJn7kt/view"
+            },
+            {
+              "type": "file",
+              "name": "הדרים הוד השרון-35582-מבחן מסכם.docx",
+              "url": "https://drive.google.com/file/d/1j1cLreMsnrv7_3qW9-wTPVVe87fn9vvK/view"
+            },
+            {
+              "type": "file",
+              "name": "היובל הרצליה-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1EM6aPWJBKzS7ZVwd0EVTHWSub2vowl6Z/view"
+            },
+            {
+              "type": "file",
+              "name": "הכפר הירוק-35582-מתכונת 1.docx",
+              "url": "https://drive.google.com/file/d/1_vQgdzgRQuXdBJwTjpD06j8bX5SrNJS3/view"
+            },
+            {
+              "type": "file",
+              "name": "הכפר הירוק-35582-מתכונת 2",
+              "url": "https://drive.google.com/file/d/1ZSc7dEwAZ1kuwRSysFf9FOS3VB1sd8ym/view"
+            },
+            {
+              "type": "file",
+              "name": "הר וגיא-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1ZdMB10TzIh0yg7rpt71tMsfOZl377AT9/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה-35582-מבחן בונוס 2",
+              "url": "https://drive.google.com/file/d/1349TuCk5nBxuBLsAhl-RDuwtJa3A39K-/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה-35582-מבחן בונוס 5",
+              "url": "https://drive.google.com/file/d/1KqeJ2Tfb7F7KZqiqecGBuNic1QDYzJtW/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1biB_o8HZ_uQ-vg3il-SucFBF27HMMokQ/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה-35582-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1780XEOtsQTNP48Fjjz3_k2g5F6aTFyNl/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה-35582-מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1jAasN08i3_AQ4Qo1rtkmklFUfIpOOlHN/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה-35582-מתכונת מועד מיוחד",
+              "url": "https://drive.google.com/file/d/1uHBQLSM7ze8JmSi1cUFFanEVnxUysTe1/view"
+            },
+            {
+              "type": "file",
+              "name": "עירוני ב מודיעין-35582-מתכונת 1.docx",
+              "url": "https://drive.google.com/file/d/1F11ES3_Zx4R7mNlkGSOnxHgaljsNpgNu/view"
+            },
+            {
+              "type": "file",
+              "name": "רוטברג רמת השרון-35582-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1wBZU7COsbq9aeowmMLQ_gaMgu6098YJk/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "10. מריאן גול ארכימדס",
+          "desc": "",
+          "id": "2-4",
+          "content": [
+            {
+              "type": "folder",
+              "name": "ארכימדס",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "מתכונת ארכימדס 582  קיץ 2022",
+                  "url": "https://drive.google.com/file/d/1DhuTpk5tdTop7_MtF0uZaHttUMLJQP_0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונת ארכימדס 582 חיצונית 2023 - פתרון",
+                  "url": "https://drive.google.com/file/d/1YN12wG8sQbTGUeBmrqkYjNBM68w1D2ze/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונת ארכימדס 582 חיצונית 2023",
+                  "url": "https://drive.google.com/file/d/1WL4mejClOE1-81vKoXp-24p-KHy1zt13/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "גול",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "גול סודית 582 תשפג",
+                  "url": "https://drive.google.com/file/d/1W2D01EMhq4L1EkseONzH_2dTh0Z0zqg2/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "מריאן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "קיץ 2024 שאלון 582 - פתרונות",
+                  "url": "https://drive.google.com/file/d/1pRB6JkLRSfDBR_JOKB2Ui9u80uH8D63S/view"
+                },
+                {
+                  "type": "file",
+                  "name": "קיץ 2024 שאלון 582",
+                  "url": "https://drive.google.com/file/d/1Jj1kIbopY9w4Z2Iq4QjKdWGYbOd8TkeI/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "3. חוברת בגרויות יואל גבע",
+      "id": "3-חוברת-בגרויות-יואל-גבע",
+      "lessons": []
+    },
+    {
+      "name": "10. מתכונות בר אילן",
+      "id": "10-מתכונות-בר-אילן",
+      "lessons": [
+        {
+          "name": "2018",
+          "desc": "",
+          "id": "4-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת תשעח 1 - 582",
+              "url": "https://drive.google.com/file/d/1Czo2ZLYJPN1-rTWKY6ETOVoUgfgcWO7z/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשעח 2 - 582",
+              "url": "https://drive.google.com/file/d/1rFwhZKor__76EVdZ5oXcjUGYZRaeDAmG/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשעח 3 - 582",
+              "url": "https://drive.google.com/file/d/1Be8VONCH5JOFPgyZDWLkc6nRiWyqst4I/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2019",
+          "desc": "",
+          "id": "4-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת תשעט 1 - 582",
+              "url": "https://drive.google.com/file/d/1Bk4pmLatKn8x0mSeEZ2chU9GXqrLx6CA/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשעט 2 - 582",
+              "url": "https://drive.google.com/file/d/14gMAvf4CJPXFzqQH7FaLFOs4b-9BlsTk/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשעט 3 - 582",
+              "url": "https://drive.google.com/file/d/1UBOBF9s6IByIcsBGS5iRGkPB5Jzkdcsa/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2020",
+          "desc": "",
+          "id": "4-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "_י 2 שאלון 582 תשפא עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1ey9x9N2zKYPCRwWlYM5FCNcRo1QKZXLC/view"
+            },
+            {
+              "type": "file",
+              "name": "_י 3 שאלון 581 תשף להדפסה עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1SMvQ8AJKTkAccdK7KVPt-kBkux2DJVhM/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשף 1 - 582",
+              "url": "https://drive.google.com/file/d/1iwR0vrqo70_SADF9flPhlE13DTc0ghch/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2021",
+          "desc": "",
+          "id": "4-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "_י 2 שאלון 582 תשפא עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1A8fLGhAXorfpUknCvDwd_UvofJy_eGRh/view"
+            },
+            {
+              "type": "file",
+              "name": "_י 3 שאלון 582 תשפא עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1y4W-aPvs9qkU6YgVC0DWdik_uOr1Dhx-/view"
+            },
+            {
+              "type": "file",
+              "name": "_י1 שאלון 582 תשפא עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1lewPwyxv3sqUoVJDOMZqcbT02RdAkcmB/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2022",
+          "desc": "",
+          "id": "4-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת תשפב 1 - 582",
+              "url": "https://drive.google.com/file/d/1Id04Y5u_5iv5AhqmQ0kwYta-mFnZxAbj/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשפב 2 - 582",
+              "url": "https://drive.google.com/file/d/1cuRMEM_MGPhbgfAuQcm3KqAMOjoy6xK_/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשפב 3 - 582",
+              "url": "https://drive.google.com/file/d/1SObCl98iATK8ROjVUyWuFTphW2Iiphvh/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2023",
+          "desc": "",
+          "id": "4-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת תשפג 1 - 582",
+              "url": "https://drive.google.com/file/d/1OChq8b7ByMlIsY8-zvNauvGcpwl399Qv/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשפג 2 - 582",
+              "url": "https://drive.google.com/file/d/1DGAquch7OW9oUWnJW1KM9dwY8S18hGp8/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשפג 3 - 582",
+              "url": "https://drive.google.com/file/d/1qRFX9c6kMcPL2EIabbSFXxkljD-PIWAv/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2024",
+          "desc": "",
+          "id": "4-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת תשפד 1 - 582",
+              "url": "https://drive.google.com/file/d/1xGstUl9jXXbBQTsnu8LMFS0KXC_48dVG/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשפד 2 - 582",
+              "url": "https://drive.google.com/file/d/1v3-cl0OlnYEO10ot-Vf7L-GEDpsFkBK1/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשפד 3 - 582",
+              "url": "https://drive.google.com/file/d/1Xw4-734SfhntcQZnxp5iuZmYkcGkVrnv/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2025",
+          "desc": "",
+          "id": "4-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "__מגן 1 תשפה שאלון 572 להדפסה עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1o6n9ori3uFVnVJrqAVQ057cgk8W_tGbB/view"
+            },
+            {
+              "type": "file",
+              "name": "__מגן 2 תשפה שאלון 572 - עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1YroSxwRGxxOX-Rsa94G5WEOEfQ0DEQv6/view"
+            },
+            {
+              "type": "file",
+              "name": "מגן 3 תשפה שאלון 572 - עם תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1gaJgp3e5dLAQDRn0vpkIXN5iWmydUPBG/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    }
+  ],
+  "assignments": "",
+  "assignments_file_id": "",
+  "active": false
+}

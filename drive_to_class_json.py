@@ -146,6 +146,16 @@ class_info = [
         'banner_url': 'images/banner8.png',
         'active': False,
         'regenerate': True
+    },
+    {
+        'id': 10,
+        'name': 'בגרויות 572 ופתרונות',
+        'url_name': 'bagruyot-572',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1uBrRKePcRRwbcLi6x9fXcVy9D1wgPnED',
+        'banner_url': 'images/banner572.png',
+        'active': False,
+        'regenerate': True
     }
 ]
 
