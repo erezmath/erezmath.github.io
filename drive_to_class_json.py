@@ -59,8 +59,8 @@ REMOVE_ALL_EXTENSIONS = False
 
 SITE_CATEGORIES = [
     {'id': 'current', 'title': 'כיתות השנה'},
-    {'id': 'past', 'title': 'כיתות עבר'},
-    {'id': 'exams', 'title': 'בגרויות ומתכונות'}
+    {'id': 'exams', 'title': 'בגרויות ומתכונות'},
+    {'id': 'past', 'title': 'כיתות עבר'}
 ]
 
 class_info = [
