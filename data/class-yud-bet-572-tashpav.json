@@ -5,227 +5,302 @@
   "banner_url": "images/banner8.png",
   "desc": "",
   "tags": [
-    "0. בגרויות ודפי נוסחאות",
-    "1. חדוא"
+    "1. בגרויות ופתרונות",
+    "2. חדוא"
   ],
   "topics": [
     {
-      "name": "0. בגרויות ודפי נוסחאות",
-      "id": "0-בגרויות-ודפי-נוסחאות",
+      "name": "1. בגרויות ופתרונות",
+      "id": "1-בגרויות-ופתרונות",
       "lessons": [
         {
-          "name": "1. בגרויות לפי נושאים",
+          "name": "0. דף נוסחאות 5 יחל לבגרות",
           "desc": "",
           "id": "1-1",
           "content": [
             {
               "type": "file",
-              "name": "ריכוז בגרויות 572 אנליטית",
-              "url": "https://drive.google.com/file/d/1SRJ2vSzO9Pb655se7DFVWOZEtrC_jwqu/view"
-            },
-            {
-              "type": "file",
-              "name": "ריכוז בגרויות 572 וקטורים",
-              "url": "https://drive.google.com/file/d/1oqTlC9V3S_X_o_t5u-wIzfR7UJpQWUZ4/view"
-            },
-            {
-              "type": "file",
-              "name": "ריכוז בגרויות 572 מספרים מרוכבים",
-              "url": "https://drive.google.com/file/d/1RHNj7NLoPLCaPSvPNbzrB5NgBaPuUxqg/view"
-            },
-            {
-              "type": "file",
-              "name": "ריכוז בגרויות 572 פונקציות לוגריתמיות",
-              "url": "https://drive.google.com/file/d/1EKh7YiMTatXi6nYM27bQih9nvrjXkdz_/view"
-            },
-            {
-              "type": "file",
-              "name": "ריכוז בגרויות 572 פונקציות מעריכיות",
-              "url": "https://drive.google.com/file/d/1Tf0hngHT4LaifHZQpnSqLcWPfzu4h-j5/view"
+              "name": "דף נוסחאות 5 יחל תוכנית חדשה",
+              "url": "https://drive.google.com/file/d/19AAU3ALfF3un6YignOfr7NQI8sHkbNlc/view"
             }
           ],
           "lesson_json": {}
         },
         {
-          "name": "2. בגרויות 2022-2026",
+          "name": "1. חוברת בגרויות יואל גבע",
           "desc": "",
           "id": "1-2",
           "content": [
             {
               "type": "file",
-              "name": "2022 - מועד חורף - פתרון",
-              "url": "https://drive.google.com/file/d/1tN37SRo4FND9f8ZOfGu9zDBJtJqapO0h/view"
-            },
-            {
-              "type": "file",
-              "name": "2022 - מועד חורף - שאלון",
-              "url": "https://drive.google.com/file/d/1fCLalG54cneyH1Z_I2xGV03RzwuHwbn0/view"
-            },
-            {
-              "type": "file",
-              "name": "2022 - מועד חורף נבצרים - פתרון",
-              "url": "https://drive.google.com/file/d/1NfxeGLtphf2amDGDaCsBNhEhivD9UZsI/view"
-            },
-            {
-              "type": "file",
-              "name": "2022 - מועד חורף נבצרים - שאלון",
-              "url": "https://drive.google.com/file/d/1UNwzH0fjkjXzpsRWvNWDYxu6ns4i_mNN/view"
-            },
-            {
-              "type": "file",
-              "name": "2022 - קיץ מועד א - פתרון",
-              "url": "https://drive.google.com/file/d/1jvxo2QZQAEi7L8MmOq2IdSCb7PWoibw8/view"
-            },
-            {
-              "type": "file",
-              "name": "2022 - קיץ מועד א - שאלון",
-              "url": "https://drive.google.com/file/d/1HWgIGbP9aDdVf-UmcRSHarP4aWv0QhyS/view"
-            },
-            {
-              "type": "file",
-              "name": "2022 - קיץ מועד ב - פתרון",
-              "url": "https://drive.google.com/file/d/1iQRAX1utHq4mLuvnFDe5rgPWm68n4SL6/view"
-            },
-            {
-              "type": "file",
-              "name": "2022 - קיץ מועד ב - שאלון",
-              "url": "https://drive.google.com/file/d/1BetUr6x_ZkFVtWDQQnFmDoMFmcpm9HkU/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - מועד חורף - פתרון",
-              "url": "https://drive.google.com/file/d/1QKiDDLbP0eAZEococOHISE-fQhB_gjY0/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - מועד חורף - שאלון",
-              "url": "https://drive.google.com/file/d/1nMXIcH9W0j_ZlHZQNs1xTOxSC06SS8FW/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - קיץ מועד א - פתרון",
-              "url": "https://drive.google.com/file/d/1KqI0MGjsog2iv-T_4kZbylOS7GgHtMJR/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - קיץ מועד א - שאלון",
-              "url": "https://drive.google.com/file/d/1nc605vvVxmsVAMaiVwOIZe1vN3MUy-N6/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - קיץ מועד ב - פתרון",
-              "url": "https://drive.google.com/file/d/19xQGm3Sj6i1oNlKkYM0zadOPLNm07L3m/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - קיץ מועד ב - שאלון",
-              "url": "https://drive.google.com/file/d/1wx6LXKe2Qv2A6yyOGZvdc9V0XLf2pZhm/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - קיץ מועד מיוחד - פתרון",
-              "url": "https://drive.google.com/file/d/1pw99OekYVNfbj0n5V2DR5LSZ0J_OX2Lx/view"
-            },
-            {
-              "type": "file",
-              "name": "2023 - קיץ מועד מיוחד - שאלון",
-              "url": "https://drive.google.com/file/d/1UGobg8kswpC9cDAugV1Xe-pOPyIG1iGI/view"
-            },
-            {
-              "type": "file",
-              "name": "2024 - מועד חורף - פתרון",
-              "url": "https://drive.google.com/file/d/1Zo0lLD4FP5K72DwnIM1EG57ClU0G_a8C/view"
-            },
-            {
-              "type": "file",
-              "name": "2024 - מועד חורף - שאלון",
-              "url": "https://drive.google.com/file/d/1JcvPgTMKi0FHhzrFESprSPYGybPHOjrl/view"
-            },
-            {
-              "type": "file",
-              "name": "2024 - קיץ מועד א - פתרון",
-              "url": "https://drive.google.com/file/d/18YVT-AttRvB_ODwci-mo6L_hdF8P_d0Y/view"
-            },
-            {
-              "type": "file",
-              "name": "2024 - קיץ מועד א - שאלון",
-              "url": "https://drive.google.com/file/d/18WsCOlse6JTTm-ioFWeoxQkGWCQT2Vih/view"
-            },
-            {
-              "type": "file",
-              "name": "2024 - קיץ מועד ב - פתרון",
-              "url": "https://drive.google.com/file/d/1L81Xd7LRvaIJRfWD0fZZtV_ZQf8l_U72/view"
-            },
-            {
-              "type": "file",
-              "name": "2024 - קיץ מועד ב - שאלון",
-              "url": "https://drive.google.com/file/d/1iZMT8X_U35Im8mjA34hpzDDLYd0LWdbO/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - מועד חורף - פתרון",
-              "url": "https://drive.google.com/file/d/192XsmxjCILtmEjicS6nhEVAFz7MrUfZe/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - מועד חורף - שאלון",
-              "url": "https://drive.google.com/file/d/1-rwAicwdesL0rhB_XpHI-mBGwF9kh93_/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - קיץ מועד א - פתרון",
-              "url": "https://drive.google.com/file/d/1L4GaP_ngEM70pq-9xLJPuCYLM8M3spLK/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - קיץ מועד א - שאלון",
-              "url": "https://drive.google.com/file/d/1RG1-gO2Yeb_5ecggxh8zzRY8Gabl38bQ/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - קיץ מועד ב - פתרון",
-              "url": "https://drive.google.com/file/d/1VFqpNZJinV3TA4Ouf11jDZ-jHTyQPIUE/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - קיץ מועד ב - שאלון",
-              "url": "https://drive.google.com/file/d/1OBXLLdbMVZP8JykTP3pKgK-t8EZDgJHY/view"
-            },
-            {
-              "type": "file",
-              "name": "2026 - מועד חורף - פתרון",
-              "url": "https://drive.google.com/file/d/1yRk9SVbjH6b1Le4s7i73gjxCiOenWEl0/view"
-            },
-            {
-              "type": "file",
-              "name": "2026 - מועד חורף - שאלון",
-              "url": "https://drive.google.com/file/d/1mX39vbnS7LAPsjSy4l5aLPzjxC2xCPxi/view"
-            },
-            {
-              "type": "file",
-              "name": "2026 - מועד חורף - תשובות סופיות",
-              "url": "https://drive.google.com/file/d/1KQKNwJBQq8jXdXHZQ5Q5w5RBXIP0i9Ai/view"
+              "name": "חוברת בגרויות 582 2025 ממורקר",
+              "url": "https://drive.google.com/file/d/1WIepP6TLVk-oAXMrIHoOT35qtwISgg0H/view"
             }
           ],
           "lesson_json": {}
         },
         {
-          "name": "3. דף נוסחאות 5 יחל לבגרות",
+          "name": "3. בגרויות 572 לפי נושאים",
           "desc": "",
           "id": "1-3",
           "content": [
             {
-              "type": "file",
-              "name": "דף נוסחאות 5 יחל תוכנית חדשה",
-              "url": "https://drive.google.com/file/d/1KmErp3hPJsDJFSpIYMDeVJpm-D0nNfN0/view"
+              "type": "folder",
+              "name": "יובל אמיתי",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 אנליטית",
+                  "url": "https://drive.google.com/file/d/1UcV6cgEgNxA6jk_FWU81IJkOkuTG0k8A/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 וקטורים",
+                  "url": "https://drive.google.com/file/d/18fqBFR8ybIRXCxEL9OQPdeHk17uutN4C/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 מספרים מרוכבים",
+                  "url": "https://drive.google.com/file/d/1GE31jsDnyubhAd5XZDHyoBXGbrGYhn_q/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 פונקציות לוגריתמיות",
+                  "url": "https://drive.google.com/file/d/19esp4eznyfSXOV3bVNM28zjJKI1XIkBx/view"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 572 פונקציות מעריכיות",
+                  "url": "https://drive.google.com/file/d/1LRB1bmTnbCGStyV4KTksjGQrTufA-Rhu/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "שרית סמואל",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "עותק של ln(f(x))   e^(f(x))",
+                  "url": "https://drive.google.com/file/d/1nvvwEteuODxDdkoc8WrprUUIXKC7-OaY/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עותק של ווקטורים מבגרויות 572",
+                  "url": "https://drive.google.com/file/d/1q1ZRkE3Xr-6RTVb7u4Q6xFm7Ecdu9NhC/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עותק של חזקת n.pdf",
+                  "url": "https://drive.google.com/file/d/12GHyUB-us9Qma-DGqeJTMD95fvQdNGme/view"
+                },
+                {
+                  "type": "file",
+                  "name": "עותק של מרוכבים מבגרויות 572.pdf",
+                  "url": "https://drive.google.com/file/d/1aF4MbT-yXIk-AIR4vBglElZPmArpj3H6/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
         },
         {
-          "name": "4. פתרונות שלי לבגרויות",
+          "name": "4. בגרויות ופתרונות 572 לפי שנים",
           "desc": "",
           "id": "1-4",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2022",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1tN37SRo4FND9f8ZOfGu9zDBJtJqapO0h/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1fCLalG54cneyH1Z_I2xGV03RzwuHwbn0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף נבצרים - פתרון",
+                  "url": "https://drive.google.com/file/d/1NfxeGLtphf2amDGDaCsBNhEhivD9UZsI/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף נבצרים - שאלון",
+                  "url": "https://drive.google.com/file/d/1UNwzH0fjkjXzpsRWvNWDYxu6ns4i_mNN/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1jvxo2QZQAEi7L8MmOq2IdSCb7PWoibw8/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1HWgIGbP9aDdVf-UmcRSHarP4aWv0QhyS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1iQRAX1utHq4mLuvnFDe5rgPWm68n4SL6/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1BetUr6x_ZkFVtWDQQnFmDoMFmcpm9HkU/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2023 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1QKiDDLbP0eAZEococOHISE-fQhB_gjY0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1nMXIcH9W0j_ZlHZQNs1xTOxSC06SS8FW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1KqI0MGjsog2iv-T_4kZbylOS7GgHtMJR/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1nc605vvVxmsVAMaiVwOIZe1vN3MUy-N6/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/19xQGm3Sj6i1oNlKkYM0zadOPLNm07L3m/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1wx6LXKe2Qv2A6yyOGZvdc9V0XLf2pZhm/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד מיוחד - פתרון",
+                  "url": "https://drive.google.com/file/d/1pw99OekYVNfbj0n5V2DR5LSZ0J_OX2Lx/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד מיוחד - שאלון",
+                  "url": "https://drive.google.com/file/d/1UGobg8kswpC9cDAugV1Xe-pOPyIG1iGI/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2024",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2024 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1Zo0lLD4FP5K72DwnIM1EG57ClU0G_a8C/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1JcvPgTMKi0FHhzrFESprSPYGybPHOjrl/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/18YVT-AttRvB_ODwci-mo6L_hdF8P_d0Y/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/18WsCOlse6JTTm-ioFWeoxQkGWCQT2Vih/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1L81Xd7LRvaIJRfWD0fZZtV_ZQf8l_U72/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1iZMT8X_U35Im8mjA34hpzDDLYd0LWdbO/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2025 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/192XsmxjCILtmEjicS6nhEVAFz7MrUfZe/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1-rwAicwdesL0rhB_XpHI-mBGwF9kh93_/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1L4GaP_ngEM70pq-9xLJPuCYLM8M3spLK/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1RG1-gO2Yeb_5ecggxh8zzRY8Gabl38bQ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1VFqpNZJinV3TA4Ouf11jDZ-jHTyQPIUE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1OBXLLdbMVZP8JykTP3pKgK-t8EZDgJHY/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2026",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2026 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1yRk9SVbjH6b1Le4s7i73gjxCiOenWEl0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1mX39vbnS7LAPsjSy4l5aLPzjxC2xCPxi/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - מועד חורף - תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1KQKNwJBQq8jXdXHZQ5Q5w5RBXIP0i9Ai/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "5. פתרונות שלי לבגרויות",
+          "desc": "",
+          "id": "1-5",
           "content": [
             {
               "type": "file",
@@ -264,12 +339,95 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "6. מפות חשיבה - יובל אמיתי",
+          "desc": "",
+          "id": "1-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 1 הקו הישר",
+              "url": "https://drive.google.com/file/d/1NMcuDgaxBYYOUtmcoxR1xTZgB9YxfFw9/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 2 מעגל",
+              "url": "https://drive.google.com/file/d/1lxEsYciS6a4Yu-VvB3JMVBPbnARY2gCs/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 3 פרבולה",
+              "url": "https://drive.google.com/file/d/1_43bQxj2Uw2c0-xTJwIsyGJJGGRrU2wE/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 4 אליפסה",
+              "url": "https://drive.google.com/file/d/162F2pYEPmx9iksmTr-wTYi46XrJEZpUx/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 5 היפרבולה",
+              "url": "https://drive.google.com/file/d/1Yhy8Pkz_IdgkeZyjLxeoo1SW4no3l-Ur/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - גאומטריה אנליטית 6 מקומות גאומטריים",
+              "url": "https://drive.google.com/file/d/1a5cvytuDZN6JA5DMkmIx9WFtlCQF4ZvP/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 1 הוקטור הגאומטרי",
+              "url": "https://drive.google.com/file/d/1coqcncW2AigjkQaskyOsjtoI0gy7307R/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 2 הוקטור האלגברי",
+              "url": "https://drive.google.com/file/d/1a6FWx6kke1TyReghdteX_r0PJhqJfhFZ/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 3 ישרים",
+              "url": "https://drive.google.com/file/d/1O8uAyvNXrfPjSb0s5NTMfHmD6Hk9mbAU/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 4 מישור - דף א",
+              "url": "https://drive.google.com/file/d/1DbUCnpCTmuttaQPLOL8bmzbrAdB0_2AW/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - וקטורים 4 מישור - דף ב",
+              "url": "https://drive.google.com/file/d/1pEZ_HXm4mAmemXExu91Kc5McsZ8spT3Q/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - מספרים מרוכבים",
+              "url": "https://drive.google.com/file/d/1JKpK-igXircIiUrnkML4noBdbrU4WCY2/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - פונקציות לוגריתמיות 1",
+              "url": "https://drive.google.com/file/d/1KRViedY-908p7xuvC6HZI83LOnlf2g1v/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - פונקציות לוגריתמיות 2",
+              "url": "https://drive.google.com/file/d/1wAjLuRY1L6qvLa84kw0uz1gGFGCzbh81/view"
+            },
+            {
+              "type": "file",
+              "name": "מפות חשיבה 572 - פונקציות מעריכיות",
+              "url": "https://drive.google.com/file/d/1Ajo3DN0F3ELYUzRFflR9SWxiWJBrYHO7/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
     {
-      "name": "1. חדוא",
-      "id": "1-חדוא",
+      "name": "2. חדוא",
+      "id": "2-חדוא",
       "lessons": [
         {
           "name": "0. בני גורן - רשימת תרגילים מומלצים מהספר",

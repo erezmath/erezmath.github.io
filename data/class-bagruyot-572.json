@@ -5,20 +5,45 @@
   "banner_url": "images/banner572.png",
   "desc": "",
   "tags": [
-    "1. בגרויות לפי נושאים",
+    "1. בגרויות ופתרונות",
     "2. מתכונות בתי ספר",
-    "3. חוברת בגרויות יואל גבע",
     "10. מתכונות בר אילן"
   ],
   "topics": [
     {
-      "name": "1. בגרויות לפי נושאים",
-      "id": "1-בגרויות-לפי-נושאים",
+      "name": "1. בגרויות ופתרונות",
+      "id": "1-בגרויות-ופתרונות",
       "lessons": [
         {
-          "name": "1. ריכוז בגרויות 2020-2025 לפי נושאים",
+          "name": "0. דף נוסחאות 5 יחל לבגרות",
           "desc": "",
           "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "דף נוסחאות 5 יחל תוכנית חדשה",
+              "url": "https://drive.google.com/file/d/19AAU3ALfF3un6YignOfr7NQI8sHkbNlc/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "1. חוברת בגרויות יואל גבע",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "חוברת בגרויות 582 2025 ממורקר",
+              "url": "https://drive.google.com/file/d/1WIepP6TLVk-oAXMrIHoOT35qtwISgg0H/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "3. בגרויות 572 לפי נושאים",
+          "desc": "",
+          "id": "1-3",
           "content": [
             {
               "type": "folder",
@@ -81,9 +106,245 @@
           "lesson_json": {}
         },
         {
-          "name": "2. מפות חשיבה - יובל אמיתי",
+          "name": "4. בגרויות ופתרונות 572 לפי שנים",
           "desc": "",
-          "id": "1-2",
+          "id": "1-4",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2022",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1tN37SRo4FND9f8ZOfGu9zDBJtJqapO0h/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1fCLalG54cneyH1Z_I2xGV03RzwuHwbn0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף נבצרים - פתרון",
+                  "url": "https://drive.google.com/file/d/1NfxeGLtphf2amDGDaCsBNhEhivD9UZsI/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - מועד חורף נבצרים - שאלון",
+                  "url": "https://drive.google.com/file/d/1UNwzH0fjkjXzpsRWvNWDYxu6ns4i_mNN/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1jvxo2QZQAEi7L8MmOq2IdSCb7PWoibw8/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1HWgIGbP9aDdVf-UmcRSHarP4aWv0QhyS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1iQRAX1utHq4mLuvnFDe5rgPWm68n4SL6/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1BetUr6x_ZkFVtWDQQnFmDoMFmcpm9HkU/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2023 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1QKiDDLbP0eAZEococOHISE-fQhB_gjY0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1nMXIcH9W0j_ZlHZQNs1xTOxSC06SS8FW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1KqI0MGjsog2iv-T_4kZbylOS7GgHtMJR/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1nc605vvVxmsVAMaiVwOIZe1vN3MUy-N6/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/19xQGm3Sj6i1oNlKkYM0zadOPLNm07L3m/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1wx6LXKe2Qv2A6yyOGZvdc9V0XLf2pZhm/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד מיוחד - פתרון",
+                  "url": "https://drive.google.com/file/d/1pw99OekYVNfbj0n5V2DR5LSZ0J_OX2Lx/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - קיץ מועד מיוחד - שאלון",
+                  "url": "https://drive.google.com/file/d/1UGobg8kswpC9cDAugV1Xe-pOPyIG1iGI/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2024",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2024 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1Zo0lLD4FP5K72DwnIM1EG57ClU0G_a8C/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1JcvPgTMKi0FHhzrFESprSPYGybPHOjrl/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/18YVT-AttRvB_ODwci-mo6L_hdF8P_d0Y/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/18WsCOlse6JTTm-ioFWeoxQkGWCQT2Vih/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1L81Xd7LRvaIJRfWD0fZZtV_ZQf8l_U72/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1iZMT8X_U35Im8mjA34hpzDDLYd0LWdbO/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2025 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/192XsmxjCILtmEjicS6nhEVAFz7MrUfZe/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1-rwAicwdesL0rhB_XpHI-mBGwF9kh93_/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1L4GaP_ngEM70pq-9xLJPuCYLM8M3spLK/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1RG1-gO2Yeb_5ecggxh8zzRY8Gabl38bQ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1VFqpNZJinV3TA4Ouf11jDZ-jHTyQPIUE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1OBXLLdbMVZP8JykTP3pKgK-t8EZDgJHY/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2026",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2026 - מועד חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1yRk9SVbjH6b1Le4s7i73gjxCiOenWEl0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - מועד חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1mX39vbnS7LAPsjSy4l5aLPzjxC2xCPxi/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - מועד חורף - תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1KQKNwJBQq8jXdXHZQ5Q5w5RBXIP0i9Ai/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "5. פתרונות שלי לבגרויות",
+          "desc": "",
+          "id": "1-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "2018 - קיץ מועד א - מרוכבים",
+              "url": "https://drive.google.com/file/d/1Y98gaRM4D0PmQp16FLJhOxTMX6x0Ugk8/view"
+            },
+            {
+              "type": "file",
+              "name": "2018 - קיץ מועד א - מרוכבים.xopp",
+              "url": "https://drive.google.com/file/d/1RuFnkD-n14PrtcMXerqt5Hg0iveWHrE8/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד א - חקירה מעריכית - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1_SIDNarxriM44u4f7R2nJuTja0DQbnh3/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד א - מרוכבים",
+              "url": "https://drive.google.com/file/d/1U8-Af0E4UBblNRfTnEZFarBO5ka7Vred/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד א - מרוכבים.xopp",
+              "url": "https://drive.google.com/file/d/1eSPH7g60wGKavJ70AAnzcVaKPvFPqCU1/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1M7OaVUHZMAeR_-N2Ed6CU2xEUHuauqHC/view"
+            },
+            {
+              "type": "file",
+              "name": "2026 - חורף - חקירה לן",
+              "url": "https://drive.google.com/file/d/1mlPdxsDbbGnWQq4xCdeF1mR7ZwV79wIj/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "6. מפות חשיבה - יובל אמיתי",
+          "desc": "",
+          "id": "1-6",
           "content": [
             {
               "type": "file",
@@ -918,18 +1179,13 @@
       ]
     },
     {
-      "name": "3. חוברת בגרויות יואל גבע",
-      "id": "3-חוברת-בגרויות-יואל-גבע",
-      "lessons": []
-    },
-    {
       "name": "10. מתכונות בר אילן",
       "id": "10-מתכונות-בר-אילן",
       "lessons": [
         {
           "name": "2018",
           "desc": "",
-          "id": "4-1",
+          "id": "3-1",
           "content": [
             {
               "type": "file",
@@ -952,7 +1208,7 @@
         {
           "name": "2019",
           "desc": "",
-          "id": "4-2",
+          "id": "3-2",
           "content": [
             {
               "type": "file",
@@ -975,7 +1231,7 @@
         {
           "name": "2020",
           "desc": "",
-          "id": "4-3",
+          "id": "3-3",
           "content": [
             {
               "type": "file",
@@ -998,7 +1254,7 @@
         {
           "name": "2021",
           "desc": "",
-          "id": "4-4",
+          "id": "3-4",
           "content": [
             {
               "type": "file",
@@ -1021,7 +1277,7 @@
         {
           "name": "2022",
           "desc": "",
-          "id": "4-5",
+          "id": "3-5",
           "content": [
             {
               "type": "file",
@@ -1044,7 +1300,7 @@
         {
           "name": "2023",
           "desc": "",
-          "id": "4-6",
+          "id": "3-6",
           "content": [
             {
               "type": "file",
@@ -1067,7 +1323,7 @@
         {
           "name": "2024",
           "desc": "",
-          "id": "4-7",
+          "id": "3-7",
           "content": [
             {
               "type": "file",
@@ -1090,7 +1346,7 @@
         {
           "name": "2025",
           "desc": "",
-          "id": "4-8",
+          "id": "3-8",
           "content": [
             {
               "type": "file",
