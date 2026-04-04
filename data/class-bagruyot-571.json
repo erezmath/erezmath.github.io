@@ -6,8 +6,9 @@
   "desc": "",
   "tags": [
     "1. בגרויות ופתרונות",
-    "2. מתכונות מומלצות",
-    "3. תרגול מסכם לפי נושאים"
+    "2. מתכונות מאתגרות מומלצות",
+    "3. מתכונות מבתי ספר",
+    "4. תרגול מסכם לפי נושאים"
   ],
   "topics": [
     {
@@ -992,42 +993,22 @@
       ]
     },
     {
-      "name": "2. מתכונות מומלצות",
-      "id": "2-מתכונות-מומלצות",
+      "name": "2. מתכונות מאתגרות מומלצות",
+      "id": "2-מתכונות-מאתגרות-מומלצות",
       "lessons": [
         {
-          "name": "1. מריאן",
-          "desc": "",
+          "name": "1. סרור אסעד - סימולציות",
+          "desc": "<p>סימולציות של סרור אסעד - מאוד מומלץ כתרגול, קשות יותר מבגרויות.</p>",
           "id": "2-1",
           "content": [
             {
               "type": "folder",
-              "name": "2018 ולפני",
+              "name": "2020",
               "content": [
                 {
                   "type": "file",
-                  "name": "מתכונות 806 שנת 2013",
-                  "url": "https://drive.google.com/file/d/1Zjok_0P8Xs_XUV7hay2iRa73EItkq71G/view"
-                },
-                {
-                  "type": "file",
-                  "name": "מתכונות 806 שנת 2014",
-                  "url": "https://drive.google.com/file/d/1nQoDn9rnvcJz4YVe5nlhuaqXkvCUMTly/view"
-                },
-                {
-                  "type": "file",
-                  "name": "מתכונות 806 שנת 2015",
-                  "url": "https://drive.google.com/file/d/1xPeMsI0uQvwEypy8e4CxfTaXRiCOaZ6q/view"
-                },
-                {
-                  "type": "file",
-                  "name": "מתכונות 806 שנת 2016",
-                  "url": "https://drive.google.com/file/d/13pyhhzBIBAIr4T6KkFNoQ1I7Jr4roTSM/view"
-                },
-                {
-                  "type": "file",
-                  "name": "מתכונות 806 שנת 2018",
-                  "url": "https://drive.google.com/file/d/1drK1hr_8eNPyshHvrjEXwQ_hRjPFuo6U/view"
+                  "name": "סימולציה 581 - קיץ 2020 - סרור אסעד - תיכון בית גן",
+                  "url": "https://drive.google.com/file/d/1L7w4qx0Op5dzt7nhKws2zpsd6aBEwyZq/view"
                 }
               ]
             },
@@ -1037,74 +1018,33 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "קיץ 2021 - 581 כולל פתרונות כהן ורוזנפלד",
-                  "url": "https://drive.google.com/file/d/1y2uv-AmmiNUea6mo5lh7y-chTENBX-jw/view"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "2024",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "1. מריאן - 35581 - קיץ 2024 - מתכונות 1+2",
-                  "url": "https://drive.google.com/file/d/1x3FlpUfAfCi0vLFP5qU0-vQz2Ir39Gi1/view"
+                  "name": "סימולציה 001 - שאלון 581 - קיץ 2021 - סרור אסעד",
+                  "url": "https://drive.google.com/file/d/1hG3uQoJZPcGqw_Ka2ePuAJ7ueZHwKUFa/view"
                 },
                 {
                   "type": "file",
-                  "name": "2. מריאן - 35581 - קיץ 2024 - מתכונות 1+2 - פתרונות מלאים",
-                  "url": "https://drive.google.com/file/d/1saKW1DbFe7Pyi81XCSHuMLsSLZOm_k-g/view"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "2025",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "1. מריאן - 35571 - קיץ 2025 - מתכונות 1+2",
-                  "url": "https://drive.google.com/file/d/18Q_I6rk9fCKeK3P3-S2lDLRilycP9LLt/view"
+                  "name": "סימולציה 002 - שאלון 581 - קיץ 2021 - סרור אסעד",
+                  "url": "https://drive.google.com/file/d/1UJITsOzj_2mZKMQ0m2Oh8Iwub86VmjGf/view"
                 },
                 {
                   "type": "file",
-                  "name": "2. מריאן - 35571 - קיץ 2025 - מתכונות 1+2 - פתרונות מלאים",
-                  "url": "https://drive.google.com/file/d/117uq8i-uaJwnqeHYcob6ZuGL8MT2gAnh/view"
+                  "name": "סימולציה 004 - שאלון 581 - קיץ 2021 - סרור אסעד",
+                  "url": "https://drive.google.com/file/d/1tlmsn2h3qWwQ9t53Q_Ug7hRq_iIQ4mSw/view"
                 },
                 {
                   "type": "file",
-                  "name": "3. מבחן 1 מריאן 571 - תשפה",
-                  "url": "https://drive.google.com/file/d/15O7EAirbwwPA-Hh6TazJqnm91q_x6OOF/view"
+                  "name": "פא סרור מתכונת 2",
+                  "url": "https://drive.google.com/file/d/10LwshOkB4JdoHBMgv2cYVjCRr66heA8A/view"
                 },
                 {
                   "type": "file",
-                  "name": "4. מבחנים 3,4,5 מריאן 571 - תשפה",
-                  "url": "https://drive.google.com/file/d/1443Jg2cHjE8m2KGN5dYqvJEXUbJ6QHqI/view"
+                  "name": "פא סרור מתכונת 3",
+                  "url": "https://drive.google.com/file/d/1aJaOcEjnb4rMq1MjNHX2O8LveHA3jdps/view"
                 },
                 {
                   "type": "file",
-                  "name": "5. מבחן 6 מריאן 571 - תשפה",
-                  "url": "https://drive.google.com/file/d/1V459BeLDYlonshMPasA0GNxwDZO-lqiX/view"
-                }
-              ]
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "2. ארכימדס",
-          "desc": "",
-          "id": "2-2",
-          "content": [
-            {
-              "type": "folder",
-              "name": "2021",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "פא ארכימדס מתכונת 1",
-                  "url": "https://drive.google.com/file/d/1_UGDgkei9V1OqGFiByogv7vcOVg10jx-/view"
+                  "name": "פא סרור מתכונת 4",
+                  "url": "https://drive.google.com/file/d/11RjA1RkJsTLo9fo18jvXZ6yLtehPqxu2/view"
                 }
               ]
             },
@@ -1114,72 +1054,8 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "2022 - מתכונת ארכימדס 581",
-                  "url": "https://drive.google.com/file/d/1wiK8j7z5dVT99AP98gb4Fbu5L1IL1P1k/view"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "2023",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "2023 - מתכונת ארכימדס 581 - פתרונות",
-                  "url": "https://drive.google.com/file/d/17W4xy8MplIp1iLeOhNO-yEdFHsRtmi42/view"
-                },
-                {
-                  "type": "file",
-                  "name": "2023 - מתכונת ארכימדס 581",
-                  "url": "https://drive.google.com/file/d/1z2jOso32epnIiSN4frDh4EwjDFHgOG_3/view"
-                }
-              ]
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "3. גול",
-          "desc": "",
-          "id": "2-3",
-          "content": [
-            {
-              "type": "file",
-              "name": "גול סודית 581 תשפג",
-              "url": "https://drive.google.com/file/d/1mMVDjwk2I3L0rAvojSXCz42rZkGkED81/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "4. תיכון בית וג'ן וסרור אסעד",
-          "desc": "<p>מתכונות בפועל של סרור אסעד</p>",
-          "id": "2-4",
-          "content": [
-            {
-              "type": "folder",
-              "name": "2022",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "בית ג'אן - 35581 - מתכונת 1 מועד ב",
-                  "url": "https://drive.google.com/file/d/1xfMNXRJqu7IkK_ddBAyo-cKxD068d6wE/view"
-                },
-                {
-                  "type": "file",
-                  "name": "בית ג'אן - 35581 - מתכונת 1",
-                  "url": "https://drive.google.com/file/d/111ihSRYgb8VxzOTmCcdkC3EQY3FHuHEO/view"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "2023",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "בית וגן-35581-מתכונת 2 מועד ב",
-                  "url": "https://drive.google.com/file/d/1q-uc0n3f76pKbAwfiJ_cnEfivTRkhQGo/view"
+                  "name": "סרור אסעד - סימולציה 2022",
+                  "url": "https://drive.google.com/file/d/1dxZq1q8xOiMknDYaBi73sDASbWxsimSR/view"
                 }
               ]
             },
@@ -1189,24 +1065,13 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "תיכון בית וגן-35581-מתכונת 1",
-                  "url": "https://drive.google.com/file/d/1yhbIzWbGEsC4E8qu8A1ypFQW6ouZ14B3/view"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "2025",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "תיכון בית וגן-35571-מתכונת 1 כולל תשובות",
-                  "url": "https://drive.google.com/file/d/1iCy9FvSny1Yln7qHn0YhStg2VQ5GGmDz/view"
+                  "name": "2. סרור אסעד - 35581 - סימולציה 2024 - פתרון",
+                  "url": "https://drive.google.com/file/d/1E1MsIOl_jv7dTGFYcP92zLSKQDMdw82p/view"
                 },
                 {
                   "type": "file",
-                  "name": "תיכון בית וגן-35571-מתכונת 2 כולל תשובות",
-                  "url": "https://drive.google.com/file/d/13uafC-ZDTA5TBZIgAcLcY2A7gRFcxv_r/view"
+                  "name": "2. סרור אסעד - 35581 - סימולציה 2024",
+                  "url": "https://drive.google.com/file/d/1yKoNoLqbZXTr0rPSBIhTPSlwfLR3oquR/view"
                 }
               ]
             }
@@ -1214,272 +1079,9 @@
           "lesson_json": {}
         },
         {
-          "name": "5. אוסטרובסקי ואפי כהן",
-          "desc": "<p>מבחנים עולים ברמת הקושי, כוללים גם מחוון ופתרונות מלאים</p>",
-          "id": "2-5",
-          "content": [
-            {
-              "type": "file",
-              "name": "1. מבחן ראשון 5",
-              "url": "https://drive.google.com/file/d/1JgrhMrj-7l0NxodVeamW9TdxtKIg3IFz/view"
-            },
-            {
-              "type": "file",
-              "name": "1. מבחן שני יא 5",
-              "url": "https://drive.google.com/file/d/186HqyQDf_CIVjnkRHfjuxfaR1RvCthgL/view"
-            },
-            {
-              "type": "file",
-              "name": "1. פתרון ומחוון מבחן ראשון 5",
-              "url": "https://drive.google.com/file/d/12FL8r9agmUkjIByqbEJLfDDW3aj-RNq2/view"
-            },
-            {
-              "type": "file",
-              "name": "2. פתרון המבחן יא 5",
-              "url": "https://drive.google.com/file/d/1Sg-U_R6lzVELHijvKSrPOBgbn99iqMUk/view"
-            },
-            {
-              "type": "file",
-              "name": "3. מבחן שלישי יא 5",
-              "url": "https://drive.google.com/file/d/1tRISfKj6wkqA_AU1jN1IWvgrnk2DWY73/view"
-            },
-            {
-              "type": "file",
-              "name": "3. פתרון מבחן שלישי יא 5",
-              "url": "https://drive.google.com/file/d/14zE0qcj-sd4HidoUw98q51e-x_xgzLTg/view"
-            },
-            {
-              "type": "file",
-              "name": "4. מתכונת 1 אוסטרובסקי - פתרון",
-              "url": "https://drive.google.com/file/d/1zpH6M_mEWHbtKvJvN6nnMU7hpAeW_HLG/view"
-            },
-            {
-              "type": "file",
-              "name": "4. מתכונת 1 אוסטרובסקי",
-              "url": "https://drive.google.com/file/d/1kZoNWuuNYmjPPfOyrEJ-bq8Qbmv9OhcK/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "6. מתכונות בתי ספר עם פתרונות - תשפד",
-          "desc": "",
-          "id": "2-6",
-          "content": [
-            {
-              "type": "file",
-              "name": "אליאנס -  35581 - תשפד - מתכונת 1 ופתרון",
-              "url": "https://drive.google.com/file/d/1Al5DI4eDULFMqVrHthdkqzkKKaNzn30f/view"
-            },
-            {
-              "type": "file",
-              "name": "אליאנס -  35581 - תשפד - מתכונת 2 ופתרון",
-              "url": "https://drive.google.com/file/d/1iTqMLPDDFR0rhFZnJtl8x79Bhwd5AFVg/view"
-            },
-            {
-              "type": "file",
-              "name": "בית וגן - 35581 - מתכונת 1",
-              "url": "https://drive.google.com/file/d/19jHRrL4mzLpW3Cxzq7yLUzWSxi1yGe1p/view"
-            },
-            {
-              "type": "file",
-              "name": "בן צבי קריית אונו - 35581 - מתכונת 1 עם פתרון מלא",
-              "url": "https://drive.google.com/file/d/1JaDbqLBmh9nBOCAybai9YSLM81VZEcCv/view"
-            },
-            {
-              "type": "file",
-              "name": "בן צבי קריית אונו - 35581 - מתכונת 2 עם פתרון מלא",
-              "url": "https://drive.google.com/file/d/1DS5NXxWtie_zvQ69MTLtYdBtj7MUIYJe/view"
-            },
-            {
-              "type": "file",
-              "name": "גלילי כפר סבא - 35581 - מתכונת 1 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/11RC2BTFJ0sKDan9IA7U0h9qlJH0LA-qs/view"
-            },
-            {
-              "type": "file",
-              "name": "מטרו ווסט רעננה  - 35581 - מתכונת 2 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1H2om4yg6YtLXPuDtEBLYODfCR1aBqtBs/view"
-            },
-            {
-              "type": "file",
-              "name": "מטרו ווסט רעננה - 35581 - מתכונת 1 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1jO-0YfhjPq8wBE1nGZfu8bs8YgNYjM48/view"
-            },
-            {
-              "type": "file",
-              "name": "קצרין - 35581 - מתכונת 1 פתרון מלא",
-              "url": "https://drive.google.com/file/d/1pwiaXCTHj4k47WzKLz19VvGw-RsA0Ij_/view"
-            },
-            {
-              "type": "file",
-              "name": "קצרין - 35581 - מתכונת 1",
-              "url": "https://drive.google.com/file/d/1WxGN4IVDgolFsnHE_6LENY3o5Yr22AlD/view"
-            },
-            {
-              "type": "file",
-              "name": "תיכון אוסטרובסקי רעננה - 35581 - מתכונת 1 - פתרונות",
-              "url": "https://drive.google.com/file/d/1Tnb3ZMp5UsvzXm4MRFgrdrTz4H6EEBgZ/view"
-            },
-            {
-              "type": "file",
-              "name": "תיכון אוסטרובסקי רעננה - 35581 - מתכונת 1",
-              "url": "https://drive.google.com/file/d/1XZCp7ANBGZ9aW0Tnx_b41_jTYMRqc_ju/view"
-            },
-            {
-              "type": "file",
-              "name": "תיכון בית וגן-35581-מתכונת 1",
-              "url": "https://drive.google.com/file/d/1VoZdcLg_j8ij-8__RW4vuV7_9XjfKpF7/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "7. מתכונות בתי ספר נוספות עם פתרונות - תשפד",
-          "desc": "",
-          "id": "2-7",
-          "content": [
-            {
-              "type": "file",
-              "name": "אביב רעננה - 35581 - מתכונת 1 - כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1mBeADEspC6d334DowIDPOFutMJdX4hdY/view"
-            },
-            {
-              "type": "file",
-              "name": "אביב רעננה - 35581 - מתכונת 2 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1rhsN_oOy-lUXZfFbfX5Z43f0ERFoVHec/view"
-            },
-            {
-              "type": "file",
-              "name": "אולפנת צביה הרצליה - 35581 - מתכונת 1",
-              "url": "https://drive.google.com/file/d/1_CuswYuLq3nRg6xhJFlnGZwFHdsqiiHe/view"
-            },
-            {
-              "type": "file",
-              "name": "אולפנת צביה הרצליה - 35581 - מתכונת 2",
-              "url": "https://drive.google.com/file/d/1kmbsYa0ixW2-lCvv9n8pa5RRWnjDb0dQ/view"
-            },
-            {
-              "type": "file",
-              "name": "אוסטרובסקי רעננה - 35581 - מתכונת 2 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1ySfMvXdlz8IgpfTpUnQQgiFrnmaDey5I/view"
-            },
-            {
-              "type": "file",
-              "name": "אורט יובלי אריאל - 35581 - מתכונת 1 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1hBl-iCwO85O2G1g9nsogSVe2KtykFa75/view"
-            },
-            {
-              "type": "file",
-              "name": "אורט יובלי אריאל - 35581 - מתכונת 2",
-              "url": "https://drive.google.com/file/d/1dZZ2F8HW0HmEexLEm3sTt3yqsTEZ7dLB/view"
-            },
-            {
-              "type": "file",
-              "name": "בגין ראש העין - 35581 - מתכונת 1",
-              "url": "https://drive.google.com/file/d/1gWG0DQY5PnwWtf0ljgF3Icndpgcz48wg/view"
-            },
-            {
-              "type": "file",
-              "name": "בליך רמת גן - 35581 - מתכונת 1",
-              "url": "https://drive.google.com/file/d/1q0B9nWXNrnt5H1PaCI5NzliP83SE_vSg/view"
-            },
-            {
-              "type": "file",
-              "name": "בן צבי קריית אונו - 35581 - סימולציה כולל תשובות",
-              "url": "https://drive.google.com/file/d/12IIFZMqI09doBwkjFdnYZqZyDkBs_4ZE/view"
-            },
-            {
-              "type": "file",
-              "name": "הראשונים הרצליה - 35581 - מתכונת 1 - פתרון",
-              "url": "https://drive.google.com/file/d/1tOF3w9bgtPS4Fs4w73d6bwHdrfq1jZ5h/view"
-            },
-            {
-              "type": "file",
-              "name": "הראשונים הרצליה - 35581 - מתכונת 1",
-              "url": "https://drive.google.com/file/d/1hjSjv3pwGYiOuZoyEZPeOCixuIOv_XDe/view"
-            },
-            {
-              "type": "file",
-              "name": "הראשונים הרצליה - 35581 - מתכונת 2 פתרון מלא",
-              "url": "https://drive.google.com/file/d/1_NDIfqKMmxSjtn8r-0zbLfpbHsJWy55e/view"
-            },
-            {
-              "type": "file",
-              "name": "הראשונים הרצליה - 35581 - מתכונת 2",
-              "url": "https://drive.google.com/file/d/1-MY4Vk9sydRhSA7Lold9Gl-TpibV_HR-/view"
-            },
-            {
-              "type": "file",
-              "name": "מתכונת 1 יא 581 תשפד - עירוני ד",
-              "url": "https://drive.google.com/file/d/1KT6-GpJMrmd5FMCZ2l-s64xbiEdaAqpA/view"
-            },
-            {
-              "type": "file",
-              "name": "קוגל חולון - 35581 - מתכונת 1 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1I4CX19dTF7mrTuaVHEr18lhRVpCR_Iak/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "9. מתכונות בתי ספר - תשפו",
-          "desc": "",
-          "id": "2-8",
-          "content": [
-            {
-              "type": "file",
-              "name": "2. הכפר הירוק - מבחן שלישי 19.2.26 - כולל פתרון ומחוון",
-              "url": "https://drive.google.com/file/d/1xaXYNUK_RUtvWrMz-cKpmnna6S1UsKZJ/view"
-            },
-            {
-              "type": "file",
-              "name": "7. מחוז מרכז - טרום מתכונת 571 - תשפה - רמה קלה - עם פתרונות מלאים",
-              "url": "https://drive.google.com/file/d/1z8dlPSv28AHaCkCLr3d7DPeHzSCU6juf/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "10. רוני רוט",
-          "desc": "",
-          "id": "2-9",
-          "content": [
-            {
-              "type": "file",
-              "name": "2024-רוני-רוט",
-              "url": "https://drive.google.com/file/d/18IyQuj0QdYQhXQcHjh7EmDM8Bk0Cfn69/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "11. ארכימדס אתגר",
-          "desc": "",
-          "id": "2-10",
-          "content": [
-            {
-              "type": "file",
-              "name": "חוברת תרגילי אתגר בשאלון 581 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
-              "url": "https://drive.google.com/file/d/1M1juyDg4W5z8fBrP6ACELTD0zkvXCyfd/view"
-            },
-            {
-              "type": "file",
-              "name": "מיקודית 581 מבחני אתגר 1, 2, 3, 4 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
-              "url": "https://drive.google.com/file/d/1VidYqexkUbBETGcEcvWluaobbHb_AA0i/view"
-            },
-            {
-              "type": "file",
-              "name": "פתרונות מלאים למבחני אתגר 1-2 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
-              "url": "https://drive.google.com/file/d/1l6AZ5PERI_RUHNunxKDEsrlP80bo7Ofk/view"
-            }
-          ],
-          "lesson_json": {}
-        },
-        {
-          "name": "12. בר אילן",
+          "name": "2. בר אילן",
           "desc": "<p>מתכונות בר אילן - מאוד מומלצות, מעבר לרמת הבגרות.</p>\n<p>מומלץ לפתור בכל שנתון את מתכונת 1. </p>\n<p>מתכונות 2 ו3 קשות יותר.</p>",
-          "id": "2-11",
+          "id": "2-2",
           "content": [
             {
               "type": "folder",
@@ -1648,18 +1250,38 @@
           "lesson_json": {}
         },
         {
-          "name": "13. סרור אסעד - סימולציות",
-          "desc": "<p>סימולציות של סרור אסעד - מאוד מומלץ כתרגול, קשות יותר מבגרויות.</p>",
-          "id": "2-12",
+          "name": "3. מריאן",
+          "desc": "",
+          "id": "2-3",
           "content": [
             {
               "type": "folder",
-              "name": "2020",
+              "name": "2018 ולפני",
               "content": [
                 {
                   "type": "file",
-                  "name": "סימולציה 581 - קיץ 2020 - סרור אסעד - תיכון בית גן",
-                  "url": "https://drive.google.com/file/d/1L7w4qx0Op5dzt7nhKws2zpsd6aBEwyZq/view"
+                  "name": "מתכונות 806 שנת 2013",
+                  "url": "https://drive.google.com/file/d/1Zjok_0P8Xs_XUV7hay2iRa73EItkq71G/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2014",
+                  "url": "https://drive.google.com/file/d/1nQoDn9rnvcJz4YVe5nlhuaqXkvCUMTly/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2015",
+                  "url": "https://drive.google.com/file/d/1xPeMsI0uQvwEypy8e4CxfTaXRiCOaZ6q/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2016",
+                  "url": "https://drive.google.com/file/d/13pyhhzBIBAIr4T6KkFNoQ1I7Jr4roTSM/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מתכונות 806 שנת 2018",
+                  "url": "https://drive.google.com/file/d/1drK1hr_8eNPyshHvrjEXwQ_hRjPFuo6U/view"
                 }
               ]
             },
@@ -1669,44 +1291,8 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "סימולציה 001 - שאלון 581 - קיץ 2021 - סרור אסעד",
-                  "url": "https://drive.google.com/file/d/1hG3uQoJZPcGqw_Ka2ePuAJ7ueZHwKUFa/view"
-                },
-                {
-                  "type": "file",
-                  "name": "סימולציה 002 - שאלון 581 - קיץ 2021 - סרור אסעד",
-                  "url": "https://drive.google.com/file/d/1UJITsOzj_2mZKMQ0m2Oh8Iwub86VmjGf/view"
-                },
-                {
-                  "type": "file",
-                  "name": "סימולציה 004 - שאלון 581 - קיץ 2021 - סרור אסעד",
-                  "url": "https://drive.google.com/file/d/1tlmsn2h3qWwQ9t53Q_Ug7hRq_iIQ4mSw/view"
-                },
-                {
-                  "type": "file",
-                  "name": "פא סרור מתכונת 2",
-                  "url": "https://drive.google.com/file/d/10LwshOkB4JdoHBMgv2cYVjCRr66heA8A/view"
-                },
-                {
-                  "type": "file",
-                  "name": "פא סרור מתכונת 3",
-                  "url": "https://drive.google.com/file/d/1aJaOcEjnb4rMq1MjNHX2O8LveHA3jdps/view"
-                },
-                {
-                  "type": "file",
-                  "name": "פא סרור מתכונת 4",
-                  "url": "https://drive.google.com/file/d/11RjA1RkJsTLo9fo18jvXZ6yLtehPqxu2/view"
-                }
-              ]
-            },
-            {
-              "type": "folder",
-              "name": "2022",
-              "content": [
-                {
-                  "type": "file",
-                  "name": "סרור אסעד - סימולציה 2022",
-                  "url": "https://drive.google.com/file/d/1dxZq1q8xOiMknDYaBi73sDASbWxsimSR/view"
+                  "name": "קיץ 2021 - 581 כולל פתרונות כהן ורוזנפלד",
+                  "url": "https://drive.google.com/file/d/1y2uv-AmmiNUea6mo5lh7y-chTENBX-jw/view"
                 }
               ]
             },
@@ -1716,15 +1302,126 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "2. סרור אסעד - 35581 - סימולציה 2024 - פתרון",
-                  "url": "https://drive.google.com/file/d/1E1MsIOl_jv7dTGFYcP92zLSKQDMdw82p/view"
+                  "name": "1. מריאן - 35581 - קיץ 2024 - מתכונות 1+2",
+                  "url": "https://drive.google.com/file/d/1x3FlpUfAfCi0vLFP5qU0-vQz2Ir39Gi1/view"
                 },
                 {
                   "type": "file",
-                  "name": "2. סרור אסעד - 35581 - סימולציה 2024",
-                  "url": "https://drive.google.com/file/d/1yKoNoLqbZXTr0rPSBIhTPSlwfLR3oquR/view"
+                  "name": "2. מריאן - 35581 - קיץ 2024 - מתכונות 1+2 - פתרונות מלאים",
+                  "url": "https://drive.google.com/file/d/1saKW1DbFe7Pyi81XCSHuMLsSLZOm_k-g/view"
                 }
               ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. מריאן - 35571 - קיץ 2025 - מתכונות 1+2",
+                  "url": "https://drive.google.com/file/d/18Q_I6rk9fCKeK3P3-S2lDLRilycP9LLt/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. מריאן - 35571 - קיץ 2025 - מתכונות 1+2 - פתרונות מלאים",
+                  "url": "https://drive.google.com/file/d/117uq8i-uaJwnqeHYcob6ZuGL8MT2gAnh/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. מבחן 1 מריאן 571 - תשפה",
+                  "url": "https://drive.google.com/file/d/15O7EAirbwwPA-Hh6TazJqnm91q_x6OOF/view"
+                },
+                {
+                  "type": "file",
+                  "name": "4. מבחנים 3,4,5 מריאן 571 - תשפה",
+                  "url": "https://drive.google.com/file/d/1443Jg2cHjE8m2KGN5dYqvJEXUbJ6QHqI/view"
+                },
+                {
+                  "type": "file",
+                  "name": "5. מבחן 6 מריאן 571 - תשפה",
+                  "url": "https://drive.google.com/file/d/1V459BeLDYlonshMPasA0GNxwDZO-lqiX/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "4. ארכימדס",
+          "desc": "",
+          "id": "2-4",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2021",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "פא ארכימדס מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1_UGDgkei9V1OqGFiByogv7vcOVg10jx-/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2022",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2022 - מתכונת ארכימדס 581",
+                  "url": "https://drive.google.com/file/d/1wiK8j7z5dVT99AP98gb4Fbu5L1IL1P1k/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2023 - מתכונת ארכימדס 581 - פתרונות",
+                  "url": "https://drive.google.com/file/d/17W4xy8MplIp1iLeOhNO-yEdFHsRtmi42/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2023 - מתכונת ארכימדס 581",
+                  "url": "https://drive.google.com/file/d/1z2jOso32epnIiSN4frDh4EwjDFHgOG_3/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "אתגר",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "חוברת תרגילי אתגר בשאלון 581 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
+                  "url": "https://drive.google.com/file/d/1M1juyDg4W5z8fBrP6ACELTD0zkvXCyfd/view"
+                },
+                {
+                  "type": "file",
+                  "name": "מיקודית 581 מבחני אתגר 1, 2, 3, 4 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
+                  "url": "https://drive.google.com/file/d/1VidYqexkUbBETGcEcvWluaobbHb_AA0i/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פתרונות מלאים למבחני אתגר 1-2 - ארכימדס הכנה לבחינת הבגרות במתמטיקה 581",
+                  "url": "https://drive.google.com/file/d/1l6AZ5PERI_RUHNunxKDEsrlP80bo7Ofk/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "5. גול",
+          "desc": "",
+          "id": "2-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "גול סודית 581 תשפג",
+              "url": "https://drive.google.com/file/d/1mMVDjwk2I3L0rAvojSXCz42rZkGkED81/view"
             }
           ],
           "lesson_json": {}
@@ -1732,13 +1429,321 @@
       ]
     },
     {
-      "name": "3. תרגול מסכם לפי נושאים",
-      "id": "3-תרגול-מסכם-לפי-נושאים",
+      "name": "3. מתכונות מבתי ספר",
+      "id": "3-מתכונות-מבתי-ספר",
+      "lessons": [
+        {
+          "name": "1. תיכון בית וג'ן וסרור אסעד",
+          "desc": "<p>מתכונות בפועל של סרור אסעד</p>",
+          "id": "3-1",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2022",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בית ג'אן - 35581 - מתכונת 1 מועד ב",
+                  "url": "https://drive.google.com/file/d/1xfMNXRJqu7IkK_ddBAyo-cKxD068d6wE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "בית ג'אן - 35581 - מתכונת 1",
+                  "url": "https://drive.google.com/file/d/111ihSRYgb8VxzOTmCcdkC3EQY3FHuHEO/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בית וגן-35581-מתכונת 2 מועד ב",
+                  "url": "https://drive.google.com/file/d/1q-uc0n3f76pKbAwfiJ_cnEfivTRkhQGo/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2024",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "תיכון בית וגן-35581-מתכונת 1",
+                  "url": "https://drive.google.com/file/d/1yhbIzWbGEsC4E8qu8A1ypFQW6ouZ14B3/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "תיכון בית וגן-35571-מתכונת 1 כולל תשובות",
+                  "url": "https://drive.google.com/file/d/1iCy9FvSny1Yln7qHn0YhStg2VQ5GGmDz/view"
+                },
+                {
+                  "type": "file",
+                  "name": "תיכון בית וגן-35571-מתכונת 2 כולל תשובות",
+                  "url": "https://drive.google.com/file/d/13uafC-ZDTA5TBZIgAcLcY2A7gRFcxv_r/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2. מתכונות בתי ספר עם פתרונות - תשפד",
+          "desc": "",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "אליאנס -  35581 - תשפד - מתכונת 1 ופתרון",
+              "url": "https://drive.google.com/file/d/1Al5DI4eDULFMqVrHthdkqzkKKaNzn30f/view"
+            },
+            {
+              "type": "file",
+              "name": "אליאנס -  35581 - תשפד - מתכונת 2 ופתרון",
+              "url": "https://drive.google.com/file/d/1iTqMLPDDFR0rhFZnJtl8x79Bhwd5AFVg/view"
+            },
+            {
+              "type": "file",
+              "name": "בית וגן - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/19jHRrL4mzLpW3Cxzq7yLUzWSxi1yGe1p/view"
+            },
+            {
+              "type": "file",
+              "name": "בן צבי קריית אונו - 35581 - מתכונת 1 עם פתרון מלא",
+              "url": "https://drive.google.com/file/d/1JaDbqLBmh9nBOCAybai9YSLM81VZEcCv/view"
+            },
+            {
+              "type": "file",
+              "name": "בן צבי קריית אונו - 35581 - מתכונת 2 עם פתרון מלא",
+              "url": "https://drive.google.com/file/d/1DS5NXxWtie_zvQ69MTLtYdBtj7MUIYJe/view"
+            },
+            {
+              "type": "file",
+              "name": "גלילי כפר סבא - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/11RC2BTFJ0sKDan9IA7U0h9qlJH0LA-qs/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה  - 35581 - מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1H2om4yg6YtLXPuDtEBLYODfCR1aBqtBs/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1jO-0YfhjPq8wBE1nGZfu8bs8YgNYjM48/view"
+            },
+            {
+              "type": "file",
+              "name": "קצרין - 35581 - מתכונת 1 פתרון מלא",
+              "url": "https://drive.google.com/file/d/1pwiaXCTHj4k47WzKLz19VvGw-RsA0Ij_/view"
+            },
+            {
+              "type": "file",
+              "name": "קצרין - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1WxGN4IVDgolFsnHE_6LENY3o5Yr22AlD/view"
+            },
+            {
+              "type": "file",
+              "name": "תיכון אוסטרובסקי רעננה - 35581 - מתכונת 1 - פתרונות",
+              "url": "https://drive.google.com/file/d/1Tnb3ZMp5UsvzXm4MRFgrdrTz4H6EEBgZ/view"
+            },
+            {
+              "type": "file",
+              "name": "תיכון אוסטרובסקי רעננה - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1XZCp7ANBGZ9aW0Tnx_b41_jTYMRqc_ju/view"
+            },
+            {
+              "type": "file",
+              "name": "תיכון בית וגן-35581-מתכונת 1",
+              "url": "https://drive.google.com/file/d/1VoZdcLg_j8ij-8__RW4vuV7_9XjfKpF7/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "3. מתכונות בתי ספר נוספות עם פתרונות - תשפד",
+          "desc": "",
+          "id": "3-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "אביב רעננה - 35581 - מתכונת 1 - כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1mBeADEspC6d334DowIDPOFutMJdX4hdY/view"
+            },
+            {
+              "type": "file",
+              "name": "אביב רעננה - 35581 - מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1rhsN_oOy-lUXZfFbfX5Z43f0ERFoVHec/view"
+            },
+            {
+              "type": "file",
+              "name": "אולפנת צביה הרצליה - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1_CuswYuLq3nRg6xhJFlnGZwFHdsqiiHe/view"
+            },
+            {
+              "type": "file",
+              "name": "אולפנת צביה הרצליה - 35581 - מתכונת 2",
+              "url": "https://drive.google.com/file/d/1kmbsYa0ixW2-lCvv9n8pa5RRWnjDb0dQ/view"
+            },
+            {
+              "type": "file",
+              "name": "אוסטרובסקי רעננה - 35581 - מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1ySfMvXdlz8IgpfTpUnQQgiFrnmaDey5I/view"
+            },
+            {
+              "type": "file",
+              "name": "אורט יובלי אריאל - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1hBl-iCwO85O2G1g9nsogSVe2KtykFa75/view"
+            },
+            {
+              "type": "file",
+              "name": "אורט יובלי אריאל - 35581 - מתכונת 2",
+              "url": "https://drive.google.com/file/d/1dZZ2F8HW0HmEexLEm3sTt3yqsTEZ7dLB/view"
+            },
+            {
+              "type": "file",
+              "name": "בגין ראש העין - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1gWG0DQY5PnwWtf0ljgF3Icndpgcz48wg/view"
+            },
+            {
+              "type": "file",
+              "name": "בליך רמת גן - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1q0B9nWXNrnt5H1PaCI5NzliP83SE_vSg/view"
+            },
+            {
+              "type": "file",
+              "name": "בן צבי קריית אונו - 35581 - סימולציה כולל תשובות",
+              "url": "https://drive.google.com/file/d/12IIFZMqI09doBwkjFdnYZqZyDkBs_4ZE/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 1 - פתרון",
+              "url": "https://drive.google.com/file/d/1tOF3w9bgtPS4Fs4w73d6bwHdrfq1jZ5h/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 1",
+              "url": "https://drive.google.com/file/d/1hjSjv3pwGYiOuZoyEZPeOCixuIOv_XDe/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 2 פתרון מלא",
+              "url": "https://drive.google.com/file/d/1_NDIfqKMmxSjtn8r-0zbLfpbHsJWy55e/view"
+            },
+            {
+              "type": "file",
+              "name": "הראשונים הרצליה - 35581 - מתכונת 2",
+              "url": "https://drive.google.com/file/d/1-MY4Vk9sydRhSA7Lold9Gl-TpibV_HR-/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת 1 יא 581 תשפד - עירוני ד",
+              "url": "https://drive.google.com/file/d/1KT6-GpJMrmd5FMCZ2l-s64xbiEdaAqpA/view"
+            },
+            {
+              "type": "file",
+              "name": "קוגל חולון - 35581 - מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1I4CX19dTF7mrTuaVHEr18lhRVpCR_Iak/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "4. מתכונות בתי ספר - תשפו",
+          "desc": "",
+          "id": "3-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "2. הכפר הירוק - מבחן שלישי 19.2.26 - כולל פתרון ומחוון",
+              "url": "https://drive.google.com/file/d/1xaXYNUK_RUtvWrMz-cKpmnna6S1UsKZJ/view"
+            },
+            {
+              "type": "file",
+              "name": "7. מחוז מרכז - טרום מתכונת 571 - תשפה - רמה קלה - עם פתרונות מלאים",
+              "url": "https://drive.google.com/file/d/1z8dlPSv28AHaCkCLr3d7DPeHzSCU6juf/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "10. אוסטרובסקי ואפי כהן",
+          "desc": "<p>מבחנים עולים ברמת הקושי, כוללים גם מחוון ופתרונות מלאים</p>",
+          "id": "3-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. מבחן ראשון 5",
+              "url": "https://drive.google.com/file/d/1JgrhMrj-7l0NxodVeamW9TdxtKIg3IFz/view"
+            },
+            {
+              "type": "file",
+              "name": "1. מבחן שני יא 5",
+              "url": "https://drive.google.com/file/d/186HqyQDf_CIVjnkRHfjuxfaR1RvCthgL/view"
+            },
+            {
+              "type": "file",
+              "name": "1. פתרון ומחוון מבחן ראשון 5",
+              "url": "https://drive.google.com/file/d/12FL8r9agmUkjIByqbEJLfDDW3aj-RNq2/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון המבחן יא 5",
+              "url": "https://drive.google.com/file/d/1Sg-U_R6lzVELHijvKSrPOBgbn99iqMUk/view"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן שלישי יא 5",
+              "url": "https://drive.google.com/file/d/1tRISfKj6wkqA_AU1jN1IWvgrnk2DWY73/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרון מבחן שלישי יא 5",
+              "url": "https://drive.google.com/file/d/14zE0qcj-sd4HidoUw98q51e-x_xgzLTg/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מתכונת 1 אוסטרובסקי - פתרון",
+              "url": "https://drive.google.com/file/d/1zpH6M_mEWHbtKvJvN6nnMU7hpAeW_HLG/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מתכונת 1 אוסטרובסקי",
+              "url": "https://drive.google.com/file/d/1kZoNWuuNYmjPPfOyrEJ-bq8Qbmv9OhcK/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "11. רוני רוט",
+          "desc": "",
+          "id": "3-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "2024-רוני-רוט",
+              "url": "https://drive.google.com/file/d/18IyQuj0QdYQhXQcHjh7EmDM8Bk0Cfn69/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "4. תרגול מסכם לפי נושאים",
+      "id": "4-תרגול-מסכם-לפי-נושאים",
       "lessons": [
         {
           "name": "1. שאלות קצרות",
           "desc": "",
-          "id": "3-1",
+          "id": "4-1",
           "content": [
             {
               "type": "folder",
@@ -1851,7 +1856,7 @@
         {
           "name": "2. סדרות",
           "desc": "",
-          "id": "3-2",
+          "id": "4-2",
           "content": [
             {
               "type": "folder",
@@ -1891,14 +1896,14 @@
         {
           "name": "3. הסתברות",
           "desc": "",
-          "id": "3-3",
+          "id": "4-3",
           "content": [],
           "lesson_json": {}
         },
         {
           "name": "4. גאומטריה",
           "desc": "",
-          "id": "3-4",
+          "id": "4-4",
           "content": [
             {
               "type": "folder",
@@ -1922,7 +1927,7 @@
         {
           "name": "5. טריגונומטריה",
           "desc": "",
-          "id": "3-5",
+          "id": "4-5",
           "content": [
             {
               "type": "folder",
@@ -1956,7 +1961,7 @@
         {
           "name": "6. חדוא",
           "desc": "",
-          "id": "3-6",
+          "id": "4-6",
           "content": [
             {
               "type": "file",
@@ -2005,7 +2010,7 @@
         {
           "name": "7. חדוא טריגו",
           "desc": "",
-          "id": "3-7",
+          "id": "4-7",
           "content": [
             {
               "type": "file",
@@ -2028,7 +2033,7 @@
         {
           "name": "8. בעיות קיצון",
           "desc": "",
-          "id": "3-8",
+          "id": "4-8",
           "content": [
             {
               "type": "folder",
