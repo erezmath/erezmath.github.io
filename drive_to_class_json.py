@@ -57,6 +57,12 @@ REMOVED_EXTENSIONS = ['pdf', 'mp4', 'gif']
 # If False, only remove extensions listed in REMOVED_EXTENSIONS.
 REMOVE_ALL_EXTENSIONS = False
 
+SITE_CATEGORIES = [
+    {'id': 'current', 'title': 'כיתות השנה'},
+    {'id': 'past', 'title': 'כיתות עבר'},
+    {'id': 'exams', 'title': 'בגרויות ומתכונות'}
+]
+
 class_info = [
     {
         'id': 1,
@@ -64,7 +70,7 @@ class_info = [
         'url_name': 'tet-metzuyanut-tashpa',
         'google_drive_url': 'https://drive.google.com/drive/folders/1kmeVVOKVB6BpEYtTl6Ykm8I_w6ZgeJRV',
         'banner_url': 'images/banner1.png',
-        'active': False,         # whether to show the class is tought this year, or was tought in previous years
+        'category': 'past',         # the category id to which this class belongs
         'regenerate': True      # whether to recreate JSON files for this class (False = keep old files, True = recreate)
     },
     {
@@ -74,7 +80,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1gekcNiBMvx5iOAN-3VvKJICSTnGXDlNa',
         'banner_url': 'images/banner2.jpg',
-        'active': False,
+        'category': 'past',
         'regenerate': True
     },
     {
@@ -84,7 +90,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/17RadCCMJ-XTzRpTnrhw_9lyGJNG-Wf37',
         'banner_url': 'images/banner571.png',
-        'active': False,
+        'category': 'exams',
         'regenerate': True
     },
     {
@@ -94,7 +100,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO',
         'banner_url': 'images/banner472.png',
-        'active': False,
+        'category': 'exams',
         'regenerate': True
     },
     {
@@ -104,7 +110,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW',
         'banner_url': 'images/banner471.png',
-        'active': False,
+        'category': 'exams',
         'regenerate': True
     },
     {
@@ -114,7 +120,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1qgRnXxYhzL_0_EVak6rChNcVJ1HKexpL',
         'banner_url': 'images/olympiad.png',
-        'active': False,
+        'category': 'past',
         'regenerate': True
     },
     {
@@ -124,7 +130,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ',
         'banner_url': 'images/banner3.png',
-        'active': True,
+        'category': 'current',
         'regenerate': True
     },
     {
@@ -134,7 +140,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK',
         'banner_url': 'images/banner4.png',
-        'active': True,
+        'category': 'current',
         'regenerate': True
     },
     {
@@ -144,7 +150,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1-I6KlMrvs7ssDeqUnGeYvYVPF01AZCSW',
         'banner_url': 'images/banner8.png',
-        'active': False,
+        'category': 'past',
         'regenerate': True
     },
     {
@@ -154,7 +160,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1uBrRKePcRRwbcLi6x9fXcVy9D1wgPnED',
         'banner_url': 'images/banner572.png',
-        'active': False,
+        'category': 'exams',
         'regenerate': True
     }
 ]
@@ -631,7 +637,7 @@ def crawl_lesson_content(service, folder_id, use_cache=True, invalidated_ids=Non
             })
     return content
 
-def crawl_class(service, class_name, folder_id, banner_url, url_name, active, class_id, invalidated_ids=None, use_cache=True):
+def crawl_class(service, class_name, folder_id, banner_url, url_name, category, class_id, invalidated_ids=None, use_cache=True):
     """Crawl all topics and lessons for a class."""
     invalidated_ids = invalidated_ids or set()
     # Get root folder contents once
@@ -700,7 +706,7 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, active, cl
         'topics': topics,
         'assignments': assignments_content,
         'assignments_file_id': assignments_file_id,
-        'active': active
+        'category': category
     }
 
 def generate_data(use_cache=True):
@@ -764,7 +770,7 @@ def generate_data(use_cache=True):
         url_name = cls['url_name']  # Keep hardcoded url_name
         folder_url = cls['google_drive_url']
         banner_url = cls.get('banner_url', '')
-        active = cls.get('active', False)
+        category = cls.get('category', 'past')
         regenerate = cls.get('regenerate', True)  # Default to True for backward compatibility
 
         # Check if we should regenerate this class
@@ -776,7 +782,7 @@ def generate_data(use_cache=True):
         folder_id = extract_folder_id(folder_url)
         log_event(f'Crawling url_name: {url_name} (folder_url: {folder_url})')
         class_json = crawl_class(
-            service, class_name, folder_id, banner_url, url_name, active, class_id,
+            service, class_name, folder_id, banner_url, url_name, category, class_id,
             invalidated_ids=affected_folder_ids, use_cache=use_cache
         )
         # Use url_name for output filename
@@ -825,4 +831,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main() 
+    main()

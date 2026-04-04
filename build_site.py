@@ -8,6 +8,7 @@ import logging
 from datetime import datetime
 import pytz
 from logger import log_event
+from drive_to_class_json import SITE_CATEGORIES
 
 # Paths
 TEMPLATES_DIR = 'templates'
@@ -94,7 +95,7 @@ def render_index(classes):
         {
             'id': c.get('id', ''),  # Use the hardcoded id from JSON
             'url_name': c.get('url_name', ''),
-            'active': c.get('active', False),
+            'category': c.get('category', 'past'),
             'name': c.get('name', ''),
             'desc': c.get('desc', ''),
             'banner_url': c.get('banner_url', ''),
@@ -105,7 +106,7 @@ def render_index(classes):
         }
         for c in classes
     ]
-    html = template.render(classes=class_summaries)
+    html = template.render(classes=class_summaries, categories=SITE_CATEGORIES)
     html = minify_html(html)  # minify html strip for blank lines
     with open(os.path.join(DIST_DIR, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html)
@@ -116,7 +117,7 @@ def render_class_pages(classes):
     template = env.get_template('class.html')
     for c in classes:
         url_name = c.get('url_name', '') or c.get('name', '').replace(' ', '_')
-        html = template.render(class_info=c, classes=classes)
+        html = template.render(class_info=c, classes=classes, categories=SITE_CATEGORIES)
         html = minify_html(html)  # minify html strip for blank lines
         filename = f'class-{url_name}.html'
         with open(os.path.join(DIST_DIR, filename), 'w', encoding='utf-8') as f:
@@ -176,4 +177,4 @@ def main():
     print('site built successfully!')
 
 if __name__ == '__main__':
-    main() 
+    main()

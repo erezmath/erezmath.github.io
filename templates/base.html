@@ -58,13 +58,15 @@
           <svg class="svg-icon svg-icon-chevron"><use href="#icon-chevron"></use></svg>
         </button>
         <div class="dropdown-content" id="dropdown-menu" role="menu">
-          <span class="dropdown-group-title">כיתות השנה:</span>
-          {% for c in classes if c.active %}
-            <a href="class-{{ c.url_name }}.html" {% if current_class_id == c.id %}class="active"{% endif %}>{{ c.name }}</a>
-          {% endfor %}
-          <span class="dropdown-group-title past">כיתות עבר:</span>
-          {% for c in classes if not c.active %}
-            <a href="class-{{ c.url_name }}.html" {% if current_class_id == c.id %}class="active"{% endif %}>{{ c.name }}</a>
+          {% set site_categories = categories | default([{'id': 'current', 'title': 'כיתות השנה'}, {'id': 'past', 'title': 'כיתות עבר'}, {'id': 'exams', 'title': 'בגרויות ומתכונות'}]) %}
+          {% for cat in site_categories %}
+            {% set cat_classes = classes | selectattr('category', 'equalto', cat.id) | list %}
+            {% if cat_classes %}
+              <span class="dropdown-group-title">{{ cat.title }}:</span>
+              {% for c in cat_classes %}
+                <a href="class-{{ c.url_name }}.html" {% if current_class_id == c.id %}class="active"{% endif %}>{{ c.name }}</a>
+              {% endfor %}
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -75,4 +77,4 @@
   {% block content %}{% endblock %}
   <script src="static/main.js"></script>
 </body>
-</html> 
+</html>

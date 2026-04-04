@@ -9,56 +9,37 @@
     <p class="welcome-desc">כאן תוכלו למצוא את כל החומרים והשיעורים שלמדנו</p>
     <p class="welcome-desc">האתר מיועד רק לשימוש תלמידי הכיתה</p>
   </div>
-  {% set active_classes = classes | selectattr('active', 'equalto', True) | list %}
-  {% set past_classes = classes | selectattr('active', 'equalto', False) | list %}
-
+  
+  {% set site_categories = categories | default([{'id': 'current', 'title': 'כיתות השנה'}, {'id': 'past', 'title': 'כיתות עבר'}, {'id': 'exams', 'title': 'בגרויות ומתכונות'}]) %}
   <div class="class-groups">
-    <h2 class="class-group-title">כיתות השנה:</h2>
-    <div class="class-cards">
-      {% for c in active_classes %}
-      <a class="class-card" href="class-{{ c.url_name }}.html">
-        <div class="class-card-banner" style="background-image:url('{{ c.banner_url }}');"></div>
-        <div class="class-card-content">
-          <div class="class-card-title-row">
-            <h2 class="class-card-title">{{ c.name }}</h2>
-            <span class="class-card-desc">{{ c.desc }}</span>
-          </div>
-          <div class="class-card-tags">
-            {% for tag in c.tags %}
-            <span class="tag">{{ tag }}</span>
-            {% endfor %}
-          </div>
-          <div class="class-card-meta">
-            <span>{{ c.num_topics }} נושאים</span>
-            <span>{{ c.num_lessons }} שיעורים</span>
-          </div>
+    {% for cat in site_categories %}
+      {% set cat_classes = classes | selectattr('category', 'equalto', cat.id) | list %}
+      {% if cat_classes %}
+        <h2 class="class-group-title">{{ cat.title }}:</h2>
+        <div class="class-cards">
+          {% for c in cat_classes %}
+          <a class="class-card" href="class-{{ c.url_name }}.html">
+            <div class="class-card-banner" style="background-image:url('{{ c.banner_url }}');"></div>
+            <div class="class-card-content">
+              <div class="class-card-title-row">
+                <h2 class="class-card-title">{{ c.name }}</h2>
+                <span class="class-card-desc">{{ c.desc }}</span>
+              </div>
+              <div class="class-card-tags">
+                {% for tag in c.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              <div class="class-card-meta">
+                <span>{{ c.num_topics }} נושאים</span>
+                <span>{{ c.num_lessons }} שיעורים</span>
+              </div>
+            </div>
+          </a>
+          {% endfor %}
         </div>
-      </a>
-      {% endfor %}
-    </div>
-    <h2 class="class-group-title past">כיתות עבר:</h2>
-    <div class="class-cards past">
-      {% for c in past_classes %}
-      <a class="class-card" href="class-{{ c.url_name }}.html">
-        <div class="class-card-banner" style="background-image:url('{{ c.banner_url }}');"></div>
-        <div class="class-card-content">
-          <div class="class-card-title-row">
-            <h2 class="class-card-title">{{ c.name }}</h2>
-            <span class="class-card-desc">{{ c.desc }}</span>
-          </div>
-          <div class="class-card-tags">
-            {% for tag in c.tags %}
-            <span class="tag">{{ tag }}</span>
-            {% endfor %}
-          </div>
-          <div class="class-card-meta">
-            <span>{{ c.num_topics }} נושאים</span>
-            <span>{{ c.num_lessons }} שיעורים</span>
-          </div>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </main>
-{% endblock %} 
+{% endblock %}
