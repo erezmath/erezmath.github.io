@@ -83,65 +83,84 @@ def compute_affected_folder_ids(changes_list, folder_listings_cache_dir):
     Bubbles up invalidations to ancestor folders (so Lesson caches correctly drop).
     """
     affected = set()
+    
+    # Step 1: Gather directly affected folders from API changes
     for change in changes_list:
         file_id = change.get('fileId')
         if not file_id:
             continue
+            
+        # IMPORTANT FIX: Mark the changed file/folder itself as affected!
+        # If a Lesson folder is renamed, its own ID needs to be in the affected list
+        # so the lesson cache builder knows to reject the stale cache and rebuild it.
+        affected.add(file_id)
+            
         file_obj = change.get('file')
         if file_obj and file_obj.get('parents'):
             affected.update(file_obj['parents'])
-            continue
-        if change.get('removed'):
-            # Find which cached folder contained this file
-            if not os.path.isdir(folder_listings_cache_dir):
-                continue
-            for name in os.listdir(folder_listings_cache_dir):
-                if not name.endswith('.json'):
-                    continue
-                cache_path = os.path.join(folder_listings_cache_dir, name)
-                try:
-                    with open(cache_path, 'r', encoding='utf-8') as f:
-                        data = json.load(f)
-                    items = data.get('items', [])
-                    folder_id = data.get('folder_id')
-                    # Check for normal id or intercepted shortcutId
-                    if folder_id and any(item.get('id') == file_id or item.get('shortcutId') == file_id for item in items):
-                        affected.add(folder_id)
-                        break
-                except Exception:
-                    continue
-
-    # --- NEW LOGIC: Bubble up invalidations to ancestors ---
-    # Build a map of child -> parent from the local cache
+            
+    # Step 2: Thoroughly scan local cache to find historic parents 
+    # (Crucial for deletions, renames, and shortcut resolution)
     child_to_parent = {}
+    shortcut_to_target = {}
+    
     if os.path.isdir(folder_listings_cache_dir):
         for name in os.listdir(folder_listings_cache_dir):
-            if name.endswith('.json'):
-                try:
-                    with open(os.path.join(folder_listings_cache_dir, name), 'r', encoding='utf-8') as f:
-                        data = json.load(f)
-                        parent_id = data.get('folder_id')
-                        if parent_id:
-                            for item in data.get('items', []):
-                                child_to_parent[item['id']] = parent_id
-                                # Map shortcutId too, if it exists
-                                if 'shortcutId' in item:
-                                    child_to_parent[item['shortcutId']] = parent_id
-                except Exception:
-                    pass
+            if not name.endswith('.json'):
+                continue
+            cache_path = os.path.join(folder_listings_cache_dir, name)
+            try:
+                with open(cache_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Fallback to empty list if items is None in the JSON
+                items = data.get('items') or []
+                parent_id = data.get('folder_id')
+                
+                if not parent_id:
+                    continue
+                    
+                # Build tree map for Step 3 and shortcut resolution
+                for item in items:
+                    i_id = item.get('id')
+                    s_id = item.get('shortcutId')
+                    
+                    if i_id:
+                        child_to_parent[i_id] = parent_id
+                    if s_id:
+                        child_to_parent[s_id] = parent_id
+                        shortcut_to_target[s_id] = i_id
+                        
+                # Check if any changed file was historically in this folder
+                for change in changes_list:
+                    c_id = change.get('fileId')
+                    if c_id and any(i.get('id') == c_id or i.get('shortcutId') == c_id for i in items):
+                        affected.add(parent_id)
+            except Exception:
+                continue
 
-    # Trace upwards to invalidate all ancestors (e.g., Lesson folders)
+    # Step 2.5: Translate shortcut invalidations to their targets!
+    # drive_to_class_json relies on Target IDs. If the Drive API flags a 
+    # Shortcut ID as renamed, we must also flag its Target ID as changed.
+    targets_to_add = set()
+    for f_id in affected:
+        if f_id in shortcut_to_target:
+            targets_to_add.add(shortcut_to_target[f_id])
+    affected.update(targets_to_add)
+
+    # Step 3: Bubble up invalidations safely
     ancestors = set()
     for f_id in affected:
         curr = f_id
-        while curr in child_to_parent:
+        # Hard limit depth to 50 to prevent infinite loops or premature breaks
+        for _ in range(50):
+            if curr not in child_to_parent:
+                break
             p_id = child_to_parent[curr]
             if p_id in ancestors or p_id in affected:
-                break # Already processed this branch
+                break
             ancestors.add(p_id)
             curr = p_id
             
     affected.update(ancestors)
-    # -------------------------------------------------------
-
     return affected
