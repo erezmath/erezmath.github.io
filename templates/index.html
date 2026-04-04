@@ -10,9 +10,8 @@
     <p class="welcome-desc">האתר מיועד רק לשימוש תלמידי הכיתה</p>
   </div>
   
-  {% set site_categories = categories | default([{'id': 'current', 'title': 'כיתות השנה'}, {'id': 'past', 'title': 'כיתות עבר'}, {'id': 'exams', 'title': 'בגרויות ומתכונות'}]) %}
   <div class="class-groups">
-    {% for cat in site_categories %}
+    {% for cat in categories %}
       {% set cat_classes = classes | selectattr('category', 'equalto', cat.id) | list %}
       {% if cat_classes %}
         <h2 class="class-group-title">{{ cat.title }}:</h2>

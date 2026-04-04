@@ -58,8 +58,7 @@
           <svg class="svg-icon svg-icon-chevron"><use href="#icon-chevron"></use></svg>
         </button>
         <div class="dropdown-content" id="dropdown-menu" role="menu">
-          {% set site_categories = categories | default([{'id': 'current', 'title': 'כיתות השנה'}, {'id': 'past', 'title': 'כיתות עבר'}, {'id': 'exams', 'title': 'בגרויות ומתכונות'}]) %}
-          {% for cat in site_categories %}
+          {% for cat in categories %}
             {% set cat_classes = classes | selectattr('category', 'equalto', cat.id) | list %}
             {% if cat_classes %}
               <span class="dropdown-group-title">{{ cat.title }}:</span>
