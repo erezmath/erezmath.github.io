@@ -524,10 +524,31 @@ def list_folder_contents(service, folder_id, use_cache=True, invalidated_ids=Non
     query = f"'{folder_id}' in parents and trashed = false"
     results = service.files().list(
         q=query,
-        fields="files(id, name, mimeType)",
+        fields="files(id, name, mimeType, shortcutDetails)", # <-- Added shortcutDetails here
         pageSize=1000
     ).execute()
     files = results.get('files', [])
+
+    # --- SHORTCUT INTERCEPTOR ---
+    # Resolve shortcuts to their targets while keeping the shortcut's name and clean Windows shortcut extensions (.lnk)
+    for f in files:
+        if f.get('mimeType') == 'application/vnd.google-apps.shortcut':
+            details = f.get('shortcutDetails')
+            if details:
+                # NEW LINE: Save the original shortcut ID for cache invalidation on removal
+                f['shortcutId'] = f['id']
+
+                # Swap the ID and mimeType to the target's properties
+                f['id'] = details.get('targetId', f['id'])
+                f['mimeType'] = details.get('targetMimeType', f['mimeType'])
+                # Notice we DO NOT change f['name']. It stays as the shortcut's name!
+                
+            # Remove the .lnk extension if Drive synced it from Windows (windows adds it automatically, so we need to remove it)
+            if f.get('name', '').lower().endswith('.lnk'):
+                f['name'] = f['name'][:-4]
+
+            # Clean up the payload so the cache remains standard
+            f.pop('shortcutDetails', None)
 
     # Get folder's modifiedTime for cache
     try:

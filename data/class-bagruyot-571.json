@@ -15,7 +15,7 @@
       "id": "1-בגרויות-ופתרונות",
       "lessons": [
         {
-          "name": "0. צ'קליסט בגרויות",
+          "name": "0. מיקוד 2026 וצ'קליסט בגרויות",
           "desc": "<p>קובץ שיתופי - של כל הבגרויות שעשינו בכיתה.</p>\n<p>בנוסף, קובץ לשימוש אישי.</p>\n<p>סמנו לעצמכם איזה בגרויות עשיתם, סמנו סעיפים שהתקשיתם או סעיפים חשובים, כדי שתחזרו עליהם בעתיד לקראת הבגרות.</p>",
           "id": "1-1",
           "content": [
@@ -23,6 +23,16 @@
               "type": "file",
               "name": "1. צ'קליסט בגרויות- 2026",
               "url": "https://drive.google.com/file/d/1QdOH5y55ed--_4b7ZxK1um9wV2vKT1ub/view"
+            },
+            {
+              "type": "file",
+              "name": "2. מיקוד 2026 - מקורי",
+              "url": "https://drive.google.com/file/d/1RCzSEQlA5185RSNzd_S42P9HJ-QKdLL_/view"
+            },
+            {
+              "type": "file",
+              "name": "3. מיקוד 2026 - עדכון מלחמת איראן",
+              "url": "https://drive.google.com/file/d/1n07Q7Mq36bchnULJmDTHJMz2aTKU2nVN/view"
             }
           ],
           "lesson_json": {

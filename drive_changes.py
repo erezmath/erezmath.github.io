@@ -78,11 +78,9 @@ def load_changes(filepath):
 
 def compute_affected_folder_ids(changes_list, folder_listings_cache_dir):
     """
-    From a list of Drive change entries, compute the set of folder IDs
-    whose listing cache is stale (they contain a changed or removed item).
-    - For changes with file and file.parents: add those parent folder IDs.
-    - For removed items (no file): scan folder_listings_cache_dir for a cache
-      file whose items contain this fileId; add that folder_id.
+    Compute which folder IDs need their cache invalidated because their
+    folder listing cache is stale (they contain a changed or removed item).
+    Bubbles up invalidations to ancestor folders (so Lesson caches correctly drop).
     """
     affected = set()
     for change in changes_list:
@@ -106,9 +104,44 @@ def compute_affected_folder_ids(changes_list, folder_listings_cache_dir):
                         data = json.load(f)
                     items = data.get('items', [])
                     folder_id = data.get('folder_id')
-                    if folder_id and any(item.get('id') == file_id for item in items):
+                    # Check for normal id or intercepted shortcutId
+                    if folder_id and any(item.get('id') == file_id or item.get('shortcutId') == file_id for item in items):
                         affected.add(folder_id)
                         break
                 except Exception:
                     continue
+
+    # --- NEW LOGIC: Bubble up invalidations to ancestors ---
+    # Build a map of child -> parent from the local cache
+    child_to_parent = {}
+    if os.path.isdir(folder_listings_cache_dir):
+        for name in os.listdir(folder_listings_cache_dir):
+            if name.endswith('.json'):
+                try:
+                    with open(os.path.join(folder_listings_cache_dir, name), 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        parent_id = data.get('folder_id')
+                        if parent_id:
+                            for item in data.get('items', []):
+                                child_to_parent[item['id']] = parent_id
+                                # Map shortcutId too, if it exists
+                                if 'shortcutId' in item:
+                                    child_to_parent[item['shortcutId']] = parent_id
+                except Exception:
+                    pass
+
+    # Trace upwards to invalidate all ancestors (e.g., Lesson folders)
+    ancestors = set()
+    for f_id in affected:
+        curr = f_id
+        while curr in child_to_parent:
+            p_id = child_to_parent[curr]
+            if p_id in ancestors or p_id in affected:
+                break # Already processed this branch
+            ancestors.add(p_id)
+            curr = p_id
+            
+    affected.update(ancestors)
+    # -------------------------------------------------------
+
     return affected
