@@ -12,7 +12,7 @@
  * 8. Hash Navigation
  * 9. Accessibility (Dropdowns)
  * 10. Initialization
- * 11. Google Drive Hover Previews
+ * 11. Hover Previews (Drive & YouTube)
  * ============================================================================
  */
 
@@ -38,6 +38,7 @@ let assignmentsClicks = 0;
 
 // Hover Preview configuration
 const ENABLE_DRIVE_HOVER_PREVIEWS = true;
+const ENABLE_YOUTUBE_HOVER_PREVIEWS = true;
 const HOVER_PREVIEW_DELAY_MS = 300;
 
 const SHARE_ICONS = {
@@ -788,8 +789,8 @@ document.addEventListener('DOMContentLoaded', function() {
   setupShareFooter();
   setupAssignments();
   
-  if (ENABLE_DRIVE_HOVER_PREVIEWS) {
-    setupDriveHoverPreviews();
+  if (ENABLE_DRIVE_HOVER_PREVIEWS || ENABLE_YOUTUBE_HOVER_PREVIEWS) {
+    setupHoverPreviews();
   }
   
   // Handle hash navigation on page load with a slight delay for rendering
@@ -803,14 +804,14 @@ window.addEventListener('hashchange', scrollToHashTarget);
 
 
 // ============================================================================
-// 11. GOOGLE DRIVE HOVER PREVIEWS
+// 11. HOVER PREVIEWS (DRIVE & YOUTUBE)
 // ============================================================================
 
 /**
- * Adds a hover thumbnail preview for Google Drive file links.
+ * Adds a hover thumbnail preview for Google Drive and YouTube file links.
  * Only active on desktop devices with hover support.
  */
-function setupDriveHoverPreviews() {
+function setupHoverPreviews() {
   if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
     return;
   }
@@ -819,7 +820,7 @@ function setupDriveHoverPreviews() {
   let activePreview = null;
 
   const previewContainer = document.createElement('div');
-  previewContainer.className = 'drive-preview-tooltip';
+  previewContainer.className = 'hover-preview-tooltip';
   document.body.appendChild(previewContainer);
 
   const hidePreview = () => {
@@ -833,16 +834,32 @@ function setupDriveHoverPreviews() {
     if (!link) return;
 
     const url = link.href;
-    const driveMatch = url.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
-    if (!driveMatch) return;
+    let targetId = null;
+    let previewType = null;
 
-    const fileId = driveMatch[1];
+    if (ENABLE_DRIVE_HOVER_PREVIEWS) {
+      const driveMatch = url.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
+      if (driveMatch) {
+        targetId = driveMatch[1];
+        previewType = 'drive';
+      }
+    }
+
+    if (!targetId && ENABLE_YOUTUBE_HOVER_PREVIEWS) {
+      // Matches standard, short, and embed YouTube URLs
+      const ytMatch = url.match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/);
+      if (ytMatch) {
+        targetId = ytMatch[1];
+        previewType = 'youtube';
+      }
+    }
+
+    if (!targetId) return;
+
     let lastEvent = e;
 
     const positionPreview = (mouseEvent) => {
       lastEvent = mouseEvent;
-      // We no longer exit early if not visible here, because we want to calculate
-      // position before making it visible.
 
       const rect = previewContainer.getBoundingClientRect();
       const margin = 15;
@@ -873,41 +890,63 @@ function setupDriveHoverPreviews() {
     };
 
     const mouseMoveHandler = (mouseEvent) => {
-      // Only re-position dynamically if it's already visible
       if (previewContainer.classList.contains('visible')) {
         positionPreview(mouseEvent);
       } else {
-        lastEvent = mouseEvent; // Keep track of latest mouse position while waiting
+        lastEvent = mouseEvent; 
       }
     };
 
     link.addEventListener('mousemove', mouseMoveHandler);
 
     hoverTimeout = setTimeout(() => {
-      if (activePreview !== fileId) {
-        activePreview = fileId;
+      if (activePreview !== targetId) {
+        activePreview = targetId;
         
-        // Fetch higher resolution thumbnail using sz=s1200 parameter
-        const imgUrl = `https://drive.google.com/thumbnail?id=${fileId}&sz=s1200`;
         const img = document.createElement('img');
         img.alt = 'Preview';
         
-        img.onload = () => {
-          // Ensure we are still hovering on the same file by the time image loads
-          if (activePreview === fileId) {
-            previewContainer.innerHTML = '';
-            previewContainer.appendChild(img);
-            
-            // Calculate position based on the newly appended, fully loaded image dimensions
-            positionPreview(lastEvent);
-            
-            // Now that it's positioned correctly, reveal it
-            previewContainer.classList.add('visible');
-          }
-        };
+        if (previewType === 'drive') {
+          img.onload = () => {
+            if (activePreview === targetId) {
+              previewContainer.innerHTML = '';
+              previewContainer.appendChild(img);
+              positionPreview(lastEvent);
+              previewContainer.classList.add('visible');
+            }
+          };
+          img.src = `https://drive.google.com/thumbnail?id=${targetId}&sz=s1200`;
+        } 
+        
+        else if (previewType === 'youtube') {
+          const highResUrl = `https://img.youtube.com/vi/${targetId}/maxresdefault.jpg`;
+          const fallbackUrl = `https://img.youtube.com/vi/${targetId}/hqdefault.jpg`;
+          
+          img.onload = () => {
+            // YouTube sometimes returns a 120x90 placeholder if maxresdefault doesn't exist
+            if (img.naturalWidth <= 120 && img.src === highResUrl) {
+              img.src = fallbackUrl;
+              return; // wait for the fallback image to trigger onload again
+            }
 
-        // Start loading the image (this triggers the onload function above)
-        img.src = imgUrl;
+            if (activePreview === targetId) {
+              previewContainer.innerHTML = '';
+              previewContainer.appendChild(img);
+              positionPreview(lastEvent);
+              previewContainer.classList.add('visible');
+            }
+          };
+
+          img.onerror = () => {
+            // Fallback to hqdefault if high resolution 404s
+            if (img.src === highResUrl) {
+              img.src = fallbackUrl;
+            }
+          };
+
+          // Start the loading attempt
+          img.src = highResUrl;
+        }
       }
     }, HOVER_PREVIEW_DELAY_MS);
 

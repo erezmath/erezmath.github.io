@@ -1,7 +1,7 @@
 i want to add the following functionaility:
 
 # feature short descrtiption:
-When a user hovers a file that came from google drive, on demand display a high resolution thumbnail image of it. 
+When a user hovers a file that came from google drive or youtube, on demand display a high resolution thumbnail image of it. 
 google drive should have it stored and available for fething without reducing the website's speed .
 for example: https://drive.google.com/thumbnail?id=FILE_ID&sz=s1200
 
@@ -31,3 +31,7 @@ the website is hebrew, reading right to left.
 
 ## output:
 output the full working changed files, so i can diff in my ide. In gemini dialouge, only display what's changed and the line numbers.
+
+## create thumbnails from the following providers:
+- google drive
+- youtube

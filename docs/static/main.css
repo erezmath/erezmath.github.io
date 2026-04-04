@@ -14,7 +14,7 @@
  * 10. Share Footer
  * 11. CSS Icons & SVG Helpers
  * 12. Media Queries (Responsive Adjustments)
- * 13. Drive Hover Previews
+ * 13. Drive and Youtube Hover Previews
  * ============================================================================
  */
 
@@ -1093,9 +1093,9 @@
   }
 
   /* ============================================================================
-   13. DRIVE HOVER PREVIEWS
+   13. DRIVE & YOUTUBE HOVER PREVIEWS
    ============================================================================ */
-.drive-preview-tooltip {
+.hover-preview-tooltip {
   position: fixed;
   z-index: 9999;
   pointer-events: none;
@@ -1115,12 +1115,12 @@
   justify-content: center;
 }
 
-.drive-preview-tooltip.visible {
+.hover-preview-tooltip.visible {
   opacity: 1;
   visibility: visible;
 }
 
-.drive-preview-tooltip img {
+.hover-preview-tooltip img {
   display: block;
   max-width: 100%;
   max-height: 100%;
