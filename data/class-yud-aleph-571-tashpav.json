@@ -298,8 +298,7 @@
           ],
           "lesson_json": {
             "lesson_date": "08-03-2026",
-            "due_date": "12-05-2026",
-            "due_date_display": "שלישי, 12.05.2026"
+            "due_date": ""
           }
         }
       ]
@@ -1381,6 +1380,45 @@
             "due_date": "22-03-2026",
             "due_date_display": "ראשון, 22.03.2026"
           }
+        },
+        {
+          "name": "13. בטא באמצעות, טריק אינטגרל, חור - חורף 2025",
+          "desc": "<p>שאלות קצרות - 10-15 דקות הסבר ותרגול, לא שיעור שלם.</p>",
+          "id": "7-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "2025 - מועד חורף - שאלון",
+              "url": "https://drive.google.com/file/d/1IBk42w-DkJw-0fstnxrg87L4LbXuYHyC/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-04-2026",
+            "due_date": "09-04-2026",
+            "due_date_display": "חמישי, 09.04.2026"
+          }
+        },
+        {
+          "name": "14. תחום מפוצל, ואינטגרל מצטבר קצרה פשוטה - תזכורת אחרי חופשת פסח",
+          "desc": "<p>שעה אחת - חורף 2025 שאלת חקירת הבע באמצעות.</p>",
+          "id": "7-14",
+          "content": [
+            {
+              "type": "file",
+              "name": "שאלות.docx",
+              "url": "https://drive.google.com/file/d/1DSL9Y6VMsNTHBFupJkzkmoY8E1QyiCTW/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלות",
+              "url": "https://drive.google.com/file/d/1n9HVSNH3CpSP9mk2jqNaWQwaLJi8zEfU/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-04-2026",
+            "due_date": "09-04-2026",
+            "due_date_display": "חמישי, 09.04.2026"
+          }
         }
       ]
     },
@@ -1630,8 +1668,7 @@
           ],
           "lesson_json": {
             "lesson_date": "08-03-2026",
-            "due_date": "12-05-2026",
-            "due_date_display": "שלישי, 12.05.2026"
+            "due_date": ""
           }
         },
         {
@@ -1975,6 +2012,39 @@
             "due_date": "19-03-2026",
             "due_date_display": "חמישי, 19.03.2026"
           }
+        },
+        {
+          "name": "12. חקירה טריגונומטרית עם טנגנס - מסימולציות 2021 של סרור אסעד",
+          "desc": "<p>שעה אחת - חקירת טריגו עם טנגנס - תזכורת נגזרת, משוואות, אינטגרלים</p>",
+          "id": "9-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "2. חקירת טריגו - סרור אסעד 2021 סימולציה 2 - שאלה ופתרון",
+              "url": "https://drive.google.com/file/d/1cK3nvTGGJB7P9ok-q-3wqPIG44XuADFF/view"
+            },
+            {
+              "type": "folder",
+              "name": "מבחני סימולציה - סרור אסעד",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "סרור אסעד 2021 סימולציה 2",
+                  "url": "https://drive.google.com/file/d/1t3YVe2RZIVOKTY2qwgRiEdHRswJsRgOp/view"
+                },
+                {
+                  "type": "file",
+                  "name": "סרור אסעד 2021 סימולציה 3",
+                  "url": "https://drive.google.com/file/d/1Q4YQtJXbVeO-fX-HmHh4J_oYIUJICkFG/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-04-2026",
+            "due_date": "09-04-2026",
+            "due_date_display": "חמישי, 09.04.2026"
+          }
         }
       ]
     },
@@ -2066,8 +2136,7 @@
           ],
           "lesson_json": {
             "lesson_date": "05-03-2026",
-            "due_date": "12-05-2026",
-            "due_date_display": "שלישי, 12.05.2026"
+            "due_date": ""
           }
         }
       ]
@@ -2272,8 +2341,7 @@
           ],
           "lesson_json": {
             "lesson_date": "08-03-2026",
-            "due_date": "12-05-2026",
-            "due_date_display": "שלישי, 12.05.2026"
+            "due_date": ""
           }
         }
       ]

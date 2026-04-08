@@ -599,6 +599,46 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "7. פונקציה מעריכית - טרנספורמציה והרכבה",
+          "desc": "",
+          "id": "2-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1kef7XA6XL9vIXf2xyLeS3kmEeYdEFXB6/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "7.5 פונקציה מעריכים עם בסיס שונה מאי",
+          "desc": "",
+          "id": "2-9",
+          "content": [],
+          "lesson_json": {}
+        },
+        {
+          "name": "8. פונקצית לוג - תחום הגדרה, חיתוך צירים, נגזרת, אסימפטוטות וחורים",
+          "desc": "",
+          "id": "2-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "סיכום שיעור",
+              "url": "https://drive.google.com/file/d/18x4sKtuMujTYr_AFpKL3i92PUIFQO9xR/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "9. פונקצית לוג - חקירה מלאה",
+          "desc": "",
+          "id": "2-11",
+          "content": [],
+          "lesson_json": {}
         }
       ]
     }

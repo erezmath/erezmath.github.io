@@ -74,7 +74,7 @@ def minify_html(html_content):
     return '\n'.join(non_blank_lines)
 
 
-
+  
 def load_class_jsons():
     """Load all class JSON files from the data directory."""
     class_files = [f for f in os.listdir(DATA_DIR) if f.endswith('.json')]
