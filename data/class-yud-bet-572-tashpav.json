@@ -303,39 +303,72 @@
           "id": "1-5",
           "content": [
             {
-              "type": "file",
-              "name": "2018 - קיץ מועד א - מרוכבים",
-              "url": "https://drive.google.com/file/d/1Y98gaRM4D0PmQp16FLJhOxTMX6x0Ugk8/view"
+              "type": "folder",
+              "name": "חקירה לוג",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2025 - - עוד לא פתרתי חקירת לן - קיץ מועד א",
+                  "url": "https://drive.google.com/file/d/1gRiWS1_PWssbf8kTpBlUgMdd2CcF6X6B/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - חקירת לן - קיץ מועד ב",
+                  "url": "https://drive.google.com/file/d/1lY81BnffBv2Xif2QDyr_pzky8V3_ag7F/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - חורף - חקירה לן",
+                  "url": "https://drive.google.com/file/d/1mlPdxsDbbGnWQq4xCdeF1mR7ZwV79wIj/view"
+                }
+              ]
             },
             {
-              "type": "file",
-              "name": "2018 - קיץ מועד א - מרוכבים.xopp",
-              "url": "https://drive.google.com/file/d/1RuFnkD-n14PrtcMXerqt5Hg0iveWHrE8/view"
+              "type": "folder",
+              "name": "חקירה מעריכית",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א - חקירה מעריכית - שאלה קלה",
+                  "url": "https://drive.google.com/file/d/1_SIDNarxriM44u4f7R2nJuTja0DQbnh3/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
+                  "url": "https://drive.google.com/file/d/1M7OaVUHZMAeR_-N2Ed6CU2xEUHuauqHC/view"
+                }
+              ]
             },
             {
-              "type": "file",
-              "name": "2025 - קיץ מועד א - חקירה מעריכית - שאלה קלה",
-              "url": "https://drive.google.com/file/d/1_SIDNarxriM44u4f7R2nJuTja0DQbnh3/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - קיץ מועד א - מרוכבים",
-              "url": "https://drive.google.com/file/d/1U8-Af0E4UBblNRfTnEZFarBO5ka7Vred/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - קיץ מועד א - מרוכבים.xopp",
-              "url": "https://drive.google.com/file/d/1eSPH7g60wGKavJ70AAnzcVaKPvFPqCU1/view"
-            },
-            {
-              "type": "file",
-              "name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
-              "url": "https://drive.google.com/file/d/1M7OaVUHZMAeR_-N2Ed6CU2xEUHuauqHC/view"
-            },
-            {
-              "type": "file",
-              "name": "2026 - חורף - חקירה לן",
-              "url": "https://drive.google.com/file/d/1mlPdxsDbbGnWQq4xCdeF1mR7ZwV79wIj/view"
+              "type": "folder",
+              "name": "מרוכבים",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד א - מרוכבים",
+                  "url": "https://drive.google.com/file/d/1Y98gaRM4D0PmQp16FLJhOxTMX6x0Ugk8/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד א - מרוכבים.xopp",
+                  "url": "https://drive.google.com/file/d/1RuFnkD-n14PrtcMXerqt5Hg0iveWHrE8/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א - מרוכבים",
+                  "url": "https://drive.google.com/file/d/1U8-Af0E4UBblNRfTnEZFarBO5ka7Vred/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א - מרוכבים.xopp",
+                  "url": "https://drive.google.com/file/d/1eSPH7g60wGKavJ70AAnzcVaKPvFPqCU1/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - חורף - מרוכבים",
+                  "url": "https://drive.google.com/file/d/1bOduOnHtPqkvLtA19SWhC0h6Xm0nwNQU/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
@@ -634,10 +667,44 @@
           "lesson_json": {}
         },
         {
-          "name": "9. פונקצית לוג - חקירה מלאה",
+          "name": "9. פונקצית לוג - אסימפטוטות וחקירה מלאה",
           "desc": "",
           "id": "2-11",
-          "content": [],
+          "content": [
+            {
+              "type": "file",
+              "name": "סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1W05SC-XLv8svsBfTaCiT2n7eU7T9lqne/view"
+            },
+            {
+              "type": "file",
+              "name": "תרגילים.docx",
+              "url": "https://drive.google.com/file/d/1sPwEwNOJzlY0KymOQjvOa8kT3CR3bZEw/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "10. בגרויות",
+          "desc": "",
+          "id": "2-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "2025 - חקירת לן - קיץ מועד א",
+              "url": "https://drive.google.com/file/d/173OuX0n4-T1Wqx6QDVcmkTtRweQXWAug/view"
+            },
+            {
+              "type": "file",
+              "name": "2025 - חקירת לן - קיץ מועד ב",
+              "url": "https://drive.google.com/file/d/1ksXTAYMQbAdFj6pqoFbBSWN7iRgccc-E/view"
+            },
+            {
+              "type": "file",
+              "name": "2026 - חורף - חקירה לן",
+              "url": "https://drive.google.com/file/d/1ElJUsIQUEfD6ZrFTUC82TNGuBaodvQZp/view"
+            }
+          ],
           "lesson_json": {}
         }
       ]
