@@ -8,17 +8,17 @@
 
 ## 2. Data Structure (Google Drive Mapping)
 
-The Google Drive folder structure is the ultimate Single Source of Truth (SSOT) and strictly maps to the website's hierarchy:
+The Google Drive folder structure is mapped to the website's hierarchy:
 * **Level 1 (Main Folders)**: Classes (e.g., each class gets its own separate generated HTML page).
 * **Level 2 (Subfolders)**: Topics within that specific class.
 * **Level 3 (Sub-subfolders)**: Lessons within that specific topic.
 * **Level 4 (Contents)**: The actual files, documents, or sub-folders belonging to a specific lesson.
+* **Shortcuts**: google drive shortcuts are supported. 
 
 ## 3. Core Philosophy
 
 * **KISS (Keep It Simple, Stupid)**: Prioritize code readability and maintainability over cleverness or brevity. Explicit is always better than implicit.
 * **DRY (Don't Repeat Yourself)**: Avoid duplicating logic or hardcoding data in multiple places. Logic and configuration must be centralized.
-* **Single Source of Truth (SSOT)**: Data originates from Google Drive, is processed into JSON, and only then rendered. Never hardcode data in the HTML/JS that already exists in the source JSON files.
 * **Modular Layers**: Maintain a strict separation of concerns across the pipeline:
   1. **Data Acquisition**: Python/Google Drive API (`drive_to_class_json.py`, `drive_changes.py`).
   2. **Data Transformation & Build**: JSON processing, caching, and HTML generation (`build_site.py`).
@@ -50,6 +50,12 @@ The Google Drive folder structure is the ultimate Single Source of Truth (SSOT) 
 * **Templating (Jinja2)**:
   * Heavily utilize Template Inheritance (`{% extends 'base.html' %}`).
   * Keep templates logic-light. Perform heavy data manipulation, sorting, and filtering in Python before passing the context variables to Jinja2.
+
+### 5.1. Responsive Design & Breakpoints Logic
+* **Two Breakpoint**: `768px` and `1024px`, dividing lines between mobile, tablet, and desktop.
+* **Grid Layouts**: Use CSS Grid (e.g., `.class-cards`) with a mobile-first 1-column layout, expanding to 2+ columns at `min-width: 769px`.
+* **Sticky Navigation Logic**: mobile and tablet support horizontal scrolling of the topics in `topics-nav`. no horizontal scrolling in desktop 
+
 
 ## 6. Build & Deployment
 

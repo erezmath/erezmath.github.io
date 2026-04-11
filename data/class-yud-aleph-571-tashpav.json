@@ -599,11 +599,38 @@
             },
             {
               "type": "file",
-              "name": "2. פתרונות",
+              "name": "2. פתרונות מלאים סדרה הנדסית",
               "url": "https://drive.google.com/file/d/1JGuyEKcG880doyQr_Xm2IlDZlbcCB6e6/view"
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "13. סדרות עם סעיפי חשיבה וטריק - בר אילן 2022",
+          "desc": "<p>שעה בודדת, תרגול סדרות עם סעיפי חשיבה וטריקים - תרגול לפני מתכונת</p>",
+          "id": "3-14",
+          "content": [
+            {
+              "type": "file",
+              "name": "סדרות הנדסיות עם סעיף חשיבה וסעיף נוסף שלי - בר אילן 2022 - שאלה ופתרון",
+              "url": "https://drive.google.com/file/d/11WK0EETp3AzSRelheZtObmxGvSWu7pOU/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלה.docx",
+              "url": "https://drive.google.com/file/d/1ALzxTJu2ClCUwueZTrxyo5HjTlE5YfTG/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלה",
+              "url": "https://drive.google.com/file/d/1C6-zVu59k6_xriOW__AHGe5X3YAx-su-/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "12-04-2026",
+            "due_date": "12-04-2026",
+            "due_date_display": "ראשון, 12.04.2026"
+          }
         }
       ]
     },

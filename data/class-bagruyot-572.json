@@ -366,6 +366,11 @@
                 },
                 {
                   "type": "file",
+                  "name": "2025 - קיץ מועד ב - מרוכבים",
+                  "url": "https://drive.google.com/file/d/1E_VgSrW1N5ig544WVgot0oY4q2NOHiIS/view"
+                },
+                {
+                  "type": "file",
                   "name": "2026 - חורף - מרוכבים",
                   "url": "https://drive.google.com/file/d/1bOduOnHtPqkvLtA19SWhC0h6Xm0nwNQU/view"
                 }
@@ -1184,9 +1189,31 @@
               "name": "גול",
               "content": [
                 {
-                  "type": "file",
-                  "name": "גול סודית 582 תשפג",
-                  "url": "https://drive.google.com/file/d/1W2D01EMhq4L1EkseONzH_2dTh0Z0zqg2/view"
+                  "type": "folder",
+                  "name": "2023",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "גול סודית 582 תשפג",
+                      "url": "https://drive.google.com/file/d/1W2D01EMhq4L1EkseONzH_2dTh0Z0zqg2/view"
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "2025",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "גול - מתכונת סודית 582 תשפה - פתרון",
+                      "url": "https://drive.google.com/file/d/12nr_p-AkTlBW2NUCGhc0Z73XOHUOSbzy/view"
+                    },
+                    {
+                      "type": "file",
+                      "name": "גול - מתכונת סודית 582 תשפה - שאלון",
+                      "url": "https://drive.google.com/file/d/1hJYxLUicV_9x-tSTPtAWoaVabas1YO7e/view"
+                    }
+                  ]
                 }
               ]
             },

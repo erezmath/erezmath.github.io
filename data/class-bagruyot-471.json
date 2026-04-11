@@ -122,9 +122,22 @@
           "lesson_json": {}
         },
         {
-          "name": "התפלגות נורמלית",
+          "name": "גול",
           "desc": "",
           "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "GOOL_471_secret_2025_ver1",
+              "url": "https://drive.google.com/file/d/1y-MdLb_APcG3FyNeeGXHkMUk3-BJHM6f/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "התפלגות נורמלית",
+          "desc": "",
+          "id": "2-3",
           "content": [
             {
               "type": "file",
@@ -137,7 +150,7 @@
         {
           "name": "מתכונות ארכימדס 471",
           "desc": "",
-          "id": "2-3",
+          "id": "2-4",
           "content": [
             {
               "type": "file",
@@ -160,7 +173,7 @@
         {
           "name": "מתכונות לא מבגרויות",
           "desc": "",
-          "id": "2-4",
+          "id": "2-5",
           "content": [
             {
               "type": "file",

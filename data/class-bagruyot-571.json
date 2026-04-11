@@ -1053,7 +1053,7 @@
                 },
                 {
                   "type": "folder",
-                  "name": "פתרונות שלי",
+                  "name": "פתרונות מלאים",
                   "content": [
                     {
                       "type": "file",
@@ -1157,6 +1157,17 @@
               "name": "2022",
               "content": [
                 {
+                  "type": "folder",
+                  "name": "פתרונות שלי",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "סדרות הנדסיות עם סעיף חשיבה וסעיף נוסף שלי - בר אילן 2022 - שאלה ופתרון",
+                      "url": "https://drive.google.com/file/d/1TwTLPbZTK8ZrDOtnkAMYeVBl8q0zGNvD/view"
+                    }
+                  ]
+                },
+                {
                   "type": "file",
                   "name": "תכנית בר אילן - 35581 - מתכונת 1",
                   "url": "https://drive.google.com/file/d/1xQvbv-9Gd51-ajQcEYfatgMJxqI6HsO_/view"
@@ -1248,6 +1259,11 @@
                   "type": "folder",
                   "name": "פתרונות",
                   "content": [
+                    {
+                      "type": "file",
+                      "name": "1. פתרון חקירה הבע באמצעות - פרמטר קטן מאפס - בר אילן 2025",
+                      "url": "https://drive.google.com/file/d/1ZkItDE6lmIhXJ0AVVbcbjQeP_8hSrwQP/view"
+                    },
                     {
                       "type": "file",
                       "name": "__מתכונת מחצית יוד 571 תשפה - רועי - פתרון מפורט",
@@ -1391,6 +1407,17 @@
                   "type": "file",
                   "name": "2022 - מתכונת ארכימדס 581",
                   "url": "https://drive.google.com/file/d/1wiK8j7z5dVT99AP98gb4Fbu5L1IL1P1k/view"
+                },
+                {
+                  "type": "folder",
+                  "name": "פתרונות מלאים",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "פתרון סדרה הנדסית",
+                      "url": "https://drive.google.com/file/d/1NtUAaY7dJFDZRL2teeB8Ic6UAMl9l3Wd/view"
+                    }
+                  ]
                 }
               ]
             },
@@ -1471,9 +1498,31 @@
           "id": "2-5",
           "content": [
             {
-              "type": "file",
-              "name": "גול סודית 581 תשפג",
-              "url": "https://drive.google.com/file/d/1mMVDjwk2I3L0rAvojSXCz42rZkGkED81/view"
+              "type": "folder",
+              "name": "2023",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "גול - מתכונת סודית 581 תשפג",
+                  "url": "https://drive.google.com/file/d/1mMVDjwk2I3L0rAvojSXCz42rZkGkED81/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2025",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "גול - מתכונת סודית 571 תשפה - פתרון",
+                  "url": "https://drive.google.com/file/d/18AtHtOq0_vi_vXD1wT4x2PAgY5tKJ6BZ/view"
+                },
+                {
+                  "type": "file",
+                  "name": "גול - מתכונת סודית 571 תשפה - שאלון",
+                  "url": "https://drive.google.com/file/d/1QSy-2DKXMqpIUu-g_E9cS4mf1zkWADm-/view"
+                }
+              ]
             },
             {
               "type": "folder",
