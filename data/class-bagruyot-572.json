@@ -1214,6 +1214,22 @@
                       "url": "https://drive.google.com/file/d/1hJYxLUicV_9x-tSTPtAWoaVabas1YO7e/view"
                     }
                   ]
+                },
+                {
+                  "type": "folder",
+                  "name": "2026",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "GOOL_572_secret_2026_solution",
+                      "url": "https://drive.google.com/file/d/1VOkaajobb9k9Agh1Z7HlADjUofSjC_n_/view"
+                    },
+                    {
+                      "type": "file",
+                      "name": "GOOL_572_secret_2026_ver1",
+                      "url": "https://drive.google.com/file/d/1K0KnoxqPEmRfUTk6uyDHQaRQMQCkYgWS/view"
+                    }
+                  ]
                 }
               ]
             },
