@@ -77,6 +77,23 @@
             "due_date": "12-04-2026",
             "due_date_display": "ראשון, 12.04.2026"
           }
+        },
+        {
+          "name": "2. בעיות קיצון גאומטריות - מארכימדס",
+          "desc": "<p>שעתיים שיעור + ש.ב\nקיצון גאומטרי עם פולינום, שורש, מנה</p>",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב",
+              "url": "https://drive.google.com/file/d/1FNFHJidxyibwy2qWT-QcywXfM2cd0axW/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "14-04-2026",
+            "due_date": "21-04-2026",
+            "due_date_display": "שלישי, 21.04.2026"
+          }
         }
       ]
     },
@@ -2459,6 +2476,19 @@
               "type": "file",
               "name": "2. מבחן לדוגמא מרץ י 571",
               "url": "https://drive.google.com/file/d/1eZ7dosQfotnwo7AcrJo7xzqy497_khE3/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "16. בוחן אפריל - טריגו במישור",
+          "desc": "",
+          "id": "8-16",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בוחן אפריל טריגו - נושאים ובחנים לדוגמא",
+              "url": "https://drive.google.com/file/d/164q-3wflYzivx88ckL8am5CGuFK-aGDu/view"
             }
           ],
           "lesson_json": {}

@@ -1282,6 +1282,22 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "folder",
+              "name": "2026",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "מגן 2 שאלון 571 תשפו - עם פתרונות סופיים",
+                  "url": "https://drive.google.com/file/d/1dk6AWMPXHz-a_gVyJ0TQuy0uMDKLGMkS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "פתרון מלא מגן 2 - שאלון 571 תשפו",
+                  "url": "https://drive.google.com/file/d/1lqhbdj2Zga0oZWJTZN_TKngBP6OcD3gP/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}

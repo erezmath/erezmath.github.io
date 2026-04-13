@@ -1,4 +1,6 @@
 secrets/
 cache/
+.vscode/
 changes_api/
+build.log
 **/__pycache__/ 
