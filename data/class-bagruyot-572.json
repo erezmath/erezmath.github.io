@@ -305,6 +305,17 @@
           "content": [
             {
               "type": "folder",
+              "name": "אנליטית",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2025 - חורף - אנליטית פרבולה ומעגל",
+                  "url": "https://drive.google.com/file/d/1lXBbXN_zAD_Nc2mVZ1foJ2680zOmd2vD/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
               "name": "חקירה לוג",
               "content": [
                 {

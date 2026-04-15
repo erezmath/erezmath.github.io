@@ -2829,11 +2829,33 @@
           "name": "20. סימולציה למתכונת",
           "desc": "<p>סימולציה למתכונת. ניתן שבועיים לפני המתכונת.</p>\n<p>מתכונת של אורט יקנעם, שיניתי רק סעיף אינדוקציה לעצרת.</p>",
           "id": "13-18",
-          "content": [],
+          "content": [
+            {
+              "type": "file",
+              "name": "אורט פרס יקנעם - 35571 - פתרון מלא ומחוון ניקוד",
+              "url": "https://drive.google.com/file/d/1N_VYpEo7VZBvX3dzdfnOI0KkZuQ5Ms4f/view"
+            },
+            {
+              "type": "file",
+              "name": "אורט פרס יקנעם - 35571 - שאלון",
+              "url": "https://drive.google.com/file/d/1OUyTaN_B5YZf86QZgvjq3cy9mSKVi1rP/view"
+            }
+          ],
           "lesson_json": {
             "lesson_date": "14-04-2026",
             "due_date": "14-04-2026",
             "due_date_display": "שלישי, 14.04.2026"
+          }
+        },
+        {
+          "name": "21. סימולציה 2 למתכונת",
+          "desc": "<p>סימולציה שנייה למתכונת. ניתן שבועיים לפני המתכונת.</p>\n<p>מתכונת של אוסטרובסקי.</p>",
+          "id": "13-19",
+          "content": [],
+          "lesson_json": {
+            "lesson_date": "16-04-2026",
+            "due_date": "16-04-2026",
+            "due_date_display": "חמישי, 16.04.2026"
           }
         }
       ]

@@ -730,6 +730,40 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "8.7. עבודת פסח בגאומטריה - ראו בעבודות",
+          "desc": "",
+          "id": "4-12",
+          "content": [],
+          "lesson_json": {}
+        },
+        {
+          "name": "9. שני מעגלים",
+          "desc": "<p>שיעור כפול - שני מעגלים.\nאין משפטים כמעט - הטריק הוא להסתכל על כל מעגל בנפרד</p>",
+          "id": "4-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ורמזים לש.ב",
+              "url": "https://drive.google.com/file/d/1FKtz940gwlVXaf3Ap0xOvzyESTBPbi21/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב.docx",
+              "url": "https://drive.google.com/file/d/1ECm5PeMp8uYjlP5KhYKqsdZ8MQtri0cN/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/16-DpJkByGdMbTWklzSITqmjZFMsnHqJW/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "16-04-2026",
+            "due_date": "23-04-2026",
+            "due_date_display": "חמישי, 23.04.2026"
+          }
         }
       ]
     },
