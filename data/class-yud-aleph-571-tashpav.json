@@ -761,7 +761,7 @@
           "lesson_json": {}
         },
         {
-          "name": "6. הסתברות עץ וטבלה - תרגול חזרה",
+          "name": "6. הסתברות עץ וטבלה - תרגול חזרה לפני בוחן",
           "desc": "",
           "id": "4-7",
           "content": [
@@ -2782,13 +2782,28 @@
           "content": [
             {
               "type": "file",
-              "name": "נושאים לבוחן",
+              "name": "1. נושאים לבוחן",
               "url": "https://drive.google.com/file/d/160uzp61_BdFZTb35EuNzQ0o0e6Wf7lzF/view"
             },
             {
               "type": "file",
-              "name": "פתרונות לחלק מהתרגילים",
-              "url": "https://drive.google.com/file/d/1UlBPdcAfhghOEIagamJHp7Mh8WlKQJ8d/view"
+              "name": "2. פתרונות לחלק מהתרגילים",
+              "url": "https://drive.google.com/file/d/1H4rSdTAbUZV4aCIt66u8FwqH2fvu0jvc/view"
+            },
+            {
+              "type": "file",
+              "name": "3. בוחן פברואר בהסתברות - טור א וטור ב.docx",
+              "url": "https://drive.google.com/file/d/19OzKDGvXunGgQuhjElHRFNMQlyi7IAK8/view"
+            },
+            {
+              "type": "file",
+              "name": "3. בוחן פברואר בהסתברות - טור א וטור ב",
+              "url": "https://drive.google.com/file/d/1oqY3enilc0lEyI6WwrCgrKxBNISzofFW/view"
+            },
+            {
+              "type": "file",
+              "name": "4. פתרונות לבוחן",
+              "url": "https://drive.google.com/file/d/1lhnej2mYRlCgcQoEhiayh0r0onn-sB_9/view"
             }
           ],
           "lesson_json": {
@@ -2849,9 +2864,20 @@
         },
         {
           "name": "21. סימולציה 2 למתכונת",
-          "desc": "<p>סימולציה שנייה למתכונת. ניתן שבועיים לפני המתכונת.</p>\n<p>מתכונת של אוסטרובסקי.</p>",
+          "desc": "<p>סימולציה שנייה למתכונת. ניתן שבועיים לפני המתכונת.</p>\n<p>להתחיל דוקא מהשאלות הכבדות יותר - חדוא\n.\nמתכונת של אוסטרובסקי.</p>",
           "id": "13-19",
-          "content": [],
+          "content": [
+            {
+              "type": "file",
+              "name": "אוסטרובסקי רעננה-35571-מתכונת 1 - שאלון",
+              "url": "https://drive.google.com/file/d/1u7-LrT8wuOR4ReLskm-7WLz4bH4lOcpr/view"
+            },
+            {
+              "type": "file",
+              "name": "אוסטרובסקי רעננה-35571-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/13rtIvd43QWLvQYy1J208VtDiwTj0C4uj/view"
+            }
+          ],
           "lesson_json": {
             "lesson_date": "16-04-2026",
             "due_date": "16-04-2026",

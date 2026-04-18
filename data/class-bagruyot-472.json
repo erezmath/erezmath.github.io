@@ -53,7 +53,31 @@
     {
       "name": "2. מתכונות מומלצות",
       "id": "2-מתכונות-מומלצות",
-      "lessons": []
+      "lessons": [
+        {
+          "name": "2026 - אליאנס סימולציה",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת סימולציה 1",
+              "url": "https://drive.google.com/file/d/1xiTBDaQjG_9TrIJTjg1FadEHmAwbjNMX/view"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת סימולציה 2",
+              "url": "https://drive.google.com/file/d/1kcnawGsgWjzRPmfg7X3oZT8HQxsIRJsf/view"
+            },
+            {
+              "type": "file",
+              "name": "פתרון ומחוון מתכונת 472",
+              "url": "https://drive.google.com/file/d/1nnS95tpYvwEqSr6HiZnhvaAqENkwHfs7/view"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
     },
     {
       "name": "3. שאלות נוספות ברמת בגרות לפי נושאים",
@@ -68,6 +92,29 @@
               "type": "file",
               "name": "גדילה ודעיכה - שאלות מקוריות ברמת בגרות - אדם",
               "url": "https://drive.google.com/file/d/1-58LFkr0JczM045wmr3khW-Sz-EwdgQJ/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "סדרות",
+          "desc": "",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2026 - יצרתי עם AI",
+              "content": []
+            },
+            {
+              "type": "file",
+              "name": "סדרות - שאלות נוספות",
+              "url": "https://drive.google.com/file/d/1PwN9CrV_cUAH6J8yQel-WwEBYkoekCNJ/view"
+            },
+            {
+              "type": "file",
+              "name": "סדרות 472 רמה יותר מאתגרת",
+              "url": "https://drive.google.com/file/d/1gtGM4vDsu8JJfJPlTnk-nKC5sPxbRog6/view"
             }
           ],
           "lesson_json": {}
