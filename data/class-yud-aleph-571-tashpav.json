@@ -2883,6 +2883,23 @@
             "due_date": "16-04-2026",
             "due_date_display": "חמישי, 16.04.2026"
           }
+        },
+        {
+          "name": "22. עבודת בונוס לציון המגן",
+          "desc": "<p>עבודות רשות - רק למי שהגיש כבר את כל הבגרויות ורוצה בונוס נוסף:</p>",
+          "id": "13-20",
+          "content": [
+            {
+              "type": "file",
+              "name": "עבודת בונוס לציון המגן",
+              "url": "https://drive.google.com/file/d/1lgZWV26AaNKZFX3i9RgaYOgp8Jd15D6N/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "25-04-2026",
+            "due_date": "25-04-2026",
+            "due_date_display": "שבת, 25.04.2026"
+          }
         }
       ]
     }
