@@ -631,6 +631,28 @@
             "due_date": "12-04-2026",
             "due_date_display": "ראשון, 12.04.2026"
           }
+        },
+        {
+          "name": "14. שאלה שכתבתי בסגנון בגרות",
+          "desc": "<p>שעה בודדת, תרגול סדרות עם סעיפי חשיבה וטריקים - תרגול לפני מתכונת</p>",
+          "id": "3-15",
+          "content": [
+            {
+              "type": "file",
+              "name": "שאלה שלי - סדרה הנדסית.docx",
+              "url": "https://drive.google.com/file/d/1sJ3C8Ax5aqpmgI9GpurA0mIeoYZVJS1b/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלה שלי - סדרה הנדסית",
+              "url": "https://drive.google.com/file/d/1CMURuEBlJtGXZHkyk89a6afxdgMk_FzJ/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "23-04-2026",
+            "due_date": "23-04-2026",
+            "due_date_display": "חמישי, 23.04.2026"
+          }
         }
       ]
     },
