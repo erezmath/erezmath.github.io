@@ -1681,8 +1681,18 @@
           "content": [
             {
               "type": "file",
+              "name": "אביב - מתכונת 1 - 571 תשפו",
+              "url": "https://drive.google.com/file/d/1F9O9E_gxkaItls4fqbJ7w9Dr_yokVobG/view"
+            },
+            {
+              "type": "file",
               "name": "הכפר הירוק - מבחן שלישי 19.2.26 - כולל פתרון ומחוון",
               "url": "https://drive.google.com/file/d/1xaXYNUK_RUtvWrMz-cKpmnna6S1UsKZJ/view"
+            },
+            {
+              "type": "file",
+              "name": "הכפר הירוק - מתכונת 1 - 571 תשפו",
+              "url": "https://drive.google.com/file/d/1tb8zLJ28x0h_4tf615L4m0oYLtSHlGmD/view"
             }
           ],
           "lesson_json": {}
