@@ -2922,6 +2922,39 @@
             "due_date": "25-04-2026",
             "due_date_display": "שבת, 25.04.2026"
           }
+        },
+        {
+          "name": "23. שיעור הכנה למתכונת",
+          "desc": "",
+          "id": "13-21",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עצרת - תרגול נוסף.docx",
+              "url": "https://drive.google.com/file/d/1yBCxx4mHF4R3vJ649aSerpK5N2HFHZ3o/view"
+            },
+            {
+              "type": "file",
+              "name": "2. אביב - מתכונת 1 - 571 תשפו - רק אינדוקציה ושאלות קצרות להראות",
+              "url": "https://drive.google.com/file/d/1GZXuVN9-HJs7e7GWKxQsUMj0CZT5E2FS/view"
+            },
+            {
+              "type": "file",
+              "name": "3. אוסטרובסקי רעננה-35571-מתכונת 1 - שאלון",
+              "url": "https://drive.google.com/file/d/1G6Q-lvHBPG0hpmyW8YeEhQ7NVVuXCnEw/view"
+            },
+            {
+              "type": "file",
+              "name": "4. אוסטרובסקי רעננה-35571-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1J3_FH-GHQ6Di9vpStL2ufLHcs1naKV2y/view"
+            },
+            {
+              "type": "file",
+              "name": "זום",
+              "url": "https://drive.google.com/file/d/1Q5ktsBXfI1RU1OY8J7QuVY0HOZGQoHb0/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     }
