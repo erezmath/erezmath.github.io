@@ -96,8 +96,8 @@
           }
         },
         {
-          "name": "3. בעיות קיצון גרפיות -כולל משתנה עזר - בני גורן",
-          "desc": "<p>2-3 שיעורים\nקיצון גרפי - משתנה בודד, ולאחר תרגול עצמי, תרגילים עם משתנה עזר זמני</p>",
+          "name": "3. בעיות קיצון גרפיות -משתנה בודד",
+          "desc": "<p>שיעור בודד, או שיעור וחצי.\nקיצון גרפי - משתנה בודד, תרגול עצמי וש.ב</p>",
           "id": "2-3",
           "content": [
             {
@@ -114,11 +114,6 @@
               "type": "file",
               "name": "2. ש.ב",
               "url": "https://drive.google.com/file/d/1l9EzxVzWI2fR9UQ9hxRHpRQ-_ccw5lLb/view"
-            },
-            {
-              "type": "file",
-              "name": "3. פתרונות לחלק מהתרגילים",
-              "url": "https://drive.google.com/file/d/1DD97M12jskdZ61MPz7ycZVLzus554CnX/view"
             }
           ],
           "lesson_json": {
@@ -812,7 +807,7 @@
         },
         {
           "name": "10. מעגל חסום במשולש ומעגל חוסם משולש",
-          "desc": "<p>שיעור כפול - מעגל חסום וחוסם במשולש. מאוד חשוב גם בשביל טריגו במישור.</p>",
+          "desc": "<p>שיעור כפול - מעגל חסום וחוסם במשולש. מאוד חשוב גם בשביל טריגו במישור.\nבגלל שהרבה תלמידים החסירו את השיעור, נדחה בשבוע ונותן זמן להשלים</p>",
           "id": "4-15",
           "content": [
             {
@@ -833,8 +828,30 @@
           ],
           "lesson_json": {
             "lesson_date": "26-04-2026",
-            "due_date": "30-04-2026",
-            "due_date_display": "חמישי, 30.04.2026"
+            "due_date": "07-05-2026",
+            "due_date_display": "חמישי, 07.05.2026"
+          }
+        },
+        {
+          "name": "11. מרובע חסום במעגל",
+          "desc": "<p>שיעור כפול - מרובע חסום במעגל - משפט מאוד נפוץ.</p>",
+          "id": "4-16",
+          "content": [
+            {
+              "type": "file",
+              "name": "סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1lSrpqgjrVFn0n-KftXLn4ckL-X9FLWIG/view"
+            },
+            {
+              "type": "file",
+              "name": "ש.ב",
+              "url": "https://drive.google.com/file/d/1PaT5VwuZ4gA5bM_DPz5ogCzHE0XyOL9j/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "30-04-2026",
+            "due_date": "07-05-2026",
+            "due_date_display": "חמישי, 07.05.2026"
           }
         }
       ]
@@ -1936,8 +1953,8 @@
           ],
           "lesson_json": {
             "lesson_date": "23-04-2026",
-            "due_date": "29-04-2026",
-            "due_date_display": "רביעי, 29.04.2026"
+            "due_date": "30-04-2026",
+            "due_date_display": "חמישי, 30.04.2026"
           }
         }
       ]
