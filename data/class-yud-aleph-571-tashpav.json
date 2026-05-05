@@ -1367,16 +1367,38 @@
         },
         {
           "name": "10. בגרויות עם חקירה n זוגי ואי זוגי",
-          "desc": "",
+          "desc": "<p>חקירת פונקציה עם חזקה n זוגית אי זוגית .</p>\n<p>ידע בסקיצה ע\"פ חיוביות שליליות חשוב.\nוגם איך העלאה בחזקה מופיעה כסעיף חשיבה</p>\n<p>תרגול נוסף - בגרות 2016, ושאלה קצרה בבגרות 2024.</p>",
           "id": "7-10",
           "content": [
             {
               "type": "file",
+              "name": "1.  חקירה זוגי אי זוגי, בגרות חורף 2023.docx",
+              "url": "https://drive.google.com/file/d/1bV1kIOAbJKb7AjdOJTMSq_4aps5MI2JV/view"
+            },
+            {
+              "type": "file",
               "name": "1.  חקירה זוגי אי זוגי, בגרות חורף 2023",
               "url": "https://drive.google.com/file/d/1MIWggTPd5ihDNL0OTseot00pUWwu6oez/view"
+            },
+            {
+              "type": "file",
+              "name": "2. דוגמא כסעיף חשיבה ממתכונת.docx",
+              "url": "https://drive.google.com/file/d/13mYoTYPO8uNn-Qy6OngnGkQ3bzUfMhs-/view"
+            },
+            {
+              "type": "file",
+              "name": "2. דוגמא כסעיף חשיבה ממתכונת",
+              "url": "https://drive.google.com/file/d/127pYYeGbQM7LkeDNIiuKoMoNlgapaNkj/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=fBx_FcI1h7I",
+                "title": "סרטון - איך משפיע העלאה בחזקה זוגית ואי זוגית"
+              }
+            ]
+          }
         },
         {
           "name": "11. חקירת פרמטר קטן מאפס - תרגיל ממתכונת בר אילן - אימון למתכונת הראשונה",
@@ -2965,6 +2987,39 @@
               "type": "file",
               "name": "1. מתכונת מרץ יא 5 תשפו - עם פתרונות",
               "url": "https://drive.google.com/file/d/1lUuIk4mRHIM7vsJ_5VxIBibHfx0mn7WK/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "25. מתכונות נוספות - מרתון לבגרות",
+          "desc": "",
+          "id": "13-23",
+          "content": [
+            {
+              "type": "file",
+              "name": "אוסטרובסקי רעננה-35571-מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1CrWBm1bmTEgZruixjozzB8RvNwrKcf1y/view"
+            },
+            {
+              "type": "file",
+              "name": "בית גן-35571-מתכונת 1 כולל תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1ufH6Xq5q9PuBcuZ35MV_aOpU-qoK0bnu/view"
+            },
+            {
+              "type": "file",
+              "name": "גימנסיה הרצליה תלא אביב-35571-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1wtmb1rJ7SuJNOFnxjHzwHm4GmCVw_cnb/view"
+            },
+            {
+              "type": "file",
+              "name": "דה שליט רחובות-35571-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1aSu7WNcORzbcYJRHMrPsCoiKFeudUc1b/view"
+            },
+            {
+              "type": "file",
+              "name": "מטרו ווסט רעננה-35571-מתכונת כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1H-xxDYBvpaCLCMUVn1G5H-5DcQBIDero/view"
             }
           ],
           "lesson_json": {}

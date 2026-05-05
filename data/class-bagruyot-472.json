@@ -76,6 +76,30 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "מריאן",
+          "desc": "",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2026",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "472 מבחנים",
+                  "url": "https://drive.google.com/file/d/1cRIj9oNH177kj25fv8yHvr9B4z4IO_Ik/view"
+                },
+                {
+                  "type": "file",
+                  "name": "__472 פתרונות",
+                  "url": "https://drive.google.com/file/d/17KKwOL3M8ArvscKuCkwjncBZyFfyKbKw/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },

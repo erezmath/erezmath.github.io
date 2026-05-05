@@ -1496,6 +1496,22 @@
                   "url": "https://drive.google.com/file/d/1V459BeLDYlonshMPasA0GNxwDZO-lqiX/view"
                 }
               ]
+            },
+            {
+              "type": "folder",
+              "name": "2026",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "__571 קיץ 2026 - מריאן -  פתרונות",
+                  "url": "https://drive.google.com/file/d/1wSWSE_6UI9noGoMthUhlaiz0nQ54is20/view"
+                },
+                {
+                  "type": "file",
+                  "name": "__571 קיץ 2026 - מריאן - מבחנים",
+                  "url": "https://drive.google.com/file/d/1On1PbbKh1GshVlw_2iWoFxOj198Y3wD6/view"
+                }
+              ]
             }
           ],
           "lesson_json": {}
@@ -1802,6 +1818,16 @@
             },
             {
               "type": "file",
+              "name": "אליאנס-35571-מתכונת 1 עם ניקוד",
+              "url": "https://drive.google.com/file/d/1ZWiMHt1N8byVe2QwbYbAEhjBqynzJazp/view"
+            },
+            {
+              "type": "file",
+              "name": "אליאנס-35571-מתכונת 2 עם ניקוד",
+              "url": "https://drive.google.com/file/d/1BR-a_mrE2J443W2-eD3lz3JmAqM91XEk/view"
+            },
+            {
+              "type": "file",
               "name": "אמית מודיעין בנות-35571-מתכונת 1",
               "url": "https://drive.google.com/file/d/1MZmBTUdxuGk1Lb9-axt2ZAVvxVSLv3-a/view"
             },
@@ -1879,6 +1905,16 @@
               "type": "file",
               "name": "מקיף ז באר שבע-35571-מיני מתכונת",
               "url": "https://drive.google.com/file/d/1H-dg3_JcrEDF3R4VXgbBHlHZpt5rNzzf/view"
+            },
+            {
+              "type": "file",
+              "name": "עתיד רזיאל הרצליה-35571-מתכונת כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1RZBFU1nubwuVCkZ3Wyk7JivY8x2aozra/view"
+            },
+            {
+              "type": "file",
+              "name": "עתיד רזיאל הרצליה-35571-קדם מתכונת פברואר כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1-81uqhSPnHDEmbEWGagVfHIdt4cd04E-/view"
             },
             {
               "type": "file",

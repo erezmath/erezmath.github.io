@@ -1332,6 +1332,22 @@
               "name": "מריאן",
               "content": [
                 {
+                  "type": "folder",
+                  "name": "2026",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "__572 מריאן - מבחנים",
+                      "url": "https://drive.google.com/file/d/1pzPiPK2380UGcxGqq7zWp5d4m3jMx92A/view"
+                    },
+                    {
+                      "type": "file",
+                      "name": "__572 מריאן - פתרונות",
+                      "url": "https://drive.google.com/file/d/1DN_rLLrvPSOmrOS-cf-rqPuU2UOk9huK/view"
+                    }
+                  ]
+                },
+                {
                   "type": "file",
                   "name": "קיץ 2024 שאלון 582 - פתרונות",
                   "url": "https://drive.google.com/file/d/1pRB6JkLRSfDBR_JOKB2Ui9u80uH8D63S/view"

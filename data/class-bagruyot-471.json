@@ -161,9 +161,33 @@
           "lesson_json": {}
         },
         {
-          "name": "מתכונות ארכימדס 471",
+          "name": "מריאן",
           "desc": "",
           "id": "2-5",
+          "content": [
+            {
+              "type": "folder",
+              "name": "2026",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "__קיץ 2026 שאלון 471 -  פתרונות",
+                  "url": "https://drive.google.com/file/d/16atAp4PQlmj7GzayQ4eTDFbAvkk45v--/view"
+                },
+                {
+                  "type": "file",
+                  "name": "__קיץ 2026 שאלון 471 -מבחנים",
+                  "url": "https://drive.google.com/file/d/1ZVFyN9nQI8UbyBMDia6UBfA_UOvwSxWB/view"
+                }
+              ]
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "מתכונות ארכימדס 471",
+          "desc": "",
+          "id": "2-6",
           "content": [
             {
               "type": "file",
@@ -186,7 +210,7 @@
         {
           "name": "מתכונות לא מבגרויות",
           "desc": "",
-          "id": "2-6",
+          "id": "2-7",
           "content": [
             {
               "type": "file",
