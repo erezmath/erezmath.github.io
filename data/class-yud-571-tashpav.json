@@ -121,6 +121,38 @@
             "due_date": "06-05-2026",
             "due_date_display": "רביעי, 06.05.2026"
           }
+        },
+        {
+          "name": "4. בעיות קיצון גרפיות -כולל משתנה עזר - וקיצון קצה בתחום סגור - בני גורן",
+          "desc": "<p>קיצון גרפי עם שני משתנים (או משתנה עזר נוסף).\nכולל סעיף חשיבה קיצון קצה בתחום סגור</p>",
+          "id": "2-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. פתרון תרגיל בכיתה",
+              "url": "https://drive.google.com/file/d/18sdnPFJq_muazC3CNq4HMwXOwN7u9C7z/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב.docx",
+              "url": "https://drive.google.com/file/d/1GgV_vZvBBW7gjFe0HX21XTDiNtFNHT5v/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1LD0X9O5zLcKbjkqYRZH9JwZlC_lex78K/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות לחלק מש.ב",
+              "url": "https://drive.google.com/file/d/1d96Avj5Vm1ovF_oYt_P1jRRUco8BMUnw/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "06-05-2026",
+            "due_date": "12-05-2026",
+            "due_date_display": "שלישי, 12.05.2026"
+          }
         }
       ]
     },
