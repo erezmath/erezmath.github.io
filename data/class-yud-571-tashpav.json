@@ -1662,6 +1662,33 @@
             "due_date": "07-05-2026",
             "due_date_display": "חמישי, 07.05.2026"
           }
+        },
+        {
+          "name": "33. פונקצית מנה עם שורש",
+          "desc": "<p>שעתיים שיעור.  חקירת פונקצית מנה עם שורש.</p>\n<p>ש.ב - חקירה טכנית בלי סעיפי חשיבה</p>",
+          "id": "5-37",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרונות",
+              "url": "https://drive.google.com/file/d/1EYzmP1YDt_E0AyT6ksBWActTNUBWXTGh/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב.docx",
+              "url": "https://drive.google.com/file/d/17faeLDHLLrZymfhhlBx4HEWMUgs3n9_-/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1Pfph9H3odF1K9imeBOE-mM-cNzUOnoYo/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "07-05-2026",
+            "due_date": "12-05-2026",
+            "due_date_display": "שלישי, 12.05.2026"
+          }
         }
       ]
     },
