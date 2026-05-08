@@ -2998,31 +2998,45 @@
           "content": [
             {
               "type": "file",
-              "name": "אוסטרובסקי רעננה-35571-מתכונת 2 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1CrWBm1bmTEgZruixjozzB8RvNwrKcf1y/view"
+              "name": "1. אוסטרובסקי רעננה-35571-מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1arOCOD7xPUrETerY1FAnMANKOLO6SI5Y/view"
             },
             {
               "type": "file",
-              "name": "בית גן-35571-מתכונת 1 כולל תשובות סופיות",
-              "url": "https://drive.google.com/file/d/1ufH6Xq5q9PuBcuZ35MV_aOpU-qoK0bnu/view"
+              "name": "2. גימנסיה הרצליה תלא אביב-35571-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/10BW3RE-6xwheOznVRVTFYnaYwTGnBvQB/view"
             },
             {
               "type": "file",
-              "name": "גימנסיה הרצליה תלא אביב-35571-מתכונת 1 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1wtmb1rJ7SuJNOFnxjHzwHm4GmCVw_cnb/view"
+              "name": "3. דה שליט רחובות-35571-מתכונת 1 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/14tHLCna2KpDi4RRFykvMS622AZAK7aXV/view"
             },
             {
               "type": "file",
-              "name": "דה שליט רחובות-35571-מתכונת 1 כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1aSu7WNcORzbcYJRHMrPsCoiKFeudUc1b/view"
+              "name": "4. אליאנס-35571-מתכונת 2 עם פתרון מלא",
+              "url": "https://drive.google.com/file/d/1vZ8_uuYRRVqHVchuzv2b9w8gwsP5c-qJ/view"
             },
             {
               "type": "file",
-              "name": "מטרו ווסט רעננה-35571-מתכונת כולל פתרון מלא",
-              "url": "https://drive.google.com/file/d/1H-xxDYBvpaCLCMUVn1G5H-5DcQBIDero/view"
+              "name": "5. אליאנס-35571-מתכונת 1 עם פתרון מלא",
+              "url": "https://drive.google.com/file/d/1QA4Qupvmu4Sp1a8fGlRlUkDYkW3N0Sig/view"
+            },
+            {
+              "type": "file",
+              "name": "6. בית גן-35571-מתכונת 1 כולל תשובות סופיות",
+              "url": "https://drive.google.com/file/d/1ae1yftTg8aGKq9Cl9I7vtTc4SlKmRscT/view"
+            },
+            {
+              "type": "file",
+              "name": "7. מטרו ווסט רעננה-35571-מתכונת כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1raTvTAriHBn8v1b9M7fUW8dndeShhNOT/view"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "08-05-2026",
+            "due_date": "13-05-2026",
+            "due_date_display": "רביעי, 13.05.2026"
+          }
         }
       ]
     }
