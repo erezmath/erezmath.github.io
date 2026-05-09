@@ -3037,6 +3037,44 @@
             "due_date": "13-05-2026",
             "due_date_display": "רביעי, 13.05.2026"
           }
+        },
+        {
+          "name": "26. עקרונות לבדיקת בגרויות - לפני הבגרות ושאלות חידוד שלי",
+          "desc": "<p>על מה מורידים בבגרות וכמה, מה חשד להעתקה מה לא.</p>\n<p>כמה שווה כל טעות שאתם עושים, איך מחלקים את הניקוד לשאלות השונות, ועוד</p>",
+          "id": "13-24",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עקרונות והנחיות לבדיקת הבגרות במתמטיקה",
+              "url": "https://drive.google.com/file/d/17WLAuG1z89Y2BvTRkIVHrNGBqZ22Y2mZ/view"
+            },
+            {
+              "type": "file",
+              "name": "2. מתכונת מרץ יא 5 תשפו - חלוקת נקודות לכל שאלה",
+              "url": "https://drive.google.com/file/d/10alh168Pcw9-CvfeAfTFQZ8nAkGefc9x/view"
+            },
+            {
+              "type": "file",
+              "name": "3. שאלות חידוד לבגרות.docx",
+              "url": "https://drive.google.com/file/d/1aS_zczNepFxZl9zeiZsvWBEGB6p9-LYZ/view"
+            },
+            {
+              "type": "file",
+              "name": "3. שאלות חידוד לבגרות",
+              "url": "https://drive.google.com/file/d/1vQguOoPmZNricJofVOUzMDI0-ngPFKRM/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "10-05-2026",
+            "due_date": "10-05-2026",
+            "external_links": [
+              {
+                "url": "https://www.canva.com/design/DAHGtxPruds/qmN16xXstEU4GYJZKIngRg/view",
+                "title": "טיפים משרד החינוך לשאלון 571 - מותאם לבגרות 2026"
+              }
+            ],
+            "due_date_display": "ראשון, 10.05.2026"
+          }
         }
       ]
     }
