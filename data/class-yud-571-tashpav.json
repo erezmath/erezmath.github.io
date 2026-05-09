@@ -885,6 +885,46 @@
             "due_date": "10-05-2026",
             "due_date_display": "ראשון, 10.05.2026"
           }
+        },
+        {
+          "name": "11.5 מרובע חוסם מעגל, ותרגול רשות על משפטי מעגל ללא דמיון",
+          "desc": "",
+          "id": "4-17",
+          "content": [
+            {
+              "type": "file",
+              "name": "סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1VUfU5Udhi3zffHc4-pLRXSfYlazBBZye/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "12. מעגל עם דמיון משולשים",
+          "desc": "<p>שיעור כפול - שילוב מעגל עם דמיון</p>",
+          "id": "4-18",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופיצוח תרגילים ראשונים",
+              "url": "https://drive.google.com/file/d/1iVHk2TIXe0UPsB3EaJNPlltFYJcFVxvJ/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב.docx",
+              "url": "https://drive.google.com/file/d/1libG50WmB1BUM2ro2waw9MAap_0pg43B/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1CauF3ySM1YeHFXjS7pJsl0dfq5xM8msP/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "10-05-2026",
+            "due_date": "14-05-2026",
+            "due_date_display": "חמישי, 14.05.2026"
+          }
         }
       ]
     },
@@ -1686,8 +1726,8 @@
           ],
           "lesson_json": {
             "lesson_date": "07-05-2026",
-            "due_date": "12-05-2026",
-            "due_date_display": "שלישי, 12.05.2026"
+            "due_date": "13-05-2026",
+            "due_date_display": "רביעי, 13.05.2026"
           }
         }
       ]
