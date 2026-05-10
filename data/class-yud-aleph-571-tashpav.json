@@ -2998,6 +2998,16 @@
           "content": [
             {
               "type": "file",
+              "name": "0. אוסף שאלות לאימון לבגרות",
+              "url": "https://drive.google.com/file/d/11R_ndX5X2a98Q0YOfnCdBwtyQygmAQt7/view"
+            },
+            {
+              "type": "file",
+              "name": "0. שאלות חידוד לבגרות",
+              "url": "https://drive.google.com/file/d/1irzLLAHaKjAoM7P-cnoe7TLqRQuJkP2Z/view"
+            },
+            {
+              "type": "file",
               "name": "1. אוסטרובסקי רעננה-35571-מתכונת 2 כולל פתרון מלא",
               "url": "https://drive.google.com/file/d/1arOCOD7xPUrETerY1FAnMANKOLO6SI5Y/view"
             },
@@ -3030,6 +3040,11 @@
               "type": "file",
               "name": "7. מטרו ווסט רעננה-35571-מתכונת כולל פתרון מלא",
               "url": "https://drive.google.com/file/d/1raTvTAriHBn8v1b9M7fUW8dndeShhNOT/view"
+            },
+            {
+              "type": "file",
+              "name": "8. אורט שמעון פרס יקנעם-35571-מתכונת 2 כולל פתרון מלא",
+              "url": "https://drive.google.com/file/d/1Y8fJS8ivV7r4o8YUtfWFqqf4hgk5y4kg/view"
             }
           ],
           "lesson_json": {
