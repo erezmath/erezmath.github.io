@@ -153,6 +153,33 @@
             "due_date": "12-05-2026",
             "due_date_display": "שלישי, 12.05.2026"
           }
+        },
+        {
+          "name": "5. בעיות קיצון עם אסימפטוטות, פרמטרים, ובגרויות 471",
+          "desc": "<p>קיצון גרפי,  עם אסימפטוטות ופרמטרים, קצת בגרויות 471 מ2024\nאין פה משהו קשה יותר, רק להדגים שוב איך מחשבים מרחק, ומציאת פרמטרים.</p>",
+          "id": "2-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרון",
+              "url": "https://drive.google.com/file/d/1JjploTN3pqlgmaUowxxbIpP9ewmFv-6M/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - בעיות קיצון גרפיות עם אסימפטוטות ופרמטרים.docx",
+              "url": "https://drive.google.com/file/d/1lqRFgMo9NFbE46GyQj6VSBpxg6KjcO7f/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - בעיות קיצון גרפיות עם אסימפטוטות ופרמטרים",
+              "url": "https://drive.google.com/file/d/1tV2u23gN43YrYetmnqaZp_-WkJnMzpD3/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "12-05-2026",
+            "due_date": "19-05-2026",
+            "due_date_display": "שלישי, 19.05.2026"
+          }
         }
       ]
     },
