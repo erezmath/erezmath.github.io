@@ -1756,6 +1756,33 @@
             "due_date": "13-05-2026",
             "due_date_display": "רביעי, 13.05.2026"
           }
+        },
+        {
+          "name": "34. פונקצית מנה עם שורש - תרגול נוסף ברמת המבחן - כולל פרמטרים, סעיפי חשיבה, הבע באמצעות",
+          "desc": "<p>שעה שיעור - חקירת שורש+מנה עם פרמטרים וסעיפי חשיבה, הכנה למבחן סיכום שנה.</p>",
+          "id": "5-38",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. חקירת שורש מנה - תרגול בכיתה וש.ב.docx",
+              "url": "https://drive.google.com/file/d/1GOSIQjsrswzxk63L53_cHgOEafhnUeNB/view"
+            },
+            {
+              "type": "file",
+              "name": "1. חקירת שורש מנה - תרגול בכיתה וש.ב",
+              "url": "https://drive.google.com/file/d/1UIhwGGT9JYTxp20Q4TJoV1OdsVadwTOg/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון שאלה בכיתה",
+              "url": "https://drive.google.com/file/d/1s5YNKQ9dLeNYI6ZAPl2MVcDdn1s12WYH/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "13-05-2026",
+            "due_date": "20-05-2026",
+            "due_date_display": "רביעי, 20.05.2026"
+          }
         }
       ]
     },
