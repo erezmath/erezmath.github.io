@@ -2873,6 +2873,96 @@
             "due_date": "19-04-2026",
             "due_date_display": "ראשון, 19.04.2026"
           }
+        },
+        {
+          "name": "17. מבחן מאי - חקירה שורש מנה, גאומטריה מעגל עם דמיון, קיצון גרפי, טריגו במישור",
+          "desc": "<p>מבחן מאי - מבחן סיכום שנה -  3 שעות שיעור, 4 נושאים.</p>",
+          "id": "8-17",
+          "content": [
+            {
+              "type": "folder",
+              "name": "0. תרגול למבחן - בעיות קיצון גרפיות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "0. תרגילים - בני גורן, ארכימדס, מריאן.docx",
+                  "url": "https://drive.google.com/file/d/1ugxZ-PkysnWLycmw0JIT21gl2wv7RCD3/view"
+                },
+                {
+                  "type": "file",
+                  "name": "0. תרגילים - בני גורן, ארכימדס, מריאן",
+                  "url": "https://drive.google.com/file/d/1ypUiwc_yWtHwn6-HiyE49wOcRcLD2zlp/view"
+                },
+                {
+                  "type": "file",
+                  "name": "1. תרגילים - בגרויות ישנות.docx",
+                  "url": "https://drive.google.com/file/d/109rp-V7Dr_s3sAXUgCCsL7COiI-9eKC8/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "0. תרגול למבחן - גאומטריה",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. בני גורן - תרגול דמיון למבחן מאי",
+                  "url": "https://drive.google.com/file/d/1iOF4kMYnX5fjJChhiR31sZlZdOZNi_kh/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. בגרויות ישנות (2009-2019) עם מעגל.docx",
+                  "url": "https://drive.google.com/file/d/1wIkSPpzIfgIaZ6SQFaoU9oxnETWFnCpM/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. בגרויות ישנות (2009-2019) עם מעגל",
+                  "url": "https://drive.google.com/file/d/1VOwSS8c9k2mR6PB70RVyMpvVTWkr2HqE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "3. בגרויות חדשות (2022-2025) עם מעגל",
+                  "url": "https://drive.google.com/file/d/1yThsEdki2DWxdXerjOjy-0k51PLq6Pqr/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "0. תרגול למבחן - חקירת מנה שורש",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "0. חקירת שורש עם מנה - ארכימדס.docx",
+                  "url": "https://drive.google.com/file/d/1VDaqWfkm0JhTQYhAZ1Hqpeg-crsEidSA/view"
+                },
+                {
+                  "type": "file",
+                  "name": "0. חקירת שורש עם מנה - ארכימדס",
+                  "url": "https://drive.google.com/file/d/1t8bnaqAl5nxy-4xdkljkJBEx0V94aFX7/view"
+                },
+                {
+                  "type": "file",
+                  "name": "1. חקירת שורש עם מנה - בני גורן",
+                  "url": "https://drive.google.com/file/d/1e4bdGiNtO0SflS0u957NeaaBwe-mf3Gm/view"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "נושאים למבחן כיתה י 5 יחל  סוף מאי.docx",
+              "url": "https://drive.google.com/file/d/1kVNWLLmAl-Tm7Ti6-rQZIrWJoqgNZVWc/view"
+            },
+            {
+              "type": "file",
+              "name": "נושאים למבחן כיתה י 5 יחל  סוף מאי",
+              "url": "https://drive.google.com/file/d/1R9BcRPJEztp3uQHSPDHiOLqrUDtSYe7n/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "24-05-2026",
+            "due_date": "24-05-2026",
+            "due_date_display": "ראשון, 24.05.2026"
+          }
         }
       ]
     }
