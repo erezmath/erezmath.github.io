@@ -164,7 +164,7 @@
         },
         {
           "name": "4. בגרויות ופתרונות 571 לפי שנים",
-          "desc": "<p>שאלון בפורמט הנוכחי 571 - התחילו בשנת 2020.\nבגרויות ישנות יותר רלוונטיות רק בחלק מהנושאים.</p>",
+          "desc": "<p>שאלון בפורמט הנוכחי 571 - התחילו להגיע לפורמט מוסכם בשנת 2022\nעד 2021 צירפתי בגרויות 581 שרלוונטית לרוב הנושאים למעט שאלות קצרות ובעיות תנועה.</p>",
           "id": "1-4",
           "content": [
             {
@@ -200,8 +200,150 @@
               "content": [
                 {
                   "type": "file",
+                  "name": "2018 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/12jtnDlfhiZgWilrWD5-T9Mtcmld9uQ4w/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/13tYEvPOXtQAf620Gwltq8bZzNNJ0y4J3/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - חורף - תשובות",
+                  "url": "https://drive.google.com/file/d/1Ny0W7SxXmBNFft_ZtWPoM1t_pnI3D_AS/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1hmpuA3kjAdLbv0dMWq3ahghpNch4Sxb1/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1I8ukCIanvXmh5kJi2K3atFZ-NsuHMyns/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד א - תשובות",
+                  "url": "https://drive.google.com/file/d/1fqH_5BZ00a0yvpbvJRmalz9ZSIPiO6tF/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1V1EO3oNac1E5zGs0Elvmv1EX1B2GR0gY/view"
+                },
+                {
+                  "type": "file",
                   "name": "2018 - קיץ מועד ב - שאלון",
                   "url": "https://drive.google.com/file/d/1iJWxXd2a6VHm6cc16rw4zk5Mq2yp0PEe/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד ב - תשובות",
+                  "url": "https://drive.google.com/file/d/1b79NfzqfeYQhV9Ilf327l1HQYNhBgNdB/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2019",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2019 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1yfc3JfbvOFZFeO1R7PhmWUugmch0R6TW/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1EnIqjfxpRWXNQqLAOr9Vmuh6IijPCRb-/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - חורף - תשובות",
+                  "url": "https://drive.google.com/file/d/1DU_gfqDOHHXuR0jZTXeMf86jRF-vGpyY/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1N2_R5BanRGZDOpJudj3GDKGixmXuxo5B/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1QMyadVYkj5LcJKOZeX_pMaaOWTxphkwt/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - קיץ מועד א - תשובות",
+                  "url": "https://drive.google.com/file/d/10-d7AkiMRzWELpdWy9JMLpuSx6rb_2rT/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1OkS0yWy4CMGnojS3RWZdvBFxpe1Iz9PE/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1GczxOiY-P4ZMdbpw-HgnrHuG5aeM4dqD/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2019 - קיץ מועד ב - תשובות",
+                  "url": "https://drive.google.com/file/d/1QmLSI7a4lmUMFXCs1tZx9HUmX3SV0fxk/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "2020",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2020 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1ZYmkjXF9kmxZol8e1l1P-WpafAvZJGNh/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1zmcyno_fD4A9SlosVcloJqaQLg1QXcK6/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - חורף - תשובות",
+                  "url": "https://drive.google.com/file/d/1vTztajWW9rx4EQV6wVpltJAzK9uyp2ss/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1Q48uvkmUamvS3rMCTUkzDt-Ife8wlCr0/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1cbVf1cd3UyiR0r_qXSr92ct9cznr9A9M/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - קיץ מועד א - תשובות",
+                  "url": "https://drive.google.com/file/d/1ki3Nf3CLmKZkLFfbG1y80L3pkC-cfjsN/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1rK-znqh7hGqgXpEhlYBr9MyhzTmmYfRO/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1HdqCFZoRZR5NPZJAdfnjzmjhVduZ0B2g/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2020 - קיץ מועד ב - תשובות",
+                  "url": "https://drive.google.com/file/d/1pjXrJv0mur8ReNwZ2akKBaJKgeRg2szS/view"
                 }
               ]
             },
@@ -478,6 +620,26 @@
                   "type": "file",
                   "name": "2026 - מועד חורף - שאלון",
                   "url": "https://drive.google.com/file/d/1Z3zRVjgD4HoBqwYCEfyy6aKzH5M6sg7I/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - מועד חורף - תשובות",
+                  "url": "https://drive.google.com/file/d/1PwiFNO-DEc7woBZAqJhzahEHcK-fvpws/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1yhS34nLKecqHFLecnfbsBMa9ONyjPAn2/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1Zg5wAMB-dfKNbCz576bXUxa8vGw6sz42/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד א - תשובות",
+                  "url": "https://drive.google.com/file/d/1WHnH3GfjrQZFNhO1Iq3itsxNOFPYkV2n/view"
                 }
               ]
             }

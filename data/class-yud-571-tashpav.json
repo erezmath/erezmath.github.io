@@ -952,6 +952,43 @@
             "due_date": "14-05-2026",
             "due_date_display": "חמישי, 14.05.2026"
           }
+        },
+        {
+          "name": "13. תרגול מבגרויות ישנות - הכנה למבחן מאי",
+          "desc": "<p>שיעור כפול - בגרויות ישנות גאומטריה - כולל דמיון, חוצה זווית, שטחים, משיק, ועוד.</p>",
+          "id": "4-19",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בגרויות ישנות עם מעגל - בלי רמזים.docx",
+              "url": "https://drive.google.com/file/d/12NQaPFRN5vg-d7mSS-YhNB06G4QV1U8S/view"
+            },
+            {
+              "type": "file",
+              "name": "1. בגרויות ישנות עם מעגל - בלי רמזים",
+              "url": "https://drive.google.com/file/d/1UhKuhMzsAVo-DUemHWimcza8q6bEcZ44/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בגרויות ישנות עם מעגל - עם רמזים.docx",
+              "url": "https://drive.google.com/file/d/1b9sqcDMOtPBfYvOE2rULIHuQXlLkFiVD/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בגרויות ישנות עם מעגל - עם רמזים",
+              "url": "https://drive.google.com/file/d/17OcgLZPL3mzQSifHyDNo7vO612NEzaCC/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות סקיצות שלי",
+              "url": "https://drive.google.com/file/d/1ui7xyxOxrCK-zTKzZnrzF0RVP1zp0bfv/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "14-05-2026",
+            "due_date": "17-05-2026",
+            "due_date_display": "ראשון, 17.05.2026"
+          }
         }
       ]
     },
