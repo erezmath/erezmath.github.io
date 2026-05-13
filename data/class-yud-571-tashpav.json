@@ -2948,6 +2948,22 @@
               ]
             },
             {
+              "type": "folder",
+              "name": "0. תרגול למבחן - טריגו במישור",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. שאלות מארכימדס.docx",
+                  "url": "https://drive.google.com/file/d/1BDY_OiN1s8MBRXw75xk8Ju2dTUOx2-QG/view"
+                },
+                {
+                  "type": "file",
+                  "name": "1. שאלות מארכימדס",
+                  "url": "https://drive.google.com/file/d/19-yz8hWljybfKiJBLa_WBaC2yDdoK8qh/view"
+                }
+              ]
+            },
+            {
               "type": "file",
               "name": "נושאים למבחן כיתה י 5 יחל  סוף מאי.docx",
               "url": "https://drive.google.com/file/d/1kVNWLLmAl-Tm7Ti6-rQZIrWJoqgNZVWc/view"
