@@ -989,6 +989,28 @@
             "due_date": "17-05-2026",
             "due_date_display": "ראשון, 17.05.2026"
           }
+        },
+        {
+          "name": "14. תרגול נוסף מבגרויות חדשות - הכנה למבחן מאי",
+          "desc": "<p>שיעור כפול - בגרויות חדשות גאומטריה - כולל דמיון, תאלס, חוצה זווית, שטחים, משיק, ועוד.</p>",
+          "id": "4-20",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בגרויות חדשות עם מעגל - בלי רמזים",
+              "url": "https://drive.google.com/file/d/1CaHhul2khyhvJgZgM5DJ2j9Adrv4irw8/view"
+            },
+            {
+              "type": "file",
+              "name": "2. בגרויות חדשות עם מעגל - עם רמזים",
+              "url": "https://drive.google.com/file/d/1UoacmgjTXiHDI17SJSCAYczNIp96y6t2/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "17-05-2026",
+            "due_date": "23-05-2026",
+            "due_date_display": "שבת, 23.05.2026"
+          }
         }
       ]
     },
@@ -2981,6 +3003,11 @@
                   "type": "file",
                   "name": "1. חקירת שורש עם מנה - בני גורן",
                   "url": "https://drive.google.com/file/d/1e4bdGiNtO0SflS0u957NeaaBwe-mf3Gm/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. סעיפי חשיבה - ארכימדס",
+                  "url": "https://drive.google.com/file/d/10AHlC6vxW-J5TsfQLeswMxRRt5r570ND/view"
                 }
               ]
             },
@@ -2990,20 +3017,10 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "1. שאלות מארכימדס.docx",
-                  "url": "https://drive.google.com/file/d/1BDY_OiN1s8MBRXw75xk8Ju2dTUOx2-QG/view"
-                },
-                {
-                  "type": "file",
                   "name": "1. שאלות מארכימדס",
                   "url": "https://drive.google.com/file/d/19-yz8hWljybfKiJBLa_WBaC2yDdoK8qh/view"
                 }
               ]
-            },
-            {
-              "type": "file",
-              "name": "נושאים למבחן כיתה י 5 יחל  סוף מאי.docx",
-              "url": "https://drive.google.com/file/d/1kVNWLLmAl-Tm7Ti6-rQZIrWJoqgNZVWc/view"
             },
             {
               "type": "file",
