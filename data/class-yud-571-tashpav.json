@@ -960,18 +960,8 @@
           "content": [
             {
               "type": "file",
-              "name": "1. בגרויות ישנות עם מעגל - בלי רמזים.docx",
-              "url": "https://drive.google.com/file/d/12NQaPFRN5vg-d7mSS-YhNB06G4QV1U8S/view"
-            },
-            {
-              "type": "file",
               "name": "1. בגרויות ישנות עם מעגל - בלי רמזים",
               "url": "https://drive.google.com/file/d/1UhKuhMzsAVo-DUemHWimcza8q6bEcZ44/view"
-            },
-            {
-              "type": "file",
-              "name": "2. בגרויות ישנות עם מעגל - עם רמזים.docx",
-              "url": "https://drive.google.com/file/d/1b9sqcDMOtPBfYvOE2rULIHuQXlLkFiVD/view"
             },
             {
               "type": "file",
@@ -2133,7 +2123,7 @@
           }
         },
         {
-          "name": "16. בוחן אפריל - טריגו במישור",
+          "name": "11.5. בוחן אפריל בטריגו במישור",
           "desc": "<p>בוחן בטריגו במישור במקום המבחן שבוטל - 2 שאלות</p>\n<p>65 דקות ללא תוספת זמן, 75 דקות עם תוספת זמן</p>",
           "id": "6-13",
           "content": [
@@ -2897,7 +2887,7 @@
           "lesson_json": {}
         },
         {
-          "name": "16. בוחן אפריל - טריגו במישור",
+          "name": "11.5. בוחן אפריל בטריגו במישור",
           "desc": "<p>בוחן בטריגו במישור במקום המבחן שבוטל - 2 שאלות</p>\n<p>65 דקות ללא תוספת זמן, 75 דקות עם תוספת זמן</p>",
           "id": "8-16",
           "content": [
@@ -2951,11 +2941,6 @@
                   "type": "file",
                   "name": "0. תרגילים - בני גורן, ארכימדס, מריאן",
                   "url": "https://drive.google.com/file/d/1ypUiwc_yWtHwn6-HiyE49wOcRcLD2zlp/view"
-                },
-                {
-                  "type": "file",
-                  "name": "1. תרגילים - בגרויות ישנות.docx",
-                  "url": "https://drive.google.com/file/d/109rp-V7Dr_s3sAXUgCCsL7COiI-9eKC8/view"
                 }
               ]
             },

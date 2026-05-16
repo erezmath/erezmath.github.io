@@ -50,6 +50,13 @@ IGNORED_FILENAMES = [
     'lesson.json',          # lesson json files
 ]
 
+# List of file types to ignore during crawling (case-insensitive)
+IGNORED_FILE_TYPES = [
+    '.docx',
+    '.dox',
+]
+
+
 # File extensions to remove from display names when not removing all extensions.
 # Example: ['pdf', 'mp4']
 REMOVED_EXTENSIONS = ['pdf', 'mp4', 'gif']
@@ -629,6 +636,10 @@ def crawl_lesson_content(service, folder_id, use_cache=True, invalidated_ids=Non
             if filename in [ignored.lower() for ignored in IGNORED_FILENAMES]:
                 continue  # Skip this file
             
+            # check if file type should be ignored (for example docx, dox, etc) because pdf files are the files that should be displayed.
+            #if filename.endswith(tuple(IGNORED_FILE_TYPES)):
+            #    continue  # Skip this file
+
             # Use configurable extension removal for display name; keep original name for download
             name = display_name_from_filename(item['name'])
             content.append({
