@@ -180,6 +180,19 @@
             "due_date": "19-05-2026",
             "due_date_display": "שלישי, 19.05.2026"
           }
+        },
+        {
+          "name": "6. תרגול עצמי בעיות קיצון למבחן",
+          "desc": "",
+          "id": "2-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "בעיות קיצון - תרגול עצמי למבחן",
+              "url": "https://drive.google.com/file/d/1vr7aOIDGcITc5tMjCiSmZxoj0GBbecDU/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -2180,6 +2193,19 @@
             "due_date": "06-05-2026",
             "due_date_display": "רביעי, 06.05.2026"
           }
+        },
+        {
+          "name": "13. תרגול למבחן מבגרויות 481 ישנות",
+          "desc": "",
+          "id": "6-15",
+          "content": [
+            {
+              "type": "file",
+              "name": "2. טריגו מבגרויות 481",
+              "url": "https://drive.google.com/file/d/1z7zUeaHF2uPVE2jQ2Z8N50zN8P3s4MHQ/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -3036,6 +3062,11 @@
               "type": "file",
               "name": "2. מבחן לדוגמא מאי י 571",
               "url": "https://drive.google.com/file/d/1JuW8OpQtDdEvtQrqqFagjMRwZfExi7TN/view"
+            },
+            {
+              "type": "file",
+              "name": "3. איך להתכונן למבחן",
+              "url": "https://drive.google.com/file/d/1dXhDiX0-SJ7F9hWZoOviqNIl8-zaYfZq/view"
             }
           ],
           "lesson_json": {
