@@ -1439,9 +1439,22 @@
           "lesson_json": {}
         },
         {
-          "name": "20. קטע אמצעים במשולש",
+          "name": "19.5. תרגילי סיכום מרובעים",
           "desc": "",
           "id": "2-22",
+          "content": [
+            {
+              "type": "file",
+              "name": "תרגילי סיכום מרובעים - עוזרי 170-171,  353-354",
+              "url": "https://drive.google.com/file/d/1lIyTxrDu0GxaMCyaEqLcWoevlNaXWJNL/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "20. קטע אמצעים במשולש",
+          "desc": "",
+          "id": "2-23",
           "content": [
             {
               "type": "file",
@@ -1459,7 +1472,7 @@
         {
           "name": "21. קטע אמצעים במשולש - הפוך",
           "desc": "",
-          "id": "2-23",
+          "id": "2-24",
           "content": [
             {
               "type": "file",
@@ -1477,7 +1490,7 @@
         {
           "name": "22. תיכון ויחס הבסיסים",
           "desc": "",
-          "id": "2-24",
+          "id": "2-25",
           "content": [
             {
               "type": "file",
@@ -1500,7 +1513,7 @@
         {
           "name": "23. קטע אמצעים במשולש בשילוב שטחים",
           "desc": "",
-          "id": "2-25",
+          "id": "2-26",
           "content": [
             {
               "type": "file",
@@ -1513,7 +1526,7 @@
         {
           "name": "24. קטע אמצעים בטרפז",
           "desc": "",
-          "id": "2-26",
+          "id": "2-27",
           "content": [
             {
               "type": "file",
@@ -1526,7 +1539,7 @@
         {
           "name": "25. קטע אמצעים בטרפז - תרגול נוסף לקראת מבחן",
           "desc": "",
-          "id": "2-27",
+          "id": "2-28",
           "content": [
             {
               "type": "file",
@@ -1539,12 +1552,55 @@
         {
           "name": "26. מפגש התיכונים",
           "desc": "",
-          "id": "2-28",
+          "id": "2-29",
           "content": [
             {
               "type": "file",
               "name": "מפגש התיכונים במשולש",
               "url": "https://drive.google.com/file/d/1LgWi-cd6qF--OpQmcBxXfkBJu3dmSSDk/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "27. תרגול לסוף השנה",
+          "desc": "",
+          "id": "2-30",
+          "content": [
+            {
+              "type": "file",
+              "name": "דף עבודה סאמר סקול 1-2 גאומטריה מרובעים + קטע אמצעים - פתרונות",
+              "url": "https://drive.google.com/file/d/1mFEQuSD99H_TXajkfbkKYrtCVMxoKqKL/view"
+            },
+            {
+              "type": "file",
+              "name": "דף עבודה סאמר סקול 1-2 גאומטריה מרובעים + קטע אמצעים.docx",
+              "url": "https://drive.google.com/file/d/12rmON7xjTKtVz62uJ2SdvvCgjMbl-VRS/view"
+            },
+            {
+              "type": "file",
+              "name": "דף עבודה סאמר סקול 1-2 גאומטריה מרובעים + קטע אמצעים",
+              "url": "https://drive.google.com/file/d/12HtSch06G_OrWBu4JvKJGQEyPXHiGhtU/view"
+            },
+            {
+              "type": "file",
+              "name": "שאלה 20 - מרובעים + אמצעים משרד החינוך - פתרון",
+              "url": "https://drive.google.com/file/d/10mq7mV9w_EVMtwlYNBFElwsa7bjLw3wq/view"
+            },
+            {
+              "type": "file",
+              "name": "תרגילי סיכום מרובעים - עוזרי 170-171,  353-354 - פתרונות",
+              "url": "https://drive.google.com/file/d/12oIRa70IlmutMX7Us6tDM1Lpdm4R6FOd/view"
+            },
+            {
+              "type": "file",
+              "name": "תרגילי סיכום מרובעים - עוזרי 170-171,  353-354",
+              "url": "https://drive.google.com/file/d/1EonQWaA6ifud6OIBqr3MALTLeCqhYqR2/view"
+            },
+            {
+              "type": "file",
+              "name": "תרגילי סיכום מרובעים+קטע אמצעים - משרד החינוך",
+              "url": "https://drive.google.com/file/d/14hUvTRfXTX332dGzf5GB3olZuD2AHnvE/view"
             }
           ],
           "lesson_json": {}

@@ -33,6 +33,11 @@
               "type": "file",
               "name": "2. משפטים בגיאומטריה - עם ציורים",
               "url": "https://drive.google.com/file/d/1q_NiXeYgONG41O9uW5GGhHhxz8suCUsP/view"
+            },
+            {
+              "type": "file",
+              "name": "3. גאומטריה - מונחים בעברית - לעולי נעלה",
+              "url": "https://drive.google.com/file/d/15nit5SYnYf-u30qnptQOG5Y1M8w5z9Df/view"
             }
           ],
           "lesson_json": {}
@@ -1845,6 +1850,34 @@
             "due_date": "20-05-2026",
             "due_date_display": "רביעי, 20.05.2026"
           }
+        },
+        {
+          "name": "35. אינטגרלים - אינטגרל לא מסוים - פונקציה קדומה - פולינומים",
+          "desc": "<p>שעה שיעור - אינטגרל לא מסוים, יש גם סרטון תרגול נוסף מומלץ (עד דקה 33).</p>",
+          "id": "5-39",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1Um2a8UKwIizWfZl8YGyfE0MeE1OIaGGj/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב. אינטגרלים",
+              "url": "https://drive.google.com/file/d/1H7y7zWk6cR0ptRKUsH1Se0UYI2kqAHY1/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "26-05-2026",
+            "due_date": "31-05-2026",
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=7QfgZdqjE5Y",
+                "title": "סרטון תרגול אינטגרלים - עידו מרבך"
+              }
+            ],
+            "due_date_display": "ראשון, 31.05.2026"
+          }
         }
       ]
     },
@@ -3067,6 +3100,16 @@
               "type": "file",
               "name": "3. איך להתכונן למבחן",
               "url": "https://drive.google.com/file/d/1dXhDiX0-SJ7F9hWZoOviqNIl8-zaYfZq/view"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן מאי י 571 מועד א - סופי עם תרגום",
+              "url": "https://drive.google.com/file/d/1_V0Ty948UcQWpaH4kOQ1tiBQhfOGENIb/view"
+            },
+            {
+              "type": "file",
+              "name": "5. פתרון מבחן מועד א",
+              "url": "https://drive.google.com/file/d/1YilNPXIeek3PTcs_J9hHc39OpnREPfVR/view"
             }
           ],
           "lesson_json": {

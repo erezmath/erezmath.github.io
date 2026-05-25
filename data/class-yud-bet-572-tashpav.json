@@ -546,18 +546,23 @@
           "content": [
             {
               "type": "file",
-              "name": "1. סיכום שיעור כפול",
+              "name": "1. הגדרת הלוג - סיכום שיעור",
+              "url": "https://drive.google.com/file/d/16BuvsFWfAbrwsqRrAaQ9dN4TwQKI6OSn/view"
+            },
+            {
+              "type": "file",
+              "name": "2. הגדרת הלוג - ש.ב.docx",
+              "url": "https://drive.google.com/file/d/1ViodhDoyKuAXu2sMhuK9ZMhKonLfjark/view"
+            },
+            {
+              "type": "file",
+              "name": "3. חוקי לוגריתם ומשוואות עם לוגים",
               "url": "https://drive.google.com/file/d/1z6ZNFv460JUOALZ2D974YwhLfzltPAyX/view"
             },
             {
               "type": "file",
-              "name": "ש.ב.docx",
+              "name": "4. ש.ב - חוקי לוגריתם ומשוואות עם לוגים.docx",
               "url": "https://drive.google.com/file/d/13Q_TfgrJxmLv4Ba8NiNt_rRA-dxLojgr/view"
-            },
-            {
-              "type": "file",
-              "name": "ש.ב",
-              "url": "https://drive.google.com/file/d/109qsGrQ2Me9zETeT3kxQcjHKA6CX-w4K/view"
             }
           ],
           "lesson_json": {}

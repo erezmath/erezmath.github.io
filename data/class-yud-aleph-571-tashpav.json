@@ -63,6 +63,60 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "2. לוגים - הגדרה",
+          "desc": "",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. הגדרת הלוג - סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1bincjFnSmyrvxH9_AV-Z-aHUFgqb2dv0/view"
+            },
+            {
+              "type": "file",
+              "name": "2. הגדרת הלוג - ש.ב",
+              "url": "https://drive.google.com/file/d/1BUgVw1oZIYsJZezee8Akan_ia_v-C28K/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "3. לוגים - חוקים בסיסיים (כפל, חילוק, חזקה, שורש)",
+          "desc": "",
+          "id": "1-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. חוקי לוגים בסיסיים - סיכום שיעור",
+              "url": "https://drive.google.com/file/d/10FI77ZGmQgLcFVDqdOmV2IuZMXsN9HW7/view"
+            },
+            {
+              "type": "file",
+              "name": "2. חוקי לוגים בסיסיים - ש.ב",
+              "url": "https://drive.google.com/file/d/1aierUpzk2zxe7ZybYQa922Xchb4yPwPw/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "4. לוגים - יתר החוקים ומשוואות",
+          "desc": "",
+          "id": "1-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. יתר החוקים ומשוואות - סיכום שיעור",
+              "url": "https://drive.google.com/file/d/162TW716UZMI5DqnsmhYJh2f566saSLy2/view"
+            },
+            {
+              "type": "file",
+              "name": "2. יתר החוקים ומשוואות - ש.ב",
+              "url": "https://drive.google.com/file/d/1ppBYUr-VbkJXLNOg33OITnxMHrgZhAY2/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
