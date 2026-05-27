@@ -2266,6 +2266,33 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "14. טריגו במעגל - משפט הסינוסים והקוסינוסים - משולש חוסם ומשולש חסום",
+          "desc": "<p>שעתיים שיעור - טריגו עם מעגל - ההרחבה של משפט הסינוסים.</p>\n<p>איך מוצאים רדיוס מעגל חוסם, ואיך מוצאים רדיוס מעגל חסום.</p>\n<p>היעזרו ברמזים שנתתי בשיעורי הבית</p>",
+          "id": "6-16",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1dden5U1y5DUFk9HcDe65CSb-DI4JtcvF/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב ללא רמזים",
+              "url": "https://drive.google.com/file/d/1-QHqcUwAbxaNFIRSYukOdNPCbX7oEdSC/view"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב עם רמזים",
+              "url": "https://drive.google.com/file/d/1JipoW7PyevIw7E_7_iWHGGqXwdiZQuiP/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "28-05-2026",
+            "due_date": "02-06-2026",
+            "due_date_display": "שלישי, 02.06.2026"
+          }
         }
       ]
     },
