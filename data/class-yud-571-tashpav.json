@@ -1852,7 +1852,7 @@
           }
         },
         {
-          "name": "35. אינטגרלים - אינטגרל לא מסוים - פונקציה קדומה - פולינומים",
+          "name": "35. אינטגרלים - אינטגרל לא מסוים - פונקציה קדומה - פולינומים מנה ושורש פשוטים",
           "desc": "<p>שעה שיעור - אינטגרל לא מסוים, יש גם סרטון תרגול נוסף מומלץ (עד דקה 33).</p>",
           "id": "5-39",
           "content": [
@@ -1876,6 +1876,33 @@
                 "title": "סרטון תרגול אינטגרלים - עידו מרבך"
               }
             ],
+            "due_date_display": "ראשון, 31.05.2026"
+          }
+        },
+        {
+          "name": "36. אינטגרלים - אינטגרל לא מסוים - מציאת פונקציה קדומה על ידי נקודה או שיפוע",
+          "desc": "<p>שעה שיעור, דוגמאות בהם מוצאים את ה C</p>",
+          "id": "5-40",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור + פתרונות לחלק מש.ב",
+              "url": "https://drive.google.com/file/d/1_XgjqyV45Bj_RrWr0rzToT1mfzPTi3uD/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1QJupTO_X1JXnIPE_mlXrXAVi68BkVr23/view"
+            },
+            {
+              "type": "file",
+              "name": "3. תרגילים נוספים מהספר",
+              "url": "https://drive.google.com/file/d/1MEtuO4kecd5YNO40fzowL40XHGIE6Al7/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "27-05-2026",
+            "due_date": "31-05-2026",
             "due_date_display": "ראשון, 31.05.2026"
           }
         }
