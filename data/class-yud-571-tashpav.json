@@ -1913,8 +1913,13 @@
           "content": [
             {
               "type": "file",
-              "name": "דף עבודה שאלון 571 חקירת שורש ומנה",
+              "name": "1. דף עבודה שאלון 571 חקירת שורש ומנה",
               "url": "https://drive.google.com/file/d/1VfVdX5gc_U_Eq--skZ5aO_fsJp-v4aQs/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון שאלה ראשונה מהדף",
+              "url": "https://drive.google.com/file/d/1uOWE8cVjbgSXOt9xl-wiDYUIu2RgK8qc/view"
             }
           ],
           "lesson_json": {
