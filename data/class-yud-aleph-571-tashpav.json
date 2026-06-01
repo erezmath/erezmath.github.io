@@ -117,6 +117,42 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "5. חקירת פונקציה מעריכית - תחום הגדרה, חיתוך עם הצירים, קצת אי שוויון",
+          "desc": "",
+          "id": "1-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1JbU-kS9kqSo59qQZxzFEIvD4-eqT4vnh/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1_0TSkkVNQvP-HInGsXKt5H4-O48e_4-F/view"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "6. חקירת פונקציה מעריכית - נגזרת, פרמטרים, משוואת משיק, נקודות קיצון",
+          "desc": "",
+          "id": "1-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1TaCxOQDbB6EeNiF3fb4sWs25nV5MvvmT/view"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1UwmC_TQlM7TGwhEohloimGXdVmXEPtTh/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
