@@ -3065,6 +3065,17 @@
           "content": [
             {
               "type": "folder",
+              "name": "0. תרגול למבחן - אינטגרלים למבחן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "3. תרגילים נוספים מהספר",
+                  "url": "https://drive.google.com/file/d/1_7Nu4tAvkCxCFEGTc3mPdI3gvcWwmOIK/view"
+                }
+              ]
+            },
+            {
+              "type": "folder",
               "name": "0. תרגול למבחן - בעיות קיצון גרפיות",
               "content": [
                 {
@@ -3090,7 +3101,7 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "1. בני גורן - תרגול דמיון למבחן מאי",
+                  "name": "1. בני גורן - תרגול דמיון למבחן - רמה נמוכה",
                   "url": "https://drive.google.com/file/d/1iOF4kMYnX5fjJChhiR31sZlZdOZNi_kh/view"
                 },
                 {
@@ -3143,6 +3154,16 @@
                   "type": "file",
                   "name": "4. חקירת הבע באמצעות עם הרבה סעיפי חשיבה שלי",
                   "url": "https://drive.google.com/file/d/1J9QeUYp0hcRztB_hgk2UAc75EDVtlYVm/view"
+                },
+                {
+                  "type": "file",
+                  "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה ראשונה",
+                  "url": "https://drive.google.com/file/d/1HCqn_3S9br4sdJ7DuI6G6EejqhJ3ji7v/view"
+                },
+                {
+                  "type": "file",
+                  "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה",
+                  "url": "https://drive.google.com/file/d/1mT2KCHT0DZhRj2takC-G0ZY9eZLfH03r/view"
                 }
               ]
             },
