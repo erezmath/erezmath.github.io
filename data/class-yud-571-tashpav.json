@@ -198,6 +198,23 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "7. תרגול למבחן - בעיות קיצון גרפיות לא רק מלבן",
+          "desc": "<p>קיצון גרפי - לא רק מלבן - טרפז, אורך קטע, יכול להיות מעגל, סכום ניצבים בריבוע, ועוד...</p>",
+          "id": "2-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "בעיות קיצון גרפיות - לא רק מלבן - תרגילים נוספים למבחן",
+              "url": "https://drive.google.com/file/d/1EKSGCdmZKLuXJNhTwbbL89LSnXhG2hNK/view"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "02-06-2026",
+            "due_date": "07-06-2026",
+            "due_date_display": "ראשון, 07.06.2026"
+          }
         }
       ]
     },
