@@ -1937,6 +1937,11 @@
               "type": "file",
               "name": "2. פתרון שאלה ראשונה מהדף",
               "url": "https://drive.google.com/file/d/1uOWE8cVjbgSXOt9xl-wiDYUIu2RgK8qc/view"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרון שאלה שלישית מהדף",
+              "url": "https://drive.google.com/file/d/1hK6HN4rdSQPG36eCuGmW6RomQjyheNGH/view"
             }
           ],
           "lesson_json": {
@@ -1944,6 +1949,24 @@
             "due_date": "07-06-2026",
             "due_date_display": "ראשון, 07.06.2026"
           }
+        },
+        {
+          "name": "38. פונקציה הופכית - דוגמאות עם שורש ומנה",
+          "desc": "",
+          "id": "5-42",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. פונקציה הופכית - שאלות",
+              "url": "https://drive.google.com/file/d/1lzgH2XnFq38cIw6s6aVBWuDEfoILK77D/view"
+            },
+            {
+              "type": "file",
+              "name": "2. פונקציה הופכית - עם תשובות",
+              "url": "https://drive.google.com/file/d/13cIy8zSTPAiO2soEPinmLdb6xiA_LCEz/view"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -3179,8 +3202,23 @@
                 },
                 {
                   "type": "file",
+                  "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה שלישית",
+                  "url": "https://drive.google.com/file/d/1fE67DG4EyzkvgDAPBC3q3nQh0I9I4KvU/view"
+                },
+                {
+                  "type": "file",
                   "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה",
                   "url": "https://drive.google.com/file/d/1mT2KCHT0DZhRj2takC-G0ZY9eZLfH03r/view"
+                },
+                {
+                  "type": "file",
+                  "name": "6. פונקציה הופכית - שאלות",
+                  "url": "https://drive.google.com/file/d/19whRecDEBGFhVjlJx7LLq0fOcDJXe7Fk/view"
+                },
+                {
+                  "type": "file",
+                  "name": "6. פונקציה הופכית - תשובות",
+                  "url": "https://drive.google.com/file/d/1DGstG-TRza32H4rU3AtVp80z1HynyG6X/view"
                 }
               ]
             },
