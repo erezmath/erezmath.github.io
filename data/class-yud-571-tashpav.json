@@ -3142,11 +3142,6 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "0. תרגילים - בני גורן, ארכימדס, מריאן.docx",
-                  "url": "https://drive.google.com/file/d/1ugxZ-PkysnWLycmw0JIT21gl2wv7RCD3/view"
-                },
-                {
-                  "type": "file",
                   "name": "0. תרגילים - בני גורן, ארכימדס, מריאן",
                   "url": "https://drive.google.com/file/d/1ypUiwc_yWtHwn6-HiyE49wOcRcLD2zlp/view"
                 },
@@ -3154,6 +3149,11 @@
                   "type": "file",
                   "name": "1. בעיות קיצון - בגרויות 571 -  2026",
                   "url": "https://drive.google.com/file/d/1EQtZAdQHEiQzAD2kmuPu465h4BMS2xyL/view"
+                },
+                {
+                  "type": "file",
+                  "name": "2. בעיות קיצון מיואל גבע",
+                  "url": "https://drive.google.com/file/d/16aag5KRC1IflixKS2o1OiOy2Dv2l3PHO/view"
                 }
               ]
             },
