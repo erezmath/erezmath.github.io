@@ -623,31 +623,62 @@ def crawl_lesson_content(service, folder_id, use_cache=True, invalidated_ids=Non
     invalidated_ids = invalidated_ids or set()
     items, _ = list_folder_contents(service, folder_id, use_cache=use_cache, invalidated_ids=invalidated_ids)
     content = []
+    
     for item in items:
         if item['mimeType'] == 'application/vnd.google-apps.folder':
             content.append({
                 'type': 'folder',
                 'name': item['name'],
-                'content': crawl_lesson_content(service, item['id'], use_cache=use_cache, invalidated_ids=invalidated_ids)
+                'content': crawl_lesson_content(service, item['id'], use_cache=use_cache, invalidated_ids=invalidated_ids),
+                'file_extension': ''  # Account for folders to prevent KeyErrors
             })
         else:
             # Check if the file should be ignored
             filename = item['name'].lower()
             if filename in [ignored.lower() for ignored in IGNORED_FILENAMES]:
                 continue  # Skip this file
-            
-            # check if file type should be ignored (for example docx, dox, etc) because pdf files are the files that should be displayed.
-            #if filename.endswith(tuple(IGNORED_FILE_TYPES)):
-            #    continue  # Skip this file
+
+            # Extract base name and extension to power the cleanup feature
+            base_name, ext = os.path.splitext(item['name'])
+            ext = ext.lower()
 
             # Use configurable extension removal for display name; keep original name for download
             name = display_name_from_filename(item['name'])
             content.append({
                 'type': 'file',
                 'name': name,
-                'url': f'https://drive.google.com/file/d/{item["id"]}/view'
+                'url': f'https://drive.google.com/file/d/{item["id"]}/view',
+                'base_name': base_name,
+                'file_extension': ext
             })
-    return content
+            
+    # --- Duplicate Cleanup Feature ---
+    # 1. Find all base names of PDF files in the current folder level
+    pdf_bases = {
+        c['base_name'] 
+        for c in content 
+        if c['type'] == 'file' and c.get('file_extension') == '.pdf'
+    }
+    
+    # 2. Filter out .doc and .docx files if a matching PDF exists
+    filtered_content = []
+    for c in content:
+        if c['type'] == 'folder':
+            filtered_content.append(c)
+        else:
+            ext = c.get('file_extension')
+            base = c.get('base_name')
+            
+            # Skip if it is a Word doc and we already have the PDF version
+            if ext in ['.doc', '.docx'] and base in pdf_bases:
+                continue
+            
+            # Optional: Remove 'base_name' if you don't want it cluttering your final JSON
+            # del c['base_name']
+            
+            filtered_content.append(c)
+            
+    return filtered_content
 
 def crawl_class(service, class_name, folder_id, banner_url, url_name, category, class_id, invalidated_ids=None, use_cache=True):
     """Crawl all topics and lessons for a class."""

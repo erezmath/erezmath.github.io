@@ -22,22 +22,30 @@
             {
               "type": "file",
               "name": "דף נוסחאות 471 - תשפה - מחוק מותאם ליא",
-              "url": "https://drive.google.com/file/d/1QleBOj6Uo_SZbmt9OofQBNobaBeryBBT/view"
+              "url": "https://drive.google.com/file/d/1QleBOj6Uo_SZbmt9OofQBNobaBeryBBT/view",
+              "base_name": "דף נוסחאות 471 - תשפה - מחוק מותאם ליא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "דף נוסחאות 471 - תשפה - מלא",
-              "url": "https://drive.google.com/file/d/1nKkKAX-0gCl9jGOTVSmRRc2JYa4Q1kWA/view"
+              "url": "https://drive.google.com/file/d/1nKkKAX-0gCl9jGOTVSmRRc2JYa4Q1kWA/view",
+              "base_name": "דף נוסחאות 471 - תשפה - מלא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "משפטים בגאומטריה מעגל לתלמידי 471 - תשפה",
-              "url": "https://drive.google.com/file/d/1zK1MlgiaFLlLxgw1QsnZIDPpOFwOoC6W/view"
+              "url": "https://drive.google.com/file/d/1zK1MlgiaFLlLxgw1QsnZIDPpOFwOoC6W/view",
+              "base_name": "משפטים בגאומטריה מעגל לתלמידי 471 - תשפה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "משפטים בגאומטריה מעגל לתלמידי 471",
-              "url": "https://drive.google.com/file/d/1xvuOiFASXcBHa18vEP0-djDRpsLO5n_V/view"
+              "url": "https://drive.google.com/file/d/1xvuOiFASXcBHa18vEP0-djDRpsLO5n_V/view",
+              "base_name": "משפטים בגאומטריה מעגל לתלמידי 471",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -50,17 +58,23 @@
             {
               "type": "file",
               "name": "חוברת בגרויות 471 2025 - בלי מיקוד",
-              "url": "https://drive.google.com/file/d/1zxFAp_2RpAg_TIuN4yYyZ5KqfIeq_Vmt/view"
+              "url": "https://drive.google.com/file/d/1zxFAp_2RpAg_TIuN4yYyZ5KqfIeq_Vmt/view",
+              "base_name": "חוברת בגרויות 471 2025 - בלי מיקוד",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "חוברת בגרויות 471 2025 - עם מיקוד",
-              "url": "https://drive.google.com/file/d/1nOcQ35YAPESNwcO_leX4yoTcxC6FVTg5/view"
+              "url": "https://drive.google.com/file/d/1nOcQ35YAPESNwcO_leX4yoTcxC6FVTg5/view",
+              "base_name": "חוברת בגרויות 471 2025 - עם מיקוד",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "עפר ילין (יואל גבע) תרגילי גיאומטריה משולבים ללא מעגל מיקוד 2025 עם פתרונות מלאים",
-              "url": "https://drive.google.com/file/d/1ou-1wsTIsNhkQE2CRnDp55h4BO6FgWBq/view"
+              "url": "https://drive.google.com/file/d/1ou-1wsTIsNhkQE2CRnDp55h4BO6FgWBq/view",
+              "base_name": "עפר ילין (יואל גבע) תרגילי גיאומטריה משולבים ללא מעגל מיקוד 2025 עם פתרונות מלאים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -73,12 +87,16 @@
             {
               "type": "file",
               "name": "רגרסיה",
-              "url": "https://drive.google.com/file/d/1vfWWRsArRwcIirI4_Vhj90FzTt7GvhAy/view"
+              "url": "https://drive.google.com/file/d/1vfWWRsArRwcIirI4_Vhj90FzTt7GvhAy/view",
+              "base_name": "רגרסיה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "רגרסיה.pptx",
-              "url": "https://drive.google.com/file/d/1RfjlDGhbCFebFt530R7Ama49GL0aB7yA/view"
+              "url": "https://drive.google.com/file/d/1RfjlDGhbCFebFt530R7Ama49GL0aB7yA/view",
+              "base_name": "רגרסיה",
+              "file_extension": ".pptx"
             }
           ],
           "lesson_json": {}
@@ -102,12 +120,16 @@
             {
               "type": "file",
               "name": "שאלות חזרה - בעיות קיצון גאומטריות יא 4 יחל, יפית אביטל",
-              "url": "https://drive.google.com/file/d/1zxrM0AS4Wd13Q6nRL9ecQIUXh5D97Sx0/view"
+              "url": "https://drive.google.com/file/d/1zxrM0AS4Wd13Q6nRL9ecQIUXh5D97Sx0/view",
+              "base_name": "שאלות חזרה - בעיות קיצון גאומטריות יא 4 יחל, יפית אביטל",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "שאלות ערך קיצון גאומטריות 471 - מחוז מרכז",
-              "url": "https://drive.google.com/file/d/1bOoz45yGUXhbe-utgBYNNfH1QjBEc1e0/view"
+              "url": "https://drive.google.com/file/d/1bOoz45yGUXhbe-utgBYNNfH1QjBEc1e0/view",
+              "base_name": "שאלות ערך קיצון גאומטריות 471 - מחוז מרכז",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -120,27 +142,37 @@
             {
               "type": "file",
               "name": "גיאומטריה יא -4 יחל-  שאלות משולבות במעגל סופי.docx",
-              "url": "https://drive.google.com/file/d/1islykkqoOzi7-7b2FriGKTb-U-MIzO99/view"
+              "url": "https://drive.google.com/file/d/1islykkqoOzi7-7b2FriGKTb-U-MIzO99/view",
+              "base_name": "גיאומטריה יא -4 יחל-  שאלות משולבות במעגל סופי",
+              "file_extension": ".docx"
             },
             {
               "type": "file",
               "name": "גיאומטריה משולבת - מעגל לכיתה יא גרגורי שפורין",
-              "url": "https://drive.google.com/file/d/1m-Qy_eOS4qA9sMH_Vl6X4I1oYFzuTGHh/view"
+              "url": "https://drive.google.com/file/d/1m-Qy_eOS4qA9sMH_Vl6X4I1oYFzuTGHh/view",
+              "base_name": "גיאומטריה משולבת - מעגל לכיתה יא גרגורי שפורין",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "חוברת תרגול מעגל 471 - תשפה.docx",
-              "url": "https://drive.google.com/file/d/1Da9t1jM4aE5yf4j4ZTduCvJj542re08G/view"
+              "url": "https://drive.google.com/file/d/1Da9t1jM4aE5yf4j4ZTduCvJj542re08G/view",
+              "base_name": "חוברת תרגול מעגל 471 - תשפה",
+              "file_extension": ".docx"
             },
             {
               "type": "file",
               "name": "משפטים במעגל לתלמידי 4 יחידות - חלק א'",
-              "url": "https://drive.google.com/file/d/1vPJL3INZGU0k0UaOVjAovhfOPRj1Vowb/view"
+              "url": "https://drive.google.com/file/d/1vPJL3INZGU0k0UaOVjAovhfOPRj1Vowb/view",
+              "base_name": "משפטים במעגל לתלמידי 4 יחידות - חלק א'",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "שאלות במעגל 471 מותאמות למיקוד תשפה - חלק א'",
-              "url": "https://drive.google.com/file/d/17PCUeS3bf_R366R_tCpf5m-r5OcBzJZY/view"
+              "url": "https://drive.google.com/file/d/17PCUeS3bf_R366R_tCpf5m-r5OcBzJZY/view",
+              "base_name": "שאלות במעגל 471 מותאמות למיקוד תשפה - חלק א'",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -153,7 +185,9 @@
             {
               "type": "file",
               "name": "GOOL_471_secret_2025_ver1",
-              "url": "https://drive.google.com/file/d/1y-MdLb_APcG3FyNeeGXHkMUk3-BJHM6f/view"
+              "url": "https://drive.google.com/file/d/1y-MdLb_APcG3FyNeeGXHkMUk3-BJHM6f/view",
+              "base_name": "GOOL_471_secret_2025_ver1",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -166,7 +200,9 @@
             {
               "type": "file",
               "name": "התפלגות נורמלית שאלות נוספות סמיון ווינר",
-              "url": "https://drive.google.com/file/d/1bERA47wBw2eJ52xxSbGWge9FcLwGgG7u/view"
+              "url": "https://drive.google.com/file/d/1bERA47wBw2eJ52xxSbGWge9FcLwGgG7u/view",
+              "base_name": "התפלגות נורמלית שאלות נוספות סמיון ווינר",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -183,14 +219,19 @@
                 {
                   "type": "file",
                   "name": "__קיץ 2026 שאלון 471 -  פתרונות",
-                  "url": "https://drive.google.com/file/d/16atAp4PQlmj7GzayQ4eTDFbAvkk45v--/view"
+                  "url": "https://drive.google.com/file/d/16atAp4PQlmj7GzayQ4eTDFbAvkk45v--/view",
+                  "base_name": "__קיץ 2026 שאלון 471 -  פתרונות",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "__קיץ 2026 שאלון 471 -מבחנים",
-                  "url": "https://drive.google.com/file/d/1ZVFyN9nQI8UbyBMDia6UBfA_UOvwSxWB/view"
+                  "url": "https://drive.google.com/file/d/1ZVFyN9nQI8UbyBMDia6UBfA_UOvwSxWB/view",
+                  "base_name": "__קיץ 2026 שאלון 471 -מבחנים",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             }
           ],
           "lesson_json": {}
@@ -203,17 +244,23 @@
             {
               "type": "file",
               "name": "ארכימדס 471 - מתכונות 1,2",
-              "url": "https://drive.google.com/file/d/1_PPsLnmnBGJuhj6HIxiTrXDj4X3zaAjf/view"
+              "url": "https://drive.google.com/file/d/1_PPsLnmnBGJuhj6HIxiTrXDj4X3zaAjf/view",
+              "base_name": "ארכימדס 471 - מתכונות 1,2",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ארכימדס 471 - מתכונות 13,14",
-              "url": "https://drive.google.com/file/d/1DiA7YpqUHrfsVndmaGK8LuepQ4hCqiwO/view"
+              "url": "https://drive.google.com/file/d/1DiA7YpqUHrfsVndmaGK8LuepQ4hCqiwO/view",
+              "base_name": "ארכימדס 471 - מתכונות 13,14",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ארכימדס 471 - מתכונות 3-9",
-              "url": "https://drive.google.com/file/d/1SopVI3pQPajcd4xlHRAEfHPseJyiQ2bS/view"
+              "url": "https://drive.google.com/file/d/1SopVI3pQPajcd4xlHRAEfHPseJyiQ2bS/view",
+              "base_name": "ארכימדס 471 - מתכונות 3-9",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -226,7 +273,9 @@
             {
               "type": "file",
               "name": "מתכונת במתמטיקה 471 סמיון ויינר",
-              "url": "https://drive.google.com/file/d/1QUmIVqM_rbUnDUVOnBWtvp2Ub9VnJHqS/view"
+              "url": "https://drive.google.com/file/d/1QUmIVqM_rbUnDUVOnBWtvp2Ub9VnJHqS/view",
+              "base_name": "מתכונת במתמטיקה 471 סמיון ויינר",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}

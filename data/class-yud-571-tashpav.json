@@ -27,17 +27,23 @@
             {
               "type": "file",
               "name": "1. משפטים בגאומטריה לבגרות",
-              "url": "https://drive.google.com/file/d/1LepqjB-U8M0YR5b042SV-cooMBhL28J-/view"
+              "url": "https://drive.google.com/file/d/1LepqjB-U8M0YR5b042SV-cooMBhL28J-/view",
+              "base_name": "1. משפטים בגאומטריה לבגרות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. משפטים בגיאומטריה - עם ציורים",
-              "url": "https://drive.google.com/file/d/1q_NiXeYgONG41O9uW5GGhHhxz8suCUsP/view"
+              "url": "https://drive.google.com/file/d/1q_NiXeYgONG41O9uW5GGhHhxz8suCUsP/view",
+              "base_name": "2. משפטים בגיאומטריה - עם ציורים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. גאומטריה - מונחים בעברית - לעולי נעלה",
-              "url": "https://drive.google.com/file/d/15nit5SYnYf-u30qnptQOG5Y1M8w5z9Df/view"
+              "url": "https://drive.google.com/file/d/15nit5SYnYf-u30qnptQOG5Y1M8w5z9Df/view",
+              "base_name": "3. גאומטריה - מונחים בעברית - לעולי נעלה",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -50,7 +56,9 @@
             {
               "type": "file",
               "name": "דף נוסחאות 5 יחל תוכנית חדשה",
-              "url": "https://drive.google.com/file/d/1z9Oar4v5Y5byBOwLJImFjX_aMzImKhoS/view"
+              "url": "https://drive.google.com/file/d/1z9Oar4v5Y5byBOwLJImFjX_aMzImKhoS/view",
+              "base_name": "דף נוסחאות 5 יחל תוכנית חדשה",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -69,12 +77,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/113AXepq2n0yAZEQK0Ab31CoodlQOxQ0p/view"
+              "url": "https://drive.google.com/file/d/113AXepq2n0yAZEQK0Ab31CoodlQOxQ0p/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. שאלות בכיתה",
-              "url": "https://drive.google.com/file/d/1DuPfUJc132pXugRfQDKTiwmtHt7BPD-V/view"
+              "url": "https://drive.google.com/file/d/1DuPfUJc132pXugRfQDKTiwmtHt7BPD-V/view",
+              "base_name": "2. שאלות בכיתה",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -91,7 +103,9 @@
             {
               "type": "file",
               "name": "1. ש.ב",
-              "url": "https://drive.google.com/file/d/1FNFHJidxyibwy2qWT-QcywXfM2cd0axW/view"
+              "url": "https://drive.google.com/file/d/1FNFHJidxyibwy2qWT-QcywXfM2cd0axW/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -108,17 +122,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1oADLaZAvnrtDSB_SV7Vrjylk1o3C00Pb/view"
-            },
-            {
-              "type": "file",
-              "name": "2. ש.ב.docx",
-              "url": "https://drive.google.com/file/d/1UAF8sCkn7FAdB_zn4fd0XQv1jMct5DdF/view"
+              "url": "https://drive.google.com/file/d/1oADLaZAvnrtDSB_SV7Vrjylk1o3C00Pb/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1l9EzxVzWI2fR9UQ9hxRHpRQ-_ccw5lLb/view"
+              "url": "https://drive.google.com/file/d/1l9EzxVzWI2fR9UQ9hxRHpRQ-_ccw5lLb/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -135,22 +148,23 @@
             {
               "type": "file",
               "name": "1. פתרון תרגיל בכיתה",
-              "url": "https://drive.google.com/file/d/18sdnPFJq_muazC3CNq4HMwXOwN7u9C7z/view"
-            },
-            {
-              "type": "file",
-              "name": "2. ש.ב.docx",
-              "url": "https://drive.google.com/file/d/1GgV_vZvBBW7gjFe0HX21XTDiNtFNHT5v/view"
+              "url": "https://drive.google.com/file/d/18sdnPFJq_muazC3CNq4HMwXOwN7u9C7z/view",
+              "base_name": "1. פתרון תרגיל בכיתה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1LD0X9O5zLcKbjkqYRZH9JwZlC_lex78K/view"
+              "url": "https://drive.google.com/file/d/1LD0X9O5zLcKbjkqYRZH9JwZlC_lex78K/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות לחלק מש.ב",
-              "url": "https://drive.google.com/file/d/1d96Avj5Vm1ovF_oYt_P1jRRUco8BMUnw/view"
+              "url": "https://drive.google.com/file/d/1d96Avj5Vm1ovF_oYt_P1jRRUco8BMUnw/view",
+              "base_name": "3. פתרונות לחלק מש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -167,17 +181,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור ופתרון",
-              "url": "https://drive.google.com/file/d/1JjploTN3pqlgmaUowxxbIpP9ewmFv-6M/view"
-            },
-            {
-              "type": "file",
-              "name": "2. ש.ב - בעיות קיצון גרפיות עם אסימפטוטות ופרמטרים.docx",
-              "url": "https://drive.google.com/file/d/1lqRFgMo9NFbE46GyQj6VSBpxg6KjcO7f/view"
+              "url": "https://drive.google.com/file/d/1JjploTN3pqlgmaUowxxbIpP9ewmFv-6M/view",
+              "base_name": "1. סיכום שיעור ופתרון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב - בעיות קיצון גרפיות עם אסימפטוטות ופרמטרים",
-              "url": "https://drive.google.com/file/d/1tV2u23gN43YrYetmnqaZp_-WkJnMzpD3/view"
+              "url": "https://drive.google.com/file/d/1tV2u23gN43YrYetmnqaZp_-WkJnMzpD3/view",
+              "base_name": "2. ש.ב - בעיות קיצון גרפיות עם אסימפטוטות ופרמטרים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -194,7 +207,9 @@
             {
               "type": "file",
               "name": "בעיות קיצון - תרגול עצמי למבחן",
-              "url": "https://drive.google.com/file/d/1vr7aOIDGcITc5tMjCiSmZxoj0GBbecDU/view"
+              "url": "https://drive.google.com/file/d/1vr7aOIDGcITc5tMjCiSmZxoj0GBbecDU/view",
+              "base_name": "בעיות קיצון - תרגול עצמי למבחן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -207,7 +222,9 @@
             {
               "type": "file",
               "name": "בעיות קיצון גרפיות - לא רק מלבן - תרגילים נוספים למבחן",
-              "url": "https://drive.google.com/file/d/1EKSGCdmZKLuXJNhTwbbL89LSnXhG2hNK/view"
+              "url": "https://drive.google.com/file/d/1EKSGCdmZKLuXJNhTwbbL89LSnXhG2hNK/view",
+              "base_name": "בעיות קיצון גרפיות - לא רק מלבן - תרגילים נוספים למבחן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -230,12 +247,16 @@
             {
               "type": "file",
               "name": "1. קטע אמצעים בטרפז - ארכימדס",
-              "url": "https://drive.google.com/file/d/19IiyNnB_0AI9WxKRats4_aBXFcqv3sLO/view"
+              "url": "https://drive.google.com/file/d/19IiyNnB_0AI9WxKRats4_aBXFcqv3sLO/view",
+              "base_name": "1. קטע אמצעים בטרפז - ארכימדס",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. רמזים לש.ב",
-              "url": "https://drive.google.com/file/d/1qDc4RCuaY61_FEdE1UMbZD9dKR4Q0f2j/view"
+              "url": "https://drive.google.com/file/d/1qDc4RCuaY61_FEdE1UMbZD9dKR4Q0f2j/view",
+              "base_name": "2. רמזים לש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -248,17 +269,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/18IQmdGDiJB1KewqIhOtOdqIEB5iLOisj/view"
+              "url": "https://drive.google.com/file/d/18IQmdGDiJB1KewqIhOtOdqIEB5iLOisj/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1WlvCWz2Uyfy3Tk0s3b_sjK9ENIfTEi91/view"
+              "url": "https://drive.google.com/file/d/1WlvCWz2Uyfy3Tk0s3b_sjK9ENIfTEi91/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פיצוח תרגילים",
-              "url": "https://drive.google.com/file/d/1MG0_PIZ1PGEeK-7so35dYmtHTK8myJuP/view"
+              "url": "https://drive.google.com/file/d/1MG0_PIZ1PGEeK-7so35dYmtHTK8myJuP/view",
+              "base_name": "3. פיצוח תרגילים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -271,22 +298,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1omR8DAXu_GiYHLi9DRcNVccuPNjijqn4/view"
+              "url": "https://drive.google.com/file/d/1omR8DAXu_GiYHLi9DRcNVccuPNjijqn4/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב תאלס חישובי",
-              "url": "https://drive.google.com/file/d/10eOw7z0VRlHeQjwgyBw3vEbE1rNSHqcz/view"
+              "url": "https://drive.google.com/file/d/10eOw7z0VRlHeQjwgyBw3vEbE1rNSHqcz/view",
+              "base_name": "2. ש.ב תאלס חישובי",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. ש.ב תאלס טענה נימוק",
-              "url": "https://drive.google.com/file/d/1_SMDUH6O6P-wLwWHbJY_KtSr2y3OINgf/view"
+              "url": "https://drive.google.com/file/d/1_SMDUH6O6P-wLwWHbJY_KtSr2y3OINgf/view",
+              "base_name": "3. ש.ב תאלס טענה נימוק",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. מצגת.pptx",
-              "url": "https://drive.google.com/file/d/1mTdEtfOT0zUWXp0Ic3uv2XXu50itw-uA/view"
+              "url": "https://drive.google.com/file/d/1mTdEtfOT0zUWXp0Ic3uv2XXu50itw-uA/view",
+              "base_name": "4. מצגת",
+              "file_extension": ".pptx"
             }
           ],
           "lesson_json": {}
@@ -299,12 +334,16 @@
             {
               "type": "file",
               "name": "פתרון 20",
-              "url": "https://drive.google.com/file/d/1I64Qw8F9GMyA_anN3hG3PhyP9fYoTN_r/view"
+              "url": "https://drive.google.com/file/d/1I64Qw8F9GMyA_anN3hG3PhyP9fYoTN_r/view",
+              "base_name": "פתרון 20",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "תאלס - משימה אסינכרונית - ליום ראשון עד שעה 17",
-              "url": "https://drive.google.com/file/d/1WQQCkuBMoOkbzcgXCDaCP1YxPX5fdZqw/view"
+              "url": "https://drive.google.com/file/d/1WQQCkuBMoOkbzcgXCDaCP1YxPX5fdZqw/view",
+              "base_name": "תאלס - משימה אסינכרונית - ליום ראשון עד שעה 17",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -317,7 +356,9 @@
             {
               "type": "file",
               "name": "1. תאלס הפוך - סיכום שיעור ושיעורי בית לשלישי",
-              "url": "https://drive.google.com/file/d/1Yv4qybpjxodpsj36hbYSW33MU4NAJ4Bn/view"
+              "url": "https://drive.google.com/file/d/1Yv4qybpjxodpsj36hbYSW33MU4NAJ4Bn/view",
+              "base_name": "1. תאלס הפוך - סיכום שיעור ושיעורי בית לשלישי",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -330,12 +371,16 @@
             {
               "type": "file",
               "name": "1. ש.ב לחג סוכות - תאלס",
-              "url": "https://drive.google.com/file/d/13xgyw--CGxZQSnduD5bGdjvWuHYnyqt4/view"
+              "url": "https://drive.google.com/file/d/13xgyw--CGxZQSnduD5bGdjvWuHYnyqt4/view",
+              "base_name": "1. ש.ב לחג סוכות - תאלס",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "פתרונות",
-              "url": "https://drive.google.com/file/d/1xELQsTbXOLIJ5Dlc1L43J9QCpOdRWHHU/view"
+              "url": "https://drive.google.com/file/d/1xELQsTbXOLIJ5Dlc1L43J9QCpOdRWHHU/view",
+              "base_name": "פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -348,22 +393,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1LlUohKuROGbCU4_-kPkWDoXEWCQbE5wo/view"
+              "url": "https://drive.google.com/file/d/1LlUohKuROGbCU4_-kPkWDoXEWCQbE5wo/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב - בלי רמזים",
-              "url": "https://drive.google.com/file/d/11wFDCPjfNd_Z73EPx3ICP8OH7dTgAsUf/view"
+              "url": "https://drive.google.com/file/d/11wFDCPjfNd_Z73EPx3ICP8OH7dTgAsUf/view",
+              "base_name": "2. ש.ב - בלי רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. ש.ב - עם רמזים",
-              "url": "https://drive.google.com/file/d/1iKJyFDfKDaht0326wk3pcCVrR7R-V6yj/view"
+              "url": "https://drive.google.com/file/d/1iKJyFDfKDaht0326wk3pcCVrR7R-V6yj/view",
+              "base_name": "3. ש.ב - עם רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות",
-              "url": "https://drive.google.com/file/d/1icbu3rMgJ95--I6wxzOLmtt4cZMbXb3n/view"
+              "url": "https://drive.google.com/file/d/1icbu3rMgJ95--I6wxzOLmtt4cZMbXb3n/view",
+              "base_name": "4. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -383,22 +436,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1qb3Cmm6W1vKwtGrOm5cgdiM8GLf__Btf/view"
+              "url": "https://drive.google.com/file/d/1qb3Cmm6W1vKwtGrOm5cgdiM8GLf__Btf/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב עם רמזים",
-              "url": "https://drive.google.com/file/d/1CrifXFCLUCs7KJYk8sX8pusv6psl1g2n/view"
+              "url": "https://drive.google.com/file/d/1CrifXFCLUCs7KJYk8sX8pusv6psl1g2n/view",
+              "base_name": "2. ש.ב עם רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. ש.ב בלי רמזים",
-              "url": "https://drive.google.com/file/d/1gMDSbXhpBwjZMhQme2zP4EL9CLrA7ybd/view"
+              "url": "https://drive.google.com/file/d/1gMDSbXhpBwjZMhQme2zP4EL9CLrA7ybd/view",
+              "base_name": "3. ש.ב בלי רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות",
-              "url": "https://drive.google.com/file/d/1mk99FjWyfbiBdvZjD1XgEZWWiixTDJ4a/view"
+              "url": "https://drive.google.com/file/d/1mk99FjWyfbiBdvZjD1XgEZWWiixTDJ4a/view",
+              "base_name": "4. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -411,17 +472,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1pZ4gWdPEpKcw0tcATIkF55_1nSOELIxk/view"
+              "url": "https://drive.google.com/file/d/1pZ4gWdPEpKcw0tcATIkF55_1nSOELIxk/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1HnQJ5hG1JNZLtukhnGYm7Fg5jD2IpuJu/view"
+              "url": "https://drive.google.com/file/d/1HnQJ5hG1JNZLtukhnGYm7Fg5jD2IpuJu/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/1O06KKbh8tZJNOGSEhtacgQwGyWrtS5lF/view"
+              "url": "https://drive.google.com/file/d/1O06KKbh8tZJNOGSEhtacgQwGyWrtS5lF/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -434,7 +501,9 @@
             {
               "type": "file",
               "name": "תרגול נוסף למבחן",
-              "url": "https://drive.google.com/file/d/1ff-9oRmQInX37yCvZXj5lytLauOwmfwA/view"
+              "url": "https://drive.google.com/file/d/1ff-9oRmQInX37yCvZXj5lytLauOwmfwA/view",
+              "base_name": "תרגול נוסף למבחן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -461,17 +530,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1ezP75cuoR4746SJt-KV5E65HuTBkLDSH/view"
+              "url": "https://drive.google.com/file/d/1ezP75cuoR4746SJt-KV5E65HuTBkLDSH/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1IIO2NT1xav6ZZNV8-ppc0GIcys2f5XUg/view"
+              "url": "https://drive.google.com/file/d/1IIO2NT1xav6ZZNV8-ppc0GIcys2f5XUg/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות ורמזים",
-              "url": "https://drive.google.com/file/d/1Hd5kUlJUoJXMV-T7Uek6ilUa0tsds2Fe/view"
+              "url": "https://drive.google.com/file/d/1Hd5kUlJUoJXMV-T7Uek6ilUa0tsds2Fe/view",
+              "base_name": "3. פתרונות ורמזים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -484,12 +559,16 @@
             {
               "type": "file",
               "name": "דמיון משולשים במרובעים מבני גורן",
-              "url": "https://drive.google.com/file/d/1JDrzQ1WCkFGAOuUVH7NYKpH0SoPh5ggO/view"
+              "url": "https://drive.google.com/file/d/1JDrzQ1WCkFGAOuUVH7NYKpH0SoPh5ggO/view",
+              "base_name": "דמיון משולשים במרובעים מבני גורן",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "פתרונות",
-              "url": "https://drive.google.com/file/d/1o-91PyYewgXAn8JfOtsTD9ny6zvE5tRl/view"
+              "url": "https://drive.google.com/file/d/1o-91PyYewgXAn8JfOtsTD9ny6zvE5tRl/view",
+              "base_name": "פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -506,7 +585,9 @@
             {
               "type": "file",
               "name": "תרגול נוסף במשולשים דומים",
-              "url": "https://drive.google.com/file/d/1KviOlSaaIJr6jJ5gK5VgMTWRf2CuteKh/view"
+              "url": "https://drive.google.com/file/d/1KviOlSaaIJr6jJ5gK5VgMTWRf2CuteKh/view",
+              "base_name": "תרגול נוסף במשולשים דומים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -523,7 +604,9 @@
             {
               "type": "file",
               "name": "עבודת חנוכה בגאומטריה",
-              "url": "https://drive.google.com/file/d/1uJnf5eG9638WlnuDPzQWCglQguc3jc4d/view"
+              "url": "https://drive.google.com/file/d/1uJnf5eG9638WlnuDPzQWCglQguc3jc4d/view",
+              "base_name": "עבודת חנוכה בגאומטריה",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -540,7 +623,9 @@
             {
               "type": "file",
               "name": "תרגילי דמיון בני גורן",
-              "url": "https://drive.google.com/file/d/1Z9Q7u_tXIcvoU_NCJ1AdtcWxviwl2Lwj/view"
+              "url": "https://drive.google.com/file/d/1Z9Q7u_tXIcvoU_NCJ1AdtcWxviwl2Lwj/view",
+              "base_name": "תרגילי דמיון בני גורן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -557,7 +642,9 @@
             {
               "type": "file",
               "name": "1. דמיון - אוסף תרגילים מאתגרים",
-              "url": "https://drive.google.com/file/d/1BR9fMzgfK-Vy-qOC_BKL7I68wn7hAPJV/view"
+              "url": "https://drive.google.com/file/d/1BR9fMzgfK-Vy-qOC_BKL7I68wn7hAPJV/view",
+              "base_name": "1. דמיון - אוסף תרגילים מאתגרים",
+              "file_extension": ".pdf"
             },
             {
               "type": "folder",
@@ -566,24 +653,33 @@
                 {
                   "type": "file",
                   "name": "ארכימדס י 571 שאלות אתגר - דמיון משולשים",
-                  "url": "https://drive.google.com/file/d/1nvh--J5bjK39xGKPVuhH8wplFXrI9qNE/view"
+                  "url": "https://drive.google.com/file/d/1nvh--J5bjK39xGKPVuhH8wplFXrI9qNE/view",
+                  "base_name": "ארכימדס י 571 שאלות אתגר - דמיון משולשים",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "שאלת דמיון - אפי כהן",
-                  "url": "https://drive.google.com/file/d/1aX2a_z1LNQEuuExL3o6jeUaBPglkp1B1/view"
+                  "url": "https://drive.google.com/file/d/1aX2a_z1LNQEuuExL3o6jeUaBPglkp1B1/view",
+                  "base_name": "שאלת דמיון - אפי כהן",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
-                  "url": "https://drive.google.com/file/d/1ULFY6IQQy56wsMdaEL2_n1SJhxuB3kSF/view"
+                  "url": "https://drive.google.com/file/d/1ULFY6IQQy56wsMdaEL2_n1SJhxuB3kSF/view",
+                  "base_name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
-                  "url": "https://drive.google.com/file/d/1vMz2bTT4WKlSPhBD0cveZq0W4vBbx0Ql/view"
+                  "url": "https://drive.google.com/file/d/1vMz2bTT4WKlSPhBD0cveZq0W4vBbx0Ql/view",
+                  "base_name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             }
           ],
           "lesson_json": {
@@ -604,7 +700,9 @@
             {
               "type": "file",
               "name": "המעגל-לכיתה-י׳-5-יחל",
-              "url": "https://drive.google.com/file/d/1FziC6iGZManQQnXFuqlYtXVq8fSjgwt4/view"
+              "url": "https://drive.google.com/file/d/1FziC6iGZManQQnXFuqlYtXVq8fSjgwt4/view",
+              "base_name": "המעגל-לכיתה-י׳-5-יחל",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -631,17 +729,23 @@
             {
               "type": "file",
               "name": "1. מעגל - סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1aeopO5nbGr7i4O1aXjA9WwCZSNtdxKkr/view"
+              "url": "https://drive.google.com/file/d/1aeopO5nbGr7i4O1aXjA9WwCZSNtdxKkr/view",
+              "base_name": "1. מעגל - סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב מעגל - תרגילים בסיסיים",
-              "url": "https://drive.google.com/file/d/1vtF7rd8mqQxj8UXa-3yJlLzfiPNaJJmw/view"
+              "url": "https://drive.google.com/file/d/1vtF7rd8mqQxj8UXa-3yJlLzfiPNaJJmw/view",
+              "base_name": "2. ש.ב מעגל - תרגילים בסיסיים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3.. פתרונות",
-              "url": "https://drive.google.com/file/d/1VDlzGwfNDQMlPJz7k6ckv-mrQZZi28FL/view"
+              "url": "https://drive.google.com/file/d/1VDlzGwfNDQMlPJz7k6ckv-mrQZZi28FL/view",
+              "base_name": "3.. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -658,17 +762,23 @@
             {
               "type": "file",
               "name": "מעגל - סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1UElWqlxyUwdL-C77p4lwxrdpR2YWJr4g/view"
+              "url": "https://drive.google.com/file/d/1UElWqlxyUwdL-C77p4lwxrdpR2YWJr4g/view",
+              "base_name": "מעגל - סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "פתרונות",
-              "url": "https://drive.google.com/file/d/1aGkXf3Z6zaUBLcy1b1BabCHPggNGng4E/view"
+              "url": "https://drive.google.com/file/d/1aGkXf3Z6zaUBLcy1b1BabCHPggNGng4E/view",
+              "base_name": "פתרונות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ש.ב",
-              "url": "https://drive.google.com/file/d/1-X6aIfcmlFvSSzkSOO2yyFfaFPegHdFJ/view"
+              "url": "https://drive.google.com/file/d/1-X6aIfcmlFvSSzkSOO2yyFfaFPegHdFJ/view",
+              "base_name": "ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -685,12 +795,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור ופתרונות",
-              "url": "https://drive.google.com/file/d/1kKxEC2rM7aFLS0H9358HuBYAiqRaEcmB/view"
+              "url": "https://drive.google.com/file/d/1kKxEC2rM7aFLS0H9358HuBYAiqRaEcmB/view",
+              "base_name": "1. סיכום שיעור ופתרונות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1sYi_L5RUCn5iVGOvYMjCvuJ3h9yBwfqT/view"
+              "url": "https://drive.google.com/file/d/1sYi_L5RUCn5iVGOvYMjCvuJ3h9yBwfqT/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -707,17 +821,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1tH8HH-u6m9NqRQ8F5LXtCc4KZdfQnWr7/view"
+              "url": "https://drive.google.com/file/d/1tH8HH-u6m9NqRQ8F5LXtCc4KZdfQnWr7/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/13LVIVrNyiPqilFZ4-gKh1OYhaxEDfL4f/view"
+              "url": "https://drive.google.com/file/d/13LVIVrNyiPqilFZ4-gKh1OYhaxEDfL4f/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. רמזים לש.ב",
-              "url": "https://drive.google.com/file/d/1BvQL_Ka8Y1QfiuhM5EK_4TpCGOd4wJQ0/view"
+              "url": "https://drive.google.com/file/d/1BvQL_Ka8Y1QfiuhM5EK_4TpCGOd4wJQ0/view",
+              "base_name": "3. רמזים לש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -734,22 +854,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/15JKnKO86X2A31XZVgYJMfePPJO3vzNT1/view"
+              "url": "https://drive.google.com/file/d/15JKnKO86X2A31XZVgYJMfePPJO3vzNT1/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1yAW8yXDqAWH7EbKgHMrSXaDd_iS_4vzk/view"
+              "url": "https://drive.google.com/file/d/1yAW8yXDqAWH7EbKgHMrSXaDd_iS_4vzk/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/1iWfjRJurCd0fAb851eNo1KuDVyN5vTd4/view"
+              "url": "https://drive.google.com/file/d/1iWfjRJurCd0fAb851eNo1KuDVyN5vTd4/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. מצגת למי שלא היה בשיעור.pptx",
-              "url": "https://drive.google.com/file/d/1t23ZHy9cXrahyhPWj1PNhP1_O2Zp0Hel/view"
+              "url": "https://drive.google.com/file/d/1t23ZHy9cXrahyhPWj1PNhP1_O2Zp0Hel/view",
+              "base_name": "4. מצגת למי שלא היה בשיעור",
+              "file_extension": ".pptx"
             }
           ],
           "lesson_json": {
@@ -766,7 +894,9 @@
             {
               "type": "file",
               "name": "אוסף שאלות במעגל - ללא משיקים או פרופורציה",
-              "url": "https://drive.google.com/file/d/1ph5I-9Hi355AvOQlnVewC66TWwxCYiS_/view"
+              "url": "https://drive.google.com/file/d/1ph5I-9Hi355AvOQlnVewC66TWwxCYiS_/view",
+              "base_name": "אוסף שאלות במעגל - ללא משיקים או פרופורציה",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -779,22 +909,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1cPjzRyQIIxM7v9f3KMlZ-5Ekz51bckQX/view"
+              "url": "https://drive.google.com/file/d/1cPjzRyQIIxM7v9f3KMlZ-5Ekz51bckQX/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1nk_NF03G8gRIrNquF8UHqBZsOTXUzyXq/view"
+              "url": "https://drive.google.com/file/d/1nk_NF03G8gRIrNquF8UHqBZsOTXUzyXq/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/1TYGeSzK0mm4VisBeCweY4FljsTDYW2xY/view"
+              "url": "https://drive.google.com/file/d/1TYGeSzK0mm4VisBeCweY4FljsTDYW2xY/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. תרגילי רשות הכנה למבחן מארכימדס",
-              "url": "https://drive.google.com/file/d/1c_PNnMAknphuMeMQM9wUY7BxYxzB_kEc/view"
+              "url": "https://drive.google.com/file/d/1c_PNnMAknphuMeMQM9wUY7BxYxzB_kEc/view",
+              "base_name": "4. תרגילי רשות הכנה למבחן מארכימדס",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -811,12 +949,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור וש.ב",
-              "url": "https://drive.google.com/file/d/1Vg4UpGFmLh2Z2oNAZe3A401d2OBhuW9F/view"
+              "url": "https://drive.google.com/file/d/1Vg4UpGFmLh2Z2oNAZe3A401d2OBhuW9F/view",
+              "base_name": "1. סיכום שיעור וש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרונות",
-              "url": "https://drive.google.com/file/d/1n7WIoeBGbtf832Fr6AL30KYNl1VBTBdV/view"
+              "url": "https://drive.google.com/file/d/1n7WIoeBGbtf832Fr6AL30KYNl1VBTBdV/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -833,17 +975,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1lciRAPbWCjrLW78SDN4chV8s6AqkbVEU/view"
+              "url": "https://drive.google.com/file/d/1lciRAPbWCjrLW78SDN4chV8s6AqkbVEU/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1SCJvAi3inqmYsrTtgpOruwbryEVgJykq/view"
+              "url": "https://drive.google.com/file/d/1SCJvAi3inqmYsrTtgpOruwbryEVgJykq/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות בזום",
-              "url": "https://drive.google.com/file/d/1YOBHacvTzlAFCn4KbtVgiHAKi4SBWvzP/view"
+              "url": "https://drive.google.com/file/d/1YOBHacvTzlAFCn4KbtVgiHAKi4SBWvzP/view",
+              "base_name": "3. פתרונות בזום",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -860,7 +1008,9 @@
             {
               "type": "file",
               "name": "תרגילים",
-              "url": "https://drive.google.com/file/d/1r0AeFWAxe-R_IpjuRWF1RukW0ddFDKxN/view"
+              "url": "https://drive.google.com/file/d/1r0AeFWAxe-R_IpjuRWF1RukW0ddFDKxN/view",
+              "base_name": "תרגילים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -880,17 +1030,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור ורמזים לש.ב",
-              "url": "https://drive.google.com/file/d/1FKtz940gwlVXaf3Ap0xOvzyESTBPbi21/view"
-            },
-            {
-              "type": "file",
-              "name": "2. ש.ב.docx",
-              "url": "https://drive.google.com/file/d/1ECm5PeMp8uYjlP5KhYKqsdZ8MQtri0cN/view"
+              "url": "https://drive.google.com/file/d/1FKtz940gwlVXaf3Ap0xOvzyESTBPbi21/view",
+              "base_name": "1. סיכום שיעור ורמזים לש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/16-DpJkByGdMbTWklzSITqmjZFMsnHqJW/view"
+              "url": "https://drive.google.com/file/d/16-DpJkByGdMbTWklzSITqmjZFMsnHqJW/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -907,17 +1056,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1yxNewUNjVwkxb8j86Ey-asDptYkAMkS7/view"
-            },
-            {
-              "type": "file",
-              "name": "2. ש.ב.docx",
-              "url": "https://drive.google.com/file/d/1W1pKQ613ohmSCTVMQCnjLgRdRv9ki05p/view"
+              "url": "https://drive.google.com/file/d/1yxNewUNjVwkxb8j86Ey-asDptYkAMkS7/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/12ab_HKw7QB3qwUiXj7cVLmVJGOSmH4Sg/view"
+              "url": "https://drive.google.com/file/d/12ab_HKw7QB3qwUiXj7cVLmVJGOSmH4Sg/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -934,12 +1082,16 @@
             {
               "type": "file",
               "name": "סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1lSrpqgjrVFn0n-KftXLn4ckL-X9FLWIG/view"
+              "url": "https://drive.google.com/file/d/1lSrpqgjrVFn0n-KftXLn4ckL-X9FLWIG/view",
+              "base_name": "סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ש.ב",
-              "url": "https://drive.google.com/file/d/1PaT5VwuZ4gA5bM_DPz5ogCzHE0XyOL9j/view"
+              "url": "https://drive.google.com/file/d/1PaT5VwuZ4gA5bM_DPz5ogCzHE0XyOL9j/view",
+              "base_name": "ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -956,7 +1108,9 @@
             {
               "type": "file",
               "name": "סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1VUfU5Udhi3zffHc4-pLRXSfYlazBBZye/view"
+              "url": "https://drive.google.com/file/d/1VUfU5Udhi3zffHc4-pLRXSfYlazBBZye/view",
+              "base_name": "סיכום שיעור",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -969,17 +1123,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור ופיצוח תרגילים ראשונים",
-              "url": "https://drive.google.com/file/d/1iVHk2TIXe0UPsB3EaJNPlltFYJcFVxvJ/view"
-            },
-            {
-              "type": "file",
-              "name": "2. ש.ב.docx",
-              "url": "https://drive.google.com/file/d/1libG50WmB1BUM2ro2waw9MAap_0pg43B/view"
+              "url": "https://drive.google.com/file/d/1iVHk2TIXe0UPsB3EaJNPlltFYJcFVxvJ/view",
+              "base_name": "1. סיכום שיעור ופיצוח תרגילים ראשונים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1CauF3ySM1YeHFXjS7pJsl0dfq5xM8msP/view"
+              "url": "https://drive.google.com/file/d/1CauF3ySM1YeHFXjS7pJsl0dfq5xM8msP/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -996,17 +1149,23 @@
             {
               "type": "file",
               "name": "1. בגרויות ישנות עם מעגל - בלי רמזים",
-              "url": "https://drive.google.com/file/d/1UhKuhMzsAVo-DUemHWimcza8q6bEcZ44/view"
+              "url": "https://drive.google.com/file/d/1UhKuhMzsAVo-DUemHWimcza8q6bEcZ44/view",
+              "base_name": "1. בגרויות ישנות עם מעגל - בלי רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. בגרויות ישנות עם מעגל - עם רמזים",
-              "url": "https://drive.google.com/file/d/17OcgLZPL3mzQSifHyDNo7vO612NEzaCC/view"
+              "url": "https://drive.google.com/file/d/17OcgLZPL3mzQSifHyDNo7vO612NEzaCC/view",
+              "base_name": "2. בגרויות ישנות עם מעגל - עם רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות סקיצות שלי",
-              "url": "https://drive.google.com/file/d/1ui7xyxOxrCK-zTKzZnrzF0RVP1zp0bfv/view"
+              "url": "https://drive.google.com/file/d/1ui7xyxOxrCK-zTKzZnrzF0RVP1zp0bfv/view",
+              "base_name": "3. פתרונות סקיצות שלי",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1023,12 +1182,16 @@
             {
               "type": "file",
               "name": "1. בגרויות חדשות עם מעגל - בלי רמזים",
-              "url": "https://drive.google.com/file/d/1CaHhul2khyhvJgZgM5DJ2j9Adrv4irw8/view"
+              "url": "https://drive.google.com/file/d/1CaHhul2khyhvJgZgM5DJ2j9Adrv4irw8/view",
+              "base_name": "1. בגרויות חדשות עם מעגל - בלי רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. בגרויות חדשות עם מעגל - עם רמזים",
-              "url": "https://drive.google.com/file/d/1UoacmgjTXiHDI17SJSCAYczNIp96y6t2/view"
+              "url": "https://drive.google.com/file/d/1UoacmgjTXiHDI17SJSCAYczNIp96y6t2/view",
+              "base_name": "2. בגרויות חדשות עם מעגל - עם רמזים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1051,12 +1214,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור ריבוי חזקה",
-              "url": "https://drive.google.com/file/d/1qhJ2QZLGULFIN8LtolAct8d_gaVKVHE0/view"
+              "url": "https://drive.google.com/file/d/1qhJ2QZLGULFIN8LtolAct8d_gaVKVHE0/view",
+              "base_name": "1. סיכום שיעור ריבוי חזקה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב לשלישי - חקירה איכותנית של פולינום",
-              "url": "https://drive.google.com/file/d/19gKZOK6bmRBsj2h0M_SjDvl9Fs8NAM25/view"
+              "url": "https://drive.google.com/file/d/19gKZOK6bmRBsj2h0M_SjDvl9Fs8NAM25/view",
+              "base_name": "2. ש.ב לשלישי - חקירה איכותנית של פולינום",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1069,12 +1236,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1R9dk3lruub8V75q0cu3nOPBDANkQo-75/view"
+              "url": "https://drive.google.com/file/d/1R9dk3lruub8V75q0cu3nOPBDANkQo-75/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. תרגול נגזרות",
-              "url": "https://drive.google.com/file/d/1mOpxCk14uxTR4dKRSojULgcCUvUPINqN/view"
+              "url": "https://drive.google.com/file/d/1mOpxCk14uxTR4dKRSojULgcCUvUPINqN/view",
+              "base_name": "2. תרגול נגזרות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1102,12 +1273,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/115ZyJrgcxw7U2tSlgE_8f7_kzKDbSSwv/view"
+              "url": "https://drive.google.com/file/d/115ZyJrgcxw7U2tSlgE_8f7_kzKDbSSwv/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב למחר",
-              "url": "https://drive.google.com/file/d/1OVhXwhbCUFSCU7m0f4AN6R7P-AMcIXR0/view"
+              "url": "https://drive.google.com/file/d/1OVhXwhbCUFSCU7m0f4AN6R7P-AMcIXR0/view",
+              "base_name": "2. ש.ב למחר",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1120,27 +1295,37 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1aL3Bgxd89Pq94M6Qg1azpshV_Er00o7P/view"
+              "url": "https://drive.google.com/file/d/1aL3Bgxd89Pq94M6Qg1azpshV_Er00o7P/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. שאלות בכיתה - עם ובלי פרמטר",
-              "url": "https://drive.google.com/file/d/1b-fYiYKM3bU-oZzjSPkLG3s81afrGT0N/view"
+              "url": "https://drive.google.com/file/d/1b-fYiYKM3bU-oZzjSPkLG3s81afrGT0N/view",
+              "base_name": "2. שאלות בכיתה - עם ובלי פרמטר",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות שאלות 23-29",
-              "url": "https://drive.google.com/file/d/1p2RA8R1GTiISdBofGCrw5-I0Mzv2e1Lq/view"
+              "url": "https://drive.google.com/file/d/1p2RA8R1GTiISdBofGCrw5-I0Mzv2e1Lq/view",
+              "base_name": "3. פתרונות שאלות 23-29",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות ארכימדס שאלות 32, 33",
-              "url": "https://drive.google.com/file/d/13ykyyMZ09csZ-3XYPvKeZyw7sQaZ5SlZ/view"
+              "url": "https://drive.google.com/file/d/13ykyyMZ09csZ-3XYPvKeZyw7sQaZ5SlZ/view",
+              "base_name": "4. פתרונות ארכימדס שאלות 32, 33",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "5. ש.ב לחמישי אחרי החג",
-              "url": "https://drive.google.com/file/d/1h2vA-BI4j_d6-XJelLqnOhbTTlVlE17V/view"
+              "url": "https://drive.google.com/file/d/1h2vA-BI4j_d6-XJelLqnOhbTTlVlE17V/view",
+              "base_name": "5. ש.ב לחמישי אחרי החג",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1153,17 +1338,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1vqCh_25AnTiik9O9DoTdC_LLMMbxu2s2/view"
+              "url": "https://drive.google.com/file/d/1vqCh_25AnTiik9O9DoTdC_LLMMbxu2s2/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/17i_zPy-R6OB8r3ldhk8AvpIHk_ZGMWxg/view"
+              "url": "https://drive.google.com/file/d/17i_zPy-R6OB8r3ldhk8AvpIHk_ZGMWxg/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/10NQnKzcpJe6thgpsalF2VCU5De9l0lXr/view"
+              "url": "https://drive.google.com/file/d/10NQnKzcpJe6thgpsalF2VCU5De9l0lXr/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1176,22 +1367,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1nkuK8nEVSS2qA7NaanoqleKilr-djZXI/view"
+              "url": "https://drive.google.com/file/d/1nkuK8nEVSS2qA7NaanoqleKilr-djZXI/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב לחג סוכות - חקירה פרמטרים והזזות - ארכימדס",
-              "url": "https://drive.google.com/file/d/1uGGCuBykoGvvfdsK3Ce_fSM6NBgQDlal/view"
+              "url": "https://drive.google.com/file/d/1uGGCuBykoGvvfdsK3Ce_fSM6NBgQDlal/view",
+              "base_name": "2. ש.ב לחג סוכות - חקירה פרמטרים והזזות - ארכימדס",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. טרנספורמציות - סיכום חזרה",
-              "url": "https://drive.google.com/file/d/1_EtvIXm-PpQX-1nmId-CrXUzYRVotzT1/view"
+              "url": "https://drive.google.com/file/d/1_EtvIXm-PpQX-1nmId-CrXUzYRVotzT1/view",
+              "base_name": "3. טרנספורמציות - סיכום חזרה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות",
-              "url": "https://drive.google.com/file/d/1xHi9VJL3fGyLrk6dAwqaqUB5yb2u9eSg/view"
+              "url": "https://drive.google.com/file/d/1xHi9VJL3fGyLrk6dAwqaqUB5yb2u9eSg/view",
+              "base_name": "4. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1204,12 +1403,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1jOI1YweQCSxIbX9Y7fOuciFFhAQDGpOx/view"
+              "url": "https://drive.google.com/file/d/1jOI1YweQCSxIbX9Y7fOuciFFhAQDGpOx/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1wkM1Tb3vn3z---h_tBQBO_-upOxUsasl/view"
+              "url": "https://drive.google.com/file/d/1wkM1Tb3vn3z---h_tBQBO_-upOxUsasl/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1222,7 +1425,9 @@
             {
               "type": "file",
               "name": "סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1Qi8eXq5dzgL6zLAQ0MQBnPWy5fY1P8LY/view"
+              "url": "https://drive.google.com/file/d/1Qi8eXq5dzgL6zLAQ0MQBnPWy5fY1P8LY/view",
+              "base_name": "סיכום שיעור",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1235,12 +1440,16 @@
             {
               "type": "file",
               "name": "1. ש.ב",
-              "url": "https://drive.google.com/file/d/1XiR_-pwg_dXxAGx9B4LEWcutVWJ8rRpY/view"
+              "url": "https://drive.google.com/file/d/1XiR_-pwg_dXxAGx9B4LEWcutVWJ8rRpY/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרונות",
-              "url": "https://drive.google.com/file/d/1eXCm3ixTO1RI7umzJV7bDvk-JbGJfYQp/view"
+              "url": "https://drive.google.com/file/d/1eXCm3ixTO1RI7umzJV7bDvk-JbGJfYQp/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1253,12 +1462,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1LvY_srH3QT6uv80VObzf9ifVG_N86fur/view"
+              "url": "https://drive.google.com/file/d/1LvY_srH3QT6uv80VObzf9ifVG_N86fur/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב בני גורן",
-              "url": "https://drive.google.com/file/d/14mxOAkwKfBDjZCdLJj3_Adsn82Zyk7Vt/view"
+              "url": "https://drive.google.com/file/d/14mxOAkwKfBDjZCdLJj3_Adsn82Zyk7Vt/view",
+              "base_name": "2. ש.ב בני גורן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1271,17 +1484,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1dzHk2TVlaHqYHRyo_R9ub_2ihLNHOjsH/view"
+              "url": "https://drive.google.com/file/d/1dzHk2TVlaHqYHRyo_R9ub_2ihLNHOjsH/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב - שרטוט + חקירות",
-              "url": "https://drive.google.com/file/d/1l6wJDX3T_ezG1QpanONUwGKSolLO7vUT/view"
+              "url": "https://drive.google.com/file/d/1l6wJDX3T_ezG1QpanONUwGKSolLO7vUT/view",
+              "base_name": "2. ש.ב - שרטוט + חקירות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/1wcZ_Ifdip8IboQKE0aBQD7ZOfABlrgSV/view"
+              "url": "https://drive.google.com/file/d/1wcZ_Ifdip8IboQKE0aBQD7ZOfABlrgSV/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1294,12 +1513,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1dcq0XQbcISBQ2HhrnkPsubr4CuCs8lbn/view"
+              "url": "https://drive.google.com/file/d/1dcq0XQbcISBQ2HhrnkPsubr4CuCs8lbn/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1uVNfVnKC2VgOB-eccoe77Zj5mJcO7ri9/view"
+              "url": "https://drive.google.com/file/d/1uVNfVnKC2VgOB-eccoe77Zj5mJcO7ri9/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1312,17 +1535,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1ePFpuZjYwJyEW_F_6Gf4U0_Z99om8i7Y/view"
+              "url": "https://drive.google.com/file/d/1ePFpuZjYwJyEW_F_6Gf4U0_Z99om8i7Y/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/13k__3QfNPemHRCgZzjkJ20ARb23uVx4B/view"
+              "url": "https://drive.google.com/file/d/13k__3QfNPemHRCgZzjkJ20ARb23uVx4B/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/10W1x9CZOMJ6gGAOnDhbIZUAPfXyIDdxg/view"
+              "url": "https://drive.google.com/file/d/10W1x9CZOMJ6gGAOnDhbIZUAPfXyIDdxg/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1353,22 +1582,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1HsfMvLrXV7yd8QJbnqc8jFPLYqbqHChz/view"
+              "url": "https://drive.google.com/file/d/1HsfMvLrXV7yd8QJbnqc8jFPLYqbqHChz/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. סיכום שיעור שני",
-              "url": "https://drive.google.com/file/d/1GncFVh8CANG_HBCtiZED4SITxOOjXthG/view"
+              "url": "https://drive.google.com/file/d/1GncFVh8CANG_HBCtiZED4SITxOOjXthG/view",
+              "base_name": "2. סיכום שיעור שני",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. ש.ב",
-              "url": "https://drive.google.com/file/d/1VzADxfVvvzBodFKebAcSHMs-RkR-EMZp/view"
+              "url": "https://drive.google.com/file/d/1VzADxfVvvzBodFKebAcSHMs-RkR-EMZp/view",
+              "base_name": "3. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות",
-              "url": "https://drive.google.com/file/d/1k1TNor4xwDsSW8yOSN--RIQOBUd00cnT/view"
+              "url": "https://drive.google.com/file/d/1k1TNor4xwDsSW8yOSN--RIQOBUd00cnT/view",
+              "base_name": "4. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1381,12 +1618,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1_NuJUgtdER2IvWxDvu5sfI5IwTV9mP9a/view"
+              "url": "https://drive.google.com/file/d/1_NuJUgtdER2IvWxDvu5sfI5IwTV9mP9a/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1IxEucuCLY61AT_lzHuDJqcD_0HwmM8LH/view"
+              "url": "https://drive.google.com/file/d/1IxEucuCLY61AT_lzHuDJqcD_0HwmM8LH/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1399,12 +1640,16 @@
             {
               "type": "file",
               "name": "1.ש.ב",
-              "url": "https://drive.google.com/file/d/1mrkLIxOuKwTn3jm_lhSS_GlXGEH_KkoG/view"
+              "url": "https://drive.google.com/file/d/1mrkLIxOuKwTn3jm_lhSS_GlXGEH_KkoG/view",
+              "base_name": "1.ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרון שאלה 4",
-              "url": "https://drive.google.com/file/d/1ug1HA_KZBHl5RUsuphTNM1fytMorRiaS/view"
+              "url": "https://drive.google.com/file/d/1ug1HA_KZBHl5RUsuphTNM1fytMorRiaS/view",
+              "base_name": "2. פתרון שאלה 4",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1424,7 +1669,9 @@
             {
               "type": "file",
               "name": "1. ש.ב לחמישי - חקירת שורש - ארכימדס עמ 369-373",
-              "url": "https://drive.google.com/file/d/1FaBjdjVGqVKYeJz2BjxNtq5m74azYokm/view"
+              "url": "https://drive.google.com/file/d/1FaBjdjVGqVKYeJz2BjxNtq5m74azYokm/view",
+              "base_name": "1. ש.ב לחמישי - חקירת שורש - ארכימדס עמ 369-373",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1437,17 +1684,23 @@
             {
               "type": "file",
               "name": "1. ש.ב וסיכום שיעור",
-              "url": "https://drive.google.com/file/d/1Og7xAM5uy40OPpyyP48oZrEIWrPRGVRD/view"
+              "url": "https://drive.google.com/file/d/1Og7xAM5uy40OPpyyP48oZrEIWrPRGVRD/view",
+              "base_name": "1. ש.ב וסיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. שאלה 21 עמוד 878",
-              "url": "https://drive.google.com/file/d/17lAQOaBByeHwg0FAwZz3LqOPhyKHEWVP/view"
+              "url": "https://drive.google.com/file/d/17lAQOaBByeHwg0FAwZz3LqOPhyKHEWVP/view",
+              "base_name": "2. שאלה 21 עמוד 878",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. שאלה 19 עמוד 878",
-              "url": "https://drive.google.com/file/d/1L55k3R_U4aQs5CNhjGIvImVvWy-3pkrL/view"
+              "url": "https://drive.google.com/file/d/1L55k3R_U4aQs5CNhjGIvImVvWy-3pkrL/view",
+              "base_name": "3. שאלה 19 עמוד 878",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1464,7 +1717,9 @@
             {
               "type": "file",
               "name": "1. ש.ב פונקצית שורש - חקירה עם פרמטרים וסעיפי חשיבה - אפי כהן",
-              "url": "https://drive.google.com/file/d/1FJa5nli9KzGQ4ibLYTn2UA-iyWI84K5b/view"
+              "url": "https://drive.google.com/file/d/1FJa5nli9KzGQ4ibLYTn2UA-iyWI84K5b/view",
+              "base_name": "1. ש.ב פונקצית שורש - חקירה עם פרמטרים וסעיפי חשיבה - אפי כהן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1481,7 +1736,9 @@
             {
               "type": "file",
               "name": "עבודת חנוכה בחדוא",
-              "url": "https://drive.google.com/file/d/1g_osY6mDWIwPyNZgxaXiaw3BEbKtnB_m/view"
+              "url": "https://drive.google.com/file/d/1g_osY6mDWIwPyNZgxaXiaw3BEbKtnB_m/view",
+              "base_name": "עבודת חנוכה בחדוא",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1497,13 +1754,10 @@
           "content": [
             {
               "type": "file",
-              "name": "שרטוט ללא נגזרת.docx",
-              "url": "https://drive.google.com/file/d/1rlqU8RJX8ZET9WWcx6GnUsZrzQFpnyWR/view"
-            },
-            {
-              "type": "file",
               "name": "שרטוט ללא נגזרת",
-              "url": "https://drive.google.com/file/d/1LsZRP4FfJoyPD6j-Ev6PsmdXgLC-PcOe/view"
+              "url": "https://drive.google.com/file/d/1LsZRP4FfJoyPD6j-Ev6PsmdXgLC-PcOe/view",
+              "base_name": "שרטוט ללא נגזרת",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1518,7 +1772,9 @@
             {
               "type": "file",
               "name": "1. תרגול חקירה, סעיפי חשיבה, נגזרות, פרמטרים למבחן",
-              "url": "https://drive.google.com/file/d/1OIXEXd77mpqLRlwnFwQnxvRNcVIDKiq6/view"
+              "url": "https://drive.google.com/file/d/1OIXEXd77mpqLRlwnFwQnxvRNcVIDKiq6/view",
+              "base_name": "1. תרגול חקירה, סעיפי חשיבה, נגזרות, פרמטרים למבחן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1549,12 +1805,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1-bR8ixBQgnpXQ4rrv6X2vKDvJUCKSr_C/view"
+              "url": "https://drive.google.com/file/d/1-bR8ixBQgnpXQ4rrv6X2vKDvJUCKSr_C/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב - בני גורן ושלי",
-              "url": "https://drive.google.com/file/d/13A-pknGTlc2M0QUVtdK0P5luxt-szXDJ/view"
+              "url": "https://drive.google.com/file/d/13A-pknGTlc2M0QUVtdK0P5luxt-szXDJ/view",
+              "base_name": "2. ש.ב - בני גורן ושלי",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1571,17 +1831,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/12LpffK2JqQEOEa463p6p5gq0FllVSjY5/view"
+              "url": "https://drive.google.com/file/d/12LpffK2JqQEOEa463p6p5gq0FllVSjY5/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1nwaemRZAWxAir0w1gjEp32kmGBjszxrV/view"
+              "url": "https://drive.google.com/file/d/1nwaemRZAWxAir0w1gjEp32kmGBjszxrV/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/1892khQTHuRH-9r91mvY3BpCxOV1JTsJd/view"
+              "url": "https://drive.google.com/file/d/1892khQTHuRH-9r91mvY3BpCxOV1JTsJd/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1598,7 +1864,9 @@
             {
               "type": "file",
               "name": "נגזרת מנה - סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1hFiINi1CSngTuErTqdRdBDZIYP2sqM-O/view"
+              "url": "https://drive.google.com/file/d/1hFiINi1CSngTuErTqdRdBDZIYP2sqM-O/view",
+              "base_name": "נגזרת מנה - סיכום שיעור",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1613,7 +1881,9 @@
             {
               "type": "file",
               "name": "סיכום שיעור, ש.ב בעמוד השני, ותשובות",
-              "url": "https://drive.google.com/file/d/1b_j6YNzyw9gzZTnQs1mz6oYEjigxlcHt/view"
+              "url": "https://drive.google.com/file/d/1b_j6YNzyw9gzZTnQs1mz6oYEjigxlcHt/view",
+              "base_name": "סיכום שיעור, ש.ב בעמוד השני, ותשובות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1630,12 +1900,16 @@
             {
               "type": "file",
               "name": "1. ש.ב",
-              "url": "https://drive.google.com/file/d/1ipmvX9EN4fAZZm4vxQteKCgUe-t3envr/view"
+              "url": "https://drive.google.com/file/d/1ipmvX9EN4fAZZm4vxQteKCgUe-t3envr/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרון חקירה עם חור",
-              "url": "https://drive.google.com/file/d/1o8rKSxasosrFjxwOj5JoSo3L5zz0aqmN/view"
+              "url": "https://drive.google.com/file/d/1o8rKSxasosrFjxwOj5JoSo3L5zz0aqmN/view",
+              "base_name": "2. פתרון חקירה עם חור",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1652,27 +1926,30 @@
             {
               "type": "file",
               "name": "1. פרמטרים - קובץ מלא",
-              "url": "https://drive.google.com/file/d/1RYs22GcKuaM8hU2O43658ySFJIxQfUMB/view"
+              "url": "https://drive.google.com/file/d/1RYs22GcKuaM8hU2O43658ySFJIxQfUMB/view",
+              "base_name": "1. פרמטרים - קובץ מלא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פרמטרים - בכיתה - שיעור ראשון",
-              "url": "https://drive.google.com/file/d/1At-McC_1_AC_Rzb9qEib0JTQGzCYXjh_/view"
+              "url": "https://drive.google.com/file/d/1At-McC_1_AC_Rzb9qEib0JTQGzCYXjh_/view",
+              "base_name": "2. פרמטרים - בכיתה - שיעור ראשון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פרמטרים - ש.ב",
-              "url": "https://drive.google.com/file/d/1fLkfxbGpK0_3z-C9JTRAXZKypgN2bJ_p/view"
-            },
-            {
-              "type": "file",
-              "name": "4. סעיפי פרמטרים - תרגול למבחן - אוסף שאלות עם פתרונות.docx",
-              "url": "https://drive.google.com/file/d/1a9iTfhQMPYCfjEKO2A67IeCSsaZIU_Jh/view"
+              "url": "https://drive.google.com/file/d/1fLkfxbGpK0_3z-C9JTRAXZKypgN2bJ_p/view",
+              "base_name": "3. פרמטרים - ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. סעיפי פרמטרים - תרגול למבחן - אוסף שאלות עם פתרונות",
-              "url": "https://drive.google.com/file/d/1fF6M0uI-VH-rx0_ddjCJqJEGQtBOt6hz/view"
+              "url": "https://drive.google.com/file/d/1fF6M0uI-VH-rx0_ddjCJqJEGQtBOt6hz/view",
+              "base_name": "4. סעיפי פרמטרים - תרגול למבחן - אוסף שאלות עם פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1689,7 +1966,9 @@
             {
               "type": "file",
               "name": "ש.ב",
-              "url": "https://drive.google.com/file/d/1seyd6-CSxxp1GkJqWgyE7J2ao6-rHgSz/view"
+              "url": "https://drive.google.com/file/d/1seyd6-CSxxp1GkJqWgyE7J2ao6-rHgSz/view",
+              "base_name": "ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1706,17 +1985,23 @@
             {
               "type": "file",
               "name": "1. פתרון שאלה בכיתה",
-              "url": "https://drive.google.com/file/d/1uwIRoy_s5Yu4HpKsSDfrMs92WolaDgQf/view"
+              "url": "https://drive.google.com/file/d/1uwIRoy_s5Yu4HpKsSDfrMs92WolaDgQf/view",
+              "base_name": "1. פתרון שאלה בכיתה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1nsILlPI9kE0qYZcuGwvZ1zkkS9FkngpH/view"
+              "url": "https://drive.google.com/file/d/1nsILlPI9kE0qYZcuGwvZ1zkkS9FkngpH/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/1yFi-a_fqQjUuv2m4wg68slr2w6zR5XM0/view"
+              "url": "https://drive.google.com/file/d/1yFi-a_fqQjUuv2m4wg68slr2w6zR5XM0/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1733,12 +2018,16 @@
             {
               "type": "file",
               "name": "1. הבע באמצעות - ש.ב מבגרויות",
-              "url": "https://drive.google.com/file/d/1CujMbdgj5YgbpxVjCnfBxntavmCwFJn6/view"
+              "url": "https://drive.google.com/file/d/1CujMbdgj5YgbpxVjCnfBxntavmCwFJn6/view",
+              "base_name": "1. הבע באמצעות - ש.ב מבגרויות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרונות",
-              "url": "https://drive.google.com/file/d/1B5KfjeedfMwRYJQ5M4ZTl9DfPpD4QJMl/view"
+              "url": "https://drive.google.com/file/d/1B5KfjeedfMwRYJQ5M4ZTl9DfPpD4QJMl/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1755,12 +2044,16 @@
             {
               "type": "file",
               "name": "1. דף עבודה פונקצית מנה - אפי כהן",
-              "url": "https://drive.google.com/file/d/1dk3t0qG4TRflOpor7AImpCmzjxRU7-Y_/view"
+              "url": "https://drive.google.com/file/d/1dk3t0qG4TRflOpor7AImpCmzjxRU7-Y_/view",
+              "base_name": "1. דף עבודה פונקצית מנה - אפי כהן",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פונקצית מנה - הבע באמצעות עם סעיפי חשיבה שאני כתבתי",
-              "url": "https://drive.google.com/file/d/1YbA_LguADMriCaqxPp01gGSuKGqfeLVo/view"
+              "url": "https://drive.google.com/file/d/1YbA_LguADMriCaqxPp01gGSuKGqfeLVo/view",
+              "base_name": "2. פונקצית מנה - הבע באמצעות עם סעיפי חשיבה שאני כתבתי",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1773,17 +2066,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור ודוגמאות",
-              "url": "https://drive.google.com/file/d/1lJNksSPUS-5uSyRiXodYamno6jLmanLT/view"
+              "url": "https://drive.google.com/file/d/1lJNksSPUS-5uSyRiXodYamno6jLmanLT/view",
+              "base_name": "1. סיכום שיעור ודוגמאות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. תרגול בכיתה",
-              "url": "https://drive.google.com/file/d/1Jr9gy5qqUsAqoeWa5hvf_9_Y5FnVLlq1/view"
+              "url": "https://drive.google.com/file/d/1Jr9gy5qqUsAqoeWa5hvf_9_Y5FnVLlq1/view",
+              "base_name": "2. תרגול בכיתה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. שיעור בזום",
-              "url": "https://drive.google.com/file/d/1FDmoJkkbgowhY_3cVBoQu-nVOl5coC7e/view"
+              "url": "https://drive.google.com/file/d/1FDmoJkkbgowhY_3cVBoQu-nVOl5coC7e/view",
+              "base_name": "3. שיעור בזום",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1799,13 +2098,10 @@
           "content": [
             {
               "type": "file",
-              "name": "ש.ב - חקירת שורש וחקירת מנה.docx",
-              "url": "https://drive.google.com/file/d/1aYjZQI-EOx2xClHUMT04E7bCBlddOApX/view"
-            },
-            {
-              "type": "file",
               "name": "ש.ב - חקירת שורש וחקירת מנה",
-              "url": "https://drive.google.com/file/d/1bnScVxAmX6WTGBpm8jvj_OMRewjGZqQn/view"
+              "url": "https://drive.google.com/file/d/1bnScVxAmX6WTGBpm8jvj_OMRewjGZqQn/view",
+              "base_name": "ש.ב - חקירת שורש וחקירת מנה",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1822,17 +2118,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור ופתרונות",
-              "url": "https://drive.google.com/file/d/1EYzmP1YDt_E0AyT6ksBWActTNUBWXTGh/view"
-            },
-            {
-              "type": "file",
-              "name": "2. ש.ב.docx",
-              "url": "https://drive.google.com/file/d/17faeLDHLLrZymfhhlBx4HEWMUgs3n9_-/view"
+              "url": "https://drive.google.com/file/d/1EYzmP1YDt_E0AyT6ksBWActTNUBWXTGh/view",
+              "base_name": "1. סיכום שיעור ופתרונות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1Pfph9H3odF1K9imeBOE-mM-cNzUOnoYo/view"
+              "url": "https://drive.google.com/file/d/1Pfph9H3odF1K9imeBOE-mM-cNzUOnoYo/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1848,18 +2143,17 @@
           "content": [
             {
               "type": "file",
-              "name": "1. חקירת שורש מנה - תרגול בכיתה וש.ב.docx",
-              "url": "https://drive.google.com/file/d/1GOSIQjsrswzxk63L53_cHgOEafhnUeNB/view"
-            },
-            {
-              "type": "file",
               "name": "1. חקירת שורש מנה - תרגול בכיתה וש.ב",
-              "url": "https://drive.google.com/file/d/1UIhwGGT9JYTxp20Q4TJoV1OdsVadwTOg/view"
+              "url": "https://drive.google.com/file/d/1UIhwGGT9JYTxp20Q4TJoV1OdsVadwTOg/view",
+              "base_name": "1. חקירת שורש מנה - תרגול בכיתה וש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרון שאלה בכיתה",
-              "url": "https://drive.google.com/file/d/1s5YNKQ9dLeNYI6ZAPl2MVcDdn1s12WYH/view"
+              "url": "https://drive.google.com/file/d/1s5YNKQ9dLeNYI6ZAPl2MVcDdn1s12WYH/view",
+              "base_name": "2. פתרון שאלה בכיתה",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1876,12 +2170,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1Um2a8UKwIizWfZl8YGyfE0MeE1OIaGGj/view"
+              "url": "https://drive.google.com/file/d/1Um2a8UKwIizWfZl8YGyfE0MeE1OIaGGj/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב. אינטגרלים",
-              "url": "https://drive.google.com/file/d/1H7y7zWk6cR0ptRKUsH1Se0UYI2kqAHY1/view"
+              "url": "https://drive.google.com/file/d/1H7y7zWk6cR0ptRKUsH1Se0UYI2kqAHY1/view",
+              "base_name": "2. ש.ב. אינטגרלים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1904,17 +2202,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור + פתרונות לחלק מש.ב",
-              "url": "https://drive.google.com/file/d/1_XgjqyV45Bj_RrWr0rzToT1mfzPTi3uD/view"
+              "url": "https://drive.google.com/file/d/1_XgjqyV45Bj_RrWr0rzToT1mfzPTi3uD/view",
+              "base_name": "1. סיכום שיעור + פתרונות לחלק מש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1QJupTO_X1JXnIPE_mlXrXAVi68BkVr23/view"
+              "url": "https://drive.google.com/file/d/1QJupTO_X1JXnIPE_mlXrXAVi68BkVr23/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. תרגילים נוספים מהספר",
-              "url": "https://drive.google.com/file/d/1MEtuO4kecd5YNO40fzowL40XHGIE6Al7/view"
+              "url": "https://drive.google.com/file/d/1MEtuO4kecd5YNO40fzowL40XHGIE6Al7/view",
+              "base_name": "3. תרגילים נוספים מהספר",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1931,17 +2235,23 @@
             {
               "type": "file",
               "name": "1. דף עבודה שאלון 571 חקירת שורש ומנה",
-              "url": "https://drive.google.com/file/d/1VfVdX5gc_U_Eq--skZ5aO_fsJp-v4aQs/view"
+              "url": "https://drive.google.com/file/d/1VfVdX5gc_U_Eq--skZ5aO_fsJp-v4aQs/view",
+              "base_name": "1. דף עבודה שאלון 571 חקירת שורש ומנה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרון שאלה ראשונה מהדף",
-              "url": "https://drive.google.com/file/d/1uOWE8cVjbgSXOt9xl-wiDYUIu2RgK8qc/view"
+              "url": "https://drive.google.com/file/d/1uOWE8cVjbgSXOt9xl-wiDYUIu2RgK8qc/view",
+              "base_name": "2. פתרון שאלה ראשונה מהדף",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרון שאלה שלישית מהדף",
-              "url": "https://drive.google.com/file/d/1hK6HN4rdSQPG36eCuGmW6RomQjyheNGH/view"
+              "url": "https://drive.google.com/file/d/1hK6HN4rdSQPG36eCuGmW6RomQjyheNGH/view",
+              "base_name": "3. פתרון שאלה שלישית מהדף",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -1958,12 +2268,16 @@
             {
               "type": "file",
               "name": "1. פונקציה הופכית - שאלות",
-              "url": "https://drive.google.com/file/d/1lzgH2XnFq38cIw6s6aVBWuDEfoILK77D/view"
+              "url": "https://drive.google.com/file/d/1lzgH2XnFq38cIw6s6aVBWuDEfoILK77D/view",
+              "base_name": "1. פונקציה הופכית - שאלות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פונקציה הופכית - עם תשובות",
-              "url": "https://drive.google.com/file/d/13cIy8zSTPAiO2soEPinmLdb6xiA_LCEz/view"
+              "url": "https://drive.google.com/file/d/13cIy8zSTPAiO2soEPinmLdb6xiA_LCEz/view",
+              "base_name": "2. פונקציה הופכית - עם תשובות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1976,12 +2290,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור - אינטגרל שטח והוכחה בעמוד האחרון",
-              "url": "https://drive.google.com/file/d/1b08X0hkuRTJ6a0JYcl2SynzcRRtzZuyH/view"
+              "url": "https://drive.google.com/file/d/1b08X0hkuRTJ6a0JYcl2SynzcRRtzZuyH/view",
+              "base_name": "1. סיכום שיעור - אינטגרל שטח והוכחה בעמוד האחרון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1Nb8OaQJz4mCCgIjbEkX7lfJDFtjcenA3/view"
+              "url": "https://drive.google.com/file/d/1Nb8OaQJz4mCCgIjbEkX7lfJDFtjcenA3/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2022,12 +2340,16 @@
             {
               "type": "file",
               "name": "1. מבוא - סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1XxsfvVyffrNIuPEPxSwfh5M-MkSKnNFQ/view"
+              "url": "https://drive.google.com/file/d/1XxsfvVyffrNIuPEPxSwfh5M-MkSKnNFQ/view",
+              "base_name": "1. מבוא - סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1J4P4JblPO46xYEfQze-fxTYmqGkFJKuk/view"
+              "url": "https://drive.google.com/file/d/1J4P4JblPO46xYEfQze-fxTYmqGkFJKuk/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2044,12 +2366,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור - איך כותבים ופתרון שאלה 5",
-              "url": "https://drive.google.com/file/d/1y07ig792_lyQe6z0yMV9eDp7St3ezOK_/view"
+              "url": "https://drive.google.com/file/d/1y07ig792_lyQe6z0yMV9eDp7St3ezOK_/view",
+              "base_name": "1. סיכום שיעור - איך כותבים ופתרון שאלה 5",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1A71QmLU-dfnfgMDLmEF9QYWmkbU0Ig4y/view"
+              "url": "https://drive.google.com/file/d/1A71QmLU-dfnfgMDLmEF9QYWmkbU0Ig4y/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2066,22 +2392,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1oG6Reyjf-N78FKtz0svqoPDtYbAhBAC7/view"
+              "url": "https://drive.google.com/file/d/1oG6Reyjf-N78FKtz0svqoPDtYbAhBAC7/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1_wXddNoXNFWcTVLQY951kwo0xz0Lgtpn/view"
+              "url": "https://drive.google.com/file/d/1_wXddNoXNFWcTVLQY951kwo0xz0Lgtpn/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. תרגילי רשות",
-              "url": "https://drive.google.com/file/d/1rxu44Cwkk2KdTzcnxgd9l-oMT_pq17hL/view"
+              "url": "https://drive.google.com/file/d/1rxu44Cwkk2KdTzcnxgd9l-oMT_pq17hL/view",
+              "base_name": "3. תרגילי רשות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות",
-              "url": "https://drive.google.com/file/d/1ExHI6DAqQpiORyADHh9K7kMkLAficn8F/view"
+              "url": "https://drive.google.com/file/d/1ExHI6DAqQpiORyADHh9K7kMkLAficn8F/view",
+              "base_name": "4. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2098,22 +2432,30 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1ZFtK5kl9fvT5_oJPUfR3hfHGMsLmYKlw/view"
+              "url": "https://drive.google.com/file/d/1ZFtK5kl9fvT5_oJPUfR3hfHGMsLmYKlw/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב טריגו",
-              "url": "https://drive.google.com/file/d/1jRER4B1Wasohi10JOXBPEb470me81w3K/view"
+              "url": "https://drive.google.com/file/d/1jRER4B1Wasohi10JOXBPEb470me81w3K/view",
+              "base_name": "2. ש.ב טריגו",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. ש.ב. אלגברה - שבר בתוך שבר - מתוך בני גורן",
-              "url": "https://drive.google.com/file/d/14azq4FZEJNqAPx18BDuv2J2znTLHSX53/view"
+              "url": "https://drive.google.com/file/d/14azq4FZEJNqAPx18BDuv2J2znTLHSX53/view",
+              "base_name": "3. ש.ב. אלגברה - שבר בתוך שבר - מתוך בני גורן",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות חלקיים טריגו",
-              "url": "https://drive.google.com/file/d/1dftvBP90NGz1_F2yb84iUiWtQtYsz6Ly/view"
+              "url": "https://drive.google.com/file/d/1dftvBP90NGz1_F2yb84iUiWtQtYsz6Ly/view",
+              "base_name": "4. פתרונות חלקיים טריגו",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2130,12 +2472,16 @@
             {
               "type": "file",
               "name": "1. טריגו מרובעים ובניות עזר - עם ובלי פרמטרים",
-              "url": "https://drive.google.com/file/d/1PeFTZBvr6WPf_mgGaxMXGgRMUxI9sWOC/view"
+              "url": "https://drive.google.com/file/d/1PeFTZBvr6WPf_mgGaxMXGgRMUxI9sWOC/view",
+              "base_name": "1. טריגו מרובעים ובניות עזר - עם ובלי פרמטרים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרונות",
-              "url": "https://drive.google.com/file/d/1nShbidSqO5g2z9oqINUx54I5EpT5jZwN/view"
+              "url": "https://drive.google.com/file/d/1nShbidSqO5g2z9oqINUx54I5EpT5jZwN/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2152,7 +2498,9 @@
             {
               "type": "file",
               "name": "1. טריגו מרובעים ובניות עזר - עם ובלי פרמטרים",
-              "url": "https://drive.google.com/file/d/1mb9uKHebtg4jUQQnuZYWPPyKgqeIi6AW/view"
+              "url": "https://drive.google.com/file/d/1mb9uKHebtg4jUQQnuZYWPPyKgqeIi6AW/view",
+              "base_name": "1. טריגו מרובעים ובניות עזר - עם ובלי פרמטרים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2167,17 +2515,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1P1TVFx_Q-XPaPMhu5pBDzGIm2GB7dCQR/view"
+              "url": "https://drive.google.com/file/d/1P1TVFx_Q-XPaPMhu5pBDzGIm2GB7dCQR/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב - מה שמסומן באדום",
-              "url": "https://drive.google.com/file/d/1GIb69lx-WG704FLtrbBXndxgRoI6Xe4x/view"
+              "url": "https://drive.google.com/file/d/1GIb69lx-WG704FLtrbBXndxgRoI6Xe4x/view",
+              "base_name": "2. ש.ב - מה שמסומן באדום",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות לחלק מש.ב",
-              "url": "https://drive.google.com/file/d/1zPRo7s6TxqauTiul3K_PSqwQep11HHrP/view"
+              "url": "https://drive.google.com/file/d/1zPRo7s6TxqauTiul3K_PSqwQep11HHrP/view",
+              "base_name": "3. פתרונות לחלק מש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2194,12 +2548,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/11EBZv-Kra7Q12pbgXNvtpTXxdFfQevlj/view"
+              "url": "https://drive.google.com/file/d/11EBZv-Kra7Q12pbgXNvtpTXxdFfQevlj/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1hcFBWTAEYFtgUfpwD-r2Rn5IiVFfxum-/view"
+              "url": "https://drive.google.com/file/d/1hcFBWTAEYFtgUfpwD-r2Rn5IiVFfxum-/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2216,17 +2574,23 @@
             {
               "type": "file",
               "name": "1. ש.ב - בלי רמזים",
-              "url": "https://drive.google.com/file/d/1ExpUPm_SHQC1Xl9r1D-CfOICPxyc5022/view"
+              "url": "https://drive.google.com/file/d/1ExpUPm_SHQC1Xl9r1D-CfOICPxyc5022/view",
+              "base_name": "1. ש.ב - בלי רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב - עם רמזים",
-              "url": "https://drive.google.com/file/d/167i2-8-ZN7K6jYOmrpZBxkloU9Fx-7nt/view"
+              "url": "https://drive.google.com/file/d/167i2-8-ZN7K6jYOmrpZBxkloU9Fx-7nt/view",
+              "base_name": "2. ש.ב - עם רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות",
-              "url": "https://drive.google.com/file/d/1z11sDwgAys0gdgjJAX52ZKObWWRZHW1Y/view"
+              "url": "https://drive.google.com/file/d/1z11sDwgAys0gdgjJAX52ZKObWWRZHW1Y/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2243,12 +2607,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1nxu6UeKOMtz8gd3pZ8jeA4uixmyMe0ZB/view"
+              "url": "https://drive.google.com/file/d/1nxu6UeKOMtz8gd3pZ8jeA4uixmyMe0ZB/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1n7xGU4hgeK9vma_duxOWTe6keFrBjvyP/view"
+              "url": "https://drive.google.com/file/d/1n7xGU4hgeK9vma_duxOWTe6keFrBjvyP/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2265,12 +2633,16 @@
             {
               "type": "file",
               "name": "1. תרגילים בכיתה",
-              "url": "https://drive.google.com/file/d/1IT7MQ2x5MhVDVjf2r5gDxcFTfgmBctWd/view"
+              "url": "https://drive.google.com/file/d/1IT7MQ2x5MhVDVjf2r5gDxcFTfgmBctWd/view",
+              "base_name": "1. תרגילים בכיתה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרונות",
-              "url": "https://drive.google.com/file/d/1xfpH36HORFQMlMfFEN7ZkUwPyRPmHi58/view"
+              "url": "https://drive.google.com/file/d/1xfpH36HORFQMlMfFEN7ZkUwPyRPmHi58/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2280,34 +2652,37 @@
           }
         },
         {
-          "name": "16. בוחן אפריל - טריגו במישור",
+          "name": "11.5. בוחן אפריל בטריגו במישור",
           "desc": "<p>בוחן בטריגו במישור במקום המבחן שבוטל - 2 שאלות</p>\n<p>65 דקות ללא תוספת זמן, 75 דקות עם תוספת זמן</p>",
           "id": "6-13",
           "content": [
             {
               "type": "file",
               "name": "1. בוחן אפריל טריגו - נושאים ובחנים לדוגמא",
-              "url": "https://drive.google.com/file/d/164q-3wflYzivx88ckL8am5CGuFK-aGDu/view"
+              "url": "https://drive.google.com/file/d/164q-3wflYzivx88ckL8am5CGuFK-aGDu/view",
+              "base_name": "1. בוחן אפריל טריגו - נושאים ובחנים לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פיצוח בחנים לדוגמא",
-              "url": "https://drive.google.com/file/d/1hHYHXH2m8mCuKX_AGStx3LA3Uz-X4JtF/view"
-            },
-            {
-              "type": "file",
-              "name": "3. בוחן סופי.docx",
-              "url": "https://drive.google.com/file/d/1ib_4iAftX10cfi0gZ29JyiYrhTm8-ta7/view"
+              "url": "https://drive.google.com/file/d/1hHYHXH2m8mCuKX_AGStx3LA3Uz-X4JtF/view",
+              "base_name": "2. פיצוח בחנים לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. בוחן סופי",
-              "url": "https://drive.google.com/file/d/1W594OZtNxPb10BezC-U_l9tlcpaDkT28/view"
+              "url": "https://drive.google.com/file/d/1W594OZtNxPb10BezC-U_l9tlcpaDkT28/view",
+              "base_name": "3. בוחן סופי",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות הבוחן",
-              "url": "https://drive.google.com/file/d/1ld4FDQVumUcprQ-PfSi-UHBWGpdJq8P5/view"
+              "url": "https://drive.google.com/file/d/1ld4FDQVumUcprQ-PfSi-UHBWGpdJq8P5/view",
+              "base_name": "4. פתרונות הבוחן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2324,12 +2699,16 @@
             {
               "type": "file",
               "name": "1. ש.ב",
-              "url": "https://drive.google.com/file/d/141ko72BA8kWLGJAs7Bokh7g6843XyjkW/view"
+              "url": "https://drive.google.com/file/d/141ko72BA8kWLGJAs7Bokh7g6843XyjkW/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרונות",
-              "url": "https://drive.google.com/file/d/1wqlIFKW-hxFOVwDPEFY1YPucRX5KVqsn/view"
+              "url": "https://drive.google.com/file/d/1wqlIFKW-hxFOVwDPEFY1YPucRX5KVqsn/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2346,7 +2725,9 @@
             {
               "type": "file",
               "name": "2. טריגו מבגרויות 481",
-              "url": "https://drive.google.com/file/d/1z7zUeaHF2uPVE2jQ2Z8N50zN8P3s4MHQ/view"
+              "url": "https://drive.google.com/file/d/1z7zUeaHF2uPVE2jQ2Z8N50zN8P3s4MHQ/view",
+              "base_name": "2. טריגו מבגרויות 481",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2359,17 +2740,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1dden5U1y5DUFk9HcDe65CSb-DI4JtcvF/view"
+              "url": "https://drive.google.com/file/d/1dden5U1y5DUFk9HcDe65CSb-DI4JtcvF/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב ללא רמזים",
-              "url": "https://drive.google.com/file/d/1-QHqcUwAbxaNFIRSYukOdNPCbX7oEdSC/view"
+              "url": "https://drive.google.com/file/d/1-QHqcUwAbxaNFIRSYukOdNPCbX7oEdSC/view",
+              "base_name": "2. ש.ב ללא רמזים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. ש.ב עם רמזים",
-              "url": "https://drive.google.com/file/d/1JipoW7PyevIw7E_7_iWHGGqXwdiZQuiP/view"
+              "url": "https://drive.google.com/file/d/1JipoW7PyevIw7E_7_iWHGGqXwdiZQuiP/view",
+              "base_name": "3. ש.ב עם רמזים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2392,27 +2779,37 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1mRCDEqGWytfCl-6-xap-khcJl0xDhedy/view"
+              "url": "https://drive.google.com/file/d/1mRCDEqGWytfCl-6-xap-khcJl0xDhedy/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. שיעור שני - פתרונות מיוחדים",
-              "url": "https://drive.google.com/file/d/1vncIJfFUuoA_29yzlMJ7SWHa0xoLNYAw/view"
+              "url": "https://drive.google.com/file/d/1vncIJfFUuoA_29yzlMJ7SWHa0xoLNYAw/view",
+              "base_name": "2. שיעור שני - פתרונות מיוחדים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. המעגל הטריגונומטרי - סרטון המחשה",
-              "url": "https://drive.google.com/file/d/1W5F8ohdcE6OjQ1S8ifYTaMEdxbANUp-Y/view"
+              "url": "https://drive.google.com/file/d/1W5F8ohdcE6OjQ1S8ifYTaMEdxbANUp-Y/view",
+              "base_name": "3. המעגל הטריגונומטרי - סרטון המחשה",
+              "file_extension": ".mp4"
             },
             {
               "type": "file",
               "name": "4. ש.ב",
-              "url": "https://drive.google.com/file/d/1iUOZXgzp1DBZZhgykCuM6eye2e-eaO7c/view"
+              "url": "https://drive.google.com/file/d/1iUOZXgzp1DBZZhgykCuM6eye2e-eaO7c/view",
+              "base_name": "4. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "5. פתרונות",
-              "url": "https://drive.google.com/file/d/18m6VKlVuybfeNuXby1-4F3nmCsSoQtOJ/view"
+              "url": "https://drive.google.com/file/d/18m6VKlVuybfeNuXby1-4F3nmCsSoQtOJ/view",
+              "base_name": "5. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2429,12 +2826,16 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1ma1vZ2QfEoY-XD1aAHotsVekZhUrQD6G/view"
+              "url": "https://drive.google.com/file/d/1ma1vZ2QfEoY-XD1aAHotsVekZhUrQD6G/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1QgEeeYE8tJYTQ9vAS6UXo-KCqV2oS-tt/view"
+              "url": "https://drive.google.com/file/d/1QgEeeYE8tJYTQ9vAS6UXo-KCqV2oS-tt/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2451,17 +2852,23 @@
             {
               "type": "file",
               "name": "1. סיכום שיעור",
-              "url": "https://drive.google.com/file/d/1R0eoKBquNQn3ZnJDVPt3huq3m6bS7d9T/view"
+              "url": "https://drive.google.com/file/d/1R0eoKBquNQn3ZnJDVPt3huq3m6bS7d9T/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1jfckp-t5YAJ_keXSn8dLLWinsdsI9ysz/view"
+              "url": "https://drive.google.com/file/d/1jfckp-t5YAJ_keXSn8dLLWinsdsI9ysz/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. פתרונות חלקיים",
-              "url": "https://drive.google.com/file/d/10WlOOJCG9zxXZEisS6kVQLyUNdbGsSpf/view"
+              "url": "https://drive.google.com/file/d/10WlOOJCG9zxXZEisS6kVQLyUNdbGsSpf/view",
+              "base_name": "3. פתרונות חלקיים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2478,7 +2885,9 @@
             {
               "type": "file",
               "name": "הוכחת זהויות טריגונומטריות",
-              "url": "https://drive.google.com/file/d/1y3qyu3E1D_yOXqa4SzRtfTz1faCFLn1B/view"
+              "url": "https://drive.google.com/file/d/1y3qyu3E1D_yOXqa4SzRtfTz1faCFLn1B/view",
+              "base_name": "הוכחת זהויות טריגונומטריות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2491,12 +2900,16 @@
             {
               "type": "file",
               "name": "1. משוואות טריגונומטריות - אפי כהן",
-              "url": "https://drive.google.com/file/d/1fsO35yxGShKw2KpfzTWLB6VF10iLNswv/view"
+              "url": "https://drive.google.com/file/d/1fsO35yxGShKw2KpfzTWLB6VF10iLNswv/view",
+              "base_name": "1. משוואות טריגונומטריות - אפי כהן",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. משוואות טריגונומטריות - גול",
-              "url": "https://drive.google.com/file/d/1WkExPUGGDGLfD3FfIwqBUbm_-ksx9tUm/view"
+              "url": "https://drive.google.com/file/d/1WkExPUGGDGLfD3FfIwqBUbm_-ksx9tUm/view",
+              "base_name": "2. משוואות טריגונומטריות - גול",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2515,12 +2928,16 @@
             {
               "type": "file",
               "name": "1. עבודת קיץ לעולים ל 5 יחל",
-              "url": "https://drive.google.com/file/d/1sJXGF61mllXU7oY_7Uq-Z4qfg_Hx-IwX/view"
+              "url": "https://drive.google.com/file/d/1sJXGF61mllXU7oY_7Uq-Z4qfg_Hx-IwX/view",
+              "base_name": "1. עבודת קיץ לעולים ל 5 יחל",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. עבודת קיץ לעולים ל 4 יחל",
-              "url": "https://drive.google.com/file/d/1-0NtwyaiVr1ycKyAtZGlNG3oNDzunRqW/view"
+              "url": "https://drive.google.com/file/d/1-0NtwyaiVr1ycKyAtZGlNG3oNDzunRqW/view",
+              "base_name": "2. עבודת קיץ לעולים ל 4 יחל",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2533,37 +2950,51 @@
             {
               "type": "file",
               "name": "1. גול",
-              "url": "https://drive.google.com/file/d/15GGa7x8FIvt9ks7HZ4F0CE7ErMYxmqVO/view"
+              "url": "https://drive.google.com/file/d/15GGa7x8FIvt9ks7HZ4F0CE7ErMYxmqVO/view",
+              "base_name": "1. גול",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ארכימדס",
-              "url": "https://drive.google.com/file/d/1NwuACRnZOXK4lMSmRQZ64uH3J1NJEnf9/view"
+              "url": "https://drive.google.com/file/d/1NwuACRnZOXK4lMSmRQZ64uH3J1NJEnf9/view",
+              "base_name": "2. ארכימדס",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. עמט",
-              "url": "https://drive.google.com/file/d/1zam7B-eOG5wdzwqC44AkGdkVwzNqhbNk/view"
+              "url": "https://drive.google.com/file/d/1zam7B-eOG5wdzwqC44AkGdkVwzNqhbNk/view",
+              "base_name": "3. עמט",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. עוזרי",
-              "url": "https://drive.google.com/file/d/1ITgPdmDrSbGe-8CM6uGYWK5HQ-Osaok8/view"
+              "url": "https://drive.google.com/file/d/1ITgPdmDrSbGe-8CM6uGYWK5HQ-Osaok8/view",
+              "base_name": "4. עוזרי",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "5. יואל גבע",
-              "url": "https://drive.google.com/file/d/12YqjvwPevp5seGzIVmNM3OTC8Cv9I0hJ/view"
+              "url": "https://drive.google.com/file/d/12YqjvwPevp5seGzIVmNM3OTC8Cv9I0hJ/view",
+              "base_name": "5. יואל גבע",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "6. מבחנים לדוגמא - לא שלי",
-              "url": "https://drive.google.com/file/d/1hZtt3WK3mNuKXPYN1Ev31hyNfvRwuqUT/view"
+              "url": "https://drive.google.com/file/d/1hZtt3WK3mNuKXPYN1Ev31hyNfvRwuqUT/view",
+              "base_name": "6. מבחנים לדוגמא - לא שלי",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "7. עבודת קיץ של מחוז מרכז",
-              "url": "https://drive.google.com/file/d/1cp3alj_dXyiX8b92vS1N7uN9JsnmCJIV/view"
+              "url": "https://drive.google.com/file/d/1cp3alj_dXyiX8b92vS1N7uN9JsnmCJIV/view",
+              "base_name": "7. עבודת קיץ של מחוז מרכז",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2576,7 +3007,9 @@
             {
               "type": "file",
               "name": "1. דף חזרה אלגברה",
-              "url": "https://drive.google.com/file/d/1X8o_3z9kLzVqL4Hih2l9PSP7QYE2zRwK/view"
+              "url": "https://drive.google.com/file/d/1X8o_3z9kLzVqL4Hih2l9PSP7QYE2zRwK/view",
+              "base_name": "1. דף חזרה אלגברה",
+              "file_extension": ".pdf"
             },
             {
               "type": "folder",
@@ -2585,19 +3018,26 @@
                 {
                   "type": "file",
                   "name": "1. שאלות עם פתרונות",
-                  "url": "https://drive.google.com/file/d/1-msspxbanitlRWsNYGRd52XpKJQx1Ha9/view"
+                  "url": "https://drive.google.com/file/d/1-msspxbanitlRWsNYGRd52XpKJQx1Ha9/view",
+                  "base_name": "1. שאלות עם פתרונות",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "2. דף עבודה - רמה בסיסית",
-                  "url": "https://drive.google.com/file/d/1w4pUKJaBZ-V7q7AlDhxwP_7efZ7ncDCW/view"
+                  "url": "https://drive.google.com/file/d/1w4pUKJaBZ-V7q7AlDhxwP_7efZ7ncDCW/view",
+                  "base_name": "2. דף עבודה - רמה בסיסית",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "3. דף עבודה - ארכימדס - רמת מבחן",
-                  "url": "https://drive.google.com/file/d/1ZftVRG9bUm8qxwkyhCnsSLirxjj86oTQ/view"
+                  "url": "https://drive.google.com/file/d/1ZftVRG9bUm8qxwkyhCnsSLirxjj86oTQ/view",
+                  "base_name": "3. דף עבודה - ארכימדס - רמת מבחן",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             },
             {
               "type": "folder",
@@ -2606,19 +3046,26 @@
                 {
                   "type": "file",
                   "name": "1. סיכום שיעור",
-                  "url": "https://drive.google.com/file/d/1j1ISygc3SyvcURafiNO3hA-79rNmwSfa/view"
+                  "url": "https://drive.google.com/file/d/1j1ISygc3SyvcURafiNO3hA-79rNmwSfa/view",
+                  "base_name": "1. סיכום שיעור",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "2. תרגילים",
-                  "url": "https://drive.google.com/file/d/1QvJGxHij6OWAH4B5txMJa51qyltaACbz/view"
+                  "url": "https://drive.google.com/file/d/1QvJGxHij6OWAH4B5txMJa51qyltaACbz/view",
+                  "base_name": "2. תרגילים",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "3. פתרונות שאלות 1-8",
-                  "url": "https://drive.google.com/file/d/1qJUh5nXmLaTTlFwyGoMxtY2Ik3WRiKEj/view"
+                  "url": "https://drive.google.com/file/d/1qJUh5nXmLaTTlFwyGoMxtY2Ik3WRiKEj/view",
+                  "base_name": "3. פתרונות שאלות 1-8",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             },
             {
               "type": "folder",
@@ -2627,19 +3074,26 @@
                 {
                   "type": "file",
                   "name": "1. סיכום שיעור",
-                  "url": "https://drive.google.com/file/d/16bXeu1IA7ULL52DKPkCHHVNfKDU0arPz/view"
+                  "url": "https://drive.google.com/file/d/16bXeu1IA7ULL52DKPkCHHVNfKDU0arPz/view",
+                  "base_name": "1. סיכום שיעור",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "2. שאלות ופתרונות - בני גורן",
-                  "url": "https://drive.google.com/file/d/1MYTsOQPov6vdfDxfKgXYLlxgthKv41Ui/view"
+                  "url": "https://drive.google.com/file/d/1MYTsOQPov6vdfDxfKgXYLlxgthKv41Ui/view",
+                  "base_name": "2. שאלות ופתרונות - בני גורן",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "3. שאלות - ארכימדס",
-                  "url": "https://drive.google.com/file/d/1KVco53n9O-9QoXi2ueEDYA1saVoZjW83/view"
+                  "url": "https://drive.google.com/file/d/1KVco53n9O-9QoXi2ueEDYA1saVoZjW83/view",
+                  "base_name": "3. שאלות - ארכימדס",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             }
           ],
           "lesson_json": {}
@@ -2652,22 +3106,30 @@
             {
               "type": "file",
               "name": "1. שאלת חזרה על פרבולות - בכיתה",
-              "url": "https://drive.google.com/file/d/1TzJ5exxoKFpa1B3QhPjKS6nWQNlb6Bhu/view"
+              "url": "https://drive.google.com/file/d/1TzJ5exxoKFpa1B3QhPjKS6nWQNlb6Bhu/view",
+              "base_name": "1. שאלת חזרה על פרבולות - בכיתה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. שאלת חזרה על פרבולות - בכיתה - פתרון",
-              "url": "https://drive.google.com/file/d/1pb57NWYciXi13fyNI2Rzm4AiYd924SOr/view"
+              "url": "https://drive.google.com/file/d/1pb57NWYciXi13fyNI2Rzm4AiYd924SOr/view",
+              "base_name": "2. שאלת חזרה על פרבולות - בכיתה - פתרון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. תרגול פרבולות- ארכימדס",
-              "url": "https://drive.google.com/file/d/1r9tqd1M6Dzgy8-Uq86zgM3SCyVBKpZ8g/view"
+              "url": "https://drive.google.com/file/d/1r9tqd1M6Dzgy8-Uq86zgM3SCyVBKpZ8g/view",
+              "base_name": "3. תרגול פרבולות- ארכימדס",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. תרגול פרבולות - שאלות רמה גבוהה עם פרמטרים - דיה זגורי",
-              "url": "https://drive.google.com/file/d/1p4t2kg9KW5yFh6VXAZ9rQIWtr9-E2-4e/view"
+              "url": "https://drive.google.com/file/d/1p4t2kg9KW5yFh6VXAZ9rQIWtr9-E2-4e/view",
+              "base_name": "4. תרגול פרבולות - שאלות רמה גבוהה עם פרמטרים - דיה זגורי",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2680,22 +3142,30 @@
             {
               "type": "file",
               "name": "1. תרגול פיצוח בלבד בכיתה - פתרונות",
-              "url": "https://drive.google.com/file/d/1D5kDClQl43DtORdc2LOwj75LSCImOWW-/view"
+              "url": "https://drive.google.com/file/d/1D5kDClQl43DtORdc2LOwj75LSCImOWW-/view",
+              "base_name": "1. תרגול פיצוח בלבד בכיתה - פתרונות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "1. תרגול פיצוח בלבד בכיתה",
-              "url": "https://drive.google.com/file/d/11k5qQ0dCPT_omowV6FueBM-1fizGxynt/view"
+              "url": "https://drive.google.com/file/d/11k5qQ0dCPT_omowV6FueBM-1fizGxynt/view",
+              "base_name": "1. תרגול פיצוח בלבד בכיתה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. ש.ב",
-              "url": "https://drive.google.com/file/d/1CQ5Y4EDxtEhxoP0FxcQEnFmBCmeHbKNe/view"
+              "url": "https://drive.google.com/file/d/1CQ5Y4EDxtEhxoP0FxcQEnFmBCmeHbKNe/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. קטע אמצעים במשולש ובטרפז - בני גורן - תרגילים נוספים",
-              "url": "https://drive.google.com/file/d/1ApTk0-g2lfxBNiEwfxrxwdAiGQdwKiV0/view"
+              "url": "https://drive.google.com/file/d/1ApTk0-g2lfxBNiEwfxrxwdAiGQdwKiV0/view",
+              "base_name": "3. קטע אמצעים במשולש ובטרפז - בני גורן - תרגילים נוספים",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2708,7 +3178,9 @@
             {
               "type": "file",
               "name": "נושאים למבחן",
-              "url": "https://drive.google.com/file/d/1AT1exV6aW7motmE_MFk7dk2laA3mAuhI/view"
+              "url": "https://drive.google.com/file/d/1AT1exV6aW7motmE_MFk7dk2laA3mAuhI/view",
+              "base_name": "נושאים למבחן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2721,12 +3193,16 @@
             {
               "type": "file",
               "name": "1. מבחן תחילת שנה י' 571 - לדוגמא",
-              "url": "https://drive.google.com/file/d/1mSY7eyqNeOZCF47cZOeOv1Z8bIitffdp/view"
+              "url": "https://drive.google.com/file/d/1mSY7eyqNeOZCF47cZOeOv1Z8bIitffdp/view",
+              "base_name": "1. מבחן תחילת שנה י' 571 - לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. מבחן תחילת שנה י' 571 - לדוגמא - פתרון של סוף",
-              "url": "https://drive.google.com/file/d/1Ip1IHBGd-jhWrA70ZyJM-W5jKH1ldPLL/view"
+              "url": "https://drive.google.com/file/d/1Ip1IHBGd-jhWrA70ZyJM-W5jKH1ldPLL/view",
+              "base_name": "2. מבחן תחילת שנה י' 571 - לדוגמא - פתרון של סוף",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2739,7 +3215,9 @@
             {
               "type": "file",
               "name": "מבחן תחילת שנה י' 571 - פתרון",
-              "url": "https://drive.google.com/file/d/1haAVtfc5qPHGwNSXKx8mi5bv_JJVMypO/view"
+              "url": "https://drive.google.com/file/d/1haAVtfc5qPHGwNSXKx8mi5bv_JJVMypO/view",
+              "base_name": "מבחן תחילת שנה י' 571 - פתרון",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2752,52 +3230,72 @@
             {
               "type": "file",
               "name": "1. נושאים למבחן נובמבר י 571",
-              "url": "https://drive.google.com/file/d/1-tB7kQr7miDCtQhtBqh6P15qUHJ7Opq7/view"
+              "url": "https://drive.google.com/file/d/1-tB7kQr7miDCtQhtBqh6P15qUHJ7Opq7/view",
+              "base_name": "1. נושאים למבחן נובמבר י 571",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. בוחן לדוגמא נובמבר - חקירת מכפלה הבע באמצעות - עם תרגום וניקוד",
-              "url": "https://drive.google.com/file/d/1-uhWSbXk5YO3zFVaFVau4ZWyl8OV3ePX/view"
+              "url": "https://drive.google.com/file/d/1-uhWSbXk5YO3zFVaFVau4ZWyl8OV3ePX/view",
+              "base_name": "2. בוחן לדוגמא נובמבר - חקירת מכפלה הבע באמצעות - עם תרגום וניקוד",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרון בוחן לדוגמא נובמבר",
-              "url": "https://drive.google.com/file/d/1Td-2FHb1EiffvsHqB0efZxOfpxlHCHeY/view"
+              "url": "https://drive.google.com/file/d/1Td-2FHb1EiffvsHqB0efZxOfpxlHCHeY/view",
+              "base_name": "2. פתרון בוחן לדוגמא נובמבר",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. בני גורן א - עמודים 744-757",
-              "url": "https://drive.google.com/file/d/1WYwkiRmJ_JuMfW_8D1lNf5ZF9C5fdBmt/view"
+              "url": "https://drive.google.com/file/d/1WYwkiRmJ_JuMfW_8D1lNf5ZF9C5fdBmt/view",
+              "base_name": "3. בני גורן א - עמודים 744-757",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. דף חזרה נוסף בחדוא",
-              "url": "https://drive.google.com/file/d/1AGKw7cSyohMO_2l-xkIUe9WWtWdlkfOB/view"
+              "url": "https://drive.google.com/file/d/1AGKw7cSyohMO_2l-xkIUe9WWtWdlkfOB/view",
+              "base_name": "4. דף חזרה נוסף בחדוא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "5. מבחן נובמבר - י 5 יחל תשפו - לדוגמא",
-              "url": "https://drive.google.com/file/d/1jE0ls1Xmy82qYQGGGpuW56txcWCyJm4i/view"
+              "url": "https://drive.google.com/file/d/1jE0ls1Xmy82qYQGGGpuW56txcWCyJm4i/view",
+              "base_name": "5. מבחן נובמבר - י 5 יחל תשפו - לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "5. פתרון גאומטריה ממבחן לדוגמא",
-              "url": "https://drive.google.com/file/d/12zScNAcnPxtpD8I9wEkaXM5234Gc6hex/view"
+              "url": "https://drive.google.com/file/d/12zScNAcnPxtpD8I9wEkaXM5234Gc6hex/view",
+              "base_name": "5. פתרון גאומטריה ממבחן לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "6. דף עבודה צאטגיפי נגזרת מכפלה ופרמטרים",
-              "url": "https://drive.google.com/file/d/1DEfYMBY1IwrloMmULx3PyMhgof58BDWV/view"
+              "url": "https://drive.google.com/file/d/1DEfYMBY1IwrloMmULx3PyMhgof58BDWV/view",
+              "base_name": "6. דף עבודה צאטגיפי נגזרת מכפלה ופרמטרים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "7. מבחן נובמבר - י 5 יחל תשפו - פתרון",
-              "url": "https://drive.google.com/file/d/1LVs4iJWcFqXWz1VB_15PLT_HWMZebMgU/view"
+              "url": "https://drive.google.com/file/d/1LVs4iJWcFqXWz1VB_15PLT_HWMZebMgU/view",
+              "base_name": "7. מבחן נובמבר - י 5 יחל תשפו - פתרון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "7. מבחן נובמבר - י 5 יחל תשפו",
-              "url": "https://drive.google.com/file/d/1IwyWZGpB5cGD_ZtL5RXEWkSXEaH8Fd96/view"
+              "url": "https://drive.google.com/file/d/1IwyWZGpB5cGD_ZtL5RXEWkSXEaH8Fd96/view",
+              "base_name": "7. מבחן נובמבר - י 5 יחל תשפו",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2810,12 +3308,16 @@
             {
               "type": "file",
               "name": "עבודת חנוכה בגאומטריה",
-              "url": "https://drive.google.com/file/d/1nLibNuCbzNZ2b1jScC4LUdhxHg9wzORK/view"
+              "url": "https://drive.google.com/file/d/1nLibNuCbzNZ2b1jScC4LUdhxHg9wzORK/view",
+              "base_name": "עבודת חנוכה בגאומטריה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "עבודת חנוכה בחדוא",
-              "url": "https://drive.google.com/file/d/1qvlk4gFtbGCH7LZ0gvfMW8WRVydrLU8k/view"
+              "url": "https://drive.google.com/file/d/1qvlk4gFtbGCH7LZ0gvfMW8WRVydrLU8k/view",
+              "base_name": "עבודת חנוכה בחדוא",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -2832,37 +3334,51 @@
             {
               "type": "file",
               "name": "1. נושאים למבחן ינואר י 571",
-              "url": "https://drive.google.com/file/d/1cjJcbQH3h9j1xvJKU6bV0BD2JTdjlmUe/view"
+              "url": "https://drive.google.com/file/d/1cjJcbQH3h9j1xvJKU6bV0BD2JTdjlmUe/view",
+              "base_name": "1. נושאים למבחן ינואר י 571",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. מבחן י - ינואר 5 יחל - מבחן לדוגמא",
-              "url": "https://drive.google.com/file/d/1i4gO8l3FLHZI95DA6EHK6WCA78F1bWPw/view"
+              "url": "https://drive.google.com/file/d/1i4gO8l3FLHZI95DA6EHK6WCA78F1bWPw/view",
+              "base_name": "2. מבחן י - ינואר 5 יחל - מבחן לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. מבחן לדוגמא ינואר י 571 - פתרון",
-              "url": "https://drive.google.com/file/d/101Ct1tvfHta_z_EvV5aHoXC0dtagomxH/view"
+              "url": "https://drive.google.com/file/d/101Ct1tvfHta_z_EvV5aHoXC0dtagomxH/view",
+              "base_name": "2. מבחן לדוגמא ינואר י 571 - פתרון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. מבחן י - ינואר 5 יחל - סופי - תרגום לרוסית",
-              "url": "https://drive.google.com/file/d/1zPivX8qGqnB6xcsed39aoSZVulV8f0WT/view"
+              "url": "https://drive.google.com/file/d/1zPivX8qGqnB6xcsed39aoSZVulV8f0WT/view",
+              "base_name": "3. מבחן י - ינואר 5 יחל - סופי - תרגום לרוסית",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. מבחן י - ינואר 5 יחל - סופי",
-              "url": "https://drive.google.com/file/d/1iXzOhhj46xH1TmVFF0ROmeZjw91N7i0h/view"
+              "url": "https://drive.google.com/file/d/1iXzOhhj46xH1TmVFF0ROmeZjw91N7i0h/view",
+              "base_name": "3. מבחן י - ינואר 5 יחל - סופי",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. מבחן י - ינואר 5 יחל - פתרון",
-              "url": "https://drive.google.com/file/d/1-NmVE0xXOrpu5CpBzUNh7Q1C_1B1_6za/view"
+              "url": "https://drive.google.com/file/d/1-NmVE0xXOrpu5CpBzUNh7Q1C_1B1_6za/view",
+              "base_name": "3. מבחן י - ינואר 5 יחל - פתרון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. זום חזרה למבחן ינואר",
-              "url": "https://drive.google.com/file/d/1woLMg3bRfKMRF7AQL8lNbufawQM-YgWm/view"
+              "url": "https://drive.google.com/file/d/1woLMg3bRfKMRF7AQL8lNbufawQM-YgWm/view",
+              "base_name": "4. זום חזרה למבחן ינואר",
+              "file_extension": ".pdf"
             },
             {
               "type": "folder",
@@ -2875,12 +3391,16 @@
                     {
                       "type": "file",
                       "name": "1. דמיון - אוסף תרגילים מאתגרים",
-                      "url": "https://drive.google.com/file/d/1IZFrwRZ-AF1F-bWb731nNFkYeZbrHdNj/view"
+                      "url": "https://drive.google.com/file/d/1IZFrwRZ-AF1F-bWb731nNFkYeZbrHdNj/view",
+                      "base_name": "1. דמיון - אוסף תרגילים מאתגרים",
+                      "file_extension": ".pdf"
                     },
                     {
                       "type": "file",
                       "name": "2. גאומטריה - שאלות עם דמיון מבגרויות ישנות - חלקם מאוד קלות",
-                      "url": "https://drive.google.com/file/d/1Fp_HuS1aL2C9JkDJvzKzq4DJqQ4fnS4q/view"
+                      "url": "https://drive.google.com/file/d/1Fp_HuS1aL2C9JkDJvzKzq4DJqQ4fnS4q/view",
+                      "base_name": "2. גאומטריה - שאלות עם דמיון מבגרויות ישנות - חלקם מאוד קלות",
+                      "file_extension": ".pdf"
                     },
                     {
                       "type": "folder",
@@ -2889,31 +3409,43 @@
                         {
                           "type": "file",
                           "name": "ארכימדס - גאומטריה - שאלה מסכמת לפני מעגל - כיתה י' 571",
-                          "url": "https://drive.google.com/file/d/1uMqar0GYjSGVfvF4-YHERr6olwEnCrFo/view"
+                          "url": "https://drive.google.com/file/d/1uMqar0GYjSGVfvF4-YHERr6olwEnCrFo/view",
+                          "base_name": "ארכימדס - גאומטריה - שאלה מסכמת לפני מעגל - כיתה י' 571",
+                          "file_extension": ".pdf"
                         },
                         {
                           "type": "file",
                           "name": "ארכימדס י 571 שאלות אתגר - דמיון משולשים",
-                          "url": "https://drive.google.com/file/d/1T_pWfmTVJyPlgyTD5T0ttUe4lTIEuWdn/view"
+                          "url": "https://drive.google.com/file/d/1T_pWfmTVJyPlgyTD5T0ttUe4lTIEuWdn/view",
+                          "base_name": "ארכימדס י 571 שאלות אתגר - דמיון משולשים",
+                          "file_extension": ".pdf"
                         },
                         {
                           "type": "file",
                           "name": "שאלת דמיון - אפי כהן",
-                          "url": "https://drive.google.com/file/d/1I5C6x15_CyO664AWrvM1JounJPqDOWr7/view"
+                          "url": "https://drive.google.com/file/d/1I5C6x15_CyO664AWrvM1JounJPqDOWr7/view",
+                          "base_name": "שאלת דמיון - אפי כהן",
+                          "file_extension": ".pdf"
                         },
                         {
                           "type": "file",
                           "name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
-                          "url": "https://drive.google.com/file/d/17_YXi4ziSU1mbJGKRpfu_1lir4e3h4Ea/view"
+                          "url": "https://drive.google.com/file/d/17_YXi4ziSU1mbJGKRpfu_1lir4e3h4Ea/view",
+                          "base_name": "שאלת סיכום 1 בגיאומטריה לכיתה י' בשאלון 581",
+                          "file_extension": ".pdf"
                         },
                         {
                           "type": "file",
                           "name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
-                          "url": "https://drive.google.com/file/d/16tVYyU6cuiOL652xqCuTLuWwk7ZwdGEL/view"
+                          "url": "https://drive.google.com/file/d/16tVYyU6cuiOL652xqCuTLuWwk7ZwdGEL/view",
+                          "base_name": "שאלת סיכום 2 בגיאומטריה בשאלון 581",
+                          "file_extension": ".pdf"
                         }
-                      ]
+                      ],
+                      "file_extension": ""
                     }
-                  ]
+                  ],
+                  "file_extension": ""
                 },
                 {
                   "type": "folder",
@@ -2922,24 +3454,33 @@
                     {
                       "type": "file",
                       "name": "1. תרגול חקירה, סעיפי חשיבה, נגזרות, פרמטרים למבחן",
-                      "url": "https://drive.google.com/file/d/1xt0Yz2R9gxstfK5pJsohmjsoNYGqWvZf/view"
+                      "url": "https://drive.google.com/file/d/1xt0Yz2R9gxstfK5pJsohmjsoNYGqWvZf/view",
+                      "base_name": "1. תרגול חקירה, סעיפי חשיבה, נגזרות, פרמטרים למבחן",
+                      "file_extension": ".pdf"
                     },
                     {
                       "type": "file",
                       "name": "2. חדוא - פונקציית שורש - אפי כהן",
-                      "url": "https://drive.google.com/file/d/1_KK-3x9i3qwlBsPRqLnbig22QxZX6uqq/view"
+                      "url": "https://drive.google.com/file/d/1_KK-3x9i3qwlBsPRqLnbig22QxZX6uqq/view",
+                      "base_name": "2. חדוא - פונקציית שורש - אפי כהן",
+                      "file_extension": ".pdf"
                     },
                     {
                       "type": "file",
                       "name": "2. פתרון מדף העבודה לסעיף פרמטר שצריך נוסחת שורשים",
-                      "url": "https://drive.google.com/file/d/1JnTCf_vsc4AniU5CjDVU-z8PK9DWpYZU/view"
+                      "url": "https://drive.google.com/file/d/1JnTCf_vsc4AniU5CjDVU-z8PK9DWpYZU/view",
+                      "base_name": "2. פתרון מדף העבודה לסעיף פרמטר שצריך נוסחת שורשים",
+                      "file_extension": ".pdf"
                     },
                     {
                       "type": "file",
                       "name": "4. ארכימדס - חקירת שורש",
-                      "url": "https://drive.google.com/file/d/1H4HkXgTfWth6ThgC5xj68AXtfMLGSrvz/view"
+                      "url": "https://drive.google.com/file/d/1H4HkXgTfWth6ThgC5xj68AXtfMLGSrvz/view",
+                      "base_name": "4. ארכימדס - חקירת שורש",
+                      "file_extension": ".pdf"
                     }
-                  ]
+                  ],
+                  "file_extension": ""
                 },
                 {
                   "type": "folder",
@@ -2948,11 +3489,15 @@
                     {
                       "type": "file",
                       "name": "טריגו - תרגילים נוספים מבני גורן",
-                      "url": "https://drive.google.com/file/d/1ObJecxWgW1KENqQ1TMKriluF2uZqsuEb/view"
+                      "url": "https://drive.google.com/file/d/1ObJecxWgW1KENqQ1TMKriluF2uZqsuEb/view",
+                      "base_name": "טריגו - תרגילים נוספים מבני גורן",
+                      "file_extension": ".pdf"
                     }
-                  ]
+                  ],
+                  "file_extension": ""
                 }
-              ]
+              ],
+              "file_extension": ""
             }
           ],
           "lesson_json": {}
@@ -2965,7 +3510,9 @@
             {
               "type": "file",
               "name": "5. מבחן י - ינואר 5 יחל מועד ב - עם פתרונות",
-              "url": "https://drive.google.com/file/d/1KthPAl3Zlw0NDKbfIRKVI_S7SaMReggR/view"
+              "url": "https://drive.google.com/file/d/1KthPAl3Zlw0NDKbfIRKVI_S7SaMReggR/view",
+              "base_name": "5. מבחן י - ינואר 5 יחל מועד ב - עם פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -2978,37 +3525,51 @@
             {
               "type": "file",
               "name": "0. נושאים לבוחן",
-              "url": "https://drive.google.com/file/d/1N2BGyHy9hEbDuFHJWnUjL6rtReGFCeXC/view"
+              "url": "https://drive.google.com/file/d/1N2BGyHy9hEbDuFHJWnUjL6rtReGFCeXC/view",
+              "base_name": "0. נושאים לבוחן",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "1. פתרון חקירה בלי חור",
-              "url": "https://drive.google.com/file/d/1ilx7rWnhaYwCXXwdFTFxL4CyRdk8LV47/view"
+              "url": "https://drive.google.com/file/d/1ilx7rWnhaYwCXXwdFTFxL4CyRdk8LV47/view",
+              "base_name": "1. פתרון חקירה בלי חור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פתרון חקירה עם חור",
-              "url": "https://drive.google.com/file/d/1gZGZUZ8SyYXdtJUFi9hzVYBHW-QAd7vi/view"
+              "url": "https://drive.google.com/file/d/1gZGZUZ8SyYXdtJUFi9hzVYBHW-QAd7vi/view",
+              "base_name": "2. פתרון חקירה עם חור",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. הפונקציה המצומצמת",
-              "url": "https://drive.google.com/file/d/1Q07I-a2kXkuMINkkNS8hIFwqZEuGyF5I/view"
+              "url": "https://drive.google.com/file/d/1Q07I-a2kXkuMINkkNS8hIFwqZEuGyF5I/view",
+              "base_name": "3. הפונקציה המצומצמת",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. שאלות ותשובות לשאלות תלמידים מתוך השאלות לבוחן",
-              "url": "https://drive.google.com/file/d/1CtYdJ18VxWFtW4O_2C_OesECGb2gyaab/view"
+              "url": "https://drive.google.com/file/d/1CtYdJ18VxWFtW4O_2C_OesECGb2gyaab/view",
+              "base_name": "4. שאלות ותשובות לשאלות תלמידים מתוך השאלות לבוחן",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "5. בוחן פונקצית מנה - פברואר - טור א וטור ב - ופתרון",
-              "url": "https://drive.google.com/file/d/1wZmOU7shR1gw1SyPYPbE8UI7y53nByGX/view"
+              "url": "https://drive.google.com/file/d/1wZmOU7shR1gw1SyPYPbE8UI7y53nByGX/view",
+              "base_name": "5. בוחן פונקצית מנה - פברואר - טור א וטור ב - ופתרון",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "6. בוחן פונקצית מנה - פברואר - טור א וטור ב - מחוון",
-              "url": "https://drive.google.com/file/d/1x3JiHsB21i9d3S75ZMmF64U0NQbb9pSQ/view"
+              "url": "https://drive.google.com/file/d/1x3JiHsB21i9d3S75ZMmF64U0NQbb9pSQ/view",
+              "base_name": "6. בוחן פונקצית מנה - פברואר - טור א וטור ב - מחוון",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -3025,27 +3586,37 @@
             {
               "type": "file",
               "name": "0. עבודת פסח - הוראות",
-              "url": "https://drive.google.com/file/d/1i9KpwWoQPQlbrpvyZOFBDKJGB8FYjFMF/view"
+              "url": "https://drive.google.com/file/d/1i9KpwWoQPQlbrpvyZOFBDKJGB8FYjFMF/view",
+              "base_name": "0. עבודת פסח - הוראות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "1. חדוא",
-              "url": "https://drive.google.com/file/d/1AamHrWkl1wArsVkL7jU10EjRB092GgCK/view"
+              "url": "https://drive.google.com/file/d/1AamHrWkl1wArsVkL7jU10EjRB092GgCK/view",
+              "base_name": "1. חדוא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. מעגל - ללא משיקים",
-              "url": "https://drive.google.com/file/d/1cigGPr9cu0xSGD8CQmZB2FFQhGrmnIJ4/view"
+              "url": "https://drive.google.com/file/d/1cigGPr9cu0xSGD8CQmZB2FFQhGrmnIJ4/view",
+              "base_name": "2. מעגל - ללא משיקים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. מעגל - עם משיקים",
-              "url": "https://drive.google.com/file/d/1pM-4dJi0ZXViVywhCj_9KEzbCX1e1-RH/view"
+              "url": "https://drive.google.com/file/d/1pM-4dJi0ZXViVywhCj_9KEzbCX1e1-RH/view",
+              "base_name": "3. מעגל - עם משיקים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. טריגו מארכימדס",
-              "url": "https://drive.google.com/file/d/1FHP_BmaiT62MLRL4EyrKajrDtDV9ncKD/view"
+              "url": "https://drive.google.com/file/d/1FHP_BmaiT62MLRL4EyrKajrDtDV9ncKD/view",
+              "base_name": "4. טריגו מארכימדס",
+              "file_extension": ".pdf"
             },
             {
               "type": "folder",
@@ -3054,9 +3625,12 @@
                 {
                   "type": "file",
                   "name": "טריגו - שאלה אחרונה",
-                  "url": "https://drive.google.com/file/d/1QDQKXGPMONx63jKAF2CunDarZECUGEft/view"
+                  "url": "https://drive.google.com/file/d/1QDQKXGPMONx63jKAF2CunDarZECUGEft/view",
+                  "base_name": "טריגו - שאלה אחרונה",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             }
           ],
           "lesson_json": {
@@ -3073,45 +3647,52 @@
             {
               "type": "file",
               "name": "1. נושאים למבחן מרץ",
-              "url": "https://drive.google.com/file/d/1hVoM6vl81OsSIhFrxzptTk2EOOWIOT2R/view"
+              "url": "https://drive.google.com/file/d/1hVoM6vl81OsSIhFrxzptTk2EOOWIOT2R/view",
+              "base_name": "1. נושאים למבחן מרץ",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. מבחן לדוגמא מרץ י 571",
-              "url": "https://drive.google.com/file/d/1eZ7dosQfotnwo7AcrJo7xzqy497_khE3/view"
+              "url": "https://drive.google.com/file/d/1eZ7dosQfotnwo7AcrJo7xzqy497_khE3/view",
+              "base_name": "2. מבחן לדוגמא מרץ י 571",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
         },
         {
-          "name": "16. בוחן אפריל - טריגו במישור",
+          "name": "11.5. בוחן אפריל בטריגו במישור",
           "desc": "<p>בוחן בטריגו במישור במקום המבחן שבוטל - 2 שאלות</p>\n<p>65 דקות ללא תוספת זמן, 75 דקות עם תוספת זמן</p>",
           "id": "8-16",
           "content": [
             {
               "type": "file",
               "name": "1. בוחן אפריל טריגו - נושאים ובחנים לדוגמא",
-              "url": "https://drive.google.com/file/d/164q-3wflYzivx88ckL8am5CGuFK-aGDu/view"
+              "url": "https://drive.google.com/file/d/164q-3wflYzivx88ckL8am5CGuFK-aGDu/view",
+              "base_name": "1. בוחן אפריל טריגו - נושאים ובחנים לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. פיצוח בחנים לדוגמא",
-              "url": "https://drive.google.com/file/d/1hHYHXH2m8mCuKX_AGStx3LA3Uz-X4JtF/view"
-            },
-            {
-              "type": "file",
-              "name": "3. בוחן סופי.docx",
-              "url": "https://drive.google.com/file/d/1ib_4iAftX10cfi0gZ29JyiYrhTm8-ta7/view"
+              "url": "https://drive.google.com/file/d/1hHYHXH2m8mCuKX_AGStx3LA3Uz-X4JtF/view",
+              "base_name": "2. פיצוח בחנים לדוגמא",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. בוחן סופי",
-              "url": "https://drive.google.com/file/d/1W594OZtNxPb10BezC-U_l9tlcpaDkT28/view"
+              "url": "https://drive.google.com/file/d/1W594OZtNxPb10BezC-U_l9tlcpaDkT28/view",
+              "base_name": "3. בוחן סופי",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. פתרונות הבוחן",
-              "url": "https://drive.google.com/file/d/1ld4FDQVumUcprQ-PfSi-UHBWGpdJq8P5/view"
+              "url": "https://drive.google.com/file/d/1ld4FDQVumUcprQ-PfSi-UHBWGpdJq8P5/view",
+              "base_name": "4. פתרונות הבוחן",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -3132,9 +3713,12 @@
                 {
                   "type": "file",
                   "name": "3. תרגילים נוספים מהספר",
-                  "url": "https://drive.google.com/file/d/1_7Nu4tAvkCxCFEGTc3mPdI3gvcWwmOIK/view"
+                  "url": "https://drive.google.com/file/d/1_7Nu4tAvkCxCFEGTc3mPdI3gvcWwmOIK/view",
+                  "base_name": "3. תרגילים נוספים מהספר",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             },
             {
               "type": "folder",
@@ -3143,19 +3727,26 @@
                 {
                   "type": "file",
                   "name": "0. תרגילים - בני גורן, ארכימדס, מריאן",
-                  "url": "https://drive.google.com/file/d/1ypUiwc_yWtHwn6-HiyE49wOcRcLD2zlp/view"
+                  "url": "https://drive.google.com/file/d/1ypUiwc_yWtHwn6-HiyE49wOcRcLD2zlp/view",
+                  "base_name": "0. תרגילים - בני גורן, ארכימדס, מריאן",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "1. בעיות קיצון - בגרויות 571 -  2026",
-                  "url": "https://drive.google.com/file/d/1EQtZAdQHEiQzAD2kmuPu465h4BMS2xyL/view"
+                  "url": "https://drive.google.com/file/d/1EQtZAdQHEiQzAD2kmuPu465h4BMS2xyL/view",
+                  "base_name": "1. בעיות קיצון - בגרויות 571 -  2026",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "2. בעיות קיצון מיואל גבע",
-                  "url": "https://drive.google.com/file/d/16aag5KRC1IflixKS2o1OiOy2Dv2l3PHO/view"
+                  "url": "https://drive.google.com/file/d/16aag5KRC1IflixKS2o1OiOy2Dv2l3PHO/view",
+                  "base_name": "2. בעיות קיצון מיואל גבע",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             },
             {
               "type": "folder",
@@ -3164,29 +3755,33 @@
                 {
                   "type": "file",
                   "name": "1. בני גורן - תרגול דמיון למבחן - רמה נמוכה",
-                  "url": "https://drive.google.com/file/d/1iOF4kMYnX5fjJChhiR31sZlZdOZNi_kh/view"
-                },
-                {
-                  "type": "file",
-                  "name": "2. בגרויות ישנות (2009-2019) עם מעגל.docx",
-                  "url": "https://drive.google.com/file/d/1wIkSPpzIfgIaZ6SQFaoU9oxnETWFnCpM/view"
+                  "url": "https://drive.google.com/file/d/1iOF4kMYnX5fjJChhiR31sZlZdOZNi_kh/view",
+                  "base_name": "1. בני גורן - תרגול דמיון למבחן - רמה נמוכה",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "2. בגרויות ישנות (2009-2019) עם מעגל",
-                  "url": "https://drive.google.com/file/d/1VOwSS8c9k2mR6PB70RVyMpvVTWkr2HqE/view"
+                  "url": "https://drive.google.com/file/d/1VOwSS8c9k2mR6PB70RVyMpvVTWkr2HqE/view",
+                  "base_name": "2. בגרויות ישנות (2009-2019) עם מעגל",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "3. בגרויות חדשות (2022-2025) עם מעגל",
-                  "url": "https://drive.google.com/file/d/1yThsEdki2DWxdXerjOjy-0k51PLq6Pqr/view"
+                  "url": "https://drive.google.com/file/d/1yThsEdki2DWxdXerjOjy-0k51PLq6Pqr/view",
+                  "base_name": "3. בגרויות חדשות (2022-2025) עם מעגל",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "4. גאומטריה עם מעגל - רמת סוף כיתה י  - אפי כהן",
-                  "url": "https://drive.google.com/file/d/1Zr0t_G0cJmL1b2TwFYBts8FdmO2pv9me/view"
+                  "url": "https://drive.google.com/file/d/1Zr0t_G0cJmL1b2TwFYBts8FdmO2pv9me/view",
+                  "base_name": "4. גאומטריה עם מעגל - רמת סוף כיתה י  - אפי כהן",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             },
             {
               "type": "folder",
@@ -3194,60 +3789,76 @@
               "content": [
                 {
                   "type": "file",
-                  "name": "0. חקירת שורש עם מנה - ארכימדס.docx",
-                  "url": "https://drive.google.com/file/d/1VDaqWfkm0JhTQYhAZ1Hqpeg-crsEidSA/view"
-                },
-                {
-                  "type": "file",
                   "name": "0. חקירת שורש עם מנה - ארכימדס",
-                  "url": "https://drive.google.com/file/d/1t8bnaqAl5nxy-4xdkljkJBEx0V94aFX7/view"
+                  "url": "https://drive.google.com/file/d/1t8bnaqAl5nxy-4xdkljkJBEx0V94aFX7/view",
+                  "base_name": "0. חקירת שורש עם מנה - ארכימדס",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "1. חקירת שורש עם מנה - בני גורן",
-                  "url": "https://drive.google.com/file/d/1e4bdGiNtO0SflS0u957NeaaBwe-mf3Gm/view"
+                  "url": "https://drive.google.com/file/d/1e4bdGiNtO0SflS0u957NeaaBwe-mf3Gm/view",
+                  "base_name": "1. חקירת שורש עם מנה - בני גורן",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "2. סעיפי חשיבה - ארכימדס",
-                  "url": "https://drive.google.com/file/d/10AHlC6vxW-J5TsfQLeswMxRRt5r570ND/view"
+                  "url": "https://drive.google.com/file/d/10AHlC6vxW-J5TsfQLeswMxRRt5r570ND/view",
+                  "base_name": "2. סעיפי חשיבה - ארכימדס",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "3. אימון נגזרות הבע באמצעות",
-                  "url": "https://drive.google.com/file/d/1_KuTJjl7Qr96Q0o8ut-MurfCXj5-P7Px/view"
+                  "url": "https://drive.google.com/file/d/1_KuTJjl7Qr96Q0o8ut-MurfCXj5-P7Px/view",
+                  "base_name": "3. אימון נגזרות הבע באמצעות",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "4. חקירת הבע באמצעות עם הרבה סעיפי חשיבה שלי",
-                  "url": "https://drive.google.com/file/d/1J9QeUYp0hcRztB_hgk2UAc75EDVtlYVm/view"
+                  "url": "https://drive.google.com/file/d/1J9QeUYp0hcRztB_hgk2UAc75EDVtlYVm/view",
+                  "base_name": "4. חקירת הבע באמצעות עם הרבה סעיפי חשיבה שלי",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה ראשונה",
-                  "url": "https://drive.google.com/file/d/1HCqn_3S9br4sdJ7DuI6G6EejqhJ3ji7v/view"
+                  "url": "https://drive.google.com/file/d/1HCqn_3S9br4sdJ7DuI6G6EejqhJ3ji7v/view",
+                  "base_name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה ראשונה",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה שלישית",
-                  "url": "https://drive.google.com/file/d/1fE67DG4EyzkvgDAPBC3q3nQh0I9I4KvU/view"
+                  "url": "https://drive.google.com/file/d/1fE67DG4EyzkvgDAPBC3q3nQh0I9I4KvU/view",
+                  "base_name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה שלישית",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה",
-                  "url": "https://drive.google.com/file/d/1mT2KCHT0DZhRj2takC-G0ZY9eZLfH03r/view"
+                  "url": "https://drive.google.com/file/d/1mT2KCHT0DZhRj2takC-G0ZY9eZLfH03r/view",
+                  "base_name": "5. דף עבודה שאלון 571 חקירת שורש ומנה",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "6. פונקציה הופכית - שאלות",
-                  "url": "https://drive.google.com/file/d/19whRecDEBGFhVjlJx7LLq0fOcDJXe7Fk/view"
+                  "url": "https://drive.google.com/file/d/19whRecDEBGFhVjlJx7LLq0fOcDJXe7Fk/view",
+                  "base_name": "6. פונקציה הופכית - שאלות",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "6. פונקציה הופכית - תשובות",
-                  "url": "https://drive.google.com/file/d/1DGstG-TRza32H4rU3AtVp80z1HynyG6X/view"
+                  "url": "https://drive.google.com/file/d/1DGstG-TRza32H4rU3AtVp80z1HynyG6X/view",
+                  "base_name": "6. פונקציה הופכית - תשובות",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             },
             {
               "type": "folder",
@@ -3256,44 +3867,61 @@
                 {
                   "type": "file",
                   "name": "1. שאלות מארכימדס",
-                  "url": "https://drive.google.com/file/d/19-yz8hWljybfKiJBLa_WBaC2yDdoK8qh/view"
+                  "url": "https://drive.google.com/file/d/19-yz8hWljybfKiJBLa_WBaC2yDdoK8qh/view",
+                  "base_name": "1. שאלות מארכימדס",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "2. טריגו מבגרויות 481",
-                  "url": "https://drive.google.com/file/d/19Qcme51vWukLrmABq66mzL2NH-cno7aR/view"
+                  "url": "https://drive.google.com/file/d/19Qcme51vWukLrmABq66mzL2NH-cno7aR/view",
+                  "base_name": "2. טריגו מבגרויות 481",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "3. טריגו מבגרויות 481 ישנות נוספות",
-                  "url": "https://drive.google.com/file/d/1RSaPZObjndNdD3HyufC30_KaPdLGDxUr/view"
+                  "url": "https://drive.google.com/file/d/1RSaPZObjndNdD3HyufC30_KaPdLGDxUr/view",
+                  "base_name": "3. טריגו מבגרויות 481 ישנות נוספות",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             },
             {
               "type": "file",
               "name": "1. נושאים למבחן כיתה י 5 יחל  סוף מאי",
-              "url": "https://drive.google.com/file/d/1R9BcRPJEztp3uQHSPDHiOLqrUDtSYe7n/view"
+              "url": "https://drive.google.com/file/d/1R9BcRPJEztp3uQHSPDHiOLqrUDtSYe7n/view",
+              "base_name": "1. נושאים למבחן כיתה י 5 יחל  סוף מאי",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "2. מבחן לדוגמא מאי י 571",
-              "url": "https://drive.google.com/file/d/1JuW8OpQtDdEvtQrqqFagjMRwZfExi7TN/view"
+              "url": "https://drive.google.com/file/d/1JuW8OpQtDdEvtQrqqFagjMRwZfExi7TN/view",
+              "base_name": "2. מבחן לדוגמא מאי י 571",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "3. איך להתכונן למבחן",
-              "url": "https://drive.google.com/file/d/1dXhDiX0-SJ7F9hWZoOviqNIl8-zaYfZq/view"
+              "url": "https://drive.google.com/file/d/1dXhDiX0-SJ7F9hWZoOviqNIl8-zaYfZq/view",
+              "base_name": "3. איך להתכונן למבחן",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "4. מבחן מאי י 571 מועד א - סופי עם תרגום",
-              "url": "https://drive.google.com/file/d/1_V0Ty948UcQWpaH4kOQ1tiBQhfOGENIb/view"
+              "url": "https://drive.google.com/file/d/1_V0Ty948UcQWpaH4kOQ1tiBQhfOGENIb/view",
+              "base_name": "4. מבחן מאי י 571 מועד א - סופי עם תרגום",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "5. פתרון מבחן מועד א",
-              "url": "https://drive.google.com/file/d/1YilNPXIeek3PTcs_J9hHc39OpnREPfVR/view"
+              "url": "https://drive.google.com/file/d/1YilNPXIeek3PTcs_J9hHc39OpnREPfVR/view",
+              "base_name": "5. פתרון מבחן מועד א",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {

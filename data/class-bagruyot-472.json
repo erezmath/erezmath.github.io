@@ -23,27 +23,37 @@
             {
               "type": "file",
               "name": "ריכוז בגרויות 472 גדילה ודעיכה",
-              "url": "https://drive.google.com/file/d/1hpsRmb_RTV8WT3qLIzFzsynAnKB793w-/view"
+              "url": "https://drive.google.com/file/d/1hpsRmb_RTV8WT3qLIzFzsynAnKB793w-/view",
+              "base_name": "ריכוז בגרויות 472 גדילה ודעיכה",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ריכוז בגרויות 472 וקטורים",
-              "url": "https://drive.google.com/file/d/1qJIsY5IWvXvv5_grD0lZhq4F1_pxum0L/view"
+              "url": "https://drive.google.com/file/d/1qJIsY5IWvXvv5_grD0lZhq4F1_pxum0L/view",
+              "base_name": "ריכוז בגרויות 472 וקטורים",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ריכוז בגרויות 472 לוגריתמיות",
-              "url": "https://drive.google.com/file/d/1ZULsCZ_3IxbQIGJJns8bgxNRxsia60P5/view"
+              "url": "https://drive.google.com/file/d/1ZULsCZ_3IxbQIGJJns8bgxNRxsia60P5/view",
+              "base_name": "ריכוז בגרויות 472 לוגריתמיות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ריכוז בגרויות 472 מעריכיות",
-              "url": "https://drive.google.com/file/d/1xApjWGLNmnE9DL-KT2ShxEt2HaiTZZSH/view"
+              "url": "https://drive.google.com/file/d/1xApjWGLNmnE9DL-KT2ShxEt2HaiTZZSH/view",
+              "base_name": "ריכוז בגרויות 472 מעריכיות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "ריכוז בגרויות 472 סדרות",
-              "url": "https://drive.google.com/file/d/1GJBa_e8C4epJl-6JaKZ47UwYVFcU-J4C/view"
+              "url": "https://drive.google.com/file/d/1GJBa_e8C4epJl-6JaKZ47UwYVFcU-J4C/view",
+              "base_name": "ריכוז בגרויות 472 סדרות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -62,17 +72,23 @@
             {
               "type": "file",
               "name": "מתכונת סימולציה 1",
-              "url": "https://drive.google.com/file/d/1xiTBDaQjG_9TrIJTjg1FadEHmAwbjNMX/view"
+              "url": "https://drive.google.com/file/d/1xiTBDaQjG_9TrIJTjg1FadEHmAwbjNMX/view",
+              "base_name": "מתכונת סימולציה 1",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "מתכונת סימולציה 2",
-              "url": "https://drive.google.com/file/d/1kcnawGsgWjzRPmfg7X3oZT8HQxsIRJsf/view"
+              "url": "https://drive.google.com/file/d/1kcnawGsgWjzRPmfg7X3oZT8HQxsIRJsf/view",
+              "base_name": "מתכונת סימולציה 2",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "פתרון ומחוון מתכונת 472",
-              "url": "https://drive.google.com/file/d/1nnS95tpYvwEqSr6HiZnhvaAqENkwHfs7/view"
+              "url": "https://drive.google.com/file/d/1nnS95tpYvwEqSr6HiZnhvaAqENkwHfs7/view",
+              "base_name": "פתרון ומחוון מתכונת 472",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -89,14 +105,19 @@
                 {
                   "type": "file",
                   "name": "472 מבחנים",
-                  "url": "https://drive.google.com/file/d/1cRIj9oNH177kj25fv8yHvr9B4z4IO_Ik/view"
+                  "url": "https://drive.google.com/file/d/1cRIj9oNH177kj25fv8yHvr9B4z4IO_Ik/view",
+                  "base_name": "472 מבחנים",
+                  "file_extension": ".pdf"
                 },
                 {
                   "type": "file",
                   "name": "__472 פתרונות",
-                  "url": "https://drive.google.com/file/d/17KKwOL3M8ArvscKuCkwjncBZyFfyKbKw/view"
+                  "url": "https://drive.google.com/file/d/17KKwOL3M8ArvscKuCkwjncBZyFfyKbKw/view",
+                  "base_name": "__472 פתרונות",
+                  "file_extension": ".pdf"
                 }
-              ]
+              ],
+              "file_extension": ""
             }
           ],
           "lesson_json": {}
@@ -115,7 +136,9 @@
             {
               "type": "file",
               "name": "גדילה ודעיכה - שאלות מקוריות ברמת בגרות - אדם",
-              "url": "https://drive.google.com/file/d/1-58LFkr0JczM045wmr3khW-Sz-EwdgQJ/view"
+              "url": "https://drive.google.com/file/d/1-58LFkr0JczM045wmr3khW-Sz-EwdgQJ/view",
+              "base_name": "גדילה ודעיכה - שאלות מקוריות ברמת בגרות - אדם",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -128,17 +151,22 @@
             {
               "type": "folder",
               "name": "2026 - יצרתי עם AI",
-              "content": []
+              "content": [],
+              "file_extension": ""
             },
             {
               "type": "file",
               "name": "סדרות - שאלות נוספות",
-              "url": "https://drive.google.com/file/d/1PwN9CrV_cUAH6J8yQel-WwEBYkoekCNJ/view"
+              "url": "https://drive.google.com/file/d/1PwN9CrV_cUAH6J8yQel-WwEBYkoekCNJ/view",
+              "base_name": "סדרות - שאלות נוספות",
+              "file_extension": ".pdf"
             },
             {
               "type": "file",
               "name": "סדרות 472 רמה יותר מאתגרת",
-              "url": "https://drive.google.com/file/d/1gtGM4vDsu8JJfJPlTnk-nKC5sPxbRog6/view"
+              "url": "https://drive.google.com/file/d/1gtGM4vDsu8JJfJPlTnk-nKC5sPxbRog6/view",
+              "base_name": "סדרות 472 רמה יותר מאתגרת",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
