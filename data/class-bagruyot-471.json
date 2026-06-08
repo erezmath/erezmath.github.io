@@ -51,10 +51,17 @@
           "lesson_json": {}
         },
         {
-          "name": "חוברת בגרויות יואל גבע",
+          "name": "חוברת בגרויות יואל גבע 471, 481",
           "desc": "",
           "id": "1-2",
           "content": [
+            {
+              "type": "file",
+              "name": "בגרויות 2009-2023 שאלון 481",
+              "url": "https://drive.google.com/file/d/1-MroanMeWrwALoltbkzoDbOKN3pRP_dv/view",
+              "base_name": "בגרויות 2009-2023 שאלון 481",
+              "file_extension": ".pdf"
+            },
             {
               "type": "file",
               "name": "חוברת בגרויות 471 2025 - בלי מיקוד",

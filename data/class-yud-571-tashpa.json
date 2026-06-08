@@ -2207,6 +2207,41 @@
           "id": "7-12",
           "content": [
             {
+              "type": "file",
+              "name": "0. נושאים למבחן כיתה י 5 יחל  מאי_תשפה",
+              "url": "https://drive.google.com/file/d/1VNr3GbrDB91MNggjxnUO4Hy6OWxkDZDL/view",
+              "base_name": "0. נושאים למבחן כיתה י 5 יחל  מאי_תשפה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "1. מבחן מאי",
+              "url": "https://drive.google.com/file/d/1BC-rzIOWCaWd9Lq2h1Cc_3z_A1gg50kJ/view",
+              "base_name": "1. מבחן מאי",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. מבחן מאי 571 תשפה - מבחן ופתרון",
+              "url": "https://drive.google.com/file/d/1HvOfKVV1rpnv4EZBkWAOE0s_lML7Awck/view",
+              "base_name": "2. מבחן מאי 571 תשפה - מבחן ופתרון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן מועד ב 571 תשפה",
+              "url": "https://drive.google.com/file/d/1BAtbX89K-iXHzv3uPDovnRk5SOqOltiE/view",
+              "base_name": "3. מבחן מועד ב 571 תשפה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן מועד ב 571 תשפה ופתרון",
+              "url": "https://drive.google.com/file/d/1u-QpDC0AXtcp8q2hU_RhC4qkFyOZZ59E/view",
+              "base_name": "4. מבחן מועד ב 571 תשפה ופתרון",
+              "file_extension": ".pdf"
+            },
+            {
               "type": "folder",
               "name": "חומר נוסף לתרגול",
               "content": [
@@ -2268,13 +2303,6 @@
                 }
               ],
               "file_extension": ""
-            },
-            {
-              "type": "file",
-              "name": "נושאים למבחן כיתה י 5 יחל  מאי_תשפה",
-              "url": "https://drive.google.com/file/d/1VNr3GbrDB91MNggjxnUO4Hy6OWxkDZDL/view",
-              "base_name": "נושאים למבחן כיתה י 5 יחל  מאי_תשפה",
-              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}

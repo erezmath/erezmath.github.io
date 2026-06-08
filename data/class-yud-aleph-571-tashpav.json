@@ -184,6 +184,50 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "7. חקירת פונקציה מעריכית - אסימפטוטות אופקיות, חקירה מלאה - רמה בסיסית",
+          "desc": "",
+          "id": "1-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1orjntkJos4cwNojd3sCHR69zqJ7y879O/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - אסימפטוטות וחקירה בסיסית",
+              "url": "https://drive.google.com/file/d/12iCTZKWAFoQxiUMC4DS882yx4n_ZlghR/view",
+              "base_name": "2. ש.ב - אסימפטוטות וחקירה בסיסית",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות רק לאסימפטוטות",
+              "url": "https://drive.google.com/file/d/13uCMhTiw6f7Cw3IfC7UAtf4UlXC7hMLN/view",
+              "base_name": "3. פתרונות רק לאסימפטוטות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "8. חקירת פונקציה מעריכית - מתקדם - אסימפטוטות וחקירה מלאה עם פרמטרים",
+          "desc": "",
+          "id": "1-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב אסימפטוטות וחקירת פונקציה עם פרמטרים",
+              "url": "https://drive.google.com/file/d/1ewVptWmapNR_5JI-A1okWJEXVtN0xQ1O/view",
+              "base_name": "1. ש.ב אסימפטוטות וחקירת פונקציה עם פרמטרים",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
