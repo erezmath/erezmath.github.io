@@ -3727,6 +3727,41 @@
           "content": [
             {
               "type": "folder",
+              "name": "0. מבחני עבר - לא בול אותו חומר",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. מבחן מאי 571 תשפה",
+                  "url": "https://drive.google.com/file/d/14V6KZfcWS_l5EdJckpDeUR5uw7wMAuFz/view",
+                  "base_name": "1. מבחן מאי 571 תשפה",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2. מבחן מאי 571 תשפה - מבחן ופתרון",
+                  "url": "https://drive.google.com/file/d/1YtSwF1FA-JUpB0wNU1AWwT7Z1CaZx108/view",
+                  "base_name": "2. מבחן מאי 571 תשפה - מבחן ופתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "3. מבחן מועד ב 571 תשפה",
+                  "url": "https://drive.google.com/file/d/1Q6hN6Kkt_w3MOylFyevzD-AE5s9v0fWc/view",
+                  "base_name": "3. מבחן מועד ב 571 תשפה",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "4. מבחן מועד ב 571 תשפה ופתרון",
+                  "url": "https://drive.google.com/file/d/1lCFMs9MGbVK9kqDXiQkyhASCLObCsHMj/view",
+                  "base_name": "4. מבחן מועד ב 571 תשפה ופתרון",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
               "name": "0. תרגול למבחן - אינטגרלים למבחן",
               "content": [
                 {
@@ -3762,6 +3797,20 @@
                   "name": "2. בעיות קיצון מיואל גבע",
                   "url": "https://drive.google.com/file/d/16aag5KRC1IflixKS2o1OiOy2Dv2l3PHO/view",
                   "base_name": "2. בעיות קיצון מיואל גבע",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "3. קיצון - גרפית מנה עם פתרון",
+                  "url": "https://drive.google.com/file/d/1ds5-JTKx3uAenaZVHVh0P2lGVSwGmr7a/view",
+                  "base_name": "3. קיצון - גרפית מנה עם פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "4. בעיות קיצון נוספות",
+                  "url": "https://drive.google.com/file/d/1nA7l8unyckgeB6bghQLQwFLu7poZLFey/view",
+                  "base_name": "4. בעיות קיצון נוספות",
                   "file_extension": ".pdf"
                 }
               ],
@@ -3902,6 +3951,13 @@
                   "name": "3. טריגו מבגרויות 481 ישנות נוספות",
                   "url": "https://drive.google.com/file/d/1RSaPZObjndNdD3HyufC30_KaPdLGDxUr/view",
                   "base_name": "3. טריגו מבגרויות 481 ישנות נוספות",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "4. טריגו - תרגיל נוסף עם פתרון",
+                  "url": "https://drive.google.com/file/d/15tcADBH9Yqm1STpe0ijNvqK8MZTKCzor/view",
+                  "base_name": "4. טריגו - תרגיל נוסף עם פתרון",
                   "file_extension": ".pdf"
                 }
               ],
