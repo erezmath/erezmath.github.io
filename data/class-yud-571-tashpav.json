@@ -3899,9 +3899,9 @@
                 },
                 {
                   "type": "file",
-                  "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה שלישית",
+                  "name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה שלישית - שאלה עם חור",
                   "url": "https://drive.google.com/file/d/1fE67DG4EyzkvgDAPBC3q3nQh0I9I4KvU/view",
-                  "base_name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה שלישית",
+                  "base_name": "5. דף עבודה שאלון 571 חקירת שורש ומנה - פתרון שאלה שלישית - שאלה עם חור",
                   "file_extension": ".pdf"
                 },
                 {
@@ -3923,6 +3923,13 @@
                   "name": "6. פונקציה הופכית - תשובות",
                   "url": "https://drive.google.com/file/d/1DGstG-TRza32H4rU3AtVp80z1HynyG6X/view",
                   "base_name": "6. פונקציה הופכית - תשובות",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "7. שאלה ופתרון חקירת שורש מנה עם חור מארכימדס",
+                  "url": "https://drive.google.com/file/d/1a3rG6PXACavgFPC0NWTLY50ZvmuFqn63/view",
+                  "base_name": "7. שאלה ופתרון חקירת שורש מנה עם חור מארכימדס",
                   "file_extension": ".pdf"
                 }
               ],
@@ -3964,6 +3971,20 @@
               "file_extension": ""
             },
             {
+              "type": "folder",
+              "name": "0. תרגול למבחן - תרגול שברים ומיומנות אלגברית",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. תרגול שברים ומיומנות אלגברית",
+                  "url": "https://drive.google.com/file/d/1cDq5ZDkGiwd8lmIK5H17l1Mslp9Kl2wc/view",
+                  "base_name": "1. תרגול שברים ומיומנות אלגברית",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
               "type": "file",
               "name": "1. נושאים למבחן כיתה י 5 יחל  סוף מאי",
               "url": "https://drive.google.com/file/d/1R9BcRPJEztp3uQHSPDHiOLqrUDtSYe7n/view",
@@ -3996,6 +4017,20 @@
               "name": "5. פתרון מבחן מועד א",
               "url": "https://drive.google.com/file/d/1YilNPXIeek3PTcs_J9hHc39OpnREPfVR/view",
               "base_name": "5. פתרון מבחן מועד א",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "6. מבחן יוני י 571 מועד ב - עם תרגום",
+              "url": "https://drive.google.com/file/d/1pQcL2pRx2ykK0tL2oRlg0Rm68SAACXLm/view",
+              "base_name": "6. מבחן יוני י 571 מועד ב - עם תרגום",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "7. פתרון מבחן מועד ב",
+              "url": "https://drive.google.com/file/d/1I2B8aNKTuyH6yjBOKoabfawQ21aYrTdM/view",
+              "base_name": "7. פתרון מבחן מועד ב",
               "file_extension": ".pdf"
             }
           ],
