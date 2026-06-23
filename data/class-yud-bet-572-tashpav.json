@@ -381,6 +381,27 @@
                   "url": "https://drive.google.com/file/d/1KQKNwJBQq8jXdXHZQ5Q5w5RBXIP0i9Ai/view",
                   "base_name": "2026 - מועד חורף - תשובות סופיות",
                   "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1oTGqxrHery40jQ7t53nSkLqUFmzOvMfN/view",
+                  "base_name": "2026 - קיץ מועד א - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1aiKsTX1EnANem6FJ8_-TJygCl-SeUQSf/view",
+                  "base_name": "2026 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד א - תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1PJY6aInZXGpLEwXEnPxurw9wtENld6hX/view",
+                  "base_name": "2026 - קיץ מועד א - תשובות סופיות",
+                  "file_extension": ".pdf"
                 }
               ],
               "file_extension": ""
@@ -430,6 +451,13 @@
                   "name": "2026 - חורף - חקירה לן",
                   "url": "https://drive.google.com/file/d/1mlPdxsDbbGnWQq4xCdeF1mR7ZwV79wIj/view",
                   "base_name": "2026 - חורף - חקירה לן",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד א - חקירה לן",
+                  "url": "https://drive.google.com/file/d/13pS-0pEJX9NQC-GMRdAMCqm3NVKszTlU/view",
+                  "base_name": "2026 - קיץ מועד א - חקירה לן",
                   "file_extension": ".pdf"
                 }
               ],
@@ -892,6 +920,13 @@
               "name": "2026 - חורף - חקירה לן",
               "url": "https://drive.google.com/file/d/1ElJUsIQUEfD6ZrFTUC82TNGuBaodvQZp/view",
               "base_name": "2026 - חורף - חקירה לן",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2026 - קיץ מועד א - חקירה לן",
+              "url": "https://drive.google.com/file/d/1nn1Y-jCfviRZgy2cszYahfteHmXuv1wM/view",
+              "base_name": "2026 - קיץ מועד א - חקירה לן",
               "file_extension": ".pdf"
             }
           ],
