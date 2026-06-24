@@ -435,6 +435,13 @@
               "content": [
                 {
                   "type": "file",
+                  "name": "2024- חקירת לן - קיץ מועד א",
+                  "url": "https://drive.google.com/file/d/1-6RgAJrlvLMYiY1TAS2IbcJO1v5KJc3L/view",
+                  "base_name": "2024- חקירת לן - קיץ מועד א",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
                   "name": "2025 - - עוד לא פתרתי חקירת לן - קיץ מועד א",
                   "url": "https://drive.google.com/file/d/1gRiWS1_PWssbf8kTpBlUgMdd2CcF6X6B/view",
                   "base_name": "2025 - - עוד לא פתרתי חקירת לן - קיץ מועד א",
@@ -468,6 +475,13 @@
               "type": "folder",
               "name": "חקירה מעריכית",
               "content": [
+                {
+                  "type": "file",
+                  "name": "2024 - חקירת מעריכית - חורף",
+                  "url": "https://drive.google.com/file/d/18OI-oE9JCaKMuIbJ78upXjb6mW8Nq_Y1/view",
+                  "base_name": "2024 - חקירת מעריכית - חורף",
+                  "file_extension": ".pdf"
+                },
                 {
                   "type": "file",
                   "name": "2025 - קיץ מועד א - חקירה מעריכית - שאלה קלה",
