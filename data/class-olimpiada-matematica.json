@@ -5,14 +5,15 @@
   "banner_url": "images/olympiad.png",
   "desc": "",
   "tags": [
-    "מבחני שלב א - 2021-2025",
-    "מבחני שלב ב - 2020-2025",
-    "מבחני שלב ג - שלב הגמר"
+    "1. מבחני שלב א - 2021-2025",
+    "2. מבחני שלב ב - 2020-2025",
+    "3. מבחני שלב ג - שלב הגמר",
+    "4. תחרות גרוסמן - טכניון"
   ],
   "topics": [
     {
-      "name": "מבחני שלב א - 2021-2025",
-      "id": "מבחני-שלב-א---2021-2025",
+      "name": "1. מבחני שלב א - 2021-2025",
+      "id": "1-מבחני-שלב-א---2021-2025",
       "lessons": [
         {
           "name": "2021-2023",
@@ -101,13 +102,6 @@
               "name": "mathA2_2023__test",
               "url": "https://drive.google.com/file/d/1CHrG-q7V7O7wtpphp2yvro2vF5L-2mkK/view",
               "base_name": "mathA2_2023__test",
-              "file_extension": ".pdf"
-            },
-            {
-              "type": "file",
-              "name": "קישור לקובץ ניסיון",
-              "url": "https://drive.google.com/file/d/1-X6aIfcmlFvSSzkSOO2yyFfaFPegHdFJ/view",
-              "base_name": "קישור לקובץ ניסיון",
               "file_extension": ".pdf"
             }
           ],
@@ -208,14 +202,186 @@
       ]
     },
     {
-      "name": "מבחני שלב ב - 2020-2025",
-      "id": "מבחני-שלב-ב---2020-2025",
-      "lessons": []
+      "name": "2. מבחני שלב ב - 2020-2025",
+      "id": "2-מבחני-שלב-ב---2020-2025",
+      "lessons": [
+        {
+          "name": "מבחנים",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "mathB_2012__solutionn",
+              "url": "https://drive.google.com/file/d/1sxM4wI-N62pB9cH5pNCbAnOsesTrexP3/view",
+              "base_name": "mathB_2012__solutionn",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2012__testt",
+              "url": "https://drive.google.com/file/d/1mtXmLkIvOcHagIGYAb0Ls9nMTeeTt49Z/view",
+              "base_name": "mathB_2012__testt",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2022__solutionn",
+              "url": "https://drive.google.com/file/d/1LkW5aBzqLyQYGPoEtFM86YrWXjD190rO/view",
+              "base_name": "mathB_2022__solutionn",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2022__testt",
+              "url": "https://drive.google.com/file/d/1ITZQFwW-a0uaFNDclaAlczsnDmBUGVIa/view",
+              "base_name": "mathB_2022__testt",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2023__solution",
+              "url": "https://drive.google.com/file/d/1gDPBWz4m1bmwNVRjqJz4oQFVnh5N0Rag/view",
+              "base_name": "mathB_2023__solution",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2023__test",
+              "url": "https://drive.google.com/file/d/1BbLA75z9cKMUBL8s8AVM46sM3VgsZL8l/view",
+              "base_name": "mathB_2023__test",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2024__D_solution",
+              "url": "https://drive.google.com/file/d/1V-NMFwu617ycCO0ryfkUx2oWjJSF1fb7/view",
+              "base_name": "mathB_2024__D_solution",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2024__solution",
+              "url": "https://drive.google.com/file/d/1A6-HnkMjbGJvaoM0bHmPqdyMW83gSRNQ/view",
+              "base_name": "mathB_2024__solution",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2024__test",
+              "url": "https://drive.google.com/file/d/1HN5R4VQOVq_wpkAu0c86BTSiGrsfzIO8/view",
+              "base_name": "mathB_2024__test",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
     },
     {
-      "name": "מבחני שלב ג - שלב הגמר",
-      "id": "מבחני-שלב-ג---שלב-הגמר",
-      "lessons": []
+      "name": "3. מבחני שלב ג - שלב הגמר",
+      "id": "3-מבחני-שלב-ג---שלב-הגמר",
+      "lessons": [
+        {
+          "name": "מבחנים",
+          "desc": "",
+          "id": "3-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "mathB_2021__solution",
+              "url": "https://drive.google.com/file/d/1-N1f6gvqNlctvTGSp8msEJsI0dXsje_b/view",
+              "base_name": "mathB_2021__solution",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathB_2021__test",
+              "url": "https://drive.google.com/file/d/1y0Rvs5xYE5j3JqEauLBzBw_822i3H6vf/view",
+              "base_name": "mathB_2021__test",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathC_2022__solution",
+              "url": "https://drive.google.com/file/d/1s81YXsDWi4k4yKf3Pq_ln_imvmY6-Z4r/view",
+              "base_name": "mathC_2022__solution",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "mathC_2022__test",
+              "url": "https://drive.google.com/file/d/1mfQmmR7qZ46b8dViF3N6NnnY4QZyyyGW/view",
+              "base_name": "mathC_2022__test",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
+    },
+    {
+      "name": "4. תחרות גרוסמן - טכניון",
+      "id": "4-תחרות-גרוסמן---טכניון",
+      "lessons": [
+        {
+          "name": "מבחנים",
+          "desc": "",
+          "id": "4-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "2020 - TICHON_2020-FINAL-solutions-CORRECTED",
+              "url": "https://drive.google.com/file/d/1W0J0s-ba37rixlnJOFzbJPSN79_nL9cd/view",
+              "base_name": "2020 - TICHON_2020-FINAL-solutions-CORRECTED",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2021 - TICHON_2021-FINAL-solutions",
+              "url": "https://drive.google.com/file/d/1eNj0a93zsHMlG5jL9pnZMVDSYH9JB4xq/view",
+              "base_name": "2021 - TICHON_2021-FINAL-solutions",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2022 - TICHON-2022-problems-solutions-FINAL",
+              "url": "https://drive.google.com/file/d/1Q64hutkyzcIseCKpsharbDWrF4GnCho0/view",
+              "base_name": "2022 - TICHON-2022-problems-solutions-FINAL",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2024 - שאלות-יחד-עם-תשובות-ורמזים-חטיבת-ביניים",
+              "url": "https://drive.google.com/file/d/1HSCOsVdYADhNllUqEoQjkiHCFaxBhssT/view",
+              "base_name": "2024 - שאלות-יחד-עם-תשובות-ורמזים-חטיבת-ביניים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2024 - שאלות-יחד-עם-תשובות-ורמזים-תיכון",
+              "url": "https://drive.google.com/file/d/1XOzjbNbV7vtJcJ64WB-mzECAsSrzAuTf/view",
+              "base_name": "2024 - שאלות-יחד-עם-תשובות-ורמזים-תיכון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2025 - שאלות-עם-תשובות-ורמזים-חטב",
+              "url": "https://drive.google.com/file/d/1NNKFOjNDBm7G0hrN1KU3vAhrP3TAXAAV/view",
+              "base_name": "2025 - שאלות-עם-תשובות-ורמזים-חטב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2025 - שאלות-עם-תשובות-ורמזים-תיכון",
+              "url": "https://drive.google.com/file/d/1UWWpygNQ2DRE7oPuyYjtvKpfVOnD12Te/view",
+              "base_name": "2025 - שאלות-עם-תשובות-ורמזים-תיכון",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
+        }
+      ]
     }
   ],
   "assignments": "",
