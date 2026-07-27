@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import jsonschema  # <-- Added for JSON validation
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -14,7 +15,6 @@ import pytz
 import markdown
 import base64
 from bs4 import BeautifulSoup
-from datetime import datetime
 
 
 log_event('Drive-to-class JSON generation started')
@@ -24,6 +24,11 @@ SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 CREDENTIALS_PATH = 'secrets/credentials.json'
 TOKEN_PATH = 'secrets/token.pickle'
 DATA_DIR = 'data'
+
+# --- Added Schema Configuration ---
+SCHEMA_PATH = 'schema.json'
+LESSON_SCHEMA = None
+# ----------------------------------
 
 # Folder listing cache. Each folder_id has its own cache file.
 CACHE_DIR = os.path.join('cache', 'folder_listings')
@@ -265,6 +270,7 @@ def read_lesson_json(service, folder_id, folder_items):
         folder_id: ID of the folder to search
         folder_items: List of items already fetched from folder listing.
     """
+    global LESSON_SCHEMA # <-- Ensure we have access to the global schema
     try:
         lesson_json_id = None
         
@@ -280,7 +286,19 @@ def read_lesson_json(service, folder_id, folder_items):
         
         file_content = service.files().get_media(fileId=lesson_json_id).execute()
         json_text = file_content.decode('utf-8')
-        return json.loads(json_text)
+        parsed_json = json.loads(json_text)
+        
+        # --- New Validation Snippet ---
+        if LESSON_SCHEMA is not None:
+            try:
+                jsonschema.validate(instance=parsed_json, schema=LESSON_SCHEMA)
+            except jsonschema.ValidationError as e:
+                print(f"Schema validation error in lesson.json (folder {folder_id}): {e.message}")
+                log_event(f"Schema validation error in lesson.json (folder {folder_id}): {e.message}")
+                return {} # Return empty dict if validation fails, ignoring the invalid data
+        # ------------------------------
+        
+        return parsed_json
     except Exception as e:
         log_event(f"Error reading lesson.json from folder {folder_id}: {str(e)}")
         return {}
@@ -762,6 +780,20 @@ def generate_data(use_cache=True):
     """
     log_event('Main process started')
     print('Main process started!')
+    
+    # --- New Schema Loading Snippet ---
+    global LESSON_SCHEMA
+    try:
+        with open(SCHEMA_PATH, 'r', encoding='utf-8') as f:
+            LESSON_SCHEMA = json.load(f)
+        log_event(f'Successfully loaded lesson schema from {SCHEMA_PATH}')
+    except Exception as e:
+        error_msg = f"Critical Error: Failed to load JSON schema from {SCHEMA_PATH}. Details: {e}"
+        log_event(error_msg)
+        print(error_msg)
+        raise RuntimeError(error_msg)
+    # ----------------------------------
+    
     # Record the start time
     start_time = datetime.now()
 
