@@ -11,7 +11,8 @@ from icalendar import Calendar, Event
 from logger import log_event
 from drive_to_class_json import SITE_CATEGORIES
 
-# Paths
+# Paths & Constants
+BASE_URL = "https://erezmath.github.io"
 TEMPLATES_DIR = 'templates'
 STATIC_DIR = 'static'
 DATA_DIR = 'data'
@@ -144,7 +145,7 @@ def generate_calendars(classes):
     for c in classes:
         url_name = c.get('url_name', '') or c.get('name', '').replace(' ', '_')
         class_name = c.get('name', 'שיעורי מתמטיקה')
-        base_url = f"https://erezmath.github.io/class-{url_name}.html"
+        base_url = f"{BASE_URL}/class-{url_name}.html"
 
         # 1. Calendar for Lesson Dates
         lessons_cal = Calendar()
