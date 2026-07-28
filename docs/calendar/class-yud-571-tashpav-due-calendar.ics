@@ -1,0 +1,591 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ErezMath//Class yud-571-tashpav Due Dates//HE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:כיתה י 571 תשפו - משימות וש.ב
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. בעיות קיצון / 1. מבוא ובעיות קיצו
+ ן גאומטריות
+DTSTART;VALUE=DATE:20260412
+UID:due-2-1-12-04-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#2-1
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#2-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. בעיות קיצון / 2. בעיות קיצון גאומ
+ טריות - מארכימדס
+DTSTART;VALUE=DATE:20260428
+UID:due-2-2-28-04-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#2-2
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#2-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. בעיות קיצון / 3. בעיות קיצון גרפי
+ ות -משתנה בודד
+DTSTART;VALUE=DATE:20260506
+UID:due-2-3-06-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#2-3
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#2-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. בעיות קיצון / 4. בעיות קיצון גרפי
+ ות -כולל משתנה עזר - וקיצון קצה בתחום סגור
+  - בני גורן
+DTSTART;VALUE=DATE:20260512
+UID:due-2-4-12-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#2-4
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#2-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. בעיות קיצון / 5. בעיות קיצון עם א
+ סימפטוטות\, פרמטרים\, ובגרויות 471
+DTSTART;VALUE=DATE:20260519
+UID:due-2-5-19-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#2-5
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#2-5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. בעיות קיצון / 7. תרגול למבחן - בעי
+ ות קיצון גרפיות לא רק מלבן
+DTSTART;VALUE=DATE:20260607
+UID:due-2-7-07-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#2-7
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#2-7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. גאומטריה - לפני מעגל / 12. דמיון מ
+ שולשים במרובעים
+DTSTART;VALUE=DATE:20251208
+UID:due-4-13-08-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#4-13
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#4-13
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. גאומטריה - לפני מעגל / 13. דמיון מ
+ שולשים - תרגול נוסף
+DTSTART;VALUE=DATE:20251213
+UID:due-4-14-13-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#4-14
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#4-14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. גאומטריה - לפני מעגל / 14. עבודת ח
+ נוכה בגאומטריה
+DTSTART;VALUE=DATE:20251223
+UID:due-4-15-23-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#4-15
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#4-15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. גאומטריה - לפני מעגל / 15. דמיון מ
+ שולשים - תרגילים נוספים מבני גורן
+DTSTART;VALUE=DATE:20260104
+UID:due-4-16-04-01-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#4-16
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#4-16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 1. מעגל - הגדרות\
+ , שאלות בסיסיות
+DTSTART;VALUE=DATE:20260125
+UID:due-5-3-25-01-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-3
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 2. מעגל - זוויות 
+ מרכזיות
+DTSTART;VALUE=DATE:20260204
+UID:due-5-4-04-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-4
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 3. מעגל - אנך מרכ
+ זי ומרחק ממיתר
+DTSTART;VALUE=DATE:20260212
+UID:due-5-5-12-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-5
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 4.  זוית היקפית
+DTSTART;VALUE=DATE:20260219
+UID:due-5-6-19-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-6
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 5. זוויות היקפי
+ ות הנשענת על הקוטר
+DTSTART;VALUE=DATE:20260226
+UID:due-5-7-26-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-7
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 6. מעגל - משיק למ
+ עגל מאונך לרדיוס
+DTSTART;VALUE=DATE:20260311
+UID:due-5-9-11-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-9
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 7. מעגל - שני משי
+ קים למעגל
+DTSTART;VALUE=DATE:20260316
+UID:due-5-10-16-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-10
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 8. זווית בין משי
+ ק למיתר
+DTSTART;VALUE=DATE:20260321
+UID:due-5-11-21-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-11
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-11
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 9. שני מעגלים
+DTSTART;VALUE=DATE:20260426
+UID:due-5-14-26-04-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-14
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 10. מעגל חסום במ
+ שולש ומעגל חוסם משולש
+DTSTART;VALUE=DATE:20260501
+UID:due-5-15-01-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-15
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 11. מרובע חסום ב
+ מעגל
+DTSTART;VALUE=DATE:20260510
+UID:due-5-16-10-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-16
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 12. מעגל עם דמיו
+ ן משולשים
+DTSTART;VALUE=DATE:20260514
+UID:due-5-18-14-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-18
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-18
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 13. תרגול מבגרוי
+ ות ישנות - הכנה למבחן מאי
+DTSTART;VALUE=DATE:20260517
+UID:due-5-19-17-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-19
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 3. גאומטריה - מעגל / 14. תרגול נוסף מ
+ בגרויות חדשות - הכנה למבחן מאי
+DTSTART;VALUE=DATE:20260523
+UID:due-5-20-23-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#5-20
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#5-20
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 18. שורש - פרמטרים
+DTSTART;VALUE=DATE:20251208
+UID:due-6-19-08-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-19
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 19. שורש - פרמטרים וסעיפי ח
+ שיבה - אפי כהן
+DTSTART;VALUE=DATE:20251213
+UID:due-6-20-13-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-20
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-20
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 20. עבודת חנוכה בחדוא
+DTSTART;VALUE=DATE:20251223
+UID:due-6-21-23-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-21
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 23. מנה - מבוא\, תחום הגדרה\, 
+ אסימפטוטות אנכיות וחורים\, פרמטרים
+DTSTART;VALUE=DATE:20260129
+UID:due-6-25-29-01-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-25
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-25
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 24. מנה - אסימפטוטות אופקיו
+ ת
+DTSTART;VALUE=DATE:20260204
+UID:due-6-26-04-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-26
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-26
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 26. מנה - חקירה
+DTSTART;VALUE=DATE:20260208
+UID:due-6-28-08-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-28
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-28
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 27. מנה - חקירה עם חורים\, פו
+ נקציה מצומצמת\, פרמטרים בלי חקירה
+DTSTART;VALUE=DATE:20260215
+UID:due-6-29-15-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-29
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-29
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 28. פונקצית מנה - סעיפי פרמ
+ טרים
+DTSTART;VALUE=DATE:20260222
+UID:due-6-30-22-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-30
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 29. פונקצית מנה - סעיפי חשי
+ בה\, ותרגול חקירה מלא נוסף
+DTSTART;VALUE=DATE:20260301
+UID:due-6-31-01-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-31
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-31
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 30. פונקצית מנה - חקירה הבע 
+ באמצעות
+DTSTART;VALUE=DATE:20260310
+UID:due-6-32-10-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-32
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-32
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 31. פונקצית מנה - חקירה הבע 
+ באמצעות - תרגילים מבגרויות
+DTSTART;VALUE=DATE:20260314
+UID:due-6-33-14-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-33
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-33
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 32.  הפונקציה ההופכית 1 חלק
+ י
+DTSTART;VALUE=DATE:20260319
+UID:due-6-35-19-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-35
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-35
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 32.5. ש.ב חזרה חקירה לקראת ש
+ ילוב מנה ושורש
+DTSTART;VALUE=DATE:20260507
+UID:due-6-36-07-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-36
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-36
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 33. פונקצית מנה עם שורש
+DTSTART;VALUE=DATE:20260513
+UID:due-6-37-13-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-37
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-37
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 34. פונקצית מנה עם שורש - תר
+ גול נוסף ברמת המבחן - כולל פרמטרים\, סעיפי
+  חשיבה\, הבע באמצעות
+DTSTART;VALUE=DATE:20260520
+UID:due-6-38-20-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-38
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-38
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 35. אינטגרלים - אינטגרל לא 
+ מסוים - פונקציה קדומה - פולינומים מנה ושו
+ רש פשוטים
+DTSTART;VALUE=DATE:20260531
+UID:due-6-39-31-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-39
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-39
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 36. אינטגרלים - אינטגרל לא 
+ מסוים - מציאת פונקציה קדומה על ידי נקודה 
+ או שיפוע
+DTSTART;VALUE=DATE:20260531
+UID:due-6-40-31-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-40
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-40
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 37. פונקצית מנה שורש - תרגו
+ ל נוסף ברמת המבחן - בדגש על calc
+DTSTART;VALUE=DATE:20260607
+UID:due-6-41-07-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-41
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-41
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 39. אינטגרלים - אינטגרל מסו
+ ים - חישוב שטח והוכחה
+DTSTART;VALUE=DATE:20260607
+UID:due-6-43-07-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-43
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-43
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 40. אינטגרל שטחים מפוצלים
+DTSTART;VALUE=DATE:20260609
+UID:due-6-44-09-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-44
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-44
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 1. מבוא
+DTSTART;VALUE=DATE:20251224
+UID:due-7-2-24-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-2
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 2. טריגו במשולש יש
+ ר זווית ושווה שוקיים - ללא פרמטרים
+DTSTART;VALUE=DATE:20251228
+UID:due-7-3-28-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-3
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 3. נוסחת שטח משולש
+ \, וטריגו במרובעים ללא פרמטרים
+DTSTART;VALUE=DATE:20251228
+UID:due-7-4-28-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-4
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 4. טריגו משולשים ע
+ ם פרמטרים\, וקומות של שברים
+DTSTART;VALUE=DATE:20251231
+UID:due-7-5-31-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-5
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 5. טריגו מרובעים ו
+ בניות עזר
+DTSTART;VALUE=DATE:20260101
+UID:due-7-6-01-01-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-6
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 7. משפט הסינוסים
+DTSTART;VALUE=DATE:20260120
+UID:due-7-8-20-01-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-8
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 8. משפט הסינוסים ע
+ ם פרמטרים (משולשים בלבד)
+DTSTART;VALUE=DATE:20260127
+UID:due-7-9-27-01-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-9
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 9. משפט הסינוסים ב
+ מרובעים - בלי ועם פרמטרים
+DTSTART;VALUE=DATE:20260204
+UID:due-7-10-04-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-10
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 10. משפט הקוסינוסי
+ ם במשולשים - בלי ועם פרמטרים
+DTSTART;VALUE=DATE:20260219
+UID:due-7-11-19-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-11
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-11
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 11. חזרה למבחן מרץ 
+ - משפט הסינוסים קוסינוסים ופיצוח - שאלות 
+ מארכימדס
+DTSTART;VALUE=DATE:20260322
+UID:due-7-12-22-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-12
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 11.5. בוחן אפריל בט
+ ריגו במישור
+DTSTART;VALUE=DATE:20260419
+UID:due-7-13-19-04-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-13
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-13
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 12. שאלות דומות לש
+ אלה הקשה מהבוחן - פעמיים משפט הקוסינוסים
+DTSTART;VALUE=DATE:20260506
+UID:due-7-14-06-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-14
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 5. טריגו במישור / 14. טריגו במעגל - מ
+ שפט הסינוסים והקוסינוסים - משולש חוסם ומ
+ שולש חסום
+DTSTART;VALUE=DATE:20260602
+UID:due-7-16-02-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#7-16
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#7-16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 6. טריגו משוואות / 1. המעגל הטריגונ
+ ומטרי\, ומשוואות טריגונומטריות
+DTSTART;VALUE=DATE:20260309
+UID:due-8-1-09-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#8-1
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#8-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 6. טריגו משוואות / 2. משוואות טריגו
+ נומטריות עם טנגנס\, גורמים משותפים\, משוו
+ אה ריבועית\, עם זווית - לא כולל שימוש בזהו
+ יות
+DTSTART;VALUE=DATE:20260317
+UID:due-8-2-17-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#8-2
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#8-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 6. טריגו משוואות / 3. משוואות עם זהו
+ יות - זוויות כפולות\, זהות פיתגורס\, וחלוק
+ ה ליצירת טנגנס
+DTSTART;VALUE=DATE:20260321
+UID:due-8-3-21-03-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#8-3
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#8-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 7. מבחנים ועבודות / 10. עבודת חנוכה 
+ בחדוא וגאומטריה
+DTSTART;VALUE=DATE:20251223
+UID:due-9-10-23-12-2025@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#9-10
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#9-10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 7. מבחנים ועבודות / 13. בוחן פברואר -
+  חקירת מנה
+DTSTART;VALUE=DATE:20260215
+UID:due-9-13-15-02-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#9-13
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#9-13
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 7. מבחנים ועבודות / 14. עבודת פסח
+DTSTART;VALUE=DATE:20260408
+UID:due-9-14-08-04-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#9-14
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#9-14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 7. מבחנים ועבודות / 11.5. בוחן אפריל 
+ בטריגו במישור
+DTSTART;VALUE=DATE:20260419
+UID:due-9-16-19-04-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#9-16
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#9-16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 7. מבחנים ועבודות / 17. מבחן מאי - חק
+ ירה שורש מנה\, גאומטריה מעגל עם דמיון\, קי
+ צון גרפי\, טריגו במישור
+DTSTART;VALUE=DATE:20260524
+UID:due-9-17-24-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#9-17
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#9-17
+END:VEVENT
+END:VCALENDAR

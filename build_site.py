@@ -7,6 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 import logging
 from datetime import datetime
 import pytz
+from icalendar import Calendar, Event
 from logger import log_event
 from drive_to_class_json import SITE_CATEGORIES
 
@@ -17,6 +18,7 @@ DATA_DIR = 'data'
 # github pages hardcoded for "docs" folder, and can't use 'dist'. 
 #DIST_DIR = 'dist'
 DIST_DIR = 'docs'
+CALENDAR_DIR = os.path.join(DIST_DIR, 'calendar')
 
 # Argument parsing for optional data regeneration
 # if --regen-data is passed, the data will be regenerated from the data directory,
@@ -57,7 +59,7 @@ env = Environment(
 )
 
 # Jinja2 custom filter for highlighting future due dates differently in the html.
-# currently disabled, not working as expected, and i prefered to implement it in javascript.
+# currently disabled, not working as expected, and i preferred to implement it in javascript.
 def is_future_date(date_string):
     return datetime.strptime(date_string, "%d.%m.%y") > datetime.now()
 
@@ -66,6 +68,18 @@ env.tests["future_date"] = is_future_date
 
 ########################################################
 
+def parse_date_str(date_str):
+    """Safely parse a date string into a datetime.date object for all-day calendar events."""
+    if not date_str or not isinstance(date_str, str):
+        return None
+    clean_str = date_str.replace('.', '-').strip()
+    for fmt in ("%d-%m-%Y", "%d-%m-%y"):
+        try:
+            return datetime.strptime(clean_str, fmt).date()
+        except ValueError:
+            continue
+    return None
+
 def minify_html(html_content):
     """Remove blank lines and excessive whitespace from HTML."""
     lines = html_content.split('\n')
@@ -73,8 +87,6 @@ def minify_html(html_content):
     non_blank_lines = [line for line in lines if line.strip()]
     return '\n'.join(non_blank_lines)
 
-
-  
 def load_class_jsons():
     """Load all class JSON files from the data directory."""
     class_files = [f for f in os.listdir(DATA_DIR) if f.endswith('.json')]
@@ -124,6 +136,76 @@ def render_class_pages(classes):
             f.write(html)
     log_event('Rendered all class pages')
 
+def generate_calendars(classes):
+    """Generate separate .ics calendar files for lessons and due dates under calendar/ directory."""
+    if not os.path.exists(CALENDAR_DIR):
+        os.makedirs(CALENDAR_DIR)
+
+    for c in classes:
+        url_name = c.get('url_name', '') or c.get('name', '').replace(' ', '_')
+        class_name = c.get('name', 'שיעורי מתמטיקה')
+        base_url = f"https://erezmath.github.io/class-{url_name}.html"
+
+        # 1. Calendar for Lesson Dates
+        lessons_cal = Calendar()
+        lessons_cal.add('prodid', f'-//ErezMath//Class {url_name} Lessons//HE')
+        lessons_cal.add('version', '2.0')
+        lessons_cal.add('calscale', 'GREGORIAN')
+        lessons_cal.add('x-wr-calname', f"{class_name} - שיעורים")
+
+        # 2. Calendar for Homework/Due Dates
+        due_cal = Calendar()
+        due_cal.add('prodid', f'-//ErezMath//Class {url_name} Due Dates//HE')
+        due_cal.add('version', '2.0')
+        due_cal.add('calscale', 'GREGORIAN')
+        due_cal.add('x-wr-calname', f"{class_name} - משימות וש.ב")
+
+        for topic in c.get('topics', []):
+            topic_name = topic.get('name', '')
+            for lesson in topic.get('lessons', []):
+                lesson_json = lesson.get('lesson_json')
+                if not lesson_json:
+                    continue
+
+                lesson_name = lesson.get('name', '')
+                lesson_id = lesson.get('id', '')
+                lesson_url = f"{base_url}#{lesson_id}" if lesson_id else base_url
+
+                # Populate Lessons Calendar
+                lesson_date_str = lesson_json.get('lesson_date')
+                lesson_date = parse_date_str(lesson_date_str)
+                if lesson_date:
+                    event = Event()
+                    event.add('summary', f"{topic_name} / {lesson_name}")
+                    event.add('dtstart', lesson_date)
+                    event.add('url', lesson_url)
+                    event.add('description', f"קישור לשיעור באתר:\n{lesson_url}")
+                    event.add('uid', f"lesson-{lesson_id}-{lesson_date_str}@erezmath")
+                    lessons_cal.add_component(event)
+
+                # Populate Due Dates Calendar
+                due_date_str = lesson_json.get('due_date')
+                due_date = parse_date_str(due_date_str)
+                if due_date:
+                    due_event = Event()
+                    due_event.add('summary', f"ש.ב {topic_name} / {lesson_name}")
+                    due_event.add('dtstart', due_date)
+                    due_event.add('url', lesson_url)
+                    due_event.add('description', f"קישור למשימה באתר:\n{lesson_url}")
+                    due_event.add('uid', f"due-{lesson_id}-{due_date_str}@erezmath")
+                    due_cal.add_component(due_event)
+
+        # Write files to docs/calendar/
+        lessons_filename = f'class-{url_name}-lessons-calendar.ics'
+        with open(os.path.join(CALENDAR_DIR, lessons_filename), 'wb') as f:
+            f.write(lessons_cal.to_ical())
+
+        due_filename = f'class-{url_name}-due-calendar.ics'
+        with open(os.path.join(CALENDAR_DIR, due_filename), 'wb') as f:
+            f.write(due_cal.to_ical())
+
+    log_event('Generated all calendar files in calendar/ directory')
+
 def copy_static():
     """Copy static assets to the output directory."""
     static_dist = os.path.join(DIST_DIR, 'static')
@@ -159,7 +241,7 @@ def copy_quizes():
 
 
 def main():
-    """Main build process: cleans output, loads data, renders pages, copies assets."""
+    """Main build process: cleans output, loads data, renders pages, generates calendars, copies assets."""
     log_event('Main build process started')
     print('Main build process started!')
     # Clean dist directory before building
@@ -170,6 +252,7 @@ def main():
     classes = load_class_jsons()
     render_index(classes)
     render_class_pages(classes)
+    generate_calendars(classes)
     copy_static()
     copy_images()
     copy_quizes()

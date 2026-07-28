@@ -1,0 +1,325 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ErezMath//Class yud-aleph-571-tashpav Lessons//HE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:כיתה יא 571 תשפו - שיעורים
+BEGIN:VEVENT
+SUMMARY:1. אינדוקציה / 5. אינדוקציה עם עצרת
+DTSTART;VALUE=DATE:20260226
+UID:lesson-2-6-26-02-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#2-6
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#2-6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. שאלות קצרות / 3. אימון שאלות קצרות ל
+ מתכונת ולבגרות
+DTSTART;VALUE=DATE:20260308
+UID:lesson-3-3-08-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#3-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#3-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2. סדרות / 13. סדרות עם סעיפי חשיבה וטרי
+ ק - בר אילן 2022
+DTSTART;VALUE=DATE:20260412
+UID:lesson-4-14-12-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#4-14
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#4-14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2. סדרות / 14. שאלה שכתבתי בסגנון בגרות
+DTSTART;VALUE=DATE:20260423
+UID:lesson-4-15-23-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#4-15
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#4-15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3. הסתברות / 1. מבוא\, שאלות פשוטות לפני
+  עץ
+DTSTART;VALUE=DATE:20260118
+UID:lesson-5-2-18-01-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#5-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#5-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3. הסתברות / 2. דיאגרמת עץ בלי פרמטרים -
+  מאורעות בלתי תלויים\, כפל וחיבור הסתברוי
+ ות
+DTSTART;VALUE=DATE:20260122
+UID:lesson-5-3-22-01-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#5-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#5-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3. הסתברות / 3. דיאגרמת עץ עם פרמטרים
+DTSTART;VALUE=DATE:20260122
+UID:lesson-5-4-22-01-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#5-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#5-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3. הסתברות / 4. טבלת הסתברות מותנה
+DTSTART;VALUE=DATE:20260122
+UID:lesson-5-5-22-01-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#5-5
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#5-5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:4. גאומטריה / 4. חזרה מבגרויות אחרי מבח
+ ן ינואר
+DTSTART;VALUE=DATE:20260115
+UID:lesson-6-4-15-01-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#6-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#6-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא / 11. חקירת פרמטר קטן מאפס - תרגי
+ ל ממתכונת בר אילן - אימון למתכונת הראשונה
+DTSTART;VALUE=DATE:20260310
+UID:lesson-8-11-10-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#8-11
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#8-11
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא / 12. שאלות חקירה הפוכות - עם קשר
+  גרף הפונקציה נגזרת
+DTSTART;VALUE=DATE:20260322
+UID:lesson-8-12-22-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#8-12
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#8-12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא / 13. בטא באמצעות\, טריק אינטגרל\
+ , חור - חורף 2025
+DTSTART;VALUE=DATE:20260409
+UID:lesson-8-13-09-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#8-13
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#8-13
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא / 14. תחום מפוצל\, ואינטגרל מצטב
+ ר קצרה פשוטה - תזכורת אחרי חופשת פסח
+DTSTART;VALUE=DATE:20260409
+UID:lesson-8-14-09-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#8-14
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#8-14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא - אינטגרלים / 1. אינטגרל לא מסוי
+ ם - פולינום\, מורכבת\, מנה
+DTSTART;VALUE=DATE:20251223
+UID:lesson-9-1-23-12-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#9-1
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#9-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא - אינטגרלים / 2. אינטגרל מסוים ו
+ מציאת פונקציה קדומה
+DTSTART;VALUE=DATE:20251225
+UID:lesson-9-2-25-12-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#9-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#9-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא - אינטגרלים / 3. אינטגרל הצבה
+DTSTART;VALUE=DATE:20251228
+UID:lesson-9-3-28-12-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#9-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#9-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא - אינטגרלים / 4. אינטגרל סעיפי ח
+ שיבה ושאלות קצרות
+DTSTART;VALUE=DATE:20260104
+UID:lesson-9-4-04-01-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#9-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#9-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא - אינטגרלים / 8. אימון אינטגרלי
+ ם למתכונת ולבגרות
+DTSTART;VALUE=DATE:20260308
+UID:lesson-9-8-08-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#9-8
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#9-8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא - אינטגרלים / 9. אינטגרל הזזות - 
+ חזרה והרחבה לקראת מתכונת ראשונה
+DTSTART;VALUE=DATE:20260310
+UID:lesson-9-9-10-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#9-9
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#9-9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 8. חקירה מבגרויו
+ ת 2022 ו-2024
+DTSTART;VALUE=DATE:20251206
+UID:lesson-10-9-06-12-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#10-9
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#10-9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 9. חקירה מבגרויו
+ ת  2015-2017\,2019\,2021
+DTSTART;VALUE=DATE:20251230
+UID:lesson-10-10-30-12-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#10-10
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#10-10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 11. חקירה טריגונו
+ מטרית - מסימולציות 2021 של סרור אסעד
+DTSTART;VALUE=DATE:20260319
+UID:lesson-10-12-19-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#10-12
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#10-12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 12. חקירה טריגונו
+ מטרית עם טנגנס - מסימולציות 2021 של סרור אס
+ עד
+DTSTART;VALUE=DATE:20260409
+UID:lesson-10-13-09-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#10-13
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#10-13
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:8. בעיות קיצון / 3. אימון בעיות קיצון ל
+ מתכונת ולבגרות
+DTSTART;VALUE=DATE:20260305
+UID:lesson-11-3-05-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#11-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#11-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10. בגרויות ומתכונות / 3. אימון מתכונות
+  מבתי ספר
+DTSTART;VALUE=DATE:20260308
+UID:lesson-13-4-08-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#13-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#13-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 9. מבחן לדוגמא - אפ
+ י כהן - ש.ב לפני חנוכה
+DTSTART;VALUE=DATE:20251206
+UID:lesson-14-7-06-12-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-7
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 10. עבודת חנוכה
+DTSTART;VALUE=DATE:20251214
+UID:lesson-14-8-14-12-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-8
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 14. מבחן ינואר מועד
+  ב
+DTSTART;VALUE=DATE:20260120
+UID:lesson-14-11-20-01-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-11
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-11
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 16. מריאן מתכונת 2 ב
+ כיתה מבחן לדוגמא - עבודת כיתה
+DTSTART;VALUE=DATE:20260203
+UID:lesson-14-13-03-02-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-13
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-13
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 18. בוחן פברואר בהס
+ תברות
+DTSTART;VALUE=DATE:20260214
+UID:lesson-14-16-14-02-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-16
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 19. עבודת חג פסח
+DTSTART;VALUE=DATE:20260320
+UID:lesson-14-17-20-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-17
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-17
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 20. סימולציה למתכו
+ נת
+DTSTART;VALUE=DATE:20260414
+UID:lesson-14-18-14-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-18
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-18
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 21. סימולציה 2 למתכ
+ ונת
+DTSTART;VALUE=DATE:20260416
+UID:lesson-14-19-16-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-19
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 22. עבודת בונוס לצי
+ ון המגן
+DTSTART;VALUE=DATE:20260425
+UID:lesson-14-20-25-04-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-20
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-20
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 25. מתכונות נוספות 
+ - מרתון לבגרות
+DTSTART;VALUE=DATE:20260508
+UID:lesson-14-23-08-05-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-23
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 26. עקרונות לבדיקת 
+ בגרויות - לפני הבגרות ושאלות חידוד שלי
+DTSTART;VALUE=DATE:20260510
+UID:lesson-14-24-10-05-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#14-24
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#14-24
+END:VEVENT
+END:VCALENDAR

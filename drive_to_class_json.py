@@ -781,7 +781,7 @@ def generate_data(use_cache=True):
     log_event('Main process started')
     print('Main process started!')
     
-    # --- New Schema Loading Snippet ---
+    # --- New Schema Loading Snippet, loading once for performance, at the start of the program ---
     global LESSON_SCHEMA
     try:
         with open(SCHEMA_PATH, 'r', encoding='utf-8') as f:
