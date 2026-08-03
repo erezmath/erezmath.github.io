@@ -122,6 +122,13 @@
                   "url": "https://drive.google.com/file/d/1aF4MbT-yXIk-AIR4vBglElZPmArpj3H6/view",
                   "base_name": "עותק של מרוכבים מבגרויות 572.pdf",
                   "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "ריכוז בגרויות 807  - שנים 2009-2019 - מחולק לפי נושאים.docx",
+                  "url": "https://drive.google.com/file/d/1z_I6JoNJcdo5KAzLsWUMS9_wc0_dbYWj/view",
+                  "base_name": "ריכוז בגרויות 807  - שנים 2009-2019 - מחולק לפי נושאים",
+                  "file_extension": ".docx"
                 }
               ],
               "file_extension": ""
@@ -459,6 +466,13 @@
                   "name": "2026 - קיץ מועד א - אנליטית פרבולה מעגל מקומות גאומטריים - סעיף ג מקומות גאומטרי אינטואיטיבי וחשוב",
                   "url": "https://drive.google.com/file/d/12zZBHGxvwSttwcZ2HNBsJs3UQltT4TtE/view",
                   "base_name": "2026 - קיץ מועד א - אנליטית פרבולה מעגל מקומות גאומטריים - סעיף ג מקומות גאומטרי אינטואיטיבי וחשוב",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד ב - אנליטית פרבולה מעגל משיקים מקומות גאומטריים - סעיף ה מקומות גאומטרים אינטואיטיבי",
+                  "url": "https://drive.google.com/file/d/1k0hTmC-YNSF2uKhl-6aoR9CUBeTnRKti/view",
+                  "base_name": "2026 - קיץ מועד ב - אנליטית פרבולה מעגל משיקים מקומות גאומטריים - סעיף ה מקומות גאומטרים אינטואיטיבי",
                   "file_extension": ".pdf"
                 }
               ],
@@ -1914,9 +1928,38 @@
       "id": "10-מתכונות-בר-אילן",
       "lessons": [
         {
-          "name": "2018",
+          "name": "2017",
           "desc": "",
           "id": "3-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "מתכונת תשעז 1 - 582",
+              "url": "https://drive.google.com/file/d/1tI_7dKukxkRaqfA9Omb_kDfjJYYsA6sn/view",
+              "base_name": "מתכונת תשעז 1 - 582",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשעז 2 - 582",
+              "url": "https://drive.google.com/file/d/1jImIltp1QK93N5qHTSVku8C8BhVrZ1bm/view",
+              "base_name": "מתכונת תשעז 2 - 582",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "מתכונת תשעז 3 - 582",
+              "url": "https://drive.google.com/file/d/1wwgI6A2gZuVa2bsAihYqM2gdSjiyb8TW/view",
+              "base_name": "מתכונת תשעז 3 - 582",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2018",
+          "desc": "",
+          "id": "3-2",
           "content": [
             {
               "type": "file",
@@ -1945,7 +1988,7 @@
         {
           "name": "2019",
           "desc": "",
-          "id": "3-2",
+          "id": "3-3",
           "content": [
             {
               "type": "file",
@@ -1974,7 +2017,7 @@
         {
           "name": "2020",
           "desc": "",
-          "id": "3-3",
+          "id": "3-4",
           "content": [
             {
               "type": "file",
@@ -2003,7 +2046,7 @@
         {
           "name": "2021",
           "desc": "",
-          "id": "3-4",
+          "id": "3-5",
           "content": [
             {
               "type": "file",
@@ -2032,7 +2075,7 @@
         {
           "name": "2022",
           "desc": "",
-          "id": "3-5",
+          "id": "3-6",
           "content": [
             {
               "type": "file",
@@ -2061,7 +2104,7 @@
         {
           "name": "2023",
           "desc": "",
-          "id": "3-6",
+          "id": "3-7",
           "content": [
             {
               "type": "file",
@@ -2090,7 +2133,7 @@
         {
           "name": "2024",
           "desc": "",
-          "id": "3-7",
+          "id": "3-8",
           "content": [
             {
               "type": "file",
@@ -2119,7 +2162,7 @@
         {
           "name": "2025",
           "desc": "",
-          "id": "3-8",
+          "id": "3-9",
           "content": [
             {
               "type": "file",
@@ -2140,6 +2183,56 @@
               "name": "מגן 3 תשפה שאלון 572 - עם תשובות סופיות",
               "url": "https://drive.google.com/file/d/1gaJgp3e5dLAQDRn0vpkIXN5iWmydUPBG/view",
               "base_name": "מגן 3 תשפה שאלון 572 - עם תשובות סופיות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
+          "name": "2026",
+          "desc": "",
+          "id": "3-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "__מגן 3 תשפו שאלון 572 - עם פתרונות סופיים",
+              "url": "https://drive.google.com/file/d/1ljz-6W44s1VHUb6D9bp4wu-tmQZCBw64/view",
+              "base_name": "__מגן 3 תשפו שאלון 572 - עם פתרונות סופיים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "מגן 1 תשפו שאלון 572 - עם פתרונות סופיים",
+              "url": "https://drive.google.com/file/d/1EukoeOoU1ZyF27mvzLJRd_LSgrlNeSPz/view",
+              "base_name": "מגן 1 תשפו שאלון 572 - עם פתרונות סופיים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "מגן 2 תשפו שאלון 572 - עם פתרונות סופיים",
+              "url": "https://drive.google.com/file/d/1IEaZBa99Nr66bhERK1jY8HEkhY9--9dF/view",
+              "base_name": "מגן 2 תשפו שאלון 572 - עם פתרונות סופיים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "מגן 3 תשפו שאלון 572 - פתרון מלא",
+              "url": "https://drive.google.com/file/d/1ckNr9VG1SehBiFDgE_VDfggjM1d8Ongs/view",
+              "base_name": "מגן 3 תשפו שאלון 572 - פתרון מלא",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "פתרון מלא - מגן 1 572 כיתה י",
+              "url": "https://drive.google.com/file/d/1Qoz-D70ZoU1GEkXHboo-orOKMkKHo80a/view",
+              "base_name": "פתרון מלא - מגן 1 572 כיתה י",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "פתרון מלא מגן 2 - 572 תשפו",
+              "url": "https://drive.google.com/file/d/1Pbcz4wDYtodxVpTDLGnRWT_nGFFkWedY/view",
+              "base_name": "פתרון מלא מגן 2 - 572 תשפו",
               "file_extension": ".pdf"
             }
           ],
