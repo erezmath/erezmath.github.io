@@ -1928,6 +1928,20 @@
                   "url": "https://drive.google.com/file/d/1dxZq1q8xOiMknDYaBi73sDASbWxsimSR/view",
                   "base_name": "סרור אסעד - סימולציה 2022",
                   "file_extension": ".pdf"
+                },
+                {
+                  "type": "folder",
+                  "name": "פתרונות",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "2022 - סרור אסעד סימולציה סדרות - פתרון",
+                      "url": "https://drive.google.com/file/d/1yOgG8Eiz3MbaP8-jqNf55o8WIDJFGuut/view",
+                      "base_name": "2022 - סרור אסעד סימולציה סדרות - פתרון",
+                      "file_extension": ".pdf"
+                    }
+                  ],
+                  "file_extension": ""
                 }
               ],
               "file_extension": ""

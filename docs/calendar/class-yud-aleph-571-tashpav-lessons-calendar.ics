@@ -21,6 +21,14 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#3-3
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2. סדרות / 1. סדרה הנדסית
+DTSTART;VALUE=DATE:20250911
+UID:lesson-4-2-11-09-2025@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpav.html#4-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#4-2
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2. סדרות / 13. סדרות עם סעיפי חשיבה וטרי
  ק - בר אילן 2022
 DTSTART;VALUE=DATE:20260412
@@ -82,8 +90,9 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpav.html#6-4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:6. חדוא / 11. חקירת פרמטר קטן מאפס - תרגי
- ל ממתכונת בר אילן - אימון למתכונת הראשונה
+SUMMARY:6. חדוא / 11. חקירת הבע באמצעות - פרמטר ק
+ טן מאפס - תרגיל ממתכונת בר אילן - אימון למ
+ תכונת הראשונה
 DTSTART;VALUE=DATE:20260310
 UID:lesson-8-11-10-03-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
