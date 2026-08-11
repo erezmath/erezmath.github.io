@@ -73,7 +73,11 @@
               "file_extension": ""
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "19-05-2026",
+            "due_date": "19-05-2026",
+            "due_date_display": "שלישי, 19.05.2026"
+          }
         },
         {
           "name": "2. לוגים - הגדרה",
@@ -95,7 +99,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "26-05-2026",
+            "due_date": "26-05-2026",
+            "due_date_display": "שלישי, 26.05.2026"
+          }
         },
         {
           "name": "3. לוגים - חוקים בסיסיים (כפל, חילוק, חזקה, שורש)",
@@ -117,7 +125,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "26-05-2026",
+            "due_date": "26-05-2026",
+            "due_date_display": "שלישי, 26.05.2026"
+          }
         },
         {
           "name": "4. לוגים - יתר החוקים ומשוואות",
@@ -139,7 +151,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "28-05-2026",
+            "due_date": "28-05-2026",
+            "due_date_display": "חמישי, 28.05.2026"
+          }
         },
         {
           "name": "5. חקירת פונקציה מעריכית - המספר e, תחום הגדרה, חיתוך עם הצירים, קצת אי שוויון",
@@ -161,7 +177,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "02-06-2026",
+            "due_date": "02-06-2026",
+            "due_date_display": "שלישי, 02.06.2026"
+          }
         },
         {
           "name": "6. חקירת פונקציה מעריכית - נגזרת, פרמטרים, משוואת משיק, נקודות קיצון",
@@ -183,7 +203,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "02-06-2026",
+            "due_date": "02-06-2026",
+            "due_date_display": "שלישי, 02.06.2026"
+          }
         },
         {
           "name": "7. חקירת פונקציה מעריכית - אסימפטוטות אופקיות, חקירה מלאה - רמה בסיסית",
@@ -212,7 +236,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "09-06-2026",
+            "due_date": "09-06-2026",
+            "due_date_display": "שלישי, 09.06.2026"
+          }
         },
         {
           "name": "8. חקירת פונקציה מעריכית - מתקדם - אסימפטוטות וחקירה מלאה עם פרמטרים",
@@ -227,7 +255,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "09-06-2026",
+            "due_date": "09-06-2026",
+            "due_date_display": "שלישי, 09.06.2026"
+          }
         },
         {
           "name": "9. עבודת הקיץ",
@@ -270,7 +302,11 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {}
+          "lesson_json": {
+            "lesson_date": "20-06-2026",
+            "due_date": "01-09-2026",
+            "due_date_display": "שלישי, 01.09.2026"
+          }
         }
       ]
     },
