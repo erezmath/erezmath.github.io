@@ -318,52 +318,42 @@ BEGIN:VEVENT
 SUMMARY:ש.ב 4. חדוא / 32.  הפונקציה ההופכית 1 חלק
  י
 DTSTART;VALUE=DATE:20260319
-UID:due-6-35-19-03-2026@erezmath
-DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
- class-yud-571-tashpav.html#6-35
-URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-35
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ש.ב 4. חדוא / 32.5. ש.ב חזרה חקירה לקראת ש
- ילוב מנה ושורש
-DTSTART;VALUE=DATE:20260507
-UID:due-6-36-07-05-2026@erezmath
+UID:due-6-36-19-03-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-571-tashpav.html#6-36
 URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-36
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ש.ב 4. חדוא / 33. פונקצית מנה עם שורש
-DTSTART;VALUE=DATE:20260513
-UID:due-6-37-13-05-2026@erezmath
+SUMMARY:ש.ב 4. חדוא / 32.5. ש.ב חזרה חקירה לקראת ש
+ ילוב מנה ושורש
+DTSTART;VALUE=DATE:20260507
+UID:due-6-37-07-05-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-571-tashpav.html#6-37
 URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-37
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 33. פונקצית מנה עם שורש
+DTSTART;VALUE=DATE:20260513
+UID:due-6-38-13-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-38
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-38
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 4. חדוא / 34. פונקצית מנה עם שורש - תר
  גול נוסף ברמת המבחן - כולל פרמטרים\, סעיפי
   חשיבה\, הבע באמצעות
 DTSTART;VALUE=DATE:20260520
-UID:due-6-38-20-05-2026@erezmath
-DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
- class-yud-571-tashpav.html#6-38
-URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-38
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ש.ב 4. חדוא / 35. אינטגרלים - אינטגרל לא 
- מסוים - פונקציה קדומה - פולינומים מנה ושו
- רש פשוטים
-DTSTART;VALUE=DATE:20260531
-UID:due-6-39-31-05-2026@erezmath
+UID:due-6-39-20-05-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-571-tashpav.html#6-39
 URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-39
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ש.ב 4. חדוא / 36. אינטגרלים - אינטגרל לא 
- מסוים - מציאת פונקציה קדומה על ידי נקודה 
- או שיפוע
+SUMMARY:ש.ב 4. חדוא / 35. אינטגרלים - אינטגרל לא 
+ מסוים - פונקציה קדומה - פולינומים מנה ושו
+ רש פשוטים
 DTSTART;VALUE=DATE:20260531
 UID:due-6-40-31-05-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
@@ -371,30 +361,40 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-40
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ש.ב 4. חדוא / 37. פונקצית מנה שורש - תרגו
- ל נוסף ברמת המבחן - בדגש על calc
-DTSTART;VALUE=DATE:20260607
-UID:due-6-41-07-06-2026@erezmath
+SUMMARY:ש.ב 4. חדוא / 36. אינטגרלים - אינטגרל לא 
+ מסוים - מציאת פונקציה קדומה על ידי נקודה 
+ או שיפוע
+DTSTART;VALUE=DATE:20260531
+UID:due-6-41-31-05-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-571-tashpav.html#6-41
 URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-41
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 4. חדוא / 37. פונקצית מנה שורש - תרגו
+ ל נוסף ברמת המבחן - בדגש על calc
+DTSTART;VALUE=DATE:20260607
+UID:due-6-42-07-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-571-tashpav.html#6-42
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-42
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 4. חדוא / 39. אינטגרלים - אינטגרל מסו
  ים - חישוב שטח והוכחה
 DTSTART;VALUE=DATE:20260607
-UID:due-6-43-07-06-2026@erezmath
+UID:due-6-44-07-06-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
- class-yud-571-tashpav.html#6-43
-URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-43
+ class-yud-571-tashpav.html#6-44
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-44
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 4. חדוא / 40. אינטגרל שטחים מפוצלים
 DTSTART;VALUE=DATE:20260609
-UID:due-6-44-09-06-2026@erezmath
+UID:due-6-45-09-06-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
- class-yud-571-tashpav.html#6-44
-URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-44
+ class-yud-571-tashpav.html#6-45
+URL:https://erezmath.github.io/class-yud-571-tashpav.html#6-45
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 5. טריגו במישור / 1. מבוא
