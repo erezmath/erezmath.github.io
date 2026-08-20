@@ -3292,7 +3292,7 @@
           "lesson_json": {}
         },
         {
-          "name": "2. נושאים למבחן תחילת שנה",
+          "name": "2. מבחן תחילת שנה",
           "desc": "",
           "id": "14-2",
           "content": [
@@ -3308,6 +3308,27 @@
               "name": "2. תרגילים מומלצים להתכונן למבחן",
               "url": "https://drive.google.com/file/d/1WhXMi5WDlnLHFZRvN4gDIz09WL3MAn1d/view",
               "base_name": "2. תרגילים מומלצים להתכונן למבחן",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן על עבודת הקיץ  5 יחל יא - תשפו - מחוון",
+              "url": "https://drive.google.com/file/d/1mmbhL9ISCeAikRyApanpqIzntxJofEZH/view",
+              "base_name": "3. מבחן על עבודת הקיץ  5 יחל יא - תשפו - מחוון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן על עבודת הקיץ  5 יחל יא - תשפו - פתרון",
+              "url": "https://drive.google.com/file/d/19BPds15QAfdQxwCpNKds7fFIKzPL2QoG/view",
+              "base_name": "3. מבחן על עבודת הקיץ  5 יחל יא - תשפו - פתרון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן על עבודת הקיץ  5 יחל יא - תשפו",
+              "url": "https://drive.google.com/file/d/1XoRH5no5_C75LLs_Z_f0f69Q3hDw6FZ4/view",
+              "base_name": "3. מבחן על עבודת הקיץ  5 יחל יא - תשפו",
               "file_extension": ".pdf"
             }
           ],
