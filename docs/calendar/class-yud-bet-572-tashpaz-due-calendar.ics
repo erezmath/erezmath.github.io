@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ErezMath//Class yud-bet-572-tashpaz Due Dates//HE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:כיתה יב 572 תשפז - משימות וש.ב
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 1. פונקציה מעריכית - מבוא ו
+ קדם אנליזה\, משוואות\, אי שוויונים
+DTSTART;VALUE=DATE:20260519
+UID:due-1-1-19-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-1
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 2. לוגים - הגדרה
+DTSTART;VALUE=DATE:20260526
+UID:due-1-2-26-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-2
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 3. לוגים - חוקים בסיסיים (כ
+ פל\, חילוק\, חזקה\, שורש)
+DTSTART;VALUE=DATE:20260526
+UID:due-1-3-26-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-3
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 4. לוגים - יתר החוקים ומשוו
+ אות
+DTSTART;VALUE=DATE:20260528
+UID:due-1-4-28-05-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-4
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 5. חקירת פונקציה מעריכית - 
+ המספר e\, תחום הגדרה\, חיתוך עם הצירים\, קצת
+  אי שוויון
+DTSTART;VALUE=DATE:20260602
+UID:due-1-5-02-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-5
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 6. חקירת פונקציה מעריכית - 
+ נגזרת\, פרמטרים\, משוואת משיק\, נקודות קיצ
+ ון
+DTSTART;VALUE=DATE:20260602
+UID:due-1-6-02-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-6
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 7. חקירת פונקציה מעריכית - 
+ אסימפטוטות אופקיות\, חקירה מלאה - רמה בסי
+ סית
+DTSTART;VALUE=DATE:20260609
+UID:due-1-7-09-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-7
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 8. חקירת פונקציה מעריכית - 
+ מתקדם - אסימפטוטות וחקירה מלאה עם פרמטרי
+ ם
+DTSTART;VALUE=DATE:20260609
+UID:due-1-8-09-06-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-8
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 9. עבודת הקיץ
+DTSTART;VALUE=DATE:20260901
+UID:due-1-9-01-09-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-9
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-9
+END:VEVENT
+END:VCALENDAR

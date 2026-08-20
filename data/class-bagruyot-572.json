@@ -1,5 +1,5 @@
 {
-  "id": 10,
+  "id": 12,
   "name": "בגרויות 572 ופתרונות",
   "url_name": "bagruyot-572",
   "banner_url": "images/banner572.png",
@@ -722,24 +722,10 @@
                 },
                 {
                   "type": "file",
-                  "name": "2018 - קיץ מועד א - מרוכבים.xopp",
-                  "url": "https://drive.google.com/file/d/1RuFnkD-n14PrtcMXerqt5Hg0iveWHrE8/view",
-                  "base_name": "2018 - קיץ מועד א - מרוכבים",
-                  "file_extension": ".xopp"
-                },
-                {
-                  "type": "file",
                   "name": "2025 - קיץ מועד א - מרוכבים",
                   "url": "https://drive.google.com/file/d/1U8-Af0E4UBblNRfTnEZFarBO5ka7Vred/view",
                   "base_name": "2025 - קיץ מועד א - מרוכבים",
                   "file_extension": ".pdf"
-                },
-                {
-                  "type": "file",
-                  "name": "2025 - קיץ מועד א - מרוכבים.xopp",
-                  "url": "https://drive.google.com/file/d/1eSPH7g60wGKavJ70AAnzcVaKPvFPqCU1/view",
-                  "base_name": "2025 - קיץ מועד א - מרוכבים",
-                  "file_extension": ".xopp"
                 },
                 {
                   "type": "file",

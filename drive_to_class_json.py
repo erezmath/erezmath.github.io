@@ -70,7 +70,8 @@ REMOVED_EXTENSIONS = ['pdf', 'mp4', 'gif']
 REMOVE_ALL_EXTENSIONS = False
 
 SITE_CATEGORIES = [
-    {'id': 'current', 'title': 'כיתות השנה'},
+    {'id': 'current', 'title': 'כיתות תשפז'},
+    {'id': 'last_year', 'title': 'כיתות תשפו'},
     {'id': 'bagruyot', 'title': 'בגרויות ומתכונות'},
     {'id': 'past', 'title': 'כיתות עבר'},
     {'id': 'other', 'title': 'אחר'}
@@ -113,7 +114,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1GA90OEL-eUycrz8saqRe4SBtBokhZCIO',
         'banner_url': 'images/banner472.png',
-        'category': 'bagruyot',
+        'category': 'past',
         'regenerate': True
     },
     {
@@ -123,7 +124,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1wqO2uIe1VbEoff4xtj_rWIDF6O0bLBcW',
         'banner_url': 'images/banner471.png',
-        'category': 'bagruyot',
+        'category': 'past',
         'regenerate': True
     },
     {
@@ -143,7 +144,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1ao6g6Ox6XNi8HKuvmUpeXH9MNC66YwBZ',
         'banner_url': 'images/banner3.png',
-        'category': 'current',
+        'category': 'last_year',
         'regenerate': True
     },
     {
@@ -153,7 +154,7 @@ class_info = [
         #'url_name': '271',
         'google_drive_url': 'https://drive.google.com/drive/folders/1i5qAJbRhg4D5NjR5jbRVsWbunfGinyCK',
         'banner_url': 'images/banner4.png',
-        'category': 'current',
+        'category': 'last_year',
         'regenerate': True
     },
     {
@@ -168,6 +169,26 @@ class_info = [
     },
     {
         'id': 10,
+        'name': 'כיתה יא 571 תשפז',
+        'url_name': 'yud-aleph-571-tashpaz',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/14a9VTsAAylvDEXwCOvfT8r8ME4dNNBU2',
+        'banner_url': 'images/banner1.png',
+        'category': 'current',
+        'regenerate': True
+    },
+    {
+        'id': 11,
+        'name': 'כיתה יב 572 תשפז',
+        'url_name': 'yud-bet-572-tashpaz',
+        #'url_name': '271',
+        'google_drive_url': 'https://drive.google.com/drive/folders/1m0-WGuFZiKN5jZOgSnAkZrAPx3RtuTEj',
+        'banner_url': 'images/banner8.png',
+        'category': 'current',
+        'regenerate': True
+    },
+    {
+        'id': 12,
         'name': 'בגרויות 572 ופתרונות',
         'url_name': 'bagruyot-572',
         #'url_name': '271',
@@ -687,8 +708,8 @@ def crawl_lesson_content(service, folder_id, use_cache=True, invalidated_ids=Non
             ext = c.get('file_extension')
             base = c.get('base_name')
             
-            # Skip if it is a Word doc and we already have the PDF version
-            if ext in ['.doc', '.docx'] and base in pdf_bases:
+            # Skip if it is a Word doc (or xopp) and we already have the PDF version
+            if ext in ['.doc', '.docx', '.xopp'] and base in pdf_bases:
                 continue
             
             # Optional: Remove 'base_name' if you don't want it cluttering your final JSON
