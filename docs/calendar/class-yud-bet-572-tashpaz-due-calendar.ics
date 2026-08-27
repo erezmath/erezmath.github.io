@@ -69,21 +69,11 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-7
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ש.ב 1. חדוא / 8. חקירת פונקציה מעריכית - 
- מתקדם - אסימפטוטות וחקירה מלאה עם פרמטרי
- ם
-DTSTART;VALUE=DATE:20260609
-UID:due-1-8-09-06-2026@erezmath
+SUMMARY:ש.ב 1. חדוא / 8. עבודת הקיץ
+DTSTART;VALUE=DATE:20260901
+UID:due-1-8-01-09-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-8
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-8
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ש.ב 1. חדוא / 9. עבודת הקיץ
-DTSTART;VALUE=DATE:20260901
-UID:due-1-9-01-09-2026@erezmath
-DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
- class-yud-bet-572-tashpaz.html#1-9
-URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-9
 END:VEVENT
 END:VCALENDAR
