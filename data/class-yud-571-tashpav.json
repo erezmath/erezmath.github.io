@@ -2249,6 +2249,13 @@
               "url": "https://drive.google.com/file/d/1s5YNKQ9dLeNYI6ZAPl2MVcDdn1s12WYH/view",
               "base_name": "2. פתרון שאלה בכיתה",
               "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרון שאלה מש.ב",
+              "url": "https://drive.google.com/file/d/1q92NMnScgxrUGk62e3xG-Vxcv74PPVFE/view",
+              "base_name": "3. פתרון שאלה מש.ב",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {

@@ -5,10 +5,78 @@
   "banner_url": "images/banner1.png",
   "desc": "",
   "tags": [
+    "5. טריגו במישור",
+    "6. חדוא",
     "11. עבודות ומבחנים",
     "12. בגרויות ופתרונות 571"
   ],
   "topics": [
+    {
+      "name": "5. טריגו במישור",
+      "id": "5-טריגו-במישור",
+      "lessons": [
+        {
+          "name": "1. חזרה למבחן תחילת שנה - מעגל חסום וחוסם",
+          "desc": "<p>חזרה למבחן - איך מחשבים רדיוס מעגל <em>חוסם</em> ורדיוס מעגל <em>חסום</em> לכל משולש</p>\n<p>די טכני, אבל צריך לדעת כי יהיה סעיף כזה, ותמיד יש כזה בבגרויות.</p>",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. דוגמא פתורה בכיתה שאלה מספר 3 - מציאת מעגל חוסם וחסום כשנתון שטח",
+              "url": "https://drive.google.com/file/d/1X6jhtBCgFhzlD7DrhrLl_TBSw3ib5lxH/view",
+              "base_name": "1. דוגמא פתורה בכיתה שאלה מספר 3 - מציאת מעגל חוסם וחסום כשנתון שטח",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - שאלות שיצרתי ב AI תרגול פשוט על הנושא",
+              "url": "https://drive.google.com/file/d/1M6VyPO3qbT3QIAnFRojWyFq_RT-MQQC0/view",
+              "base_name": "2. ש.ב - שאלות שיצרתי ב AI תרגול פשוט על הנושא",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. סיכום שיעור שהיה לפני שנה - דוגמא נוספת איך לחשב רדיוס מעגל חוסם וחסום",
+              "url": "https://drive.google.com/file/d/1aEUrYVLIE7y8AqPANsf2E4YGTYnD5wJp/view",
+              "base_name": "3. סיכום שיעור שהיה לפני שנה - דוגמא נוספת איך לחשב רדיוס מעגל חוסם וחסום",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "02-09-2026",
+            "due_date": "02-09-2026",
+            "num_hours": 1,
+            "due_date_display": "רביעי, 02.09.2026"
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. חדוא",
+      "id": "6-חדוא",
+      "lessons": [
+        {
+          "name": "1. חזרה למבחן תחילת שנה - מנה עם הבע באמצעות - מתרגילי שנה שעברה",
+          "desc": "<p>חזרה למבחן - מנה בלי שורש, הבע באמצעות, הוספתי עוד קצת סעיפי חשיבה כתובים בכתב יד.</p>\n<p>לחזור על מילוי טבלה עם נגזרת וסעיפי חשיבה מגוונים</p>\n<p>שיעור בודד - נחזור גם קצת על טריגו.</p>",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלה 5 - פונקצית מנה - מתוך הבע באמצעות עם סעיפי חשיבה שאני כתבתי",
+              "url": "https://drive.google.com/file/d/11HNxoN2siadnQVUjgPnrGPEg9vEORmWf/view",
+              "base_name": "1. שאלה 5 - פונקצית מנה - מתוך הבע באמצעות עם סעיפי חשיבה שאני כתבתי",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "02-09-2026",
+            "due_date": "02-09-2026",
+            "num_hours": 1,
+            "due_date_display": "רביעי, 02.09.2026"
+          }
+        }
+      ]
+    },
     {
       "name": "11. עבודות ומבחנים",
       "id": "11-עבודות-ומבחנים",
@@ -16,7 +84,7 @@
         {
           "name": "0. עבודת הקיץ",
           "desc": "",
-          "id": "1-1",
+          "id": "3-1",
           "content": [
             {
               "type": "file",
@@ -49,11 +117,158 @@
         {
           "name": "1. מבחן תחילת שנה",
           "desc": "",
-          "id": "1-2",
+          "id": "3-2",
           "content": [
             {
+              "type": "file",
+              "name": "1. נושאים למבחן תחילת שנה",
+              "url": "https://drive.google.com/file/d/1HkZtNDTj1u8wPG9uhXgMjZYeVsJsknBr/view",
+              "base_name": "1. נושאים למבחן תחילת שנה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
+              "url": "https://drive.google.com/file/d/1E8hQqPsZiSgBeKsSu9UHAue38O5GUGQ_/view",
+              "base_name": "2. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
+              "file_extension": ".pdf"
+            },
+            {
               "type": "folder",
-              "name": "1. מבחני עבר - תחילת יא וסוף י",
+              "name": "חדוא - חומר להתכונן למבחן - חקירת מנה בלי שורש, הבע באמצעות",
+              "content": [
+                {
+                  "type": "folder",
+                  "name": "30. מנה חקירה הבע באמצעות",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "1. פתרון שאלה בכיתה",
+                      "url": "https://drive.google.com/file/d/1ztAUy6fjqfs-hJxjEzAt8j6E-tD887bi/view",
+                      "base_name": "1. פתרון שאלה בכיתה",
+                      "file_extension": ".pdf"
+                    },
+                    {
+                      "type": "file",
+                      "name": "2. ש.ב",
+                      "url": "https://drive.google.com/file/d/1W_RTMqHUIgxFMT1XDfiXR5112h7zEEpV/view",
+                      "base_name": "2. ש.ב",
+                      "file_extension": ".pdf"
+                    },
+                    {
+                      "type": "file",
+                      "name": "3. פתרונות",
+                      "url": "https://drive.google.com/file/d/1m9TikgXvMarfCBwgaskzg3Ny9e9lyw-S/view",
+                      "base_name": "3. פתרונות",
+                      "file_extension": ".pdf"
+                    }
+                  ],
+                  "file_extension": ""
+                },
+                {
+                  "type": "folder",
+                  "name": "31. מנה חקירה הבע באמצעות - תרגילים מבגרויות",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "1. הבע באמצעות - ש.ב מבגרויות",
+                      "url": "https://drive.google.com/file/d/1D9Ra5RTUCJzEl_8CUG47DB5of89KRsm2/view",
+                      "base_name": "1. הבע באמצעות - ש.ב מבגרויות",
+                      "file_extension": ".pdf"
+                    },
+                    {
+                      "type": "file",
+                      "name": "2. פתרונות",
+                      "url": "https://drive.google.com/file/d/1AVn65of_tiXDs2cDPpucCkgXBOv9Ym2P/view",
+                      "base_name": "2. פתרונות",
+                      "file_extension": ".pdf"
+                    }
+                  ],
+                  "file_extension": ""
+                },
+                {
+                  "type": "folder",
+                  "name": "31.5 מנה חקירה הבע באמצעות - תרגילים נוספים",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "1. פונקצית מנה - הבע באמצעות עם סעיפי חשיבה שאני כתבתי",
+                      "url": "https://drive.google.com/file/d/1-dcE2PJlJyNpVi6_NM_at8otzneiSxaa/view",
+                      "base_name": "1. פונקצית מנה - הבע באמצעות עם סעיפי חשיבה שאני כתבתי",
+                      "file_extension": ".pdf"
+                    }
+                  ],
+                  "file_extension": ""
+                },
+                {
+                  "type": "folder",
+                  "name": "32.  הפונקציה ההופכית 1 חלקי",
+                  "content": [
+                    {
+                      "type": "file",
+                      "name": "1. סיכום שיעור, דוגמאות, וטבלת סיכום התנהגות",
+                      "url": "https://drive.google.com/file/d/1z2fmoJIVX2PSMd3GC8Cti2vG7vhZE7Qj/view",
+                      "base_name": "1. סיכום שיעור, דוגמאות, וטבלת סיכום התנהגות",
+                      "file_extension": ".pdf"
+                    },
+                    {
+                      "type": "file",
+                      "name": "2. תרגול בכיתה",
+                      "url": "https://drive.google.com/file/d/1w_8G9ojRo17ooy0cd_YeaK9eZlbLW6qQ/view",
+                      "base_name": "2. תרגול בכיתה",
+                      "file_extension": ".pdf"
+                    },
+                    {
+                      "type": "file",
+                      "name": "3. שיעור בזום",
+                      "url": "https://drive.google.com/file/d/1M3e1BymHGfmCi9NYYadPuZEOY7tfrEKD/view",
+                      "base_name": "3. שיעור בזום",
+                      "file_extension": ".pdf"
+                    },
+                    {
+                      "type": "file",
+                      "name": "4. הפונקציה ההופכית - רק הטבלה - פנימי",
+                      "url": "https://drive.google.com/file/d/1QoR-y43sxuBNnzq3X9n4LS0cAPjDUYW1/view",
+                      "base_name": "4. הפונקציה ההופכית - רק הטבלה - פנימי",
+                      "file_extension": ".pdf"
+                    }
+                  ],
+                  "file_extension": ""
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "טריגו - תזכורת מעגל חוסם ומעגל חסום",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. דוגמא פתורה בכיתה שאלה מספר 3 - מציאת מעגל חוסם וחסום כשנתון שטח",
+                  "url": "https://drive.google.com/file/d/1NQl-YPgL6M5lxXsCCFhrAogTcZ3Qzysx/view",
+                  "base_name": "1. דוגמא פתורה בכיתה שאלה מספר 3 - מציאת מעגל חוסם וחסום כשנתון שטח",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2. ש.ב - שאלות שיצרתי ב AI תרגול פשוט על הנושא",
+                  "url": "https://drive.google.com/file/d/17xA3TpSg9kNy_D411gI0cz5uUAu08JT6/view",
+                  "base_name": "2. ש.ב - שאלות שיצרתי ב AI תרגול פשוט על הנושא",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "3. סיכום שיעור שהיה לפני שנה - דוגמא נוספת איך לחשב רדיוס מעגל חוסם וחסום",
+                  "url": "https://drive.google.com/file/d/1cwxnwpcTsnS63b1HMIDxG2GUdNWYugu2/view",
+                  "base_name": "3. סיכום שיעור שהיה לפני שנה - דוגמא נוספת איך לחשב רדיוס מעגל חוסם וחסום",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "מבחני עבר - תחילת יא וסוף י",
               "content": [
                 {
                   "type": "file",
@@ -134,20 +349,6 @@
                 }
               ],
               "file_extension": ""
-            },
-            {
-              "type": "file",
-              "name": "1. נושאים למבחן תחילת שנה",
-              "url": "https://drive.google.com/file/d/1HkZtNDTj1u8wPG9uhXgMjZYeVsJsknBr/view",
-              "base_name": "1. נושאים למבחן תחילת שנה",
-              "file_extension": ".pdf"
-            },
-            {
-              "type": "file",
-              "name": "2. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
-              "url": "https://drive.google.com/file/d/1E8hQqPsZiSgBeKsSu9UHAue38O5GUGQ_/view",
-              "base_name": "2. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
-              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -161,7 +362,7 @@
         {
           "name": "0. מיקוד 2026 וצ'קליסט בגרויות",
           "desc": "<p>קובץ שיתופי - של כל הבגרויות שעשינו בכיתה.</p>\n<p>בנוסף, קובץ לשימוש אישי.</p>\n<p>סמנו לעצמכם איזה בגרויות עשיתם, סמנו סעיפים שהתקשיתם או סעיפים חשובים, כדי שתחזרו עליהם בעתיד לקראת הבגרות.</p>",
-          "id": "2-1",
+          "id": "4-1",
           "content": [
             {
               "type": "file",
@@ -201,7 +402,7 @@
         {
           "name": "1. חוברת בגרויות יואל גבע 571, 581",
           "desc": "",
-          "id": "2-2",
+          "id": "4-2",
           "content": [
             {
               "type": "folder",
@@ -272,7 +473,7 @@
         {
           "name": "3. בגרויות 571, 581 לפי נושאים",
           "desc": "",
-          "id": "2-3",
+          "id": "4-3",
           "content": [
             {
               "type": "file",
@@ -357,7 +558,7 @@
         {
           "name": "4. בגרויות ופתרונות 571, 581 לפי שנים",
           "desc": "<p>שאלון בפורמט הנוכחי 571 - התחילו להגיע לפורמט מוסכם בשנת 2022\nעד 2021 צירפתי בגרויות 581 שרלוונטית לרוב הנושאים למעט שאלות קצרות ובעיות תנועה.</p>",
-          "id": "2-4",
+          "id": "4-4",
           "content": [
             {
               "type": "folder",
@@ -1037,7 +1238,7 @@
         {
           "name": "5. פתרון בגרויות שלי לפי נושאים",
           "desc": "",
-          "id": "2-5",
+          "id": "4-5",
           "content": [
             {
               "type": "folder",
@@ -1419,6 +1620,13 @@
                   "name": "2022 - חורף - גאומטריה - קל - דמיון שטחים בלבד",
                   "url": "https://drive.google.com/file/d/1ObtfyoLboYeYNgxbK-Z4aSajLBSVkeRY/view",
                   "base_name": "2022 - חורף - גאומטריה - קל - דמיון שטחים בלבד",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - קיץ מועד חורף נבצרים - גאומטריה - ללא מעגל - קל, סעיף אחרון אולי מאתגר עם מעגל חוסם מרובע",
+                  "url": "https://drive.google.com/file/d/1e9PnMEslbr6_COLgnNvfZhmUb_7ShZSv/view",
+                  "base_name": "2022 - קיץ מועד חורף נבצרים - גאומטריה - ללא מעגל - קל, סעיף אחרון אולי מאתגר עם מעגל חוסם מרובע",
                   "file_extension": ".pdf"
                 },
                 {
