@@ -76,4 +76,14 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-8
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-8
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 9. חקירת פונקציה מעריכית - 
+ חזרה אחרי חופשת הקיץ\, ואסימפטוטות עם פרמ
+ טרים
+DTSTART;VALUE=DATE:20260902
+UID:due-1-9-02-09-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-9
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-9
+END:VEVENT
 END:VCALENDAR

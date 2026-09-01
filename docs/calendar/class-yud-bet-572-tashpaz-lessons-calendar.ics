@@ -73,4 +73,14 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-8
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-8
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. חדוא / 9. חקירת פונקציה מעריכית - חזר
+ ה אחרי חופשת הקיץ\, ואסימפטוטות עם פרמטרי
+ ם
+DTSTART;VALUE=DATE:20260902
+UID:lesson-1-9-02-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-9
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-9
+END:VEVENT
 END:VCALENDAR

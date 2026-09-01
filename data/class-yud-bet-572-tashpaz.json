@@ -276,6 +276,40 @@
             "due_date": "01-09-2026",
             "due_date_display": "שלישי, 01.09.2026"
           }
+        },
+        {
+          "name": "9. חקירת פונקציה מעריכית - חזרה אחרי חופשת הקיץ, ואסימפטוטות עם פרמטרים",
+          "desc": "<p>שיחת פתיחה, בגרות חורף, תוכנית לימודים עד לחגים למבחן, ולהמשך השנה.</p>\n<p>חזרה על פונקציה מעריכית, למה צריך את זה, ואסימפטוטות עם פרמטרים. </p>\n<p>תרגול עצמי, נמשיך מחר לחקירות.</p>",
+          "id": "1-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/12axPm2uHxrd8mZFdqgq2xYo0jBIi1W_P/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב אסימפטוטות עם פרמטרים",
+              "url": "https://drive.google.com/file/d/1_RST7sR_RLl1QQjEaHaGpXq-UwoQZ3Jx/view",
+              "base_name": "2. ש.ב אסימפטוטות עם פרמטרים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. תוכנית לימודים לתחילת השנה ובגרות חורף",
+              "url": "https://drive.google.com/file/d/1k3hVvLEpIAxKojS7yFlngnsAF9Q1YjU0/view",
+              "base_name": "3. תוכנית לימודים לתחילת השנה ובגרות חורף",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "02-09-2026",
+            "due_date": "02-09-2026",
+            "num_hours": 2,
+            "due_date_display": "רביעי, 02.09.2026"
+          }
         }
       ]
     },
