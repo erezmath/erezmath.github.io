@@ -6,6 +6,7 @@
   "desc": "",
   "tags": [
     "1. חדוא",
+    "10. מבחנים ועבודות",
     "11. בגרויות ופתרונות 572"
   ],
   "topics": [
@@ -310,6 +311,103 @@
             "num_hours": 2,
             "due_date_display": "רביעי, 02.09.2026"
           }
+        },
+        {
+          "name": "10. פונקציה מעריכית - חקירות עם והבע באמצעות מבני גורן",
+          "desc": "<p>חקירות פונקציה מעריכית עם פרמטרים - חלק מציאה, חלק הבע באמצעות. מבני גורן ג2.</p>\n<p>בכיתה 2 חקירות, ש.ב 4 חקירות, ומצורף גם כל החקירות שיש בבני גורן - אחת מהן אקח למבחן הקרוב.</p>",
+          "id": "1-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - חקירות בכיתה - שאלות 46, 50",
+              "url": "https://drive.google.com/file/d/1GNVKP5QFeboHW7yu1c4PtLT2M816Sqsp/view",
+              "base_name": "1. סיכום שיעור - חקירות בכיתה - שאלות 46, 50",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. סיכום שיעור - חקירות בכיתה - שאלות 46, 50 - פתרונות",
+              "url": "https://drive.google.com/file/d/1RwnkmmXkZ9O6Gs7T9d-J5h6n6rVee-ZX/view",
+              "base_name": "2. סיכום שיעור - חקירות בכיתה - שאלות 46, 50 - פתרונות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב - 4 חקירות",
+              "url": "https://drive.google.com/file/d/1NOC_FZL0f2FLVR3wOKf_6t1ueEorGoYc/view",
+              "base_name": "3. ש.ב - 4 חקירות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. כל תרגילי חקירות בני גורן 220-225 - עם פרמטרים והבע באמצעות",
+              "url": "https://drive.google.com/file/d/1QNKTsinIAte9nRv-GM1E_YQCVIojbjsj/view",
+              "base_name": "4. כל תרגילי חקירות בני גורן 220-225 - עם פרמטרים והבע באמצעות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "03-09-2026",
+            "due_date": "07-09-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 07.09.2026"
+          }
+        }
+      ]
+    },
+    {
+      "name": "10. מבחנים ועבודות",
+      "id": "10-מבחנים-ועבודות",
+      "lessons": [
+        {
+          "name": "1. מבחן תחילת שנה",
+          "desc": "",
+          "id": "2-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "0. נושאים למבחן",
+              "url": "https://drive.google.com/file/d/1spVztilFN-HqKBZw1PQ9DoJeyfH7zA0r/view",
+              "base_name": "0. נושאים למבחן",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "folder",
+              "name": "אימון אלגברה",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. מבחן לדוגמא ראשון - חלק אלגברה בלבד",
+                  "url": "https://drive.google.com/file/d/1UGiBX6aObDBwI5xUP_RmfGvIfUOUGkpG/view",
+                  "base_name": "1. מבחן לדוגמא ראשון - חלק אלגברה בלבד",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2. מבחן לדוגמא שני - חלק אלגברה בלבד",
+                  "url": "https://drive.google.com/file/d/1p3t6FrIO0_tdhTVdHgU4lZsjgt8mZbU9/view",
+                  "base_name": "2. מבחן לדוגמא שני - חלק אלגברה בלבד",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "אימון חקירה",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "4. כל תרגילי חקירות בני גורן 220-225 - עם פרמטרים והבע באמצעות",
+                  "url": "https://drive.google.com/file/d/1D6bGhR1ofXl1cGPNm-Pb4MSQRYPMgHJW/view",
+                  "base_name": "4. כל תרגילי חקירות בני גורן 220-225 - עם פרמטרים והבע באמצעות",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            }
+          ],
+          "lesson_json": {}
         }
       ]
     },
@@ -320,7 +418,7 @@
         {
           "name": "0. דף נוסחאות 5 יחל לבגרות",
           "desc": "",
-          "id": "2-1",
+          "id": "3-1",
           "content": [
             {
               "type": "file",
@@ -335,7 +433,7 @@
         {
           "name": "1. חוברת בגרויות יואל גבע",
           "desc": "",
-          "id": "2-2",
+          "id": "3-2",
           "content": [
             {
               "type": "file",
@@ -350,7 +448,7 @@
         {
           "name": "3. בגרויות 572 לפי נושאים",
           "desc": "",
-          "id": "2-3",
+          "id": "3-3",
           "content": [
             {
               "type": "folder",
@@ -442,7 +540,7 @@
         {
           "name": "4. בגרויות ופתרונות 572 לפי שנים",
           "desc": "",
-          "id": "2-4",
+          "id": "3-4",
           "content": [
             {
               "type": "folder",
@@ -981,7 +1079,7 @@
         {
           "name": "5. פתרונות שלי לבגרויות",
           "desc": "",
-          "id": "2-5",
+          "id": "3-5",
           "content": [
             {
               "type": "folder",
@@ -1150,7 +1248,7 @@
         {
           "name": "6. מפות חשיבה - יובל אמיתי",
           "desc": "",
-          "id": "2-6",
+          "id": "3-6",
           "content": [
             {
               "type": "file",

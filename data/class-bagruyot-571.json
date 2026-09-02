@@ -122,6 +122,13 @@
                 }
               ],
               "file_extension": ""
+            },
+            {
+              "type": "file",
+              "name": "חוברת בגרויות 571 אילון פרץ - 2021-2026",
+              "url": "https://drive.google.com/file/d/1_qo8NloOQpyQOr0zTpuVeVdf4onG5gT0/view",
+              "base_name": "חוברת בגרויות 571 אילון פרץ - 2021-2026",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {}
@@ -1301,9 +1308,9 @@
                 },
                 {
                   "type": "file",
-                  "name": "2024 - חורף - גאומטריה",
+                  "name": "2024 - חורף - גאומטריה - לעבור שוב אם אולי יש לי טעות",
                   "url": "https://drive.google.com/file/d/16HUA3Yt--2OvyVcFCS2dyUNHOrsd6VQX/view",
-                  "base_name": "2024 - חורף - גאומטריה",
+                  "base_name": "2024 - חורף - גאומטריה - לעבור שוב אם אולי יש לי טעות",
                   "file_extension": ".pdf"
                 },
                 {

@@ -83,4 +83,13 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-9
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-9
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. חדוא / 10. פונקציה מעריכית - חקירות ע
+ ם והבע באמצעות מבני גורן
+DTSTART;VALUE=DATE:20260903
+UID:lesson-1-10-03-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-10
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-10
+END:VEVENT
 END:VCALENDAR
