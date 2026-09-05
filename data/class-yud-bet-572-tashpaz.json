@@ -352,6 +352,74 @@
             "num_hours": 2,
             "due_date_display": "שני, 07.09.2026"
           }
+        },
+        {
+          "name": "11. חקירת פונקציה מעריכית - עם הבע באמצעות - התנהגות שונה משני הצדדים - אסימפטוטה אנכית וחור",
+          "desc": "<p>חקירות פונקציה מעריכית הבע באמצעות - התנהגות שונה משני הצדדים - צד אחד אסימפטוטה אנכית, צד שני חור.</p>\n<p>שאלה 54 מתוך בני גורן ג2</p>",
+          "id": "1-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - חקירה בכיתה",
+              "url": "https://drive.google.com/file/d/1GpWLxIUvomWkeFvx189cC2yykUEN3aGJ/view",
+              "base_name": "1. סיכום שיעור - חקירה בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. השאלה מבני גורן ג2",
+              "url": "https://drive.google.com/file/d/1hrHSr7AFzRtOvsRJqG-ohUcuvKkQwv6g/view",
+              "base_name": "2. השאלה מבני גורן ג2",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "06-09-2026",
+            "due_date": "06-09-2026",
+            "num_hours": 1,
+            "due_date_display": "ראשון, 06.09.2026"
+          }
+        },
+        {
+          "name": "12. חזרה על אלגברה למבחן",
+          "desc": "<p>חזרה על אלגברה - משוואות ואי שוויונים מעריכיות וחוקי לוגים</p>\n<p>השאלות מתוך השאלות שהופיעו בעבודת הקיץ ובבני גורן ג2 שהופיעו בשיעורים 1-7</p>",
+          "id": "1-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. מבחן לדוגמא ראשון - חלק אלגברה בלבד",
+              "url": "https://drive.google.com/file/d/1n06TTeJSY1ZkkxL_02tdRygc4sh99EeX/view",
+              "base_name": "1. מבחן לדוגמא ראשון - חלק אלגברה בלבד",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. מבחן לדוגמא שני - חלק אלגברה בלבד",
+              "url": "https://drive.google.com/file/d/1M2jIO8LyWIIud4jqmdyt9IZMdT4W3qJn/view",
+              "base_name": "2. מבחן לדוגמא שני - חלק אלגברה בלבד",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן לדוגמא שלישי - חלק אלגברה בלבד",
+              "url": "https://drive.google.com/file/d/13FINJhafMSMaUTVhWAMVCkU6h8pOy4tS/view",
+              "base_name": "3. מבחן לדוגמא שלישי - חלק אלגברה בלבד",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן לדוגמא רביעי - חלק אלגברה בלבד",
+              "url": "https://drive.google.com/file/d/1CpR9R7pjmt5nrH70JK0Bwpd0PzKqQ0FY/view",
+              "base_name": "4. מבחן לדוגמא רביעי - חלק אלגברה בלבד",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "06-09-2026",
+            "due_date": "06-09-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 06.09.2026"
+          }
         }
       ]
     },

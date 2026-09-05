@@ -92,4 +92,22 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-10
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-10
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. חדוא / 11. חקירת פונקציה מעריכית - עם 
+ הבע באמצעות - התנהגות שונה משני הצדדים - א
+ סימפטוטה אנכית וחור
+DTSTART;VALUE=DATE:20260906
+UID:lesson-1-11-06-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-11
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-11
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. חדוא / 12. חזרה על אלגברה למבחן
+DTSTART;VALUE=DATE:20260906
+UID:lesson-1-12-06-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-12
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-12
+END:VEVENT
 END:VCALENDAR
