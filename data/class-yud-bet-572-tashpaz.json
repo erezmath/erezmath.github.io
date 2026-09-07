@@ -440,6 +440,20 @@
               "file_extension": ".pdf"
             },
             {
+              "type": "file",
+              "name": "1. דף סימולציה למבחן - פתרון",
+              "url": "https://drive.google.com/file/d/1i3H0UbmY7SiRBEZKK6_2hfByfMoaKHyG/view",
+              "base_name": "1. דף סימולציה למבחן - פתרון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "1. דף סימולציה למבחן",
+              "url": "https://drive.google.com/file/d/1y7q3AG6s7BKBgoeAbGxJBzh7YQBP-HOM/view",
+              "base_name": "1. דף סימולציה למבחן",
+              "file_extension": ".pdf"
+            },
+            {
               "type": "folder",
               "name": "אימון אלגברה",
               "content": [
@@ -455,6 +469,20 @@
                   "name": "2. מבחן לדוגמא שני - חלק אלגברה בלבד",
                   "url": "https://drive.google.com/file/d/1p3t6FrIO0_tdhTVdHgU4lZsjgt8mZbU9/view",
                   "base_name": "2. מבחן לדוגמא שני - חלק אלגברה בלבד",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "3. מבחן לדוגמא שלישי - חלק אלגברה בלבד",
+                  "url": "https://drive.google.com/file/d/11fK0_VgMzPDsrhTeOvQ0pC0MBWzfJ6bX/view",
+                  "base_name": "3. מבחן לדוגמא שלישי - חלק אלגברה בלבד",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "4. מבחן לדוגמא רביעי - חלק אלגברה בלבד",
+                  "url": "https://drive.google.com/file/d/1z6xsTHHjmFQFex7Xox9kvAln14jTlB8g/view",
+                  "base_name": "4. מבחן לדוגמא רביעי - חלק אלגברה בלבד",
                   "file_extension": ".pdf"
                 }
               ],
