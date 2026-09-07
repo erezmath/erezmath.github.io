@@ -110,4 +110,12 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-12
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-12
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. חדוא / 13. מבחן סימולציה
+DTSTART;VALUE=DATE:20260907
+UID:lesson-1-13-07-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-13
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-13
+END:VEVENT
 END:VCALENDAR

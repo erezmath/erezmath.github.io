@@ -348,9 +348,9 @@
           ],
           "lesson_json": {
             "lesson_date": "03-09-2026",
-            "due_date": "07-09-2026",
+            "due_date": "09-09-2026",
             "num_hours": 2,
-            "due_date_display": "שני, 07.09.2026"
+            "due_date_display": "רביעי, 09.09.2026"
           }
         },
         {
@@ -419,6 +419,33 @@
             "due_date": "06-09-2026",
             "num_hours": 2,
             "due_date_display": "ראשון, 06.09.2026"
+          }
+        },
+        {
+          "name": "13. מבחן סימולציה",
+          "desc": "<p>מבחן סימולציה, בערך ברמת המבחן.</p>\n<p>שאלה 7 מעבר לרמת המבחן.</p>\n<p>אם לא מצליחים לפתור בלי פתרונות, היעזרו בפתרונות להבין את הטריק, אבל זה אומר שאתם צריכים עוד להתאמן מבני גורן ספר ג2.</p>",
+          "id": "1-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. דף סימולציה למבחן - פתרון",
+              "url": "https://drive.google.com/file/d/15TAPHAThiPfL7HcjD06VRpTSC1i2nN1o/view",
+              "base_name": "1. דף סימולציה למבחן - פתרון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "1. דף סימולציה למבחן",
+              "url": "https://drive.google.com/file/d/1RQPKTI7ahmI1CDjbGeie63-UjTTzxgjS/view",
+              "base_name": "1. דף סימולציה למבחן",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "07-09-2026",
+            "due_date": "09-09-2026",
+            "num_hours": 1,
+            "due_date_display": "רביעי, 09.09.2026"
           }
         }
       ]
