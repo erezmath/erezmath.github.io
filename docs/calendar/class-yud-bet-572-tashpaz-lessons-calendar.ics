@@ -118,4 +118,14 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-13
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-13
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. חדוא / 14. חקירה פונקציה מעריכית - עם 
+ פיתול\, ותחומי קעירות - ועוד תרגול חדוא למ
+ בחן מחר
+DTSTART;VALUE=DATE:20260909
+UID:lesson-1-14-09-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-14
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-14
+END:VEVENT
 END:VCALENDAR

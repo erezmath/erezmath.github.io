@@ -447,6 +447,33 @@
             "num_hours": 1,
             "due_date_display": "רביעי, 09.09.2026"
           }
+        },
+        {
+          "name": "14. חקירה פונקציה מעריכית - עם פיתול, ותחומי קעירות - ועוד תרגול חדוא למבחן מחר",
+          "desc": "<p>חקירה פונקציה מעריכית עם שילוב פיתול ותחומי קעירות.</p>\n<p>תזכורת - טבלה נפרדת, הקשר בין פיתול בפונקציה לקיצון בנגזרת, ועוד תרגול של נגזרות וחקירה.</p>",
+          "id": "1-14",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות בכיתה",
+              "url": "https://drive.google.com/file/d/1MLQ73JRxPHizeE8U5Nt8_3jTTKlhMwC7/view",
+              "base_name": "1. שאלות בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/14arIr7Mby5QHckNvIXf3H4edz4NdCw1-/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-09-2026",
+            "due_date": "09-09-2026",
+            "num_hours": 2,
+            "due_date_display": "רביעי, 09.09.2026"
+          }
         }
       ]
     },

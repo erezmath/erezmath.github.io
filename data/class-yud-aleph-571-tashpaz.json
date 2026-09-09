@@ -5,6 +5,7 @@
   "banner_url": "images/banner1.png",
   "desc": "",
   "tags": [
+    "2. סדרות",
     "5. טריגו במישור",
     "6. חדוא",
     "11. עבודות ומבחנים",
@@ -12,13 +13,82 @@
   ],
   "topics": [
     {
+      "name": "2. סדרות",
+      "id": "2-סדרות",
+      "lessons": [
+        {
+          "name": "0. סרטונים - קורס סדרות",
+          "desc": "<p>קורס סרטוני סדרות של עידו מרבך - מסביר מהבסיס וסגנון העבודה.</p>\n<p>יש סדרות חשבוניות, הנדסיות, כלליות, ונסיגה.</p>\n<p>לא בכל שנה צריך את כולם (יורדים במיקוד).</p>",
+          "id": "1-1",
+          "content": [],
+          "lesson_json": {
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=JwbE81iNQxA",
+                "title": "סדרה חשבונית"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=TxikW3JC6X8",
+                "title": "סדרה הנדסית"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=t8sQjRJGKV8",
+                "title": "סדרה כללית"
+              }
+            ]
+          }
+        },
+        {
+          "name": "1. סדרה הנדסית",
+          "desc": "<p>סדרות - נושא חדש - שעתיים לימוד, במיקוד השנה רק סדרות הנדסיות (אין סדרות חשבוניות)</p>",
+          "id": "1-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - מבוא",
+              "url": "https://drive.google.com/file/d/1jNv-OHiM0vmZ_F0QPl3UjA7xvNwq5KG4/view",
+              "base_name": "1. סיכום שיעור - מבוא",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים בכיתה",
+              "url": "https://drive.google.com/file/d/1cKLdzchgTaoXnHcDyQO7wP5Rksz_U6nt/view",
+              "base_name": "2. תרגילים בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות תרגילים בכיתה",
+              "url": "https://drive.google.com/file/d/16-8yg7F4Xzrmm3TWSvzCPHx9oxS6_R14/view",
+              "base_name": "3. פתרונות תרגילים בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. ש.ב מבני גורן",
+              "url": "https://drive.google.com/file/d/1Y05mk223-l_aEyF8y6wVJaQsUbAkgZZJ/view",
+              "base_name": "4. ש.ב מבני גורן",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-09-2026",
+            "due_date": "14-09-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 14.09.2026"
+          }
+        }
+      ]
+    },
+    {
       "name": "5. טריגו במישור",
       "id": "5-טריגו-במישור",
       "lessons": [
         {
           "name": "1. חזרה למבחן תחילת שנה - מעגל חסום וחוסם",
           "desc": "<p>חזרה למבחן - איך מחשבים רדיוס מעגל <strong>חוסם</strong> ורדיוס מעגל <strong>חסום</strong> לכל משולש</p>\n<p>די טכני, אבל צריך לדעת כי יהיה סעיף כזה, ותמיד יש כזה בבגרויות.</p>",
-          "id": "1-1",
+          "id": "2-1",
           "content": [
             {
               "type": "file",
@@ -58,7 +128,7 @@
         {
           "name": "1. חזרה למבחן תחילת שנה - מנה עם הבע באמצעות - מתרגילי שנה שעברה",
           "desc": "<p>חזרה למבחן - מנה בלי שורש, הבע באמצעות, הוספתי עוד קצת סעיפי חשיבה כתובים בכתב יד.</p>\n<p>לחזור על מילוי טבלה עם נגזרת וסעיפי חשיבה מגוונים</p>\n<p>שיעור בודד - נחזור גם קצת על טריגו.</p>",
-          "id": "2-1",
+          "id": "3-1",
           "content": [
             {
               "type": "file",
@@ -84,7 +154,7 @@
         {
           "name": "0. עבודת הקיץ",
           "desc": "",
-          "id": "3-1",
+          "id": "4-1",
           "content": [
             {
               "type": "file",
@@ -117,8 +187,15 @@
         {
           "name": "1. מבחן תחילת שנה",
           "desc": "",
-          "id": "3-2",
+          "id": "4-2",
           "content": [
+            {
+              "type": "file",
+              "name": "0. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
+              "url": "https://drive.google.com/file/d/1E8hQqPsZiSgBeKsSu9UHAue38O5GUGQ_/view",
+              "base_name": "0. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
+              "file_extension": ".pdf"
+            },
             {
               "type": "file",
               "name": "1. נושאים למבחן תחילת שנה",
@@ -128,9 +205,30 @@
             },
             {
               "type": "file",
-              "name": "2. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
-              "url": "https://drive.google.com/file/d/1E8hQqPsZiSgBeKsSu9UHAue38O5GUGQ_/view",
-              "base_name": "2. ריכוז בגרויות גאומטריה 2020-2026 - עם דירוג קושי לפי גמיני",
+              "name": "2. מבחן ספטמבר יא 571 - תשפז - מועד א",
+              "url": "https://drive.google.com/file/d/1b9xHp-BeQBr_oL678PjmDULYLAOBEMQG/view",
+              "base_name": "2. מבחן ספטמבר יא 571 - תשפז - מועד א",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן ספטמבר יא 571 - תשפז - מועד א - תרגום",
+              "url": "https://drive.google.com/file/d/18s6ZXNxJ9NxDkcveDTcODtgcSFtoW2nU/view",
+              "base_name": "3. מבחן ספטמבר יא 571 - תשפז - מועד א - תרגום",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן ספטמבר יא 571 - תשפז - מועד א - פתרון",
+              "url": "https://drive.google.com/file/d/11OMPljXqBVSsNjR0TovI0SKVuwIOxnCv/view",
+              "base_name": "4. מבחן ספטמבר יא 571 - תשפז - מועד א - פתרון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "6. מבחן ספטמבר יא 571 - תשפז - מועד א - מחוון - נכון ל9.9",
+              "url": "https://drive.google.com/file/d/1qIVDgRJZmZ9xBU7psFEPOtxilM4Cdu3z/view",
+              "base_name": "6. מבחן ספטמבר יא 571 - תשפז - מועד א - מחוון - נכון ל9.9",
               "file_extension": ".pdf"
             },
             {
@@ -362,7 +460,7 @@
         {
           "name": "0. מיקוד 2026 וצ'קליסט בגרויות",
           "desc": "<p>קובץ שיתופי - של כל הבגרויות שעשינו בכיתה.</p>\n<p>בנוסף, קובץ לשימוש אישי.</p>\n<p>סמנו לעצמכם איזה בגרויות עשיתם, סמנו סעיפים שהתקשיתם או סעיפים חשובים, כדי שתחזרו עליהם בעתיד לקראת הבגרות.</p>",
-          "id": "4-1",
+          "id": "5-1",
           "content": [
             {
               "type": "file",
@@ -402,7 +500,7 @@
         {
           "name": "1. חוברת בגרויות יואל גבע 571, 581",
           "desc": "",
-          "id": "4-2",
+          "id": "5-2",
           "content": [
             {
               "type": "folder",
@@ -480,7 +578,7 @@
         {
           "name": "3. בגרויות 571, 581 לפי נושאים",
           "desc": "",
-          "id": "4-3",
+          "id": "5-3",
           "content": [
             {
               "type": "file",
@@ -565,7 +663,7 @@
         {
           "name": "4. בגרויות ופתרונות 571, 581 לפי שנים",
           "desc": "<p>שאלון בפורמט הנוכחי 571 - התחילו להגיע לפורמט מוסכם בשנת 2022\nעד 2021 צירפתי בגרויות 581 שרלוונטית לרוב הנושאים למעט שאלות קצרות ובעיות תנועה.</p>",
-          "id": "4-4",
+          "id": "5-4",
           "content": [
             {
               "type": "folder",
@@ -1245,7 +1343,7 @@
         {
           "name": "5. פתרון בגרויות שלי לפי נושאים",
           "desc": "",
-          "id": "4-5",
+          "id": "5-5",
           "content": [
             {
               "type": "folder",
