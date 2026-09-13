@@ -131,4 +131,13 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-14
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-14
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. אנליטית / 1. הנקודה - נוסחת מרחק\, 
+ נוסחת אמצע קטע\, שימוש בפרמטר
+DTSTART;VALUE=DATE:20260916
+UID:due-2-2-16-09-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-2
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-2
+END:VEVENT
 END:VCALENDAR

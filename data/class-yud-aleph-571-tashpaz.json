@@ -78,6 +78,47 @@
             "num_hours": 2,
             "due_date_display": "שני, 14.09.2026"
           }
+        },
+        {
+          "name": "2. סכום סדרה הנדסית",
+          "desc": "<p>סדרות - סכום סדרה הנדסית - שעתיים וחצי לימוד, חצי שעה אחרונה נעבור על טעויות מהמבחן.</p>",
+          "id": "1-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1HUa5pmcRc0QhbkbI4VKQlQ91EwpZTgdq/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים בכיתה",
+              "url": "https://drive.google.com/file/d/17yLeT4GAWcoE2LD39aDvFE_QmMLv65F2/view",
+              "base_name": "2. תרגילים בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב",
+              "url": "https://drive.google.com/file/d/16fGQWtAGIUh_rjsQU3HQHGufIjIU72ag/view",
+              "base_name": "3. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. רשות - בני גורן דוגמאות פתורות - שאלות דומות לשיעורי הבית",
+              "url": "https://drive.google.com/file/d/1dwPnSMxVJ_XNkODqXGz4D6mfhBygnIfB/view",
+              "base_name": "4. רשות - בני גורן דוגמאות פתורות - שאלות דומות לשיעורי הבית",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "14-09-2026",
+            "due_date": "16-09-2026",
+            "num_hours": 2,
+            "due_date_display": "רביעי, 16.09.2026"
+          }
         }
       ]
     },

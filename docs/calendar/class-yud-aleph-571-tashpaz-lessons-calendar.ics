@@ -12,6 +12,14 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-2
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2. סדרות / 2. סכום סדרה הנדסית
+DTSTART;VALUE=DATE:20260914
+UID:lesson-1-3-14-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-3
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:5. טריגו במישור / 1. חזרה למבחן תחילת ש
  נה - מעגל חסום וחוסם
 DTSTART;VALUE=DATE:20260902

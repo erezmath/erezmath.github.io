@@ -6,6 +6,7 @@
   "desc": "",
   "tags": [
     "1. חדוא",
+    "2. אנליטית",
     "10. מבחנים ועבודות",
     "11. בגרויות ופתרונות 572"
   ],
@@ -478,13 +479,60 @@
       ]
     },
     {
+      "name": "2. אנליטית",
+      "id": "2-אנליטית",
+      "lessons": [
+        {
+          "name": "0. סרטונים - קורס אנליטית",
+          "desc": "<p>קורס סרטוני אנליטית של ארז כהן - מסביר מהבסיס וסגנון העבודה.</p>\n<p>מסביר מצויין, יש חלקים שהוא קצת מדבר על וקטורים, להתעלם.</p>",
+          "id": "2-1",
+          "content": [],
+          "lesson_json": {
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=cwAYRNl8kyc&list=PLWnBumE8Khr8mbKotvOU1Ry2fADzJ2Brh&index=1",
+                "title": "קורס אנליטית 15 שיעורים"
+              }
+            ]
+          }
+        },
+        {
+          "name": "1. הנקודה - נוסחת מרחק, נוסחת אמצע קטע, שימוש בפרמטר",
+          "desc": "<p>אנליטית - מבוא, נוסחת מרחק, נוסחת אמצע קטע.</p>\n<p>שעה בודדת.</p>",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרונות",
+              "url": "https://drive.google.com/file/d/12-K6gCs5uFMeVeq2-JLGqY_9ue8lVAyx/view",
+              "base_name": "1. סיכום שיעור ופתרונות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב ותרגילי כיתה",
+              "url": "https://drive.google.com/file/d/1uqe0SiL-iMRRAYDe7eQmFy_ACeVQFnwW/view",
+              "base_name": "2. ש.ב ותרגילי כיתה",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "14-09-2026",
+            "due_date": "16-09-2026",
+            "num_hours": 1,
+            "due_date_display": "רביעי, 16.09.2026"
+          }
+        }
+      ]
+    },
+    {
       "name": "10. מבחנים ועבודות",
       "id": "10-מבחנים-ועבודות",
       "lessons": [
         {
           "name": "1. מבחן תחילת שנה",
           "desc": "",
-          "id": "2-1",
+          "id": "3-1",
           "content": [
             {
               "type": "file",
@@ -568,7 +616,7 @@
         {
           "name": "0. דף נוסחאות 5 יחל לבגרות",
           "desc": "",
-          "id": "3-1",
+          "id": "4-1",
           "content": [
             {
               "type": "file",
@@ -583,7 +631,7 @@
         {
           "name": "1. חוברת בגרויות יואל גבע",
           "desc": "",
-          "id": "3-2",
+          "id": "4-2",
           "content": [
             {
               "type": "file",
@@ -598,7 +646,7 @@
         {
           "name": "3. בגרויות 572 לפי נושאים",
           "desc": "",
-          "id": "3-3",
+          "id": "4-3",
           "content": [
             {
               "type": "folder",
@@ -690,7 +738,7 @@
         {
           "name": "4. בגרויות ופתרונות 572 לפי שנים",
           "desc": "",
-          "id": "3-4",
+          "id": "4-4",
           "content": [
             {
               "type": "folder",
@@ -1229,7 +1277,7 @@
         {
           "name": "5. פתרונות שלי לבגרויות",
           "desc": "",
-          "id": "3-5",
+          "id": "4-5",
           "content": [
             {
               "type": "folder",
@@ -1398,7 +1446,7 @@
         {
           "name": "6. מפות חשיבה - יובל אמיתי",
           "desc": "",
-          "id": "3-6",
+          "id": "4-6",
           "content": [
             {
               "type": "file",
