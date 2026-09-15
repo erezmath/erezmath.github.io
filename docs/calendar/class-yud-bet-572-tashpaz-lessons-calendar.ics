@@ -137,4 +137,13 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-2
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-2
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2. אנליטית / 2. נוסחת חלוקה לפי יחס נתו
+ ן\, ותרגול עצמי בכיתה
+DTSTART;VALUE=DATE:20260916
+UID:lesson-2-3-16-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-3
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-3
+END:VEVENT
 END:VCALENDAR

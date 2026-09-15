@@ -38,6 +38,24 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 6. חדוא / 2. למה חובה לדעת מילוי טבל
+ ת נגזרת על ידי שרטוט הנגזרת
+DTSTART;VALUE=DATE:20260917
+UID:due-3-2-17-09-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#3-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 6. חדוא / 3. פיתול - קעירות כלפי מעלה
+  ומטה
+DTSTART;VALUE=DATE:20260917
+UID:due-3-3-17-09-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#3-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-3
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 11. עבודות ומבחנים / 0. עבודת הקיץ
 DTSTART;VALUE=DATE:20260830
 UID:due-4-1-30-08-2026@erezmath

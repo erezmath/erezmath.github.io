@@ -185,6 +185,60 @@
             "num_hours": 1,
             "due_date_display": "רביעי, 02.09.2026"
           }
+        },
+        {
+          "name": "2. למה חובה לדעת מילוי טבלת נגזרת על ידי שרטוט הנגזרת",
+          "desc": "<p>דוגמא בכיתה למה חשוב לדעת איך למלא נגזרת עם טבלה</p>",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. דוגמא לפונקציה בכיתה",
+              "url": "https://drive.google.com/file/d/1bR_FbyVzG5Bd9tqpXAwzIScGLNo5AJCv/view",
+              "base_name": "1. דוגמא לפונקציה בכיתה",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "17-09-2026",
+            "due_date": "17-09-2026",
+            "num_hours": 1,
+            "due_date_display": "חמישי, 17.09.2026"
+          }
+        },
+        {
+          "name": "3. פיתול - קעירות כלפי מעלה ומטה",
+          "desc": "<p>נקודות פיתול, נגזרת שנייה, ותחומי קעירות</p>",
+          "id": "3-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - פיתול קעירות מעלה מטה",
+              "url": "https://drive.google.com/file/d/1Y2Fzc556IlG922JkgSnX1-fGuq5SvTwN/view",
+              "base_name": "1. סיכום שיעור - פיתול קעירות מעלה מטה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/16TWDWbnZ0RtCRQuLJ8Bt1yIF5AKjKVoG/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1fRHFifjoPleBKmcbAL9-MtJeoleJFgXB/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "17-09-2026",
+            "due_date": "17-09-2026",
+            "num_hours": 2,
+            "due_date_display": "חמישי, 17.09.2026"
+          }
         }
       ]
     },
