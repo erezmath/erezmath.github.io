@@ -549,6 +549,40 @@
             "num_hours": 2,
             "due_date_display": "חמישי, 17.09.2026"
           }
+        },
+        {
+          "name": "3. משוואת ישר, ישרים מקבילים ומאונכים והוכחה, קשר שיפוע טנגנס, ובעצם כל החומר של כיתה ח-י",
+          "desc": "<p>אנליטית - חזרה על כל מה שלמדתם בכיתה ח עד כיתה י.</p>\n<p>קצת סקירה, קצת הוכחת נוסחה, ובעיקר תרגול עצמי.</p>",
+          "id": "2-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1DuXXyAzIeaobrqLn-PZP4BFqg8beqe90/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1KWKAKStJ71cCTcFt3IiU7pHmBYlkyvjV/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1GITUhG8KSwPzO8VyBt2nCf6vIamkeLd1/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "17-09-2026",
+            "due_date": "05-10-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 05.10.2026"
+          }
         }
       ]
     },

@@ -149,4 +149,14 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-3
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-3
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. אנליטית / 3. משוואת ישר\, ישרים מק
+ בילים ומאונכים והוכחה\, קשר שיפוע טנגנס\, 
+ ובעצם כל החומר של כיתה ח-י
+DTSTART;VALUE=DATE:20261005
+UID:due-2-4-05-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-4
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-4
+END:VEVENT
 END:VCALENDAR
