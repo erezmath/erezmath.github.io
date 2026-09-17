@@ -119,6 +119,39 @@
             "num_hours": 2,
             "due_date_display": "רביעי, 16.09.2026"
           }
+        },
+        {
+          "name": "3. סכום סדרה הנדסית - ש.ב לחופשת סוכות",
+          "desc": "<p>סדרה הנדסית - ש.ב לחופשת סוכות, 12 תרגילים - צירפתי גם פתרונות למי שנתקע.</p>\n<p>חופשה נעימה :)</p>",
+          "id": "1-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב סדרה הנדסית לחג - בני גורן וארכימדס",
+              "url": "https://drive.google.com/file/d/1qjYgY-typHbm2-is6DHRxRAIWIMgcRFr/view",
+              "base_name": "1. ש.ב סדרה הנדסית לחג - בני גורן וארכימדס",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות סדרה הנדסית - בני גורן",
+              "url": "https://drive.google.com/file/d/1BqjW89nJ3J0ji9Yr_YN0lpqCXUtEenhc/view",
+              "base_name": "2. פתרונות סדרה הנדסית - בני גורן",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות סדרה הנדסית - ארכימדס",
+              "url": "https://drive.google.com/file/d/1PS3PSMVhsLocR4X-vbBph8GOW1SAQejf/view",
+              "base_name": "3. פתרונות סדרה הנדסית - ארכימדס",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "17-09-2026",
+            "due_date": "04-10-2026",
+            "due_date_display": "ראשון, 04.10.2026"
+          }
         }
       ]
     },
@@ -200,15 +233,15 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "17-09-2026",
-            "due_date": "17-09-2026",
+            "lesson_date": "16-09-2026",
+            "due_date": "16-09-2026",
             "num_hours": 1,
-            "due_date_display": "חמישי, 17.09.2026"
+            "due_date_display": "רביעי, 16.09.2026"
           }
         },
         {
           "name": "3. פיתול - קעירות כלפי מעלה ומטה",
-          "desc": "<p>נקודות פיתול, נגזרת שנייה, ותחומי קעירות</p>",
+          "desc": "<p>נקודות פיתול, נגזרת שנייה, ותחומי קעירות</p>\n<p>ש.ב לחופשת סוכות</p>",
           "id": "3-3",
           "content": [
             {
@@ -235,9 +268,9 @@
           ],
           "lesson_json": {
             "lesson_date": "17-09-2026",
-            "due_date": "17-09-2026",
+            "due_date": "04-10-2026",
             "num_hours": 2,
-            "due_date_display": "חמישי, 17.09.2026"
+            "due_date_display": "ראשון, 04.10.2026"
           }
         }
       ]

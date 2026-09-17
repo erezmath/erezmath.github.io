@@ -20,6 +20,15 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-3
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 2. סדרות / 3. סכום סדרה הנדסית - ש.ב ל
+ חופשת סוכות
+DTSTART;VALUE=DATE:20261004
+UID:due-1-4-04-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-4
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 5. טריגו במישור / 1. חזרה למבחן תחיל
  ת שנה - מעגל חסום וחוסם
 DTSTART;VALUE=DATE:20260902
@@ -40,8 +49,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 6. חדוא / 2. למה חובה לדעת מילוי טבל
  ת נגזרת על ידי שרטוט הנגזרת
-DTSTART;VALUE=DATE:20260917
-UID:due-3-2-17-09-2026@erezmath
+DTSTART;VALUE=DATE:20260916
+UID:due-3-2-16-09-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#3-2
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-2
@@ -49,8 +58,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 6. חדוא / 3. פיתול - קעירות כלפי מעלה
   ומטה
-DTSTART;VALUE=DATE:20260917
-UID:due-3-3-17-09-2026@erezmath
+DTSTART;VALUE=DATE:20261004
+UID:due-3-3-04-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#3-3
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-3
