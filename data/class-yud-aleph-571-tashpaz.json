@@ -149,8 +149,42 @@
           ],
           "lesson_json": {
             "lesson_date": "17-09-2026",
-            "due_date": "04-10-2026",
-            "due_date_display": "ראשון, 04.10.2026"
+            "due_date": "05-10-2026",
+            "due_date_display": "שני, 05.10.2026"
+          }
+        },
+        {
+          "name": "4. סדרה הנדסית אינסופית",
+          "desc": "<p>סכום סדרה הנדסית אינסופית - 3 שעות תרגול</p>",
+          "id": "1-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרונות תרגילים בכיתה",
+              "url": "https://drive.google.com/file/d/1DYzOwnqo3wGbplfVBkw7ksZEEwnU6d5z/view",
+              "base_name": "1. סיכום שיעור ופתרונות תרגילים בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגילים בכיתה + ש.ב",
+              "url": "https://drive.google.com/file/d/1BFjrBPjLNpev-9GNkr0EfcZKVHamoSnY/view",
+              "base_name": "2. תרגילים בכיתה + ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות ש.ב",
+              "url": "https://drive.google.com/file/d/1UtQXxUWK9H8PAJYykK2irE9vN8iyPgqY/view",
+              "base_name": "3. פתרונות ש.ב",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "05-10-2026",
+            "due_date": "12-10-2026",
+            "num_hours": 3,
+            "due_date_display": "שני, 12.10.2026"
           }
         }
       ]
@@ -240,7 +274,7 @@
           }
         },
         {
-          "name": "3. פיתול - קעירות כלפי מעלה ומטה",
+          "name": "3. פיתול - קעירות כלפי מעלה ומטה - ש.ב לחופשת סוכות",
           "desc": "<p>נקודות פיתול, נגזרת שנייה, ותחומי קעירות</p>\n<p>ש.ב לחופשת סוכות</p>",
           "id": "3-3",
           "content": [
@@ -268,9 +302,36 @@
           ],
           "lesson_json": {
             "lesson_date": "17-09-2026",
-            "due_date": "04-10-2026",
+            "due_date": "05-10-2026",
             "num_hours": 2,
-            "due_date_display": "ראשון, 04.10.2026"
+            "due_date_display": "שני, 05.10.2026"
+          }
+        },
+        {
+          "name": "4. שיעור סרטוט על פי חיוביות שליליות - ללא נגזרת - פולינום מנה שורש וחור",
+          "desc": "<p>שיעור חזרה על איך משרטטים שרטוט מקדים (שרטוט לפי חיוביות ושליליות)</p>",
+          "id": "3-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות בכיתה -שרטוט חיוביות שליליות",
+              "url": "https://drive.google.com/file/d/1fVjkDHSNIZ3Fd906lJWNB4ECCP51uhah/view",
+              "base_name": "1. שאלות בכיתה -שרטוט חיוביות שליליות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1Yvil7sFMHheXtIvXNzbF9wd8FIxyOXMI/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "05-10-2026",
+            "due_date": "07-10-2026",
+            "num_hours": 1,
+            "due_date_display": "רביעי, 07.10.2026"
           }
         }
       ]

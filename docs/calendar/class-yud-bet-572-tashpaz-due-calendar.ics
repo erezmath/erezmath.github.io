@@ -135,8 +135,8 @@ BEGIN:VEVENT
 SUMMARY:ש.ב 2. אנליטית / 1. הנקודה - נוסחת מרחק\, 
  נוסחת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת 
  סוכות
-DTSTART;VALUE=DATE:20261004
-UID:due-2-2-04-10-2026@erezmath
+DTSTART;VALUE=DATE:20261005
+UID:due-2-2-05-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-2
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-2
@@ -144,8 +144,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 2. אנליטית / 2. נוסחת חלוקה לפי יחס 
  נתון - ש.ב לחופשת סוכות
-DTSTART;VALUE=DATE:20261004
-UID:due-2-3-04-10-2026@erezmath
+DTSTART;VALUE=DATE:20261005
+UID:due-2-3-05-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-3
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-3
@@ -155,8 +155,8 @@ SUMMARY:ש.ב 2. אנליטית / 3. משוואת ישר\, ישרים מק
  בילים ומאונכים והוכחה\, קשר שיפוע טנגנס\, 
  ובעצם כל החומר של כיתה ח-י - ש.ב לחופשת סוכ
  ות
-DTSTART;VALUE=DATE:20261004
-UID:due-2-4-04-10-2026@erezmath
+DTSTART;VALUE=DATE:20261005
+UID:due-2-4-05-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-4
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-4

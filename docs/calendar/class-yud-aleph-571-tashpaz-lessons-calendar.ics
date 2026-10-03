@@ -29,6 +29,14 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-4
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2. סדרות / 4. סדרה הנדסית אינסופית
+DTSTART;VALUE=DATE:20261005
+UID:lesson-1-5-05-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-5
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-5
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:5. טריגו במישור / 1. חזרה למבחן תחילת ש
  נה - מעגל חסום וחוסם
 DTSTART;VALUE=DATE:20260902
@@ -57,12 +65,21 @@ URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:6. חדוא / 3. פיתול - קעירות כלפי מעלה ומ
- טה
+ טה - ש.ב לחופשת סוכות
 DTSTART;VALUE=DATE:20260917
 UID:lesson-3-3-17-09-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#3-3
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6. חדוא / 4. שיעור סרטוט על פי חיוביות ש
+ ליליות - ללא נגזרת - פולינום מנה שורש וחור
+DTSTART;VALUE=DATE:20261005
+UID:lesson-3-4-05-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#3-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:11. עבודות ומבחנים / 0. עבודת הקיץ

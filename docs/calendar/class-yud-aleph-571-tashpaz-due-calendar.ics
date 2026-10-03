@@ -22,11 +22,19 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 2. סדרות / 3. סכום סדרה הנדסית - ש.ב ל
  חופשת סוכות
-DTSTART;VALUE=DATE:20261004
-UID:due-1-4-04-10-2026@erezmath
+DTSTART;VALUE=DATE:20261005
+UID:due-1-4-05-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#1-4
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. סדרות / 4. סדרה הנדסית אינסופית
+DTSTART;VALUE=DATE:20261012
+UID:due-1-5-12-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-5
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 5. טריגו במישור / 1. חזרה למבחן תחיל
@@ -57,12 +65,22 @@ URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 6. חדוא / 3. פיתול - קעירות כלפי מעלה
-  ומטה
-DTSTART;VALUE=DATE:20261004
-UID:due-3-3-04-10-2026@erezmath
+  ומטה - ש.ב לחופשת סוכות
+DTSTART;VALUE=DATE:20261005
+UID:due-3-3-05-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#3-3
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 6. חדוא / 4. שיעור סרטוט על פי חיובי
+ ות שליליות - ללא נגזרת - פולינום מנה שורש 
+ וחור
+DTSTART;VALUE=DATE:20261007
+UID:due-3-4-07-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#3-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 11. עבודות ומבחנים / 0. עבודת הקיץ
