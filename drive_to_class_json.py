@@ -330,7 +330,7 @@ def _hebrew_day_name(weekday: int) -> str:
     day_names = ["שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת", "ראשון"]
     return day_names[weekday] if 0 <= weekday < len(day_names) else ""
 
-def _format_due_date(due_str: str) -> str:
+def _format_date_with_hebrew_day(due_str: str) -> str:
     """
     Parse dd-mm-yyyy or dd.mm.yyyy (2 or 4 digit year) and return
     'יום, dd.mm.yyyy' in Hebrew. Returns empty string on failure.
@@ -761,9 +761,15 @@ def crawl_class(service, class_name, folder_id, banner_url, url_name, category, 
             lesson_description = read_readme_file(service, lesson['id'], lesson_folder_items)
             lesson_meta = read_lesson_json(service, lesson['id'], lesson_folder_items)
             if 'due_date' in lesson_meta:
-                display = _format_due_date(lesson_meta.get('due_date', ''))
+                display = _format_date_with_hebrew_day(lesson_meta.get('due_date', ''))
                 if display:
                     lesson_meta['due_date_display'] = display
+            if 'lesson_date' in lesson_meta:
+                display = _format_date_with_hebrew_day(lesson_meta.get('lesson_date', ''))
+                if display:
+                    lesson_meta['lesson_date_display'] = display
+            if 'num_hours' in lesson_meta:
+                lesson_meta['num_hours_display'] = lesson_meta['num_hours']
             
             lesson_obj = {
                 'name': lesson['name'],

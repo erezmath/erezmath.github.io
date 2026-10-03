@@ -122,7 +122,8 @@
           "lesson_json": {
             "lesson_date": "12-04-2026",
             "due_date": "12-04-2026",
-            "due_date_display": "ראשון, 12.04.2026"
+            "due_date_display": "ראשון, 12.04.2026",
+            "lesson_date_display": "ראשון, 12.04.2026"
           }
         },
         {
@@ -141,7 +142,8 @@
           "lesson_json": {
             "lesson_date": "14-04-2026",
             "due_date": "28-04-2026",
-            "due_date_display": "שלישי, 28.04.2026"
+            "due_date_display": "שלישי, 28.04.2026",
+            "lesson_date_display": "שלישי, 14.04.2026"
           }
         },
         {
@@ -167,7 +169,8 @@
           "lesson_json": {
             "lesson_date": "28-04-2026",
             "due_date": "06-05-2026",
-            "due_date_display": "רביעי, 06.05.2026"
+            "due_date_display": "רביעי, 06.05.2026",
+            "lesson_date_display": "שלישי, 28.04.2026"
           }
         },
         {
@@ -200,7 +203,8 @@
           "lesson_json": {
             "lesson_date": "06-05-2026",
             "due_date": "12-05-2026",
-            "due_date_display": "שלישי, 12.05.2026"
+            "due_date_display": "שלישי, 12.05.2026",
+            "lesson_date_display": "רביעי, 06.05.2026"
           }
         },
         {
@@ -226,7 +230,8 @@
           "lesson_json": {
             "lesson_date": "12-05-2026",
             "due_date": "19-05-2026",
-            "due_date_display": "שלישי, 19.05.2026"
+            "due_date_display": "שלישי, 19.05.2026",
+            "lesson_date_display": "שלישי, 12.05.2026"
           }
         },
         {
@@ -260,7 +265,8 @@
           "lesson_json": {
             "lesson_date": "02-06-2026",
             "due_date": "07-06-2026",
-            "due_date_display": "ראשון, 07.06.2026"
+            "due_date_display": "ראשון, 07.06.2026",
+            "lesson_date_display": "שלישי, 02.06.2026"
           }
         }
       ]
@@ -654,7 +660,8 @@
           "lesson_json": {
             "lesson_date": "02-12-2025",
             "due_date": "08-12-2025",
-            "due_date_display": "שני, 08.12.2025"
+            "due_date_display": "שני, 08.12.2025",
+            "lesson_date_display": "שלישי, 02.12.2025"
           }
         },
         {
@@ -673,7 +680,8 @@
           "lesson_json": {
             "lesson_date": "07-12-2025",
             "due_date": "13-12-2025",
-            "due_date_display": "שבת, 13.12.2025"
+            "due_date_display": "שבת, 13.12.2025",
+            "lesson_date_display": "ראשון, 07.12.2025"
           }
         },
         {
@@ -692,7 +700,8 @@
           "lesson_json": {
             "lesson_date": "09-12-2025",
             "due_date": "23-12-2025",
-            "due_date_display": "שלישי, 23.12.2025"
+            "due_date_display": "שלישי, 23.12.2025",
+            "lesson_date_display": "שלישי, 09.12.2025"
           }
         },
         {
@@ -711,7 +720,8 @@
           "lesson_json": {
             "lesson_date": "31-12-2025",
             "due_date": "04-01-2026",
-            "due_date_display": "ראשון, 04.01.2026"
+            "due_date_display": "ראשון, 04.01.2026",
+            "lesson_date_display": "רביעי, 31.12.2025"
           }
         },
         {
@@ -763,7 +773,8 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "06-01-2026"
+            "lesson_date": "06-01-2026",
+            "lesson_date_display": "שלישי, 06.01.2026"
           }
         }
       ]
@@ -831,7 +842,8 @@
           "lesson_json": {
             "lesson_date": "18-01-2026",
             "due_date": "25-01-2026",
-            "due_date_display": "ראשון, 25.01.2026"
+            "due_date_display": "ראשון, 25.01.2026",
+            "lesson_date_display": "ראשון, 18.01.2026"
           }
         },
         {
@@ -864,7 +876,8 @@
           "lesson_json": {
             "lesson_date": "25-01-2026",
             "due_date": "04-02-2026",
-            "due_date_display": "רביעי, 04.02.2026"
+            "due_date_display": "רביעי, 04.02.2026",
+            "lesson_date_display": "ראשון, 25.01.2026"
           }
         },
         {
@@ -890,7 +903,8 @@
           "lesson_json": {
             "lesson_date": "05-02-2026",
             "due_date": "12-02-2026",
-            "due_date_display": "חמישי, 12.02.2026"
+            "due_date_display": "חמישי, 12.02.2026",
+            "lesson_date_display": "חמישי, 05.02.2026"
           }
         },
         {
@@ -923,7 +937,8 @@
           "lesson_json": {
             "lesson_date": "12-02-2026",
             "due_date": "19-02-2026",
-            "due_date_display": "חמישי, 19.02.2026"
+            "due_date_display": "חמישי, 19.02.2026",
+            "lesson_date_display": "חמישי, 12.02.2026"
           }
         },
         {
@@ -963,7 +978,8 @@
           "lesson_json": {
             "lesson_date": "19-02-2026",
             "due_date": "26-02-2026",
-            "due_date_display": "חמישי, 26.02.2026"
+            "due_date_display": "חמישי, 26.02.2026",
+            "lesson_date_display": "חמישי, 19.02.2026"
           }
         },
         {
@@ -1018,7 +1034,8 @@
           "lesson_json": {
             "lesson_date": "26-02-2026",
             "due_date": "11-03-2026",
-            "due_date_display": "רביעי, 11.03.2026"
+            "due_date_display": "רביעי, 11.03.2026",
+            "lesson_date_display": "חמישי, 26.02.2026"
           }
         },
         {
@@ -1044,7 +1061,8 @@
           "lesson_json": {
             "lesson_date": "15-03-2026",
             "due_date": "16-03-2026",
-            "due_date_display": "שני, 16.03.2026"
+            "due_date_display": "שני, 16.03.2026",
+            "lesson_date_display": "ראשון, 15.03.2026"
           }
         },
         {
@@ -1077,7 +1095,8 @@
           "lesson_json": {
             "lesson_date": "17-03-2026",
             "due_date": "21-03-2026",
-            "due_date_display": "שבת, 21.03.2026"
+            "due_date_display": "שבת, 21.03.2026",
+            "lesson_date_display": "שלישי, 17.03.2026"
           }
         },
         {
@@ -1125,7 +1144,8 @@
           "lesson_json": {
             "lesson_date": "16-04-2026",
             "due_date": "26-04-2026",
-            "due_date_display": "ראשון, 26.04.2026"
+            "due_date_display": "ראשון, 26.04.2026",
+            "lesson_date_display": "חמישי, 16.04.2026"
           }
         },
         {
@@ -1151,7 +1171,8 @@
           "lesson_json": {
             "lesson_date": "26-04-2026",
             "due_date": "01-05-2026",
-            "due_date_display": "שישי, 01.05.2026"
+            "due_date_display": "שישי, 01.05.2026",
+            "lesson_date_display": "ראשון, 26.04.2026"
           }
         },
         {
@@ -1177,7 +1198,8 @@
           "lesson_json": {
             "lesson_date": "30-04-2026",
             "due_date": "10-05-2026",
-            "due_date_display": "ראשון, 10.05.2026"
+            "due_date_display": "ראשון, 10.05.2026",
+            "lesson_date_display": "חמישי, 30.04.2026"
           }
         },
         {
@@ -1218,7 +1240,8 @@
           "lesson_json": {
             "lesson_date": "10-05-2026",
             "due_date": "14-05-2026",
-            "due_date_display": "חמישי, 14.05.2026"
+            "due_date_display": "חמישי, 14.05.2026",
+            "lesson_date_display": "ראשון, 10.05.2026"
           }
         },
         {
@@ -1251,7 +1274,8 @@
           "lesson_json": {
             "lesson_date": "14-05-2026",
             "due_date": "17-05-2026",
-            "due_date_display": "ראשון, 17.05.2026"
+            "due_date_display": "ראשון, 17.05.2026",
+            "lesson_date_display": "חמישי, 14.05.2026"
           }
         },
         {
@@ -1277,7 +1301,8 @@
           "lesson_json": {
             "lesson_date": "17-05-2026",
             "due_date": "23-05-2026",
-            "due_date_display": "שבת, 23.05.2026"
+            "due_date_display": "שבת, 23.05.2026",
+            "lesson_date_display": "ראשון, 17.05.2026"
           }
         }
       ]
@@ -1786,7 +1811,8 @@
           "lesson_json": {
             "lesson_date": "05-12-2025",
             "due_date": "08-12-2025",
-            "due_date_display": "שני, 08.12.2025"
+            "due_date_display": "שני, 08.12.2025",
+            "lesson_date_display": "שישי, 05.12.2025"
           }
         },
         {
@@ -1805,7 +1831,8 @@
           "lesson_json": {
             "lesson_date": "09-12-2025",
             "due_date": "13-12-2025",
-            "due_date_display": "שבת, 13.12.2025"
+            "due_date_display": "שבת, 13.12.2025",
+            "lesson_date_display": "שלישי, 09.12.2025"
           }
         },
         {
@@ -1824,7 +1851,8 @@
           "lesson_json": {
             "lesson_date": "09-12-2025",
             "due_date": "23-12-2025",
-            "due_date_display": "שלישי, 23.12.2025"
+            "due_date_display": "שלישי, 23.12.2025",
+            "lesson_date_display": "שלישי, 09.12.2025"
           }
         },
         {
@@ -1841,7 +1869,8 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "30-12-2025"
+            "lesson_date": "30-12-2025",
+            "lesson_date_display": "שלישי, 30.12.2025"
           }
         },
         {
@@ -1900,7 +1929,8 @@
           "lesson_json": {
             "lesson_date": "22-01-2026",
             "due_date": "29-01-2026",
-            "due_date_display": "חמישי, 29.01.2026"
+            "due_date_display": "חמישי, 29.01.2026",
+            "lesson_date_display": "חמישי, 22.01.2026"
           }
         },
         {
@@ -1933,7 +1963,8 @@
           "lesson_json": {
             "lesson_date": "29-01-2026",
             "due_date": "04-02-2026",
-            "due_date_display": "רביעי, 04.02.2026"
+            "due_date_display": "רביעי, 04.02.2026",
+            "lesson_date_display": "חמישי, 29.01.2026"
           }
         },
         {
@@ -1950,7 +1981,8 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "03-02-2026"
+            "lesson_date": "03-02-2026",
+            "lesson_date_display": "שלישי, 03.02.2026"
           }
         },
         {
@@ -1969,7 +2001,8 @@
           "lesson_json": {
             "lesson_date": "04-02-2026",
             "due_date": "08-02-2026",
-            "due_date_display": "ראשון, 08.02.2026"
+            "due_date_display": "ראשון, 08.02.2026",
+            "lesson_date_display": "רביעי, 04.02.2026"
           }
         },
         {
@@ -1995,7 +2028,8 @@
           "lesson_json": {
             "lesson_date": "08-02-2026",
             "due_date": "15-02-2026",
-            "due_date_display": "ראשון, 15.02.2026"
+            "due_date_display": "ראשון, 15.02.2026",
+            "lesson_date_display": "ראשון, 08.02.2026"
           }
         },
         {
@@ -2035,7 +2069,8 @@
           "lesson_json": {
             "lesson_date": "15-02-2026",
             "due_date": "22-02-2026",
-            "due_date_display": "ראשון, 22.02.2026"
+            "due_date_display": "ראשון, 22.02.2026",
+            "lesson_date_display": "ראשון, 15.02.2026"
           }
         },
         {
@@ -2054,7 +2089,8 @@
           "lesson_json": {
             "lesson_date": "22-02-2026",
             "due_date": "01-03-2026",
-            "due_date_display": "ראשון, 01.03.2026"
+            "due_date_display": "ראשון, 01.03.2026",
+            "lesson_date_display": "ראשון, 22.02.2026"
           }
         },
         {
@@ -2087,7 +2123,8 @@
           "lesson_json": {
             "lesson_date": "08-03-2026",
             "due_date": "10-03-2026",
-            "due_date_display": "שלישי, 10.03.2026"
+            "due_date_display": "שלישי, 10.03.2026",
+            "lesson_date_display": "ראשון, 08.03.2026"
           }
         },
         {
@@ -2113,7 +2150,8 @@
           "lesson_json": {
             "lesson_date": "11-03-2026",
             "due_date": "14-03-2026",
-            "due_date_display": "שבת, 14.03.2026"
+            "due_date_display": "שבת, 14.03.2026",
+            "lesson_date_display": "רביעי, 11.03.2026"
           }
         },
         {
@@ -2183,7 +2221,8 @@
           "lesson_json": {
             "lesson_date": "19-03-2026",
             "due_date": "19-03-2026",
-            "due_date_display": "חמישי, 19.03.2026"
+            "due_date_display": "חמישי, 19.03.2026",
+            "lesson_date_display": "חמישי, 19.03.2026"
           }
         },
         {
@@ -2202,7 +2241,8 @@
           "lesson_json": {
             "lesson_date": "04-05-2026",
             "due_date": "07-05-2026",
-            "due_date_display": "חמישי, 07.05.2026"
+            "due_date_display": "חמישי, 07.05.2026",
+            "lesson_date_display": "שני, 04.05.2026"
           }
         },
         {
@@ -2228,7 +2268,8 @@
           "lesson_json": {
             "lesson_date": "07-05-2026",
             "due_date": "13-05-2026",
-            "due_date_display": "רביעי, 13.05.2026"
+            "due_date_display": "רביעי, 13.05.2026",
+            "lesson_date_display": "חמישי, 07.05.2026"
           }
         },
         {
@@ -2261,7 +2302,8 @@
           "lesson_json": {
             "lesson_date": "13-05-2026",
             "due_date": "20-05-2026",
-            "due_date_display": "רביעי, 20.05.2026"
+            "due_date_display": "רביעי, 20.05.2026",
+            "lesson_date_display": "רביעי, 13.05.2026"
           }
         },
         {
@@ -2293,7 +2335,8 @@
                 "title": "סרטון תרגול אינטגרלים - עידו מרבך"
               }
             ],
-            "due_date_display": "ראשון, 31.05.2026"
+            "due_date_display": "ראשון, 31.05.2026",
+            "lesson_date_display": "שלישי, 26.05.2026"
           }
         },
         {
@@ -2326,7 +2369,8 @@
           "lesson_json": {
             "lesson_date": "27-05-2026",
             "due_date": "31-05-2026",
-            "due_date_display": "ראשון, 31.05.2026"
+            "due_date_display": "ראשון, 31.05.2026",
+            "lesson_date_display": "רביעי, 27.05.2026"
           }
         },
         {
@@ -2359,7 +2403,8 @@
           "lesson_json": {
             "lesson_date": "31-05-2026",
             "due_date": "07-06-2026",
-            "due_date_display": "ראשון, 07.06.2026"
+            "due_date_display": "ראשון, 07.06.2026",
+            "lesson_date_display": "ראשון, 31.05.2026"
           }
         },
         {
@@ -2407,7 +2452,8 @@
           "lesson_json": {
             "lesson_date": "04-06-2026",
             "due_date": "07-06-2026",
-            "due_date_display": "ראשון, 07.06.2026"
+            "due_date_display": "ראשון, 07.06.2026",
+            "lesson_date_display": "חמישי, 04.06.2026"
           }
         },
         {
@@ -2426,7 +2472,8 @@
           "lesson_json": {
             "lesson_date": "09-06-2026",
             "due_date": "09-06-2026",
-            "due_date_display": "שלישי, 09.06.2026"
+            "due_date_display": "שלישי, 09.06.2026",
+            "lesson_date_display": "שלישי, 09.06.2026"
           }
         }
       ]
@@ -2476,7 +2523,8 @@
           "lesson_json": {
             "lesson_date": "23-12-2025",
             "due_date": "24-12-2025",
-            "due_date_display": "רביעי, 24.12.2025"
+            "due_date_display": "רביעי, 24.12.2025",
+            "lesson_date_display": "שלישי, 23.12.2025"
           }
         },
         {
@@ -2502,7 +2550,8 @@
           "lesson_json": {
             "lesson_date": "24-12-2025",
             "due_date": "28-12-2025",
-            "due_date_display": "ראשון, 28.12.2025"
+            "due_date_display": "ראשון, 28.12.2025",
+            "lesson_date_display": "רביעי, 24.12.2025"
           }
         },
         {
@@ -2542,7 +2591,8 @@
           "lesson_json": {
             "lesson_date": "25-12-2025",
             "due_date": "28-12-2025",
-            "due_date_display": "ראשון, 28.12.2025"
+            "due_date_display": "ראשון, 28.12.2025",
+            "lesson_date_display": "חמישי, 25.12.2025"
           }
         },
         {
@@ -2582,7 +2632,8 @@
           "lesson_json": {
             "lesson_date": "28-12-2025",
             "due_date": "31-12-2025",
-            "due_date_display": "רביעי, 31.12.2025"
+            "due_date_display": "רביעי, 31.12.2025",
+            "lesson_date_display": "ראשון, 28.12.2025"
           }
         },
         {
@@ -2608,7 +2659,8 @@
           "lesson_json": {
             "lesson_date": "01-01-2026",
             "due_date": "01-01-2026",
-            "due_date_display": "חמישי, 01.01.2026"
+            "due_date_display": "חמישי, 01.01.2026",
+            "lesson_date_display": "חמישי, 01.01.2026"
           }
         },
         {
@@ -2625,7 +2677,8 @@
             }
           ],
           "lesson_json": {
-            "lesson_date": "04-01-2026"
+            "lesson_date": "04-01-2026",
+            "lesson_date_display": "ראשון, 04.01.2026"
           }
         },
         {
@@ -2658,7 +2711,8 @@
           "lesson_json": {
             "lesson_date": "13-01-2026",
             "due_date": "20-01-2026",
-            "due_date_display": "שלישי, 20.01.2026"
+            "due_date_display": "שלישי, 20.01.2026",
+            "lesson_date_display": "שלישי, 13.01.2026"
           }
         },
         {
@@ -2684,7 +2738,8 @@
           "lesson_json": {
             "lesson_date": "20-01-2026",
             "due_date": "27-01-2026",
-            "due_date_display": "שלישי, 27.01.2026"
+            "due_date_display": "שלישי, 27.01.2026",
+            "lesson_date_display": "שלישי, 20.01.2026"
           }
         },
         {
@@ -2717,7 +2772,8 @@
           "lesson_json": {
             "lesson_date": "27-01-2026",
             "due_date": "04-02-2026",
-            "due_date_display": "רביעי, 04.02.2026"
+            "due_date_display": "רביעי, 04.02.2026",
+            "lesson_date_display": "שלישי, 27.01.2026"
           }
         },
         {
@@ -2743,7 +2799,8 @@
           "lesson_json": {
             "lesson_date": "10-02-2026",
             "due_date": "19-02-2026",
-            "due_date_display": "חמישי, 19.02.2026"
+            "due_date_display": "חמישי, 19.02.2026",
+            "lesson_date_display": "שלישי, 10.02.2026"
           }
         },
         {
@@ -2769,7 +2826,8 @@
           "lesson_json": {
             "lesson_date": "22-03-2026",
             "due_date": "22-03-2026",
-            "due_date_display": "ראשון, 22.03.2026"
+            "due_date_display": "ראשון, 22.03.2026",
+            "lesson_date_display": "ראשון, 22.03.2026"
           }
         },
         {
@@ -2809,7 +2867,8 @@
           "lesson_json": {
             "lesson_date": "19-04-2026",
             "due_date": "19-04-2026",
-            "due_date_display": "ראשון, 19.04.2026"
+            "due_date_display": "ראשון, 19.04.2026",
+            "lesson_date_display": "ראשון, 19.04.2026"
           }
         },
         {
@@ -2835,7 +2894,8 @@
           "lesson_json": {
             "lesson_date": "23-04-2026",
             "due_date": "06-05-2026",
-            "due_date_display": "רביעי, 06.05.2026"
+            "due_date_display": "רביעי, 06.05.2026",
+            "lesson_date_display": "חמישי, 23.04.2026"
           }
         },
         {
@@ -2883,7 +2943,8 @@
           "lesson_json": {
             "lesson_date": "28-05-2026",
             "due_date": "02-06-2026",
-            "due_date_display": "שלישי, 02.06.2026"
+            "due_date_display": "שלישי, 02.06.2026",
+            "lesson_date_display": "חמישי, 28.05.2026"
           }
         }
       ]
@@ -2936,7 +2997,8 @@
           "lesson_json": {
             "lesson_date": "24-02-2026",
             "due_date": "09-03-2026",
-            "due_date_display": "שני, 09.03.2026"
+            "due_date_display": "שני, 09.03.2026",
+            "lesson_date_display": "שלישי, 24.02.2026"
           }
         },
         {
@@ -2962,7 +3024,8 @@
           "lesson_json": {
             "lesson_date": "10-03-2026",
             "due_date": "17-03-2026",
-            "due_date_display": "שלישי, 17.03.2026"
+            "due_date_display": "שלישי, 17.03.2026",
+            "lesson_date_display": "שלישי, 10.03.2026"
           }
         },
         {
@@ -2995,7 +3058,8 @@
           "lesson_json": {
             "lesson_date": "18-03-2026",
             "due_date": "21-03-2026",
-            "due_date_display": "שבת, 21.03.2026"
+            "due_date_display": "שבת, 21.03.2026",
+            "lesson_date_display": "רביעי, 18.03.2026"
           }
         },
         {
@@ -3444,7 +3508,8 @@
           "lesson_json": {
             "lesson_date": "09-12-2025",
             "due_date": "23-12-2025",
-            "due_date_display": "שלישי, 23.12.2025"
+            "due_date_display": "שלישי, 23.12.2025",
+            "lesson_date_display": "שלישי, 09.12.2025"
           }
         },
         {
@@ -3696,7 +3761,8 @@
           "lesson_json": {
             "lesson_date": "08-02-2026",
             "due_date": "15-02-2026",
-            "due_date_display": "ראשון, 15.02.2026"
+            "due_date_display": "ראשון, 15.02.2026",
+            "lesson_date_display": "ראשון, 08.02.2026"
           }
         },
         {
@@ -3757,7 +3823,8 @@
           "lesson_json": {
             "lesson_date": "23-03-2026",
             "due_date": "08-04-2026",
-            "due_date_display": "רביעי, 08.04.2026"
+            "due_date_display": "רביעי, 08.04.2026",
+            "lesson_date_display": "שני, 23.03.2026"
           }
         },
         {
@@ -3819,7 +3886,8 @@
           "lesson_json": {
             "lesson_date": "19-04-2026",
             "due_date": "19-04-2026",
-            "due_date_display": "ראשון, 19.04.2026"
+            "due_date_display": "ראשון, 19.04.2026",
+            "lesson_date_display": "ראשון, 19.04.2026"
           }
         },
         {
@@ -4139,7 +4207,8 @@
           "lesson_json": {
             "lesson_date": "24-05-2026",
             "due_date": "24-05-2026",
-            "due_date_display": "ראשון, 24.05.2026"
+            "due_date_display": "ראשון, 24.05.2026",
+            "lesson_date_display": "ראשון, 24.05.2026"
           }
         }
       ]
