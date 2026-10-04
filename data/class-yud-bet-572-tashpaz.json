@@ -609,6 +609,35 @@
             "lesson_date_display": "חמישי, 17.09.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "4. מרחק מנקודה לישר, מרחק בין ישרים מקבילים",
+          "desc": "<p>מרחק מנקודה לישר - הסבר לנוסחא הארוכה ולא אינטואיטיבית וקצת שאלות טכניות בכיתה.</p>\n<p>אם לא ישאר זמן (כי השיעור רק שעה אחת), נמשיך ברביעי.</p>\n<p>בגלל שאתם כבר י\"ב, ואין מבחן קרוב, לא רק נתרגל טכנית שימוש בנוסחא, אלא נוכיח אותה ונדבר גם קצת על הוכחה בשלילה.</p>",
+          "id": "2-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/11hFI0UuhqYinBkvrDXUB5lpoeq_lBBuY/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. שאלות בכיתה",
+              "url": "https://drive.google.com/file/d/1ok7Af9lnakTmp1oIEEes1rbDUC1BL3EF/view",
+              "base_name": "2. שאלות בכיתה",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "05-10-2026",
+            "due_date": "11-10-2026",
+            "num_hours": 3,
+            "due_date_display": "ראשון, 11.10.2026",
+            "lesson_date_display": "שני, 05.10.2026",
+            "num_hours_display": 3
+          }
         }
       ]
     },

@@ -157,4 +157,13 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-4
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-4
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2. אנליטית / 4. מרחק מנקודה לישר\, מרחק 
+ בין ישרים מקבילים
+DTSTART;VALUE=DATE:20261005
+UID:lesson-2-5-05-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-5
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-5
+END:VEVENT
 END:VCALENDAR
