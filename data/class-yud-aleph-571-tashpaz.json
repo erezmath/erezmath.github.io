@@ -187,9 +187,9 @@
           ],
           "lesson_json": {
             "lesson_date": "05-10-2026",
-            "due_date": "12-10-2026",
+            "due_date": "11-10-2026",
             "num_hours": 3,
-            "due_date_display": "שני, 12.10.2026",
+            "due_date_display": "ראשון, 11.10.2026",
             "lesson_date_display": "שני, 05.10.2026",
             "num_hours_display": 3
           }
