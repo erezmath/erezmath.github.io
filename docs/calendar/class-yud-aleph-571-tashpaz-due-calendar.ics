@@ -83,6 +83,15 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-4
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 6. חדוא / 5. תחומי קעירות - קשר גרף נ
+ גזרת - וחקירה עם תחומי קעירות רמת בגרות
+DTSTART;VALUE=DATE:20261011
+UID:due-3-5-11-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#3-5
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-5
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 11. עבודות ומבחנים / 0. עבודת הקיץ
 DTSTART;VALUE=DATE:20260830
 UID:due-4-1-30-08-2026@erezmath

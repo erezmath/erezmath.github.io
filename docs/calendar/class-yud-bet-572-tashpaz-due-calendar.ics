@@ -170,4 +170,13 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-5
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-5
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. אנליטית / 5. מרחק מנקודה לישר\, מר
+ חק בין ישרים מקבילים - תרגול
+DTSTART;VALUE=DATE:20261011
+UID:due-2-6-11-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-6
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-6
+END:VEVENT
 END:VCALENDAR

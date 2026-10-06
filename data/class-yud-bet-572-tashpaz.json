@@ -633,10 +633,60 @@
           "lesson_json": {
             "lesson_date": "05-10-2026",
             "due_date": "11-10-2026",
-            "num_hours": 3,
+            "num_hours": 1,
             "due_date_display": "ראשון, 11.10.2026",
             "lesson_date_display": "שני, 05.10.2026",
-            "num_hours_display": 3
+            "num_hours_display": 1
+          }
+        },
+        {
+          "name": "5. מרחק מנקודה לישר, מרחק בין ישרים מקבילים - תרגול",
+          "desc": "<p>תרגול על נוסחת מרחק נקודה לישר, קישור לשטחים, והוכחות גאומטריות עם אנליטית במקום גאומטריה אוקלידית קלאסית.</p>\n<p>בכיתה נפתור 4 תרגילים יחד להכיר את סוג השאלות, ש.ב יש לכם 8 תרגילים אותם תתחילו לפתור בכיתה (כנראה תסיימו חצי בכיתה).</p>\n<p>באחת מהשאלות בש.ב תשתמשו גם בנוסחא שמפגש התיכונים הוא ממוצע קודקודי המשולש.</p>",
+          "id": "2-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור תאורטי - שיעור קודם",
+              "url": "https://drive.google.com/file/d/1fE2EhHGlG5OjkTJrC7PtqAOc4nClSrmb/view",
+              "base_name": "1. סיכום שיעור תאורטי - שיעור קודם",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. שאלות בכיתה - פתרונות",
+              "url": "https://drive.google.com/file/d/1x67R3rWP4Nxu8GDDuM6eSLD5Fe1ABsfQ/view",
+              "base_name": "2. שאלות בכיתה - פתרונות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. שאלות בכיתה ללא פתרונות",
+              "url": "https://drive.google.com/file/d/1dLPsQi_ioY5KcMhTBIdmWOhyIfB0LSBU/view",
+              "base_name": "2. שאלות בכיתה ללא פתרונות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. ש.ב",
+              "url": "https://drive.google.com/file/d/1qxaMXlYQ8uLkIlMfSUwBzg8MWZWbK9WX/view",
+              "base_name": "3. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. פתרונות ש.ב",
+              "url": "https://drive.google.com/file/d/1Gtw7lmQ8Ir-8XwSXsPTr5RY-VvRWL_TF/view",
+              "base_name": "4. פתרונות ש.ב",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "07-10-2026",
+            "due_date": "11-10-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 11.10.2026",
+            "lesson_date_display": "רביעי, 07.10.2026",
+            "num_hours_display": 2
           }
         }
       ]
