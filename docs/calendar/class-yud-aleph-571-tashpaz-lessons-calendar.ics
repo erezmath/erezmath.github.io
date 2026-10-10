@@ -4,50 +4,50 @@ PRODID:-//ErezMath//Class yud-aleph-571-tashpaz Lessons//HE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:כיתה יא 571 תשפז - שיעורים
 BEGIN:VEVENT
+SUMMARY:1. שאלות קצרות / 1. הצגת מבנה הבגרות וה
+ גשות\, שאלות קצרות מבגרות 2022 מועד ב
+DTSTART;VALUE=DATE:20261011
+UID:lesson-1-1-11-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-1
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-1
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2. סדרות / 1. סדרה הנדסית
 DTSTART;VALUE=DATE:20260909
-UID:lesson-1-2-09-09-2026@erezmath
+UID:lesson-2-2-09-09-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#1-2
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-2
+ class-yud-aleph-571-tashpaz.html#2-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2. סדרות / 2. סכום סדרה הנדסית
 DTSTART;VALUE=DATE:20260914
-UID:lesson-1-3-14-09-2026@erezmath
+UID:lesson-2-3-14-09-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#1-3
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-3
+ class-yud-aleph-571-tashpaz.html#2-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2. סדרות / 3. סכום סדרה הנדסית - ש.ב לחופ
  שת סוכות
 DTSTART;VALUE=DATE:20260917
-UID:lesson-1-4-17-09-2026@erezmath
+UID:lesson-2-4-17-09-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#1-4
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-4
+ class-yud-aleph-571-tashpaz.html#2-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:2. סדרות / 4. סדרה הנדסית אינסופית
 DTSTART;VALUE=DATE:20261005
-UID:lesson-1-5-05-10-2026@erezmath
+UID:lesson-2-5-05-10-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#1-5
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-5
+ class-yud-aleph-571-tashpaz.html#2-5
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5. טריגו במישור / 1. חזרה למבחן תחילת ש
  נה - מעגל חסום וחוסם
-DTSTART;VALUE=DATE:20260902
-UID:lesson-2-1-02-09-2026@erezmath
-DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#2-1
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-1
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:6. חדוא / 1. חזרה למבחן תחילת שנה - מנה ע
- ם הבע באמצעות - מתרגילי שנה שעברה
 DTSTART;VALUE=DATE:20260902
 UID:lesson-3-1-02-09-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
@@ -55,47 +55,65 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:6. חדוא / 1. חזרה למבחן תחילת שנה - מנה ע
+ ם הבע באמצעות - מתרגילי שנה שעברה
+DTSTART;VALUE=DATE:20260902
+UID:lesson-4-1-02-09-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#4-1
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#4-1
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:6. חדוא / 2. למה חובה לדעת מילוי טבלת נג
  זרת על ידי שרטוט הנגזרת
 DTSTART;VALUE=DATE:20260916
-UID:lesson-3-2-16-09-2026@erezmath
+UID:lesson-4-2-16-09-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#3-2
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-2
+ class-yud-aleph-571-tashpaz.html#4-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#4-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:6. חדוא / 3. פיתול - קעירות כלפי מעלה ומ
  טה - ש.ב לחופשת סוכות
 DTSTART;VALUE=DATE:20260917
-UID:lesson-3-3-17-09-2026@erezmath
+UID:lesson-4-3-17-09-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#3-3
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-3
+ class-yud-aleph-571-tashpaz.html#4-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#4-3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:6. חדוא / 4. שיעור סרטוט על פי חיוביות ש
  ליליות - ללא נגזרת - פולינום מנה שורש וחור
 DTSTART;VALUE=DATE:20261005
-UID:lesson-3-4-05-10-2026@erezmath
+UID:lesson-4-4-05-10-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#3-4
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-4
+ class-yud-aleph-571-tashpaz.html#4-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#4-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:6. חדוא / 5. תחומי קעירות - קשר גרף נגזר
  ת - וחקירה עם תחומי קעירות רמת בגרות
 DTSTART;VALUE=DATE:20261007
-UID:lesson-3-5-07-10-2026@erezmath
+UID:lesson-4-5-07-10-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#3-5
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-5
+ class-yud-aleph-571-tashpaz.html#4-5
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#4-5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10. עבודות הגשה שבועיות / 1. הגשות שבוע
+ יות
+DTSTART;VALUE=DATE:20261011
+UID:lesson-5-1-11-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#5-1
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#5-1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:11. עבודות ומבחנים / 0. עבודת הקיץ
 DTSTART;VALUE=DATE:20260620
-UID:lesson-4-1-20-06-2026@erezmath
+UID:lesson-6-1-20-06-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#4-1
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#4-1
+ class-yud-aleph-571-tashpaz.html#6-1
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-1
 END:VEVENT
 END:VCALENDAR

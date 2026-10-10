@@ -495,6 +495,35 @@
             "lesson_date_display": "רביעי, 09.09.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "15. פונקצית לוג - תחום הגדרה, חיתוך צירים, תחום חיוביות, נגזרת",
+          "desc": "<p>חקירת פונקצית לוג - שרטוט לפי טבלת ערכים, תחום הגדרה, חיתוך עם הצירים ומשוואות, תחומי חיוביות ושליליות ואי שוויונים, ונגזרת</p>\n<p>שיעורי בית הרבה שאלות מאוד מאוד קצרות.</p>",
+          "id": "1-15",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1MOjIv6IRGDFDZKKJbKICT0yL0GwvrRnO/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב - תחום הגדרה, משוואות ואי שוויונים, נגזרת",
+              "url": "https://drive.google.com/file/d/1HmjDuhoW_f66g9RinGGzKwtrpBn0WWHM/view",
+              "base_name": "2. ש.ב - תחום הגדרה, משוואות ואי שוויונים, נגזרת",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "12-10-2026",
+            "due_date": "19-10-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 19.10.2026",
+            "lesson_date_display": "שני, 12.10.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },

@@ -129,6 +129,15 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-14
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:1. חדוא / 15. פונקצית לוג - תחום הגדרה\, ח
+ יתוך צירים\, תחום חיוביות\, נגזרת
+DTSTART;VALUE=DATE:20261012
+UID:lesson-1-15-12-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-15
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-15
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2. אנליטית / 1. הנקודה - נוסחת מרחק\, נוס
  חת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת סוכ
  ות
