@@ -237,6 +237,63 @@
             "lesson_date_display": "שני, 05.10.2026",
             "num_hours_display": 3
           }
+        },
+        {
+          "name": "5. סדרה הנדסית - בגרויות - בכוונה שאלות אלגבריות, 4 שאלות מבגרויות 2020-2022",
+          "desc": "<p>לראשונה, סדרות הנדסיות מבגרויות.</p>\n<p>בכוונה בחרתי אלגבריות, ללא סעיפי חשיבה</p>",
+          "id": "2-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. עבודת כיתה וש.ב",
+              "url": "https://drive.google.com/file/d/1XzYCqEvdxsgjaYlZ_IX4W8poKeo8Dqeg/view",
+              "base_name": "1. עבודת כיתה וש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "folder",
+              "name": "2. פתרונות מלאים שלי",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2020 - קיץ מועד ב - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1vaDvQ7JWH4CvK0wvI32KsMNHupt0p6_m/view",
+                  "base_name": "2020 - קיץ מועד ב - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2021 - חורף נבצרים  - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1A9RblQuImqx_J_XgwHN-j6zpLWw2UCRO/view",
+                  "base_name": "2021 - חורף נבצרים  - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2021 - קיץ מועד ב - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1DDi9en2BhfqutKk7ww6CMrAehfRlj3AW/view",
+                  "base_name": "2021 - קיץ מועד ב - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - חורף נבצרים - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/11L2bHYzWfS665Idy9UJF45ReP24iWFZx/view",
+                  "base_name": "2022 - חורף נבצרים - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "12-10-2026",
+            "due_date": "19-10-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 19.10.2026",
+            "lesson_date_display": "שני, 12.10.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
@@ -1818,6 +1875,13 @@
                 },
                 {
                   "type": "file",
+                  "name": "2021 - חורף נבצרים  - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1OIAdOcIu_abDScQDL_9W_KdhVmT5xeYB/view",
+                  "base_name": "2021 - חורף נבצרים  - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
                   "name": "2021 - קיץ מועד ב - סדרה הנדסית",
                   "url": "https://drive.google.com/file/d/1L2UrSDoRzyp4Nimxd9FgxCpYXhTANifV/view",
                   "base_name": "2021 - קיץ מועד ב - סדרה הנדסית",
@@ -1835,6 +1899,13 @@
                   "name": "2022 - חורף - סדרה חשבונית",
                   "url": "https://drive.google.com/file/d/1-1Slb7tnPF8pSjDi93EWVw0LB4MRxtoF/view",
                   "base_name": "2022 - חורף - סדרה חשבונית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - חורף נבצרים - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1abpn8ANJZ3WOOlKXtXQNtGTgLF-mXjsE/view",
+                  "base_name": "2022 - חורף נבצרים - סדרה הנדסית",
                   "file_extension": ".pdf"
                 },
                 {

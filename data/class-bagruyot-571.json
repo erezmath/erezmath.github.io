@@ -1028,6 +1028,13 @@
                 },
                 {
                   "type": "file",
+                  "name": "2021 - חורף נבצרים  - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1OIAdOcIu_abDScQDL_9W_KdhVmT5xeYB/view",
+                  "base_name": "2021 - חורף נבצרים  - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
                   "name": "2021 - קיץ מועד ב - סדרה הנדסית",
                   "url": "https://drive.google.com/file/d/1L2UrSDoRzyp4Nimxd9FgxCpYXhTANifV/view",
                   "base_name": "2021 - קיץ מועד ב - סדרה הנדסית",
@@ -1045,6 +1052,13 @@
                   "name": "2022 - חורף - סדרה חשבונית",
                   "url": "https://drive.google.com/file/d/1-1Slb7tnPF8pSjDi93EWVw0LB4MRxtoF/view",
                   "base_name": "2022 - חורף - סדרה חשבונית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2022 - חורף נבצרים - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1abpn8ANJZ3WOOlKXtXQNtGTgLF-mXjsE/view",
+                  "base_name": "2022 - חורף נבצרים - סדרה הנדסית",
                   "file_extension": ".pdf"
                 },
                 {

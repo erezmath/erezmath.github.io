@@ -46,6 +46,16 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-5
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 2. סדרות / 5. סדרה הנדסית - בגרויות - 
+ בכוונה שאלות אלגבריות\, 4 שאלות מבגרויות 2
+ 020-2022
+DTSTART;VALUE=DATE:20261019
+UID:due-2-6-19-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#2-6
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-6
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 5. טריגו במישור / 1. חזרה למבחן תחיל
  ת שנה - מעגל חסום וחוסם
 DTSTART;VALUE=DATE:20260902
