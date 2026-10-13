@@ -134,8 +134,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 1. חדוא / 15. פונקצית לוג - תחום הגדר
  ה\, חיתוך צירים\, תחום חיוביות\, נגזרת
-DTSTART;VALUE=DATE:20261019
-UID:due-1-15-19-10-2026@erezmath
+DTSTART;VALUE=DATE:20261018
+UID:due-1-15-18-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-15
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-15
@@ -187,5 +187,14 @@ UID:due-2-6-11-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-6
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 2. אנליטית / 6. מעגל - משוואת המעגל ל
+ לא משיק
+DTSTART;VALUE=DATE:20261021
+UID:due-2-7-21-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-7
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-7
 END:VEVENT
 END:VCALENDAR

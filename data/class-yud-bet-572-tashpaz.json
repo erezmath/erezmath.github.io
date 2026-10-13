@@ -518,9 +518,9 @@
           ],
           "lesson_json": {
             "lesson_date": "12-10-2026",
-            "due_date": "19-10-2026",
+            "due_date": "18-10-2026",
             "num_hours": 2,
-            "due_date_display": "שני, 19.10.2026",
+            "due_date_display": "ראשון, 18.10.2026",
             "lesson_date_display": "שני, 12.10.2026",
             "num_hours_display": 2
           }
@@ -715,6 +715,35 @@
             "num_hours": 2,
             "due_date_display": "ראשון, 11.10.2026",
             "lesson_date_display": "רביעי, 07.10.2026",
+            "num_hours_display": 2
+          }
+        },
+        {
+          "name": "6. מעגל - משוואת המעגל ללא משיק",
+          "desc": "<p>משוואת המעגל - התחלה - הוכחה ותרגול, ללא משוואת משיק למעגל.</p>\n<p>הסבר קצר, בעיקר תרגול עצמי וש.ב</p>\n<p>קצת מקומות גאומטריים, לאט לאט להתרגל למונח</p>",
+          "id": "2-7",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1tB_8znqUY1Fcj5uqEdW034DpCbhysui6/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב עם רמזים",
+              "url": "https://drive.google.com/file/d/1G38WLVa3rTUWncQyvTa3dAGJkc8bLUAK/view",
+              "base_name": "2. ש.ב עם רמזים",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "14-10-2026",
+            "due_date": "21-10-2026",
+            "num_hours": 2,
+            "due_date_display": "רביעי, 21.10.2026",
+            "lesson_date_display": "רביעי, 14.10.2026",
             "num_hours_display": 2
           }
         }
