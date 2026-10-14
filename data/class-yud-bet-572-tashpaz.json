@@ -736,6 +736,49 @@
               "url": "https://drive.google.com/file/d/1G38WLVa3rTUWncQyvTa3dAGJkc8bLUAK/view",
               "base_name": "2. ש.ב עם רמזים",
               "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1lVVGwdMVLyJBanbYggTK6y3xZOQBEASz/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "14-10-2026",
+            "due_date": "18-10-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 18.10.2026",
+            "lesson_date_display": "רביעי, 14.10.2026",
+            "num_hours_display": 2
+          }
+        },
+        {
+          "name": "7. מעגל - משיק למעגל",
+          "desc": "<p>משיק למעגל, והרבה שאלות וסגנון שאלות מסביב ששואלים לגבי הנושא הזה.</p>\n<p>בשיעור אתמקד בלהראות אותם, יותר בלפצח אותם שבו אתם מתקשים, לא אפתור עד הסוף את האלגברה.</p>",
+          "id": "2-8",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1k3UfMuaUxwIuFubyTzccTbkuLD02xL9y/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/158RTWwz05CpsJZZuSAsFgmSTPLvSQSJ6/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1I22ww1lKrSgv5NtdeGBWuwxdd5GDstqe/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {

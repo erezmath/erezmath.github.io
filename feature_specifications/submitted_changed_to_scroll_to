@@ -6,11 +6,7 @@ This is still the intended behaviour, however, i don't want lessons in "0-הגש
 Instead, I want it to be that lessons in "0-הגשה-בקרוב" will not have inner content, and clicking on them, will create a scroll to the appropriate 
 lesson. 
 
-The scrolling speed should be adequate for mobile and desktop (can be different parameters) - it should not be too fast nor too slow.
-
-I want you to first review the current implementation, fully understand it, then suggest improvements, and propose a plan for the implementation.
-
-Do not implemenet yet. Only propose a plan.
+The scrolling should remain as the existing behaviour occurs when entering a hashed url in a browser.
 
 The styling of the lessons in "0-הגשה-בקרוב" should have the same design and css as all the other lessons. 
 The only exceptions will now be detailed:
@@ -18,11 +14,9 @@ Because each lesson comes from a different topic, create a topic title, that wil
 and I always start topics with numbers to be better organize, but I want you to remove the beginning numbers and period from the beginning of the topic name.
 So for example, "1. שאלות קצרות" will be "שאלות קצרות"
 
-The new implementation of the scrolling is too jumpy. 
-I mean when clicking on topic in the navbar, or clicking on a lesson in "0-הגשה-בקרוב".
-re-Implement the old implementation of the scrolling, try to change as little code rows as possible compared to the original before changes.
-This will help me stay on top of all changes in my project, and properly review them. 
+Try to change as little code rows as possible compared to the original before changes. This will help me stay on top of all changes in my project as I review with diff.
+The changes should only affect js and css files.
 
-The scrolling doesn't reach the excat position of the "real" lesson when the lesson is clicked in the "0-הגשה-בקרוב".
-Plus, I want you to implement a way without using hashing and changing the url. changing the url creates a problem for the user
- in terms of ui/ux when the user hits back or forward button, and I think it might be the reason for the scrolling problem.
+Additionaly, since scrolling accurately to the correct location is vital scrolling in desktop, mobile, and tablet always goes exactly where it should.
+
+ I want you to first review the current implementation, fully understand it, then suggest improvements, and propose a plan for the implementation.

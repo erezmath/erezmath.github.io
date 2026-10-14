@@ -193,4 +193,12 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-7
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-7
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2. אנליטית / 7. מעגל - משיק למעגל
+DTSTART;VALUE=DATE:20261014
+UID:lesson-2-8-14-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-8
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-8
+END:VEVENT
 END:VCALENDAR
