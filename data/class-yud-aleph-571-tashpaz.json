@@ -540,6 +540,13 @@
               "url": "https://drive.google.com/file/d/1MHLaqsINUXn51eOSF5_pewfPboaRSCpD/view",
               "base_name": "3. עמוד שער - דוגמא איך למלא",
               "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. דף נוסחאות 5 יחל",
+              "url": "https://drive.google.com/file/d/1SUOD3uuldTaUSw1As5qlYEUSUbfaLZtP/view",
+              "base_name": "4. דף נוסחאות 5 יחל",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
