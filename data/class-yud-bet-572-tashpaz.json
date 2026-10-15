@@ -514,6 +514,13 @@
               "url": "https://drive.google.com/file/d/1HmjDuhoW_f66g9RinGGzKwtrpBn0WWHM/view",
               "base_name": "2. ש.ב - תחום הגדרה, משוואות ואי שוויונים, נגזרת",
               "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1LNdC1QtScYekldF0zl5XM9HEwP9LbfBC/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {
@@ -719,7 +726,7 @@
           }
         },
         {
-          "name": "6. מעגל - משוואת המעגל ללא משיק",
+          "name": "6. מעגל - משוואת המעגל ללא משיק - וסרטוני מעגל",
           "desc": "<p>משוואת המעגל - התחלה - הוכחה ותרגול, ללא משוואת משיק למעגל.</p>\n<p>הסבר קצר, בעיקר תרגול עצמי וש.ב</p>\n<p>קצת מקומות גאומטריים, לאט לאט להתרגל למונח</p>",
           "id": "2-7",
           "content": [
@@ -749,6 +756,16 @@
             "lesson_date": "14-10-2026",
             "due_date": "18-10-2026",
             "num_hours": 2,
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=jGWom5BHFqY",
+                "title": "סרטון - הגדרת המעגל ומשוואת המעגל"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=PIJ6TdLYcHk&list=PLejElsCmvhTCUl0lLLeCwf467Wj6aq_wo&index=1",
+                "title": "סרטוני מעגל ואוסף תרגילים של עובד לב ארי"
+              }
+            ],
             "due_date_display": "ראשון, 18.10.2026",
             "lesson_date_display": "רביעי, 14.10.2026",
             "num_hours_display": 2
