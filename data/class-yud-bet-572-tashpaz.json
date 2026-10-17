@@ -531,6 +531,42 @@
             "lesson_date_display": "שני, 12.10.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "16. פונקצית לוג - אסימפטוטות וחקירה",
+          "desc": "<p>פונקצית לוג - אסימפטוטות וחורים, וחקירה</p>\n<p>מי מנצח במלחמת גבולות -  X מול lnX.</p>",
+          "id": "1-16",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1XhOB2Iz6gcf7aitpb67iTStaCSL0CdA7/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1sZqnEOdPWitXoUrNAMOffuCMcq_jjJoh/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות",
+              "url": "https://drive.google.com/file/d/1LXdV6jDer3kfwBMWlgqRZtqZILEEZkSZ/view",
+              "base_name": "3. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "18-10-2026",
+            "due_date": "25-10-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 25.10.2026",
+            "lesson_date_display": "ראשון, 18.10.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
