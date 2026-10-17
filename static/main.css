@@ -30,6 +30,7 @@
     --color-accent2: rgb(32,191,85);
     --color-bg: #fff;
     --color-border: #e5e7eb;
+    --color-border-darker: #c7c9cc;
     --color-gray: #8a8f98;
     --color-gray2: #64748b;
     --color-bg-light: #f8fafc;
@@ -1132,4 +1133,28 @@
   border-radius: calc(var(--border-radius-sm) - 4px);
   background: var(--color-bg-light);
   object-fit: contain;
+}
+
+/* ============================================================================
+   14. "SUBMIT SOON" CARDS (0-הגשה-בקרוב) - clicking scrolls to the real lesson
+   ============================================================================ */
+.submit-soon-lesson {
+  cursor: pointer;
+}
+
+.submit-soon-lesson:hover {
+  box-shadow: 0 6px 20px rgba(1,186,239,0.13);
+  border: 2px solid rgb(1,186,239);
+  transform: translateY(-2px);
+}
+
+.submit-soon-topic-title {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.9rem 1.2rem 0.4rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  text-align: center;
+  border-bottom: 1px solid var(--color-border-darker);
 }

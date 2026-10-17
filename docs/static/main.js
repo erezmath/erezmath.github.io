@@ -66,6 +66,29 @@ function getBaseUrl() {
   return window.location.origin + window.location.pathname;
 }
 
+/**
+ * Runs a callback shortly after window scrolling settles.
+ * Polls instead of relying on the scrollend event, so it also works in browsers
+ * that don't support it, and when the scroll doesn't need to move at all.
+ */
+function afterScrollSettles(callback, delayMs = 300) {
+  let lastY = window.scrollY;
+  let stableFrames = 0;
+
+  const tick = () => {
+    const y = window.scrollY;
+    stableFrames = (y === lastY) ? stableFrames + 1 : 0;
+    lastY = y;
+    if (stableFrames >= 5) {
+      setTimeout(callback, delayMs);
+      return;
+    }
+    requestAnimationFrame(tick);
+  };
+
+  requestAnimationFrame(tick);
+}
+
 
 // ============================================================================
 // 3. DUE DATE & "SUBMIT SOON" LOGIC
@@ -134,7 +157,8 @@ function is_date_today_or_future() {
 
 /**
  * Creates a dynamic "Submit Soon" topic section at the top of the page
- * populated with cloned lessons that have upcoming due dates.
+ * listing the lessons that have upcoming due dates. Each entry is a plain card
+ * (no inner content) that scrolls to the real lesson when clicked.
  */
 function createSubmitSoonTopic() {
   if (!globalCreateSubmitSoonTopic || !globalSubmitSoonLessons.length) return;
@@ -162,19 +186,51 @@ function createSubmitSoonTopic() {
   section.appendChild(h2);
   
   const accordion = document.createElement('div');
-  accordion.className = 'accordion';
+  accordion.className = 'accordion submit-soon-grid';
   section.appendChild(accordion);
 
-  // Clone active lessons into the new block
+  // Add a compact, non-expandable card per upcoming lesson.
+  // Clicking a card scrolls to the original lesson (same mechanic as the topic buttons).
   submitSoonLessonsSorted.forEach(lessonId => {
     const lessonEl = document.getElementById(lessonId);
-    if (!lessonEl) return;
-    const clone = lessonEl.cloneNode(true);
-    const newId = lessonId + SUBMIT_SOON_ID_SUFFIX;
-    clone.id = newId;
-    const anchor = clone.querySelector('a[href^="#"]');
-    if (anchor) anchor.setAttribute('href', '#' + newId);
-    accordion.appendChild(clone);
+    const lessonHeader = lessonEl ? lessonEl.querySelector('.lesson-header') : null;
+    if (!lessonHeader) return;
+
+    const card = document.createElement('div');
+    card.className = 'lesson submit-soon-lesson';
+
+    // Label with the topic the lesson belongs to (leading numbering removed)
+    const topicSection = lessonEl.closest('.topic-section');
+    const topicH2 = topicSection ? topicSection.querySelector('h2') : null;
+    const topicName = topicH2 ? topicH2.textContent.trim().replace(/^\s*\d+(?:[.)]\s*|\s+)/, '') : '';
+    if (topicName) {
+      const topicLabel = document.createElement('div');
+      topicLabel.className = 'submit-soon-topic-title';
+      topicLabel.textContent = topicName;
+      card.appendChild(topicLabel);
+    }
+
+    // Reuse the original header markup (title + due date with its color coding)
+    card.appendChild(lessonHeader.cloneNode(true));
+
+    const goToLesson = () => {
+      // Collapse first, so lessons above cannot shift the target while it scrolls
+      collapseLessons();
+      scrollToTopic(lessonId);
+      // Open and highlight the lesson once the scroll is done.
+      // scrollToTopic is generic: a lesson holds no h2, so it lands exactly on the lesson
+      afterScrollSettles(() => expandLesson(lessonEl));
+    };
+
+    card.addEventListener('click', goToLesson);
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        goToLesson();
+      }
+    });
+
+    accordion.appendChild(card);
   });
 
   topicsList.insertBefore(section, topicsList.firstChild);
@@ -321,7 +377,8 @@ function setupTopicsScrollSpy() {
  * Ensures rows of 2 open together on desktop, and 1 opens independently on mobile.
  */
 function setupLessonExpand() {
-  document.querySelectorAll('.accordion').forEach(accordion => {
+  // "Submit Soon" cards scroll instead of expanding, so they are skipped here
+  document.querySelectorAll('.accordion:not(.submit-soon-grid)').forEach(accordion => {
     const lessons = Array.from(accordion.querySelectorAll('.lesson'));
     
     accordion.querySelectorAll('.lesson-header').forEach((header, idx) => {
@@ -402,6 +459,40 @@ function setupLessonExpand() {
       });
     });
   });
+}
+
+/**
+ * Collapses every expanded lesson on the page.
+ */
+function collapseLessons() {
+  document.querySelectorAll('.lesson.expanded').forEach(lesson => lesson.classList.remove('expanded'));
+}
+
+/**
+ * Expands a lesson following the standard grid rules (a whole row opens together
+ * on desktop) and briefly highlights it with the pop effect.
+ */
+function expandLesson(el) {
+  collapseLessons();
+
+  const accordion = el.closest('.accordion');
+  const lessons = accordion ? Array.from(accordion.querySelectorAll('.lesson')) : [];
+  const idx = lessons.indexOf(el);
+
+  if (accordion && getLessonGridColumns() === 2 && idx !== -1) {
+    const rowStart = idx % 2 === 0 ? idx : idx - 1;
+    [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
+      if (lesson) lesson.classList.add('expanded');
+    });
+  } else {
+    el.classList.add('expanded');
+  }
+
+  // Temporarily add visual pop effect to highlight the selected lesson
+  el.classList.add('lesson-pop');
+  setTimeout(() => {
+    el.classList.remove('lesson-pop');
+  }, 5000);
 }
 
 /**
@@ -676,32 +767,8 @@ function scrollToHashTarget() {
         behavior: 'smooth'
       });
       
-      // Auto-expand logic matching standard grid rules
-      document.querySelectorAll('.lesson').forEach(lesson => lesson.classList.remove('expanded'));
-
-      const accordion = el.closest('.accordion');
-      if (accordion) {
-        const lessons = Array.from(accordion.querySelectorAll('.lesson'));
-        const idx = lessons.indexOf(el);
-        const columns = getLessonGridColumns();
-        
-        if (columns === 2 && idx !== -1) {
-          const rowStart = idx % 2 === 0 ? idx : idx - 1;
-          [lessons[rowStart], lessons[rowStart + 1]].forEach(lesson => {
-            if (lesson) lesson.classList.add('expanded');
-          });
-        } else {
-          el.classList.add('expanded');
-        }
-      } else {
-        el.classList.add('expanded');
-      }
-
-      // Temporarily add visual pop effect to highlight the selected lesson
-      el.classList.add('lesson-pop');
-      setTimeout(() => {
-        el.classList.remove('lesson-pop');
-      }, 5000); 
+      // Auto-expand logic matching standard grid rules, plus the pop highlight
+      expandLesson(el);
     }
   }
 }
