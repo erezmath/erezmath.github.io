@@ -525,9 +525,9 @@
           ],
           "lesson_json": {
             "lesson_date": "12-10-2026",
-            "due_date": "18-10-2026",
+            "due_date": "19-10-2026",
             "num_hours": 2,
-            "due_date_display": "ראשון, 18.10.2026",
+            "due_date_display": "שני, 19.10.2026",
             "lesson_date_display": "שני, 12.10.2026",
             "num_hours_display": 2
           }
@@ -790,7 +790,7 @@
           ],
           "lesson_json": {
             "lesson_date": "14-10-2026",
-            "due_date": "18-10-2026",
+            "due_date": "19-10-2026",
             "num_hours": 2,
             "external_links": [
               {
@@ -802,7 +802,7 @@
                 "title": "סרטוני מעגל ואוסף תרגילים של עובד לב ארי"
               }
             ],
-            "due_date_display": "ראשון, 18.10.2026",
+            "due_date_display": "שני, 19.10.2026",
             "lesson_date_display": "רביעי, 14.10.2026",
             "num_hours_display": 2
           }
@@ -836,9 +836,9 @@
           ],
           "lesson_json": {
             "lesson_date": "14-10-2026",
-            "due_date": "21-10-2026",
+            "due_date": "25-10-2026",
             "num_hours": 2,
-            "due_date_display": "רביעי, 21.10.2026",
+            "due_date_display": "ראשון, 25.10.2026",
             "lesson_date_display": "רביעי, 14.10.2026",
             "num_hours_display": 2
           }

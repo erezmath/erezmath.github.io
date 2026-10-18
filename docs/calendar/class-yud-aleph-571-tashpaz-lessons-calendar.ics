@@ -56,6 +56,15 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-6
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2. סדרות / 6. סדרה הנדסית - 6 בגרויות ישנ
+ ות - 2009-2013\, ו2 חדשות יותר 2020-2021
+DTSTART;VALUE=DATE:20261019
+UID:lesson-2-7-19-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#2-7
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-7
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:5. טריגו במישור / 1. חזרה למבחן תחילת ש
  נה - מעגל חסום וחוסם
 DTSTART;VALUE=DATE:20260902
