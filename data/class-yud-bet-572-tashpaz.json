@@ -991,6 +991,26 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "2. מבחן אוקטובר",
+          "desc": "",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. נושאים למבחן אוקטובר",
+              "url": "https://drive.google.com/file/d/12vYQ2B-ABcZ9Fj8YonLve3lOkDgvY2VW/view",
+              "base_name": "1. נושאים למבחן אוקטובר",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-10-2026",
+            "due_date": "28-10-2026",
+            "due_date_display": "רביעי, 28.10.2026",
+            "lesson_date_display": "חמישי, 22.10.2026"
+          }
         }
       ]
     },

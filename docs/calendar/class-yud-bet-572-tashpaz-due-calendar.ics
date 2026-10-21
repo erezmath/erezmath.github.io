@@ -232,4 +232,12 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-9
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-9
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 10. מבחנים ועבודות / 2. מבחן אוקטובר
+DTSTART;VALUE=DATE:20261028
+UID:due-3-2-28-10-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#3-2
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#3-2
+END:VEVENT
 END:VCALENDAR
