@@ -567,6 +567,35 @@
             "lesson_date_display": "ראשון, 18.10.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "17. פונקצית לוג - חקירה נוספת",
+          "desc": "<p>פונקצית לוג - חקירה מלאה, מבני גורן</p>",
+          "id": "1-17",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. תרגול עצמי חקירה",
+              "url": "https://drive.google.com/file/d/1w6MreTfltGe3UR6BG4W-DJ4T-zZKfgIo/view",
+              "base_name": "1. תרגול עצמי חקירה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרון",
+              "url": "https://drive.google.com/file/d/1e5dsFoMZFHMGUxdIH521LHVkSwawnNfR/view",
+              "base_name": "2. פתרון",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-10-2026",
+            "due_date": "22-10-2026",
+            "num_hours": 1,
+            "due_date_display": "חמישי, 22.10.2026",
+            "lesson_date_display": "חמישי, 22.10.2026",
+            "num_hours_display": 1
+          }
         }
       ]
     },

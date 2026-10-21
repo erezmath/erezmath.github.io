@@ -147,6 +147,14 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-16
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:1. חדוא / 17. פונקצית לוג - חקירה נוספת
+DTSTART;VALUE=DATE:20261022
+UID:lesson-1-17-22-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-17
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-17
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2. אנליטית / 1. הנקודה - נוסחת מרחק\, נוס
  חת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת סוכ
  ות
