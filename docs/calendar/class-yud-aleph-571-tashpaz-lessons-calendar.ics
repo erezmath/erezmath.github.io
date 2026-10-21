@@ -74,6 +74,15 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:5. טריגו במישור / 2. תרגול מבגרויות עם 
+ זהויות
+DTSTART;VALUE=DATE:20261021
+UID:lesson-3-2-21-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#3-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-2
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:6. חדוא / 1. חזרה למבחן תחילת שנה - מנה ע
  ם הבע באמצעות - מתרגילי שנה שעברה
 DTSTART;VALUE=DATE:20260902

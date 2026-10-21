@@ -210,4 +210,13 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-8
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-8
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2. אנליטית / 8. מרחק בין ישרים מקבילים -
+  השלמה - ובגרות 2016 קיץ מועד א
+DTSTART;VALUE=DATE:20261021
+UID:lesson-2-9-21-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-9
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-9
+END:VEVENT
 END:VCALENDAR

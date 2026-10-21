@@ -842,6 +842,42 @@
             "lesson_date_display": "רביעי, 14.10.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "8. מרחק בין ישרים מקבילים - השלמה - ובגרות 2016 קיץ מועד א",
+          "desc": "<p>השלמה של הנוסחא - מרחק בין ישרים מקבילים.</p>\n<p>תרגול פשוט, ואז בגרות 2016 קיץ מועד א, שאלה עם מעגל בלי אליפסה או פרבולה.</p>",
+          "id": "2-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרונות תרגילים",
+              "url": "https://drive.google.com/file/d/1U7YpmNbbxBZWUkOLNBfd04dbOzxHHvjr/view",
+              "base_name": "1. סיכום שיעור ופתרונות תרגילים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. תרגול פשוט בכיתה ובגרות 2016",
+              "url": "https://drive.google.com/file/d/1zynlE88hXaDz0cE_HD3TgGn1CrAM3lRP/view",
+              "base_name": "2. תרגול פשוט בכיתה ובגרות 2016",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. בגרות 2016 מועד ב - פתרון - מעגל טרפז וישרים מקבילים",
+              "url": "https://drive.google.com/file/d/1on-JSdh9w_-10DJKnDuskxxg2QbapMSq/view",
+              "base_name": "3. בגרות 2016 מועד ב - פתרון - מעגל טרפז וישרים מקבילים",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "21-10-2026",
+            "due_date": "25-10-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 25.10.2026",
+            "lesson_date_display": "רביעי, 21.10.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
@@ -1060,6 +1096,27 @@
           "desc": "",
           "id": "4-4",
           "content": [
+            {
+              "type": "folder",
+              "name": "2016",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2016 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1vLEaMVUuRs0-k_lUhP4kKDElZmx5fzgl/view",
+                  "base_name": "2016 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2016 - קיץ מועד א - תשובות סופיות",
+                  "url": "https://drive.google.com/file/d/1c_LPq_hzZtaxQVQWay4167g_nga5watv/view",
+                  "base_name": "2016 - קיץ מועד א - תשובות סופיות",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
             {
               "type": "folder",
               "name": "2018",
@@ -1603,6 +1660,13 @@
               "type": "folder",
               "name": "אנליטית",
               "content": [
+                {
+                  "type": "file",
+                  "name": "2016 - קיץ מועד א - אנליטית מעגל טרפז מרחק בין ישרים תאלס",
+                  "url": "https://drive.google.com/file/d/1EuSYTF2fo9-T56vcLYTfCzNyYxkYNfkA/view",
+                  "base_name": "2016 - קיץ מועד א - אנליטית מעגל טרפז מרחק בין ישרים תאלס",
+                  "file_extension": ".pdf"
+                },
                 {
                   "type": "file",
                   "name": "2025 - חורף - אנליטית פרבולה ומעגל",

@@ -297,7 +297,7 @@
         },
         {
           "name": "6. סדרה הנדסית - 6 בגרויות ישנות - 2009-2013, ו2 חדשות יותר 2020-2021",
-          "desc": "<p>תרגול עצמי, מתחילים מבגרויות ישנות שהם בכוונה קלות יותר וקצרות יותר.</p>\n<p>אח\"כ נעבור לשאלות ארוכות יותר שמקובלות היום.</p>\n<p>אם סיימתם ונשאר זמן, תמשיכו לפתור את הבגרות להגשה לראשון.</p>",
+          "desc": "<p>תרגול עצמי, מתחילים מבגרויות ישנות שהם בכוונה קלות יותר וקצרות יותר.</p>\n<p>אח\"כ נעבור לשאלות ארוכות יותר שמקובלות היום.</p>\n<p>אם סיימתם ונשאר זמן, תמשיכו לפתור את הבגרות להגשה לראשון.</p>\n<p>לא נתתי ש.ב</p>",
           "id": "2-7",
           "content": [
             {
@@ -345,9 +345,9 @@
           ],
           "lesson_json": {
             "lesson_date": "19-10-2026",
-            "due_date": "26-10-2026",
+            "due_date": "19-10-2026",
             "num_hours": 4,
-            "due_date_display": "שני, 26.10.2026",
+            "due_date_display": "שני, 19.10.2026",
             "lesson_date_display": "שני, 19.10.2026",
             "num_hours_display": 4
           }
@@ -392,6 +392,70 @@
             "due_date_display": "רביעי, 02.09.2026",
             "lesson_date_display": "רביעי, 02.09.2026",
             "num_hours_display": 1
+          }
+        },
+        {
+          "name": "2. תרגול מבגרויות עם זהויות",
+          "desc": "<p>תרגול טריגו במישור מבגרויות.</p>\n<p>נשתמש בזהויות שיש בדף נוסחאות, בעיקר חשוב לדעת להתמצא בדף, גם בנוסחאות נדירות כמו חיבור חיסור, לתרגם פאי, ואסור להשאיר זווית כמו 90 פחות אלפא, חובה לתרגם.</p>\n<p>בגדול, השאלות מאוד לא אחידות ברמה - נע ממאוד קל למאוד קשה, אבל לפעמים גאומטריה כל כך קשה, שצריך לעבור לטריגו (כמו ב2026 קיץ). </p>",
+          "id": "3-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור - דגשים",
+              "url": "https://drive.google.com/file/d/1Z21M0ykP9isr6T6cQQBxu1E2zsUKwyt7/view",
+              "base_name": "1. סיכום שיעור - דגשים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב בגרויות",
+              "url": "https://drive.google.com/file/d/15TQVHuk05sy8MDTWJ0ozzi-M8UI0i_IP/view",
+              "base_name": "2. ש.ב בגרויות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "folder",
+              "name": "3. פתרונות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "טריגו - 2013 - קיץ מועד א",
+                  "url": "https://drive.google.com/file/d/14SCUBqsadGUpIB0vCoY3fn9KAArXUPYL/view",
+                  "base_name": "טריגו - 2013 - קיץ מועד א",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "טריגו - 2013 - קיץ מועד ב",
+                  "url": "https://drive.google.com/file/d/1IP5Lb9ZwivNb0_62lbU3BwFvfgcI9qqF/view",
+                  "base_name": "טריגו - 2013 - קיץ מועד ב",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "טריגו - 2014 - חורף",
+                  "url": "https://drive.google.com/file/d/1eM4sULV09kD1eiQtS1novb973o7VPAjJ/view",
+                  "base_name": "טריגו - 2014 - חורף",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "טריגו - 2022 - חורף נבצרים",
+                  "url": "https://drive.google.com/file/d/1eG-VqvuLhmwASK0P-7YhRxHu8eoEXa72/view",
+                  "base_name": "טריגו - 2022 - חורף נבצרים",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "21-10-2026",
+            "due_date": "26-10-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 26.10.2026",
+            "lesson_date_display": "רביעי, 21.10.2026",
+            "num_hours_display": 2
           }
         }
       ]
@@ -608,8 +672,8 @@
           ],
           "lesson_json": {
             "lesson_date": "11-10-2026",
-            "due_date": "18-10-2026",
-            "due_date_display": "ראשון, 18.10.2026",
+            "due_date": "25-10-2026",
+            "due_date_display": "ראשון, 25.10.2026",
             "lesson_date_display": "ראשון, 11.10.2026"
           }
         }
