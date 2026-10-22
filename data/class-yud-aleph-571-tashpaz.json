@@ -451,9 +451,9 @@
           ],
           "lesson_json": {
             "lesson_date": "21-10-2026",
-            "due_date": "26-10-2026",
+            "due_date": "28-10-2026",
             "num_hours": 2,
-            "due_date_display": "שני, 26.10.2026",
+            "due_date_display": "רביעי, 28.10.2026",
             "lesson_date_display": "רביעי, 21.10.2026",
             "num_hours_display": 2
           }
@@ -672,8 +672,8 @@
           ],
           "lesson_json": {
             "lesson_date": "11-10-2026",
-            "due_date": "25-10-2026",
-            "due_date_display": "ראשון, 25.10.2026",
+            "due_date": "26-10-2026",
+            "due_date_display": "שני, 26.10.2026",
             "lesson_date_display": "ראשון, 11.10.2026"
           }
         }

@@ -76,8 +76,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 5. טריגו במישור / 2. תרגול מבגרויות 
  עם זהויות
-DTSTART;VALUE=DATE:20261026
-UID:due-3-2-26-10-2026@erezmath
+DTSTART;VALUE=DATE:20261028
+UID:due-3-2-28-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#3-2
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-2
@@ -131,8 +131,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 10. עבודות הגשה שבועיות / 1. הגשות ש
  בועיות
-DTSTART;VALUE=DATE:20261025
-UID:due-5-1-25-10-2026@erezmath
+DTSTART;VALUE=DATE:20261026
+UID:due-5-1-26-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#5-1
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#5-1
