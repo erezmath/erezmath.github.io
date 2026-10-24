@@ -668,6 +668,13 @@
               "url": "https://drive.google.com/file/d/1SUOD3uuldTaUSw1As5qlYEUSUbfaLZtP/view",
               "base_name": "4. דף נוסחאות 5 יחל",
               "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "5. משפטים בגאומטריה לבגרות",
+              "url": "https://drive.google.com/file/d/1oLZGkwUeWf5pGI-_pPcEFUTa86Argnet/view",
+              "base_name": "5. משפטים בגאומטריה לבגרות",
+              "file_extension": ".pdf"
             }
           ],
           "lesson_json": {

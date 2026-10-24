@@ -230,9 +230,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10. מבחנים ועבודות / 2. מבחן אוקטובר
 DTSTART;VALUE=DATE:20261022
-UID:lesson-3-2-22-10-2026@erezmath
+UID:lesson-4-2-22-10-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-bet-572-tashpaz.html#3-2
-URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#3-2
+ class-yud-bet-572-tashpaz.html#4-2
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#4-2
 END:VEVENT
 END:VCALENDAR
