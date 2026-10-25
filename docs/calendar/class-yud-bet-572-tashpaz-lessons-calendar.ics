@@ -155,6 +155,15 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-17
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:1. חדוא / 18. חזרה נוספת אסימפטוטות וחו
+ רים לקראת המבחן
+DTSTART;VALUE=DATE:20261026
+UID:lesson-1-18-26-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-18
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-18
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2. אנליטית / 1. הנקודה - נוסחת מרחק\, נוס
  חת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת סוכ
  ות
