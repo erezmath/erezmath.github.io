@@ -20,9 +20,24 @@
       "id": "1-אינדוקציה",
       "lessons": [
         {
+          "name": "0. חוברת יואל גבע - אינדוקציה",
+          "desc": "<p>חוברת מלאה של אינדוקציה מאת יואל גבע</p>",
+          "id": "1-1",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. אינדוקציה - יואל גבע - ספר תשפה",
+              "url": "https://drive.google.com/file/d/1r73uBe8n8gS14BoxzueeaLQ5zX0JkfPd/view",
+              "base_name": "1. אינדוקציה - יואל גבע - ספר תשפה",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {}
+        },
+        {
           "name": "1. שיעור פתיחה ותרגילים בסיסיים",
           "desc": "<p>אינדוקציה - כלי מאוד חזק במתמטיקה, מופיע בבגרות בחלק השאלות הקצרות. </p>\n<p>מה זה אומר אינדוקציה, איך מוכיחים איתו, איך חובה לכתוב את מבנה ההוכחה.</p>\n<p>נפתור תרגילים בסיסיים מתוך חוברת התרגילים של יואל גבע. </p>",
-          "id": "1-1",
+          "id": "1-2",
           "content": [
             {
               "type": "file",
@@ -69,6 +84,35 @@
             ],
             "due_date_display": "שני, 26.10.2026",
             "lesson_date_display": "שני, 26.10.2026",
+            "num_hours_display": 2
+          }
+        },
+        {
+          "name": "2. אינדוקציה עם חזקות, וכאשר הצעד שונה - לדוגמא להוכיח רק עבור זוגי או אי זוגי",
+          "desc": "<p>תרגילים מחוברת אינדוקציה של יואל גבע.</p>\n<p>אינדוקציה עם חזקות,</p>\n<p>והוכחות רק עבור זוגי טבעי - גם הבדיקה תתחיל מ2, וגם הקפיצות יהיו בקפיצות של 2.</p>",
+          "id": "1-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב",
+              "url": "https://drive.google.com/file/d/1nHCOua3_kI6GfZjdCtTy_Hoo_BUobZN9/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות חלקיים",
+              "url": "https://drive.google.com/file/d/1kkLDfIIFyN-o_ljuHc9dXcoYnEPKIkoL/view",
+              "base_name": "2. פתרונות חלקיים",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "28-10-2026",
+            "due_date": "01-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 01.11.2026",
+            "lesson_date_display": "רביעי, 28.10.2026",
             "num_hours_display": 2
           }
         }
@@ -768,8 +812,8 @@
           ],
           "lesson_json": {
             "lesson_date": "11-10-2026",
-            "due_date": "26-10-2026",
-            "due_date_display": "שני, 26.10.2026",
+            "due_date": "01-11-2026",
+            "due_date_display": "ראשון, 01.11.2026",
             "lesson_date_display": "ראשון, 11.10.2026"
           }
         }

@@ -7,10 +7,20 @@ BEGIN:VEVENT
 SUMMARY:ש.ב 1. אינדוקציה / 1. שיעור פתיחה ותרגי
  לים בסיסיים
 DTSTART;VALUE=DATE:20261026
-UID:due-1-1-26-10-2026@erezmath
+UID:due-1-2-26-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#1-1
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-1
+ class-yud-aleph-571-tashpaz.html#1-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 1. אינדוקציה / 2. אינדוקציה עם חזקו
+ ת\, וכאשר הצעד שונה - לדוגמא להוכיח רק עבו
+ ר זוגי או אי זוגי
+DTSTART;VALUE=DATE:20261101
+UID:due-1-3-01-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 1. שאלות קצרות / 1. הצגת מבנה הבגרות
@@ -149,8 +159,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 10. עבודות הגשה שבועיות / 1. הגשות ש
  בועיות
-DTSTART;VALUE=DATE:20261026
-UID:due-6-1-26-10-2026@erezmath
+DTSTART;VALUE=DATE:20261101
+UID:due-6-1-01-11-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#6-1
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-1

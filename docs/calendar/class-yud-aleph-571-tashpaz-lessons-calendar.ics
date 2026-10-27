@@ -7,10 +7,20 @@ BEGIN:VEVENT
 SUMMARY:1. אינדוקציה / 1. שיעור פתיחה ותרגילים 
  בסיסיים
 DTSTART;VALUE=DATE:20261026
-UID:lesson-1-1-26-10-2026@erezmath
+UID:lesson-1-2-26-10-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#1-1
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-1
+ class-yud-aleph-571-tashpaz.html#1-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1. אינדוקציה / 2. אינדוקציה עם חזקות\, ו
+ כאשר הצעד שונה - לדוגמא להוכיח רק עבור זו
+ גי או אי זוגי
+DTSTART;VALUE=DATE:20261028
+UID:lesson-1-3-28-10-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:1. שאלות קצרות / 1. הצגת מבנה הבגרות וה
