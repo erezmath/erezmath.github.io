@@ -157,6 +157,14 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#5-5
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 6. חדוא / 6. תזכורת קצרה אינטגרלים
+DTSTART;VALUE=DATE:20261101
+UID:due-5-6-01-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#5-6
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#5-6
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 10. עבודות הגשה שבועיות / 1. הגשות ש
  בועיות
 DTSTART;VALUE=DATE:20261101

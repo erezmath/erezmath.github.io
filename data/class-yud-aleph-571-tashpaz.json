@@ -762,6 +762,26 @@
             "lesson_date_display": "רביעי, 07.10.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "6. תזכורת קצרה אינטגרלים",
+          "desc": "<p>תזכורת קצרה אינטגרלים - תצטרכו את זה להגשה הקרובה.</p>\n<p>מי שצריך תזכורת נוספת, שקצת יתרגל מהשיעורים של שנה שעברה (כל החומר שלמדנו בשנה שעברה גם באתר)</p>",
+          "id": "5-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "6. תזכורת קצרה אינטגרלים",
+              "url": "https://drive.google.com/file/d/1aaLooCldkU1G3n5BgwKR9W3Ac0mFAwUx/view",
+              "base_name": "6. תזכורת קצרה אינטגרלים",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "28-10-2026",
+            "due_date": "01-11-2026",
+            "due_date_display": "ראשון, 01.11.2026",
+            "lesson_date_display": "רביעי, 28.10.2026"
+          }
         }
       ]
     },
