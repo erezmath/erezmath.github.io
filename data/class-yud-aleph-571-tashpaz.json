@@ -115,6 +115,28 @@
             "lesson_date_display": "רביעי, 28.10.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "3. אינדוקציה עם סימנים מתחלפים",
+          "desc": "<p>אינדוקציה עם סימנים מתחלפים.</p>\n<p>מינוס 1 בחזקת מספר זוגי = 1</p>\n<p>מינוס 1 בחזקת מספר אי זוגי = מינוס 1</p>\n<p>שעת שיעור בודדת, לפני יציאה למסע ישראלי.</p>",
+          "id": "1-4",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב",
+              "url": "https://drive.google.com/file/d/1BYGWSSs5_d2bPKI1_-Um8MIDvOe2j_Ln/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "01-11-2026",
+            "due_date": "08-11-2026",
+            "num_hours": 1,
+            "due_date_display": "ראשון, 08.11.2026",
+            "lesson_date_display": "ראשון, 01.11.2026",
+            "num_hours_display": 1
+          }
         }
       ]
     },
@@ -1360,8 +1382,148 @@
           "content": [
             {
               "type": "folder",
+              "name": "2009",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2009 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/10YrcEF2bdV8Y3zSvhQJT0Y7H7jMQMIwX/view",
+                  "base_name": "2009 - קיץ מועד א - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2009 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1uxvwQ1DY17zYEVCzmux6TNr8Qbx1CxrU/view",
+                  "base_name": "2009 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2009 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1Cmy98N0LtvrRsaFWbtsdazIqjPX4zXEB/view",
+                  "base_name": "2009 - קיץ מועד ב - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2009 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1EDExQ6qOqUE6SyIj1pdNiTRe2ACewXlB/view",
+                  "base_name": "2009 - קיץ מועד ב - שאלון",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "2010",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2010 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1hoRxoQvWN4iuZwcbi7qenWEBfKCmxlby/view",
+                  "base_name": "2010 - חורף - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2010 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/11S1vOgWOzfnDNQoFFKjnBT4_p08OVJyX/view",
+                  "base_name": "2010 - חורף - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2010 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1M3NWTef37VzR-aKWmNzdXZNYue3CqAZX/view",
+                  "base_name": "2010 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2010 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1iLlFUNFp8WEVbIw0MzpfKnqiM_8OTmnJ/view",
+                  "base_name": "2010 - קיץ מועד ב - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2010 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1fYpV0z7oQeIRY09QYMZrpggkvrnWPWZE/view",
+                  "base_name": "2010 - קיץ מועד ב - שאלון",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "2011",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2011 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1JYQtFOD-fEujDJtHMAXBpPW74tNLMMNC/view",
+                  "base_name": "2011 - חורף - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2011 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1AY1Bmn2WSUVdwQ4Erc2d8CpU3NFK8169/view",
+                  "base_name": "2011 - חורף - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2011 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1c1kX1AII1bYHsj6arfGiXvFEI8AcwHN-/view",
+                  "base_name": "2011 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2011 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/15Erqr_vZMXxF_-7w2dQW5Y1XMM5soDIS/view",
+                  "base_name": "2011 - קיץ מועד ב - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2011 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1VhFCaopwt8OwmcVvTmbzol7fcB6Whj2z/view",
+                  "base_name": "2011 - קיץ מועד ב - שאלון",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
               "name": "2012",
               "content": [
+                {
+                  "type": "file",
+                  "name": "2012 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1LtBzBu2Px2aHCoPL46AGaHN-GV44yLmm/view",
+                  "base_name": "2012 - חורף - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2012 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1AI-Vet9AXho8cv3PpSWyH7VqF0UA-fbK/view",
+                  "base_name": "2012 - חורף - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2012 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1uLK5lR9X3p0PLSnAVlgI73rYRPscGHmM/view",
+                  "base_name": "2012 - קיץ מועד א - פתרון",
+                  "file_extension": ".pdf"
+                },
                 {
                   "type": "file",
                   "name": "2012 - קיץ מועד א - שאלון",
@@ -1374,6 +1536,160 @@
                   "name": "2012 - קיץ מועד ב - שאלון",
                   "url": "https://drive.google.com/file/d/1enMDzfdrgudfJSkrR2U4hFnywgyGlY3J/view",
                   "base_name": "2012 - קיץ מועד ב - שאלון",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "2013",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2013 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/1qG2J6CyYK-dBmtvkTTI88Pw-lFiybuPh/view",
+                  "base_name": "2013 - חורף - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2013 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1vPc3iO9TI4yjnYs3LNi8sQCHka4r4Z_a/view",
+                  "base_name": "2013 - חורף - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2013 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/18fwnfegt-sIEuZzFaWIjKtyU6yXzmZuo/view",
+                  "base_name": "2013 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2013 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1W1Kd29xb260jCIvhLHquUF4AK1qB4nui/view",
+                  "base_name": "2013 - קיץ מועד ב - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2013 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1UvqwJ9qpVOmBe9k5cP0rcM9Bg__cy-C_/view",
+                  "base_name": "2013 - קיץ מועד ב - שאלון",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "2014",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2014 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/14SnLjYJ5iO0kjIAOAP42x5q5SP3GREg1/view",
+                  "base_name": "2014 - חורף - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2014 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1vuJsUU3zGwWk3mUQ-XXprwcjwSLlmiEt/view",
+                  "base_name": "2014 - חורף - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2014 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1SCRFdJqFqWhfu4gGBwb2U10WOnemmlvZ/view",
+                  "base_name": "2014 - קיץ מועד א - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2014 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/14FyQhAhQBwMTdETy37oDM0wtFslEGPN7/view",
+                  "base_name": "2014 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2014 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1RckPBnAgtEo06sn_YToUCBLfdxYkopM4/view",
+                  "base_name": "2014 - קיץ מועד ב - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2014 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1QNXwVcxkBzAmNpp7UA3PXocR-al1dwW9/view",
+                  "base_name": "2014 - קיץ מועד ב - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2014 - קיץ מועד ג - פתרון",
+                  "url": "https://drive.google.com/file/d/1yWDqjxKRXvb1_EGJ22Af45GPvmiL1kwG/view",
+                  "base_name": "2014 - קיץ מועד ג - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2014 - קיץ מועד ג - שאלון",
+                  "url": "https://drive.google.com/file/d/1jO2PRtPjlBbuq2pJ_JOOifvPdAoCRWIp/view",
+                  "base_name": "2014 - קיץ מועד ג - שאלון",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "2015",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2015 - חורף - פתרון",
+                  "url": "https://drive.google.com/file/d/14yLMQ3KOml_EdWsW5-1Se938jtms5V8Q/view",
+                  "base_name": "2015 - חורף - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2015 - חורף - שאלון",
+                  "url": "https://drive.google.com/file/d/1bEGP9GjGB2yDbP7petsyZw9z_m5FpF7s/view",
+                  "base_name": "2015 - חורף - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2015 - קיץ מועד א - פתרון",
+                  "url": "https://drive.google.com/file/d/1CPRGvN1uEHTrzIIaWYZmHffKkmdZCQ4I/view",
+                  "base_name": "2015 - קיץ מועד א - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2015 - קיץ מועד א - שאלון",
+                  "url": "https://drive.google.com/file/d/1PCLn3sa-Tgxt-tHWLG5g8EwfNeQdgG0f/view",
+                  "base_name": "2015 - קיץ מועד א - שאלון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2015 - קיץ מועד ב - פתרון",
+                  "url": "https://drive.google.com/file/d/1KbwOdyeqm8BOf0P5G87SMkI5LVzwmixx/view",
+                  "base_name": "2015 - קיץ מועד ב - פתרון",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2015 - קיץ מועד ב - שאלון",
+                  "url": "https://drive.google.com/file/d/1k_v3i7KexrOL22-kdla7z9V9L9cAkXOM/view",
+                  "base_name": "2015 - קיץ מועד ב - שאלון",
                   "file_extension": ".pdf"
                 }
               ],

@@ -23,6 +23,15 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-3
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 1. אינדוקציה / 3. אינדוקציה עם סימנ
+ ים מתחלפים
+DTSTART;VALUE=DATE:20261108
+UID:due-1-4-08-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#1-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#1-4
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 1. שאלות קצרות / 1. הצגת מבנה הבגרות
   והגשות\, שאלות קצרות מבגרות 2022 מועד ב
 DTSTART;VALUE=DATE:20261018

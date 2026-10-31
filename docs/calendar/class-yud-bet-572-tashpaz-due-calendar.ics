@@ -242,7 +242,17 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-9
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 2. אנליטית / 9. שני מעגלים - משיקים ו
+ לא משיקים
+DTSTART;VALUE=DATE:20261109
+UID:due-2-10-09-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-10
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-10
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 10. מבחנים ועבודות / 2. מבחן אוקטובר
+  - אנליטית מעגל וחקירת לן
 DTSTART;VALUE=DATE:20261028
 UID:due-4-2-28-10-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/

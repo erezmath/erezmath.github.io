@@ -938,6 +938,35 @@
             "lesson_date_display": "רביעי, 21.10.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "9. שני מעגלים - משיקים ולא משיקים",
+          "desc": "<p>שני מעגלים - אין כל כך חומר חדש, בעיקר לתרגל תרגילים. היעזרו בפתרונות אם צריך.</p>",
+          "id": "2-10",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור וש.ב",
+              "url": "https://drive.google.com/file/d/1LInjFzydeGLDu-biFeZkFsklfKBqhoKz/view",
+              "base_name": "1. סיכום שיעור וש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1WXBSeHJBgG69Q6mE42WIgbng9GjKb4ah/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "01-11-2026",
+            "due_date": "09-11-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 09.11.2026",
+            "lesson_date_display": "ראשון, 01.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
@@ -982,7 +1011,7 @@
       "id": "10-מבחנים-ועבודות",
       "lessons": [
         {
-          "name": "1. מבחן תחילת שנה",
+          "name": "1. מבחן תחילת שנה - משוואות לוגים וחקירת e",
           "desc": "",
           "id": "4-1",
           "content": [
@@ -1060,7 +1089,7 @@
           "lesson_json": {}
         },
         {
-          "name": "2. מבחן אוקטובר",
+          "name": "2. מבחן אוקטובר - אנליטית מעגל וחקירת לן",
           "desc": "",
           "id": "4-2",
           "content": [
