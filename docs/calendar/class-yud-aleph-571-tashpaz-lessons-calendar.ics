@@ -41,6 +41,16 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:1. שאלות קצרות / 2. תרגול שאלות קצרות ח
+ דוא\, בפרט איך חובה לנמק - לקראת מבחן נובמ
+ בר
+DTSTART;VALUE=DATE:20261109
+UID:lesson-2-2-09-11-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#2-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#2-2
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2. סדרות / 1. סדרה הנדסית
 DTSTART;VALUE=DATE:20260909
 UID:lesson-3-2-09-09-2026@erezmath
@@ -100,6 +110,15 @@ UID:lesson-3-8-26-10-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#3-8
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2. סדרות / 8. סדרות הנדסיות - בגרות 2026 - 
+ חזרה למבחן נובמבר
+DTSTART;VALUE=DATE:20261109
+UID:lesson-3-9-09-11-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#3-9
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#3-9
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5. טריגו במישור / 1. חזרה למבחן תחילת ש

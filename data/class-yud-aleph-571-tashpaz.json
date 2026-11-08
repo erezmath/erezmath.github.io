@@ -131,9 +131,9 @@
           ],
           "lesson_json": {
             "lesson_date": "01-11-2026",
-            "due_date": "08-11-2026",
+            "due_date": "09-11-2026",
             "num_hours": 1,
-            "due_date_display": "ראשון, 08.11.2026",
+            "due_date_display": "שני, 09.11.2026",
             "lesson_date_display": "ראשון, 01.11.2026",
             "num_hours_display": 1
           }
@@ -178,6 +178,70 @@
             "due_date_display": "ראשון, 18.10.2026",
             "lesson_date_display": "ראשון, 11.10.2026",
             "num_hours_display": 1
+          }
+        },
+        {
+          "name": "2. תרגול שאלות קצרות חדוא, בפרט איך חובה לנמק - לקראת מבחן נובמבר",
+          "desc": "<p>שאלות קצרות בחדוא - חשוב בעיקר איך לנמק, מראה מספר שאלות לדוגמא בכיתה.</p>\n<p>תרגול נוסף בנושא זה צירפתי בתיקיית תרגול למבחן</p>",
+          "id": "2-2",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. שאלות קצרות מבגרויות בכיתה",
+              "url": "https://drive.google.com/file/d/1kaN5rbQwW2sayA_mnc1oFBOdHQKXF7iI/view",
+              "base_name": "1. שאלות קצרות מבגרויות בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות מנומקים לשאלות בכיתה",
+              "url": "https://drive.google.com/file/d/1pYICWVC6pR55XffAiFoK5DbitkJWKNXl/view",
+              "base_name": "2. פתרונות מנומקים לשאלות בכיתה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "folder",
+              "name": "3. תרגול למבחן",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "1. שאלות קצרות חדוא - עם סימונים",
+                  "url": "https://drive.google.com/file/d/1_Q25euxxKKd1SgLgRxbqS0HyQZqhuaus/view",
+                  "base_name": "1. שאלות קצרות חדוא - עם סימונים",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "1. שאלות קצרות חדוא - פתרונות",
+                  "url": "https://drive.google.com/file/d/1xlDvSU__Y8cwpjL0Llv82mfoDZBSn2qs/view",
+                  "base_name": "1. שאלות קצרות חדוא - פתרונות",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2. ריכוז בגרויות 571 כתה י וגם יא חדוא",
+                  "url": "https://drive.google.com/file/d/1m5AEBq3r_lZCvyjEQbgb6ThPU3lPIkv3/view",
+                  "base_name": "2. ריכוז בגרויות 571 כתה י וגם יא חדוא",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "3. שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
+                  "url": "https://drive.google.com/file/d/1Wv55hUJHhX9EZi3BDAmItth9gLs7IkCL/view",
+                  "base_name": "3. שאלות חשיבה אמריקאיות לסיכום פרק הדיפרנציאלי 581",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-11-2026",
+            "due_date": "16-11-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 16.11.2026",
+            "lesson_date_display": "שני, 09.11.2026",
+            "num_hours_display": 2
           }
         }
       ]
@@ -505,6 +569,56 @@
             "due_date_display": "שני, 26.10.2026",
             "lesson_date_display": "שני, 26.10.2026",
             "num_hours_display": 1
+          }
+        },
+        {
+          "name": "8. סדרות הנדסיות - בגרות 2026 - חזרה למבחן נובמבר",
+          "desc": "<p>תרגול נוסף בסדרות לקראת מבחן נובמבר</p>",
+          "id": "3-9",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בכיתה - בגרות 2024 ו2025 קיץ מועד א",
+              "url": "https://drive.google.com/file/d/17kZJWlFYlWQUYXFMAnK8RS2tzAc-SW9M/view",
+              "base_name": "1. בכיתה - בגרות 2024 ו2025 קיץ מועד א",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "folder",
+              "name": "2. פתרונות",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד א  - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1dtqkUY1nPgh9vU71fXRBzvqYekNn7-ZY/view",
+                  "base_name": "2024 - קיץ מועד א  - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2025 - קיץ מועד א  - סדרה הנדסית",
+                  "url": "https://drive.google.com/file/d/1Q50Al9KFNozxSS2eCZ9iWwsI0FnjWBqJ/view",
+                  "base_name": "2025 - קיץ מועד א  - סדרה הנדסית",
+                  "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "file",
+              "name": "3. תרגול נוסף - ריכוז בגרויות 571 כתה יא סדרות",
+              "url": "https://drive.google.com/file/d/1AyYn831ek5uqOA7kz72Wa4foQDhWpvxa/view",
+              "base_name": "3. תרגול נוסף - ריכוז בגרויות 571 כתה יא סדרות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-11-2026",
+            "due_date": "16-11-2026",
+            "num_hours": 2,
+            "due_date_display": "שני, 16.11.2026",
+            "lesson_date_display": "שני, 09.11.2026",
+            "num_hours_display": 2
           }
         }
       ]
@@ -854,8 +968,8 @@
           ],
           "lesson_json": {
             "lesson_date": "11-10-2026",
-            "due_date": "01-11-2026",
-            "due_date_display": "ראשון, 01.11.2026",
+            "due_date": "15-11-2026",
+            "due_date_display": "ראשון, 15.11.2026",
             "lesson_date_display": "ראשון, 11.10.2026"
           }
         }

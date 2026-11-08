@@ -627,6 +627,35 @@
             "lesson_date_display": "שני, 26.10.2026",
             "num_hours_display": 1
           }
+        },
+        {
+          "name": "19. אינטגרלים פשוטים של אי ולן",
+          "desc": "<p>אינטגרלים פשוטים בלי טריקים</p>",
+          "id": "1-19",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1NqM9qWE9pJ6qJ1-gKjXyDDVx3DBSFCsC/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1YI8Hb_YoiqFdHkyCNUUhMHC6PlhB3hJt/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "09-11-2026",
+            "due_date": "15-11-2026",
+            "num_hours": 1,
+            "due_date_display": "ראשון, 15.11.2026",
+            "lesson_date_display": "שני, 09.11.2026",
+            "num_hours_display": 1
+          }
         }
       ]
     },
