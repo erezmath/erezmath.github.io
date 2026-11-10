@@ -177,6 +177,16 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-19
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 20. אינטגרלים שיטת הצבה - א
+ ינטגרלים עם נגזרת פנימית\, ומציאת פונקצי
+ ה קדומה
+DTSTART;VALUE=DATE:20261115
+UID:due-1-20-15-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-20
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-20
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 2. אנליטית / 1. הנקודה - נוסחת מרחק\, 
  נוסחת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת 
  סוכות

@@ -656,6 +656,42 @@
             "lesson_date_display": "שני, 09.11.2026",
             "num_hours_display": 1
           }
+        },
+        {
+          "name": "20. אינטגרלים שיטת הצבה - אינטגרלים עם נגזרת פנימית, ומציאת פונקציה קדומה",
+          "desc": "<p>אינטגרלים הצבה, ומציאת פונקציה קדומה</p>",
+          "id": "1-20",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1cRNevAaILbMmukkECqcHykenVgoq7TAu/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1NcmzpRKaZbGudXZBBkAUxtv2M0hL8X3-/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. פתרונות חלקיים",
+              "url": "https://drive.google.com/file/d/12a4SaGIIyZZCtFhJKdzBuSy7FEnSS1t3/view",
+              "base_name": "3. פתרונות חלקיים",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "11-11-2026",
+            "due_date": "15-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 15.11.2026",
+            "lesson_date_display": "רביעי, 11.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
