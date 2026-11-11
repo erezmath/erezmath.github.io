@@ -1279,6 +1279,35 @@
             }
           ],
           "lesson_json": {}
+        },
+        {
+          "name": "2. מבחן נובמבר",
+          "desc": "<p>מבחן נובמבר - רמת בגרות</p>",
+          "id": "7-3",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. נושאים למבחן נובמבר יא 571",
+              "url": "https://drive.google.com/file/d/1a8FXfB1fj25u4zyajuaxCs7PzvW-pUQz/view",
+              "base_name": "1. נושאים למבחן נובמבר יא 571",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. מבחן נובמבר - לדוגמא",
+              "url": "https://drive.google.com/file/d/1MKWKowAKRBKvSoQlBKj3G6L4V68vFnL1/view",
+              "base_name": "2. מבחן נובמבר - לדוגמא",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "16-11-2026",
+            "due_date": "16-11-2026",
+            "num_hours": 4,
+            "due_date_display": "שני, 16.11.2026",
+            "lesson_date_display": "שני, 16.11.2026",
+            "num_hours_display": 4
+          }
         }
       ]
     },

@@ -187,6 +187,14 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-20
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 21. אינטגרלים - חישוב שטחים
+DTSTART;VALUE=DATE:20261115
+UID:due-1-21-15-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-21
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-21
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 2. אנליטית / 1. הנקודה - נוסחת מרחק\, 
  נוסחת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת 
  סוכות

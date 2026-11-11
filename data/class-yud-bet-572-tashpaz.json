@@ -692,6 +692,35 @@
             "lesson_date_display": "רביעי, 11.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "21. אינטגרלים - חישוב שטחים",
+          "desc": "<p>אינטגרלים חישוב שטחים, וקצת טריקים שהיו שנה שעברה</p>",
+          "id": "1-21",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב - מארכימדס",
+              "url": "https://drive.google.com/file/d/1AFVmJjYeV_VCxkozoDDSrSTQ-iNv-RPh/view",
+              "base_name": "1. ש.ב - מארכימדס",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1rwwjCKChIhisCLusjqwihrV4XlztvCTx/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "11-11-2026",
+            "due_date": "15-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 15.11.2026",
+            "lesson_date_display": "רביעי, 11.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },

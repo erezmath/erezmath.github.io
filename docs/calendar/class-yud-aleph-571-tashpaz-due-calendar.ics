@@ -209,4 +209,12 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#7-1
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#7-1
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ש.ב 11. עבודות ומבחנים / 2. מבחן נובמבר
+DTSTART;VALUE=DATE:20261116
+UID:due-7-3-16-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#7-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#7-3
+END:VEVENT
 END:VCALENDAR
