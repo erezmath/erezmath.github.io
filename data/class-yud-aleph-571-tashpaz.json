@@ -1061,6 +1061,34 @@
               "file_extension": ".pdf"
             },
             {
+              "type": "file",
+              "name": "7. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים",
+              "url": "https://drive.google.com/file/d/1vqskIeZ9Oed4za0hX2A8sgSvIkZxp8az/view",
+              "base_name": "7. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "8. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים - תרגום",
+              "url": "https://drive.google.com/file/d/1HLB3T1_ounlgjp4xhAJTD3g3KPGw1TFW/view",
+              "base_name": "8. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים - תרגום",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "9. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים - מחוון",
+              "url": "https://drive.google.com/file/d/1BpGTzYVrtVMFIMLvpHNTr7yGBMpwnKDN/view",
+              "base_name": "9. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים - מחוון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "10. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים - פתרון",
+              "url": "https://drive.google.com/file/d/1PjXCImzhxGPwLz2NIQV4RbFk2X53BkKe/view",
+              "base_name": "10. מבחן ספטמבר יא 571 - תשפז - מועד נבצרים - פתרון",
+              "file_extension": ".pdf"
+            },
+            {
               "type": "folder",
               "name": "חדוא - חומר להתכונן למבחן - חקירת מנה בלי שורש, הבע באמצעות",
               "content": [

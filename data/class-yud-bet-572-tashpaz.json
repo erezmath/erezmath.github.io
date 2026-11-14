@@ -721,6 +721,55 @@
             "lesson_date_display": "רביעי, 11.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "22. טרנספורמציה לן, ובגרות 2026 קיץ מועד ב",
+          "desc": "<p>בגרויות קיץ מועד ב, וטרנספורמצית לן</p>\n<p>התלמידים יתחילו לבד את בגרות הלן, ובסעיף החשיבה להסביר איך עובדת הטרנספורמציה.</p>\n<p>השאלה של החקירה המעריכית פשוטה עם אינטגרל עם נגזרת פנימית פשוט.</p>",
+          "id": "1-22",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1Ri551irjLefpyRwt-QgCep-OtvT_pIOH/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2026 - קיץ מועד ב - חקירה לן - סעיף חשיבה טרנספורמציית לן",
+              "url": "https://drive.google.com/file/d/1miaPtmpWK1HycPoGgVl_QWj_CNMZCYzD/view",
+              "base_name": "2026 - קיץ מועד ב - חקירה לן - סעיף חשיבה טרנספורמציית לן",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2026 - קיץ מועד ב - חקירה מעריכית - שאלה קלה, אינטגרל שטח נגזרת פנימית",
+              "url": "https://drive.google.com/file/d/1VOvzsdh-ls-sTpfs7r1T2JkKmVOD62sz/view",
+              "base_name": "2026 - קיץ מועד ב - חקירה מעריכית - שאלה קלה, אינטגרל שטח נגזרת פנימית",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2026 - קיץ מועד ב - שאלון",
+              "url": "https://drive.google.com/file/d/1ZAASm_OzMe0njiPNZ0rWmDFEst0CfZxk/view",
+              "base_name": "2026 - קיץ מועד ב - שאלון",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "15-11-2026",
+            "due_date": "15-11-2026",
+            "num_hours": 2,
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/watch?v=IOjb5_RgV78",
+                "title": "סרטון הסבר על טרנספורמציית לן 572"
+              }
+            ],
+            "due_date_display": "ראשון, 15.11.2026",
+            "lesson_date_display": "ראשון, 15.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
@@ -2013,9 +2062,9 @@
                 },
                 {
                   "type": "file",
-                  "name": "2026 - חורף - חקירה לן - סעיף חשיבה טרנספורמציה יפה",
+                  "name": "2026 - חורף - חקירה לן - סעיף חשיבה טרנספורמציה ערך מוחלט לן",
                   "url": "https://drive.google.com/file/d/1mlPdxsDbbGnWQq4xCdeF1mR7ZwV79wIj/view",
-                  "base_name": "2026 - חורף - חקירה לן - סעיף חשיבה טרנספורמציה יפה",
+                  "base_name": "2026 - חורף - חקירה לן - סעיף חשיבה טרנספורמציה ערך מוחלט לן",
                   "file_extension": ".pdf"
                 },
                 {
@@ -2023,6 +2072,13 @@
                   "name": "2026 - קיץ מועד א - חקירה לן",
                   "url": "https://drive.google.com/file/d/13pS-0pEJX9NQC-GMRdAMCqm3NVKszTlU/view",
                   "base_name": "2026 - קיץ מועד א - חקירה לן",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד ב - חקירה לן - סעיף חשיבה טרנספורמציית לן",
+                  "url": "https://drive.google.com/file/d/1eU6PbAc9EXkDXv1dnGatyFCH3uQJ95DJ/view",
+                  "base_name": "2026 - קיץ מועד ב - חקירה לן - סעיף חשיבה טרנספורמציית לן",
                   "file_extension": ".pdf"
                 }
               ],
@@ -2072,6 +2128,13 @@
                   "name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
                   "url": "https://drive.google.com/file/d/1M7OaVUHZMAeR_-N2Ed6CU2xEUHuauqHC/view",
                   "base_name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2026 - קיץ מועד ב - חקירה מעריכית - שאלה קלה, אינטגרל שטח נגזרת פנימית",
+                  "url": "https://drive.google.com/file/d/1uYXtpGA9FPzVPYBhq-pfp4g81ZyEPy7q/view",
+                  "base_name": "2026 - קיץ מועד ב - חקירה מעריכית - שאלה קלה, אינטגרל שטח נגזרת פנימית",
                   "file_extension": ".pdf"
                 }
               ],
