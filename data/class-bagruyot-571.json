@@ -1637,6 +1637,13 @@
                 },
                 {
                   "type": "file",
+                  "name": "2025 - קיץ מועד א - גאומטריה - קל - דמיון ושטחים סטנדרטי",
+                  "url": "https://drive.google.com/file/d/13OP3UDee3z2ipt6PstzYUOhGCQXR1Gw-/view",
+                  "base_name": "2025 - קיץ מועד א - גאומטריה - קל - דמיון ושטחים סטנדרטי",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
                   "name": "2025 - קיץ מועד ב - גאומטריה - קל - סעיף אחרון שטחים מאתגר יותר",
                   "url": "https://drive.google.com/file/d/1pWgrgHJll3NZZVstWgMv6qVNcATaSvwZ/view",
                   "base_name": "2025 - קיץ מועד ב - גאומטריה - קל - סעיף אחרון שטחים מאתגר יותר",
@@ -1801,6 +1808,13 @@
                   "name": "2024 - קיץ מועד א - טריגו - קל, מעניין כתרגיל בכיתה בסוף י - מעגל רק סעיף אחרון עם יחס רדיוסים מעגלים חוסמים",
                   "url": "https://drive.google.com/file/d/1aIWtXTeuZvrlCGxJuoPBaKwVm_GD_jk-/view",
                   "base_name": "2024 - קיץ מועד א - טריגו - קל, מעניין כתרגיל בכיתה בסוף י - מעגל רק סעיף אחרון עם יחס רדיוסים מעגלים חוסמים",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד ב - טריגו - קל, מעגל חסום",
+                  "url": "https://drive.google.com/file/d/1g0CbpqurYcynJyn1MVLYULJZlggfA2PU/view",
+                  "base_name": "2024 - קיץ מועד ב - טריגו - קל, מעגל חסום",
                   "file_extension": ".pdf"
                 },
                 {
@@ -2046,6 +2060,13 @@
                   "name": "2016 - בעית קיצון גרפית, מנה",
                   "url": "https://drive.google.com/file/d/1bVuL557kzKjp_gwSHso7NS8t2J0Il65b/view",
                   "base_name": "2016 - בעית קיצון גרפית, מנה",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד ב - בעית קיצון גרפית משולבת אינטגרלים",
+                  "url": "https://drive.google.com/file/d/1XwTvUNKcfTTAXYaKro8Werv384V1KqKj/view",
+                  "base_name": "2018 - קיץ מועד ב - בעית קיצון גרפית משולבת אינטגרלים",
                   "file_extension": ".pdf"
                 },
                 {

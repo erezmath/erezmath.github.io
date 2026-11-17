@@ -968,8 +968,8 @@
           ],
           "lesson_json": {
             "lesson_date": "11-10-2026",
-            "due_date": "15-11-2026",
-            "due_date_display": "ראשון, 15.11.2026",
+            "due_date": "22-11-2026",
+            "due_date_display": "ראשון, 22.11.2026",
             "lesson_date_display": "ראשון, 11.10.2026"
           }
         }
@@ -1310,7 +1310,7 @@
         },
         {
           "name": "2. מבחן נובמבר",
-          "desc": "<p>מבחן נובמבר - רמת בגרות</p>",
+          "desc": "<p>מבחן נובמבר - אינדוקציה, שאלות קצרות, סדרות, גאומטריה וטריגו, חקירה וקיצון. \nכמעט רמת בגרות</p>",
           "id": "7-3",
           "content": [
             {
@@ -1322,9 +1322,37 @@
             },
             {
               "type": "file",
+              "name": "2. מבחן יא 571 תשפז - נובמבר",
+              "url": "https://drive.google.com/file/d/1U_GNg9k2E5qbXUKsv6LfTlS-U-hm5P_z/view",
+              "base_name": "2. מבחן יא 571 תשפז - נובמבר",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
               "name": "2. מבחן נובמבר - לדוגמא",
               "url": "https://drive.google.com/file/d/1MKWKowAKRBKvSoQlBKj3G6L4V68vFnL1/view",
               "base_name": "2. מבחן נובמבר - לדוגמא",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. מבחן יא 571 תשפז - נובמבר - תרגום לאנגלית",
+              "url": "https://drive.google.com/file/d/14LNEHOXnLN5v9EfT90kjUzhtaBzLOTRk/view",
+              "base_name": "3. מבחן יא 571 תשפז - נובמבר - תרגום לאנגלית",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן יא 571 תשפז - נובמבר - תרגום לרוסית",
+              "url": "https://drive.google.com/file/d/1EaxHKtbyqkJX-glafbm4NQu65_Vffsmj/view",
+              "base_name": "4. מבחן יא 571 תשפז - נובמבר - תרגום לרוסית",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "5. פתרון מבחן יא 571 תשפז נובמבר",
+              "url": "https://drive.google.com/file/d/1CEeq2LMVsnqBWPxPm2ArCJdzK6yU1L5Z/view",
+              "base_name": "5. פתרון מבחן יא 571 תשפז נובמבר",
               "file_extension": ".pdf"
             }
           ],
@@ -2965,6 +2993,13 @@
                 },
                 {
                   "type": "file",
+                  "name": "2025 - קיץ מועד א - גאומטריה - קל - דמיון ושטחים סטנדרטי",
+                  "url": "https://drive.google.com/file/d/13OP3UDee3z2ipt6PstzYUOhGCQXR1Gw-/view",
+                  "base_name": "2025 - קיץ מועד א - גאומטריה - קל - דמיון ושטחים סטנדרטי",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
                   "name": "2025 - קיץ מועד ב - גאומטריה - קל - סעיף אחרון שטחים מאתגר יותר",
                   "url": "https://drive.google.com/file/d/1pWgrgHJll3NZZVstWgMv6qVNcATaSvwZ/view",
                   "base_name": "2025 - קיץ מועד ב - גאומטריה - קל - סעיף אחרון שטחים מאתגר יותר",
@@ -3129,6 +3164,13 @@
                   "name": "2024 - קיץ מועד א - טריגו - קל, מעניין כתרגיל בכיתה בסוף י - מעגל רק סעיף אחרון עם יחס רדיוסים מעגלים חוסמים",
                   "url": "https://drive.google.com/file/d/1aIWtXTeuZvrlCGxJuoPBaKwVm_GD_jk-/view",
                   "base_name": "2024 - קיץ מועד א - טריגו - קל, מעניין כתרגיל בכיתה בסוף י - מעגל רק סעיף אחרון עם יחס רדיוסים מעגלים חוסמים",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2024 - קיץ מועד ב - טריגו - קל, מעגל חסום",
+                  "url": "https://drive.google.com/file/d/1g0CbpqurYcynJyn1MVLYULJZlggfA2PU/view",
+                  "base_name": "2024 - קיץ מועד ב - טריגו - קל, מעגל חסום",
                   "file_extension": ".pdf"
                 },
                 {
@@ -3374,6 +3416,13 @@
                   "name": "2016 - בעית קיצון גרפית, מנה",
                   "url": "https://drive.google.com/file/d/1bVuL557kzKjp_gwSHso7NS8t2J0Il65b/view",
                   "base_name": "2016 - בעית קיצון גרפית, מנה",
+                  "file_extension": ".pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "2018 - קיץ מועד ב - בעית קיצון גרפית משולבת אינטגרלים",
+                  "url": "https://drive.google.com/file/d/1XwTvUNKcfTTAXYaKro8Werv384V1KqKj/view",
+                  "base_name": "2018 - קיץ מועד ב - בעית קיצון גרפית משולבת אינטגרלים",
                   "file_extension": ".pdf"
                 },
                 {

@@ -199,6 +199,15 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-22
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:1. חדוא / 23. לן ואי - בגרויות פשוטות  -עב
+ ודה עצמית
+DTSTART;VALUE=DATE:20261118
+UID:lesson-1-23-18-11-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-23
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-23
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2. אנליטית / 1. הנקודה - נוסחת מרחק\, נוס
  חת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת סוכ
  ות

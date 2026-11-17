@@ -195,8 +195,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 10. עבודות הגשה שבועיות / 1. הגשות ש
  בועיות
-DTSTART;VALUE=DATE:20261115
-UID:due-6-1-15-11-2026@erezmath
+DTSTART;VALUE=DATE:20261122
+UID:due-6-1-22-11-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#6-1
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-1

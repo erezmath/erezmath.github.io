@@ -770,6 +770,42 @@
             "lesson_date_display": "ראשון, 15.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "23. לן ואי - בגרויות פשוטות  -עבודה עצמית",
+          "desc": "<p>בגרויות פשוטות יחסית, בלי טריקים מיוחדים</p>",
+          "id": "1-23",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. משימה במקום שיעור ברביעי שיתבטל",
+              "url": "https://drive.google.com/file/d/1AwQoe26eZd048u-BLkV440VPIGUEe0gH/view",
+              "base_name": "1. משימה במקום שיעור ברביעי שיתבטל",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
+              "url": "https://drive.google.com/file/d/1I8Cwgz5bqQvPzng5a6YlW-MP9jJlCsYH/view",
+              "base_name": "2025 - קיץ מועד ב - חקירה מעריכית - שאלה קלה",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2026 - קיץ מועד א - חקירה לן",
+              "url": "https://drive.google.com/file/d/1AJ7xy36EEhP_rk11bQWmmUpxwtUqx2-y/view",
+              "base_name": "2026 - קיץ מועד א - חקירה לן",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "18-11-2026",
+            "due_date": "22-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 22.11.2026",
+            "lesson_date_display": "רביעי, 18.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
