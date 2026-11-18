@@ -1146,6 +1146,53 @@
             "lesson_date_display": "ראשון, 01.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "10. פרבולה - הגדרה והתחלה",
+          "desc": "<p>פרבולה - הגדרות בסיסיות, ותרגילים בסיסיים.</p>",
+          "id": "2-11",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרונות",
+              "url": "https://drive.google.com/file/d/1qZVVsuy4aPuQxH4mMGM88iuULWylxmKV/view",
+              "base_name": "1. סיכום שיעור ופתרונות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/183zVDVgRV-4yQ3iqNhwMo5VkJQaaRtQv/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "19-11-2026",
+            "due_date": "19-11-2026",
+            "num_hours": 2,
+            "external_links": [
+              {
+                "url": "https://www.youtube.com/shorts/t4wnWkAXroA",
+                "title": "המחשה איך נראית פרבולה, ואיך וכל הישרים יתלכדו במוקד"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Tq9WpY_nqkk&list=PLTeL1-R8zlRQIjQUcm1XHSGJv0xviF7q6&index=17",
+                "title": "סרטוני פרבולה - ארז כהן"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=rJZvR6cJwIM&list=PLejElsCmvhTC7xgDhN8GQl3hgFjBvcTrB&index=1",
+                "title": "סרטוני פרבולה - עובד לב ארי"
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=sD5POdB3I_8&list=PLCvkcH5OUmCklZsnneN6iJx9jhoeFD1VM&index=47",
+                "title": "סרטוני פרבולה - אביב צנזור"
+              }
+            ],
+            "due_date_display": "חמישי, 19.11.2026",
+            "lesson_date_display": "חמישי, 19.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
@@ -1326,6 +1373,41 @@
               "name": "3. מבחן אוקטובר יב 572 - תשפז - מבחן לדוגמא - פתרון",
               "url": "https://drive.google.com/file/d/1gdtPyvN_hLyG2FrSPw8vrOPt6NM7QzcO/view",
               "base_name": "3. מבחן אוקטובר יב 572 - תשפז - מבחן לדוגמא - פתרון",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן אוקטובר יב 572 - תשפז.docx",
+              "url": "https://drive.google.com/file/d/1F1YG3W7tv6T_xm1-_TvelpT6DTyAl1wu/view",
+              "base_name": "4. מבחן אוקטובר יב 572 - תשפז",
+              "file_extension": ".docx"
+            },
+            {
+              "type": "file",
+              "name": "4. מבחן אוקטובר יב 572 ומחוון - תשפז",
+              "url": "https://drive.google.com/file/d/1HqX2aV3F36i_ZCLLRfNCKNA7sY8G07tM/view",
+              "base_name": "4. מבחן אוקטובר יב 572 ומחוון - תשפז",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "5. מבחן אוקטובר יב 572 פתרון - תשפז",
+              "url": "https://drive.google.com/file/d/1At8_hnXPWrmiuo2FW5qOwR5RCIo5lIHo/view",
+              "base_name": "5. מבחן אוקטובר יב 572 פתרון - תשפז",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "6. מבחן אוקטובר יב 572 מועד נבצרים - תשפז",
+              "url": "https://drive.google.com/file/d/16MUN1wahVgJPF5aHySYeeYHsnQ5e3ka5/view",
+              "base_name": "6. מבחן אוקטובר יב 572 מועד נבצרים - תשפז",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "7. מבחן אוקטובר יב 572 מועד נבצרים פתרון - תשפז",
+              "url": "https://drive.google.com/file/d/1tvHcj1bV9Xw_APnw__XnPvXRi5emVpij/view",
+              "base_name": "7. מבחן אוקטובר יב 572 מועד נבצרים פתרון - תשפז",
               "file_extension": ".pdf"
             }
           ],
@@ -2033,6 +2115,13 @@
               "type": "folder",
               "name": "אנליטית",
               "content": [
+                {
+                  "type": "file",
+                  "name": "2010 - חורף - אנליטית מעגל ומרחק בין ישרים - מתאים לתחילת הנושא",
+                  "url": "https://drive.google.com/file/d/1QSmOyW-rNUjGgWuvpZocm9DMgfUaE9kB/view",
+                  "base_name": "2010 - חורף - אנליטית מעגל ומרחק בין ישרים - מתאים לתחילת הנושא",
+                  "file_extension": ".pdf"
+                },
                 {
                   "type": "file",
                   "name": "2016 - קיץ מועד א - אנליטית מעגל טרפז מרחק בין ישרים תאלס",

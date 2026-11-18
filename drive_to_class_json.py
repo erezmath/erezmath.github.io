@@ -321,6 +321,7 @@ def read_lesson_json(service, folder_id, folder_items):
         
         return parsed_json
     except Exception as e:
+        print(f"Error reading lesson.json from folder {folder_id}: {str(e)}")
         log_event(f"Error reading lesson.json from folder {folder_id}: {str(e)}")
         return {}
 
