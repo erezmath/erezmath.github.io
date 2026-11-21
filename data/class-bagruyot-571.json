@@ -5003,6 +5003,13 @@
                 }
               ],
               "file_extension": ""
+            },
+            {
+              "type": "file",
+              "name": "חקירת שורש מנה.docx",
+              "url": "https://drive.google.com/file/d/16ibvLiRqxeKxZfFDFh5OAwrG6PH_Tley/view",
+              "base_name": "חקירת שורש מנה",
+              "file_extension": ".docx"
             }
           ],
           "lesson_json": {}
@@ -5079,6 +5086,20 @@
                   "url": "https://drive.google.com/file/d/1pDHccenQnWife0SxpPQGzpDU9Uipdxrz/view",
                   "base_name": "2.  בעיות קיצון גרפיות - מריאן וארכימדס",
                   "file_extension": ".pdf"
+                }
+              ],
+              "file_extension": ""
+            },
+            {
+              "type": "folder",
+              "name": "כולל טריגו",
+              "content": [
+                {
+                  "type": "file",
+                  "name": "בעיות קיצון כוללות טריגו.docx",
+                  "url": "https://drive.google.com/file/d/1TbxL56baxmqhiZWCeKXx79fgKJQizKu7/view",
+                  "base_name": "בעיות קיצון כוללות טריגו",
+                  "file_extension": ".docx"
                 }
               ],
               "file_extension": ""

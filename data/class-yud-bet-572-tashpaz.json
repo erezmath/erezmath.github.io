@@ -1193,6 +1193,35 @@
             "lesson_date_display": "חמישי, 19.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "11. פרבולה - משיק לפרבולה",
+          "desc": "<p>פרבולה ומשיק לפרבולה</p>",
+          "id": "2-12",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור ופתרונות",
+              "url": "https://drive.google.com/file/d/1T42Z4oZWkAOG2lqRcANss1F2vlT-ra-4/view",
+              "base_name": "1. סיכום שיעור ופתרונות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב",
+              "url": "https://drive.google.com/file/d/1AETvN_YtBL7stoTsPTYxmx-UEuGCsr3I/view",
+              "base_name": "2. ש.ב",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "22-11-2026",
+            "due_date": "25-11-2026",
+            "num_hours": 2,
+            "due_date_display": "רביעי, 25.11.2026",
+            "lesson_date_display": "ראשון, 22.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },

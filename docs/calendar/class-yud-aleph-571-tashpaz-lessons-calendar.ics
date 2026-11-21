@@ -192,28 +192,68 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#5-6
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:10. עבודות הגשה שבועיות / 1. הגשות שבוע
- יות
-DTSTART;VALUE=DATE:20261011
-UID:lesson-6-1-11-10-2026@erezmath
+SUMMARY:7. חדוא טריגונומטרי / 1. משנה שעברה - המ
+ עגל הטריגונומטרי\, ומשוואות טריגונומטרי
+ ות
+DTSTART;VALUE=DATE:20260224
+UID:lesson-6-1-24-02-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#6-1
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:11. עבודות ומבחנים / 0. עבודת הקיץ
-DTSTART;VALUE=DATE:20260620
-UID:lesson-7-1-20-06-2026@erezmath
+SUMMARY:7. חדוא טריגונומטרי / 2. משנה שעברה - מש
+ וואות טריגונומטריות עם טנגנס\, גורמים מש
+ ותפים\, משוואה ריבועית\, עם זווית - לא כולל
+  שימוש בזהויות
+DTSTART;VALUE=DATE:20260310
+UID:lesson-6-2-10-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#6-2
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 3. משנה שעברה - מש
+ וואות עם זהויות - זוויות כפולות\, זהות פית
+ גורס\, וחלוקה ליצירת טנגנס
+DTSTART;VALUE=DATE:20260318
+UID:lesson-6-3-18-03-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#6-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 4. משוואות טריגו
+ נומטריות עם פאי
+DTSTART;VALUE=DATE:20261122
+UID:lesson-6-4-22-11-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#6-4
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10. עבודות הגשה שבועיות / 1. הגשות שבוע
+ יות
+DTSTART;VALUE=DATE:20261011
+UID:lesson-7-1-11-10-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#7-1
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#7-1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:11. עבודות ומבחנים / 0. עבודת הקיץ
+DTSTART;VALUE=DATE:20260620
+UID:lesson-8-1-20-06-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#8-1
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#8-1
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:11. עבודות ומבחנים / 2. מבחן נובמבר
 DTSTART;VALUE=DATE:20261116
-UID:lesson-7-3-16-11-2026@erezmath
+UID:lesson-8-3-16-11-2026@erezmath
 DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
- class-yud-aleph-571-tashpaz.html#7-3
-URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#7-3
+ class-yud-aleph-571-tashpaz.html#8-3
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#8-3
 END:VEVENT
 END:VCALENDAR
