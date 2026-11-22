@@ -232,6 +232,24 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-4
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 5. חקירת פונקציו
+ ת טריגונומטריות - שרטוט בסיסי ונגזרות
+DTSTART;VALUE=DATE:20261123
+UID:lesson-6-5-23-11-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#6-5
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:7. חדוא טריגונומטרי / 6. חקירת פונקציו
+ ת טריגונומטריות - קדם אנליזה
+DTSTART;VALUE=DATE:20261123
+UID:lesson-6-6-23-11-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-aleph-571-tashpaz.html#6-6
+URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-6
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:10. עבודות הגשה שבועיות / 1. הגשות שבוע
  יות
 DTSTART;VALUE=DATE:20261011

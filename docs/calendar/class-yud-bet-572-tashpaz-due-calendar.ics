@@ -213,6 +213,15 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-23
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 1. חדוא / 24. חקירת לן מאתגרת - חורף 20
+ 24
+DTSTART;VALUE=DATE:20261129
+UID:due-1-24-29-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#1-24
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-24
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 2. אנליטית / 1. הנקודה - נוסחת מרחק\, 
  נוסחת אמצע קטע\, שימוש בפרמטר - ש.ב לחופשת 
  סוכות

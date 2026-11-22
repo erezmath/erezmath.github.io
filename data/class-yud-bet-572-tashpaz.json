@@ -806,6 +806,35 @@
             "lesson_date_display": "רביעי, 18.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "24. חקירת לן מאתגרת - חורף 2024",
+          "desc": "<p>בגרות מאתגרת - 2024 חורף חקירת לן.</p>\n<p>דוגמא למה לא בהכרח יהיו 2 שאלות חדוא בטוחות.</p>",
+          "id": "1-24",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. בגרות חורף 2024 חקירת לן",
+              "url": "https://drive.google.com/file/d/1mo6hxPvqRsr_exPeBhQCfXxnDFJSkOnY/view",
+              "base_name": "1. בגרות חורף 2024 חקירת לן",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. בגרות חורף 2024 חקירת לן - פתרון",
+              "url": "https://drive.google.com/file/d/1TZPwUFv5szGU-VBCcuAf0VKsicKUu1YP/view",
+              "base_name": "2. בגרות חורף 2024 חקירת לן - פתרון",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "23-11-2026",
+            "due_date": "29-11-2026",
+            "num_hours": 1,
+            "due_date_display": "ראשון, 29.11.2026",
+            "lesson_date_display": "שני, 23.11.2026",
+            "num_hours_display": 1
+          }
         }
       ]
     },
@@ -2193,6 +2222,13 @@
               "type": "folder",
               "name": "חקירה לוג",
               "content": [
+                {
+                  "type": "file",
+                  "name": "2024 - חורף - חקירה לן - שאלה מאוד מאתגרת בגלל התחלה לא שגרתית",
+                  "url": "https://drive.google.com/file/d/1YMjGXxDv9DNT06fyPxK3YIs0nvbORe0v/view",
+                  "base_name": "2024 - חורף - חקירה לן - שאלה מאוד מאתגרת בגלל התחלה לא שגרתית",
+                  "file_extension": ".pdf"
+                },
                 {
                   "type": "file",
                   "name": "2024- חקירת לן - אינטגרל יפה - קיץ מועד א",

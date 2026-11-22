@@ -1070,6 +1070,64 @@
             "lesson_date_display": "ראשון, 22.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "5. חקירת פונקציות טריגונומטריות - שרטוט בסיסי ונגזרות",
+          "desc": "<p>שרטוט בסיסי, נגזרות, ושימוש גם בזהויות</p>",
+          "id": "6-5",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. סיכום שיעור",
+              "url": "https://drive.google.com/file/d/1UpZC1fSNqZxUu1cgP45vIPvH1UraODTz/view",
+              "base_name": "1. סיכום שיעור",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. ש.ב נגזרות",
+              "url": "https://drive.google.com/file/d/15v2OiyWkTzAMNF50Tvh582-UAdYaEIGd/view",
+              "base_name": "2. ש.ב נגזרות",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "3. סרטון המחשה סינוס",
+              "url": "https://drive.google.com/file/d/1_Xcsmkocv33K7mUagWJ3MEPAdk4gfyD3/view",
+              "base_name": "3. סרטון המחשה סינוס",
+              "file_extension": ".gif"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "23-11-2026",
+            "due_date": "29-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 29.11.2026",
+            "lesson_date_display": "שני, 23.11.2026",
+            "num_hours_display": 2
+          }
+        },
+        {
+          "name": "6. חקירת פונקציות טריגונומטריות - קדם אנליזה",
+          "desc": "<p>שרטוט בסיסי, נגזרות, ושימוש גם בזהויות</p>",
+          "id": "6-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב קדם אנליזה",
+              "url": "https://drive.google.com/file/d/1rMUQakIeEnAG6bw8yIxKSyTsa4ghNxCU/view",
+              "base_name": "1. ש.ב קדם אנליזה",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "23-11-2026",
+            "due_date": "29-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 29.11.2026",
+            "lesson_date_display": "שני, 23.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
