@@ -215,8 +215,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 1. חדוא / 24. חקירת לן מאתגרת - חורף 20
  24
-DTSTART;VALUE=DATE:20261129
-UID:due-1-24-29-11-2026@erezmath
+DTSTART;VALUE=DATE:20261123
+UID:due-1-24-23-11-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#1-24
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#1-24
@@ -316,8 +316,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 2. אנליטית / 11. פרבולה - משיק לפרבול
  ה
-DTSTART;VALUE=DATE:20261125
-UID:due-2-12-25-11-2026@erezmath
+DTSTART;VALUE=DATE:20261126
+UID:due-2-12-26-11-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-bet-572-tashpaz.html#2-12
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-12

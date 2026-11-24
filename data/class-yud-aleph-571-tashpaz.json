@@ -1064,9 +1064,9 @@
           ],
           "lesson_json": {
             "lesson_date": "22-11-2026",
-            "due_date": "23-11-2026",
+            "due_date": "29-11-2026",
             "num_hours": 2,
-            "due_date_display": "שני, 23.11.2026",
+            "due_date_display": "ראשון, 29.11.2026",
             "lesson_date_display": "ראשון, 22.11.2026",
             "num_hours_display": 2
           }
@@ -1108,9 +1108,38 @@
           }
         },
         {
-          "name": "6. חקירת פונקציות טריגונומטריות - קדם אנליזה",
-          "desc": "<p>שרטוט בסיסי, נגזרות, ושימוש גם בזהויות</p>",
+          "name": "6. חקירת פונקציה טריגונומטרית - חקירה פשוטה",
+          "desc": "<p>חקירות מלאות פשוטות - לשים לב לקיצון קצה</p>",
           "id": "6-6",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב",
+              "url": "https://drive.google.com/file/d/1oln6zsI-iIaGTB9e79bPEmo6BF1ZISXe/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "פתרונות 7,8,21,22",
+              "url": "https://drive.google.com/file/d/1k9A1xFAHPZRfgV9EhMZytxy-hNQc19z0/view",
+              "base_name": "פתרונות 7,8,21,22",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "25-11-2026",
+            "due_date": "29-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 29.11.2026",
+            "lesson_date_display": "רביעי, 25.11.2026",
+            "num_hours_display": 2
+          }
+        },
+        {
+          "name": "7. חקירת פונקציות טריגונומטריות - קדם אנליזה וטרנספורמציות",
+          "desc": "<p>שרטוט בסיסי, נגזרות, ושימוש גם בזהויות</p>",
+          "id": "6-7",
           "content": [
             {
               "type": "file",
@@ -1120,14 +1149,7 @@
               "file_extension": ".pdf"
             }
           ],
-          "lesson_json": {
-            "lesson_date": "23-11-2026",
-            "due_date": "29-11-2026",
-            "num_hours": 2,
-            "due_date_display": "ראשון, 29.11.2026",
-            "lesson_date_display": "שני, 23.11.2026",
-            "num_hours_display": 2
-          }
+          "lesson_json": {}
         }
       ]
     },

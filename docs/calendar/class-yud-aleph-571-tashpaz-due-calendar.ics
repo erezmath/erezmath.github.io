@@ -226,8 +226,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 7. חדוא טריגונומטרי / 4. משוואות טר
  יגונומטריות עם פאי
-DTSTART;VALUE=DATE:20261123
-UID:due-6-4-23-11-2026@erezmath
+DTSTART;VALUE=DATE:20261129
+UID:due-6-4-29-11-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
  class-yud-aleph-571-tashpaz.html#6-4
 URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-4
@@ -243,7 +243,7 @@ URL:https://erezmath.github.io/class-yud-aleph-571-tashpaz.html#6-5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ש.ב 7. חדוא טריגונומטרי / 6. חקירת פונק
- ציות טריגונומטריות - קדם אנליזה
+ ציה טריגונומטרית - חקירה פשוטה
 DTSTART;VALUE=DATE:20261129
 UID:due-6-6-29-11-2026@erezmath
 DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
