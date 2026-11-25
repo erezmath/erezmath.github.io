@@ -314,6 +314,14 @@ DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-12
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2. אנליטית / 12. פרבולה - שילוב עם מעגל
+DTSTART;VALUE=DATE:20261126
+UID:lesson-2-13-26-11-2026@erezmath
+DESCRIPTION:קישור לשיעור באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-13
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-13
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:10. מבחנים ועבודות / 2. מבחן אוקטובר - א
  נליטית מעגל וחקירת לן
 DTSTART;VALUE=DATE:20261022

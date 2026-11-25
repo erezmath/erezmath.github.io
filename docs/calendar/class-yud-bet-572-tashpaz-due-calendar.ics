@@ -323,6 +323,15 @@ DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
 URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-12
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ש.ב 2. אנליטית / 12. פרבולה - שילוב עם מע
+ גל
+DTSTART;VALUE=DATE:20261129
+UID:due-2-13-29-11-2026@erezmath
+DESCRIPTION:קישור למשימה באתר:\nhttps://erezmath.github.io/
+ class-yud-bet-572-tashpaz.html#2-13
+URL:https://erezmath.github.io/class-yud-bet-572-tashpaz.html#2-13
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ש.ב 10. מבחנים ועבודות / 2. מבחן אוקטובר
   - אנליטית מעגל וחקירת לן
 DTSTART;VALUE=DATE:20261028

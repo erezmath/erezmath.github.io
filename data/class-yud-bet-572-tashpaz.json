@@ -1251,6 +1251,35 @@
             "lesson_date_display": "ראשון, 22.11.2026",
             "num_hours_display": 2
           }
+        },
+        {
+          "name": "12. פרבולה - שילוב עם מעגל",
+          "desc": "<p>שילוב פרבולה ומעגל, ומקרים בהם שניהם משיקים זה לזה.</p>",
+          "id": "2-13",
+          "content": [
+            {
+              "type": "file",
+              "name": "1. ש.ב",
+              "url": "https://drive.google.com/file/d/130ONSqTMU72nn29YuqViV9jPI27tIZSk/view",
+              "base_name": "1. ש.ב",
+              "file_extension": ".pdf"
+            },
+            {
+              "type": "file",
+              "name": "2. פתרונות",
+              "url": "https://drive.google.com/file/d/1_dPpiLh8wE_5Jm8Qi2EnawCfTdpQps3l/view",
+              "base_name": "2. פתרונות",
+              "file_extension": ".pdf"
+            }
+          ],
+          "lesson_json": {
+            "lesson_date": "26-11-2026",
+            "due_date": "29-11-2026",
+            "num_hours": 2,
+            "due_date_display": "ראשון, 29.11.2026",
+            "lesson_date_display": "חמישי, 26.11.2026",
+            "num_hours_display": 2
+          }
         }
       ]
     },
